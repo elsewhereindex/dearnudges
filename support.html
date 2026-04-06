@@ -204,13 +204,61 @@
         footer {
             font-size: 0.75rem;
             color: #7A767B;
-            padding-bottom: 40px;
+            padding-bottom: 80px;
             line-height: 1.7;
             text-align: center;
         }
 
         footer a { color: #7A767B; text-decoration: none; }
         footer a:hover { text-decoration: underline; }
+
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(250, 250, 253, 0.92);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-top: 1px solid #E0E0E0;
+            display: flex;
+            justify-content: center;
+            gap: 0;
+            padding: 0;
+            z-index: 20;
+        }
+
+        .bottom-nav a {
+            flex: 1;
+            max-width: 140px;
+            text-align: center;
+            padding: 10px 0 calc(10px + env(safe-area-inset-bottom, 0px));
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.72rem;
+            font-weight: 600;
+            color: #7A767B;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 3px;
+            transition: color 0.15s ease;
+        }
+
+        .bottom-nav a:hover,
+        .bottom-nav a.active {
+            color: #8396D1;
+        }
+
+        .bottom-nav svg {
+            width: 20px;
+            height: 20px;
+            fill: none;
+            stroke: currentColor;
+            stroke-width: 1.8;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
 
         @media (max-width: 480px) {
             .container { padding: 40px 0 32px; }
@@ -525,9 +573,28 @@
 
     <footer>
         <p>&copy; 2026 Elsewhere Index LLC</p>
-        <p><a href="privacy.html">Privacy Policy</a></p>
     </footer>
 </div>
+
+<!-- Sticky bottom nav -->
+<nav class="bottom-nav">
+    <a href="/">
+        <svg viewBox="0 0 24 24"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z"/><path d="M9 21V12h6v9"/></svg>
+        Home
+    </a>
+    <a href="support.html" class="active">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        Support
+    </a>
+    <a href="privacy.html">
+        <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        Privacy
+    </a>
+    <a href="mailto:earl@dearnudges.com">
+        <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Press
+    </a>
+</nav>
 
 <script>
     document.querySelectorAll('.faq-question').forEach(function(btn) {
