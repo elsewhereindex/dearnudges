@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Dear: Stay in Touch</title>
+    <meta name="description" content="Dear: Stay in Touch support and frequently asked questions.">
+    <link rel="icon" type="image/png" href="app-icon.png">
+    <link rel="apple-touch-icon" href="app-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,400;1,9..144,700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Quicksand', -apple-system, sans-serif;
+            background: #FAFAFD;
+            color: #2D2D2D;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0 24px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 640px;
+            width: 100%;
+            padding: 60px 0 40px;
+        }
+
+        a.back {
+            font-size: 0.85rem;
+            color: #8396D1;
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-block;
+            margin-bottom: 32px;
+        }
+
+        a.back:hover { text-decoration: underline; }
+
+        h1 {
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 700;
+            font-size: 1.6rem;
+            color: #2D2D2D;
+            margin-bottom: 6px;
+        }
+
+        .subtitle {
+            font-size: 0.92rem;
+            color: #7A767B;
+            margin-bottom: 32px;
+            line-height: 1.5;
+        }
+
+        /* Category sections */
+        .category {
+            margin-bottom: 28px;
+        }
+
+        .category-title {
+            font-family: 'Fraunces', Georgia, serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 1.15rem;
+            color: #8396D1;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #EDEEF7;
+        }
+
+        /* Accordion */
+        .faq-item {
+            border-bottom: 1px solid #EDEEF7;
+        }
+
+        .faq-question {
+            width: 100%;
+            background: none;
+            border: none;
+            text-align: left;
+            padding: 14px 0;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.92rem;
+            font-weight: 600;
+            color: #2D2D2D;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            line-height: 1.4;
+        }
+
+        .faq-question:hover {
+            color: #8396D1;
+        }
+
+        .faq-question::after {
+            content: '+';
+            font-size: 1.2rem;
+            font-weight: 400;
+            color: #8396D1;
+            flex-shrink: 0;
+            margin-left: 16px;
+            transition: transform 0.2s ease;
+        }
+
+        .faq-item.open .faq-question::after {
+            content: '\2212';
+        }
+
+        .faq-answer {
+            display: none;
+            padding: 0 0 16px;
+            font-size: 0.88rem;
+            line-height: 1.65;
+            color: #555;
+        }
+
+        .faq-item.open .faq-answer {
+            display: block;
+        }
+
+        .faq-answer p {
+            margin-bottom: 8px;
+        }
+
+        .faq-answer ul {
+            margin: 8px 0 8px 20px;
+        }
+
+        .faq-answer li {
+            margin-bottom: 4px;
+        }
+
+        .faq-answer strong {
+            color: #2D2D2D;
+            font-weight: 600;
+        }
+
+        .faq-answer .voice-sample {
+            background: #EDEEF7;
+            border-radius: 8px;
+            padding: 12px 16px;
+            margin: 8px 0;
+            font-style: italic;
+            color: #555;
+            font-size: 0.85rem;
+            line-height: 1.5;
+        }
+
+        .faq-answer .voice-name {
+            font-weight: 600;
+            color: #8396D1;
+            font-style: normal;
+        }
+
+        /* Contact section */
+        .contact-section {
+            background: #EDEEF7;
+            border-radius: 12px;
+            padding: 28px;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+
+        .contact-section h2 {
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: #2D2D2D;
+            margin-bottom: 8px;
+        }
+
+        .contact-section p {
+            font-size: 0.88rem;
+            color: #555;
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+
+        .contact-section a {
+            display: inline-block;
+            background: #8396D1;
+            color: white;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 600;
+            font-size: 0.9rem;
+            padding: 10px 24px;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: background 0.15s ease;
+        }
+
+        .contact-section a:hover {
+            background: #6E83C3;
+        }
+
+        footer {
+            font-size: 0.75rem;
+            color: #7A767B;
+            padding-bottom: 40px;
+            line-height: 1.7;
+            text-align: center;
+        }
+
+        footer a { color: #7A767B; text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+
+        @media (max-width: 480px) {
+            .container { padding: 40px 0 32px; }
+            h1 { font-size: 1.4rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <a href="/" class="back">&larr; Back to Dear</a>
+
+    <h1>Support</h1>
+    <p class="subtitle">Find answers below, or email us if you need more help.</p>
+
+    <!-- GETTING STARTED -->
+    <div class="category">
+        <div class="category-title">Getting Started</div>
+
+        <div class="faq-item">
+            <button class="faq-question">How do I add people to Dear?</button>
+            <div class="faq-answer">
+                <p>During onboarding, Dear walks you through adding your first few people one at a time, then lets you add more in a batch screen. After setup, tap the <strong>+</strong> button on the People tab to add someone new.</p>
+                <p>You can pick from your phone's contacts (Dear asks for permission first) or type a name manually. Dear only reads the name and photo during selection and stores it locally on your device.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Why does Dear need access to my contacts?</button>
+            <div class="faq-answer">
+                <p>So you can quickly select people by name instead of typing each one. Dear reads your contact names and photos once during selection, then stores them locally on your device. Dear never sends your contact data anywhere. There is no server.</p>
+                <p>You can deny contacts access and type names manually instead.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">How do nudge reminders work?</button>
+            <div class="faq-answer">
+                <p>Each day at your chosen nudge time (set in Settings), Dear sends you a notification suggesting someone to reach out to. The suggestion is based on how long it's been since you last contacted them and the frequency you set.</p>
+                <p>Open the app to see your nudge card. Tap <strong>Text</strong>, <strong>Call</strong>, or <strong>FaceTime</strong> to reach out. When you're done, tap <strong>Done</strong> to mark it complete.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">How do I set up notifications?</button>
+            <div class="faq-answer">
+                <p>Dear asks for notification permission during onboarding. If you skipped it, go to your iPhone's <strong>Settings > Notifications > Dear</strong> and enable notifications.</p>
+                <p>You can change your daily nudge time in <strong>Dear > Settings > Nudge Time</strong>.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">What are the frequency options?</button>
+            <div class="faq-answer">
+                <p>You can set how often Dear reminds you about each person:</p>
+                <ul>
+                    <li><strong>Weekly</strong> (every 7 days)</li>
+                    <li><strong>Every 2 Weeks</strong> (every 14 days)</li>
+                    <li><strong>Monthly</strong> (every 30 days)</li>
+                    <li><strong>Every 3 Months</strong> (every 90 days)</li>
+                    <li><strong>Every 6 Months</strong> (every 180 days)</li>
+                    <li><strong>Once a Year</strong> (every 365 days)</li>
+                </ul>
+                <p>You can change someone's frequency anytime from their profile on the People tab.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SUBSCRIPTIONS -->
+    <div class="category">
+        <div class="category-title">Subscriptions and Purchases</div>
+
+        <div class="faq-item">
+            <button class="faq-question">What's included in the free version?</button>
+            <div class="faq-answer">
+                <p>The free version includes up to <strong>10 people</strong> and <strong>2 voice personas</strong> (Dear and Friendo, both trilingual in English, French, and Spanish). No time limit, no trial.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">What's the difference between Monthly, Annual, and Lifetime?</button>
+            <div class="faq-answer">
+                <p>All three unlock <strong>unlimited people</strong>. The only difference is how you pay:</p>
+                <ul>
+                    <li><strong>Monthly:</strong> $0.99/month</li>
+                    <li><strong>Annual:</strong> $5.99/year (save 50%)</li>
+                    <li><strong>Lifetime:</strong> $14.99 one-time (unlimited forever)</li>
+                </ul>
+                <p>Voice personas are sold separately.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">What's the difference between individual voices, the Voice Bundle, and Dear+?</button>
+            <div class="faq-answer">
+                <ul>
+                    <li><strong>Individual voice:</strong> $0.99 each. Buy just the ones you want.</li>
+                    <li><strong>All Voices Bundle:</strong> $5.99 for all 13 premium voices.</li>
+                    <li><strong>Dear+ Everything:</strong> $29.99 for unlimited people + all voices + everything we build next.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">How do I restore my purchases on a new device?</button>
+            <div class="faq-answer">
+                <p>Go to <strong>Dear > Settings</strong> and tap <strong>Restore Purchases</strong>. Make sure you're signed into the same Apple ID you used to purchase. Your subscriptions and voice purchases will be restored automatically.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">How do I cancel my subscription?</button>
+            <div class="faq-answer">
+                <p>Subscriptions are managed through Apple. Go to your iPhone's <strong>Settings > your name > Subscriptions > Dear</strong> and tap <strong>Cancel Subscription</strong>. You'll keep access until the end of your current billing period.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">I was charged but my purchase isn't showing up.</button>
+            <div class="faq-answer">
+                <p>Try these steps:</p>
+                <ul>
+                    <li>Go to <strong>Settings > Restore Purchases</strong> in Dear.</li>
+                    <li>Make sure you're connected to the internet.</li>
+                    <li>Restart the app.</li>
+                </ul>
+                <p>If it still doesn't work, email us at <a href="mailto:support@dearnudges.com?subject=Purchase%20issue">support@dearnudges.com</a> with your Apple receipt and we'll help sort it out.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Do individual voice purchases expire?</button>
+            <div class="faq-answer">
+                <p>No. Individual voices and the All Voices Bundle are one-time purchases. They're yours forever.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- VOICES -->
+    <div class="category">
+        <div class="category-title">Voices and Personas</div>
+
+        <div class="faq-item">
+            <button class="faq-question">How do I change my nudge voice?</button>
+            <div class="faq-answer">
+                <p>Go to <strong>Dear > Settings</strong> and scroll to <strong>Your Voice</strong>. Tap any voice to select it. Your nudges will use that voice starting with your next nudge.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">What voices are included for free?</button>
+            <div class="faq-answer">
+                <p><strong>Dear</strong> and <strong>Friendo</strong> are free and work in English, French, and Spanish (they automatically match your device language).</p>
+                <div class="voice-sample">
+                    <span class="voice-name">Dear:</span> "It's been a little while since you've reached out to Alex. A quick text could really make their day."
+                </div>
+                <div class="voice-sample">
+                    <span class="voice-name">Friendo:</span> "Yo, text Alex. It's been a minute. Actually it's been way more than a minute."
+                </div>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">What do the premium voices sound like?</button>
+            <div class="faq-answer">
+                <p><strong>English voices ($0.99 each):</strong></p>
+                <div class="voice-sample">
+                    <span class="voice-name">Sherlock:</span> "The dust on your conversation with Alex tells me it's been at least a fortnight. Unacceptable."
+                </div>
+                <div class="voice-sample">
+                    <span class="voice-name">Emily Bront&euml;:</span> "Whatever our souls are made of, yours and Alex's are the same. Write to them."
+                </div>
+                <div class="voice-sample">
+                    <span class="voice-name">Dracula:</span> "I have walked this earth for centuries, and still - the bonds between mortals move me. Text Alex."
+                </div>
+                <div class="voice-sample">
+                    <span class="voice-name">Nonna:</span> "Sweetheart, when's the last time you called Alex? They're going to think you don't love them."
+                </div>
+                <div class="voice-sample">
+                    <span class="voice-name">Haiku:</span> "One breath. One message. Alex. That is enough."
+                </div>
+                <div class="voice-sample">
+                    <span class="voice-name">Noir:</span> "The phone sat there, silent. Alex's name flickered in the contact list like a neon sign in the rain."
+                </div>
+                <div class="voice-sample">
+                    <span class="voice-name">Mom Text:</span> "Hi sweetie!! Just wondering if you've talked to Alex lately?? Love you!!"
+                </div>
+
+                <p style="margin-top: 16px;"><strong>French voices ($0.99 each):</strong></p>
+                <div class="voice-sample">
+                    <span class="voice-name">Marcel Proust:</span> "Le temps perdu ne se rattrape qu'en retrouvant ceux qu'on a aim&eacute;s. Alex fait partie de ces &ecirc;tres dont l'absence deviendrait un regret."
+                </div>
+                <div class="voice-sample">
+                    <span class="voice-name">Cyrano:</span> "Quoi ! Vous avez une plume, un t&eacute;l&eacute;phone, dix doigts, et Alex n'a toujours pas re&ccedil;u un mot de vous ?"
+                </div>
+                <div class="voice-sample">
+                    <span class="voice-name">Le Renard:</span> "Tu es responsable d'Alex. Tu l'as apprivois&eacute;. Envoie-lui un mot."
+                </div>
+
+                <p style="margin-top: 16px;"><strong>Spanish voices ($0.99 each):</strong></p>
+                <div class="voice-sample">
+                    <span class="voice-name">Don Quijote:</span> "Alma noble, Alex merece unas palabras suyas. No hace falta una gran gesta, basta un saludo sincero."
+                </div>
+                <div class="voice-sample">
+                    <span class="voice-name">El Mar:</span> "La corriente te acerca a Alex hoy. Deja que llegue."
+                </div>
+                <div class="voice-sample">
+                    <span class="voice-name">La Abuela:</span> "Mi vida, hace rato que no hablas con Alex. Un mensajito no cuesta nada, anda."
+                </div>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">What are trilingual voices?</button>
+            <div class="faq-answer">
+                <p>Dear and Friendo automatically match your device language. If your iPhone is set to French, they nudge you in French. Set to Spanish, they nudge in Spanish. All other voices stay in their native language (English, French, or Spanish).</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- FEATURES -->
+    <div class="category">
+        <div class="category-title">Features</div>
+
+        <div class="faq-item">
+            <button class="faq-question">How does the WhatsApp toggle work?</button>
+            <div class="faq-answer">
+                <p>Go to <strong>Dear > Settings</strong> and switch from <strong>Messages</strong> to <strong>WhatsApp</strong>. When you tap "Text" on a nudge card, Dear will open WhatsApp instead of Messages. If WhatsApp isn't installed, Dear falls back to Messages automatically.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">How do I set up the Dear widget?</button>
+            <div class="faq-answer">
+                <p>Long-press your home screen, tap the <strong>+</strong> button in the top corner, search for <strong>Dear</strong>, and choose a small or medium widget. The widget shows your current nudge and updates daily.</p>
+                <p>The Emily Bront&euml; voice has a special dark widget design called "The Looking Glass."</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">How many nudges do I get per day?</button>
+            <div class="faq-answer">
+                <p>You can choose 1, 2, or 3 nudges per day in <strong>Dear > Settings > Nudges Per Day</strong>. Each nudge suggests a different person to reach out to.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRIVACY -->
+    <div class="category">
+        <div class="category-title">Privacy and Data</div>
+
+        <div class="faq-item">
+            <button class="faq-question">Does Dear collect my data?</button>
+            <div class="faq-answer">
+                <p>No. Dear has no server, no backend, no analytics, and no tracking. We do not know who you are, who your people are, or how you use the app. Everything stays on your device. Read our full <a href="privacy.html">privacy policy</a>.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Do I need to create an account?</button>
+            <div class="faq-answer">
+                <p>No. There are no accounts, no sign-ups, no passwords. You open the app and start using it.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Can Dear see my messages or call history?</button>
+            <div class="faq-answer">
+                <p>No. When you tap Text, Call, or FaceTime, Dear hands you off to the relevant app (Messages, Phone, FaceTime, or WhatsApp). Dear cannot see your conversations, call logs, or any communication content.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- TROUBLESHOOTING -->
+    <div class="category">
+        <div class="category-title">Troubleshooting</div>
+
+        <div class="faq-item">
+            <button class="faq-question">I'm not receiving notifications.</button>
+            <div class="faq-answer">
+                <p>Check these settings on your iPhone:</p>
+                <ul>
+                    <li><strong>Settings > Notifications > Dear</strong> -- make sure notifications are enabled.</li>
+                    <li><strong>Settings > Focus</strong> -- if you use Focus modes, make sure Dear is allowed.</li>
+                    <li><strong>Dear > Settings > Notifications</strong> -- make sure the toggle is on.</li>
+                    <li>Check your <strong>Nudge Time</strong> in Dear's settings. Notifications arrive at the time you set.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">My contacts aren't appearing in the app.</button>
+            <div class="faq-answer">
+                <p>Go to your iPhone's <strong>Settings > Privacy & Security > Contacts > Dear</strong> and make sure access is enabled. If you previously denied access, you'll need to enable it here.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">A purchase isn't unlocking.</button>
+            <div class="faq-answer">
+                <p>Go to <strong>Dear > Settings > Restore Purchases</strong>. Make sure you're signed into the same Apple ID used for the purchase and that you have an internet connection. If it still doesn't work, email us.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="contact-section">
+        <h2>Still need help?</h2>
+        <p>We usually respond within 48 hours.</p>
+        <a href="mailto:support@dearnudges.com?subject=Dear%20App%20Support">Email support@dearnudges.com</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Elsewhere Index LLC</p>
+        <p><a href="privacy.html">Privacy Policy</a></p>
+    </footer>
+</div>
+
+<script>
+    document.querySelectorAll('.faq-question').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            var item = this.parentElement;
+            var wasOpen = item.classList.contains('open');
+            // Close all in same category
+            item.parentElement.querySelectorAll('.faq-item').forEach(function(i) {
+                i.classList.remove('open');
+            });
+            // Toggle clicked one
+            if (!wasOpen) {
+                item.classList.add('open');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
