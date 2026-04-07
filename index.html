@@ -74,15 +74,20 @@
             max-width: 480px;
             width: 100%;
             text-align: center;
-            padding: 72px 0 48px;
+            padding: 72px 0 24px;
         }
 
         .app-icon {
             width: 112px;
             height: 112px;
             border-radius: 25px;
-            margin-bottom: 28px;
+            margin-bottom: 24px;
             box-shadow: 0 8px 32px rgba(131, 150, 209, 0.2);
+            transition: transform 0.2s ease;
+        }
+
+        .app-icon:hover {
+            transform: translateY(-2px);
         }
 
         h1 {
@@ -90,25 +95,37 @@
             font-weight: 700;
             font-size: 2rem;
             color: #2D2D2D;
-            margin-bottom: 12px;
+            margin-bottom: 8px;
             line-height: 1.2;
             letter-spacing: -0.02em;
         }
 
-        h1 span {
+        h1 .dear-name {
+            font-family: 'Fraunces', Georgia, serif;
+            font-style: italic;
+            font-weight: 700;
             color: #5C85D6;
         }
 
         .tagline {
             font-size: 1.05rem;
             color: #7A767B;
-            margin-bottom: 32px;
+            margin-bottom: 16px;
             line-height: 1.55;
+        }
+
+        .identity-line {
+            font-family: 'Fraunces', Georgia, serif;
+            font-style: italic;
+            font-size: 0.92rem;
+            color: #5C85D6;
+            margin-bottom: 20px;
+            opacity: 0.85;
         }
 
         .app-store-badge {
             display: inline-block;
-            margin-bottom: 10px;
+            margin-bottom: 12px;
             transition: opacity 0.15s ease;
         }
 
@@ -117,20 +134,14 @@
         }
 
         .app-store-badge img {
-            height: 48px;
+            height: 52px;
             width: auto;
-        }
-
-        .identity-line {
-            font-size: 0.88rem;
-            color: #7A767B;
-            margin-bottom: 28px;
-            font-style: italic;
         }
 
         .free-note {
             font-size: 0.82rem;
             color: #7A767B;
+            margin-top: 6px;
         }
 
         /* Details */
@@ -138,21 +149,25 @@
             max-width: 480px;
             width: 100%;
             text-align: center;
-            padding: 40px 0;
+            padding: 24px 0 40px;
         }
 
         .divider {
-            width: 48px;
+            width: 64px;
             height: 1px;
-            background: #C9CFDF;
-            margin: 0 auto 36px;
+            background: rgba(92, 133, 214, 0.25);
+            margin: 0 auto 28px;
         }
 
         .detail-text {
             font-size: 0.95rem;
             color: #7A767B;
             line-height: 1.65;
-            margin-bottom: 16px;
+            margin-bottom: 20px;
+        }
+
+        .detail-text:last-of-type {
+            margin-bottom: 28px;
         }
 
         .detail-text em {
@@ -160,10 +175,12 @@
             font-style: italic;
             font-size: 1rem;
             color: #5C85D6;
+            font-weight: 700;
         }
 
         .links {
-            margin-bottom: 32px;
+            margin-top: 8px;
+            margin-bottom: 24px;
         }
 
         .links a {
@@ -181,7 +198,7 @@
         footer {
             font-size: 0.75rem;
             color: #7A767B;
-            padding-bottom: 80px;
+            padding-bottom: 24px;
             line-height: 1.7;
             text-align: center;
         }
@@ -195,30 +212,29 @@
             text-decoration: underline;
         }
 
-        /* Sticky bottom nav */
+        /* Bottom nav - static, not sticky */
         .bottom-nav {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #5C85D6;
-            border-top: none;
+            position: static;
+            background: transparent;
+            border-top: 1px solid #E0E0E0;
             display: flex;
             justify-content: center;
             gap: 0;
-            padding: 0;
-            z-index: 20;
+            padding: 12px 0;
+            margin-top: 8px;
+            max-width: 480px;
+            width: 100%;
         }
 
         .bottom-nav a {
             flex: 1;
             max-width: 140px;
             text-align: center;
-            padding: 10px 0 calc(10px + env(safe-area-inset-bottom, 0px));
+            padding: 8px 0;
             font-family: 'Quicksand', sans-serif;
             font-size: 0.72rem;
             font-weight: 600;
-            color: rgba(255, 255, 255, 0.7);
+            color: #5C85D6;
             text-decoration: none;
             display: flex;
             flex-direction: column;
@@ -229,7 +245,7 @@
 
         .bottom-nav a:hover,
         .bottom-nav a.active {
-            color: #FFFFFF;
+            color: #3A5FAA;
         }
 
         .bottom-nav svg {
@@ -249,10 +265,15 @@
         .app-store-badge[data-lang="en"] { display: inline-block; }
 
         @media (max-width: 480px) {
-            .hero { padding: 56px 0 40px; }
-            h1 { font-size: 1.75rem; }
-            .app-icon { width: 96px; height: 96px; border-radius: 22px; }
-            .lang-nav { top: 12px; right: 12px; }
+            .hero { padding: 48px 0 20px; }
+            h1 { font-size: 1.65rem; }
+            .app-icon { width: 88px; height: 88px; border-radius: 20px; }
+            .tagline { font-size: 0.95rem; }
+            .identity-line { font-size: 0.82rem; }
+            .detail-text { font-size: 0.88rem; line-height: 1.6; }
+            .lang-nav { top: 10px; right: 10px; }
+            .lang-btn { padding: 4px 8px; font-size: 0.7rem; }
+            .bottom-nav a { font-size: 0.65rem; }
         }
     </style>
 </head>
@@ -270,9 +291,9 @@
         <img src="app-icon.png" alt="Dear app icon" class="app-icon">
 
         <h1>
-            <span data-lang="en"><span>Dear:</span> Stay in Touch</span>
-            <span data-lang="fr"><span>Dear:</span> Garde le lien</span>
-            <span data-lang="es"><span>Dear:</span> Mantente en contacto</span>
+            <span data-lang="en"><span class="dear-name">Dear:</span> Stay in Touch</span>
+            <span data-lang="fr"><span class="dear-name">Dear:</span> Garde le lien</span>
+            <span data-lang="es"><span class="dear-name">Dear:</span> Mantente en contacto</span>
         </h1>
 
         <p class="tagline">
@@ -336,7 +357,7 @@
         </footer>
     </div>
 
-    <!-- Sticky bottom nav -->
+    <!-- Bottom nav -->
     <nav class="bottom-nav">
         <a href="/" class="active">
             <svg viewBox="0 0 24 24"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z"/><path d="M9 21V12h6v9"/></svg>
