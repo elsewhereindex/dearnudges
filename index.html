@@ -199,7 +199,7 @@
         footer {
             font-size: 0.75rem;
             color: #7A767B;
-            padding-bottom: 24px;
+            padding-bottom: 80px;
             line-height: 1.7;
             text-align: center;
         }
@@ -213,29 +213,29 @@
             text-decoration: underline;
         }
 
-        /* Bottom nav - static, not sticky */
         .bottom-nav {
-            position: static;
-            background: transparent;
-            border-top: 1px solid #E0E0E0;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #8396D1;
+            border-top: none;
             display: flex;
             justify-content: center;
             gap: 0;
-            padding: 12px 0;
-            margin-top: 8px;
-            max-width: 480px;
-            width: 100%;
+            padding: 0;
+            z-index: 20;
         }
 
         .bottom-nav a {
             flex: 1;
             max-width: 140px;
             text-align: center;
-            padding: 8px 0;
+            padding: 10px 0 calc(10px + env(safe-area-inset-bottom, 0px));
             font-family: 'Quicksand', sans-serif;
             font-size: 0.72rem;
             font-weight: 600;
-            color: #5C85D6;
+            color: rgba(255, 255, 255, 0.7);
             text-decoration: none;
             display: flex;
             flex-direction: column;
@@ -246,7 +246,7 @@
 
         .bottom-nav a:hover,
         .bottom-nav a.active {
-            color: #3A5FAA;
+            color: #FFFFFF;
         }
 
         .bottom-nav svg {
