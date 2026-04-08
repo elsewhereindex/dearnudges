@@ -25,6 +25,36 @@
             -webkit-font-smoothing: antialiased;
         }
 
+        /* Language switcher */
+        .lang-nav {
+            position: fixed;
+            top: 16px;
+            right: 20px;
+            display: flex;
+            gap: 4px;
+            z-index: 10;
+        }
+
+        .lang-btn {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #7A767B;
+            background: white;
+            border: 1px solid #E0E0E0;
+            padding: 5px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            text-decoration: none;
+        }
+
+        .lang-btn:hover, .lang-btn.active {
+            color: #5C85D6;
+            border-color: #5C85D6;
+            background: #F5F6FB;
+        }
+
         .container {
             max-width: 600px;
             width: 100%;
@@ -155,96 +185,268 @@
             stroke-linejoin: round;
         }
 
+        /* Hide inactive languages */
+        [data-lang] { display: none; }
+        [data-lang="en"] { display: block; }
+        span[data-lang="en"] { display: inline; }
+
         @media (max-width: 480px) {
             .container { padding: 40px 0 32px; }
             h1 { font-size: 1.4rem; }
+            .lang-nav { top: 10px; right: 10px; }
+            .lang-btn { padding: 4px 8px; font-size: 0.7rem; }
         }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <a href="/" class="back">&larr; Back to Dear</a>
+    <!-- Language switcher -->
+    <nav class="lang-nav">
+        <button class="lang-btn active" onclick="setLang('en')">EN</button>
+        <button class="lang-btn" onclick="setLang('fr')">FR</button>
+        <button class="lang-btn" onclick="setLang('es')">ES</button>
+    </nav>
 
-        <h1>Privacy Policy</h1>
-        <p class="updated">Last updated April 2026</p>
+    <div class="container">
+        <a href="/" class="back">
+            <span data-lang="en">&larr; Back to Dear</span>
+            <span data-lang="fr">&larr; Retour &agrave; Dear</span>
+            <span data-lang="es">&larr; Volver a Dear</span>
+        </a>
+
+        <h1>
+            <span data-lang="en">Privacy Policy</span>
+            <span data-lang="fr">Politique de confidentialit&eacute;</span>
+            <span data-lang="es">Pol&iacute;tica de privacidad</span>
+        </h1>
+        <p class="updated">
+            <span data-lang="en">Last updated April 2026</span>
+            <span data-lang="fr">Derni&egrave;re mise &agrave; jour : avril 2026</span>
+            <span data-lang="es">&Uacute;ltima actualizaci&oacute;n: abril de 2026</span>
+        </p>
 
         <div class="short-version">
-            Dear does not collect, store, or transmit any of your data. Everything stays on your device. We have no servers, no accounts, no analytics, no tracking. We don't know who you are, who your friends are, or how you use the app.<br><br>
-            That's it. That's the privacy policy.
+            <span data-lang="en">Dear does not collect, store, or transmit any of your data. Everything stays on your device. We have no servers, no accounts, no analytics, no tracking. We don't know who you are, who your friends are, or how you use the app.<br><br>
+            That's it. That's the privacy policy.</span>
+            <span data-lang="fr">Dear ne collecte, ne stocke et ne transmet aucune de tes donn&eacute;es. Tout reste sur ton appareil. Nous n'avons pas de serveurs, pas de comptes, pas d'analytique, pas de tra&ccedil;age. Nous ne savons pas qui tu es, qui sont tes proches, ni comment tu utilises l'app.<br><br>
+            Voil&agrave;. C'est toute la politique de confidentialit&eacute;.</span>
+            <span data-lang="es">Dear no recopila, almacena ni transmite ninguno de tus datos. Todo permanece en tu dispositivo. No tenemos servidores, ni cuentas, ni anal&iacute;ticas, ni rastreo. No sabemos qui&eacute;n eres, qui&eacute;nes son tus amistades, ni c&oacute;mo usas la app.<br><br>
+            Eso es todo. Esa es la pol&iacute;tica de privacidad.</span>
         </div>
 
-        <p>If you want the longer version for legal purposes, keep reading.</p>
+        <p>
+            <span data-lang="en">If you want the longer version for legal purposes, keep reading.</span>
+            <span data-lang="fr">Si tu veux la version longue &agrave; des fins juridiques, continue ta lecture.</span>
+            <span data-lang="es">Si quieres la versi&oacute;n larga con fines legales, sigue leyendo.</span>
+        </p>
 
         <div class="divider"></div>
 
-        <h2>What data Dear accesses</h2>
+        <h2>
+            <span data-lang="en">What data Dear accesses</span>
+            <span data-lang="fr">&Agrave; quelles donn&eacute;es Dear acc&egrave;de</span>
+            <span data-lang="es">A qu&eacute; datos accede Dear</span>
+        </h2>
 
-        <p><strong>Contact names and photos.</strong> During onboarding, Dear asks for permission to access your Contacts. This is used solely to let you select people to add to your nudge list. Contact data is read once during selection and stored locally on your device using Apple's SwiftData framework. Dear never transmits contact data off your device, and you can use the app without granting Contacts access by typing names manually.</p>
+        <p>
+            <span data-lang="en"><strong>Contact names and photos.</strong> During onboarding, Dear asks for permission to access your Contacts. This is used solely to let you select people to add to your nudge list. Contact data is read once during selection and stored locally on your device using Apple's SwiftData framework. Dear never transmits contact data off your device, and you can use the app without granting Contacts access by typing names manually.</span>
+            <span data-lang="fr"><strong>Noms et photos de contacts.</strong> Lors de la configuration initiale, Dear demande la permission d'acc&eacute;der &agrave; tes contacts. Cela sert uniquement &agrave; te permettre de s&eacute;lectionner les personnes &agrave; ajouter &agrave; ta liste de rappels. Les donn&eacute;es de contact sont lues une seule fois lors de la s&eacute;lection et stock&eacute;es localement sur ton appareil via le framework SwiftData d'Apple. Dear ne transmet jamais tes donn&eacute;es de contact en dehors de ton appareil, et tu peux utiliser l'app sans accorder l'acc&egrave;s aux contacts en saisissant les noms manuellement.</span>
+            <span data-lang="es"><strong>Nombres y fotos de contactos.</strong> Durante la configuraci&oacute;n inicial, Dear pide permiso para acceder a tus contactos. Esto se usa &uacute;nicamente para que puedas seleccionar personas y agregarlas a tu lista de recordatorios. Los datos de contacto se leen una sola vez durante la selecci&oacute;n y se almacenan localmente en tu dispositivo usando el framework SwiftData de Apple. Dear nunca transmite datos de contacto fuera de tu dispositivo, y puedes usar la app sin dar acceso a contactos escribiendo los nombres manualmente.</span>
+        </p>
 
-        <p><strong>Notification permissions.</strong> Dear requests permission to send local notifications so it can remind you to reach out to someone. These notifications are scheduled entirely on-device. No server is involved.</p>
+        <p>
+            <span data-lang="en"><strong>Notification permissions.</strong> Dear requests permission to send local notifications so it can remind you to reach out to someone. These notifications are scheduled entirely on-device. No server is involved.</span>
+            <span data-lang="fr"><strong>Autorisations de notifications.</strong> Dear demande la permission d'envoyer des notifications locales pour te rappeler de contacter quelqu'un. Ces notifications sont programm&eacute;es enti&egrave;rement sur ton appareil. Aucun serveur n'est impliqu&eacute;.</span>
+            <span data-lang="es"><strong>Permisos de notificaciones.</strong> Dear solicita permiso para enviar notificaciones locales y recordarte que contactes a alguien. Estas notificaciones se programan completamente en tu dispositivo. Ning&uacute;n servidor est&aacute; involucrado.</span>
+        </p>
 
-        <h2>What data Dear stores</h2>
+        <h2>
+            <span data-lang="en">What data Dear stores</span>
+            <span data-lang="fr">Quelles donn&eacute;es Dear stocke</span>
+            <span data-lang="es">Qu&eacute; datos almacena Dear</span>
+        </h2>
 
-        <p>All data is stored locally on your iPhone using Apple's SwiftData framework and UserDefaults (via App Group for widget functionality). This includes:</p>
+        <p>
+            <span data-lang="en">All data is stored locally on your iPhone using Apple's SwiftData framework and UserDefaults (via App Group for widget functionality). This includes:</span>
+            <span data-lang="fr">Toutes les donn&eacute;es sont stock&eacute;es localement sur ton iPhone via le framework SwiftData d'Apple et UserDefaults (via App Group pour la fonctionnalit&eacute; du widget). Cela comprend :</span>
+            <span data-lang="es">Todos los datos se almacenan localmente en tu iPhone usando el framework SwiftData de Apple y UserDefaults (v&iacute;a App Group para la funcionalidad del widget). Esto incluye:</span>
+        </p>
 
-        <ul>
-            <li>The names and optional photos of people you've added</li>
-            <li>Your nudge preferences (frequency, notification time)</li>
-            <li>Your persona and theme selections</li>
-            <li>Nudge completion history</li>
-            <li>Purchase status for subscriptions and voice personas</li>
-        </ul>
+        <div data-lang="en">
+            <ul>
+                <li>The names and optional photos of people you've added</li>
+                <li>Your nudge preferences (frequency, notification time)</li>
+                <li>Your persona and theme selections</li>
+                <li>Nudge completion history</li>
+                <li>Purchase status for subscriptions and voice personas</li>
+            </ul>
+        </div>
+        <div data-lang="fr">
+            <ul>
+                <li>Les noms et photos optionnelles des personnes que tu as ajout&eacute;es</li>
+                <li>Tes pr&eacute;f&eacute;rences de rappels (fr&eacute;quence, heure de notification)</li>
+                <li>Tes choix de voix et de th&egrave;me</li>
+                <li>L'historique des rappels compl&eacute;t&eacute;s</li>
+                <li>Le statut de tes achats pour les abonnements et les voix</li>
+            </ul>
+        </div>
+        <div data-lang="es">
+            <ul>
+                <li>Los nombres y fotos opcionales de las personas que has agregado</li>
+                <li>Tus preferencias de recordatorios (frecuencia, hora de notificaci&oacute;n)</li>
+                <li>Tus selecciones de voz y tema</li>
+                <li>El historial de recordatorios completados</li>
+                <li>El estado de tus compras de suscripciones y voces</li>
+            </ul>
+        </div>
 
-        <p>This data never leaves your device. There is no cloud sync, no backup to our servers, and no way for us to access it.</p>
+        <p>
+            <span data-lang="en">This data never leaves your device. There is no cloud sync, no backup to our servers, and no way for us to access it.</span>
+            <span data-lang="fr">Ces donn&eacute;es ne quittent jamais ton appareil. Il n'y a pas de synchronisation cloud, pas de sauvegarde sur nos serveurs, et aucun moyen pour nous d'y acc&eacute;der.</span>
+            <span data-lang="es">Estos datos nunca salen de tu dispositivo. No hay sincronizaci&oacute;n en la nube, no hay respaldo en nuestros servidores, y no tenemos forma de acceder a ellos.</span>
+        </p>
 
-        <h2>What data Dear collects or transmits</h2>
+        <h2>
+            <span data-lang="en">What data Dear collects or transmits</span>
+            <span data-lang="fr">Quelles donn&eacute;es Dear collecte ou transmet</span>
+            <span data-lang="es">Qu&eacute; datos recopila o transmite Dear</span>
+        </h2>
 
-        <p>None. Zero. Dear has no server, no backend, no API, no database, and no analytics. We do not use any third-party SDKs, tracking pixels, advertising frameworks, or analytics tools. We do not collect crash reports. We do not know how many people use the app beyond what Apple provides in aggregate App Store analytics (which contains no personally identifiable information and is controlled by your device settings).</p>
+        <p>
+            <span data-lang="en">None. Zero. Dear has no server, no backend, no API, no database, and no analytics. We do not use any third-party SDKs, tracking pixels, advertising frameworks, or analytics tools. We do not collect crash reports. We do not know how many people use the app beyond what Apple provides in aggregate App Store analytics (which contains no personally identifiable information and is controlled by your device settings).</span>
+            <span data-lang="fr">Aucune. Z&eacute;ro. Dear n'a pas de serveur, pas de backend, pas d'API, pas de base de donn&eacute;es, et pas d'analytique. Nous n'utilisons aucun SDK tiers, pixel de tra&ccedil;age, framework publicitaire ou outil d'analytique. Nous ne collectons pas de rapports de plantage. Nous ne savons pas combien de personnes utilisent l'app, au-del&agrave; de ce qu'Apple fournit dans les statistiques agr&eacute;g&eacute;es de l'App Store (qui ne contiennent aucune information personnelle identifiable et sont contr&ocirc;l&eacute;es par les r&eacute;glages de ton appareil).</span>
+            <span data-lang="es">Ninguno. Cero. Dear no tiene servidor, ni backend, ni API, ni base de datos, ni anal&iacute;ticas. No usamos ning&uacute;n SDK de terceros, p&iacute;xeles de rastreo, frameworks publicitarios ni herramientas de anal&iacute;tica. No recopilamos informes de fallos. No sabemos cu&aacute;ntas personas usan la app m&aacute;s all&aacute; de lo que Apple proporciona en las estad&iacute;sticas agregadas del App Store (que no contienen informaci&oacute;n personal identificable y se controlan desde los ajustes de tu dispositivo).</span>
+        </p>
 
-        <h2>In-app purchases</h2>
+        <h2>
+            <span data-lang="en">In-app purchases</span>
+            <span data-lang="fr">Achats int&eacute;gr&eacute;s</span>
+            <span data-lang="es">Compras dentro de la app</span>
+        </h2>
 
-        <p>Dear offers optional subscriptions and one-time purchases through Apple's StoreKit framework. All purchase transactions are handled entirely by Apple. We do not process, store, or have access to any payment information. Apple's privacy policy governs all payment data.</p>
+        <p>
+            <span data-lang="en">Dear offers optional subscriptions and one-time purchases through Apple's StoreKit framework. All purchase transactions are handled entirely by Apple. We do not process, store, or have access to any payment information. Apple's privacy policy governs all payment data.</span>
+            <span data-lang="fr">Dear propose des abonnements optionnels et des achats uniques via le framework StoreKit d'Apple. Toutes les transactions sont g&eacute;r&eacute;es enti&egrave;rement par Apple. Nous ne traitons, ne stockons et n'avons acc&egrave;s &agrave; aucune information de paiement. La politique de confidentialit&eacute; d'Apple r&eacute;git toutes les donn&eacute;es de paiement.</span>
+            <span data-lang="es">Dear ofrece suscripciones opcionales y compras &uacute;nicas a trav&eacute;s del framework StoreKit de Apple. Todas las transacciones son gestionadas completamente por Apple. No procesamos, almacenamos ni tenemos acceso a ninguna informaci&oacute;n de pago. La pol&iacute;tica de privacidad de Apple rige todos los datos de pago.</span>
+        </p>
 
-        <h2>Third-party services</h2>
+        <h2>
+            <span data-lang="en">Third-party services</span>
+            <span data-lang="fr">Services tiers</span>
+            <span data-lang="es">Servicios de terceros</span>
+        </h2>
 
-        <p>Dear uses no third-party services. The app operates entirely offline using Apple-native frameworks. StoreKit (for in-app purchases) communicates with Apple's servers, not ours.</p>
+        <p>
+            <span data-lang="en">Dear uses no third-party services. The app operates entirely offline using Apple-native frameworks. StoreKit (for in-app purchases) communicates with Apple's servers, not ours.</span>
+            <span data-lang="fr">Dear n'utilise aucun service tiers. L'app fonctionne enti&egrave;rement hors ligne en utilisant les frameworks natifs d'Apple. StoreKit (pour les achats int&eacute;gr&eacute;s) communique avec les serveurs d'Apple, pas les n&ocirc;tres.</span>
+            <span data-lang="es">Dear no usa ning&uacute;n servicio de terceros. La app funciona completamente sin conexi&oacute;n usando los frameworks nativos de Apple. StoreKit (para compras dentro de la app) se comunica con los servidores de Apple, no con los nuestros.</span>
+        </p>
 
-        <h2>Data sharing</h2>
+        <h2>
+            <span data-lang="en">Data sharing</span>
+            <span data-lang="fr">Partage de donn&eacute;es</span>
+            <span data-lang="es">Compartir datos</span>
+        </h2>
 
-        <p>We do not share data with anyone because we do not have any data to share.</p>
+        <p>
+            <span data-lang="en">We do not share data with anyone because we do not have any data to share.</span>
+            <span data-lang="fr">Nous ne partageons de donn&eacute;es avec personne, car nous n'avons aucune donn&eacute;e &agrave; partager.</span>
+            <span data-lang="es">No compartimos datos con nadie porque no tenemos ning&uacute;n dato que compartir.</span>
+        </p>
 
-        <h2>Children's privacy</h2>
+        <h2>
+            <span data-lang="en">Children's privacy</span>
+            <span data-lang="fr">Protection des mineurs</span>
+            <span data-lang="es">Privacidad infantil</span>
+        </h2>
 
-        <p>Dear does not knowingly collect any information from children under the age of 13. Since the app collects no information from anyone, this is inherently satisfied.</p>
+        <p>
+            <span data-lang="en">Dear does not knowingly collect any information from children under the age of 13. Since the app collects no information from anyone, this is inherently satisfied.</span>
+            <span data-lang="fr">Dear ne collecte sciemment aucune information concernant les enfants de moins de 13 ans. Puisque l'app ne collecte aucune information de qui que ce soit, cette exigence est automatiquement respect&eacute;e.</span>
+            <span data-lang="es">Dear no recopila intencionalmente informaci&oacute;n de menores de 13 a&ntilde;os. Dado que la app no recopila informaci&oacute;n de nadie, este requisito se cumple de forma inherente.</span>
+        </p>
 
-        <h2>Dear Friend</h2>
+        <h2>
+            <span data-lang="en">Dear Friend</span>
+            <span data-lang="fr">Dear Friend</span>
+            <span data-lang="es">Dear Friend</span>
+        </h2>
 
-        <p>If you choose to become a Dear Friend (a patron tier within Dear), you may optionally share information with the developer through email. This is entirely voluntary and happens outside the app.</p>
+        <p>
+            <span data-lang="en">If you choose to become a Dear Friend (a patron tier within Dear), you may optionally share information with the developer through email. This is entirely voluntary and happens outside the app.</span>
+            <span data-lang="fr">Si tu choisis de devenir Dear Friend (un niveau de soutien dans Dear), tu peux facultativement partager des informations avec le d&eacute;veloppeur par courriel. C'est enti&egrave;rement volontaire et cela se passe en dehors de l'app.</span>
+            <span data-lang="es">Si decides convertirte en Dear Friend (un nivel de apoyo dentro de Dear), puedes opcionalmente compartir informaci&oacute;n con el desarrollador por correo electr&oacute;nico. Esto es completamente voluntario y ocurre fuera de la app.</span>
+        </p>
 
-        <p>The Dear Friend post-purchase screen may help you compose an email to the developer. This email may include:</p>
+        <p>
+            <span data-lang="en">The Dear Friend post-purchase screen may help you compose an email to the developer. This email may include:</span>
+            <span data-lang="fr">L'&eacute;cran apr&egrave;s achat de Dear Friend peut t'aider &agrave; r&eacute;diger un courriel au d&eacute;veloppeur. Ce courriel peut inclure :</span>
+            <span data-lang="es">La pantalla posterior a la compra de Dear Friend puede ayudarte a redactar un correo electr&oacute;nico al desarrollador. Este correo puede incluir:</span>
+        </p>
 
-        <ul>
-            <li>Your preferred name, if you choose to be listed in Dear's credits</li>
-            <li>Your mailing address, if you are a Founding Dear Friend and would like to receive a handwritten note</li>
-        </ul>
+        <div data-lang="en">
+            <ul>
+                <li>Your preferred name, if you choose to be listed in Dear's credits</li>
+                <li>Your mailing address, if you are a Founding Dear Friend and would like to receive a handwritten note</li>
+            </ul>
+        </div>
+        <div data-lang="fr">
+            <ul>
+                <li>Ton nom pr&eacute;f&eacute;r&eacute;, si tu choisis d'appara&icirc;tre dans les cr&eacute;dits de Dear</li>
+                <li>Ton adresse postale, si tu es Founding Dear Friend et souhaites recevoir une note manuscrite</li>
+            </ul>
+        </div>
+        <div data-lang="es">
+            <ul>
+                <li>Tu nombre preferido, si eliges aparecer en los cr&eacute;ditos de Dear</li>
+                <li>Tu direcci&oacute;n postal, si eres Founding Dear Friend y te gustar&iacute;a recibir una nota escrita a mano</li>
+            </ul>
+        </div>
 
-        <p>This email is composed on your device using your own email app. You review and send it yourself. Dear does not collect, store, or transmit this information through any server or API. The developer receives it only through your email and uses it only for the stated purposes.</p>
+        <p>
+            <span data-lang="en">This email is composed on your device using your own email app. You review and send it yourself. Dear does not collect, store, or transmit this information through any server or API. The developer receives it only through your email and uses it only for the stated purposes.</span>
+            <span data-lang="fr">Ce courriel est r&eacute;dig&eacute; sur ton appareil avec ta propre app de messagerie. Tu le relis et l'envoies toi-m&ecirc;me. Dear ne collecte, ne stocke et ne transmet pas cette information via un serveur ou une API. Le d&eacute;veloppeur la re&ccedil;oit uniquement par ton courriel et l'utilise uniquement aux fins indiqu&eacute;es.</span>
+            <span data-lang="es">Este correo se redacta en tu dispositivo usando tu propia app de correo electr&oacute;nico. T&uacute; lo revisas y lo env&iacute;as. Dear no recopila, almacena ni transmite esta informaci&oacute;n a trav&eacute;s de ning&uacute;n servidor o API. El desarrollador la recibe &uacute;nicamente a trav&eacute;s de tu correo y la usa solo para los fines indicados.</span>
+        </p>
 
-        <p>Your email address is visible to the developer when you send the message. It will not be added to any marketing list or shared with anyone else.</p>
+        <p>
+            <span data-lang="en">Your email address is visible to the developer when you send the message. It will not be added to any marketing list or shared with anyone else.</span>
+            <span data-lang="fr">Ton adresse courriel est visible par le d&eacute;veloppeur lorsque tu envoies le message. Elle ne sera ajout&eacute;e &agrave; aucune liste marketing ni partag&eacute;e avec qui que ce soit.</span>
+            <span data-lang="es">Tu direcci&oacute;n de correo electr&oacute;nico es visible para el desarrollador cuando env&iacute;as el mensaje. No ser&aacute; agregada a ninguna lista de marketing ni compartida con nadie.</span>
+        </p>
 
-        <h2>Changes to this policy</h2>
+        <h2>
+            <span data-lang="en">Changes to this policy</span>
+            <span data-lang="fr">Modifications de cette politique</span>
+            <span data-lang="es">Cambios a esta pol&iacute;tica</span>
+        </h2>
 
-        <p>If we ever change how Dear handles data (for example, adding optional cloud sync in a future version), we will update this policy and note the changes here. Any future feature that involves data transmission will be opt-in and clearly disclosed.</p>
+        <p>
+            <span data-lang="en">If we ever change how Dear handles data (for example, adding optional cloud sync in a future version), we will update this policy and note the changes here. Any future feature that involves data transmission will be opt-in and clearly disclosed.</span>
+            <span data-lang="fr">Si nous changeons un jour la fa&ccedil;on dont Dear g&egrave;re les donn&eacute;es (par exemple, en ajoutant une synchronisation cloud optionnelle dans une version future), nous mettrons &agrave; jour cette politique et noterons les changements ici. Toute fonctionnalit&eacute; future impliquant la transmission de donn&eacute;es sera optionnelle et clairement communiqu&eacute;e.</span>
+            <span data-lang="es">Si alguna vez cambiamos la forma en que Dear maneja los datos (por ejemplo, agregando sincronizaci&oacute;n en la nube opcional en una versi&oacute;n futura), actualizaremos esta pol&iacute;tica y anotaremos los cambios aqu&iacute;. Cualquier funcionalidad futura que implique transmisi&oacute;n de datos ser&aacute; opcional y se comunicar&aacute; claramente.</span>
+        </p>
 
-        <h2>Contact</h2>
+        <h2>
+            <span data-lang="en">Contact</span>
+            <span data-lang="fr">Contact</span>
+            <span data-lang="es">Contacto</span>
+        </h2>
 
-        <p>If you have questions about this privacy policy, you can reach us at support@dearnudges.com.</p>
+        <p>
+            <span data-lang="en">If you have questions about this privacy policy, you can reach us at support@dearnudges.com.</span>
+            <span data-lang="fr">Si tu as des questions sur cette politique de confidentialit&eacute;, tu peux nous &eacute;crire &agrave; support@dearnudges.com.</span>
+            <span data-lang="es">Si tienes preguntas sobre esta pol&iacute;tica de privacidad, puedes escribirnos a support@dearnudges.com.</span>
+        </p>
 
         <div class="divider"></div>
 
         <footer>
-            <em>Dear: Stay in Touch is made by Elsewhere Index LLC. Distributed on the Apple App Store with optional in-app purchases, no ads, and no data collection.</em>
+            <em>
+                <span data-lang="en">Dear: Stay in Touch is made by Elsewhere Index LLC. Distributed on the Apple App Store with optional in-app purchases, no ads, and no data collection.</span>
+                <span data-lang="fr">Dear: Stay in Touch est cr&eacute;&eacute; par Elsewhere Index LLC. Distribu&eacute; sur l'App Store d'Apple avec des achats int&eacute;gr&eacute;s optionnels, sans publicit&eacute; et sans collecte de donn&eacute;es.</span>
+                <span data-lang="es">Dear: Stay in Touch es creado por Elsewhere Index LLC. Distribuido en el App Store de Apple con compras opcionales dentro de la app, sin publicidad y sin recopilaci&oacute;n de datos.</span>
+            </em>
         </footer>
     </div>
 
@@ -271,6 +473,25 @@
             Anna Grace
         </a>
     </nav>
+
+    <script>
+        function setLang(lang) {
+            document.querySelectorAll('[data-lang]').forEach(function(el) {
+                var isMatch = el.getAttribute('data-lang') === lang;
+                if (el.tagName === 'SPAN') {
+                    el.style.display = isMatch ? 'inline' : 'none';
+                } else {
+                    el.style.display = isMatch ? 'block' : 'none';
+                }
+            });
+
+            // Update active button
+            document.querySelectorAll('.lang-btn').forEach(function(btn) {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+        }
+    </script>
 
 </body>
 </html>

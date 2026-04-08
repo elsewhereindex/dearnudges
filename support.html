@@ -25,6 +25,40 @@
             -webkit-font-smoothing: antialiased;
         }
 
+        /* Language switcher */
+        .lang-nav {
+            position: fixed;
+            top: 16px;
+            right: 20px;
+            display: flex;
+            gap: 4px;
+            z-index: 10;
+        }
+
+        .lang-btn {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #7A767B;
+            background: white;
+            border: 1px solid #E0E0E0;
+            padding: 5px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            text-decoration: none;
+        }
+
+        .lang-btn:hover, .lang-btn.active {
+            color: #5C85D6;
+            border-color: #5C85D6;
+            background: #F5F6FB;
+        }
+
+        [data-lang] { display: none; }
+        [data-lang="en"] { display: block; }
+        span[data-lang="en"] { display: inline; }
+
         .container {
             max-width: 640px;
             width: 100%;
@@ -184,7 +218,7 @@
             line-height: 1.5;
         }
 
-        .contact-section a {
+        .contact-section a.contact-btn {
             display: inline-block;
             background: #8396D1;
             color: white;
@@ -197,7 +231,7 @@
             transition: background 0.15s ease;
         }
 
-        .contact-section a:hover {
+        .contact-section a.contact-btn:hover {
             background: #6E83C3;
         }
 
@@ -261,155 +295,414 @@
         @media (max-width: 480px) {
             .container { padding: 40px 0 32px; }
             h1 { font-size: 1.4rem; }
+            .lang-nav { top: 10px; right: 10px; }
+            .lang-btn { padding: 4px 8px; font-size: 0.7rem; }
         }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <a href="/" class="back">&larr; Back to Dear</a>
+<!-- Language switcher -->
+<nav class="lang-nav">
+    <button class="lang-btn active" onclick="setLang('en')">EN</button>
+    <button class="lang-btn" onclick="setLang('fr')">FR</button>
+    <button class="lang-btn" onclick="setLang('es')">ES</button>
+</nav>
 
-    <h1>Support</h1>
-    <p class="subtitle">Find answers below, or email us if you need more help.</p>
+<div class="container">
+    <a href="/" class="back">
+        <span data-lang="en">&larr; Back to Dear</span>
+        <span data-lang="fr">&larr; Retour &agrave; Dear</span>
+        <span data-lang="es">&larr; Volver a Dear</span>
+    </a>
+
+    <h1>
+        <span data-lang="en">Support</span>
+        <span data-lang="fr">Aide</span>
+        <span data-lang="es">Ayuda</span>
+    </h1>
+    <p class="subtitle">
+        <span data-lang="en">Find answers below, or email us if you need more help.</span>
+        <span data-lang="fr">Tu trouveras des r&eacute;ponses ci-dessous, ou &eacute;cris-nous si tu as besoin d&rsquo;aide.</span>
+        <span data-lang="es">Encuentra respuestas abajo, o escr&iacute;benos si necesitas m&aacute;s ayuda.</span>
+    </p>
 
     <!-- GETTING STARTED -->
     <div class="category">
-        <div class="category-title">Getting Started</div>
+        <div class="category-title">
+            <span data-lang="en">Getting Started</span>
+            <span data-lang="fr">Pour commencer</span>
+            <span data-lang="es">Primeros pasos</span>
+        </div>
 
         <div class="faq-item">
-            <button class="faq-question">How do I add people to Dear?</button>
+            <button class="faq-question">
+                <span data-lang="en">How do I add people to Dear?</span>
+                <span data-lang="fr">Comment ajouter des personnes dans Dear&nbsp;?</span>
+                <span data-lang="es">&iquest;C&oacute;mo agrego personas en Dear?</span>
+            </button>
             <div class="faq-answer">
-                <p>During onboarding, Dear walks you through adding your first few people one at a time, then lets you add more in a batch screen. After setup, tap the <strong>+</strong> button on the People tab to add someone new.</p>
-                <p>You can pick from your phone's contacts (Dear asks for permission first) or type a name manually. Dear only reads the name and photo during selection and stores it locally on your device.</p>
+                <div data-lang="en">
+                    <p>During onboarding, Dear walks you through adding your first few people one at a time, then lets you add more in a batch screen. After setup, tap the <strong>+</strong> button on the People tab to add someone new.</p>
+                    <p>You can pick from your phone's contacts (Dear asks for permission first) or type a name manually. Dear only reads the name and photo during selection and stores it locally on your device.</p>
+                </div>
+                <div data-lang="fr">
+                    <p>Pendant la configuration initiale, Dear te guide pour ajouter tes premiers contacts un par un, puis te propose d&rsquo;en ajouter d&rsquo;autres en lot. Apr&egrave;s la configuration, appuie sur le bouton <strong>+</strong> dans l&rsquo;onglet Personnes pour ajouter quelqu&rsquo;un.</p>
+                    <p>Tu peux choisir dans tes contacts (Dear demande d&rsquo;abord la permission) ou taper un nom manuellement. Dear ne lit que le nom et la photo au moment de la s&eacute;lection, et les stocke localement sur ton appareil.</p>
+                </div>
+                <div data-lang="es">
+                    <p>Durante la configuraci&oacute;n inicial, Dear te gu&iacute;a para agregar tus primeras personas una por una, y luego te permite agregar m&aacute;s en lote. Despu&eacute;s de la configuraci&oacute;n, toca el bot&oacute;n <strong>+</strong> en la pesta&ntilde;a Personas para agregar a alguien nuevo.</p>
+                    <p>Puedes elegir de tus contactos (Dear pide permiso primero) o escribir un nombre manualmente. Dear solo lee el nombre y la foto durante la selecci&oacute;n, y los guarda localmente en tu dispositivo.</p>
+                </div>
             </div>
         </div>
 
         <div class="faq-item">
-            <button class="faq-question">Why does Dear need access to my contacts?</button>
+            <button class="faq-question">
+                <span data-lang="en">Why does Dear need access to my contacts?</span>
+                <span data-lang="fr">Pourquoi Dear a-t-il besoin d&rsquo;acc&eacute;der &agrave; mes contacts&nbsp;?</span>
+                <span data-lang="es">&iquest;Por qu&eacute; Dear necesita acceso a mis contactos?</span>
+            </button>
             <div class="faq-answer">
-                <p>So you can quickly select people by name instead of typing each one. Dear reads your contact names and photos once during selection, then stores them locally on your device. Dear never sends your contact data anywhere. There is no server.</p>
-                <p>You can deny contacts access and type names manually instead.</p>
+                <div data-lang="en">
+                    <p>So you can quickly select people by name instead of typing each one. Dear reads your contact names and photos once during selection, then stores them locally on your device. Dear never sends your contact data anywhere. There is no server.</p>
+                    <p>You can deny contacts access and type names manually instead.</p>
+                </div>
+                <div data-lang="fr">
+                    <p>Pour que tu puisses s&eacute;lectionner rapidement des personnes par nom au lieu de tout taper. Dear lit les noms et photos de tes contacts une seule fois lors de la s&eacute;lection, puis les stocke localement sur ton appareil. Dear n&rsquo;envoie jamais tes donn&eacute;es de contact. Il n&rsquo;y a pas de serveur.</p>
+                    <p>Tu peux refuser l&rsquo;acc&egrave;s aux contacts et taper les noms manuellement.</p>
+                </div>
+                <div data-lang="es">
+                    <p>Para que puedas seleccionar personas r&aacute;pidamente por nombre en lugar de escribir cada uno. Dear lee los nombres y fotos de tus contactos una sola vez durante la selecci&oacute;n, y los guarda localmente en tu dispositivo. Dear nunca env&iacute;a tus datos de contacto a ning&uacute;n lado. No hay servidor.</p>
+                    <p>Puedes denegar el acceso a los contactos y escribir los nombres manualmente.</p>
+                </div>
             </div>
         </div>
 
         <div class="faq-item">
-            <button class="faq-question">How do nudge reminders work?</button>
+            <button class="faq-question">
+                <span data-lang="en">How do nudge reminders work?</span>
+                <span data-lang="fr">Comment fonctionnent les rappels&nbsp;?</span>
+                <span data-lang="es">&iquest;C&oacute;mo funcionan los recordatorios?</span>
+            </button>
             <div class="faq-answer">
-                <p>Each day at your chosen nudge time (set in Settings), Dear sends you a notification suggesting someone to reach out to. The suggestion is based on how long it's been since you last contacted them and the frequency you set.</p>
-                <p>Open the app to see your nudge card. Tap <strong>Text</strong>, <strong>Call</strong>, <strong>FaceTime</strong>, or <strong>WhatsApp</strong> to reach out. When you're done, tap <strong>Done</strong> to mark it complete.</p>
+                <div data-lang="en">
+                    <p>Each day at your chosen nudge time (set in Settings), Dear sends you a notification suggesting someone to reach out to. The suggestion is based on how long it's been since you last contacted them and the frequency you set.</p>
+                    <p>Open the app to see your nudge card. Tap <strong>Text</strong>, <strong>Call</strong>, <strong>FaceTime</strong>, or <strong>WhatsApp</strong> to reach out. When you're done, tap <strong>Done</strong> to mark it complete.</p>
+                </div>
+                <div data-lang="fr">
+                    <p>Chaque jour &agrave; l&rsquo;heure de ton rappel (configur&eacute;e dans R&eacute;glages), Dear t&rsquo;envoie une notification pour te sugg&eacute;rer de contacter quelqu&rsquo;un. La suggestion est bas&eacute;e sur le temps &eacute;coul&eacute; depuis ton dernier contact et la fr&eacute;quence que tu as choisie.</p>
+                    <p>Ouvre l&rsquo;app pour voir ta carte de rappel. Appuie sur <strong>Texte</strong>, <strong>Appel</strong>, <strong>FaceTime</strong> ou <strong>WhatsApp</strong> pour prendre contact. Quand c&rsquo;est fait, appuie sur <strong>Termin&eacute;</strong> pour marquer comme fait.</p>
+                </div>
+                <div data-lang="es">
+                    <p>Cada d&iacute;a a la hora que elijas (configurada en Ajustes), Dear te env&iacute;a una notificaci&oacute;n sugiri&eacute;ndote a alguien con quien ponerte en contacto. La sugerencia se basa en cu&aacute;nto tiempo ha pasado desde tu &uacute;ltimo contacto y la frecuencia que configuraste.</p>
+                    <p>Abre la app para ver tu tarjeta de recordatorio. Toca <strong>Texto</strong>, <strong>Llamar</strong>, <strong>FaceTime</strong> o <strong>WhatsApp</strong> para comunicarte. Cuando termines, toca <strong>Listo</strong> para marcar como completado.</p>
+                </div>
             </div>
         </div>
 
         <div class="faq-item">
-            <button class="faq-question">How do I set up notifications?</button>
+            <button class="faq-question">
+                <span data-lang="en">How do I set up notifications?</span>
+                <span data-lang="fr">Comment configurer les notifications&nbsp;?</span>
+                <span data-lang="es">&iquest;C&oacute;mo configuro las notificaciones?</span>
+            </button>
             <div class="faq-answer">
-                <p>Dear asks for notification permission during onboarding. If you skipped it, go to your iPhone's <strong>Settings > Notifications > Dear</strong> and enable notifications.</p>
-                <p>You can change your daily nudge time in <strong>Dear > Settings > Nudge Time</strong>.</p>
+                <div data-lang="en">
+                    <p>Dear asks for notification permission during onboarding. If you skipped it, go to your iPhone's <strong>Settings > Notifications > Dear</strong> and enable notifications.</p>
+                    <p>You can change your daily nudge time in <strong>Dear > Settings > Nudge Time</strong>.</p>
+                </div>
+                <div data-lang="fr">
+                    <p>Dear demande la permission d&rsquo;envoyer des notifications pendant la configuration. Si tu as saut&eacute; cette &eacute;tape, va dans <strong>R&eacute;glages > Notifications > Dear</strong> sur ton iPhone et active les notifications.</p>
+                    <p>Tu peux changer l&rsquo;heure de ton rappel quotidien dans <strong>Dear > R&eacute;glages > Heure de rappel</strong>.</p>
+                </div>
+                <div data-lang="es">
+                    <p>Dear pide permiso para enviar notificaciones durante la configuraci&oacute;n. Si lo omitiste, ve a <strong>Ajustes > Notificaciones > Dear</strong> en tu iPhone y activa las notificaciones.</p>
+                    <p>Puedes cambiar la hora de tu recordatorio diario en <strong>Dear > Ajustes > Hora de recordatorio</strong>.</p>
+                </div>
             </div>
         </div>
 
         <div class="faq-item">
-            <button class="faq-question">What are the frequency options?</button>
+            <button class="faq-question">
+                <span data-lang="en">What are the frequency options?</span>
+                <span data-lang="fr">Quelles sont les options de fr&eacute;quence&nbsp;?</span>
+                <span data-lang="es">&iquest;Cu&aacute;les son las opciones de frecuencia?</span>
+            </button>
             <div class="faq-answer">
-                <p>You can set how often Dear reminds you about each person:</p>
-                <ul>
-                    <li><strong>Weekly</strong> (every 7 days)</li>
-                    <li><strong>Every 2 Weeks</strong> (every 14 days)</li>
-                    <li><strong>Monthly</strong> (every 30 days)</li>
-                    <li><strong>Every 3 Months</strong> (every 90 days)</li>
-                    <li><strong>Every 6 Months</strong> (every 180 days)</li>
-                    <li><strong>Once a Year</strong> (every 365 days)</li>
-                </ul>
-                <p>You can change someone's frequency anytime from their profile on the People tab.</p>
+                <div data-lang="en">
+                    <p>You can set how often Dear reminds you about each person:</p>
+                    <ul>
+                        <li><strong>Weekly</strong> (every 7 days)</li>
+                        <li><strong>Every 2 Weeks</strong> (every 14 days)</li>
+                        <li><strong>Monthly</strong> (every 30 days)</li>
+                        <li><strong>Every 3 Months</strong> (every 90 days)</li>
+                        <li><strong>Every 6 Months</strong> (every 180 days)</li>
+                        <li><strong>Once a Year</strong> (every 365 days)</li>
+                    </ul>
+                    <p>You can change someone's frequency anytime from their profile on the People tab.</p>
+                </div>
+                <div data-lang="fr">
+                    <p>Tu peux choisir &agrave; quelle fr&eacute;quence Dear te rappelle de contacter chaque personne&nbsp;:</p>
+                    <ul>
+                        <li><strong>Chaque semaine</strong> (tous les 7 jours)</li>
+                        <li><strong>Toutes les 2 semaines</strong> (tous les 14 jours)</li>
+                        <li><strong>Chaque mois</strong> (tous les 30 jours)</li>
+                        <li><strong>Tous les 3 mois</strong> (tous les 90 jours)</li>
+                        <li><strong>Tous les 6 mois</strong> (tous les 180 jours)</li>
+                        <li><strong>Une fois par an</strong> (tous les 365 jours)</li>
+                    </ul>
+                    <p>Tu peux changer la fr&eacute;quence de quelqu&rsquo;un &agrave; tout moment depuis son profil dans l&rsquo;onglet Personnes.</p>
+                </div>
+                <div data-lang="es">
+                    <p>Puedes elegir con qu&eacute; frecuencia Dear te recuerda sobre cada persona:</p>
+                    <ul>
+                        <li><strong>Semanal</strong> (cada 7 d&iacute;as)</li>
+                        <li><strong>Cada 2 semanas</strong> (cada 14 d&iacute;as)</li>
+                        <li><strong>Mensual</strong> (cada 30 d&iacute;as)</li>
+                        <li><strong>Cada 3 meses</strong> (cada 90 d&iacute;as)</li>
+                        <li><strong>Cada 6 meses</strong> (cada 180 d&iacute;as)</li>
+                        <li><strong>Una vez al a&ntilde;o</strong> (cada 365 d&iacute;as)</li>
+                    </ul>
+                    <p>Puedes cambiar la frecuencia de alguien en cualquier momento desde su perfil en la pesta&ntilde;a Personas.</p>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- SUBSCRIPTIONS -->
     <div class="category">
-        <div class="category-title">Subscriptions and Purchases</div>
+        <div class="category-title">
+            <span data-lang="en">Subscriptions and Purchases</span>
+            <span data-lang="fr">Abonnements et achats</span>
+            <span data-lang="es">Suscripciones y compras</span>
+        </div>
 
         <div class="faq-item">
-            <button class="faq-question">What's included in the free version?</button>
+            <button class="faq-question">
+                <span data-lang="en">What's included in the free version?</span>
+                <span data-lang="fr">Qu&rsquo;est-ce qui est inclus dans la version gratuite&nbsp;?</span>
+                <span data-lang="es">&iquest;Qu&eacute; incluye la versi&oacute;n gratuita?</span>
+            </button>
             <div class="faq-answer">
-                <p>The free version includes up to <strong>10 people</strong> and <strong>2 voice personas</strong> (Dear and Friendo, both trilingual in English, French, and Spanish). No time limit, no trial.</p>
+                <div data-lang="en">
+                    <p>The free version includes up to <strong>10 people</strong> and <strong>2 voice personas</strong> (Dear and Friendo, both trilingual in English, French, and Spanish). No time limit, no trial.</p>
+                </div>
+                <div data-lang="fr">
+                    <p>La version gratuite inclut jusqu&rsquo;&agrave; <strong>10 personnes</strong> et <strong>2 voix</strong> (Dear et Friendo, toutes deux trilingues en anglais, fran&ccedil;ais et espagnol). Pas de limite de temps, pas d&rsquo;essai.</p>
+                </div>
+                <div data-lang="es">
+                    <p>La versi&oacute;n gratuita incluye hasta <strong>10 personas</strong> y <strong>2 voces</strong> (Dear y Friendo, ambas triling&uuml;es en ingl&eacute;s, franc&eacute;s y espa&ntilde;ol). Sin l&iacute;mite de tiempo, sin periodo de prueba.</p>
+                </div>
             </div>
         </div>
 
         <div class="faq-item">
-            <button class="faq-question">What's the difference between Monthly and Annual?</button>
+            <button class="faq-question">
+                <span data-lang="en">What's the difference between Monthly and Annual?</span>
+                <span data-lang="fr">Quelle est la diff&eacute;rence entre l&rsquo;abonnement mensuel et annuel&nbsp;?</span>
+                <span data-lang="es">&iquest;Cu&aacute;l es la diferencia entre el plan mensual y el anual?</span>
+            </button>
             <div class="faq-answer">
-                <p>Both unlock <strong>unlimited people</strong>. The only difference is how you pay:</p>
-                <ul>
-                    <li><strong>Monthly:</strong> $2.99/month</li>
-                    <li><strong>Annual:</strong> $14.99/year</li>
-                </ul>
-                <p>Voice personas are sold separately. Or get everything with Dear+.</p>
+                <div data-lang="en">
+                    <p>Both unlock <strong>unlimited people</strong>. The only difference is how you pay:</p>
+                    <ul>
+                        <li><strong>Monthly:</strong> $2.99/month</li>
+                        <li><strong>Annual:</strong> $14.99/year</li>
+                    </ul>
+                    <p>Voice personas are sold separately. Or get everything with Dear+.</p>
+                </div>
+                <div data-lang="fr">
+                    <p>Les deux d&eacute;bloquent un <strong>nombre illimit&eacute; de personnes</strong>. La seule diff&eacute;rence est le mode de paiement&nbsp;:</p>
+                    <ul>
+                        <li><strong>Mensuel&nbsp;:</strong> 2,99&nbsp;$/mois</li>
+                        <li><strong>Annuel&nbsp;:</strong> 14,99&nbsp;$/an</li>
+                    </ul>
+                    <p>Les voix sont vendues s&eacute;par&eacute;ment. Ou obtiens tout avec Dear+.</p>
+                </div>
+                <div data-lang="es">
+                    <p>Ambos desbloquean <strong>personas ilimitadas</strong>. La &uacute;nica diferencia es c&oacute;mo pagas:</p>
+                    <ul>
+                        <li><strong>Mensual:</strong> $2.99/mes</li>
+                        <li><strong>Anual:</strong> $14.99/a&ntilde;o</li>
+                    </ul>
+                    <p>Las voces se venden por separado. O consigue todo con Dear+.</p>
+                </div>
             </div>
         </div>
 
         <div class="faq-item">
-            <button class="faq-question">What's the difference between individual voices, the Voice Bundle, and Dear+?</button>
+            <button class="faq-question">
+                <span data-lang="en">What's the difference between individual voices, the Voice Bundle, and Dear+?</span>
+                <span data-lang="fr">Quelle est la diff&eacute;rence entre les voix individuelles, le pack de voix et Dear+&nbsp;?</span>
+                <span data-lang="es">&iquest;Cu&aacute;l es la diferencia entre voces individuales, el paquete de voces y Dear+?</span>
+            </button>
             <div class="faq-answer">
-                <ul>
-                    <li><strong>Individual voice:</strong> $0.99 each. Buy just the ones you want.</li>
-                    <li><strong>All Voices Bundle:</strong> $5.99 for all 13 premium voices.</li>
-                    <li><strong>Dear+:</strong> $39.99 one-time for unlimited people + all voices + everything we build next.</li>
-                </ul>
+                <div data-lang="en">
+                    <ul>
+                        <li><strong>Individual voice:</strong> $0.99 each. Buy just the ones you want.</li>
+                        <li><strong>All Voices Bundle:</strong> $5.99 for all 13 premium voices.</li>
+                        <li><strong>Dear+:</strong> $39.99 one-time for unlimited people + all voices + everything we build next.</li>
+                    </ul>
+                </div>
+                <div data-lang="fr">
+                    <ul>
+                        <li><strong>Voix individuelle&nbsp;:</strong> 0,99&nbsp;$ chacune. Ach&egrave;te seulement celles que tu veux.</li>
+                        <li><strong>Pack de toutes les voix&nbsp;:</strong> 5,99&nbsp;$ pour les 13 voix premium.</li>
+                        <li><strong>Dear+&nbsp;:</strong> 39,99&nbsp;$ (achat unique) pour personnes illimit&eacute;es + toutes les voix + tout ce qu&rsquo;on construira ensuite.</li>
+                    </ul>
+                </div>
+                <div data-lang="es">
+                    <ul>
+                        <li><strong>Voz individual:</strong> $0.99 cada una. Compra solo las que quieras.</li>
+                        <li><strong>Paquete de todas las voces:</strong> $5.99 por las 13 voces premium.</li>
+                        <li><strong>Dear+:</strong> $39.99 (compra &uacute;nica) para personas ilimitadas + todas las voces + todo lo que construyamos despu&eacute;s.</li>
+                    </ul>
+                </div>
             </div>
         </div>
 
         <div class="faq-item">
-            <button class="faq-question">How do I restore my purchases on a new device?</button>
+            <button class="faq-question">
+                <span data-lang="en">How do I restore my purchases on a new device?</span>
+                <span data-lang="fr">Comment restaurer mes achats sur un nouvel appareil&nbsp;?</span>
+                <span data-lang="es">&iquest;C&oacute;mo restauro mis compras en un dispositivo nuevo?</span>
+            </button>
             <div class="faq-answer">
-                <p>Go to <strong>Dear > Settings</strong> and tap <strong>Restore Purchases</strong>. Make sure you're signed into the same Apple ID you used to purchase. Your subscriptions and voice purchases will be restored automatically.</p>
+                <div data-lang="en">
+                    <p>Go to <strong>Dear > Settings</strong> and tap <strong>Restore Purchases</strong>. Make sure you're signed into the same Apple ID you used to purchase. Your subscriptions and voice purchases will be restored automatically.</p>
+                </div>
+                <div data-lang="fr">
+                    <p>Va dans <strong>Dear > R&eacute;glages</strong> et appuie sur <strong>Restaurer les achats</strong>. Assure-toi d&rsquo;&ecirc;tre connect&eacute; avec le m&ecirc;me identifiant Apple utilis&eacute; pour l&rsquo;achat. Tes abonnements et tes voix achet&eacute;es seront restaur&eacute;s automatiquement.</p>
+                </div>
+                <div data-lang="es">
+                    <p>Ve a <strong>Dear > Ajustes</strong> y toca <strong>Restaurar compras</strong>. Aseg&uacute;rate de haber iniciado sesi&oacute;n con el mismo Apple ID que usaste para la compra. Tus suscripciones y voces compradas se restaurar&aacute;n autom&aacute;ticamente.</p>
+                </div>
             </div>
         </div>
 
         <div class="faq-item">
-            <button class="faq-question">How do I cancel my subscription?</button>
+            <button class="faq-question">
+                <span data-lang="en">How do I cancel my subscription?</span>
+                <span data-lang="fr">Comment annuler mon abonnement&nbsp;?</span>
+                <span data-lang="es">&iquest;C&oacute;mo cancelo mi suscripci&oacute;n?</span>
+            </button>
             <div class="faq-answer">
-                <p>Subscriptions are managed through Apple. Go to your iPhone's <strong>Settings > your name > Subscriptions > Dear</strong> and tap <strong>Cancel Subscription</strong>. You'll keep access until the end of your current billing period.</p>
+                <div data-lang="en">
+                    <p>Subscriptions are managed through Apple. Go to your iPhone's <strong>Settings > your name > Subscriptions > Dear</strong> and tap <strong>Cancel Subscription</strong>. You'll keep access until the end of your current billing period.</p>
+                </div>
+                <div data-lang="fr">
+                    <p>Les abonnements sont g&eacute;r&eacute;s par Apple. Va dans <strong>R&eacute;glages > ton nom > Abonnements > Dear</strong> sur ton iPhone et appuie sur <strong>Annuler l&rsquo;abonnement</strong>. Tu garderas l&rsquo;acc&egrave;s jusqu&rsquo;&agrave; la fin de ta p&eacute;riode de facturation en cours.</p>
+                </div>
+                <div data-lang="es">
+                    <p>Las suscripciones se gestionan a trav&eacute;s de Apple. Ve a <strong>Ajustes > tu nombre > Suscripciones > Dear</strong> en tu iPhone y toca <strong>Cancelar suscripci&oacute;n</strong>. Mantendr&aacute;s el acceso hasta el final de tu periodo de facturaci&oacute;n actual.</p>
+                </div>
             </div>
         </div>
 
         <div class="faq-item">
-            <button class="faq-question">I was charged but my purchase isn't showing up.</button>
+            <button class="faq-question">
+                <span data-lang="en">I was charged but my purchase isn't showing up.</span>
+                <span data-lang="fr">J&rsquo;ai &eacute;t&eacute; d&eacute;bit&eacute; mais mon achat n&rsquo;appara&icirc;t pas.</span>
+                <span data-lang="es">Se me cobr&oacute; pero mi compra no aparece.</span>
+            </button>
             <div class="faq-answer">
-                <p>Try these steps:</p>
-                <ul>
-                    <li>Go to <strong>Settings > Restore Purchases</strong> in Dear.</li>
-                    <li>Make sure you're connected to the internet.</li>
-                    <li>Restart the app.</li>
-                </ul>
-                <p>If it still doesn't work, email us at <a href="mailto:support@dearnudges.com?subject=Purchase%20issue">support@dearnudges.com</a> with your Apple receipt and we'll help sort it out.</p>
+                <div data-lang="en">
+                    <p>Try these steps:</p>
+                    <ul>
+                        <li>Go to <strong>Settings > Restore Purchases</strong> in Dear.</li>
+                        <li>Make sure you're connected to the internet.</li>
+                        <li>Restart the app.</li>
+                    </ul>
+                    <p>If it still doesn't work, email us at <a href="mailto:support@dearnudges.com?subject=Purchase%20issue">support@dearnudges.com</a> with your Apple receipt and we'll help sort it out.</p>
+                </div>
+                <div data-lang="fr">
+                    <p>Essaie ces &eacute;tapes&nbsp;:</p>
+                    <ul>
+                        <li>Va dans <strong>R&eacute;glages > Restaurer les achats</strong> dans Dear.</li>
+                        <li>Assure-toi d&rsquo;&ecirc;tre connect&eacute; &agrave; internet.</li>
+                        <li>Red&eacute;marre l&rsquo;app.</li>
+                    </ul>
+                    <p>Si &ccedil;a ne fonctionne toujours pas, &eacute;cris-nous &agrave; <a href="mailto:support@dearnudges.com?subject=Probl%C3%A8me%20d%27achat">support@dearnudges.com</a> avec ton re&ccedil;u Apple et on t&rsquo;aidera &agrave; r&eacute;gler &ccedil;a.</p>
+                </div>
+                <div data-lang="es">
+                    <p>Prueba estos pasos:</p>
+                    <ul>
+                        <li>Ve a <strong>Ajustes > Restaurar compras</strong> en Dear.</li>
+                        <li>Aseg&uacute;rate de estar conectado a internet.</li>
+                        <li>Reinicia la app.</li>
+                    </ul>
+                    <p>Si a&uacute;n no funciona, escr&iacute;benos a <a href="mailto:support@dearnudges.com?subject=Problema%20de%20compra">support@dearnudges.com</a> con tu recibo de Apple y te ayudaremos a resolverlo.</p>
+                </div>
             </div>
         </div>
 
         <div class="faq-item">
-            <button class="faq-question">Do individual voice purchases expire?</button>
+            <button class="faq-question">
+                <span data-lang="en">Do individual voice purchases expire?</span>
+                <span data-lang="fr">Les achats de voix individuelles expirent-ils&nbsp;?</span>
+                <span data-lang="es">&iquest;Las compras de voces individuales expiran?</span>
+            </button>
             <div class="faq-answer">
-                <p>No. Individual voices and the All Voices Bundle are one-time purchases. They're yours forever.</p>
-                <p>Note: Dear+ and voice purchases are one-time and yours forever. Subscription prices may change, but your current rate is locked in while active.</p>
+                <div data-lang="en">
+                    <p>No. Individual voices and the All Voices Bundle are one-time purchases. They're yours forever.</p>
+                    <p>Note: Dear+ and voice purchases are one-time and yours forever. Subscription prices may change, but your current rate is locked in while active.</p>
+                </div>
+                <div data-lang="fr">
+                    <p>Non. Les voix individuelles et le pack de toutes les voix sont des achats uniques. Elles sont &agrave; toi pour toujours.</p>
+                    <p>Note&nbsp;: Dear+ et les achats de voix sont des achats uniques et &agrave; toi pour toujours. Les prix d&rsquo;abonnement peuvent changer, mais ton tarif actuel est garanti tant que ton abonnement est actif.</p>
+                </div>
+                <div data-lang="es">
+                    <p>No. Las voces individuales y el paquete de todas las voces son compras &uacute;nicas. Son tuyas para siempre.</p>
+                    <p>Nota: Dear+ y las compras de voces son &uacute;nicas y tuyas para siempre. Los precios de suscripci&oacute;n pueden cambiar, pero tu tarifa actual se mantiene mientras est&eacute; activa.</p>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- VOICES -->
     <div class="category">
-        <div class="category-title">Voices and Personas</div>
+        <div class="category-title">
+            <span data-lang="en">Voices and Personas</span>
+            <span data-lang="fr">Voix et personnages</span>
+            <span data-lang="es">Voces y personajes</span>
+        </div>
 
         <div class="faq-item">
-            <button class="faq-question">How do I change my nudge voice?</button>
+            <button class="faq-question">
+                <span data-lang="en">How do I change my nudge voice?</span>
+                <span data-lang="fr">Comment changer ma voix de rappel&nbsp;?</span>
+                <span data-lang="es">&iquest;C&oacute;mo cambio mi voz de recordatorio?</span>
+            </button>
             <div class="faq-answer">
-                <p>Go to <strong>Dear > Settings</strong> and scroll to <strong>Your Voice</strong>. Tap any voice to select it. Your nudges will use that voice starting with your next nudge.</p>
+                <div data-lang="en">
+                    <p>Go to <strong>Dear > Settings</strong> and scroll to <strong>Your Voice</strong>. Tap any voice to select it. Your nudges will use that voice starting with your next nudge.</p>
+                </div>
+                <div data-lang="fr">
+                    <p>Va dans <strong>Dear > R&eacute;glages</strong> et fais d&eacute;filer jusqu&rsquo;&agrave; <strong>Ta voix</strong>. Appuie sur une voix pour la s&eacute;lectionner. Tes rappels utiliseront cette voix &agrave; partir du prochain.</p>
+                </div>
+                <div data-lang="es">
+                    <p>Ve a <strong>Dear > Ajustes</strong> y despl&aacute;zate hasta <strong>Tu voz</strong>. Toca cualquier voz para seleccionarla. Tus recordatorios usar&aacute;n esa voz a partir del siguiente.</p>
+                </div>
             </div>
         </div>
 
         <div class="faq-item">
-            <button class="faq-question">What voices are included for free?</button>
+            <button class="faq-question">
+                <span data-lang="en">What voices are included for free?</span>
+                <span data-lang="fr">Quelles voix sont incluses gratuitement&nbsp;?</span>
+                <span data-lang="es">&iquest;Qu&eacute; voces est&aacute;n incluidas gratis?</span>
+            </button>
             <div class="faq-answer">
-                <p><strong>Dear</strong> and <strong>Friendo</strong> are free and work in English, French, and Spanish (they automatically match your device language).</p>
+                <div data-lang="en">
+                    <p><strong>Dear</strong> and <strong>Friendo</strong> are free and work in English, French, and Spanish (they automatically match your device language).</p>
+                </div>
+                <div data-lang="fr">
+                    <p><strong>Dear</strong> et <strong>Friendo</strong> sont gratuites et fonctionnent en anglais, fran&ccedil;ais et espagnol (elles s&rsquo;adaptent automatiquement &agrave; la langue de ton appareil).</p>
+                </div>
+                <div data-lang="es">
+                    <p><strong>Dear</strong> y <strong>Friendo</strong> son gratuitas y funcionan en ingl&eacute;s, franc&eacute;s y espa&ntilde;ol (se adaptan autom&aacute;ticamente al idioma de tu dispositivo).</p>
+                </div>
                 <div class="voice-sample">
                     <span class="voice-name">Dear:</span> "It's been a little while since you've reached out to Alex. A quick text could really make their day."
                 </div>
@@ -420,9 +713,21 @@
         </div>
 
         <div class="faq-item">
-            <button class="faq-question">What do the premium voices sound like?</button>
+            <button class="faq-question">
+                <span data-lang="en">What do the premium voices sound like?</span>
+                <span data-lang="fr">&Agrave; quoi ressemblent les voix premium&nbsp;?</span>
+                <span data-lang="es">&iquest;C&oacute;mo suenan las voces premium?</span>
+            </button>
             <div class="faq-answer">
-                <p><strong>English voices ($0.99 each):</strong></p>
+                <div data-lang="en">
+                    <p><strong>English voices ($0.99 each):</strong></p>
+                </div>
+                <div data-lang="fr">
+                    <p><strong>Voix anglaises (0,99&nbsp;$ chacune)&nbsp;:</strong></p>
+                </div>
+                <div data-lang="es">
+                    <p><strong>Voces en ingl&eacute;s ($0.99 cada una):</strong></p>
+                </div>
                 <div class="voice-sample">
                     <span class="voice-name">Sherlock:</span> "The dust on your conversation with Alex tells me it's been at least a fortnight. Unacceptable."
                 </div>
@@ -445,7 +750,15 @@
                     <span class="voice-name">Mom Text:</span> "Hi sweetie!! Just wondering if you've talked to Alex lately?? Love you!!"
                 </div>
 
-                <p style="margin-top: 16px;"><strong>French voices ($0.99 each):</strong></p>
+                <div data-lang="en">
+                    <p style="margin-top: 16px;"><strong>French voices ($0.99 each):</strong></p>
+                </div>
+                <div data-lang="fr">
+                    <p style="margin-top: 16px;"><strong>Voix fran&ccedil;aises (0,99&nbsp;$ chacune)&nbsp;:</strong></p>
+                </div>
+                <div data-lang="es">
+                    <p style="margin-top: 16px;"><strong>Voces en franc&eacute;s ($0.99 cada una):</strong></p>
+                </div>
                 <div class="voice-sample">
                     <span class="voice-name">Marcel Proust:</span> "Le temps perdu ne se rattrape qu'en retrouvant ceux qu'on a aim&eacute;s. Alex fait partie de ces &ecirc;tres dont l'absence deviendrait un regret."
                 </div>
@@ -456,7 +769,15 @@
                     <span class="voice-name">Le Renard:</span> "Tu es responsable d'Alex. Tu l'as apprivois&eacute;. Envoie-lui un mot."
                 </div>
 
-                <p style="margin-top: 16px;"><strong>Spanish voices ($0.99 each):</strong></p>
+                <div data-lang="en">
+                    <p style="margin-top: 16px;"><strong>Spanish voices ($0.99 each):</strong></p>
+                </div>
+                <div data-lang="fr">
+                    <p style="margin-top: 16px;"><strong>Voix espagnoles (0,99&nbsp;$ chacune)&nbsp;:</strong></p>
+                </div>
+                <div data-lang="es">
+                    <p style="margin-top: 16px;"><strong>Voces en espa&ntilde;ol ($0.99 cada una):</strong></p>
+                </div>
                 <div class="voice-sample">
                     <span class="voice-name">Don Quijote:</span> "Alma noble, Alex merece unas palabras suyas. No hace falta una gran gesta, basta un saludo sincero."
                 </div>
@@ -470,103 +791,259 @@
         </div>
 
         <div class="faq-item">
-            <button class="faq-question">What are trilingual voices?</button>
+            <button class="faq-question">
+                <span data-lang="en">What are trilingual voices?</span>
+                <span data-lang="fr">Qu&rsquo;est-ce que les voix trilingues&nbsp;?</span>
+                <span data-lang="es">&iquest;Qu&eacute; son las voces triling&uuml;es?</span>
+            </button>
             <div class="faq-answer">
-                <p>Dear and Friendo automatically match your device language. If your iPhone is set to French, they nudge you in French. Set to Spanish, they nudge in Spanish. All other voices stay in their native language (English, French, or Spanish).</p>
+                <div data-lang="en">
+                    <p>Dear and Friendo automatically match your device language. If your iPhone is set to French, they nudge you in French. Set to Spanish, they nudge in Spanish. All other voices stay in their native language (English, French, or Spanish).</p>
+                </div>
+                <div data-lang="fr">
+                    <p>Dear et Friendo s&rsquo;adaptent automatiquement &agrave; la langue de ton appareil. Si ton iPhone est en fran&ccedil;ais, les rappels sont en fran&ccedil;ais. En espagnol, les rappels sont en espagnol. Toutes les autres voix restent dans leur langue d&rsquo;origine (anglais, fran&ccedil;ais ou espagnol).</p>
+                </div>
+                <div data-lang="es">
+                    <p>Dear y Friendo se adaptan autom&aacute;ticamente al idioma de tu dispositivo. Si tu iPhone est&aacute; en franc&eacute;s, te recuerdan en franc&eacute;s. En espa&ntilde;ol, te recuerdan en espa&ntilde;ol. Todas las dem&aacute;s voces se mantienen en su idioma nativo (ingl&eacute;s, franc&eacute;s o espa&ntilde;ol).</p>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- FEATURES -->
     <div class="category">
-        <div class="category-title">Features</div>
+        <div class="category-title">
+            <span data-lang="en">Features</span>
+            <span data-lang="fr">Fonctionnalit&eacute;s</span>
+            <span data-lang="es">Funciones</span>
+        </div>
 
         <div class="faq-item">
-            <button class="faq-question">How does the WhatsApp toggle work?</button>
+            <button class="faq-question">
+                <span data-lang="en">How does the WhatsApp toggle work?</span>
+                <span data-lang="fr">Comment fonctionne l&rsquo;option WhatsApp&nbsp;?</span>
+                <span data-lang="es">&iquest;C&oacute;mo funciona la opci&oacute;n de WhatsApp?</span>
+            </button>
             <div class="faq-answer">
-                <p>Go to <strong>Dear > Settings</strong> and switch from <strong>Messages</strong> to <strong>WhatsApp</strong>. When you tap "Text" on a nudge card, Dear will open WhatsApp instead of Messages. If WhatsApp isn't installed, Dear falls back to Messages automatically.</p>
+                <div data-lang="en">
+                    <p>Go to <strong>Dear > Settings</strong> and switch from <strong>Messages</strong> to <strong>WhatsApp</strong>. When you tap "Text" on a nudge card, Dear will open WhatsApp instead of Messages. If WhatsApp isn't installed, Dear falls back to Messages automatically.</p>
+                </div>
+                <div data-lang="fr">
+                    <p>Va dans <strong>Dear > R&eacute;glages</strong> et passe de <strong>Messages</strong> &agrave; <strong>WhatsApp</strong>. Quand tu appuies sur &laquo;&nbsp;Texte&nbsp;&raquo; sur une carte de rappel, Dear ouvrira WhatsApp au lieu de Messages. Si WhatsApp n&rsquo;est pas install&eacute;, Dear bascule automatiquement sur Messages.</p>
+                </div>
+                <div data-lang="es">
+                    <p>Ve a <strong>Dear > Ajustes</strong> y cambia de <strong>Messages</strong> a <strong>WhatsApp</strong>. Cuando toques "Texto" en una tarjeta de recordatorio, Dear abrir&aacute; WhatsApp en lugar de Messages. Si WhatsApp no est&aacute; instalado, Dear vuelve autom&aacute;ticamente a Messages.</p>
+                </div>
             </div>
         </div>
 
         <div class="faq-item">
-            <button class="faq-question">How do I set up the Dear widget?</button>
+            <button class="faq-question">
+                <span data-lang="en">How do I set up the Dear widget?</span>
+                <span data-lang="fr">Comment configurer le widget Dear&nbsp;?</span>
+                <span data-lang="es">&iquest;C&oacute;mo configuro el widget de Dear?</span>
+            </button>
             <div class="faq-answer">
-                <p>Long-press your home screen, tap the <strong>+</strong> button in the top corner, search for <strong>Dear</strong>, and choose a small or medium widget. The widget shows your current nudge and updates daily.</p>
-                <p>The Emily Bront&euml; voice has a special dark widget design called "The Looking Glass."</p>
+                <div data-lang="en">
+                    <p>Long-press your home screen, tap the <strong>+</strong> button in the top corner, search for <strong>Dear</strong>, and choose a small or medium widget. The widget shows your current nudge and updates daily.</p>
+                    <p>The Emily Bront&euml; voice has a special dark widget design called "The Looking Glass."</p>
+                </div>
+                <div data-lang="fr">
+                    <p>Appuie longuement sur ton &eacute;cran d&rsquo;accueil, appuie sur le bouton <strong>+</strong> en haut, cherche <strong>Dear</strong>, et choisis un petit ou moyen widget. Le widget affiche ton rappel du jour et se met &agrave; jour quotidiennement.</p>
+                    <p>La voix Emily Bront&euml; a un design de widget sombre sp&eacute;cial appel&eacute; &laquo;&nbsp;The Looking Glass&nbsp;&raquo;.</p>
+                </div>
+                <div data-lang="es">
+                    <p>Mant&eacute;n presionada la pantalla de inicio, toca el bot&oacute;n <strong>+</strong> en la esquina superior, busca <strong>Dear</strong> y elige un widget peque&ntilde;o o mediano. El widget muestra tu recordatorio actual y se actualiza diariamente.</p>
+                    <p>La voz Emily Bront&euml; tiene un dise&ntilde;o de widget oscuro especial llamado "The Looking Glass".</p>
+                </div>
             </div>
         </div>
 
         <div class="faq-item">
-            <button class="faq-question">How many nudges do I get per day?</button>
+            <button class="faq-question">
+                <span data-lang="en">How many nudges do I get per day?</span>
+                <span data-lang="fr">Combien de rappels par jour&nbsp;?</span>
+                <span data-lang="es">&iquest;Cu&aacute;ntos recordatorios recibo por d&iacute;a?</span>
+            </button>
             <div class="faq-answer">
-                <p>You can choose 1, 2, or 3 nudges per day in <strong>Dear > Settings > Nudges Per Day</strong>. Each nudge suggests a different person to reach out to.</p>
+                <div data-lang="en">
+                    <p>You can choose 1, 2, or 3 nudges per day in <strong>Dear > Settings > Nudges Per Day</strong>. Each nudge suggests a different person to reach out to.</p>
+                </div>
+                <div data-lang="fr">
+                    <p>Tu peux choisir 1, 2 ou 3 rappels par jour dans <strong>Dear > R&eacute;glages > Rappels par jour</strong>. Chaque rappel te sugg&egrave;re une personne diff&eacute;rente &agrave; contacter.</p>
+                </div>
+                <div data-lang="es">
+                    <p>Puedes elegir 1, 2 o 3 recordatorios por d&iacute;a en <strong>Dear > Ajustes > Recordatorios por d&iacute;a</strong>. Cada recordatorio te sugiere una persona diferente con quien comunicarte.</p>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- PRIVACY -->
     <div class="category">
-        <div class="category-title">Privacy and Data</div>
+        <div class="category-title">
+            <span data-lang="en">Privacy and Data</span>
+            <span data-lang="fr">Confidentialit&eacute; et donn&eacute;es</span>
+            <span data-lang="es">Privacidad y datos</span>
+        </div>
 
         <div class="faq-item">
-            <button class="faq-question">Does Dear collect my data?</button>
+            <button class="faq-question">
+                <span data-lang="en">Does Dear collect my data?</span>
+                <span data-lang="fr">Dear collecte-t-il mes donn&eacute;es&nbsp;?</span>
+                <span data-lang="es">&iquest;Dear recopila mis datos?</span>
+            </button>
             <div class="faq-answer">
-                <p>No. Dear has no server, no backend, no analytics, and no tracking. We do not know who you are, who your people are, or how you use the app. Everything stays on your device. Read our full <a href="privacy.html">privacy policy</a>.</p>
+                <div data-lang="en">
+                    <p>No. Dear has no server, no backend, no analytics, and no tracking. We do not know who you are, who your people are, or how you use the app. Everything stays on your device. Read our full <a href="privacy.html">privacy policy</a>.</p>
+                </div>
+                <div data-lang="fr">
+                    <p>Non. Dear n&rsquo;a pas de serveur, pas de backend, pas d&rsquo;analytique et pas de suivi. Nous ne savons pas qui tu es, qui sont tes proches, ni comment tu utilises l&rsquo;app. Tout reste sur ton appareil. Lis notre <a href="privacy.html">politique de confidentialit&eacute;</a> compl&egrave;te.</p>
+                </div>
+                <div data-lang="es">
+                    <p>No. Dear no tiene servidor, ni backend, ni anal&iacute;ticas, ni rastreo. No sabemos qui&eacute;n eres, qui&eacute;nes son tus personas, ni c&oacute;mo usas la app. Todo se queda en tu dispositivo. Lee nuestra <a href="privacy.html">pol&iacute;tica de privacidad</a> completa.</p>
+                </div>
             </div>
         </div>
 
         <div class="faq-item">
-            <button class="faq-question">Do I need to create an account?</button>
+            <button class="faq-question">
+                <span data-lang="en">Do I need to create an account?</span>
+                <span data-lang="fr">Dois-je cr&eacute;er un compte&nbsp;?</span>
+                <span data-lang="es">&iquest;Necesito crear una cuenta?</span>
+            </button>
             <div class="faq-answer">
-                <p>No. There are no accounts, no sign-ups, no passwords. You open the app and start using it.</p>
+                <div data-lang="en">
+                    <p>No. There are no accounts, no sign-ups, no passwords. You open the app and start using it.</p>
+                </div>
+                <div data-lang="fr">
+                    <p>Non. Pas de compte, pas d&rsquo;inscription, pas de mot de passe. Tu ouvres l&rsquo;app et tu commences &agrave; l&rsquo;utiliser.</p>
+                </div>
+                <div data-lang="es">
+                    <p>No. No hay cuentas, ni registros, ni contrase&ntilde;as. Abres la app y empiezas a usarla.</p>
+                </div>
             </div>
         </div>
 
         <div class="faq-item">
-            <button class="faq-question">Can Dear see my messages or call history?</button>
+            <button class="faq-question">
+                <span data-lang="en">Can Dear see my messages or call history?</span>
+                <span data-lang="fr">Dear peut-il voir mes messages ou mon historique d&rsquo;appels&nbsp;?</span>
+                <span data-lang="es">&iquest;Dear puede ver mis mensajes o historial de llamadas?</span>
+            </button>
             <div class="faq-answer">
-                <p>No. When you tap Text, Call, or FaceTime, Dear hands you off to the relevant app (Messages, Phone, FaceTime, or WhatsApp). Dear cannot see your conversations, call logs, or any communication content.</p>
+                <div data-lang="en">
+                    <p>No. When you tap Text, Call, or FaceTime, Dear hands you off to the relevant app (Messages, Phone, FaceTime, or WhatsApp). Dear cannot see your conversations, call logs, or any communication content.</p>
+                </div>
+                <div data-lang="fr">
+                    <p>Non. Quand tu appuies sur Texte, Appel ou FaceTime, Dear te redirige vers l&rsquo;app concern&eacute;e (Messages, T&eacute;l&eacute;phone, FaceTime ou WhatsApp). Dear ne peut pas voir tes conversations, tes journaux d&rsquo;appels ou le contenu de tes communications.</p>
+                </div>
+                <div data-lang="es">
+                    <p>No. Cuando tocas Texto, Llamar o FaceTime, Dear te redirige a la app correspondiente (Messages, Tel&eacute;fono, FaceTime o WhatsApp). Dear no puede ver tus conversaciones, registros de llamadas ni ning&uacute;n contenido de comunicaci&oacute;n.</p>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- TROUBLESHOOTING -->
     <div class="category">
-        <div class="category-title">Troubleshooting</div>
+        <div class="category-title">
+            <span data-lang="en">Troubleshooting</span>
+            <span data-lang="fr">D&eacute;pannage</span>
+            <span data-lang="es">Soluci&oacute;n de problemas</span>
+        </div>
 
         <div class="faq-item">
-            <button class="faq-question">I'm not receiving notifications.</button>
+            <button class="faq-question">
+                <span data-lang="en">I'm not receiving notifications.</span>
+                <span data-lang="fr">Je ne re&ccedil;ois pas de notifications.</span>
+                <span data-lang="es">No recibo notificaciones.</span>
+            </button>
             <div class="faq-answer">
-                <p>Check these settings on your iPhone:</p>
-                <ul>
-                    <li><strong>Settings > Notifications > Dear</strong> -- make sure notifications are enabled.</li>
-                    <li><strong>Settings > Focus</strong> -- if you use Focus modes, make sure Dear is allowed.</li>
-                    <li><strong>Dear > Settings > Notifications</strong> -- make sure the toggle is on.</li>
-                    <li>Check your <strong>Nudge Time</strong> in Dear's settings. Notifications arrive at the time you set.</li>
-                </ul>
+                <div data-lang="en">
+                    <p>Check these settings on your iPhone:</p>
+                    <ul>
+                        <li><strong>Settings > Notifications > Dear</strong> -- make sure notifications are enabled.</li>
+                        <li><strong>Settings > Focus</strong> -- if you use Focus modes, make sure Dear is allowed.</li>
+                        <li><strong>Dear > Settings > Notifications</strong> -- make sure the toggle is on.</li>
+                        <li>Check your <strong>Nudge Time</strong> in Dear's settings. Notifications arrive at the time you set.</li>
+                    </ul>
+                </div>
+                <div data-lang="fr">
+                    <p>V&eacute;rifie ces r&eacute;glages sur ton iPhone&nbsp;:</p>
+                    <ul>
+                        <li><strong>R&eacute;glages > Notifications > Dear</strong> -- assure-toi que les notifications sont activ&eacute;es.</li>
+                        <li><strong>R&eacute;glages > Concentration</strong> -- si tu utilises les modes Concentration, assure-toi que Dear est autoris&eacute;.</li>
+                        <li><strong>Dear > R&eacute;glages > Notifications</strong> -- assure-toi que l&rsquo;option est activ&eacute;e.</li>
+                        <li>V&eacute;rifie ton <strong>heure de rappel</strong> dans les r&eacute;glages de Dear. Les notifications arrivent &agrave; l&rsquo;heure que tu as choisie.</li>
+                    </ul>
+                </div>
+                <div data-lang="es">
+                    <p>Revisa estos ajustes en tu iPhone:</p>
+                    <ul>
+                        <li><strong>Ajustes > Notificaciones > Dear</strong> -- aseg&uacute;rate de que las notificaciones est&eacute;n activadas.</li>
+                        <li><strong>Ajustes > Concentraci&oacute;n</strong> -- si usas modos de Concentraci&oacute;n, aseg&uacute;rate de que Dear est&eacute; permitido.</li>
+                        <li><strong>Dear > Ajustes > Notificaciones</strong> -- aseg&uacute;rate de que la opci&oacute;n est&eacute; activada.</li>
+                        <li>Revisa tu <strong>hora de recordatorio</strong> en los ajustes de Dear. Las notificaciones llegan a la hora que configuraste.</li>
+                    </ul>
+                </div>
             </div>
         </div>
 
         <div class="faq-item">
-            <button class="faq-question">My contacts aren't appearing in the app.</button>
+            <button class="faq-question">
+                <span data-lang="en">My contacts aren't appearing in the app.</span>
+                <span data-lang="fr">Mes contacts n&rsquo;apparaissent pas dans l&rsquo;app.</span>
+                <span data-lang="es">Mis contactos no aparecen en la app.</span>
+            </button>
             <div class="faq-answer">
-                <p>Go to your iPhone's <strong>Settings > Privacy & Security > Contacts > Dear</strong> and make sure access is enabled. If you previously denied access, you'll need to enable it here.</p>
+                <div data-lang="en">
+                    <p>Go to your iPhone's <strong>Settings > Privacy & Security > Contacts > Dear</strong> and make sure access is enabled. If you previously denied access, you'll need to enable it here.</p>
+                </div>
+                <div data-lang="fr">
+                    <p>Va dans <strong>R&eacute;glages > Confidentialit&eacute; et s&eacute;curit&eacute; > Contacts > Dear</strong> sur ton iPhone et assure-toi que l&rsquo;acc&egrave;s est activ&eacute;. Si tu as refus&eacute; l&rsquo;acc&egrave;s auparavant, tu devras l&rsquo;activer ici.</p>
+                </div>
+                <div data-lang="es">
+                    <p>Ve a <strong>Ajustes > Privacidad y seguridad > Contactos > Dear</strong> en tu iPhone y aseg&uacute;rate de que el acceso est&eacute; activado. Si negaste el acceso anteriormente, tendr&aacute;s que activarlo aqu&iacute;.</p>
+                </div>
             </div>
         </div>
 
         <div class="faq-item">
-            <button class="faq-question">A purchase isn't unlocking.</button>
+            <button class="faq-question">
+                <span data-lang="en">A purchase isn't unlocking.</span>
+                <span data-lang="fr">Un achat ne se d&eacute;bloque pas.</span>
+                <span data-lang="es">Una compra no se desbloquea.</span>
+            </button>
             <div class="faq-answer">
-                <p>Go to <strong>Dear > Settings > Restore Purchases</strong>. Make sure you're signed into the same Apple ID used for the purchase and that you have an internet connection. If it still doesn't work, email us.</p>
+                <div data-lang="en">
+                    <p>Go to <strong>Dear > Settings > Restore Purchases</strong>. Make sure you're signed into the same Apple ID used for the purchase and that you have an internet connection. If it still doesn't work, email us.</p>
+                </div>
+                <div data-lang="fr">
+                    <p>Va dans <strong>Dear > R&eacute;glages > Restaurer les achats</strong>. Assure-toi d&rsquo;&ecirc;tre connect&eacute; avec le m&ecirc;me identifiant Apple utilis&eacute; pour l&rsquo;achat et d&rsquo;avoir une connexion internet. Si &ccedil;a ne fonctionne toujours pas, &eacute;cris-nous.</p>
+                </div>
+                <div data-lang="es">
+                    <p>Ve a <strong>Dear > Ajustes > Restaurar compras</strong>. Aseg&uacute;rate de haber iniciado sesi&oacute;n con el mismo Apple ID usado para la compra y de tener conexi&oacute;n a internet. Si a&uacute;n no funciona, escr&iacute;benos.</p>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- CONTACT -->
     <div class="contact-section">
-        <h2>Still need help?</h2>
-        <p>We usually respond within 48 hours.</p>
-        <a href="mailto:support@dearnudges.com?subject=Dear%20App%20Support">Email Support</a>
+        <h2>
+            <span data-lang="en">Still need help?</span>
+            <span data-lang="fr">Tu as encore besoin d&rsquo;aide&nbsp;?</span>
+            <span data-lang="es">&iquest;A&uacute;n necesitas ayuda?</span>
+        </h2>
+        <p>
+            <span data-lang="en">We usually respond within 48 hours.</span>
+            <span data-lang="fr">Nous r&eacute;pondons g&eacute;n&eacute;ralement sous 48 heures.</span>
+            <span data-lang="es">Generalmente respondemos en 48 horas.</span>
+        </p>
+        <a class="contact-btn" data-lang="en" href="mailto:support@dearnudges.com?subject=Dear%20App%20Support">Email Support</a>
+        <a class="contact-btn" data-lang="fr" href="mailto:support@dearnudges.com?subject=Dear%20App%20-%20Aide">Envoyer un courriel</a>
+        <a class="contact-btn" data-lang="es" href="mailto:support@dearnudges.com?subject=Dear%20App%20-%20Ayuda">Enviar correo</a>
     </div>
 
     <footer>
@@ -578,19 +1055,27 @@
 <nav class="bottom-nav">
     <a href="/">
         <svg viewBox="0 0 24 24"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z"/><path d="M9 21V12h6v9"/></svg>
-        Home
+        <span data-lang="en">Home</span>
+        <span data-lang="fr">Accueil</span>
+        <span data-lang="es">Inicio</span>
     </a>
     <a href="support.html" class="active">
         <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-        Support
+        <span data-lang="en">Support</span>
+        <span data-lang="fr">Aide</span>
+        <span data-lang="es">Ayuda</span>
     </a>
     <a href="privacy.html">
         <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        Privacy
+        <span data-lang="en">Privacy</span>
+        <span data-lang="fr">Confidentialit&eacute;</span>
+        <span data-lang="es">Privacidad</span>
     </a>
     <a href="press.html">
         <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-        Press
+        <span data-lang="en">Press</span>
+        <span data-lang="fr">Presse</span>
+        <span data-lang="es">Prensa</span>
     </a>
     <a href="anna-grace.html">
         <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
@@ -599,6 +1084,7 @@
 </nav>
 
 <script>
+    // FAQ accordion
     document.querySelectorAll('.faq-question').forEach(function(btn) {
         btn.addEventListener('click', function() {
             var item = this.parentElement;
@@ -613,6 +1099,26 @@
             }
         });
     });
+
+    // Language switcher
+    function setLang(lang) {
+        document.querySelectorAll('[data-lang]').forEach(function(el) {
+            var isMatch = el.getAttribute('data-lang') === lang;
+            if (el.tagName === 'SPAN') {
+                el.style.display = isMatch ? 'inline' : 'none';
+            } else if (el.tagName === 'A' && el.classList.contains('contact-btn')) {
+                el.style.display = isMatch ? 'inline-block' : 'none';
+            } else {
+                el.style.display = isMatch ? 'block' : 'none';
+            }
+        });
+
+        // Update active button
+        document.querySelectorAll('.lang-btn').forEach(function(btn) {
+            btn.classList.remove('active');
+        });
+        event.target.classList.add('active');
+    }
 </script>
 
 </body>
