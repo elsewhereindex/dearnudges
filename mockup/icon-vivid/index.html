@@ -3,20 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<title>Dear - Icon Vivid + Accessibility System</title>
+<title>Dear - Final Color Comparison</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
 
   * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
-
-  :root {
-    --accent-fill: #7A90D6;
-    --accent-fill-light: #8FA2DE;
-    --accent-fill-glow: #7A90D630;
-    --accent-text: #4A6DB5;
-    --icon-bg: #8295D0;
-    --old-accent: #5C85D6;
-  }
 
   body {
     font-family: 'Quicksand', -apple-system, sans-serif;
@@ -36,7 +27,6 @@
     font-size: 26px;
     font-weight: 400;
     color: #ccc;
-    letter-spacing: 0.5px;
   }
   .page-header p {
     font-size: 14px;
@@ -49,83 +39,136 @@
     text-decoration: none;
   }
 
-  /* Color system legend */
-  .legend {
-    max-width: 400px;
-    margin: 30px auto 0;
-    padding: 0 20px;
+  .color-nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #1a1a2e;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    padding: 12px 16px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
   }
-  .legend-title {
-    font-size: 13px;
-    font-weight: 700;
+  .color-nav a {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.06);
     color: #aaa;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 14px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
   }
-  .legend-row {
+  .color-nav a .swatch {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1.5px solid rgba(255,255,255,0.2);
+  }
+
+  .mockup-section {
+    padding: 40px 20px 20px;
+    scroll-margin-top: 60px;
+  }
+
+  .mockup-label {
     display: flex;
     align-items: center;
     gap: 12px;
-    padding: 10px 0;
-    border-bottom: 1px solid rgba(255,255,255,0.06);
+    margin-bottom: 8px;
+    max-width: 380px;
+    margin-left: auto;
+    margin-right: auto;
   }
-  .legend-row:last-child { border-bottom: none; }
-  .legend-swatch {
-    width: 36px;
-    height: 36px;
-    border-radius: 10px;
-    flex-shrink: 0;
-    border: 1.5px solid rgba(255,255,255,0.1);
-  }
-  .legend-info {
-    flex: 1;
-  }
-  .legend-name {
+  .mockup-number {
     font-size: 14px;
     font-weight: 700;
-    color: #ddd;
-  }
-  .legend-hex {
-    font-size: 12px;
-    color: #888;
-    margin-top: 2px;
-  }
-  .legend-use {
-    font-size: 12px;
-    color: #777;
-    margin-top: 2px;
-  }
-  .legend-contrast {
-    text-align: right;
+    color: #fff;
+    background: rgba(255,255,255,0.1);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-shrink: 0;
   }
-  .contrast-value {
-    font-size: 16px;
+  .mockup-name {
+    font-size: 18px;
     font-weight: 700;
     color: #fff;
   }
-  .contrast-label {
-    font-size: 10px;
+  .mockup-name .current-badge {
+    font-size: 11px;
+    font-weight: 600;
+    background: rgba(255,200,50,0.2);
+    color: #ffc832;
+    padding: 3px 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+  .mockup-hex {
+    font-size: 13px;
     color: #888;
+    font-weight: 500;
     margin-top: 2px;
   }
-  .contrast-pass {
-    font-size: 10px;
-    font-weight: 700;
-    padding: 2px 6px;
-    border-radius: 4px;
-    margin-top: 4px;
-    display: inline-block;
+  .mockup-desc {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 16px;
+    line-height: 1.5;
+    max-width: 380px;
+    margin-left: auto;
+    margin-right: auto;
   }
-  .pass { background: rgba(80,200,120,0.2); color: #50C878; }
-  .fail { background: rgba(220,80,80,0.15); color: #DC5050; }
-  .close { background: rgba(220,180,50,0.2); color: #DCB432; }
+
+  /* Contrast info */
+  .contrast-info {
+    max-width: 380px;
+    margin: 0 auto 16px;
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  .contrast-chip {
+    font-size: 11px;
+    padding: 4px 10px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.06);
+    color: #aaa;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .contrast-chip .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+  .contrast-chip .ratio {
+    font-weight: 700;
+    color: #ddd;
+  }
+  .contrast-chip .badge {
+    font-size: 9px;
+    font-weight: 700;
+    padding: 1px 5px;
+    border-radius: 3px;
+  }
+  .badge-pass { background: rgba(80,200,120,0.2); color: #50C878; }
+  .badge-close { background: rgba(220,180,50,0.2); color: #DCB432; }
+  .badge-fail { background: rgba(220,80,80,0.15); color: #DC5050; }
 
   /* Phone frame */
   .phone-frame {
     max-width: 380px;
-    margin: 40px auto 0;
+    margin: 0 auto;
     background: #FAF9F7;
     border-radius: 40px;
     overflow: hidden;
@@ -136,24 +179,6 @@
     padding: 60px 20px 0;
   }
 
-  .section-label {
-    max-width: 380px;
-    margin: 30px auto 0;
-    padding: 0 4px;
-  }
-  .section-label h2 {
-    font-size: 16px;
-    font-weight: 700;
-    color: #ccc;
-  }
-  .section-label p {
-    font-size: 12px;
-    color: #777;
-    margin-top: 4px;
-    line-height: 1.4;
-  }
-
-  /* Greeting */
   .greeting {
     text-align: center;
     font-family: Georgia, 'Times New Roman', serif;
@@ -164,12 +189,11 @@
     padding: 10px 0 28px;
   }
 
-  /* Card */
   .nudge-card {
     background: #fff;
     border-radius: 16px;
     padding: 20px;
-    box-shadow: 0 4px 12px rgba(122, 144, 214, 0.08);
+    box-shadow: 0 4px 12px var(--shadow);
     border: 0.5px solid rgba(0,0,0,0.04);
     margin-bottom: 14px;
   }
@@ -211,7 +235,7 @@
     font-family: 'Quicksand', sans-serif;
     font-size: 14px;
     font-weight: 500;
-    color: var(--accent-text);
+    color: var(--text-accent);
   }
   .action-btn svg { width: 14px; height: 14px; }
 
@@ -222,26 +246,25 @@
     justify-content: center;
     gap: 6px;
     padding: 14px 0;
-    background: linear-gradient(to bottom, var(--accent-fill-light), var(--accent-fill));
+    background: linear-gradient(to bottom, var(--fill-light), var(--fill));
     border: none;
     border-radius: 14px;
     font-family: 'Quicksand', sans-serif;
     font-size: 17px;
     font-weight: 700;
     color: #fff;
-    box-shadow: 0 5px 15px var(--accent-fill-glow);
+    box-shadow: 0 5px 15px var(--glow);
   }
   .done-btn svg { width: 18px; height: 18px; }
 
   .nudge-card-secondary { opacity: 0.85; }
 
-  /* Overflow */
   .overflow-section { margin-top: 20px; }
   .overflow-toggle {
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
     font-weight: 600;
-    color: var(--accent-text);
+    color: var(--text-accent);
     background: none;
     border: none;
     display: flex;
@@ -253,7 +276,7 @@
     background: #fff;
     border-radius: 16px;
     padding: 4px 16px;
-    box-shadow: 0 4px 12px rgba(122, 144, 214, 0.08);
+    box-shadow: 0 4px 12px var(--shadow);
     margin-top: 8px;
   }
   .overflow-row {
@@ -279,13 +302,9 @@
     width: 24px;
     height: 24px;
     border-radius: 50%;
-    border: 2px solid var(--accent-fill);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border: 2px solid var(--fill);
   }
 
-  /* Tab bar */
   .tab-bar {
     display: flex;
     justify-content: space-around;
@@ -304,310 +323,265 @@
     font-weight: 600;
     color: #8E8E93;
   }
-  .tab-item.active { color: var(--accent-fill); }
+  .tab-item.active { color: var(--fill); }
   .tab-item svg { width: 22px; height: 22px; }
 
-  /* Annotations */
-  .anno {
-    position: relative;
-  }
-  .anno-tag {
-    position: absolute;
-    right: -8px;
-    top: -8px;
-    font-size: 9px;
-    font-weight: 700;
-    padding: 2px 6px;
-    border-radius: 4px;
-    z-index: 10;
-    white-space: nowrap;
-  }
-  .tag-fill { background: rgba(122,144,214,0.15); color: #7A90D6; }
-  .tag-text { background: rgba(74,109,181,0.15); color: #4A6DB5; }
-
-  /* Icon comparison */
+  /* Icon comparison row */
   .icon-compare {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 12px;
     max-width: 380px;
-    margin: 30px auto 0;
-    padding: 16px;
+    margin: 20px auto 0;
+    padding: 14px 16px;
     background: rgba(255,255,255,0.04);
     border-radius: 16px;
   }
   .icon-compare img {
-    width: 60px;
-    height: 60px;
-    border-radius: 14px;
+    width: 52px;
+    height: 52px;
+    border-radius: 12px;
   }
-  .icon-compare-swatches {
+  .icon-swatches {
     display: flex;
     gap: 8px;
     flex: 1;
   }
-  .icon-swatch-item {
+  .sw-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 4px;
+    gap: 3px;
   }
-  .icon-swatch {
-    width: 32px;
-    height: 32px;
+  .sw {
+    width: 28px;
+    height: 28px;
     border-radius: 8px;
     border: 1.5px solid rgba(255,255,255,0.12);
   }
-  .icon-swatch-label {
+  .sw-label {
     font-size: 9px;
     color: #888;
-    text-align: center;
-    max-width: 50px;
   }
 
-  .spacer { height: 40px; }
+  .divider { height: 30px; }
 
-  /* Color usage callouts on phone */
-  .usage-callout {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 8px 12px;
-    background: rgba(255,255,255,0.06);
-    border-radius: 10px;
-    margin: 6px auto;
+  /* System explanation */
+  .system-note {
     max-width: 380px;
+    margin: 0 auto;
+    padding: 14px 16px;
+    background: rgba(255,255,255,0.04);
+    border-radius: 12px;
+    font-size: 12px;
+    color: #888;
+    line-height: 1.5;
   }
-  .usage-dot {
-    width: 10px;
-    height: 10px;
+  .system-note strong { color: #bbb; }
+  .system-note .dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
-    flex-shrink: 0;
-  }
-  .usage-text {
-    font-size: 11px;
-    color: #999;
-    line-height: 1.3;
+    vertical-align: middle;
+    margin-right: 4px;
   }
 </style>
 </head>
 <body>
 
 <div class="page-header">
-  <h1>Icon Vivid + Accessibility</h1>
-  <p>Two-tone color system: dusty fill + darker text.<br>
-  <a href="../">&larr; Back to color comparison</a></p>
+  <h1>Final Color Comparison</h1>
+  <p>Three options with the accessibility two-tone system.<br>
+  All use <strong>#4A6DB5</strong> for text (4.6:1 contrast).<br>
+  <a href="../">&larr; Back to all color options</a></p>
 </div>
 
-<!-- Color system legend -->
-<div class="legend">
-  <div class="legend-title">Color System</div>
+<nav class="color-nav">
+  <a href="#color-1"><span class="swatch" style="background:#5C85D6"></span>Original</a>
+  <a href="#color-2"><span class="swatch" style="background:#6B8AD6"></span>Halfway</a>
+  <a href="#color-3"><span class="swatch" style="background:#7A90D6"></span>Icon Vivid</a>
+</nav>
 
-  <div class="legend-row">
-    <div class="legend-swatch" style="background: var(--accent-fill)"></div>
-    <div class="legend-info">
-      <div class="legend-name">Icon Vivid (Fill)</div>
-      <div class="legend-hex">#7A90D6</div>
-      <div class="legend-use">Filled buttons, tab icons, checkboxes, decorative</div>
-    </div>
-    <div class="legend-contrast">
-      <div class="contrast-value">3.2:1</div>
-      <div class="contrast-label">vs white</div>
-      <div class="contrast-pass pass">AA Large</div>
-    </div>
-  </div>
-
-  <div class="legend-row">
-    <div class="legend-swatch" style="background: var(--accent-text)"></div>
-    <div class="legend-info">
-      <div class="legend-name">Text Blue (Text)</div>
-      <div class="legend-hex">#4A6DB5</div>
-      <div class="legend-use">Button labels, links, toggle text</div>
-    </div>
-    <div class="legend-contrast">
-      <div class="contrast-value">4.6:1</div>
-      <div class="contrast-label">vs white</div>
-      <div class="contrast-pass pass">AA Normal</div>
-    </div>
-  </div>
-
-  <div class="legend-row">
-    <div class="legend-swatch" style="background: #fff; border-color: rgba(0,0,0,0.1)"></div>
-    <div class="legend-info">
-      <div class="legend-name">White on Fill</div>
-      <div class="legend-hex">#FFFFFF on #7A90D6</div>
-      <div class="legend-use">Done button text, filled button labels</div>
-    </div>
-    <div class="legend-contrast">
-      <div class="contrast-value">3.2:1</div>
-      <div class="contrast-label">white on fill</div>
-      <div class="contrast-pass close">AA Large</div>
-    </div>
-  </div>
-
-  <div class="legend-row">
-    <div class="legend-swatch" style="background: var(--icon-bg)"></div>
-    <div class="legend-info">
-      <div class="legend-name">App Icon (reference)</div>
-      <div class="legend-hex">#8295D0</div>
-      <div class="legend-use">Not used in UI. Shown for comparison.</div>
-    </div>
-    <div class="legend-contrast">
-      <div class="contrast-value">--</div>
-      <div class="contrast-label">&nbsp;</div>
-    </div>
-  </div>
-
-  <div class="legend-row">
-    <div class="legend-swatch" style="background: var(--old-accent)"></div>
-    <div class="legend-info">
-      <div class="legend-name">Old Nile Blue (reference)</div>
-      <div class="legend-hex">#5C85D6</div>
-      <div class="legend-use">Previous accent. Shown for comparison.</div>
-    </div>
-    <div class="legend-contrast">
-      <div class="contrast-value">3.5:1</div>
-      <div class="contrast-label">vs white</div>
-      <div class="contrast-pass fail">Fails AA</div>
-    </div>
-  </div>
+<div class="system-note" style="margin-top: 20px;">
+  <strong>How the two-tone system works:</strong><br>
+  <span class="dot" style="background:#4A6DB5"></span><strong>Text color</strong> (#4A6DB5, 4.6:1) for labels, links, button text on white<br>
+  <span class="dot" style="background:#7A90D6"></span><strong>Fill color</strong> (varies per option) for filled buttons, icons, decorative elements
 </div>
 
-<!-- Usage callouts -->
-<div style="max-width: 400px; margin: 24px auto 0; padding: 0 20px;">
-  <div class="usage-callout">
-    <div class="usage-dot" style="background: var(--accent-fill)"></div>
-    <div class="usage-text"><strong>Fill color</strong> on: Done button bg, tab icons, checkbox rings, card shadows</div>
-  </div>
-  <div class="usage-callout">
-    <div class="usage-dot" style="background: var(--accent-text)"></div>
-    <div class="usage-text"><strong>Text color</strong> on: Text/Call/Video labels, overflow toggle, links</div>
-  </div>
-</div>
+<script>
+const options = [
+  {
+    name: "Original Nile Blue",
+    fill: "#5C85D6",
+    fillLight: "#729ADE",
+    text: "#4A6DB5",
+    hex: "#5C85D6",
+    badge: "CURRENT",
+    desc: "Your current accent as the fill color, paired with darker text blue for labels.",
+    fillContrast: "3.5:1",
+    fillGrade: "close",
+    fillLabel: "AA Large",
+    whiteOnFill: "3.0:1",
+    whiteGrade: "close",
+    whiteLabel: "AA Large"
+  },
+  {
+    name: "Gentle Nudge",
+    fill: "#6B8AD6",
+    fillLight: "#7F9DDE",
+    text: "#4A6DB5",
+    hex: "#6B8AD6",
+    badge: null,
+    desc: "One-third of the way from original toward the icon. Barely different but slightly softer, less electric.",
+    fillContrast: "3.3:1",
+    fillGrade: "close",
+    fillLabel: "AA Large",
+    whiteOnFill: "2.9:1",
+    whiteGrade: "close",
+    whiteLabel: "AA Large"
+  },
+  {
+    name: "Icon Vivid",
+    fill: "#7A90D6",
+    fillLight: "#8FA2DE",
+    text: "#4A6DB5",
+    hex: "#7A90D6",
+    badge: null,
+    desc: "Icon's dusty periwinkle with more saturation. Seamless splash-to-app transition. Luxury designer's pick.",
+    fillContrast: "3.2:1",
+    fillGrade: "close",
+    fillLabel: "AA Large",
+    whiteOnFill: "2.8:1",
+    whiteGrade: "fail",
+    whiteLabel: "Needs lg text"
+  }
+];
 
-<!-- Phone mockup -->
-<div class="section-label">
-  <h2>Home Screen</h2>
-  <p>See how the two-tone system works together.</p>
-</div>
+function svg(type, color) {
+  const c = color;
+  if (type === 'msg') return `<svg viewBox="0 0 24 24" fill="none" stroke="${c}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>`;
+  if (type === 'phone') return `<svg viewBox="0 0 24 24" fill="none" stroke="${c}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>`;
+  if (type === 'video') return `<svg viewBox="0 0 24 24" fill="none" stroke="${c}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>`;
+  if (type === 'check') return `<svg viewBox="0 0 24 24" fill="none" stroke="${c}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>`;
+  if (type === 'home') return `<svg viewBox="0 0 24 24" fill="none" stroke="${c}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>`;
+  if (type === 'people') return `<svg viewBox="0 0 24 24" fill="none" stroke="#8E8E93" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>`;
+  if (type === 'settings') return `<svg viewBox="0 0 24 24" fill="none" stroke="#8E8E93" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>`;
+  if (type === 'chev') return `<svg viewBox="0 0 24 24" fill="none" stroke="${c}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:13px;height:13px"><polyline points="6 9 12 15 18 9"/></svg>`;
+  return '';
+}
 
-<div class="phone-frame">
-  <div class="phone-screen">
-    <div class="greeting">Good evening</div>
+function render(o, i) {
+  const glow = o.fill + '30';
+  const shadow = o.fill + '14';
+  const badgeHtml = o.badge ? `<span class="current-badge">${o.badge}</span>` : '';
+  const gradeClass = {pass:'badge-pass', close:'badge-close', fail:'badge-fail'};
 
-    <div class="nudge-card">
-      <div class="person-name">Sarah</div>
-      <div class="time-label">Last Thursday</div>
-      <div class="warm-message">A moment of kindness could make her whole week.</div>
-      <div class="action-row">
-        <div class="action-btn">
-          <svg viewBox="0 0 24 24" fill="none" stroke="#4A6DB5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-          Text
-        </div>
-        <div class="action-btn">
-          <svg viewBox="0 0 24 24" fill="none" stroke="#4A6DB5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          Call
-        </div>
-        <div class="action-btn">
-          <svg viewBox="0 0 24 24" fill="none" stroke="#4A6DB5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
-          Video
-        </div>
+  return `
+  <div class="mockup-section" id="color-${i}" style="--fill:${o.fill};--fill-light:${o.fillLight};--text-accent:${o.text};--glow:${glow};--shadow:${shadow};">
+    <div class="mockup-label">
+      <div class="mockup-number">${i}</div>
+      <div>
+        <div class="mockup-name">${o.name}${badgeHtml}</div>
+        <div class="mockup-hex">Fill: ${o.hex} / Text: ${o.text}</div>
       </div>
-      <div class="done-btn">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-        Done
+    </div>
+    <div class="mockup-desc">${o.desc}</div>
+
+    <div class="contrast-info">
+      <div class="contrast-chip">
+        <span class="dot" style="background:${o.fill}"></span>
+        Fill vs white: <span class="ratio">${o.fillContrast}</span>
+        <span class="badge ${gradeClass[o.fillGrade]}">${o.fillLabel}</span>
+      </div>
+      <div class="contrast-chip">
+        <span class="dot" style="background:#fff;border:1px solid #555"></span>
+        White on fill: <span class="ratio">${o.whiteOnFill}</span>
+        <span class="badge ${gradeClass[o.whiteGrade]}">${o.whiteLabel}</span>
+      </div>
+      <div class="contrast-chip">
+        <span class="dot" style="background:${o.text}"></span>
+        Text vs white: <span class="ratio">4.6:1</span>
+        <span class="badge badge-pass">AA Normal</span>
       </div>
     </div>
 
-    <div class="nudge-card nudge-card-secondary">
-      <div class="person-name">Marcus</div>
-      <div class="time-label">2 weeks ago</div>
-      <div class="warm-message">Some friendships ripen slowly. This one is worth tending.</div>
-      <div class="action-row">
-        <div class="action-btn">
-          <svg viewBox="0 0 24 24" fill="none" stroke="#4A6DB5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-          Text
+    <div class="phone-frame">
+      <div class="phone-screen">
+        <div class="greeting">Good evening</div>
+
+        <div class="nudge-card">
+          <div class="person-name">Sarah</div>
+          <div class="time-label">Last Thursday</div>
+          <div class="warm-message">A moment of kindness could make her whole week.</div>
+          <div class="action-row">
+            <div class="action-btn">${svg('msg', o.text)} Text</div>
+            <div class="action-btn">${svg('phone', o.text)} Call</div>
+            <div class="action-btn">${svg('video', o.text)} Video</div>
+          </div>
+          <div class="done-btn">${svg('check', '#fff')} Done</div>
         </div>
-        <div class="action-btn">
-          <svg viewBox="0 0 24 24" fill="none" stroke="#4A6DB5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          Call
+
+        <div class="nudge-card nudge-card-secondary">
+          <div class="person-name">Marcus</div>
+          <div class="time-label">2 weeks ago</div>
+          <div class="warm-message">Some friendships ripen slowly. This one is worth tending.</div>
+          <div class="action-row">
+            <div class="action-btn">${svg('msg', o.text)} Text</div>
+            <div class="action-btn">${svg('phone', o.text)} Call</div>
+            <div class="action-btn">${svg('video', o.text)} Video</div>
+          </div>
+          <div class="done-btn">${svg('check', '#fff')} Done</div>
         </div>
-        <div class="action-btn">
-          <svg viewBox="0 0 24 24" fill="none" stroke="#4A6DB5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
-          Video
+
+        <div class="overflow-section">
+          <div class="overflow-toggle">${svg('chev', o.text)} 3 more people</div>
+          <div class="overflow-list">
+            <div class="overflow-row">
+              <div class="overflow-name">Jamie</div>
+              <div class="overflow-time">3 days</div>
+              <div class="overflow-check"></div>
+            </div>
+            <div class="overflow-row">
+              <div class="overflow-name">Priya</div>
+              <div class="overflow-time">1 week</div>
+              <div class="overflow-check"></div>
+            </div>
+            <div class="overflow-row">
+              <div class="overflow-name">Tom</div>
+              <div class="overflow-time">10 days</div>
+              <div class="overflow-check"></div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="done-btn">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-        Done
+
+        <div class="tab-bar">
+          <div class="tab-item active">${svg('home', o.fill)}<span>Home</span></div>
+          <div class="tab-item">${svg('people', '')}<span>People</span></div>
+          <div class="tab-item">${svg('settings', '')}<span>Settings</span></div>
+        </div>
       </div>
     </div>
 
-    <div class="overflow-section">
-      <div class="overflow-toggle">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#4A6DB5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:13px;height:13px"><polyline points="6 9 12 15 18 9"/></svg>
-        3 more people
-      </div>
-      <div class="overflow-list">
-        <div class="overflow-row">
-          <div class="overflow-name">Jamie</div>
-          <div class="overflow-time">3 days</div>
-          <div class="overflow-check"></div>
-        </div>
-        <div class="overflow-row">
-          <div class="overflow-name">Priya</div>
-          <div class="overflow-time">1 week</div>
-          <div class="overflow-check"></div>
-        </div>
-        <div class="overflow-row">
-          <div class="overflow-name">Tom</div>
-          <div class="overflow-time">10 days</div>
-          <div class="overflow-check"></div>
-        </div>
+    <div class="icon-compare">
+      <img src="app-icon.png" alt="Dear app icon">
+      <div class="icon-swatches">
+        <div class="sw-item"><div class="sw" style="background:#8295D0"></div><div class="sw-label">Icon</div></div>
+        <div class="sw-item"><div class="sw" style="background:${o.fill}"></div><div class="sw-label">Fill</div></div>
+        <div class="sw-item"><div class="sw" style="background:${o.text}"></div><div class="sw-label">Text</div></div>
       </div>
     </div>
 
-    <div class="tab-bar">
-      <div class="tab-item active">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#7A90D6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
-        <span>Home</span>
-      </div>
-      <div class="tab-item">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#8E8E93" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-        <span>People</span>
-      </div>
-      <div class="tab-item">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#8E8E93" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
-        <span>Settings</span>
-      </div>
-    </div>
-  </div>
-</div>
+    <div class="divider"></div>
+  </div>`;
+}
 
-<!-- Icon comparison -->
-<div class="icon-compare">
-  <img src="app-icon.png" alt="Dear app icon">
-  <div class="icon-compare-swatches">
-    <div class="icon-swatch-item">
-      <div class="icon-swatch" style="background: #8295D0"></div>
-      <div class="icon-swatch-label">Icon bg</div>
-    </div>
-    <div class="icon-swatch-item">
-      <div class="icon-swatch" style="background: #7A90D6"></div>
-      <div class="icon-swatch-label">Fill (new)</div>
-    </div>
-    <div class="icon-swatch-item">
-      <div class="icon-swatch" style="background: #4A6DB5"></div>
-      <div class="icon-swatch-label">Text (new)</div>
-    </div>
-    <div class="icon-swatch-item">
-      <div class="icon-swatch" style="background: #5C85D6"></div>
-      <div class="icon-swatch-label">Old accent</div>
-    </div>
-  </div>
-</div>
-
-<div class="spacer"></div>
+const container = document.createElement('div');
+options.forEach((o, idx) => {
+  container.innerHTML += render(o, idx + 1);
+});
+document.body.appendChild(container);
+</script>
 
 </body>
 </html>
