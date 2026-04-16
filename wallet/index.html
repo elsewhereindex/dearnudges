@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dear - Add to Apple Wallet</title>
+    <meta name="apple-itunes-app" content="app-id=6760280035">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,400;1,9..144,700&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Quicksand', -apple-system, sans-serif;
+            background: #FAFAFD;
+            color: #2D2D2D;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            -webkit-font-smoothing: antialiased;
+        }
+        .card {
+            text-align: center;
+            max-width: 360px;
+        }
+        .icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 18px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-family: 'Fraunces', Georgia, serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 1.8rem;
+            color: #6B8AD6;
+            margin-bottom: 12px;
+        }
+        p {
+            font-size: 0.92rem;
+            color: #7A767B;
+            line-height: 1.6;
+            margin-bottom: 24px;
+        }
+        .wallet-btn {
+            display: inline-block;
+            background: #2D2D2D;
+            color: white;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 600;
+            font-size: 0.9rem;
+            padding: 14px 28px;
+            border-radius: 12px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            transition: opacity 0.15s;
+        }
+        .wallet-btn:hover { opacity: 0.85; }
+        .note {
+            font-size: 0.75rem;
+            color: #B0ADB0;
+            margin-top: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="../app-icon.png" alt="Dear" class="icon">
+        <h1>Dear</h1>
+        <p>Add Dear to your Apple Wallet. Show the QR code to share the app with friends.</p>
+        <button class="wallet-btn" onclick="downloadPass()">Add to Apple Wallet</button>
+        <p class="note">Requires iPhone with iOS 6 or later.</p>
+    </div>
+
+    <script>
+        function downloadPass() {
+            fetch('DearCard.pkpass')
+                .then(response => response.blob())
+                .then(blob => {
+                    var url = URL.createObjectURL(new Blob([blob], {type: 'application/vnd.apple.pkpass'}));
+                    var a = document.createElement('a');
+                    a.href = url;
+                    a.download = 'DearCard.pkpass';
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                    URL.revokeObjectURL(url);
+                });
+        }
+    </script>
+</body>
+</html>
