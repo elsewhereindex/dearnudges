@@ -219,8 +219,13 @@
             line-height: 1.5;
         }
 
-        .contact-section a.contact-btn {
+        .contact-section a.contact-btn[data-lang] {
+            display: none;
+        }
+        .contact-section a.contact-btn[data-lang="en"] {
             display: inline-block;
+        }
+        .contact-section a.contact-btn {
             background: #8396D1;
             color: white;
             font-family: 'Quicksand', sans-serif;
