@@ -481,8 +481,8 @@
           <div class="card-tag">Cut B</div>
           <div class="tier-stack">
             <div class="tier-row"><span class="tier-pct">5%</span><span class="tier-range">MRR from $1K to $5K</span></div>
-            <div class="tier-row"><span class="tier-pct">10%</span><span class="tier-range">MRR from $5K to $25K</span></div>
-            <div class="tier-row"><span class="tier-pct">15%</span><span class="tier-range">MRR above $25K</span></div>
+            <div class="tier-row"><span class="tier-pct">8%</span><span class="tier-range">MRR from $5K to $25K</span></div>
+            <div class="tier-row"><span class="tier-pct">10%</span><span class="tier-range">MRR above $25K</span></div>
           </div>
           <div class="card-desc">Monthly revenue share, tiered. Nothing below $1K MRR.</div>
         </div>
@@ -570,10 +570,10 @@
     <p>A tiered share of Dear's monthly net revenue, paid monthly. Net = revenue after Apple's platform cut. Below $1,000 MRR, zero. Above $1K MRR, the rate climbs in brackets:</p>
     <ul class="bare">
       <li><strong>5%</strong> on MRR from $1,000 to $5,000</li>
-      <li><strong>10%</strong> on MRR from $5,000 to $25,000</li>
-      <li><strong>15%</strong> on MRR above $25,000</li>
+      <li><strong>8%</strong> on MRR from $5,000 to $25,000</li>
+      <li><strong>10%</strong> on MRR above $25,000</li>
     </ul>
-    <p>The brackets compound, the way tax brackets do. At $10K MRR you earn 5% on the first $4K above the floor plus 10% on the next $5K, not a flat rate on the whole thing.</p>
+    <p>The brackets compound, the way tax brackets do. At $10K MRR you earn 5% on the first $4K above the floor plus 8% on the next $5K, not a flat rate on the whole thing.</p>
     <p class="small">Cash-flow note: payments adjust to actual cash availability. If a given month's free cash flow is negative, that month's Cut B accrues and is paid out the next cash-positive month. Nothing forfeited. Any unsettled balance at sale is paid out of sale proceeds before Cut A is calculated.</p>
 
     <hr class="rule">
@@ -676,8 +676,8 @@
     var TIER1_TOP = 5000;
     var TIER2_TOP = 25000;
     var TIER1_RATE = 0.05;
-    var TIER2_RATE = 0.10;
-    var TIER3_RATE = 0.15;
+    var TIER2_RATE = 0.08;
+    var TIER3_RATE = 0.10;
     var ARPU = 2.50;
     var APPLE_NET = 0.85;
 
@@ -728,8 +728,8 @@
 
       var rateText;
       if (netMRR <= TIER1_TOP) rateText = '5% tier ($1K-$5K range)';
-      else if (netMRR <= TIER2_TOP) rateText = '5% / 10% (in $5K-$25K range)';
-      else rateText = '5% / 10% / 15% (in $25K+ range)';
+      else if (netMRR <= TIER2_TOP) rateText = '5% / 8% (in $5K-$25K range)';
+      else rateText = '5% / 8% / 10% (in $25K+ range)';
 
       return { total: total, rateText: rateText };
     }
