@@ -572,15 +572,29 @@
         <div class="calc-input">
           <label>% who subscribe</label>
           <div class="input-row">
-            <input type="range" id="subRate" min="0.5" max="50" step="0.5" value="4">
+            <div class="slider-with-ticks">
+              <input type="range" id="subRate" min="0.5" max="50" step="0.5" value="4">
+              <div class="slider-ticks">
+                <span class="tick" style="left: 3%;">freemium avg</span>
+                <span class="tick" style="left: 21%;">hard paywall avg</span>
+                <span class="tick" style="left: 50%;">top tier</span>
+              </div>
+            </div>
             <div class="calc-value" id="subRateVal">4.0%</div>
           </div>
         </div>
 
         <div class="calc-input">
-          <label>Exit multiple (sale price = ARR &times; this)</label>
+          <label>Exit multiple (multiple &times; ARR = sale price)</label>
           <div class="input-row">
-            <input type="range" id="multiple" min="3" max="20" step="0.5" value="5">
+            <div class="slider-with-ticks">
+              <input type="range" id="multiple" min="3" max="20" step="0.5" value="5">
+              <div class="slider-ticks">
+                <span class="tick" style="left: 12%;">indie median</span>
+                <span class="tick" style="left: 41%;">strong SaaS</span>
+                <span class="tick" style="left: 71%;">strategic</span>
+              </div>
+            </div>
             <div class="calc-value" id="multipleVal">5.0x ARR</div>
           </div>
         </div>
