@@ -16,6 +16,8 @@
       --rule: #D9D5CD;
       --accent: #6B8AD6;
       --accent-soft: #EAF0FA;
+      --warn-bg: #FBF3E6;
+      --warn-ink: #8B6E2E;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -33,7 +35,7 @@
     }
 
     .page {
-      max-width: 680px;
+      max-width: 700px;
       margin: 0 auto;
     }
 
@@ -67,7 +69,7 @@
       text-transform: uppercase;
       color: var(--soft);
       font-weight: 500;
-      margin-top: 2rem;
+      margin-top: 1.75rem;
       margin-bottom: 0.75rem;
     }
 
@@ -90,12 +92,21 @@
       margin: 1.5rem 0 0;
     }
 
+    .calc-section-label {
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--soft);
+      font-weight: 500;
+      margin-bottom: 0.85rem;
+      padding-bottom: 0.65rem;
+      border-bottom: 1px solid var(--rule);
+    }
+
     .calc-defs {
       font-size: 0.92rem;
       color: var(--ink);
       margin-bottom: 1.5rem;
-      padding-bottom: 1.25rem;
-      border-bottom: 1px solid var(--rule);
     }
 
     .calc-defs .def {
@@ -110,8 +121,17 @@
     .calc-inputs {
       display: grid;
       grid-template-columns: 1fr;
-      gap: 1.5rem;
+      gap: 1.25rem;
       margin-bottom: 1.5rem;
+    }
+
+    .calc-section {
+      padding-top: 1.25rem;
+    }
+
+    .calc-section:not(:first-child) {
+      border-top: 1px dashed var(--rule);
+      margin-top: 0.5rem;
     }
 
     .calc-input label {
@@ -138,7 +158,7 @@
       font-size: 0.95rem;
       color: var(--ink);
       font-variant-numeric: tabular-nums;
-      min-width: 110px;
+      min-width: 115px;
       text-align: right;
     }
 
@@ -177,6 +197,19 @@
 
     .calc-output {
       padding-top: 0.5rem;
+    }
+
+    .threshold-callout {
+      background: var(--warn-bg);
+      color: var(--warn-ink);
+      padding: 0.85rem 1rem;
+      border-radius: 4px;
+      font-size: 0.88rem;
+      margin: 1rem 0;
+      display: none;
+    }
+    .threshold-callout.visible {
+      display: block;
     }
 
     .calc-assumptions {
@@ -312,7 +345,7 @@
       body { padding: 3rem 1.25rem 5rem; }
       h1 { font-size: 1.85rem; }
       .calc { padding: 1.25rem; }
-      .calc-input .calc-value { min-width: 90px; font-size: 0.9rem; }
+      .calc-input .calc-value { min-width: 95px; font-size: 0.9rem; }
       .timeline { grid-template-columns: repeat(2, 1fr); }
       .quarter:nth-child(2) { border-right: 0; }
       .quarter:nth-child(1), .quarter:nth-child(2) { border-bottom: 1px solid var(--rule); }
@@ -325,51 +358,88 @@
     <h1>Joining Dear</h1>
 
     <h2>Quick estimate</h2>
-    <p class="small">Phantom equity at Dear has two cuts. Adjust the assumptions below to see what they look like at different scales.</p>
+    <p class="small">Phantom equity at Dear has two cuts. Drag the sliders to see what they look like at different scales.</p>
 
     <div class="calc">
       <div class="calc-defs">
-        <div class="def"><strong>Cut A</strong> · 5% of net proceeds if/when Dear is sold.</div>
-        <div class="def"><strong>Cut B</strong> · 3% of monthly net revenue above $10K MRR. Grows to 6% if MRR sustains $25K+ for 60 days.</div>
+        <div class="def"><strong>Cut A</strong> · % of net proceeds if/when Dear is sold.</div>
+        <div class="def"><strong>Cut B</strong> · % of monthly net revenue above the $5,000 MRR threshold. Grows to a higher rate if MRR sustains $25,000+ for 60 days.</div>
       </div>
 
-      <div class="calc-inputs">
-        <div class="calc-input">
-          <label>Active users</label>
-          <div class="input-row">
-            <input type="range" id="users" min="0" max="100000" step="500" value="25000">
-            <div class="calc-value" id="usersVal">25,000</div>
+      <div class="calc-section">
+        <div class="calc-section-label">Business scenario</div>
+        <div class="calc-inputs">
+          <div class="calc-input">
+            <label>Active users</label>
+            <div class="input-row">
+              <input type="range" id="users" min="0" max="100000" step="500" value="25000">
+              <div class="calc-value" id="usersVal">25,000</div>
+            </div>
           </div>
-        </div>
 
-        <div class="calc-input">
-          <label>% who subscribe</label>
-          <div class="input-row">
-            <input type="range" id="subRate" min="0.5" max="15" step="0.1" value="3">
-            <div class="calc-value" id="subRateVal">3.0%</div>
+          <div class="calc-input">
+            <label>% who subscribe</label>
+            <div class="input-row">
+              <input type="range" id="subRate" min="0.5" max="15" step="0.1" value="3">
+              <div class="calc-value" id="subRateVal">3.0%</div>
+            </div>
           </div>
-        </div>
 
-        <div class="calc-input">
-          <label>Hypothetical sale price (Cut A scenario)</label>
-          <div class="input-row">
-            <input type="range" id="sale" min="0" max="50000000" step="500000" value="5000000">
-            <div class="calc-value" id="saleVal">$5,000,000</div>
+          <div class="calc-input">
+            <label>Hypothetical sale price</label>
+            <div class="input-row">
+              <input type="range" id="sale" min="0" max="50000000" step="500000" value="5000000">
+              <div class="calc-value" id="saleVal">$5,000,000</div>
+            </div>
           </div>
         </div>
+      </div>
+
+      <div class="calc-section">
+        <div class="calc-section-label">Your equity tier</div>
+        <div class="calc-inputs">
+          <div class="calc-input">
+            <label>Cut A · % of sale</label>
+            <div class="input-row">
+              <input type="range" id="cutA" min="1" max="25" step="0.5" value="10">
+              <div class="calc-value" id="cutAVal">10%</div>
+            </div>
+          </div>
+
+          <div class="calc-input">
+            <label>Cut B · % above $5K MRR (floor rate)</label>
+            <div class="input-row">
+              <input type="range" id="cutB" min="1" max="20" step="0.5" value="5">
+              <div class="calc-value" id="cutBVal">5%</div>
+            </div>
+          </div>
+
+          <div class="calc-input">
+            <label>Cut B · % above $25K MRR (after milestone)</label>
+            <div class="input-row">
+              <input type="range" id="cutBRamp" min="1" max="30" step="0.5" value="10">
+              <div class="calc-value" id="cutBRampVal">10%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="threshold-callout" id="thresholdCallout">
+        Below the $5,000 MRR threshold. Cut B pays nothing yet. Cash starts flowing the month Dear crosses $5K MRR.
       </div>
 
       <div class="calc-output">
-        <div class="row"><span class="label">Derived monthly net revenue</span><span class="value" id="mrrOut">$1,594</span></div>
-        <div class="row"><span class="label">Cut B rate (auto)</span><span class="value" id="rateOut">0%</span></div>
+        <div class="row"><span class="label">Subscribers</span><span class="value" id="subsOut">750</span></div>
+        <div class="row"><span class="label">Monthly net revenue</span><span class="value" id="mrrOut">$1,594</span></div>
+        <div class="row"><span class="label">Cut B rate (auto)</span><span class="value" id="rateOut">0% (below threshold)</span></div>
         <div class="row"><span class="label">Cut B gross to portage</span><span class="value" id="cutBGrossOut">$0</span></div>
         <div class="row highlight"><span class="label">Cut B net to your bank, monthly</span><span class="value" id="cutBNetOut">~$0</span></div>
-        <div class="row"><span class="label">Cut A gross to portage at this sale price</span><span class="value" id="cutAGrossOut">$250,000</span></div>
-        <div class="row highlight"><span class="label">Cut A net to your bank, today's structure</span><span class="value" id="cutANetOut">~$95,000</span></div>
+        <div class="row"><span class="label">Cut A gross to portage at this sale price</span><span class="value" id="cutAGrossOut">$500,000</span></div>
+        <div class="row highlight"><span class="label">Cut A net to your bank, today's structure</span><span class="value" id="cutANetOut">~$190,000</span></div>
       </div>
 
       <div class="calc-assumptions">
-        Assumptions: blended ARPU $2.50/month per subscriber (mix of $2.99/mo and $14.99/yr plans), Apple's 15% small-business platform cut, French tax leakage ~62% on payouts via portage salarial. Converting to BSPCE through a French SAS subsidiary in Q4 2026 or Q1 2027 would roughly cut the tax leakage in half, doubling the net figures shown above.
+        Assumptions: blended ARPU $2.50/month per subscriber (mix of $2.99/mo and $14.99/yr plans), Apple's 15% small-business platform cut applied, French tax leakage ~62% on payouts via portage salarial. Converting to BSPCE through a French SAS subsidiary in Q4 2026 or Q1 2027 would roughly cut the tax leakage in half, doubling the net figures shown above.
       </div>
     </div>
 
@@ -382,14 +452,14 @@
     <hr class="rule">
 
     <h2>Cut A · if/when Dear is sold</h2>
-    <p>5% of net proceeds if/when Dear is sold. Sale here means a sale of Dear specifically (the app, the brand, the IP, the user base, the App Store and Play Store listings, anything Dear-related), not a sale of Elsewhere Index LLC. Net = sale price minus broker fees, legal costs, and any Dear-related debt outstanding. If Dear is never sold, this is zero.</p>
-    <p class="small">In Q4 2026 or Q1 2027, if Dear has real revenue, we revisit converting this to BSPCE through a French SAS subsidiary. Same 5%, roughly 30% all-in tax instead of ~62%. Roughly doubles the net to you on the same sale event.</p>
+    <p>Your % of net proceeds if/when Dear is sold. Sale here means a sale of Dear specifically (the app, the brand, the IP, the user base, the App Store and Play Store listings, anything Dear-related), not a sale of Elsewhere Index LLC. Net = sale price minus broker fees, legal costs, and any Dear-related debt outstanding. If Dear is never sold, this is zero.</p>
+    <p class="small">In Q4 2026 or Q1 2027, if Dear has real revenue, we revisit converting this to BSPCE through a French SAS subsidiary. Same percentage, roughly 30% all-in tax instead of ~62%. Roughly doubles the net to you on the same sale event.</p>
 
     <hr class="rule">
 
     <h2>Cut B · monthly revenue share</h2>
-    <p>3% of Dear's monthly net revenue above $10,000 MRR, paid monthly. Net = revenue after Apple's platform cut and infrastructure costs. Below $10K MRR, zero.</p>
-    <p>Grows to 6% if MRR sustains $25,000+ for 60 consecutive days. That's the milestone ramp.</p>
+    <p>Your floor % of Dear's monthly net revenue above $5,000 MRR, paid monthly. Net = revenue after Apple's platform cut and infrastructure costs. Below $5K MRR, zero. You earn nothing from Cut B until Dear is generating real revenue.</p>
+    <p>Grows to the higher rate if MRR sustains $25,000+ for 60 consecutive days. That's the milestone ramp.</p>
 
     <hr class="rule">
 
@@ -458,12 +528,12 @@
 
     <div class="step">
       <div class="when">When Dear hits $5,000 MRR</div>
-      <div class="what">Paper this phantom equity letter. If going near-full-time at that point, set up portage salarial first.</div>
+      <div class="what">Cut B activates. First monthly payments flow. Phantom equity letter papered around the same time.</div>
     </div>
 
     <div class="step">
-      <div class="when">When Dear hits $10,000 MRR sustained 60 days</div>
-      <div class="what">Cut B activates. First monthly payments flow.</div>
+      <div class="when">When Dear sustains $25,000 MRR for 60 days</div>
+      <div class="what">Milestone ramp on Cut B activates.</div>
     </div>
 
     <div class="step">
@@ -472,7 +542,7 @@
     </div>
 
     <div class="footer">
-      <p>Draft proposal, not a contract. Numbers and structure are illustrative and subject to mutual agreement and counsel review. Calculator assumptions reflect 2026 baseline data and should be re-checked when this letter is papered.</p>
+      <p>Draft proposal, not a contract. Numbers and structure are illustrative and subject to mutual agreement and counsel review. The calculator above is for scenario exploration; the actual percentages and thresholds get locked when this letter is papered.</p>
     </div>
   </div>
 
@@ -487,45 +557,65 @@
       return Math.round(n).toLocaleString();
     }
 
+    var FLOOR_MRR = 5000;
+    var RAMP_MRR = 25000;
+    var ARPU = 2.50;
+    var APPLE_NET = 0.85;
+    var FRENCH_NET = 0.38;
+
     function recalc() {
       var users = parseInt(document.getElementById('users').value, 10);
       var subRate = parseFloat(document.getElementById('subRate').value) / 100;
       var sale = parseInt(document.getElementById('sale').value, 10);
+      var cutAPct = parseFloat(document.getElementById('cutA').value);
+      var cutBPct = parseFloat(document.getElementById('cutB').value);
+      var cutBRampPct = parseFloat(document.getElementById('cutBRamp').value);
 
       document.getElementById('usersVal').textContent = fmtNum(users);
-      document.getElementById('subRateVal').textContent = (subRate * 100).toFixed(1) + '%';
+      document.getElementById('subRateVal').textContent = subRate * 100 < 10 ? (subRate * 100).toFixed(1) + '%' : (subRate * 100).toFixed(0) + '%';
       document.getElementById('saleVal').textContent = fmt(sale);
-
-      var arpu = 2.50;
-      var appleNet = 0.85;
+      document.getElementById('cutAVal').textContent = cutAPct + '%';
+      document.getElementById('cutBVal').textContent = cutBPct + '%';
+      document.getElementById('cutBRampVal').textContent = cutBRampPct + '%';
 
       var subscribers = users * subRate;
-      var grossMRR = subscribers * arpu;
-      var netMRR = grossMRR * appleNet;
+      var grossMRR = subscribers * ARPU;
+      var netMRR = grossMRR * APPLE_NET;
 
       var cutBGross = 0;
-      var rateText = '0% (below $10K MRR)';
-      if (netMRR > 25000) {
-        cutBGross = (netMRR - 10000) * 0.06;
-        rateText = '6% (above $25K MRR, milestone hit)';
-      } else if (netMRR > 10000) {
-        cutBGross = (netMRR - 10000) * 0.03;
-        rateText = '3% (between $10K and $25K MRR)';
+      var rateText = '0% (below $' + (FLOOR_MRR / 1000) + 'K threshold)';
+      var atMilestone = netMRR > RAMP_MRR;
+      var aboveFloor = netMRR > FLOOR_MRR;
+
+      if (atMilestone) {
+        cutBGross = (netMRR - FLOOR_MRR) * (cutBRampPct / 100);
+        rateText = cutBRampPct + '% (above $25K MRR, milestone)';
+      } else if (aboveFloor) {
+        cutBGross = (netMRR - FLOOR_MRR) * (cutBPct / 100);
+        rateText = cutBPct + '% (between $5K and $25K MRR)';
       }
 
-      var cutBNet = cutBGross * 0.38;
-      var cutAGross = sale * 0.05;
-      var cutANet = cutAGross * 0.38;
+      var cutBNet = cutBGross * FRENCH_NET;
+      var cutAGross = sale * (cutAPct / 100);
+      var cutANet = cutAGross * FRENCH_NET;
 
+      var callout = document.getElementById('thresholdCallout');
+      if (aboveFloor) {
+        callout.classList.remove('visible');
+      } else {
+        callout.classList.add('visible');
+      }
+
+      document.getElementById('subsOut').textContent = fmtNum(subscribers);
       document.getElementById('mrrOut').textContent = fmt(netMRR);
       document.getElementById('rateOut').textContent = rateText;
-      document.getElementById('cutBGrossOut').textContent = fmt(cutBGross) + '/mo';
-      document.getElementById('cutBNetOut').textContent = '~' + fmt(cutBNet) + '/mo';
+      document.getElementById('cutBGrossOut').textContent = fmt(cutBGross) + (cutBGross > 0 ? '/mo' : '');
+      document.getElementById('cutBNetOut').textContent = '~' + fmt(cutBNet) + (cutBNet > 0 ? '/mo' : '');
       document.getElementById('cutAGrossOut').textContent = fmt(cutAGross);
       document.getElementById('cutANetOut').textContent = '~' + fmt(cutANet);
     }
 
-    ['users', 'subRate', 'sale'].forEach(function(id) {
+    ['users', 'subRate', 'sale', 'cutA', 'cutB', 'cutBRamp'].forEach(function(id) {
       document.getElementById(id).addEventListener('input', recalc);
     });
 
