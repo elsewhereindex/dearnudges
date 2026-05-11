@@ -549,9 +549,103 @@
       .quarter:nth-child(2) { border-right: 0; }
       .quarter:nth-child(1), .quarter:nth-child(2) { border-bottom: 1px solid var(--rule); }
     }
+
+    #passwordGate {
+      position: fixed;
+      inset: 0;
+      background: var(--bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+      padding: 2rem;
+    }
+    .gate-content {
+      max-width: 360px;
+      width: 100%;
+      text-align: center;
+    }
+    .gate-eyebrow {
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--soft);
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+    }
+    .gate-title {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+      line-height: 1.1;
+    }
+    .gate-sub {
+      color: var(--soft);
+      font-size: 0.95rem;
+      margin-bottom: 2rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #gateForm {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    #gatePassword {
+      width: 100%;
+      padding: 0.85rem 1rem;
+      border: 1px solid var(--rule);
+      background: white;
+      font-size: 1rem;
+      font-family: inherit;
+      text-align: center;
+      letter-spacing: 0.02em;
+      color: var(--ink);
+    }
+    #gatePassword:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 1px var(--accent);
+    }
+    #gateSubmit {
+      width: 100%;
+      padding: 0.85rem;
+      background: var(--accent);
+      color: white;
+      border: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+      font-family: inherit;
+      cursor: pointer;
+      letter-spacing: 0.02em;
+    }
+    #gateSubmit:hover { opacity: 0.92; }
+    .gate-error {
+      color: #b00020;
+      font-size: 0.85rem;
+      margin-top: 1rem;
+      display: none;
+    }
+    .gate-error.visible { display: block; }
+    body.unlocked #passwordGate { display: none; }
+    body:not(.unlocked) .page { display: none; }
   </style>
 </head>
 <body>
+  <div id="passwordGate">
+    <div class="gate-content">
+      <div class="gate-eyebrow">Private proposal</div>
+      <h1 class="gate-title">Joining Dear</h1>
+      <p class="gate-sub">Enter the password to view.</p>
+      <form id="gateForm">
+        <input type="password" id="gatePassword" autofocus autocomplete="off" placeholder="Password">
+        <button type="submit" id="gateSubmit">Continue</button>
+      </form>
+      <p id="gateError" class="gate-error">Incorrect. Try again.</p>
+    </div>
+  </div>
+
   <div class="page">
     <div class="meta">Private proposal · Draft · 2026-05</div>
     <h1>Joining Dear</h1>
@@ -808,6 +902,28 @@
   </div>
 
   <script>
+    (function() {
+      if (sessionStorage.getItem('proposalUnlocked') === '1') {
+        document.body.classList.add('unlocked');
+        return;
+      }
+      var form = document.getElementById('gateForm');
+      var input = document.getElementById('gatePassword');
+      var error = document.getElementById('gateError');
+      if (!form) return;
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        if (input.value.toLowerCase().trim() === 'giacomo') {
+          sessionStorage.setItem('proposalUnlocked', '1');
+          document.body.classList.add('unlocked');
+        } else {
+          error.classList.add('visible');
+          input.value = '';
+          input.focus();
+        }
+      });
+    })();
+
     function fmt(n, prefix) {
       prefix = prefix || '$';
       if (n === 0) return prefix + '0';
