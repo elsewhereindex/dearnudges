@@ -760,6 +760,7 @@
       <div class="row"><span class="label">Implied sale price (multiple × ARR)</span><span class="value" id="impliedSaleOut">$255,000</span></div>
       <div class="row highlight divider"><span class="label">Cut A at implied sale <span class="formula" id="cutAFormula"></span></span><span class="value" id="cutAGrossOut">$12,750</span></div>
       <div class="row highlight"><span class="label">Revenue bonus yearly <span class="formula" id="bonusFormula"></span></span><span class="value" id="bonusOut">$0/yr</span></div>
+      <div class="row highlight"><span class="label">Salary yearly <span class="formula" id="salaryFormula"></span></span><span class="value" id="salaryOut">Not yet active</span></div>
 
       <div class="calc-assumptions">
         Figures shown are gross. Assumptions: blended ARPU $2.50/month per subscriber (mix of $2.99/mo and $14.99/yr plans), Apple's 15% small-business platform cut. Sale price is computed as ARR &times; the multiple; 4-6x is the median range for small consumer subscription apps in 2025-2026, with strategic acquisitions reaching 15-20x+. As with any compensation, French income tax and social charges apply at standard rates on the gross figures above; the BSPCE conversion planned for Q4 2026 / Q1 2027 is structured to materially reduce that burden.
@@ -1003,6 +1004,13 @@
       var bonusGross = bonusMonthly * 12;
       var bonusFormula = bonusBase > 0 ? '(0.5% × ' + fmt(bonusBase) + ' × 12 months)' : '';
 
+      var salaryYearly = 0;
+      var salaryFormula = '';
+      if (netMRR >= SALARY_THRESHOLD) {
+        salaryYearly = Math.min(Math.max(arr * 0.10, 36000), 300000);
+        salaryFormula = '(10% of ARR, ~$36K floor / $300K ceiling)';
+      }
+
       document.getElementById('subsOut').textContent = fmtNum(subscribers);
       document.getElementById('mrrOut').textContent = fmt(netMRR);
       document.getElementById('arrOut').textContent = fmt(arr);
@@ -1011,6 +1019,8 @@
       document.getElementById('cutAFormula').textContent = '(' + eq.cutA + '% × ' + fmt(sale) + ')';
       document.getElementById('bonusOut').textContent = fmt(bonusGross) + '/yr';
       document.getElementById('bonusFormula').textContent = bonusFormula;
+      document.getElementById('salaryOut').textContent = salaryYearly > 0 ? fmt(salaryYearly) + '/yr' : 'Not yet active';
+      document.getElementById('salaryFormula').textContent = salaryFormula;
     }
 
     var inputs = ['users', 'subRate', 'multiple'];
