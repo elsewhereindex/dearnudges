@@ -787,7 +787,14 @@
     <hr class="rule">
 
     <h2>Salary</h2>
-    <p>A real monthly salary kicks in once Dear sustains $25,000 MRR for 60 consecutive days. The initial rate is approximately <strong>€3,000/month gross</strong> via portage salarial (calibrated to a near-full-time Head of Marketing role, in line with marketing-headcount-as-percent-of-ARR benchmarks of 8 to 15%). Salary scales up at meaningful revenue milestones ($50K MRR, $100K MRR, etc.) to track market rate as the business grows.</p>
+    <p>A real monthly salary kicks in once Dear sustains $25,000 MRR for 60 consecutive days. Calibrated to Paris Head of Marketing market rates (mid-level full-time: ~€100-€110K/yr) adjusted for your commitment level. At 16 hours/week (current), the scale is:</p>
+    <ul class="bare">
+      <li><strong>$25K MRR</strong>: ~€30K/yr gross (€2.5K/mo)</li>
+      <li><strong>$50K MRR</strong>: ~€40K/yr gross (€3.3K/mo)</li>
+      <li><strong>$100K MRR</strong>: ~€52K/yr gross (€4.3K/mo)</li>
+      <li><strong>$250K+ MRR</strong>: ~€65K/yr gross (cap at part-time)</li>
+    </ul>
+    <p>If you ramp to full-time, salary roughly doubles at every milestone. Full-time cap at $500K+ MRR is ~€160K/yr — top of the Paris Head of Marketing senior range.</p>
     <p class="small">Salary is paid via French portage salarial. French income tax and social charges apply at standard rates on the gross amounts. Salary is separate from Cut A and doesn't reduce it.</p>
 
     <hr class="rule">
@@ -990,8 +997,19 @@
       var salaryYearly = 0;
       var salaryFormula = '';
       if (netMRR >= SALARY_THRESHOLD) {
-        salaryYearly = Math.min(Math.max(arr * 0.10, 36000), 300000);
-        salaryFormula = '(10% of ARR, ~$36K floor / $300K ceiling)';
+        // Part-time (16 hrs/week) salary scaling, USD approximations
+        // €30K at $25K MRR → €40K at $50K → €52K at $100K → €65K cap at $250K+
+        // EUR to USD ~1.1x
+        if (netMRR <= 50000) {
+          salaryYearly = 33000 + (netMRR - 25000) / 25000 * 11000;
+        } else if (netMRR <= 100000) {
+          salaryYearly = 44000 + (netMRR - 50000) / 50000 * 13000;
+        } else if (netMRR <= 250000) {
+          salaryYearly = 57000 + (netMRR - 100000) / 150000 * 15000;
+        } else {
+          salaryYearly = 72000;
+        }
+        salaryFormula = '(part-time, scales with MRR, caps at ~$72K/yr at $250K MRR)';
       }
 
       document.getElementById('subsOut').textContent = fmtNum(subscribers);
