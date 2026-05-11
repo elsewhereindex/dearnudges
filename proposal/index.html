@@ -613,6 +613,7 @@
                 <span class="tick" style="left: 100%;">500M</span>
               </div>
               <div class="app-ticks tall">
+                <span class="app-tick" style="left: 25%;">Notion (yr 1)</span>
                 <span class="app-tick" style="left: 73%;">Calm 5M</span>
                 <span class="app-tick row2" style="left: 89%;">Tinder 75M</span>
                 <span class="app-tick" style="left: 97%;">LinkedIn 310M</span>
@@ -664,7 +665,7 @@
       <div class="row"><span class="label">Implied sale price (multiple × ARR)</span><span class="value" id="impliedSaleOut">$255,000</span></div>
       <div class="row highlight divider"><span class="label">Cut A at implied sale <span class="formula" id="cutAFormula"></span></span><span class="value" id="cutAGrossOut">$20,400</span></div>
       <div class="row"><span class="label">Cut B rate (auto)</span><span class="value" id="rateOut">0% (below $500 floor)</span></div>
-      <div class="row highlight divider"><span class="label">Cut B per quarter <span class="formula" id="cutBFormula"></span></span><span class="value" id="cutBGrossOut">$0</span></div>
+      <div class="row highlight divider"><span class="label">Cut B monthly <span class="formula" id="cutBFormula"></span></span><span class="value" id="cutBGrossOut">$0</span></div>
 
       <div class="calc-assumptions">
         Figures shown are gross. Assumptions: blended ARPU $2.50/month per subscriber (mix of $2.99/mo and $14.99/yr plans), Apple's 15% small-business platform cut. Sale price is computed as ARR &times; the multiple; 4-6x is the median range for small consumer subscription apps in 2025-2026, with strategic acquisitions reaching 15-20x+. As with any compensation, French income tax and social charges apply at standard rates on the gross figures above; the BSPCE conversion planned for Q4 2026 / Q1 2027 is structured to materially reduce that burden.
@@ -881,7 +882,7 @@
       } else {
         parts = '2% × ' + fmt(TIER1_TOP - FLOOR_MRR) + ' + 5% × ' + fmt(TIER2_TOP - TIER1_TOP) + ' + 8% × ' + fmt(TIER3_TOP - TIER2_TOP) + ' + 10% × ' + fmt(netMRR - TIER3_TOP);
       }
-      return '(' + parts + ') × 3 months';
+      return '(' + parts + ')';
     }
 
     var LOG_HIGH_RANGE = Math.log10(500000000) - 5;
@@ -936,7 +937,7 @@
       document.getElementById('arrOut').textContent = fmt(arr);
       document.getElementById('impliedSaleOut').textContent = fmt(sale);
       document.getElementById('rateOut').textContent = rateText;
-      document.getElementById('cutBGrossOut').textContent = fmt(cutBGross * 3) + (cutBGross > 0 ? '/qtr' : '');
+      document.getElementById('cutBGrossOut').textContent = fmt(cutBGross) + (cutBGross > 0 ? '/mo' : '');
       document.getElementById('cutAGrossOut').textContent = fmt(cutAGross);
       document.getElementById('cutAFormula').textContent = '(' + eq.cutA + '% × ' + fmt(sale) + ')';
       document.getElementById('cutBFormula').textContent = cutBBreakdown(netMRR);
