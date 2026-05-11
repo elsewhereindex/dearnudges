@@ -669,9 +669,9 @@
           <div class="card-desc">of net proceeds, if/when Dear is sold</div>
         </div>
         <div class="hero-card">
-          <div class="card-tag">Salary</div>
+          <div class="card-tag">Salary + bonus</div>
           <div class="card-info-headline">$25K MRR sustained 60 days</div>
-          <div class="card-desc">A real monthly salary kicks in. Initial rate calibrated to your commitment level. Scales up as Dear grows.</div>
+          <div class="card-desc">Monthly salary kicks in (~€3K/mo gross via portage, scales with revenue). Plus 0.05% of monthly revenue above $25K MRR as a flat bonus.</div>
         </div>
       </div>
       <div class="hero-meta">
@@ -759,6 +759,7 @@
       <div class="row"><span class="label">Annual recurring revenue (ARR)</span><span class="value" id="arrOut">$51,000</span></div>
       <div class="row"><span class="label">Implied sale price (multiple × ARR)</span><span class="value" id="impliedSaleOut">$255,000</span></div>
       <div class="row highlight divider"><span class="label">Cut A at implied sale <span class="formula" id="cutAFormula"></span></span><span class="value" id="cutAGrossOut">$12,750</span></div>
+      <div class="row highlight"><span class="label">Revenue bonus monthly <span class="formula" id="bonusFormula"></span></span><span class="value" id="bonusOut">$0/mo</span></div>
 
       <div class="calc-assumptions">
         Figures shown are gross. Assumptions: blended ARPU $2.50/month per subscriber (mix of $2.99/mo and $14.99/yr plans), Apple's 15% small-business platform cut. Sale price is computed as ARR &times; the multiple; 4-6x is the median range for small consumer subscription apps in 2025-2026, with strategic acquisitions reaching 15-20x+. As with any compensation, French income tax and social charges apply at standard rates on the gross figures above; the BSPCE conversion planned for Q4 2026 / Q1 2027 is structured to materially reduce that burden.
@@ -768,12 +769,13 @@
     <hr class="rule">
 
     <h2>What this actually is</h2>
-    <p>Dear is bootstrapped. No investors, no planned exit. Your comp has two parts that scale with what we build:</p>
+    <p>Dear is bootstrapped. No investors, no planned exit. Your comp has three parts that scale with what we build:</p>
     <ul class="bare">
       <li><strong>Cut A:</strong> phantom equity, paid in cash if/when Dear has a liquidity event (sale, merger, etc.).</li>
       <li><strong>Salary:</strong> real monthly cash once Dear sustains $25K MRR for 60 days.</li>
+      <li><strong>Revenue bonus:</strong> a small flat percentage (0.05%) of monthly revenue above $25K MRR, on top of salary.</li>
     </ul>
-    <p>Dear may never have a liquidity event. SaaS apps can be held indefinitely. If Dear is held long-term and generates real revenue, the salary is your primary comp. If Dear is ever sold, Cut A is your lottery ticket on top.</p>
+    <p>Dear may never have a liquidity event. SaaS apps can be held indefinitely. If Dear is held long-term and generates real revenue, salary + bonus is your primary comp. If Dear is ever sold, Cut A is your lottery ticket on top.</p>
     <p>Not real equity in Dear's parent. No shares, no votes, no K-1, no tax obligations until money flows. If Dear works, this is real. If Dear doesn't, this costs you nothing.</p>
 
     <hr class="rule">
@@ -785,10 +787,18 @@
 
     <hr class="rule">
 
-    <h2>Salary</h2>
-    <p>A real monthly salary kicks in once Dear sustains $25,000 MRR for 60 consecutive days. The initial rate is calibrated to your commitment level at that time (near full-time vs. part-time) and the prevailing market rate for the role.</p>
-    <p>Salary scales up at meaningful revenue milestones ($50K MRR, $100K MRR, etc.) so it stays aligned with where the business is.</p>
-    <p class="small">Salary is paid via French portage salarial. French income tax and social charges apply at standard rates. Salary is separate from Cut A and doesn't reduce it.</p>
+    <h2>Salary + revenue bonus</h2>
+    <p>A real monthly salary kicks in once Dear sustains $25,000 MRR for 60 consecutive days. The initial rate is approximately <strong>€3,000/month gross</strong> via portage salarial (calibrated to a near-full-time Head of Marketing role, in line with marketing-headcount-as-percent-of-ARR benchmarks of 8 to 15%). Salary scales up at meaningful revenue milestones ($50K MRR, $100K MRR, etc.) to track market rate as the business grows.</p>
+    <p><strong>Plus a revenue bonus.</strong> On top of salary, you earn <strong>0.05% of monthly net revenue above $25K MRR</strong>. The rate stays flat at every level so it doesn't run away at scale. Small early, compounds visibly as Dear grows.</p>
+    <p>Quick scale check:</p>
+    <ul class="bare">
+      <li>At $50K MRR: ~$12.50/mo bonus on top of salary</li>
+      <li>At $100K MRR: ~$37.50/mo bonus</li>
+      <li>At $1M MRR: ~$487.50/mo bonus</li>
+      <li>At $10M MRR: ~$4,987.50/mo bonus</li>
+      <li>At $100M MRR: ~$49,987.50/mo bonus</li>
+    </ul>
+    <p class="small">Salary and bonus are paid via French portage salarial. French income tax and social charges apply at standard rates on the gross amounts. Both are separate from Cut A and don't reduce it.</p>
 
     <hr class="rule">
 
@@ -926,6 +936,8 @@
 
     var ARPU = 2.50;
     var APPLE_NET = 0.85;
+    var SALARY_THRESHOLD = 25000;
+    var BONUS_RATE = 0.0005;
 
     // Check edit mode
     var urlParams = new URLSearchParams(window.location.search);
@@ -986,12 +998,18 @@
 
       var cutAGross = sale * (eq.cutA / 100);
 
+      var bonusBase = Math.max(0, netMRR - SALARY_THRESHOLD);
+      var bonusGross = bonusBase * BONUS_RATE;
+      var bonusFormula = bonusBase > 0 ? '(0.05% × ' + fmt(bonusBase) + ')' : '';
+
       document.getElementById('subsOut').textContent = fmtNum(subscribers);
       document.getElementById('mrrOut').textContent = fmt(netMRR);
       document.getElementById('arrOut').textContent = fmt(arr);
       document.getElementById('impliedSaleOut').textContent = fmt(sale);
       document.getElementById('cutAGrossOut').textContent = fmt(cutAGross);
       document.getElementById('cutAFormula').textContent = '(' + eq.cutA + '% × ' + fmt(sale) + ')';
+      document.getElementById('bonusOut').textContent = fmt(bonusGross) + (bonusGross > 0 ? '/mo' : '/mo');
+      document.getElementById('bonusFormula').textContent = bonusFormula;
     }
 
     var inputs = ['users', 'subRate', 'multiple'];
