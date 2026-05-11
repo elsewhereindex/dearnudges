@@ -166,6 +166,37 @@
       line-height: 1.2;
     }
 
+    .salary-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+      margin: 1.25rem 0 1.5rem;
+      background: white;
+      border: 1px solid var(--rule);
+    }
+    .salary-table th {
+      padding: 0.75rem;
+      text-align: left;
+      font-weight: 600;
+      font-size: 0.74rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--soft);
+      border-bottom: 1px solid var(--rule);
+    }
+    .salary-table td {
+      padding: 0.7rem 0.75rem;
+      border-bottom: 1px dotted var(--rule);
+      font-variant-numeric: tabular-nums;
+    }
+    .salary-table tr:last-child td { border-bottom: 0; }
+    .salary-table td:first-child { color: var(--soft); }
+    .salary-table td:nth-child(2),
+    .salary-table td:nth-child(3) {
+      color: var(--ink);
+      font-weight: 500;
+    }
+
     .tier-stack {
       margin-bottom: 1rem;
       margin-top: 0.25rem;
@@ -787,14 +818,24 @@
     <hr class="rule">
 
     <h2>Salary</h2>
-    <p>A real monthly salary kicks in once Dear sustains $25,000 MRR for 60 consecutive days. Calibrated to Paris Head of Marketing market rates (mid-level full-time: ~€100-€110K/yr) adjusted for your commitment level. At 16 hours/week (current), the scale is:</p>
-    <ul class="bare">
-      <li><strong>$25K MRR</strong>: ~€30K/yr gross (€2.5K/mo)</li>
-      <li><strong>$50K MRR</strong>: ~€40K/yr gross (€3.3K/mo)</li>
-      <li><strong>$100K MRR</strong>: ~€52K/yr gross (€4.3K/mo)</li>
-      <li><strong>$250K+ MRR</strong>: ~€65K/yr gross (cap at part-time)</li>
-    </ul>
-    <p>If you ramp to full-time, salary roughly doubles at every milestone. Full-time cap at $500K+ MRR is ~€160K/yr — top of the Paris Head of Marketing senior range.</p>
+    <p>A real monthly salary kicks in once Dear sustains $25,000 MRR for 60 consecutive days. Calibrated to Paris Head of Marketing market rates (mid-level full-time: ~€100-€110K/yr) and adjusted for your actual commitment level. Salary scales on two axes: Dear's revenue and your hours per week.</p>
+    <table class="salary-table">
+      <thead>
+        <tr>
+          <th>MRR milestone</th>
+          <th>At 16 hrs/wk (part-time)</th>
+          <th>At 40 hrs/wk (full-time)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>$25K MRR</td><td>~€30K/yr</td><td>~€60K/yr</td></tr>
+        <tr><td>$50K MRR</td><td>~€40K/yr</td><td>~€80K/yr</td></tr>
+        <tr><td>$100K MRR</td><td>~€52K/yr</td><td>~€100K/yr (market)</td></tr>
+        <tr><td>$250K MRR</td><td>~€65K/yr (cap PT)</td><td>~€130K/yr</td></tr>
+        <tr><td>$500K+ MRR</td><td>~€65K/yr (cap PT)</td><td>~€160K/yr (cap FT)</td></tr>
+      </tbody>
+    </table>
+    <p>Your commitment level is your choice. Going full-time roughly doubles the rate at any revenue level. Top-of-market senior Head of Marketing in Paris caps around €160K/yr.</p>
     <p class="small">Salary is paid via French portage salarial. French income tax and social charges apply at standard rates on the gross amounts. Salary is separate from Cut A and doesn't reduce it.</p>
 
     <hr class="rule">
