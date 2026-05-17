@@ -318,10 +318,10 @@
             <span data-lang="es">Dear no tiene servidor, ni backend, ni cuentas, ni publicidad, ni informes de fallos. No usamos p&iacute;xeles de rastreo ni frameworks publicitarios. No sabemos qui&eacute;n eres, qui&eacute;nes son tus amistades, ni qu&eacute; mensajes env&iacute;as. S&iacute; recopilamos conteos de uso an&oacute;nimos a trav&eacute;s de TelemetryDeck (ver la secci&oacute;n a continuaci&oacute;n). Fuera de eso, solo conocemos lo que Apple proporciona en las estad&iacute;sticas agregadas del App Store, que no contienen informaci&oacute;n personal identificable y se controlan desde los ajustes de tu dispositivo.</span>
         </p>
 
-        <h2>
+        <h2 id="anonymous-analytics">
             <span data-lang="en">Anonymous Analytics</span>
-            <span data-lang="fr">Analytique anonyme</span>
-            <span data-lang="es">Anal&iacute;tica an&oacute;nima</span>
+            <span data-lang="fr"><span id="anonymous-analytics-fr"></span>Analytique anonyme</span>
+            <span data-lang="es"><span id="anonymous-analytics-es"></span>Anal&iacute;tica an&oacute;nima</span>
         </h2>
 
         <p>
@@ -367,6 +367,58 @@
             <span data-lang="en">These events are pseudonymous and aggregated. We cannot identify you from them. Because no personal data is processed, we do not require a consent prompt under GDPR. If you would prefer to opt out anyway, please email us at support@dearnudges.com and we will note your request for the next release.</span>
             <span data-lang="fr">Ces &eacute;v&eacute;nements sont pseudonymes et agr&eacute;g&eacute;s. Il nous est impossible de t'identifier &agrave; partir d'eux. &Eacute;tant donn&eacute; qu'aucune donn&eacute;e personnelle n'est trait&eacute;e, nous ne sommes pas tenus d'afficher une invite de consentement au titre du RGPD. Si tu souhaites tout de m&ecirc;me te d&eacute;sinscrire, &eacute;cris-nous &agrave; support@dearnudges.com et nous prendrons note de ta demande pour la prochaine version.</span>
             <span data-lang="es">Estos eventos son seud&oacute;nimos y agregados. No podemos identificarte a partir de ellos. Dado que no se procesa ning&uacute;n dato personal, no estamos obligados a mostrar una solicitud de consentimiento bajo el RGPD. Si prefieres no participar de todos modos, esc&iacute;benos a support@dearnudges.com y registraremos tu solicitud para la pr&oacute;xima versi&oacute;n.</span>
+        </p>
+
+        <h2 id="delete-data">
+            <span data-lang="en">Delete your data</span>
+            <span data-lang="fr">Supprimer vos donn&eacute;es</span>
+            <span data-lang="es">Eliminar tus datos</span>
+        </h2>
+
+        <p>
+            <span data-lang="en">Dear has no accounts and no servers. Your friends, your nudges, and your messages live only on your device. To delete everything Dear knows about you:</span>
+            <span data-lang="fr">Dear n'a pas de comptes ni de serveurs. Vos amis, vos rappels et vos messages restent uniquement sur votre appareil. Pour supprimer tout ce que Dear sait sur vous :</span>
+            <span data-lang="es">Dear no tiene cuentas ni servidores. Tus amistades, tus recordatorios y tus mensajes solo viven en tu dispositivo. Para eliminar todo lo que Dear sabe sobre ti:</span>
+        </p>
+
+        <div data-lang="en">
+            <ol>
+                <li>Open the Dear app</li>
+                <li>Go to <strong>Settings &rarr; Delete all my data</strong></li>
+                <li>Confirm. All friends, nudges, and preferences are wiped from your device immediately. Uninstalling the app afterward removes everything else.</li>
+            </ol>
+        </div>
+        <div data-lang="fr">
+            <ol>
+                <li>Ouvrez l'app Dear</li>
+                <li>Allez dans <strong>R&eacute;glages &rarr; Supprimer toutes mes donn&eacute;es</strong></li>
+                <li>Confirmez. Tous les amis, rappels et pr&eacute;f&eacute;rences sont effac&eacute;s de votre appareil imm&eacute;diatement. D&eacute;sinstaller l'app ensuite supprime le reste.</li>
+            </ol>
+        </div>
+        <div data-lang="es">
+            <ol>
+                <li>Abre la app Dear</li>
+                <li>Ve a <strong>Ajustes &rarr; Borrar todos mis datos</strong></li>
+                <li>Confirma. Todas las amistades, recordatorios y preferencias se borran de tu dispositivo de inmediato. Desinstalar la app despu&eacute;s elimina lo dem&aacute;s.</li>
+            </ol>
+        </div>
+
+        <p>
+            <span data-lang="en">We do not have a server with your personal information on it. We never collected it, so there is nothing to delete on our side. The only data that ever leaves your device is anonymous, aggregated analytics (see <a href="#anonymous-analytics">Anonymous Analytics</a>) which cannot be linked back to you - there is no per-user record to delete.</span>
+            <span data-lang="fr">Nous n'avons pas de serveur avec vos informations personnelles. Nous ne les avons jamais collect&eacute;es, il n'y a donc rien &agrave; supprimer de notre c&ocirc;t&eacute;. Les seules donn&eacute;es qui quittent votre appareil sont des statistiques anonymes et agr&eacute;g&eacute;es (voir <a href="#anonymous-analytics">Analytique anonyme</a>) qui ne peuvent pas &ecirc;tre li&eacute;es &agrave; vous - il n'y a pas d'enregistrement individuel &agrave; supprimer.</span>
+            <span data-lang="es">No tenemos un servidor con tu informaci&oacute;n personal. Nunca la recopilamos, as&iacute; que no hay nada que eliminar de nuestro lado. Los &uacute;nicos datos que salen de tu dispositivo son estad&iacute;sticas an&oacute;nimas y agregadas (ver <a href="#anonymous-analytics">Anal&iacute;tica an&oacute;nima</a>) que no se pueden vincular a ti - no hay un registro individual que eliminar.</span>
+        </p>
+
+        <p>
+            <span data-lang="en">If you have questions or need help with any of this, email <a href="mailto:hello@dearnudges.com">hello@dearnudges.com</a>.</span>
+            <span data-lang="fr">Pour toute question ou aide, &eacute;crivez &agrave; <a href="mailto:hello@dearnudges.com">hello@dearnudges.com</a>.</span>
+            <span data-lang="es">Para cualquier pregunta o ayuda, escribe a <a href="mailto:hello@dearnudges.com">hello@dearnudges.com</a>.</span>
+        </p>
+
+        <p>
+            <em><span data-lang="en">Note: a future version of Dear will offer an optional toggle to share anonymized usage data with academic researchers studying loneliness and well-being. When that ships, opting out and deleting contributed research data will be available in the same Settings menu, and this page will be updated to reflect the new option.</span>
+            <span data-lang="fr">Note : une future version de Dear proposera une option facultative pour partager des donn&eacute;es d'utilisation anonymis&eacute;es avec des chercheurs &eacute;tudiant la solitude et le bien-&ecirc;tre. Lorsque cette option arrivera, la d&eacute;sactivation et la suppression des donn&eacute;es contribu&eacute;es seront disponibles dans le m&ecirc;me menu R&eacute;glages, et cette page sera mise &agrave; jour.</span>
+            <span data-lang="es">Nota: una versi&oacute;n futura de Dear ofrecer&aacute; una opci&oacute;n opcional para compartir datos de uso anonimizados con investigadores que estudian la soledad y el bienestar. Cuando llegue esa opci&oacute;n, desactivarla y eliminar los datos contribuidos estar&aacute; disponible en el mismo men&uacute; de Ajustes, y esta p&aacute;gina se actualizar&aacute;.</span></em>
         </p>
 
         <h2>
