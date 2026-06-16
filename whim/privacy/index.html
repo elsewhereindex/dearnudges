@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Whim</title>
+<meta name="description" content="Whim Privacy Policy. Anonymous accounts, local-first data, no ads, no data sales.">
+<meta name="robots" content="index,follow">
+<style>
+  :root { --tangerine: #FF5A1F; --ink: #1a1a1a; --soft: #5b5b5b; --hair: #ececec; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink); background: #fff; line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .top {
+    background: var(--tangerine); padding: 22px 24px;
+  }
+  .wordmark {
+    color: #fff; font-weight: 800; font-size: 1.6rem; letter-spacing: -0.02em;
+    text-decoration: none; display: inline-block;
+  }
+  .wordmark .dot { display:inline-block; transform: translate(2px,-6px); }
+  .container { max-width: 720px; margin: 0 auto; padding: 40px 24px 80px; }
+  h1 { font-size: 1.9rem; font-weight: 800; letter-spacing: -0.02em; margin: 0 0 6px; }
+  .eff { color: var(--soft); font-size: 0.9rem; margin-bottom: 28px; }
+  h2 { font-size: 1.25rem; font-weight: 700; margin: 34px 0 10px; }
+  h3 { font-size: 1.02rem; font-weight: 700; margin: 22px 0 8px; color:#2a2a2a; }
+  p, li { font-size: 1rem; color: #262626; margin-bottom: 12px; }
+  ul { padding-left: 22px; margin-bottom: 12px; }
+  li { margin-bottom: 8px; }
+  strong { font-weight: 700; }
+  a { color: var(--tangerine); text-decoration: underline; }
+  blockquote {
+    border-left: 3px solid var(--tangerine); padding: 6px 0 6px 16px;
+    margin: 16px 0; color: var(--soft);
+  }
+  hr { border: none; border-top: 1px solid var(--hair); margin: 30px 0; }
+  .foot {
+    border-top: 1px solid var(--hair); margin-top: 50px; padding-top: 22px;
+    color: var(--soft); font-size: 0.88rem;
+  }
+  .foot a { color: var(--soft); }
+</style>
+</head>
+<body>
+  <div class="top"><a class="wordmark" href="/whim/">whim<span class="dot">.</span></a></div>
+  <main class="container">
+    <h1>Privacy Policy</h1>
+    <p class="eff">Effective June 16, 2026</p>
+    <p>This Privacy Policy explains how Elsewhere Index LLC (“Elsewhere
+Index,” “we,” “us”) handles information in connection with the Whim
+mobile app, published in some regions as ¡Whim!, ¡Antojo! (es-MX), and
+¡Lubie! (fr-FR) (the “App”). It is written to be readable. Where we have
+been informal, the substance still governs.</p>
+<p>This policy explains our privacy practices. It works alongside our
+Terms of Service, which govern your use of the App. Where this policy
+refers to your purchases, your submissions, moderation, or your
+responsibilities for real-world acts, the full terms live in the Terms
+of Service.</p>
+<hr />
+<h2 id="the-short-version">1. The short version</h2>
+<ul>
+<li>Whim gives you one small real-world thing to do each day. You
+scratch a card to reveal it.</li>
+<li>We do not ask for your name, email, or phone number to use the App.
+Your identity to us is an anonymous account ID.</li>
+<li>Your journal and progress live first on your device, and we keep a
+mirror copy in our cloud so you do not lose it.</li>
+<li>We collect a small amount of usage and diagnostic data to keep the
+App working and to make it better.</li>
+<li>Purchases are handled by RevenueCat together with Apple and Google.
+We never see your full payment card details.</li>
+<li>We do not sell your personal data. We do not run third-party
+advertising inside the App.</li>
+<li>You can export the data associated with your account, and you can
+ask us to delete it, from inside the App.</li>
+</ul>
+<hr />
+<h2 id="who-this-applies-to-and-a-word-on-age">2. Who this applies to
+and a word on age</h2>
+<p>Whim is intended for people <strong>16 and older</strong>. Content is
+light and occasionally flirty, but mild. The App is not directed to
+children under 16, and we do not knowingly collect personal information
+from anyone under 16. If you believe a person under 16 has provided us
+information, contact us at <a href="mailto:earl@dearnudges.com">earl@dearnudges.com</a> and we will take
+reasonable steps to delete it where it can be identified.</p>
+<hr />
+<h2 id="what-we-collect-and-why">3. What we collect and why</h2>
+<p>We try to collect as little as possible. Here is what we collect.</p>
+<h3 id="a.-your-anonymous-identity">a. Your anonymous identity</h3>
+<p>When you first open or use the App, we create an <strong>anonymous
+account</strong> for you through Firebase Authentication. This gives you
+a random account ID (a “uid”). It is not tied to your name, email, or
+phone number. We use it only to associate your journal and settings with
+your device so they survive reinstalls and can be restored.</p>
+<h3 id="b.-your-activity-in-the-app-local-first-with-a-cloud-mirror">b.
+Your activity in the App (“local-first, with a cloud mirror”)</h3>
+<p>The App is <strong>local-first</strong>: your journal, your day count
+(your streak / number of whims completed), your saved preferences, and
+your theme color are stored on your device first.</p>
+<p>We also keep a <strong>mirror copy in Cloud Firestore</strong> (a
+Google/Firebase database) so your history is backed up and can be
+restored on a new device. This mirror is keyed to your anonymous uid and
+includes: - which whims you were shown and which you marked as done
+(completion is <strong>honor-system</strong>; we do not verify, track
+your location, or check that you actually did the act), - your day count
+and streak, - your app settings and chosen theme, - any acts you submit
+(see below).</p>
+<h3 id="c.-acts-you-submit-pitch-to-the-deck">c. Acts you submit (“pitch
+to the deck”)</h3>
+<p>If you pitch an act for the shared deck, we store the text you
+submit, linked to your anonymous uid so we can vet it, attribute reports
+to the right item, and remove it if needed. Please do not put personal
+or identifying information about yourself or anyone else into a
+submission. See Section 6 for how submissions are reviewed and
+moderated.</p>
+<h3 id="d.-reports">d. Reports</h3>
+<p>If you report an act as objectionable, we record that a report was
+made (and which act), tied to your uid for abuse prevention. We do not
+permit objectionable, unsafe, or abusive content, and we work to remove
+it. An act that draws repeated reports may be flagged or removed pending
+review.</p>
+<h3 id="e.-usage-and-diagnostic-data">e. Usage and diagnostic data</h3>
+<p>We collect usage and diagnostic data through Firebase, including: app
+opens, which screens and core features are used, taps on core features,
+crash and error reports, and device and operating-system information.
+Some of this data may be linked to your anonymous account ID. We use it
+to keep the App stable, diagnose problems, and decide what to improve.
+We do not use it to build advertising profiles, and we do not run
+third-party advertising inside the App.</p>
+<h3 id="f.-purchase-information">f. Purchase information</h3>
+<p>When you buy a subscription, pack, color, bundle, or re-roll, the
+transaction is processed by <strong>Apple or Google</strong> and managed
+through <strong>RevenueCat</strong>. We receive confirmation of what you
+bought and your entitlement status (for example, whether Whim+ is
+active). <strong>We do not receive or store your full credit card number
+or financial account details.</strong></p>
+<hr />
+<h2 id="purchases-subscriptions-and-billing">4. Purchases,
+subscriptions, and billing</h2>
+<p>The daily card is free. Some extras are paid, including a Whim+
+subscription, one-time act packs, colors, a bundle, and a consumable
+re-roll. Subscriptions auto-renew until cancelled.</p>
+<p><strong>Prices, any free-trial offers, and the terms of each purchase
+are shown in the App at the point of sale and are controlled by the
+Apple App Store or Google Play.</strong> Payment is charged to your
+Apple ID or Google account. You manage and cancel subscriptions in your
+Apple App Store or Google Play account settings, not inside Whim.
+Restore Purchases is supported in the App. Refunds are handled by Apple
+or Google under their policies, not by us.</p>
+<p>This section summarizes how purchases relate to your data. The
+complete purchase and subscription terms are in our Terms of
+Service.</p>
+<hr />
+<h2 id="safety-disclaimer-please-read">5. Safety disclaimer (please
+read)</h2>
+<p>Whims are <strong>real-world acts</strong>. You are always free to
+skip any whim, and you alone decide whether and how to act.</p>
+<ul>
+<li><strong>Use common sense.</strong> Do not do anything illegal,
+unsafe, harmful, cruel, or that you are not comfortable with. A whim is
+a suggestion, never an instruction.</li>
+<li>Completion is on the <strong>honor system</strong>. We do not
+verify, supervise, or take responsibility for anything you choose to
+do.</li>
+<li>To the fullest extent permitted by law, <strong>Elsewhere Index LLC
+is not liable</strong> for any injury, loss, damage, or consequence
+arising from acts you choose to perform, skip, or share. You assume full
+responsibility for your own choices and safety, and for respecting other
+people and the law.</li>
+<li>If a whim ever feels unsafe or wrong, do not do it, and please
+report it.</li>
+</ul>
+<p><strong>Release.</strong> To the fullest extent permitted by law, you
+release and hold harmless Elsewhere Index LLC, its owners, and its team
+from any and all claims, demands, liabilities, and damages arising out
+of or relating to any real-world act you choose to perform, attempt,
+skip, or share, whether suggested by the App or not. You act of your own
+free will and at your own risk.</p>
+<p>Nothing in this section limits any liability that cannot be limited
+or excluded under applicable law (for example, liability for death or
+personal injury caused by negligence, fraud, or fraudulent
+misrepresentation, where such limits are not permitted).</p>
+<hr />
+<h2 id="user-submitted-content-and-moderation">6. User-submitted content
+and moderation</h2>
+<p>Acts pitched to the shared deck are reviewed by a human before they
+appear to other users. We aim to review submissions before they
+circulate, but we cannot guarantee that every item is reviewed before it
+is seen. We do not permit objectionable, unsafe, abusive, hateful, or
+harassing content, and we work to remove it. Every act in circulation
+carries a <strong>report control</strong>, and an act that draws
+repeated reports may be flagged and removed pending review. We may edit,
+reject, or remove any submission at our discretion, and we may
+<strong>block, restrict, or suspend</strong> users who misuse
+submissions or reports.</p>
+<p>By submitting an act, you grant Elsewhere Index LLC a worldwide,
+perpetual, irrevocable, non-exclusive, royalty-free, fully sublicensable
+and transferable license to use, reproduce, store, display, perform,
+modify, adapt, translate, create derivative works from, publish, and
+distribute that submission, in whole or in part, in any media now known
+or later developed, in connection with the App and our business,
+including promotion of the App, and without any compensation or
+attribution to you. To the extent allowed by law, you waive any moral
+rights in your submission. You represent that your submission is your
+own and does not infringe anyone else’s rights.</p>
+<hr />
+<h2 id="how-information-is-shared">7. How information is shared</h2>
+<p>We <strong>do not sell your personal data</strong>, and we do not
+share it for third-party advertising.</p>
+<p>We share limited information only with service providers
+(“processors”) who help us run the App, and only as needed for that
+purpose:</p>
+<ul>
+<li><strong>Google / Firebase</strong> — anonymous authentication, the
+Cloud Firestore mirror of your data, and analytics/crash reporting.</li>
+<li><strong>Apple App Store / Google Play</strong> — payment processing
+and subscription management for purchases you make.</li>
+<li><strong>RevenueCat</strong> — managing and validating your purchases
+and entitlement status.</li>
+</ul>
+<p>These providers process data under their own terms and privacy
+policies and on our instructions. We may also disclose information if
+required by law, to enforce our terms, to investigate abuse or safety
+issues, or in connection with a merger, acquisition, or sale of
+assets.</p>
+<hr />
+<h2 id="copyright-and-the-dmca">8. Copyright and the DMCA</h2>
+<p>If you believe content in the App infringes your copyright, send a
+written notice to our designated agent at
+<strong><a href="mailto:earl@dearnudges.com">earl@dearnudges.com</a></strong> that includes: your contact
+information; identification of the work you claim is infringed;
+identification of the material you say is infringing and where it
+appears in the App; a statement that you have a good-faith belief the
+use is not authorized; a statement, under penalty of perjury, that your
+notice is accurate and that you are the owner or authorized to act on
+the owner’s behalf; and your physical or electronic signature.</p>
+<p>We will respond to valid notices under the U.S. Digital Millennium
+Copyright Act, which may include removing or disabling access to the
+material and, in appropriate cases, terminating users who repeatedly
+infringe.</p>
+<hr />
+<h2 id="data-retention">9. Data retention</h2>
+<ul>
+<li>Your <strong>on-device data</strong> stays until you delete it,
+clear the app’s data, or uninstall the App.</li>
+<li>Your <strong>cloud mirror</strong> (Firestore) is retained while
+your account is active so it can be restored, and is deleted when you
+delete the data associated with your account (see Section 10) or after
+an extended period of inactivity.</li>
+<li><strong>Submissions and report records</strong> may be retained as
+long as needed for moderation, safety, and abuse prevention, even after
+other data is removed.</li>
+<li><strong>Purchase and entitlement records</strong> are retained as
+needed for accounting, tax, fraud prevention, and to honor restores,
+consistent with Apple, Google, and RevenueCat policies.</li>
+<li><strong>Usage and diagnostic data</strong> is kept in aggregated or
+limited-retention form.</li>
+</ul>
+<hr />
+<h2 id="your-choices-and-controls">10. Your choices and controls</h2>
+<p>From inside the App you can:</p>
+<ul>
+<li><strong>Export your data</strong> — download a copy of the data
+associated with your account.</li>
+<li><strong>Delete your data</strong> — ask us to remove the data
+associated with your account, including your journal, day count,
+settings, and cloud mirror. Some records may be retained as described in
+Section 9 (for example, purchase records and submission/report records
+kept for accounting, safety, and abuse prevention). Deleting your data
+may reset the App and cannot be undone.</li>
+</ul>
+<p>You can also manage subscriptions and request refunds through your
+Apple or Google account, and control analytics and tracking at the OS
+level (for example, iOS App Tracking Transparency and your device
+privacy settings).</p>
+<p>Because your account is anonymous, we identify your data by your
+device’s uid. We may be unable to act on a request we cannot tie to your
+account. To make a request, contact us at <a href="mailto:earl@dearnudges.com">earl@dearnudges.com</a>.</p>
+<hr />
+<h2 id="security">11. Security</h2>
+<p>We use reasonable technical and organizational measures, including
+the security controls provided by Firebase and our other processors, to
+protect your information. No method of transmission or storage is
+perfectly secure, and we cannot guarantee absolute security.</p>
+<hr />
+<h2 id="european-users-gdpr-uk-gdpr">12. European users (GDPR / UK
+GDPR)</h2>
+<p>If you are in the European Economic Area, the United Kingdom, or
+Switzerland, the following applies.</p>
+<p><strong>Controller.</strong> Elsewhere Index LLC is the controller of
+the personal data described in this policy. Contact:
+<a href="mailto:earl@dearnudges.com">earl@dearnudges.com</a>.</p>
+<p><strong>Legal bases.</strong> We process personal data to perform our
+contract with you (providing the App, your journal and cloud mirror, and
+your purchases), on the basis of our legitimate interests (keeping the
+App stable and secure, preventing abuse, improving the App, and
+moderating submissions), and to comply with legal obligations. Where
+required, we rely on your consent, which you can withdraw at any
+time.</p>
+<p><strong>Your rights.</strong> Subject to applicable law, you have the
+right to access, correct, delete, and port your personal data, to
+restrict or object to certain processing, and to withdraw consent. You
+may also lodge a complaint with your local data-protection authority.
+Because your account is anonymous, we may need information that lets us
+tie a request to your account, and we may be unable to fulfill a request
+we cannot verify.</p>
+<p><strong>International transfers.</strong> We and our providers may
+transfer your data to the United States and other countries. Where
+required, such transfers rely on appropriate safeguards, such as the
+European Commission’s Standard Contractual Clauses.</p>
+<hr />
+<h2 id="california-users-ccpa-cpra">13. California users (CCPA /
+CPRA)</h2>
+<p>If you are a California resident, the following applies.</p>
+<ul>
+<li><strong>We do not sell or share your personal information</strong>
+as those terms are defined under the CCPA/CPRA, and we do not use it for
+cross-context behavioral advertising.</li>
+<li><strong>Categories we collect</strong> are described in Section 3
+(for example, an anonymous identifier, app activity, usage and
+diagnostic data, device and operating-system information, and purchase
+confirmations). We collect this data for the business purposes described
+in this policy.</li>
+<li><strong>Your rights.</strong> Subject to applicable law, you have
+the right to know what personal information we collect and how we use
+it, to request deletion, to correct inaccurate information, and to not
+be discriminated against for exercising these rights.</li>
+<li><strong>How to exercise.</strong> Use the export and delete controls
+in the App, or contact us at <a href="mailto:earl@dearnudges.com">earl@dearnudges.com</a>. Because your account
+is anonymous, we may be unable to verify or fulfill a request we cannot
+tie to your account.</li>
+</ul>
+<hr />
+<h2 id="disputes-arbitration-and-governing-law">14. Disputes,
+arbitration, and governing law</h2>
+<p>This Privacy Policy is governed by the laws of the State of Texas,
+USA, without regard to its conflict-of-laws rules, <strong>except where
+mandatory local data-protection law applies to you</strong> (for
+example, GDPR/UK GDPR or other rights you have where you live), in which
+case that law governs to the extent required.</p>
+<p><strong>Please read this section carefully. It affects how disputes
+are resolved.</strong></p>
+<ul>
+<li><strong>Agreement to arbitrate.</strong> To the fullest extent
+permitted by law, you and Elsewhere Index LLC agree that any dispute,
+claim, or controversy arising out of or relating to this Privacy Policy
+or your use of the App will be resolved by <strong>binding individual
+arbitration</strong> administered in the United States under the rules
+of a recognized arbitration provider, rather than in court. The Federal
+Arbitration Act governs the interpretation and enforcement of this
+provision.</li>
+<li><strong>Class and jury waiver.</strong> You and Elsewhere Index LLC
+waive the right to a jury trial and agree that claims may be brought
+only in an individual capacity, and <strong>not</strong> as a plaintiff
+or class member in any class, collective, or representative
+proceeding.</li>
+<li><strong>30-day opt-out.</strong> You may opt out of this arbitration
+agreement by sending written notice to <a href="mailto:earl@dearnudges.com">earl@dearnudges.com</a> within
+<strong>30 days</strong> of first accepting this policy. Your notice
+must include enough information to identify your account. If you opt
+out, the venue provision below applies to your disputes.</li>
+<li><strong>Venue for non-arbitrable claims.</strong> For any dispute
+that is not subject to arbitration (including if you opt out, or for
+claims that may be brought in court), you and Elsewhere Index LLC agree
+to the <strong>exclusive jurisdiction and venue of the state and federal
+courts located in Texas, USA</strong>, except where applicable law gives
+you the right to bring a claim elsewhere.</li>
+<li><strong>Local law.</strong> Nothing in this section deprives you of
+any protection or right that cannot be waived under the mandatory law of
+the place where you live.</li>
+</ul>
+<hr />
+<h2 id="international-users">15. International users</h2>
+<p>We and our providers may process and store information in countries
+other than where you live, including the United States. By using the
+App, you understand your information may be transferred to and processed
+in those countries, which may have different data-protection laws than
+your own. For European, UK, and Swiss users, see Section 12.</p>
+<hr />
+<h2 id="changes-to-this-policy">16. Changes to this policy</h2>
+<p>We may update this policy from time to time. When we make material
+changes, we will update the “Last updated” date above and, where
+appropriate, notify you in the App or by another reasonable electronic
+means. Your continued use after an update means you accept the revised
+policy.</p>
+<hr />
+<h2 id="contact">17. Contact</h2>
+<p>Questions, requests, or reports:</p>
+<p><strong>Elsewhere Index LLC</strong> <a href="mailto:earl@dearnudges.com">earl@dearnudges.com</a></p>
+<hr />
+
+    <div class="foot">
+      Whim is an <a href="/">Elsewhere Index</a> app.
+      Questions: <a href="mailto:earl@dearnudges.com">earl@dearnudges.com</a> ·
+      <a href="https://dearnudges.com/whim/terms">Terms</a> · <a href="https://dearnudges.com/whim/privacy">Privacy</a>
+    </div>
+  </main>
+</body>
+</html>
