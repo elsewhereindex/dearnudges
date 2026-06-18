@@ -20,7 +20,7 @@
     <link rel="apple-touch-icon" href="app-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,400;1,9..144,700&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -53,7 +53,7 @@
         }
 
         h1 {
-            font-family: 'Fraunces', Georgia, serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
             font-style: italic;
             font-weight: 400;
             font-size: 2.4rem;
@@ -78,12 +78,24 @@
         .app-store-badge:hover { opacity: 0.8; }
         .app-store-badge img { height: 48px; width: auto; }
 
-        .coming-soon-android {
-            font-size: 0.78rem;
-            color: #9A969B;
-            margin-top: 12px;
-            font-style: italic;
+        .play-store-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            height: 48px;
+            padding: 0 22px;
+            margin-bottom: 12px;
+            border-radius: 9px;
+            background: #1A1A1A;
+            color: #FFFFFF;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            text-decoration: none;
+            letter-spacing: 0.01em;
+            transition: opacity 0.15s ease;
         }
+        .play-store-badge:hover { opacity: 0.8; }
 
         .free-note {
             font-size: 0.78rem;
@@ -143,6 +155,8 @@
         [data-lang="en"] { display: block; }
         .app-store-badge[data-lang] { display: none; }
         .app-store-badge[data-lang="en"] { display: inline-block; }
+        .play-store-badge[data-lang] { display: none; }
+        .play-store-badge[data-lang="en"] { display: inline-flex; }
 
         /* Bottom nav */
         .bottom-nav {
@@ -219,11 +233,9 @@
             <img src="app-store-badge-es.svg" alt="Descargar en el App Store">
         </a>
 
-        <p class="coming-soon-android">
-            <span data-lang="en">Android coming soon.</span>
-            <span data-lang="fr">Android bient&ocirc;t disponible.</span>
-            <span data-lang="es">Android pr&oacute;ximamente.</span>
-        </p>
+        <a href="https://play.google.com/store/apps/details?id=com.elsewhere.dear" class="play-store-badge" data-lang="en" aria-label="Get it on Google Play">Get it on Google Play</a>
+        <a href="https://play.google.com/store/apps/details?id=com.elsewhere.dear" class="play-store-badge" data-lang="fr" aria-label="Disponible sur Google Play">Disponible sur Google Play</a>
+        <a href="https://play.google.com/store/apps/details?id=com.elsewhere.dear" class="play-store-badge" data-lang="es" aria-label="Disponible en Google Play">Disponible en Google Play</a>
 
         <p class="free-note">
             <span data-lang="en">Free to start. Private. No accounts needed.</span>
@@ -274,6 +286,8 @@
             document.querySelectorAll('[data-lang]').forEach(function(el) {
                 if (el.tagName === 'A' && el.classList.contains('app-store-badge')) {
                     el.style.display = el.getAttribute('data-lang') === lang ? 'inline-block' : 'none';
+                } else if (el.tagName === 'A' && el.classList.contains('play-store-badge')) {
+                    el.style.display = el.getAttribute('data-lang') === lang ? 'inline-flex' : 'none';
                 } else {
                     el.style.display = el.getAttribute('data-lang') === lang ? 'block' : 'none';
                 }
