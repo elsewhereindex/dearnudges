@@ -140,6 +140,27 @@ def render(page, locale, doc):
     block = hreflang_block([l for l in locales if l in ready], page).replace("__SELF__", locale)
     out = out.replace("</head>", block + "\n</head>", 1)
 
+    # 4b. Title and meta description, plus their Open Graph and Twitter twins.
+    #     These are what a search engine and a shared link actually display, so
+    #     leaving them English made a French URL present in English.
+    meta = (doc.get("meta", {}) or {}).get(page, {})
+    t = (meta.get("title") or {}).get(locale)
+    dsc = (meta.get("desc") or {}).get(locale)
+    if t:
+        out = re.sub(r'<title>.*?</title>', lambda _m: f'<title>{t}</title>', out, count=1, flags=re.S)
+        for prop in ('og:title', 'twitter:title'):
+            out = re.sub(r'(<meta (?:property|name)="' + prop + r'" content=")[^"]*"',
+                         lambda m: m.group(1) + t + '"', out)
+    if dsc:
+        out = re.sub(r'(<meta name="description" content=")[^"]*"',
+                     lambda m: m.group(1) + dsc + '"', out, count=1)
+        for prop in ('og:description', 'twitter:description'):
+            out = re.sub(r'(<meta (?:property|name)="' + prop + r'" content=")[^"]*"',
+                         lambda m: m.group(1) + dsc + '"', out)
+    # og:url must point at this locale's canonical URL, not the English one.
+    out = re.sub(r'(<meta property="og:url" content=")[^"]*"',
+                 lambda m: m.group(1) + lang_url(locale, page) + '"', out)
+
     # 5. Navigation chrome. These labels sit as bare text in the markup rather
     #    than in language spans, so they stayed English on every locale until
     #    now. Anchored on the surrounding tags to avoid touching body copy that

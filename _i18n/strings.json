@@ -962,5 +962,79 @@
       "fr": "Presse",
       "es": "Prensa"
     }
+  },
+  "meta": {
+    "index.html": {
+      "title": {
+        "en": "Dear: Stay in Touch",
+        "fr": "Dear : rester en contact",
+        "es": "Dear: sigue en contacto"
+      },
+      "desc": {
+        "en": "One gentle nudge a day to stay close to the people who matter. Free, private, no accounts needed.",
+        "fr": "Un rappel doux par jour pour rester proche de ceux qui comptent. Gratuit, privé, sans compte.",
+        "es": "Un recordatorio suave al día para seguir cerca de quienes importan. Gratis, privado, sin cuentas."
+      }
+    },
+    "about.html": {
+      "title": {
+        "en": "About - Dear: Stay in Touch",
+        "fr": "À propos de Dear",
+        "es": "Acerca de Dear"
+      },
+      "desc": {
+        "en": "Why Dear exists, the research behind it, and how it works.",
+        "fr": "Pourquoi Dear existe, la recherche qui la fonde et son fonctionnement.",
+        "es": "Por qué existe Dear, la investigación que la respalda y cómo funciona."
+      }
+    },
+    "press.html": {
+      "title": {
+        "en": "Press Kit - Dear: Stay in Touch",
+        "fr": "Kit presse - Dear",
+        "es": "Kit de prensa - Dear"
+      },
+      "desc": {
+        "en": "Press kit for Dear: Stay in Touch. App overview, key facts, research, and downloads.",
+        "fr": "Kit presse de Dear. Présentation de l'app, chiffres clés, recherche et téléchargements.",
+        "es": "Kit de prensa de Dear. Resumen de la app, datos clave, investigación y descargas."
+      }
+    },
+    "privacy.html": {
+      "title": {
+        "en": "Privacy Policy - Dear: Stay in Touch",
+        "fr": "Politique de confidentialité - Dear",
+        "es": "Política de privacidad - Dear"
+      },
+      "desc": {
+        "en": "Dear privacy policy. Your friends and contact data never leave your phone.",
+        "fr": "Politique de confidentialité de Dear. Tes proches et tes contacts ne quittent jamais ton téléphone.",
+        "es": "Política de privacidad de Dear. Tus personas y contactos nunca salen de tu teléfono."
+      }
+    },
+    "research.html": {
+      "title": {
+        "en": "Research - Dear: Stay in Touch",
+        "fr": "Recherche - Dear",
+        "es": "Investigación - Dear"
+      },
+      "desc": {
+        "en": "The behavioral science behind Dear. Research on loneliness and the appreciation gap.",
+        "fr": "La science comportementale derrière Dear. Recherches sur la solitude et l'écart d'appréciation.",
+        "es": "La ciencia del comportamiento tras Dear. Investigación sobre la soledad y la brecha de aprecio."
+      }
+    },
+    "support.html": {
+      "title": {
+        "en": "Support - Dear: Stay in Touch",
+        "fr": "Aide - Dear",
+        "es": "Ayuda - Dear"
+      },
+      "desc": {
+        "en": "Dear support and frequently asked questions.",
+        "fr": "Aide et questions fréquentes sur Dear.",
+        "es": "Ayuda y preguntas frecuentes sobre Dear."
+      }
+    }
   }
 }
