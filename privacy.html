@@ -7,9 +7,6 @@
     <meta name="description" content="Dear: Stay in Touch privacy policy. Your friends and contact data never leave your device. We collect only anonymous, aggregate usage counts through TelemetryDeck and anonymous purchase records through RevenueCat, and anonymous crash reports through Sentry.">
     <link rel="icon" type="image/png" href="app-icon.png">
     <link rel="apple-touch-icon" href="app-icon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -197,14 +194,15 @@
             .lang-btn { padding: 4px 8px; font-size: 0.7rem; }
         }
     </style>
+    <link rel="stylesheet" href="fonts.css">
 </head>
 <body>
 
     <!-- Language switcher -->
     <nav class="lang-nav">
-        <button class="lang-btn active" onclick="setLang('en')">EN</button>
-        <button class="lang-btn" onclick="setLang('fr')">FR</button>
-        <button class="lang-btn" onclick="setLang('es')">ES</button>
+        <button class="lang-btn active" data-set-lang="en" aria-pressed="true" onclick="setLang('en')">EN</button>
+        <button class="lang-btn" data-set-lang="fr" aria-pressed="false" onclick="setLang('fr')">FR</button>
+        <button class="lang-btn" data-set-lang="es" aria-pressed="false" onclick="setLang('es')">ES</button>
     </nav>
 
     <div class="container">
@@ -440,9 +438,25 @@
         </h2>
 
         <p>
-            <span data-lang="en">Dear uses four third-party services. Apple StoreKit and Google Play Billing process in-app purchases. RevenueCat manages purchase entitlements and receives the anonymous transaction records described above. TelemetryDeck (anonymous usage analytics) receives the anonymous event counts described above. Sentry receives crash reports so we can fix what breaks; user identity is stripped from every report before it is sent, and no personal information is attached. No advertising networks, tracking libraries, or data brokers are used.</span>
-            <span data-lang="fr">Dear utilise quatre services tiers. Apple StoreKit et Google Play Billing traitent les achats int&eacute;gr&eacute;s. RevenueCat g&egrave;re les droits d'acc&egrave;s li&eacute;s aux achats et re&ccedil;oit les enregistrements de transaction anonymes d&eacute;crits ci-dessus. TelemetryDeck (analytiques d'utilisation anonymes) re&ccedil;oit les comptages d'&eacute;v&eacute;nements anonymes d&eacute;crits ci-dessus. Sentry re&ccedil;oit les rapports de plantage pour que nous puissions corriger ce qui casse&nbsp;; toute identit&eacute; d'utilisateur est retir&eacute;e de chaque rapport avant l'envoi, et aucune information personnelle n'y est jointe. Aucun r&eacute;seau publicitaire, biblioth&egrave;que de tra&ccedil;age ou courtier en donn&eacute;es n'est utilis&eacute;.</span>
-            <span data-lang="es">Dear utiliza cuatro servicios de terceros. Apple StoreKit y Google Play Billing procesan las compras dentro de la app. RevenueCat gestiona los derechos de las compras y recibe los registros de transacciones an&oacute;nimos descritos anteriormente. TelemetryDeck (anal&iacute;tica de uso an&oacute;nima) recibe los conteos de eventos an&oacute;nimos descritos anteriormente. Sentry recibe informes de fallos para que podamos corregir lo que se rompe; se elimina toda identidad de usuario de cada informe antes de enviarlo, y no se adjunta ninguna informaci&oacute;n personal. No se utilizan redes publicitarias, bibliotecas de rastreo ni intermediarios de datos.</span>
+            <span data-lang="en">The Dear app uses four third-party services. Apple StoreKit and Google Play Billing process in-app purchases. RevenueCat manages purchase entitlements and receives the anonymous transaction records described above. TelemetryDeck (anonymous usage analytics) receives the anonymous event counts described above. Sentry receives crash reports so we can fix what breaks; user identity is stripped from every report before it is sent, and no personal information is attached. No advertising networks, tracking libraries, or data brokers are used.</span>
+            <span data-lang="fr">L'application Dear utilise quatre services tiers. Apple StoreKit et Google Play Billing traitent les achats int&eacute;gr&eacute;s. RevenueCat g&egrave;re les droits d'acc&egrave;s li&eacute;s aux achats et re&ccedil;oit les enregistrements de transaction anonymes d&eacute;crits ci-dessus. TelemetryDeck (analytiques d'utilisation anonymes) re&ccedil;oit les comptages d'&eacute;v&eacute;nements anonymes d&eacute;crits ci-dessus. Sentry re&ccedil;oit les rapports de plantage pour que nous puissions corriger ce qui casse&nbsp;; toute identit&eacute; d'utilisateur est retir&eacute;e de chaque rapport avant l'envoi, et aucune information personnelle n'y est jointe. Aucun r&eacute;seau publicitaire, biblioth&egrave;que de tra&ccedil;age ou courtier en donn&eacute;es n'est utilis&eacute;.</span>
+            <span data-lang="es">La aplicaci&oacute;n Dear utiliza cuatro servicios de terceros. Apple StoreKit y Google Play Billing procesan las compras dentro de la app. RevenueCat gestiona los derechos de las compras y recibe los registros de transacciones an&oacute;nimos descritos anteriormente. TelemetryDeck (anal&iacute;tica de uso an&oacute;nima) recibe los conteos de eventos an&oacute;nimos descritos anteriormente. Sentry recibe informes de fallos para que podamos corregir lo que se rompe; se elimina toda identidad de usuario de cada informe antes de enviarlo, y no se adjunta ninguna informaci&oacute;n personal. No se utilizan redes publicitarias, bibliotecas de rastreo ni intermediarios de datos.</span>
+        </p>
+
+        <h2>
+            <span data-lang="en">This website</span>
+            <span data-lang="fr">Ce site web</span>
+            <span data-lang="es">Este sitio web</span>
+        </h2>
+        <p>
+            <span data-lang="en">This policy describes the Dear app. The website you are reading is separate, and it works differently. dearnudges.com has no accounts, no cookies, no analytics and no tracking scripts. It sets nothing in your browser and asks you for nothing.</span>
+            <span data-lang="fr">Cette politique d&eacute;crit l'application Dear. Le site que vous lisez est distinct et fonctionne diff&eacute;remment. dearnudges.com n'a ni comptes, ni cookies, ni analytique, ni scripts de suivi. Il ne d&eacute;pose rien dans votre navigateur et ne vous demande rien.</span>
+            <span data-lang="es">Esta pol&iacute;tica describe la aplicaci&oacute;n Dear. El sitio que est&aacute;s leyendo es independiente y funciona de otra forma. dearnudges.com no tiene cuentas, ni cookies, ni anal&iacute;tica, ni scripts de seguimiento. No guarda nada en tu navegador ni te pide nada.</span>
+        </p>
+        <p>
+            <span data-lang="en">Two companies do see your visit, because they deliver the site: GitHub hosts the files, and Cloudflare serves them and handles security. Like any web host, both receive your IP address and browser details in their server logs. We do not control those logs and we do not read them. Fonts are served from this domain rather than a font provider, so no third party is contacted to display this page.</span>
+            <span data-lang="fr">Deux entreprises voient votre visite, car elles diffusent le site : GitHub h&eacute;berge les fichiers, Cloudflare les distribue et g&egrave;re la s&eacute;curit&eacute;. Comme tout h&eacute;bergeur, les deux re&ccedil;oivent votre adresse IP et les d&eacute;tails de votre navigateur dans leurs journaux. Nous ne contr&ocirc;lons pas ces journaux et nous ne les consultons pas. Les polices sont servies depuis ce domaine plut&ocirc;t que par un fournisseur externe, donc aucun tiers n'est contact&eacute; pour afficher cette page.</span>
+            <span data-lang="es">Dos empresas s&iacute; ven tu visita, porque entregan el sitio: GitHub aloja los archivos y Cloudflare los distribuye y gestiona la seguridad. Como cualquier alojamiento web, ambas reciben tu direcci&oacute;n IP y los datos de tu navegador en sus registros. No controlamos esos registros ni los consultamos. Las tipograf&iacute;as se sirven desde este dominio y no desde un proveedor externo, as&iacute; que no se contacta a ning&uacute;n tercero para mostrar esta p&aacute;gina.</span>
         </p>
 
         <h2>
@@ -590,10 +604,13 @@
             });
 
             // Update active button
+            // Screen readers must hear the page in the language it is written in.
+            document.documentElement.lang = lang;
             document.querySelectorAll('.lang-btn').forEach(function(btn) {
-                btn.classList.remove('active');
+                var on = btn.getAttribute('data-set-lang') === lang;
+                btn.classList.toggle('active', on);
+                btn.setAttribute('aria-pressed', on ? 'true' : 'false');
             });
-            event.target.classList.add('active');
         }
     </script>
 

@@ -12,9 +12,6 @@
     <meta property="og:type" content="website">
     <link rel="icon" type="image/png" href="app-icon.png">
     <link rel="apple-touch-icon" href="app-icon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -127,7 +124,7 @@
 
         .research-card .card-source {
             font-size: 0.78rem;
-            color: #9A969B;
+            color: #6E6A6F;
             margin-top: 10px;
             font-style: italic;
         }
@@ -187,7 +184,7 @@
         }
         .voice-tag .voice-lang {
             font-size: 0.7rem;
-            color: #9A969B;
+            color: #6E6A6F;
             font-weight: 400;
             display: block;
             margin-top: 2px;
@@ -252,13 +249,14 @@
             .lang-btn { padding: 4px 8px; font-size: 0.7rem; }
         }
     </style>
+    <link rel="stylesheet" href="fonts.css">
 </head>
 <body>
 
     <nav class="lang-nav">
-        <button class="lang-btn active" onclick="setLang('en')">EN</button>
-        <button class="lang-btn" onclick="setLang('fr')">FR</button>
-        <button class="lang-btn" onclick="setLang('es')">ES</button>
+        <button class="lang-btn active" data-set-lang="en" aria-pressed="true" onclick="setLang('en')">EN</button>
+        <button class="lang-btn" data-set-lang="fr" aria-pressed="false" onclick="setLang('fr')">FR</button>
+        <button class="lang-btn" data-set-lang="es" aria-pressed="false" onclick="setLang('es')">ES</button>
     </nav>
 
     <div class="page">
@@ -593,10 +591,13 @@
             document.querySelectorAll('[data-lang]').forEach(function(el) {
                 el.style.display = el.getAttribute('data-lang') === lang ? 'block' : 'none';
             });
+            // Screen readers must hear the page in the language it is written in.
+            document.documentElement.lang = lang;
             document.querySelectorAll('.lang-btn').forEach(function(btn) {
-                btn.classList.remove('active');
+                var on = btn.getAttribute('data-set-lang') === lang;
+                btn.classList.toggle('active', on);
+                btn.setAttribute('aria-pressed', on ? 'true' : 'false');
             });
-            event.target.classList.add('active');
         }
     </script>
 

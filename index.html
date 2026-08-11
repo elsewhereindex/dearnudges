@@ -18,9 +18,6 @@
     <meta name="twitter:image" content="https://dearnudges.com/app-icon.png">
     <link rel="icon" type="image/png" href="app-icon.png">
     <link rel="apple-touch-icon" href="app-icon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@900&family=Inter:wght@400;500;600;700&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -88,7 +85,7 @@
 
         .free-note {
             font-size: 0.78rem;
-            color: #9A969B;
+            color: #6E6A6F;
             margin-top: 8px;
             letter-spacing: 0.01em;
         }
@@ -101,7 +98,7 @@
         }
         .footer-links a {
             font-size: 0.78rem;
-            color: #9A969B;
+            color: #6E6A6F;
             text-decoration: none;
             font-weight: 500;
         }
@@ -109,7 +106,7 @@
 
         .copyright {
             font-size: 0.7rem;
-            color: #B0ADB0;
+            color: #6E6A6F;
             margin-top: 16px;
         }
 
@@ -126,7 +123,7 @@
             font-family: 'Quicksand', sans-serif;
             font-size: 0.7rem;
             font-weight: 600;
-            color: #9A969B;
+            color: #6E6A6F;
             background: transparent;
             border: 1px solid #E0E0E0;
             padding: 4px 8px;
@@ -188,13 +185,14 @@
             .lang-nav { top: 10px; right: 10px; }
         }
     </style>
+    <link rel="stylesheet" href="fonts.css">
 </head>
 <body>
 
     <nav class="lang-nav">
-        <button class="lang-btn active" onclick="setLang('en')">EN</button>
-        <button class="lang-btn" onclick="setLang('fr')">FR</button>
-        <button class="lang-btn" onclick="setLang('es')">ES</button>
+        <button class="lang-btn active" data-set-lang="en" aria-pressed="true" onclick="setLang('en')">EN</button>
+        <button class="lang-btn" data-set-lang="fr" aria-pressed="false" onclick="setLang('fr')">FR</button>
+        <button class="lang-btn" data-set-lang="es" aria-pressed="false" onclick="setLang('es')">ES</button>
     </nav>
 
     <div class="page">
@@ -293,10 +291,13 @@
                     el.style.display = el.getAttribute('data-lang') === lang ? 'block' : 'none';
                 }
             });
+            // Screen readers must hear the page in the language it is written in.
+            document.documentElement.lang = lang;
             document.querySelectorAll('.lang-btn').forEach(function(btn) {
-                btn.classList.remove('active');
+                var on = btn.getAttribute('data-set-lang') === lang;
+                btn.classList.toggle('active', on);
+                btn.setAttribute('aria-pressed', on ? 'true' : 'false');
             });
-            event.target.classList.add('active');
         }
     </script>
 
