@@ -66,6 +66,18 @@ def lang_url(locale, page):
     return f"{BASE_URL}/{tail}" if locale == "en" else f"{BASE_URL}/{locale}/{tail}"
 
 
+def rel_url(from_locale, to_locale, page):
+    """Relative link between locales.
+
+    The switcher used absolute https://dearnudges.com URLs, which meant that on
+    a local server every language button jumped to production. hreflang and
+    canonical still need absolute URLs, so only the switcher changes."""
+    tail = "" if page == "index.html" else page
+    if from_locale == "en":
+        return tail if to_locale == "en" else f"{to_locale}/{tail}"
+    return f"../{tail}" if to_locale == "en" else f"../{to_locale}/{tail}"
+
+
 def hreflang_block(ready, page):
     """Reciprocal hreflang set. Every version lists every version, including
     itself — an incomplete set is silently ignored by Google.
@@ -102,7 +114,7 @@ def switcher(locales, active, page, names, ready, doc):
             cls = "lang-btn active" if loc == active else "lang-btn"
             extra = ' aria-current="true"' if loc == active else ""
             live.append(f'<a class="{cls}" hreflang="{loc}"{extra} '
-                        f'href="{lang_url(loc, page)}">{label}</a>')
+                        f'href="{rel_url(active, loc, page)}">{label}</a>')
         else:
             soon.append(f'<span class="lang-soon-item">{endo.get(loc, loc)}</span>')
     heading = (ui.get("soon_heading") or {}).get(active, "Coming soon")
