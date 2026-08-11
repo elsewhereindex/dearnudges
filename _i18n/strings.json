@@ -6,8 +6,31 @@
     "de",
     "it",
     "ja",
+    "ko",
+    "zh-Hant",
+    "zh-Hans",
     "pt-BR",
-    "nl"
+    "ru",
+    "nl",
+    "hi",
+    "id",
+    "ar",
+    "tr",
+    "pl",
+    "vi",
+    "th",
+    "he",
+    "uk",
+    "sv",
+    "nb",
+    "da",
+    "fi",
+    "fil",
+    "bn",
+    "ta",
+    "te",
+    "mr",
+    "sw"
   ],
   "strings": {
     "dear_52ee92": {
@@ -927,9 +950,32 @@
     "es": "ES",
     "de": "DE",
     "it": "IT",
-    "ja": "JA",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh-Hant": "繁體",
+    "zh-Hans": "简体",
     "pt-BR": "PT",
-    "nl": "NL"
+    "ru": "RU",
+    "nl": "NL",
+    "hi": "हिन्दी",
+    "id": "ID",
+    "ar": "العربية",
+    "tr": "TR",
+    "pl": "PL",
+    "vi": "VI",
+    "th": "ไทย",
+    "he": "עברית",
+    "uk": "UK",
+    "sv": "SV",
+    "nb": "NB",
+    "da": "DA",
+    "fi": "FI",
+    "fil": "FIL",
+    "bn": "বাংলা",
+    "ta": "தமிழ்",
+    "te": "తెలుగు",
+    "mr": "मराठी",
+    "sw": "SW"
   },
   "nav": {
     "nav_home": {
@@ -1036,5 +1082,23 @@
         "es": "Ayuda y preguntas frecuentes sobre Dear."
       }
     }
-  }
+  },
+  "needs_font": [
+    "ja",
+    "ko",
+    "zh-Hant",
+    "zh-Hans",
+    "hi",
+    "ar",
+    "th",
+    "he",
+    "bn",
+    "ta",
+    "te",
+    "mr"
+  ],
+  "rtl": [
+    "ar",
+    "he"
+  ]
 }

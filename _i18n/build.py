@@ -130,7 +130,9 @@ def render(page, locale, doc):
     out = GROUP.sub(pick, src)
 
     # 2. Correct <html lang> for the locale actually being served.
-    out = re.sub(r'<html lang="[^"]*">', f'<html lang="{locale}">', out, count=1)
+    rtl = locale in doc.get("rtl", [])
+    attrs = f'lang="{locale}"' + (' dir="rtl"' if rtl else "")
+    out = re.sub(r'<html lang="[^"]*">', f'<html {attrs}>', out, count=1)
 
     # 3. Rewrite root-relative assets for pages served from a subdirectory.
     if locale != "en":
@@ -205,8 +207,25 @@ def sitemap(doc):
     return "\n".join(rows) + "\n"
 
 
+def preflight(doc):
+    """Refuse to build a locale that would render in a fallback font.
+
+    Quicksand, Inter and Encode Sans Expanded are Latin-only, and only the
+    latin + latin-ext subsets are self-hosted. Shipping Japanese or Arabic
+    would silently drop to a system font: translated, and visibly off-brand.
+    Marking such a locale `ready` is therefore a mistake worth failing on
+    rather than discovering on the live site."""
+    bad = [l for l in doc.get("ready", []) if l in doc.get("needs_font", [])]
+    if bad:
+        raise SystemExit(
+            f"REFUSING TO BUILD: {bad} need a script the self-hosted fonts do not "
+            f"cover. Add a font with those glyphs and extend fonts.css first, or "
+            f"remove them from `ready`.")
+
+
 def main():
     doc = load()
+    preflight(doc)
     ready = doc.get("ready", doc["locales"])
     written = 0
     for locale in doc["locales"]:
