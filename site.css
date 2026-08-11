@@ -268,9 +268,7 @@ a.lang-btn {
 .shots .shot {
     display: block;
     line-height: 0;
-    max-height: 210px;
-    overflow: hidden;
-    border-radius: 16px;
+    border-radius: 14px;
 }
 .shots img {
     display: block;
@@ -279,8 +277,8 @@ a.lang-btn {
     border-radius: 16px;
     box-shadow: 0 10px 34px rgba(45, 45, 45, 0.16);
 }
-.shot-hero { width: 116px; z-index: 1; }
-.shot-side { width: 96px; opacity: 0.85; }
+.shot-hero { width: 150px; z-index: 1; }
+.shot-side { width: 124px; opacity: 0.88; }
 
 .shots-caption {
     font-size: 0.82rem;
@@ -291,16 +289,14 @@ a.lang-btn {
 /* One phone is plenty on a narrow screen, and it keeps the CTA above the fold */
 @media (max-width: 480px) {
     .shot-side { display: none; }
-    .shot-hero { width: 132px; }
+    .shot-hero { width: 168px; }
     .shots { margin: 22px 0 6px; }
-    .shots .shot { max-height: 235px; }
 }
 
 @media (min-width: 768px) {
-    .shot-hero { width: 140px; }
-    .shot-side { width: 116px; }
-    .shots { gap: 14px; }
-    .shots .shot { max-height: 250px; }
+    .shot-hero { width: 176px; }
+    .shot-side { width: 146px; }
+    .shots { gap: 16px; }
 }
 
 @media (prefers-color-scheme: dark) {
