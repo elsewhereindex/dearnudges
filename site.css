@@ -152,3 +152,41 @@ button:focus-visible {
         transition-duration: 0.01ms !important;
     }
 }
+
+/* ─────────────────────────────────────────────
+   Language switcher (server-rendered)
+   Locales are real links now, not JS-swapped spans, so each language has its
+   own URL and Google can index it. The "+" reveals languages the app already
+   speaks but the site does not yet; those are shown disabled rather than
+   hidden, so the roadmap is visible without pretending it is done.
+   ───────────────────────────────────────────── */
+.lang-nav { align-items: center; }
+
+a.lang-btn {
+    display: inline-block;
+    text-decoration: none;
+    line-height: 1.1;
+}
+
+/* Planned, not yet translated. Non-interactive and clearly secondary. */
+.lang-btn-soon {
+    opacity: 0.42;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.lang-more { cursor: pointer; font-weight: 700; }
+
+/* The overflow list is collapsed until the "+" is pressed. Driven by
+   aria-expanded so the accessible state and the visual state cannot drift. */
+.lang-more-list { display: none; gap: 4px; }
+.lang-more[aria-expanded="true"] + .lang-more-list {
+    display: inline-flex;
+    flex-wrap: wrap;
+    max-width: 190px;
+    justify-content: flex-end;
+}
+
+@media (prefers-color-scheme: dark) {
+    .lang-btn-soon { opacity: 0.34; }
+}

@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Dear: Stay in Touch</title>
+    <meta name="description" content="Dear: Stay in Touch privacy policy. Your friends and contact data never leave your device. We collect only anonymous, aggregate usage counts through TelemetryDeck and anonymous purchase records through RevenueCat, and anonymous crash reports through Sentry.">
+    <link rel="icon" type="image/png" href="../app-icon.png">
+    <link rel="apple-touch-icon" href="../app-icon.png">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Quicksand', -apple-system, sans-serif;
+            background: #FAFAFD;
+            color: #2D2D2D;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0 24px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Language switcher */
+        .lang-nav {
+            position: fixed;
+            top: 16px;
+            right: 20px;
+            display: flex;
+            gap: 4px;
+            z-index: 10;
+        }
+
+        .lang-btn {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #7A767B;
+            background: white;
+            border: 1px solid #E0E0E0;
+            padding: 5px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            text-decoration: none;
+        }
+
+        .lang-btn:hover, .lang-btn.active {
+            color: #6B8AD6;
+            border-color: #6B8AD6;
+            background: #F5F6FB;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            padding: 60px 0 40px;
+        }
+
+        a.back {
+            font-size: 0.85rem;
+            color: #8396D1;
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-block;
+            margin-bottom: 32px;
+        }
+
+        a.back:hover { text-decoration: underline; }
+
+        h1 {
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 700;
+            font-size: 1.6rem;
+            color: #2D2D2D;
+            margin-bottom: 6px;
+        }
+
+        .updated {
+            font-size: 0.82rem;
+            color: #7A767B;
+            margin-bottom: 36px;
+        }
+
+        .short-version {
+            background: #EDEEF7;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 36px;
+            line-height: 1.65;
+            font-size: 0.95rem;
+        }
+
+        h2 {
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: #2D2D2D;
+            margin-top: 32px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            font-size: 0.92rem;
+            line-height: 1.65;
+            color: #2D2D2D;
+            margin-bottom: 12px;
+        }
+
+        p strong {
+            font-weight: 600;
+        }
+
+        ul {
+            font-size: 0.92rem;
+            line-height: 1.65;
+            margin-left: 20px;
+            margin-bottom: 12px;
+        }
+
+        .divider {
+            width: 48px;
+            height: 1px;
+            background: #C9CFDF;
+            margin: 36px 0;
+        }
+
+        footer {
+            font-size: 0.78rem;
+            color: #7A767B;
+            padding-bottom: 80px;
+            line-height: 1.7;
+        }
+
+        footer em {
+            font-style: italic;
+        }
+
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #8396D1;
+            border-top: none;
+            display: flex;
+            justify-content: center;
+            gap: 0;
+            padding: 0;
+            z-index: 20;
+        }
+
+        .bottom-nav a {
+            flex: 1;
+            max-width: 100px;
+            text-align: center;
+            padding: 10px 0 calc(10px + env(safe-area-inset-bottom, 0px));
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 3px;
+            transition: color 0.15s ease;
+        }
+
+        .bottom-nav a:hover,
+        .bottom-nav a.active {
+            color: #FFFFFF;
+        }
+
+        .bottom-nav svg {
+            width: 18px;
+            height: 18px;
+            fill: none;
+            stroke: currentColor;
+            stroke-width: 1.8;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        /* Hide inactive languages */
+        [data-lang] { display: none; }
+        [data-lang="en"] { display: block; }
+        span[data-lang="en"] { display: inline; }
+
+        @media (max-width: 480px) {
+            .container { padding: 40px 0 32px; }
+            h1 { font-size: 1.4rem; }
+            .lang-nav { top: 10px; right: 10px; }
+            .lang-btn { padding: 4px 8px; font-size: 0.7rem; }
+        }
+    </style>
+    <link rel="stylesheet" href="../fonts.css">
+    <link rel="stylesheet" href="../site.css">
+    <link rel="canonical" href="https://dearnudges.com/fr/privacy.html">
+    <link rel="alternate" hreflang="en" href="https://dearnudges.com/privacy.html">
+    <link rel="alternate" hreflang="fr" href="https://dearnudges.com/fr/privacy.html">
+    <link rel="alternate" hreflang="es" href="https://dearnudges.com/es/privacy.html">
+    <link rel="alternate" hreflang="x-default" href="https://dearnudges.com/privacy.html">
+</head>
+<body>
+
+    <!-- Language switcher -->
+    <nav class="lang-nav" aria-label="Language">
+        <a class="lang-btn" hreflang="en" href="https://dearnudges.com/privacy.html">EN</a><a class="lang-btn active" hreflang="fr" aria-current="true" href="https://dearnudges.com/fr/privacy.html">FR</a><a class="lang-btn" hreflang="es" href="https://dearnudges.com/es/privacy.html">ES</a>
+        <button class="lang-btn lang-more" aria-expanded="false" aria-controls="lang-more-list" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='true'?'false':'true')">+</button>
+        <span class="lang-more-list" id="lang-more-list"><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">DE</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">IT</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">JA</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">PT</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">NL</span></span>
+    </nav>
+
+    <div class="container">
+        <a href="/" class="back">
+            &larr; Retour &agrave; Dear
+        </a>
+
+        <h1>
+            Politique de confidentialit&eacute;
+        </h1>
+        <p class="updated">
+            Derni&egrave;re mise &agrave; jour : juillet 2026
+        </p>
+
+        <div class="short-version">
+            Tes donn&eacute;es de contact ne quittent jamais ton appareil. Nous n'avons pas de comptes ni de publicit&eacute;. Nous collectons un petit ensemble de comptages d'utilisation anonymes via TelemetryDeck, un service d'analytique respectueux de la vie priv&eacute;e bas&eacute; en Allemagne, des enregistrements d'achat anonymes via RevenueCat et des rapports de plantage anonymes via Sentry, pour comprendre comment l'app est utilis&eacute;e, pour restaurer tes achats et pour corriger ce qui casse. Il nous est impossible de t'identifier &agrave; partir de ces donn&eacute;es, et les noms et coordonn&eacute;es de tes proches ne sont jamais inclus.<br><br>
+            Voil&agrave;. C'est toute la politique de confidentialit&eacute;.
+        </div>
+
+        <p>
+            Si tu veux la version longue &agrave; des fins juridiques, continue ta lecture.
+        </p>
+
+        <div class="divider"></div>
+
+        <h2>
+            &Agrave; quelles donn&eacute;es Dear acc&egrave;de
+        </h2>
+
+        <p>
+            <strong>Noms et photos de contacts.</strong> Lors de la configuration initiale, Dear demande la permission d'acc&eacute;der &agrave; tes contacts. Cela sert uniquement &agrave; te permettre de s&eacute;lectionner les personnes &agrave; ajouter &agrave; ta liste de rappels. Les donn&eacute;es de contact sont lues une seule fois lors de la s&eacute;lection et stock&eacute;es localement sur ton appareil. Dear ne transmet jamais tes donn&eacute;es de contact en dehors de ton appareil, et tu peux utiliser l'app sans accorder l'acc&egrave;s aux contacts en saisissant les noms manuellement.
+        </p>
+
+        <p>
+            <strong>Autorisations de notifications.</strong> Dear demande la permission d'envoyer des notifications locales pour te rappeler de contacter quelqu'un. Ces notifications sont programm&eacute;es et envoy&eacute;es enti&egrave;rement sur ton appareil&nbsp;; leur contenu n'est jamais transmis o&ugrave; que ce soit.
+        </p>
+
+        <h2>
+            Quelles donn&eacute;es Dear stocke
+        </h2>
+
+        <p>
+            Toutes les donn&eacute;es sont stock&eacute;es localement sur ton appareil (y compris un petit espace partag&eacute; pour que le widget puisse afficher tes rappels). Cela comprend :
+        </p>
+
+        <div data-lang="en">
+            <ul>
+                <li>The names and optional photos of people you've added</li>
+                <li>Your nudge preferences (frequency, notification time)</li>
+                <li>Your persona and theme selections</li>
+                <li>Nudge completion history</li>
+                <li>Purchase status for subscriptions and voice personas</li>
+            </ul>
+        </div>
+        <div data-lang="fr">
+            <ul>
+                <li>Les noms et photos optionnelles des personnes que tu as ajout&eacute;es</li>
+                <li>Tes pr&eacute;f&eacute;rences de rappels (fr&eacute;quence, heure de notification)</li>
+                <li>Tes choix de voix et de th&egrave;me</li>
+                <li>L'historique des rappels compl&eacute;t&eacute;s</li>
+                <li>Le statut de tes achats pour les abonnements et les voix</li>
+            </ul>
+        </div>
+        <div data-lang="es">
+            <ul>
+                <li>Los nombres y fotos opcionales de las personas que has agregado</li>
+                <li>Tus preferencias de recordatorios (frecuencia, hora de notificaci&oacute;n)</li>
+                <li>Tus selecciones de voz y tema</li>
+                <li>El historial de recordatorios completados</li>
+                <li>El estado de tus compras de suscripciones y voces</li>
+            </ul>
+        </div>
+
+        <p>
+            Ces donn&eacute;es ne quittent jamais ton appareil. Il n'y a pas de synchronisation cloud, pas de sauvegarde sur nos serveurs, et aucun moyen pour nous d'y acc&eacute;der.
+        </p>
+
+        <h2>
+            Quelles donn&eacute;es Dear collecte ou transmet
+        </h2>
+
+        <p>
+            Dear n'a pas de comptes et pas de publicit&eacute;. Nous n'utilisons aucun pixel de tra&ccedil;age ni framework publicitaire. Nous ne savons pas qui tu es, qui sont tes proches, ni quels messages tu envoies. Nous collectons des comptages d'utilisation anonymes via TelemetryDeck, des enregistrements d'achat anonymes via RevenueCat et des rapports de plantage anonymes via Sentry (voir les sections ci-dessous). Au-del&agrave;, nous ne connaissons que ce qu'Apple et Google fournissent dans les statistiques agr&eacute;g&eacute;es de l'App Store et de Google Play, qui ne contiennent aucune information personnelle identifiable et sont contr&ocirc;l&eacute;es par les r&eacute;glages de ton appareil.
+        </p>
+
+        <h2 id="anonymous-analytics">
+            <span id="anonymous-analytics-fr"></span>Analytique anonymeAnal&iacute;tica an&oacute;nima</span>
+        </h2>
+
+        <p>
+            Pour comprendre comment Dear est utilis&eacute;e et pouvoir l'am&eacute;liorer, nous collectons un petit ensemble d'&eacute;v&eacute;nements anonymes via TelemetryDeck, un service d'analytique respectueux de la vie priv&eacute;e, h&eacute;berg&eacute; en Allemagne et conforme au RGPD. Nous ne suivons que des comptages d'utilisation de fonctionnalit&eacute;s, jamais qui les a utilis&eacute;es.
+        </p>
+
+        <p><strong>Ce que nous suivons :</strong></p>
+
+        <div data-lang="en">
+            <ul>
+                <li>App opens, onboarding starts and completions, and the outcome of permission prompts (granted or denied)</li>
+                <li>Counts of friends added, nudges completed and skipped, and contact actions taken (text, call, video)</li>
+                <li>Paywall views and in-app purchase events, identified by product ID only</li>
+                <li>Settings changes such as voice selection, frequency changes, data deletion, and adding the home-screen widget</li>
+            </ul>
+        </div>
+        <div data-lang="fr">
+            <ul>
+                <li>Ouvertures de l'app, d&eacute;buts et fins du processus de configuration, et r&eacute;sultat des demandes d'autorisation (accord&eacute;e ou refus&eacute;e)</li>
+                <li>Nombre d'amis ajout&eacute;s, de rappels compl&eacute;t&eacute;s ou ignor&eacute;s, et d'actions de contact effectu&eacute;es (message, appel, vid&eacute;o)</li>
+                <li>Vues du paywall et &eacute;v&eacute;nements d'achat int&eacute;gr&eacute;, identifi&eacute;s uniquement par l'identifiant du produit</li>
+                <li>Modifications des r&eacute;glages telles que la s&eacute;lection de voix, les changements de fr&eacute;quence, la suppression des donn&eacute;es, et l'ajout du widget sur l'&eacute;cran d'accueil</li>
+            </ul>
+        </div>
+        <div data-lang="es">
+            <ul>
+                <li>Aperturas de la app, inicios y finalizaciones del proceso de configuraci&oacute;n, y el resultado de las solicitudes de permiso (concedido o denegado)</li>
+                <li>Cantidad de amistades agregadas, recordatorios completados y omitidos, y acciones de contacto realizadas (mensaje, llamada, video)</li>
+                <li>Vistas del paywall y eventos de compra dentro de la app, identificados solo por el ID del producto</li>
+                <li>Cambios en ajustes como selecci&oacute;n de voz, cambios de frecuencia, eliminaci&oacute;n de datos, y adici&oacute;n del widget en la pantalla de inicio</li>
+            </ul>
+        </div>
+
+        <p>
+            <strong>Ce que nous ne suivons jamais :</strong> ton nom, les noms ou coordonn&eacute;es de tes proches, les messages que tu envoies, l'heure &agrave; laquelle tu as ouvert l'app, ta localisation, ton adresse IP, ou tout identifiant d'appareil qui pourrait te relier &agrave; ces donn&eacute;es.
+        </p>
+
+        <p>
+            Ces &eacute;v&eacute;nements sont pseudonymes et agr&eacute;g&eacute;s. Il nous est impossible de t'identifier &agrave; partir d'eux. &Eacute;tant donn&eacute; qu'aucune donn&eacute;e personnelle n'est trait&eacute;e, nous ne sommes pas tenus d'afficher une invite de consentement au titre du RGPD. Si tu souhaites tout de m&ecirc;me te d&eacute;sinscrire, &eacute;cris-nous &agrave; support@dearnudges.com et nous prendrons note de ta demande pour la prochaine version.
+        </p>
+
+        <h2 id="delete-data">
+            Supprimer vos donn&eacute;es
+        </h2>
+
+        <p>
+            Dear n'a pas de comptes, et aucun serveur ne d&eacute;tient vos informations personnelles. Vos amis, vos rappels et vos messages restent uniquement sur votre appareil. Pour supprimer tout ce que Dear sait sur vous :
+        </p>
+
+        <div data-lang="en">
+            <ol>
+                <li>Open the Dear app</li>
+                <li>Go to <strong>Settings &rarr; Delete all my data</strong></li>
+                <li>Confirm. All friends, nudges, and preferences are wiped from your device immediately. Uninstalling the app afterward removes everything else.</li>
+            </ol>
+        </div>
+        <div data-lang="fr">
+            <ol>
+                <li>Ouvrez l'app Dear</li>
+                <li>Allez dans <strong>R&eacute;glages &rarr; Supprimer toutes mes donn&eacute;es</strong></li>
+                <li>Confirmez. Tous les amis, rappels et pr&eacute;f&eacute;rences sont effac&eacute;s de votre appareil imm&eacute;diatement. D&eacute;sinstaller l'app ensuite supprime le reste.</li>
+            </ol>
+        </div>
+        <div data-lang="es">
+            <ol>
+                <li>Abre la app Dear</li>
+                <li>Ve a <strong>Ajustes &rarr; Borrar todos mis datos</strong></li>
+                <li>Confirma. Todas las amistades, recordatorios y preferencias se borran de tu dispositivo de inmediato. Desinstalar la app despu&eacute;s elimina lo dem&aacute;s.</li>
+            </ol>
+        </div>
+
+        <p>
+            Nous n'avons pas de serveur avec vos informations personnelles. Nous ne les avons jamais collect&eacute;es, il n'y a donc rien &agrave; supprimer de notre c&ocirc;t&eacute;. Les seules donn&eacute;es qui quittent votre appareil sont des statistiques anonymes et agr&eacute;g&eacute;es (voir <a href="#anonymous-analytics">Analytique anonyme</a>) et des enregistrements d'achat anonymes, qui ne peuvent ni les uns ni les autres &ecirc;tre li&eacute;s &agrave; vous&nbsp;: il n'y a pas d'enregistrement individuel &agrave; supprimer.
+        </p>
+
+        <p>
+            Pour toute question ou aide, &eacute;crivez &agrave; <a href="mailto:hello@dearnudges.com">hello@dearnudges.com</a>.
+        </p>
+
+        <p>
+            <em>Note : une future version de Dear proposera une option facultative pour partager des donn&eacute;es d'utilisation anonymis&eacute;es avec des chercheurs &eacute;tudiant la solitude et le bien-&ecirc;tre. Lorsque cette option arrivera, la d&eacute;sactivation et la suppression des donn&eacute;es contribu&eacute;es seront disponibles dans le m&ecirc;me menu R&eacute;glages, et cette page sera mise &agrave; jour.</em>
+        </p>
+
+        <h2>
+            Achats int&eacute;gr&eacute;s
+        </h2>
+
+        <p>
+            Dear propose des abonnements optionnels et des achats uniques via l'App Store d'Apple (et Google Play sur Android). Apple et Google g&egrave;rent tout le traitement des paiements&nbsp;; nous ne voyons ni ne stockons jamais tes informations de carte ou de paiement. Pour d&eacute;bloquer ce que tu as achet&eacute; sur tous tes appareils et apr&egrave;s une r&eacute;installation, Dear utilise RevenueCat, qui re&ccedil;oit un enregistrement anonyme de chaque transaction (le produit achet&eacute;, la date d'achat et un identifiant interne anonyme). Cet enregistrement ne contient aucun nom, courriel ou information de paiement. Les politiques de confidentialit&eacute; d'Apple, de Google et de RevenueCat r&eacute;gissent ces donn&eacute;es.
+        </p>
+
+        <h2>
+            Services tiers
+        </h2>
+
+        <p>
+            L'application Dear utilise quatre services tiers. Apple StoreKit et Google Play Billing traitent les achats int&eacute;gr&eacute;s. RevenueCat g&egrave;re les droits d'acc&egrave;s li&eacute;s aux achats et re&ccedil;oit les enregistrements de transaction anonymes d&eacute;crits ci-dessus. TelemetryDeck (analytiques d'utilisation anonymes) re&ccedil;oit les comptages d'&eacute;v&eacute;nements anonymes d&eacute;crits ci-dessus. Sentry re&ccedil;oit les rapports de plantage pour que nous puissions corriger ce qui casse&nbsp;; toute identit&eacute; d'utilisateur est retir&eacute;e de chaque rapport avant l'envoi, et aucune information personnelle n'y est jointe. Aucun r&eacute;seau publicitaire, biblioth&egrave;que de tra&ccedil;age ou courtier en donn&eacute;es n'est utilis&eacute;.
+        </p>
+
+        <h2>
+            Ce site web
+        </h2>
+        <p>
+            Cette politique d&eacute;crit l'application Dear. Le site que vous lisez est distinct et fonctionne diff&eacute;remment. dearnudges.com n'a ni comptes, ni cookies, ni analytique, ni scripts de suivi. Il ne d&eacute;pose rien dans votre navigateur et ne vous demande rien.
+        </p>
+        <p>
+            Deux entreprises voient votre visite, car elles diffusent le site : GitHub h&eacute;berge les fichiers, Cloudflare les distribue et g&egrave;re la s&eacute;curit&eacute;. Comme tout h&eacute;bergeur, les deux re&ccedil;oivent votre adresse IP et les d&eacute;tails de votre navigateur dans leurs journaux. Nous ne contr&ocirc;lons pas ces journaux et nous ne les consultons pas. Les polices sont servies depuis ce domaine plut&ocirc;t que par un fournisseur externe, donc aucun tiers n'est contact&eacute; pour afficher cette page.
+        </p>
+
+        <h2>
+            Partage de donn&eacute;es
+        </h2>
+
+        <p>
+            Nous ne vendons, ne louons ni ne partageons tes donn&eacute;es. Les comptages d'utilisation anonymes envoy&eacute;s &agrave; TelemetryDeck ne sont pas li&eacute;s &agrave; toi personnellement et ne sont pas partag&eacute;s avec un r&eacute;seau publicitaire ou un courtier en donn&eacute;es. La politique de confidentialit&eacute; de TelemetryDeck r&eacute;git la fa&ccedil;on dont ils traitent ces comptages sur leur infrastructure.
+        </p>
+
+        <h2>
+            Protection des mineurs
+        </h2>
+
+        <p>
+            Dear ne collecte sciemment aucune information personnelle concernant les enfants de moins de 13 ans. Les comptages d'utilisation anonymes que nous collectons via TelemetryDeck ne contiennent aucune donn&eacute;e personnelle et ne permettent d'identifier aucun utilisateur, y compris les enfants.
+        </p>
+
+        <h2>
+            Dear Friend
+        </h2>
+
+        <p>
+            Si tu choisis de devenir Dear Friend (un niveau de soutien dans Dear), tu peux facultativement partager des informations avec Elsewhere Index par courriel. C'est enti&egrave;rement volontaire et cela se passe en dehors de l'app.
+        </p>
+
+        <p>
+            L'&eacute;cran apr&egrave;s achat de Dear Friend peut t'aider &agrave; r&eacute;diger un courriel &agrave; Elsewhere Index. Ce courriel peut inclure :
+        </p>
+
+        <div data-lang="en">
+            <ul>
+                <li>Your preferred name, if you choose to be listed in Dear's credits</li>
+            </ul>
+        </div>
+        <div data-lang="fr">
+            <ul>
+                <li>Ton nom pr&eacute;f&eacute;r&eacute;, si tu choisis d'appara&icirc;tre dans les cr&eacute;dits de Dear</li>
+            </ul>
+        </div>
+        <div data-lang="es">
+            <ul>
+                <li>Tu nombre preferido, si eliges aparecer en los cr&eacute;ditos de Dear</li>
+            </ul>
+        </div>
+
+        <p>
+            Ce courriel est r&eacute;dig&eacute; sur ton appareil avec ta propre app de messagerie. Tu le relis et l'envoies toi-m&ecirc;me. Dear ne collecte, ne stocke et ne transmet pas cette information via un serveur ou une API. Elsewhere Index la re&ccedil;oit uniquement par ton courriel et l'utilise uniquement aux fins indiqu&eacute;es.
+        </p>
+
+        <p>
+            Ton adresse courriel est visible par Elsewhere Index lorsque tu envoies le message. Elle ne sera ajout&eacute;e &agrave; aucune liste marketing ni partag&eacute;e avec qui que ce soit.
+        </p>
+
+        <h2>
+            Modifications de cette politique
+        </h2>
+
+        <p>
+            Si nous changeons un jour la fa&ccedil;on dont Dear g&egrave;re les donn&eacute;es (par exemple, en ajoutant une synchronisation cloud optionnelle dans une version future), nous mettrons &agrave; jour cette politique et noterons les changements ici. Toute fonctionnalit&eacute; future impliquant la transmission de donn&eacute;es sera optionnelle et clairement communiqu&eacute;e.
+        </p>
+
+        <h2>
+            Contact
+        </h2>
+
+        <p>
+            Si tu as des questions sur cette politique de confidentialit&eacute;, tu peux nous &eacute;crire &agrave; support@dearnudges.com.
+        </p>
+
+        <div class="divider"></div>
+
+        <footer>
+            <em>
+                Dear: Stay in Touch est cr&eacute;&eacute; par Elsewhere Index LLC. Distribu&eacute; sur l'App Store d'Apple et Google Play avec des achats int&eacute;gr&eacute;s optionnels, sans publicit&eacute;, sans comptes et sans collecte de donn&eacute;es personnelles.
+            </em>
+        </footer>
+    </div>
+
+    <!-- Sticky bottom nav -->
+    <nav class="bottom-nav">
+        <a href="/">
+            <svg viewBox="0 0 24 24"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z"/><path d="M9 21V12h6v9"/></svg>
+            Accueil
+        </a>
+        <a href="about.html">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            À propos
+        </a>
+        <a href="research.html">
+            <svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            Recherche
+        </a>
+        <a href="support.html">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            FAQ
+        </a>
+        <a href="privacy.html" class="active">
+            <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Confidentialité
+        </a>
+        <a href="press.html">
+            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Presse
+        </a>
+    </nav>
+
+    
+
+</body>
+</html>
