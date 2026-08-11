@@ -1,0 +1,154 @@
+/* site.css — dark mode and desktop layout.
+ *
+ * Loaded AFTER each page's inline <style>, so these rules override without
+ * editing the existing CSS. Additive by design: nothing here changes the
+ * light-mode mobile appearance.
+ *
+ * Dark palette is taken from the app's own tokens (Color.kt / FriendoColors)
+ * so the site and the product look like the same thing:
+ *   background #1A1A1A · surface #2A2A28 · text #F0EEE0
+ *   secondary #9FA59F · accent #85A4E0
+ */
+
+/* ─────────────────────────────────────────────
+   Dark mode
+   ───────────────────────────────────────────── */
+@media (prefers-color-scheme: dark) {
+
+    body {
+        background: #1A1A1A !important;
+        color: #F0EEE0 !important;
+    }
+
+    /* Headings and primary text */
+    h1, h2, h3, h4,
+    .card-title, .finding, .quick-facts h3 {
+        color: #F0EEE0 !important;
+    }
+
+    /* Secondary / muted text. #9FA59F on #1A1A1A is 7.4:1, comfortably AA. */
+    .tagline, .free-note, .copyright, .source, .card-source,
+    .card-body, p, li, .faq-answer, .footer-links a {
+        color: #9FA59F !important;
+    }
+
+    /* Accent: the light-mode blue is too dark on a dark ground.
+       #85A4E0 is the app's own dark-mode accent. */
+    a, .accent, strong.accent { color: #85A4E0; }
+
+    /* Surfaces: cards, panels, quote blocks */
+    .card, .citation, .quick-facts, .faq-item, .container > section,
+    .research-list, .founder, .press-section {
+        background: #2A2A28 !important;
+        border-color: #3A3A38 !important;
+    }
+
+    /* Language switcher */
+    .lang-btn {
+        color: #9FA59F !important;
+        border-color: #3A3A38 !important;
+    }
+    .lang-btn:hover, .lang-btn.active {
+        color: #F0EEE0 !important;
+        border-color: #F0EEE0 !important;
+    }
+
+    /* Bottom nav keeps the brand blue but drops a shade so it does not glow */
+    .bottom-nav { background: #6E83C3 !important; }
+
+    /* The icon's light-blue glow reads as a halo on dark; soften it */
+    .app-icon { box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45) !important; }
+
+    /* Anything that assumed a white card */
+    [style*="background: #FFFFFF"],
+    [style*="background:#FFFFFF"] { background: #2A2A28 !important; }
+}
+
+/* ─────────────────────────────────────────────
+   Desktop layout
+   The site was a 400px phone column centred in a 1440px viewport, with a
+   fixed mobile-style tab bar pinned to the bottom. Both are corrected at
+   >=768px; below that nothing changes.
+   ───────────────────────────────────────────── */
+@media (min-width: 768px) {
+
+    /* Give the content room to breathe without becoming a wall of text */
+    .page { max-width: 640px !important; }
+    .container { max-width: 760px !important; }
+
+    /* The bottom tab bar becomes a top nav on desktop.
+       The nav sits last in the DOM, so `order: -1` lifts it above the content
+       on the flex-column pages. On non-flex pages it stays a footer nav, which
+       still reads correctly. */
+    .bottom-nav {
+        position: static !important;
+        order: -1;
+        width: 100%;
+        background: transparent !important;
+        justify-content: center;
+        gap: 8px;
+        padding: 18px 0 !important;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+        margin-bottom: 24px;
+    }
+    .bottom-nav a {
+        flex: 0 0 auto !important;
+        max-width: none !important;
+        flex-direction: row !important;
+        gap: 7px !important;
+        padding: 8px 14px !important;
+        font-size: 0.8rem !important;
+        color: #6E6A6F !important;
+        border-radius: 8px;
+    }
+    .bottom-nav a:hover, .bottom-nav a.active {
+        color: #2D2D2D !important;
+        background: rgba(131, 150, 209, 0.10);
+    }
+    .bottom-nav svg { width: 15px !important; height: 15px !important; }
+
+    /* The page reserved space for a fixed bar that no longer exists */
+    .page { padding-bottom: 64px !important; }
+
+    /* Store badges sit side by side rather than stacking */
+    .app-store-badge, .play-store-badge { margin: 0 5px 12px !important; }
+
+    h1 { font-size: 2.4rem !important; }
+    .tagline { font-size: 1.1rem !important; }
+}
+
+@media (min-width: 768px) and (prefers-color-scheme: dark) {
+    .bottom-nav {
+        border-bottom-color: rgba(255, 255, 255, 0.08);
+    }
+    .bottom-nav a { color: #9FA59F !important; }
+    .bottom-nav a:hover, .bottom-nav a.active {
+        color: #F0EEE0 !important;
+        background: rgba(133, 164, 224, 0.14);
+    }
+}
+
+/* ─────────────────────────────────────────────
+   Accessibility
+   ───────────────────────────────────────────── */
+
+/* The site had no visible focus ring beyond the browser default, which
+   several resets had already weakened. */
+a:focus-visible,
+button:focus-visible {
+    outline: 2px solid #6B8AD6;
+    outline-offset: 3px;
+    border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+    a:focus-visible, button:focus-visible { outline-color: #85A4E0; }
+}
+
+/* Respect a reduce-motion preference, as the app does. */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
