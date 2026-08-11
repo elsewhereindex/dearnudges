@@ -81,31 +81,44 @@ def hreflang_block(ready, page):
     return "\n".join(out)
 
 
-def switcher(locales, active, page, names, ready):
-    """Server-rendered switcher. Real links, so it works without JavaScript and
-    search engines can follow it. Locales without copy yet are shown but
-    disabled, so the roadmap is visible without pretending it is done."""
-    items = []
+def switcher(locales, active, page, names, ready, doc):
+    """Server-rendered switcher: real links, so it works without JavaScript and
+    crawlers can follow it.
+
+    Languages are labelled with ENDONYMS (Deutsch, 日本語), never flags. A flag
+    is a country, not a language: Spanish is spoken in twenty-odd countries and
+    Arabic in as many, so any flag chosen excludes most of its speakers. This is
+    long-standing W3C guidance.
+
+    The compact row carries the live locales as short codes. The "+" opens a
+    panel listing everything else in a tidy two-column grid, rather than the
+    ragged wrap that variable-width chips produce."""
+    endo = doc.get("endonyms", {})
+    ui = doc.get("ui", {})
+    live, soon = [], []
     for loc in locales:
-        label = names.get(loc, loc.upper())
-        if loc == active:
-            items.append(f'<a class="lang-btn active" hreflang="{loc}" aria-current="true" '
-                         f'href="{lang_url(loc, page)}">{label}</a>')
-        elif loc in ready:
-            items.append(f'<a class="lang-btn" hreflang="{loc}" '
-                         f'href="{lang_url(loc, page)}">{label}</a>')
+        if loc in ready:
+            label = names.get(loc, loc.upper())
+            cls = "lang-btn active" if loc == active else "lang-btn"
+            extra = ' aria-current="true"' if loc == active else ""
+            live.append(f'<a class="{cls}" hreflang="{loc}"{extra} '
+                        f'href="{lang_url(loc, page)}">{label}</a>')
         else:
-            items.append(f'<span class="lang-btn lang-btn-soon" aria-disabled="true" '
-                         f'title="Coming soon">{label}</span>')
-    more = "".join(items[3:])
-    head = "".join(items[:3])
+            soon.append(f'<span class="lang-soon-item">{endo.get(loc, loc)}</span>')
+    heading = (ui.get("soon_heading") or {}).get(active, "Coming soon")
+    note = (ui.get("app_note") or {}).get(active, "")
     return (
         '<nav class="lang-nav" aria-label="Language">\n'
-        f'        {head}\n'
+        f'        {"".join(live)}\n'
         '        <button class="lang-btn lang-more" aria-expanded="false" '
-        'aria-controls="lang-more-list" onclick="this.setAttribute(\'aria-expanded\', '
+        'aria-controls="lang-more-list" aria-label="More languages" '
+        'onclick="this.setAttribute(\'aria-expanded\', '
         'this.getAttribute(\'aria-expanded\')===\'true\'?\'false\':\'true\')">+</button>\n'
-        f'        <span class="lang-more-list" id="lang-more-list">{more}</span>\n'
+        '        <div class="lang-more-list" id="lang-more-list">\n'
+        f'            <p class="lang-soon-heading">{heading}</p>\n'
+        f'            <div class="lang-soon-grid">{"".join(soon)}</div>\n'
+        f'            <p class="lang-soon-note">{note}</p>\n'
+        '        </div>\n'
         '    </nav>'
     )
 
@@ -189,7 +202,7 @@ def render(page, locale, doc):
         out = re.sub(r'(<a href="[a-z]+\.html">)' + en + r'(</a>)', r'\g<1>' + word + r'\g<2>', out)
 
     # 6. Replace the JS switcher with rendered links, and drop its script.
-    out = LANG_NAV.sub(lambda _m: switcher(locales, locale, page, names, ready), out, count=1)
+    out = LANG_NAV.sub(lambda _m: switcher(locales, locale, page, names, ready, doc), out, count=1)
     out = LANG_SCRIPT.sub("", out)
     return out
 

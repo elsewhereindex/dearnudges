@@ -947,35 +947,7 @@
   "names": {
     "en": "EN",
     "fr": "FR",
-    "es": "ES",
-    "de": "DE",
-    "it": "IT",
-    "ja": "日本語",
-    "ko": "한국어",
-    "zh-Hant": "繁體",
-    "zh-Hans": "简体",
-    "pt-BR": "PT",
-    "ru": "RU",
-    "nl": "NL",
-    "hi": "हिन्दी",
-    "id": "ID",
-    "ar": "العربية",
-    "tr": "TR",
-    "pl": "PL",
-    "vi": "VI",
-    "th": "ไทย",
-    "he": "עברית",
-    "uk": "UK",
-    "sv": "SV",
-    "nb": "NB",
-    "da": "DA",
-    "fi": "FI",
-    "fil": "FIL",
-    "bn": "বাংলা",
-    "ta": "தமிழ்",
-    "te": "తెలుగు",
-    "mr": "मराठी",
-    "sw": "SW"
+    "es": "ES"
   },
   "nav": {
     "nav_home": {
@@ -1121,6 +1093,51 @@
       "en": "One card a day. Your circle, not a feed.",
       "fr": "Une carte par jour. Ton cercle, pas un fil d'actualit&eacute;.",
       "es": "Una tarjeta al d&iacute;a. Tu c&iacute;rculo, no un feed."
+    }
+  },
+  "endonyms": {
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh-Hant": "繁體中文",
+    "zh-Hans": "简体中文",
+    "pt-BR": "Português",
+    "ru": "Русский",
+    "nl": "Nederlands",
+    "hi": "हिन्दी",
+    "id": "Indonesia",
+    "ar": "العربية",
+    "tr": "Türkçe",
+    "pl": "Polski",
+    "vi": "Tiếng Việt",
+    "th": "ไทย",
+    "he": "עברית",
+    "uk": "Українська",
+    "sv": "Svenska",
+    "nb": "Norsk",
+    "da": "Dansk",
+    "fi": "Suomi",
+    "fil": "Filipino",
+    "bn": "বাংলা",
+    "ta": "தமிழ்",
+    "te": "తెలుగు",
+    "mr": "मराठी",
+    "sw": "Kiswahili"
+  },
+  "ui": {
+    "soon_heading": {
+      "en": "Coming soon",
+      "fr": "Bientôt disponible",
+      "es": "Próximamente"
+    },
+    "app_note": {
+      "en": "The app already speaks all 31.",
+      "fr": "L'app parle déjà les 31.",
+      "es": "La app ya habla los 31."
     }
   }
 }

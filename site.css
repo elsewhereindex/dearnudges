@@ -177,44 +177,72 @@ a.lang-btn {
 
 .lang-more { cursor: pointer; font-weight: 700; }
 
-/* The overflow list is collapsed until the "+" is pressed. Driven by
-   aria-expanded so the accessible state and the visual state cannot drift.
+/* The overflow panel. Collapsed until "+" is pressed, driven by aria-expanded
+   so the accessible state and the visual state cannot drift.
 
-   It drops BELOW the row as a panel rather than joining the flex line: as an
-   inline flex item, 28 languages wrapped and shoved the EN/FR/ES row out of
-   position. */
+   A two-column grid of plain rows, not wrapped chips: 28 variable-width pills
+   wrap raggedly and read as clutter. A grid scans in one pass. */
 .lang-nav { position: fixed; }
+
 .lang-more-list {
     display: none;
     position: absolute;
     top: calc(100% + 8px);
     right: 0;
-    gap: 4px;
-    max-width: 250px;
-    /* 28 locales is taller than a short viewport; scroll inside the panel
-       rather than running off the bottom of the screen. */
-    max-height: 62vh;
+    width: 250px;
+    max-height: 64vh;
     overflow-y: auto;
     overscroll-behavior: contain;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 12px 14px 10px;
+    border-radius: 12px;
     background: #FFFFFF;
     border: 1px solid #E8E8EC;
-    box-shadow: 0 10px 30px rgba(45, 45, 45, 0.13);
+    box-shadow: 0 12px 34px rgba(45, 45, 45, 0.14);
+    text-align: left;
 }
-.lang-more[aria-expanded="true"] + .lang-more-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+.lang-more[aria-expanded="true"] + .lang-more-list { display: block; }
+
+.lang-soon-heading {
+    font-size: 0.64rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #6E6A6F;
+    margin: 0 0 8px;
+}
+
+.lang-soon-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px 12px;
+}
+
+.lang-soon-item {
+    font-size: 0.78rem;
+    color: #6E6A6F;
+    opacity: 0.72;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.lang-soon-note {
+    font-size: 0.68rem;
+    color: #6E6A6F;
+    opacity: 0.8;
+    margin: 10px 0 0;
+    padding-top: 8px;
+    border-top: 1px solid #E8E8EC;
 }
 
 @media (prefers-color-scheme: dark) {
-    .lang-btn-soon { opacity: 0.34; }
     .lang-more-list {
         background: #2A2A28;
         border-color: #3A3A38;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 12px 34px rgba(0, 0, 0, 0.5);
     }
+    .lang-soon-heading, .lang-soon-item, .lang-soon-note { color: #9FA59F; }
+    .lang-soon-note { border-top-color: #3A3A38; }
 }
 
 /* Pricing figures on the site are USD; the store charges a per-territory
