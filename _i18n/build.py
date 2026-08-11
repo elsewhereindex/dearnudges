@@ -111,7 +111,7 @@ def switcher(locales, active, page, names, ready):
 
 
 def render(page, locale, doc):
-    src = open(os.path.join(ROOT, page), encoding="utf-8").read()
+    src = open(os.path.join(ROOT, "_i18n", "templates", page), encoding="utf-8").read()
     strings = doc["strings"]
     locales = doc["locales"]
     ready = set(doc.get("ready", locales))
@@ -162,6 +162,15 @@ def render(page, locale, doc):
     # og:url must point at this locale's canonical URL, not the English one.
     out = re.sub(r'(<meta property="og:url" content=")[^"]*"',
                  lambda m: m.group(1) + lang_url(locale, page) + '"', out)
+
+    # 4c. Screenshot alt text and caption. Alt text is content, so it is
+    #     translated like everything else; an English alt on a French page is
+    #     the same defect as an English heading, just invisible to sighted users.
+    shots = doc.get("shots", {})
+    for token, key in (("SHOT_ALT1", "alt1"), ("SHOT_ALT2", "alt2"),
+                       ("SHOT_ALT3", "alt3"), ("SHOT_CAPTION", "caption")):
+        val = (shots.get(key) or {}).get(locale) or (shots.get(key) or {}).get("en", "")
+        out = out.replace(token, val)
 
     # 5. Navigation chrome. These labels sit as bare text in the markup rather
     #    than in language spans, so they stayed English on every locale until
@@ -237,10 +246,6 @@ def main():
         for page in PAGES:
             html = render(page, locale, doc)
             dest = os.path.join(outdir, page)
-            # English pages are the templates; never overwrite them in place.
-            if locale == "en":
-                dest = os.path.join(ROOT, "_i18n", "_en_preview", page)
-                os.makedirs(os.path.dirname(dest), exist_ok=True)
             with open(dest, "w", encoding="utf-8") as f:
                 f.write(html)
             written += 1

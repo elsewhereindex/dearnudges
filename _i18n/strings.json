@@ -1100,5 +1100,27 @@
   "rtl": [
     "ar",
     "he"
-  ]
+  ],
+  "shots": {
+    "alt1": {
+      "en": "Dear's daily nudge card, suggesting one person to reach out to today",
+      "fr": "La carte de rappel quotidienne de Dear, sugg&eacute;rant une personne &agrave; contacter aujourd'hui",
+      "es": "La tarjeta diaria de Dear, sugiriendo una persona a la que escribir hoy"
+    },
+    "alt2": {
+      "en": "Your circle of people in Dear, shown as a visualization rather than a list",
+      "fr": "Ton cercle de proches dans Dear, affich&eacute; en visualisation plut&ocirc;t qu'en liste",
+      "es": "Tu c&iacute;rculo de personas en Dear, mostrado como visualizaci&oacute;n y no como lista"
+    },
+    "alt3": {
+      "en": "Choosing how often to reach out to someone in Dear",
+      "fr": "Choisir &agrave; quelle fr&eacute;quence contacter quelqu'un dans Dear",
+      "es": "Elegir con qu&eacute; frecuencia contactar a alguien en Dear"
+    },
+    "caption": {
+      "en": "One card a day. Your circle, not a feed.",
+      "fr": "Une carte par jour. Ton cercle, pas un fil d'actualit&eacute;.",
+      "es": "Una tarjeta al d&iacute;a. Tu c&iacute;rculo, no un feed."
+    }
+  }
 }

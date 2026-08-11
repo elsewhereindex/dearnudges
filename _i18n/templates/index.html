@@ -8,13 +8,13 @@
     <meta name="apple-itunes-app" content="app-id=6760280035">
     <meta name="google-site-verification" content="SxhJAGNRItExulyke-yJz5xvbeCsNVE5zFN9K2EYvSs" />
     <meta property="og:title" content="Dear: Stay in Touch">
-    <meta property="og:description" content="One gentle nudge a day to stay close to the people who matter. Free, private, no accounts needed.">
+    <meta property="og:description" content="One gentle nudge a day to stay close to the people who matter.">
     <meta property="og:image" content="https://dearnudges.com/app-icon.png">
-    <meta property="og:url" content="https://dearnudges.com/">
+    <meta property="og:url" content="https://dearnudges.com">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Dear: Stay in Touch">
-    <meta name="twitter:description" content="One gentle nudge a day to stay close to the people who matter. Free, private, no accounts needed.">
+    <meta name="twitter:description" content="One gentle nudge a day to stay close to the people who matter.">
     <meta name="twitter:image" content="https://dearnudges.com/app-icon.png">
     <link rel="icon" type="image/png" href="img/icon-200.png">
     <link rel="apple-touch-icon" href="img/icon-180.png">
@@ -187,18 +187,13 @@
     </style>
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="site.css">
-    <link rel="canonical" href="https://dearnudges.com/en/">
-    <link rel="alternate" hreflang="en" href="https://dearnudges.com/">
-    <link rel="alternate" hreflang="fr" href="https://dearnudges.com/fr/">
-    <link rel="alternate" hreflang="es" href="https://dearnudges.com/es/">
-    <link rel="alternate" hreflang="x-default" href="https://dearnudges.com/">
 </head>
 <body>
 
-    <nav class="lang-nav" aria-label="Language">
-        <a class="lang-btn active" hreflang="en" aria-current="true" href="https://dearnudges.com/">EN</a><a class="lang-btn" hreflang="fr" href="https://dearnudges.com/fr/">FR</a><a class="lang-btn" hreflang="es" href="https://dearnudges.com/es/">ES</a>
-        <button class="lang-btn lang-more" aria-expanded="false" aria-controls="lang-more-list" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='true'?'false':'true')">+</button>
-        <span class="lang-more-list" id="lang-more-list"><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">DE</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">IT</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">日本語</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">한국어</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">繁體</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">简体</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">PT</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">RU</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">NL</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">हिन्दी</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">ID</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">العربية</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">TR</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">PL</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">VI</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">ไทย</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">עברית</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">UK</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">SV</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">NB</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">DA</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">FI</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">FIL</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">বাংলা</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">தமிழ்</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">తెలుగు</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">मराठी</span><span class="lang-btn lang-btn-soon" aria-disabled="true" title="Coming soon">SW</span></span>
+    <nav class="lang-nav">
+        <button class="lang-btn active" data-set-lang="en" aria-pressed="true" onclick="setLang('en')">EN</button>
+        <button class="lang-btn" data-set-lang="fr" aria-pressed="false" onclick="setLang('fr')">FR</button>
+        <button class="lang-btn" data-set-lang="es" aria-pressed="false" onclick="setLang('es')">ES</button>
     </nav>
 
     <div class="page">
@@ -208,11 +203,15 @@
         </picture>
 
         <h1>
-            Dear
+            <span data-lang="en">Dear</span>
+            <span data-lang="fr">Dear</span>
+            <span data-lang="es">Dear</span>
         </h1>
 
         <p class="tagline">
-            One person a day, before you lose touch. Text, call, done.
+            <span data-lang="en">One person a day, before you lose touch. Text, call, done.</span>
+            <span data-lang="fr">Une personne par jour, avant de perdre le contact. Un message, un appel, c&rsquo;est fait.</span>
+            <span data-lang="es">Una persona al d&iacute;a, antes de perder el contacto. Mensaje, llamada, listo.</span>
         </p>
 
 
@@ -220,20 +219,20 @@
             <picture class="shot shot-side">
                 <source srcset="img/shot-02.webp" type="image/webp">
                 <img src="img/shot-02.png" width="414" height="900" loading="lazy" decoding="async"
-                     alt="Your circle of people in Dear, shown as a visualization rather than a list">
+                     alt="SHOT_ALT2">
             </picture>
             <picture class="shot shot-hero">
                 <source srcset="img/shot-01.webp" type="image/webp">
                 <img src="img/shot-01.png" width="414" height="900" decoding="async"
-                     alt="Dear's daily nudge card, suggesting one person to reach out to today">
+                     alt="SHOT_ALT1">
             </picture>
             <picture class="shot shot-side">
                 <source srcset="img/shot-03.webp" type="image/webp">
                 <img src="img/shot-03.png" width="414" height="900" loading="lazy" decoding="async"
-                     alt="Choosing how often to reach out to someone in Dear">
+                     alt="SHOT_ALT3">
             </picture>
         </div>
-        <p class="shots-caption">One card a day. Your circle, not a feed.</p>
+        <p class="shots-caption">SHOT_CAPTION</p>
 
         <a href="https://apps.apple.com/app/id6760280035" class="app-store-badge" data-lang="en" aria-label="Download on the App Store">
             <img src="app-store-badge.svg" alt="Download on the App Store">
@@ -256,11 +255,15 @@
         </a>
 
         <p class="free-note">
-            Free to start. Private. No accounts needed.
+            <span data-lang="en">Free to start. Private. No accounts needed.</span>
+            <span data-lang="fr">Gratuit pour commencer. Priv&eacute;. Pas de compte.</span>
+            <span data-lang="es">Gratis para empezar. Privado. Sin cuentas.</span>
         </p>
 
         <p class="free-note">
-            Dear speaks 31 languages.
+            <span data-lang="en">Dear speaks 31 languages.</span>
+            <span data-lang="fr">Dear parle 31 langues.</span>
+            <span data-lang="es">Dear habla 31 idiomas.</span>
         </p>
 
         <div class="footer-links">
@@ -301,7 +304,26 @@
         </a>
     </nav>
 
-    
+    <script>
+        function setLang(lang) {
+            document.querySelectorAll('[data-lang]').forEach(function(el) {
+                if (el.tagName === 'A' && el.classList.contains('app-store-badge')) {
+                    el.style.display = el.getAttribute('data-lang') === lang ? 'inline-block' : 'none';
+                } else if (el.tagName === 'A' && el.classList.contains('play-store-badge')) {
+                    el.style.display = el.getAttribute('data-lang') === lang ? 'inline-block' : 'none';
+                } else {
+                    el.style.display = el.getAttribute('data-lang') === lang ? 'block' : 'none';
+                }
+            });
+            // Screen readers must hear the page in the language it is written in.
+            document.documentElement.lang = lang;
+            document.querySelectorAll('.lang-btn').forEach(function(btn) {
+                var on = btn.getAttribute('data-set-lang') === lang;
+                btn.classList.toggle('active', on);
+                btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+            });
+        }
+    </script>
 
 </body>
 </html>

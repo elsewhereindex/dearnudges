@@ -16,8 +16,8 @@
     <meta name="twitter:title" content="Dear: Stay in Touch">
     <meta name="twitter:description" content="One gentle nudge a day to stay close to the people who matter. Free, private, no accounts needed.">
     <meta name="twitter:image" content="https://dearnudges.com/app-icon.png">
-    <link rel="icon" type="image/png" href="app-icon.png">
-    <link rel="apple-touch-icon" href="app-icon.png">
+    <link rel="icon" type="image/png" href="img/icon-200.png">
+    <link rel="apple-touch-icon" href="img/icon-180.png">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -202,7 +202,10 @@
     </nav>
 
     <div class="page">
-        <img src="app-icon.png" alt="Dear app icon" class="app-icon">
+        <picture class="app-icon-wrap">
+            <source srcset="img/icon-200.webp" type="image/webp">
+            <img src="img/icon-200.png" width="100" height="100" alt="Dear app icon" class="app-icon">
+        </picture>
 
         <h1>
             Dear
@@ -211,6 +214,26 @@
         <p class="tagline">
             One person a day, before you lose touch. Text, call, done.
         </p>
+
+
+        <div class="shots" role="group" aria-label="Screenshots">
+            <picture class="shot shot-side">
+                <source srcset="img/shot-02.webp" type="image/webp">
+                <img src="img/shot-02.png" width="414" height="900" loading="lazy" decoding="async"
+                     alt="Your circle of people in Dear, shown as a visualization rather than a list">
+            </picture>
+            <picture class="shot shot-hero">
+                <source srcset="img/shot-01.webp" type="image/webp">
+                <img src="img/shot-01.png" width="414" height="900" decoding="async"
+                     alt="Dear's daily nudge card, suggesting one person to reach out to today">
+            </picture>
+            <picture class="shot shot-side">
+                <source srcset="img/shot-03.webp" type="image/webp">
+                <img src="img/shot-03.png" width="414" height="900" loading="lazy" decoding="async"
+                     alt="Choosing how often to reach out to someone in Dear">
+            </picture>
+        </div>
+        <p class="shots-caption">One card a day. Your circle, not a feed.</p>
 
         <a href="https://apps.apple.com/app/id6760280035" class="app-store-badge" data-lang="en" aria-label="Download on the App Store">
             <img src="app-store-badge.svg" alt="Download on the App Store">

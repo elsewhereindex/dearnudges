@@ -178,15 +178,104 @@ a.lang-btn {
 .lang-more { cursor: pointer; font-weight: 700; }
 
 /* The overflow list is collapsed until the "+" is pressed. Driven by
-   aria-expanded so the accessible state and the visual state cannot drift. */
-.lang-more-list { display: none; gap: 4px; }
+   aria-expanded so the accessible state and the visual state cannot drift.
+
+   It drops BELOW the row as a panel rather than joining the flex line: as an
+   inline flex item, 28 languages wrapped and shoved the EN/FR/ES row out of
+   position. */
+.lang-nav { position: fixed; }
+.lang-more-list {
+    display: none;
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    gap: 4px;
+    max-width: 250px;
+    /* 28 locales is taller than a short viewport; scroll inside the panel
+       rather than running off the bottom of the screen. */
+    max-height: 62vh;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding: 10px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8EC;
+    box-shadow: 0 10px 30px rgba(45, 45, 45, 0.13);
+}
 .lang-more[aria-expanded="true"] + .lang-more-list {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
-    max-width: 190px;
     justify-content: flex-end;
 }
 
 @media (prefers-color-scheme: dark) {
     .lang-btn-soon { opacity: 0.34; }
+    .lang-more-list {
+        background: #2A2A28;
+        border-color: #3A3A38;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    }
+}
+
+/* Pricing figures on the site are USD; the store charges a per-territory
+   price. The note says so rather than implying the USD number is universal. */
+.price-note {
+    font-size: 0.82rem;
+    opacity: 0.75;
+    margin-top: -4px;
+}
+
+/* ─────────────────────────────────────────────
+   Home screenshots
+   The site previously showed no product at all. Three phones, the centre one
+   raised, sized so the row never causes layout shift.
+   ───────────────────────────────────────────── */
+.shots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 34px 0 10px;
+}
+.shots .shot {
+    display: block;
+    line-height: 0;
+    max-height: 210px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+.shots img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 10px 34px rgba(45, 45, 45, 0.16);
+}
+.shot-hero { width: 116px; z-index: 1; }
+.shot-side { width: 96px; opacity: 0.85; }
+
+.shots-caption {
+    font-size: 0.82rem;
+    color: #6E6A6F;
+    margin-bottom: 22px;
+}
+
+/* One phone is plenty on a narrow screen, and it keeps the CTA above the fold */
+@media (max-width: 480px) {
+    .shot-side { display: none; }
+    .shot-hero { width: 132px; }
+    .shots { margin: 22px 0 6px; }
+    .shots .shot { max-height: 235px; }
+}
+
+@media (min-width: 768px) {
+    .shot-hero { width: 140px; }
+    .shot-side { width: 116px; }
+    .shots { gap: 14px; }
+    .shots .shot { max-height: 250px; }
+}
+
+@media (prefers-color-scheme: dark) {
+    .shots img { box-shadow: 0 10px 34px rgba(0, 0, 0, 0.5); }
+    .shots-caption { color: #9FA59F; }
 }
