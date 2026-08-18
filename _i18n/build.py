@@ -201,6 +201,51 @@ def switcher(locales, active, page, names, ready, doc):
     )
 
 
+
+def fallback_blocks(html, locale):
+    """Give every <div data-lang> cluster a copy for `locale` if it lacks one.
+
+    Finds each run of sibling data-lang divs. If none of them is the target
+    locale, the English one is relabelled to the target so the CSS switcher
+    displays it. Returns html unchanged where a translation already exists.
+    """
+    out, pos = [], 0
+    while True:
+        start = html.find('<div data-lang="', pos)
+        if start == -1:
+            out.append(html[pos:]); break
+        # walk the whole run of adjacent data-lang divs
+        run_start, i, langs, spans = start, start, [], []
+        while True:
+            m = re.match(r'<div data-lang="([a-zA-Z-]+)">', html[i:])
+            if not m:
+                break
+            lang = m.group(1)
+            depth, j = 1, i + m.end()
+            while depth:
+                no, nc = html.find('<div', j), html.find('</div>', j)
+                if nc == -1:
+                    break
+                if no != -1 and no < nc:
+                    depth += 1; j = no + 4
+                else:
+                    depth -= 1; j = nc + 6
+            langs.append(lang); spans.append((i, j))
+            k = j
+            while k < len(html) and html[k] in ' \t\r\n':
+                k += 1
+            i = k
+        out.append(html[pos:run_start])
+        block = html[run_start:i]
+        if langs and locale not in langs and "en" in langs:
+            a, b = spans[langs.index("en")]
+            english = html[a:b]
+            block = block + "\n" + english.replace('<div data-lang="en">',
+                                                   f'<div data-lang="{locale}">', 1)
+        out.append(block)
+        pos = i
+    return "".join(out)
+
 def render(page, locale, doc):
     src = open(os.path.join(ROOT, "_i18n", "templates", page), encoding="utf-8").read()
     strings = doc["strings"]
@@ -219,6 +264,21 @@ def render(page, locale, doc):
         return entry.get(locale) or entry["en"]
 
     out = collapse_groups(src, pick)
+
+    # 1a. Block-level groups fall back to English.
+    #
+    # The FAQ answers on support.html are <div data-lang=...> clusters, one per
+    # locale, shown by CSS rather than collapsed by the span renderer above.
+    # A locale with no div of its own therefore matched nothing and rendered an
+    # empty answer: the accordion opened onto blank space. Caught on the German
+    # build before it shipped.
+    #
+    # The span path has always degraded to English per string
+    # (entry.get(locale) or entry["en"]). This gives the block path the same
+    # property, so adding a locale can only ever produce English answers, never
+    # missing ones. Translating the answers then removes the fallback naturally.
+    if locale != "en":
+        out = fallback_blocks(out, locale)
 
     # 1b. Point the CSS language switcher at the locale being served.
     #
