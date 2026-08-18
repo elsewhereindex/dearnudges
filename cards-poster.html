@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dear - Poster / Large Flyer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,400;1,9..144,700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Quicksand', -apple-system, sans-serif;
+            background: #FAFAFD;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .print-controls {
+            text-align: center;
+            padding: 32px 24px;
+        }
+        .print-controls h2 {
+            font-family: 'Fraunces', Georgia, serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 1.4rem;
+            color: #6B8AD6;
+            margin-bottom: 8px;
+        }
+        .print-controls p {
+            font-size: 0.85rem;
+            color: #7A767B;
+            margin-bottom: 6px;
+            line-height: 1.5;
+        }
+        .print-controls .tip {
+            font-size: 0.78rem;
+            color: #9A969B;
+            margin-bottom: 16px;
+            font-style: italic;
+        }
+        .print-btn {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: white;
+            background: #6B8AD6;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 4px;
+        }
+        .print-btn:hover { background: #5A79C5; }
+
+        .poster {
+            width: 8.5in;
+            height: 11in;
+            margin: 0 auto;
+            background: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 1in 0.75in;
+            justify-content: space-between;
+        }
+
+        .poster-top {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .poster-icon {
+            width: 200px;
+            height: 200px;
+            border-radius: 44px;
+            box-shadow: 0 8px 40px rgba(107, 138, 214, 0.25);
+            margin-bottom: 28px;
+        }
+
+        .poster-name {
+            font-family: 'Fraunces', Georgia, serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 2rem;
+            color: #6B8AD6;
+            margin-bottom: 6px;
+        }
+
+        .poster-desc {
+            font-size: 0.92rem;
+            color: #9A969B;
+            font-weight: 500;
+            margin-bottom: 36px;
+        }
+
+        .poster-headline {
+            font-family: 'Fraunces', Georgia, serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 2.6rem;
+            color: #2D2D2D;
+            line-height: 1.3;
+            max-width: 6in;
+            margin-bottom: 32px;
+        }
+
+        .poster-middle {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .poster-features {
+            display: flex;
+            gap: 40px;
+            margin-bottom: 36px;
+        }
+
+        .feature {
+            text-align: center;
+            max-width: 160px;
+        }
+
+        .feature-title {
+            font-family: 'Fraunces', Georgia, serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 1rem;
+            color: #6B8AD6;
+            margin-bottom: 4px;
+        }
+
+        .feature-desc {
+            font-size: 0.75rem;
+            color: #7A767B;
+            line-height: 1.5;
+        }
+
+        .poster-stat {
+            font-family: 'Fraunces', Georgia, serif;
+            font-style: italic;
+            font-size: 0.95rem;
+            color: #7A767B;
+            line-height: 1.55;
+            max-width: 5in;
+            margin-bottom: 6px;
+        }
+
+        .poster-stat-source {
+            font-family: 'Quicksand', sans-serif;
+            font-style: normal;
+            font-size: 0.65rem;
+            color: #B0ADB0;
+            margin-bottom: 32px;
+        }
+
+        .poster-bottom {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .poster-qr {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 12px;
+        }
+        .poster-qr img {
+            width: 200px;
+            height: 200px;
+        }
+
+        .poster-url {
+            font-size: 1.1rem;
+            color: #6B8AD6;
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+
+        .poster-free {
+            font-size: 0.8rem;
+            color: #9A969B;
+        }
+
+        @media print {
+            .print-controls { display: none; }
+            body { background: white; }
+            .poster { box-shadow: none; }
+            @page { margin: 0; size: letter; }
+        }
+
+        @media screen {
+            .poster {
+                box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+                margin-bottom: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="print-controls">
+        <h2>Poster / Large Flyer</h2>
+        <p>Full page. Staple to boards, tape to windows, leave on tables.</p>
+        <p class="tip">More info than the tear-off. Works for coworking spaces, cafe windows, therapy waiting rooms.</p>
+        <button class="print-btn" onclick="window.print()">Print Poster</button>
+    </div>
+
+    <div class="poster">
+        <div class="poster-top">
+            <img src="app-icon.png" alt="Dear" class="poster-icon">
+            <p class="poster-name">Dear</p>
+            <p class="poster-desc">A gentle app for keeping in touch.</p>
+            <p class="poster-headline">You just thought of someone. Now text them.</p>
+        </div>
+
+        <div class="poster-middle">
+            <div class="poster-features">
+                <div class="feature">
+                    <p class="feature-title">One nudge a day</p>
+                    <p class="feature-desc">A daily reminder to reach out to someone you care about.</p>
+                </div>
+                <div class="feature">
+                    <p class="feature-title">15 voices</p>
+                    <p class="feature-desc">Sherlock, Nonna, Cyrano, a haiku poet, and 11 more.</p>
+                </div>
+                <div class="feature">
+                    <p class="feature-title">Completely private</p>
+                    <p class="feature-desc">No accounts, no ads. Your people never leave your device.</p>
+                </div>
+            </div>
+
+            <p class="poster-stat">"People consistently underestimate how much others appreciate hearing from them."</p>
+            <p class="poster-stat-source">Liu et al., Journal of Personality and Social Psychology, 2022</p>
+        </div>
+
+        <div class="poster-bottom">
+            <div class="poster-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+            <p class="poster-url">dearnudges.com</p>
+            <p class="poster-free">Free on iOS. Android coming soon.</p>
+        </div>
+    </div>
+
+</body>
+</html>

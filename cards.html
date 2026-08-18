@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dear - Printable Cafe Cards</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,400;1,9..144,700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Quicksand', -apple-system, sans-serif;
+            background: #FAFAFD;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .print-controls {
+            text-align: center;
+            padding: 32px 24px;
+            background: #FAFAFD;
+        }
+        .print-controls h2 {
+            font-family: 'Fraunces', Georgia, serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 1.4rem;
+            color: #6B8AD6;
+            margin-bottom: 8px;
+        }
+        .print-controls p {
+            font-size: 0.85rem;
+            color: #7A767B;
+            margin-bottom: 6px;
+            line-height: 1.5;
+        }
+        .print-controls .tip {
+            font-size: 0.78rem;
+            color: #9A969B;
+            margin-bottom: 16px;
+            font-style: italic;
+        }
+        .print-btn {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: white;
+            background: #6B8AD6;
+            border: none;
+            padding: 10px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .print-btn:hover { background: #5A79C5; }
+
+        /* Card grid: 2x5 on a letter-size page = 10 cards */
+        .card-sheet {
+            width: 8.5in;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0;
+            padding: 0.25in 0.5in;
+        }
+
+        .card {
+            width: 3.5in;
+            height: 2in;
+            border: 1px dashed #D0D0D0;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            padding: 0 18px;
+            gap: 14px;
+            background: white;
+            margin: 0.05in auto;
+        }
+
+        .card-left { flex: 1; }
+
+        .card-logo {
+            font-family: 'Fraunces', Georgia, serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 1.4rem;
+            color: #6B8AD6;
+            margin-bottom: 5px;
+        }
+
+        .card-tagline {
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: #2D2D2D;
+            line-height: 1.5;
+            margin-bottom: 6px;
+        }
+
+        .card-url {
+            font-size: 0.58rem;
+            color: #9A969B;
+            font-weight: 500;
+        }
+
+        .card-qr {
+            width: 76px;
+            height: 76px;
+            flex-shrink: 0;
+        }
+        .card-qr img {
+            width: 76px;
+            height: 76px;
+            border-radius: 4px;
+        }
+
+        @media print {
+            .print-controls { display: none; }
+            body { background: white; }
+            .card-sheet { padding: 0.25in 0.5in; }
+            .card { break-inside: avoid; border-color: #CCC; }
+            @page { margin: 0; size: letter; }
+        }
+
+        /* Preview on screen */
+        @media screen {
+            .card-sheet { margin-bottom: 40px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="print-controls">
+        <h2>Cafe Cards</h2>
+        <p>10 cards per page. Cut along the dashed lines.</p>
+        <p class="tip">Print on cardstock (65-80lb) at FedEx for ~$0.10/card. Ask them to cut to 3.5" x 2".</p>
+        <button class="print-btn" onclick="window.print()">Print Cards</button>
+    </div>
+
+    <div class="card-sheet">
+        <!-- 5 x Tagline A: "When was the last time you texted your best friend?" -->
+        <div class="card">
+            <div class="card-left">
+                <p class="card-logo">Dear</p>
+                <p class="card-tagline">When was the last time<br>you texted your best friend?</p>
+                <p class="card-url">dearnudges.com</p>
+            </div>
+            <div class="card-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <p class="card-logo">Dear</p>
+                <p class="card-tagline">When was the last time<br>you texted your best friend?</p>
+                <p class="card-url">dearnudges.com</p>
+            </div>
+            <div class="card-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <p class="card-logo">Dear</p>
+                <p class="card-tagline">When was the last time<br>you texted your best friend?</p>
+                <p class="card-url">dearnudges.com</p>
+            </div>
+            <div class="card-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <p class="card-logo">Dear</p>
+                <p class="card-tagline">When was the last time<br>you texted your best friend?</p>
+                <p class="card-url">dearnudges.com</p>
+            </div>
+            <div class="card-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <p class="card-logo">Dear</p>
+                <p class="card-tagline">When was the last time<br>you texted your best friend?</p>
+                <p class="card-url">dearnudges.com</p>
+            </div>
+            <div class="card-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+        </div>
+
+        <!-- 5 x Tagline B: "Your friends miss you. (Yes, really.)" -->
+        <div class="card">
+            <div class="card-left">
+                <p class="card-logo">Dear</p>
+                <p class="card-tagline">Your friends miss you.<br>(Yes, really.)</p>
+                <p class="card-url">dearnudges.com</p>
+            </div>
+            <div class="card-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <p class="card-logo">Dear</p>
+                <p class="card-tagline">Your friends miss you.<br>(Yes, really.)</p>
+                <p class="card-url">dearnudges.com</p>
+            </div>
+            <div class="card-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <p class="card-logo">Dear</p>
+                <p class="card-tagline">Your friends miss you.<br>(Yes, really.)</p>
+                <p class="card-url">dearnudges.com</p>
+            </div>
+            <div class="card-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <p class="card-logo">Dear</p>
+                <p class="card-tagline">Your friends miss you.<br>(Yes, really.)</p>
+                <p class="card-url">dearnudges.com</p>
+            </div>
+            <div class="card-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <p class="card-logo">Dear</p>
+                <p class="card-tagline">Your friends miss you.<br>(Yes, really.)</p>
+                <p class="card-url">dearnudges.com</p>
+            </div>
+            <div class="card-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+        </div>
+    </div>
+
+</body>
+</html>

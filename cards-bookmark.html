@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dear - Bookmarks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,400;1,9..144,700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Quicksand', -apple-system, sans-serif;
+            background: #FAFAFD;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .print-controls {
+            text-align: center;
+            padding: 32px 24px;
+        }
+        .print-controls h2 {
+            font-family: 'Fraunces', Georgia, serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 1.4rem;
+            color: #6B8AD6;
+            margin-bottom: 8px;
+        }
+        .print-controls p {
+            font-size: 0.85rem;
+            color: #7A767B;
+            margin-bottom: 6px;
+            line-height: 1.5;
+        }
+        .print-controls .tip {
+            font-size: 0.78rem;
+            color: #9A969B;
+            margin-bottom: 16px;
+            font-style: italic;
+        }
+        .print-btn {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: white;
+            background: #6B8AD6;
+            border: none;
+            padding: 10px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .print-btn:hover { background: #5A79C5; }
+
+        .bookmark-sheet {
+            width: 8.5in;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            gap: 0;
+            padding: 0.5in 0.25in;
+        }
+
+        .bookmark {
+            width: 2in;
+            height: 7in;
+            border: 1px dotted #C0C0C0;
+            background: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 24px 14px;
+            text-align: center;
+        }
+
+        .bm-top {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .bm-logo {
+            font-family: 'Fraunces', Georgia, serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 1.8rem;
+            color: #6B8AD6;
+            margin-bottom: 16px;
+        }
+
+        .bm-divider {
+            width: 32px;
+            height: 1px;
+            background: rgba(107, 138, 214, 0.3);
+            margin-bottom: 16px;
+        }
+
+        .bm-tagline {
+            font-family: 'Fraunces', Georgia, serif;
+            font-style: italic;
+            font-weight: 400;
+            font-size: 0.78rem;
+            color: #2D2D2D;
+            line-height: 1.65;
+            margin-bottom: 20px;
+        }
+
+        .bm-voices {
+            font-size: 0.6rem;
+            color: #9A969B;
+            line-height: 1.7;
+            font-weight: 500;
+        }
+
+        .bm-middle {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .bm-stat {
+            font-size: 0.6rem;
+            color: #7A767B;
+            line-height: 1.6;
+            font-style: italic;
+            margin-bottom: 6px;
+            padding: 0 4px;
+        }
+
+        .bm-source {
+            font-size: 0.5rem;
+            color: #B0ADB0;
+            margin-bottom: 16px;
+        }
+
+        .bm-writein-label {
+            font-size: 0.55rem;
+            color: #9A969B;
+            font-weight: 500;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+        }
+
+        .bm-writein-line {
+            width: 85%;
+            height: 1px;
+            background: #6B8AD6;
+            opacity: 0.35;
+            margin: 0 auto 10px;
+        }
+
+        .bm-writein-prompt {
+            font-family: 'Fraunces', Georgia, serif;
+            font-style: italic;
+            font-weight: 400;
+            font-size: 0.65rem;
+            color: #6B8AD6;
+            line-height: 1.5;
+        }
+
+        .bm-bottom {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .bm-qr {
+            width: 68px;
+            height: 68px;
+            margin-bottom: 8px;
+        }
+        .bm-qr img {
+            width: 68px;
+            height: 68px;
+        }
+
+        .bm-url {
+            font-size: 0.55rem;
+            color: #9A969B;
+            font-weight: 600;
+            letter-spacing: 0.02em;
+        }
+
+        .bm-free {
+            font-size: 0.5rem;
+            color: #B0ADB0;
+            margin-top: 4px;
+        }
+
+        @media print {
+            .print-controls { display: none; }
+            body { background: white; }
+            @page { margin: 0; size: letter; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="print-controls">
+        <h2>Bookmarks</h2>
+        <p>4 per letter page. 2" x 7". Cut along dotted lines.</p>
+        <p class="tip">Print on uncoated 100lb cardstock (matte, no lamination). Leave in bookstores, Little Free Libraries, cafes.</p>
+        <button class="print-btn" onclick="window.print()">Print Bookmarks</button>
+    </div>
+
+    <div class="bookmark-sheet">
+        <!-- Bookmark A: Write-in + Literary -->
+        <div class="bookmark">
+            <div class="bm-top">
+                <p class="bm-logo">Dear</p>
+                <div class="bm-divider"></div>
+                <p class="bm-tagline">Who have you been meaning<br>to reach out to?</p>
+            </div>
+            <div class="bm-middle">
+                <p class="bm-writein-label">Write their name here:</p>
+                <div class="bm-writein-line"></div>
+                <p class="bm-writein-prompt">Now text them.</p>
+                <div class="bm-divider" style="margin-top: 16px; margin-bottom: 12px;"></div>
+                <p class="bm-voices">Sherlock. Cyrano. Nonna.<br>A haiku poet. A French fox.<br>15 voices remind you daily.</p>
+            </div>
+            <div class="bm-bottom">
+                <div class="bm-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+                <p class="bm-url">dearnudges.com</p>
+                <p class="bm-free">free on iOS. android soon.</p>
+            </div>
+        </div>
+
+        <!-- Bookmark B: Write-in + Emotional -->
+        <div class="bookmark">
+            <div class="bm-top">
+                <p class="bm-logo">Dear</p>
+                <div class="bm-divider"></div>
+                <p class="bm-tagline">Someone is glad you exist.<br>Who comes to mind?</p>
+            </div>
+            <div class="bm-middle">
+                <p class="bm-writein-label">Their name:</p>
+                <div class="bm-writein-line"></div>
+                <p class="bm-writein-prompt">They'd love to hear from you.</p>
+                <div class="bm-divider" style="margin-top: 16px; margin-bottom: 12px;"></div>
+                <p class="bm-stat">"People underestimate how much<br>others appreciate hearing<br>from them."</p>
+                <p class="bm-source">Liu et al., 2022</p>
+            </div>
+            <div class="bm-bottom">
+                <div class="bm-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+                <p class="bm-url">dearnudges.com</p>
+                <p class="bm-free">free. private. no accounts.</p>
+            </div>
+        </div>
+
+        <!-- Bookmark C: French write-in -->
+        <div class="bookmark">
+            <div class="bm-top">
+                <p class="bm-logo">Dear</p>
+                <div class="bm-divider"></div>
+                <p class="bm-tagline">&Agrave; qui tu n'as pas<br>&eacute;crit depuis trop longtemps ?</p>
+            </div>
+            <div class="bm-middle">
+                <p class="bm-writein-label">&Eacute;cris son pr&eacute;nom ici :</p>
+                <div class="bm-writein-line"></div>
+                <p class="bm-writein-prompt">Maintenant, envoie-lui un message.</p>
+                <div class="bm-divider" style="margin-top: 16px; margin-bottom: 12px;"></div>
+                <p class="bm-voices">Proust. Cyrano. Le Renard.<br>Sherlock. Nonna.<br>15 voix. Un rappel par jour.</p>
+            </div>
+            <div class="bm-bottom">
+                <div class="bm-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+                <p class="bm-url">dearnudges.com</p>
+                <p class="bm-free">gratuit. priv&eacute;. pas de compte.</p>
+            </div>
+        </div>
+
+        <!-- Bookmark D: Minimal write-in -->
+        <div class="bookmark">
+            <div class="bm-top">
+                <p class="bm-logo">Dear</p>
+                <div class="bm-divider"></div>
+                <p class="bm-tagline">Your friends miss you.<br>(Yes, really.)</p>
+            </div>
+            <div class="bm-middle">
+                <p class="bm-writein-label">This bookmark is for:</p>
+                <div class="bm-writein-line"></div>
+                <p class="bm-writein-prompt">Don't just think about them.<br>Reach out.</p>
+                <div class="bm-divider" style="margin-top: 16px; margin-bottom: 12px;"></div>
+                <p class="bm-stat">One gentle nudge a day<br>to stay in touch.</p>
+            </div>
+            <div class="bm-bottom">
+                <div class="bm-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+                <p class="bm-url">dearnudges.com</p>
+                <p class="bm-free">free on iOS. android soon.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dear - Tear-off Flyers (4 Versions)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,400;1,9..144,700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Quicksand', -apple-system, sans-serif;
+            background: #FAFAFD;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .print-controls {
+            text-align: center;
+            padding: 32px 24px;
+        }
+        .print-controls h2 {
+            font-family: 'Fraunces', Georgia, serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 1.4rem;
+            color: #6B8AD6;
+            margin-bottom: 8px;
+        }
+        .print-controls p {
+            font-size: 0.85rem;
+            color: #7A767B;
+            margin-bottom: 6px;
+            line-height: 1.5;
+        }
+        .print-controls .tip {
+            font-size: 0.78rem;
+            color: #9A969B;
+            margin-bottom: 16px;
+            font-style: italic;
+        }
+        .print-btn {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: white;
+            background: #6B8AD6;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 4px;
+        }
+        .print-btn:hover { background: #5A79C5; }
+
+        .version-label {
+            text-align: center;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: #9A969B;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            padding: 20px 0 8px;
+        }
+
+        /* Flyer */
+        .flyer {
+            width: 8.5in;
+            height: 11in;
+            margin: 0 auto;
+            background: white;
+            display: flex;
+            flex-direction: column;
+            page-break-after: always;
+        }
+
+        .flyer-body {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 0.5in 0.75in 0;
+            justify-content: center;
+        }
+
+        .flyer-icon {
+            width: 160px;
+            height: 160px;
+            border-radius: 36px;
+            box-shadow: 0 8px 32px rgba(107, 138, 214, 0.25);
+            margin-bottom: 20px;
+        }
+
+        .flyer-name {
+            font-family: 'Fraunces', Georgia, serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 1.6rem;
+            color: #6B8AD6;
+            margin-bottom: 8px;
+        }
+
+        .flyer-desc {
+            font-size: 0.88rem;
+            color: #9A969B;
+            margin-bottom: 28px;
+            font-weight: 500;
+        }
+
+        .flyer-headline {
+            font-family: 'Fraunces', Georgia, serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 2.2rem;
+            color: #2D2D2D;
+            line-height: 1.35;
+            margin-bottom: 32px;
+            max-width: 5.5in;
+        }
+
+        .flyer-qr {
+            width: 160px;
+            height: 160px;
+            margin-bottom: 8px;
+        }
+        .flyer-qr img {
+            width: 160px;
+            height: 160px;
+        }
+
+        .flyer-url {
+            font-size: 0.88rem;
+            color: #6B8AD6;
+            font-weight: 600;
+            margin-bottom: 0;
+        }
+
+        /* Tear-off tabs */
+        .tear-label {
+            text-align: center;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: #6B8AD6;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            padding: 10px 0 0;
+            margin: 0 0.25in;
+        }
+
+        .tear-strip {
+            border-top: 2px dashed #9A969B;
+            display: flex;
+            height: 3in;
+            margin: 0 0.25in;
+        }
+
+        .tear-tab {
+            flex: 1;
+            border-right: 1px dashed #C0C0C0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 14px 6px;
+            text-align: center;
+            gap: 10px;
+        }
+        .tear-tab:last-child {
+            border-right: none;
+        }
+
+        .tear-tab .tab-who {
+            font-family: 'Fraunces', Georgia, serif;
+            font-style: italic;
+            font-weight: 400;
+            font-size: 1rem;
+            color: #2D2D2D;
+            line-height: 1.4;
+        }
+
+        .tear-tab .tab-arrow {
+            font-size: 0.8rem;
+            color: #6B8AD6;
+        }
+
+        .tear-tab .tab-url {
+            font-size: 0.6rem;
+            color: #6B8AD6;
+            font-weight: 600;
+            letter-spacing: 0.02em;
+        }
+
+        @media print {
+            .print-controls { display: none; }
+            .version-label { display: none; }
+            body { background: white; }
+            .flyer { box-shadow: none; }
+            @page { margin: 0; size: letter; }
+        }
+
+        @media screen {
+            .flyer {
+                box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+                margin-bottom: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="print-controls">
+        <h2>Tear-off Flyers (4 Versions)</h2>
+        <p>Print all 4 and test which headline performs best. Pre-tear 1-2 tabs before posting.</p>
+        <p class="tip">Print on cream or light blue cardstock. Post at cafes, coworking spaces, laundromats, yoga studios.</p>
+        <button class="print-btn" onclick="window.print()">Print All 4</button>
+    </div>
+
+    <!-- VERSION A: "You just thought of someone." -->
+    <p class="version-label">Version A</p>
+    <div class="flyer">
+        <div class="flyer-body">
+            <img src="app-icon.png" alt="Dear" class="flyer-icon">
+            <p class="flyer-name">Dear</p>
+            <p class="flyer-desc">A gentle app for keeping in touch.</p>
+            <p class="flyer-headline">You just thought of someone.</p>
+            <div class="flyer-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+            <p class="flyer-url">dearnudges.com</p>
+        </div>
+        <p class="tear-label">Before you forget...</p>
+        <div class="tear-strip">
+            <div class="tear-tab">
+                <span class="tab-who">Text<br>your mom</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+            <div class="tear-tab">
+                <span class="tab-who">Call<br>your<br>grandma</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+            <div class="tear-tab">
+                <span class="tab-who">Text that<br>friend you keep<br>thinking about</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+            <div class="tear-tab">
+                <span class="tab-who">Check on<br>your quiet<br>friend</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+            <div class="tear-tab">
+                <span class="tab-who">FaceTime<br>your sister</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+            <div class="tear-tab">
+                <span class="tab-who">Text the<br>friend who<br>moved away</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+            <div class="tear-tab">
+                <span class="tab-who">Call<br>someone<br>who lives<br>alone</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- VERSION B: "Someone misses you right now." -->
+    <p class="version-label">Version B</p>
+    <div class="flyer">
+        <div class="flyer-body">
+            <img src="app-icon.png" alt="Dear" class="flyer-icon">
+            <p class="flyer-name">Dear</p>
+            <p class="flyer-desc">A gentle app for keeping in touch.</p>
+            <p class="flyer-headline">Someone misses you right now.</p>
+            <div class="flyer-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+            <p class="flyer-url">dearnudges.com</p>
+        </div>
+        <p class="tear-label">Before you forget...</p>
+        <div class="tear-strip">
+            <div class="tear-tab">
+                <span class="tab-who">Text<br>your mom</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+            <div class="tear-tab">
+                <span class="tab-who">Call<br>your<br>grandma</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+            <div class="tear-tab">
+                <span class="tab-who">Text that<br>friend you keep<br>thinking about</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+            <div class="tear-tab">
+                <span class="tab-who">Check on<br>your quiet<br>friend</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+            <div class="tear-tab">
+                <span class="tab-who">FaceTime<br>your sister</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+            <div class="tear-tab">
+                <span class="tab-who">Text the<br>friend who<br>moved away</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+            <div class="tear-tab">
+                <span class="tab-who">Text the<br>friend you<br>cancelled on</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- VERSION C: "Take one. Reach out today." -->
+    <p class="version-label">Version C</p>
+    <div class="flyer">
+        <div class="flyer-body">
+            <img src="app-icon.png" alt="Dear" class="flyer-icon">
+            <p class="flyer-name">Dear</p>
+            <p class="flyer-desc">A gentle app for keeping in touch.</p>
+            <p class="flyer-headline">Take one. Reach out today.</p>
+            <div class="flyer-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+            <p class="flyer-url">dearnudges.com</p>
+        </div>
+        <p class="tear-label">Before you forget...</p>
+        <div class="tear-strip">
+            <div class="tear-tab">
+                <span class="tab-who">Text<br>your mom</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+            <div class="tear-tab">
+                <span class="tab-who">Call<br>your<br>grandma</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+            <div class="tear-tab">
+                <span class="tab-who">Text that<br>friend you keep<br>thinking about</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+            <div class="tear-tab">
+                <span class="tab-who">Check on<br>your quiet<br>friend</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+            <div class="tear-tab">
+                <span class="tab-who">FaceTime<br>your sister</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+            <div class="tear-tab">
+                <span class="tab-who">Text the<br>friend who<br>moved away</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+            <div class="tear-tab">
+                <span class="tab-who">Call<br>someone<br>who lives<br>alone</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- VERSION D: "You should probably call them." -->
+    <p class="version-label">Version D</p>
+    <div class="flyer">
+        <div class="flyer-body">
+            <img src="app-icon.png" alt="Dear" class="flyer-icon">
+            <p class="flyer-name">Dear</p>
+            <p class="flyer-desc">A gentle app for keeping in touch.</p>
+            <p class="flyer-headline">You should probably call them.</p>
+            <div class="flyer-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+            <p class="flyer-url">dearnudges.com</p>
+        </div>
+        <p class="tear-label">Before you forget...</p>
+        <div class="tear-strip">
+            <div class="tear-tab">
+                <span class="tab-who">Text<br>your mom</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+            <div class="tear-tab">
+                <span class="tab-who">Call<br>your<br>grandma</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+            <div class="tear-tab">
+                <span class="tab-who">Text that<br>friend you keep<br>thinking about</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+            <div class="tear-tab">
+                <span class="tab-who">Check on<br>your quiet<br>friend</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+            <div class="tear-tab">
+                <span class="tab-who">FaceTime<br>your sister</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+            <div class="tear-tab">
+                <span class="tab-who">Text the<br>friend who<br>moved away</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+            <div class="tear-tab">
+                <span class="tab-who">Text the<br>friend you<br>cancelled on</span>
+                <span class="tab-arrow">&darr;</span>
+                <span class="tab-url">dearnudges.com</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

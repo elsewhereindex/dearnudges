@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dear - Cafe Cards v2 (Thick Border)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,400;1,9..144,700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Quicksand', -apple-system, sans-serif;
+            background: #FAFAFD;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .print-controls {
+            text-align: center;
+            padding: 32px 24px;
+        }
+        .print-controls h2 {
+            font-family: 'Fraunces', Georgia, serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 1.4rem;
+            color: #6B8AD6;
+            margin-bottom: 8px;
+        }
+        .print-controls p {
+            font-size: 0.85rem;
+            color: #7A767B;
+            margin-bottom: 6px;
+            line-height: 1.5;
+        }
+        .print-controls .tip {
+            font-size: 0.78rem;
+            color: #9A969B;
+            margin-bottom: 16px;
+            font-style: italic;
+        }
+        .print-btn {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: white;
+            background: #6B8AD6;
+            border: none;
+            padding: 10px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .print-btn:hover { background: #5A79C5; }
+
+        .card-sheet {
+            width: 8.5in;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.15in;
+            padding: 0.25in 0.5in;
+        }
+
+        .card {
+            width: 3.5in;
+            height: 2in;
+            border: 6px solid #2D2D2D;
+            border-radius: 2px;
+            display: flex;
+            align-items: center;
+            padding: 0 26px 0 0;
+            gap: 12px;
+            background: white;
+        }
+
+        .card-left {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-right: auto;
+        }
+
+        .card-icon-name {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+
+        .card-icon {
+            width: 52px;
+            height: 52px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(107, 138, 214, 0.15);
+        }
+
+        .card-name {
+            font-family: 'Fraunces', Georgia, serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: #6B8AD6;
+        }
+
+        .card-tagline {
+            font-size: 0.68rem;
+            font-weight: 600;
+            color: #2D2D2D;
+            line-height: 1.5;
+            margin-bottom: 6px;
+        }
+
+        .card-url {
+            font-size: 0.55rem;
+            color: #9A969B;
+            font-weight: 500;
+        }
+
+        .card-qr {
+            width: 110px;
+            height: 110px;
+            flex-shrink: 0;
+        }
+        .card-qr img {
+            width: 110px;
+            height: 110px;
+            border-radius: 2px;
+        }
+
+        @media print {
+            .print-controls { display: none; }
+            body { background: white; }
+            .card-sheet { padding: 0.25in 0.5in; }
+            .card { break-inside: avoid; }
+            @page { margin: 0; size: letter; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="print-controls">
+        <h2>Cafe Cards v2: Thick Border</h2>
+        <p>Cut anywhere into the dark border. Imprecise cuts still look clean.</p>
+        <p class="tip">The thick border absorbs crooked scissors. Print on cardstock at FedEx.</p>
+        <button class="print-btn" onclick="window.print()">Print Cards</button>
+    </div>
+
+    <div class="card-sheet">
+        <div class="card">
+            <div class="card-left">
+                <div class="card-icon-name">
+                    <img src="app-icon.png" alt="Dear" class="card-icon">
+                    <p class="card-name">Dear</p>
+                </div>
+                <p class="card-tagline">When was the last time<br>you texted your best friend?</p>
+                <p class="card-url">dearnudges.com</p>
+            </div>
+            <div class="card-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <div class="card-icon-name">
+                    <img src="app-icon.png" alt="Dear" class="card-icon">
+                    <p class="card-name">Dear</p>
+                </div>
+                <p class="card-tagline">When was the last time<br>you texted your best friend?</p>
+                <p class="card-url">dearnudges.com</p>
+            </div>
+            <div class="card-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <div class="card-icon-name">
+                    <img src="app-icon.png" alt="Dear" class="card-icon">
+                    <p class="card-name">Dear</p>
+                </div>
+                <p class="card-tagline">When was the last time<br>you texted your best friend?</p>
+                <p class="card-url">dearnudges.com</p>
+            </div>
+            <div class="card-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <div class="card-icon-name">
+                    <img src="app-icon.png" alt="Dear" class="card-icon">
+                    <p class="card-name">Dear</p>
+                </div>
+                <p class="card-tagline">When was the last time<br>you texted your best friend?</p>
+                <p class="card-url">dearnudges.com</p>
+            </div>
+            <div class="card-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <div class="card-icon-name">
+                    <img src="app-icon.png" alt="Dear" class="card-icon">
+                    <p class="card-name">Dear</p>
+                </div>
+                <p class="card-tagline">When was the last time<br>you texted your best friend?</p>
+                <p class="card-url">dearnudges.com</p>
+            </div>
+            <div class="card-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <div class="card-icon-name">
+                    <img src="app-icon.png" alt="Dear" class="card-icon">
+                    <p class="card-name">Dear</p>
+                </div>
+                <p class="card-tagline">Your friends miss you.<br>(Yes, really.)</p>
+                <p class="card-url">dearnudges.com</p>
+            </div>
+            <div class="card-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <div class="card-icon-name">
+                    <img src="app-icon.png" alt="Dear" class="card-icon">
+                    <p class="card-name">Dear</p>
+                </div>
+                <p class="card-tagline">Your friends miss you.<br>(Yes, really.)</p>
+                <p class="card-url">dearnudges.com</p>
+            </div>
+            <div class="card-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <div class="card-icon-name">
+                    <img src="app-icon.png" alt="Dear" class="card-icon">
+                    <p class="card-name">Dear</p>
+                </div>
+                <p class="card-tagline">Your friends miss you.<br>(Yes, really.)</p>
+                <p class="card-url">dearnudges.com</p>
+            </div>
+            <div class="card-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <div class="card-icon-name">
+                    <img src="app-icon.png" alt="Dear" class="card-icon">
+                    <p class="card-name">Dear</p>
+                </div>
+                <p class="card-tagline">Your friends miss you.<br>(Yes, really.)</p>
+                <p class="card-url">dearnudges.com</p>
+            </div>
+            <div class="card-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <div class="card-icon-name">
+                    <img src="app-icon.png" alt="Dear" class="card-icon">
+                    <p class="card-name">Dear</p>
+                </div>
+                <p class="card-tagline">Your friends miss you.<br>(Yes, really.)</p>
+                <p class="card-url">dearnudges.com</p>
+            </div>
+            <div class="card-qr"><img src="assets/qr/qr-cafe.png" alt="QR code"></div>
+        </div>
+    </div>
+
+</body>
+</html>
