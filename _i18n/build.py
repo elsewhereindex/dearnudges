@@ -220,6 +220,21 @@ def render(page, locale, doc):
 
     out = collapse_groups(src, pick)
 
+    # 1b. Point the CSS language switcher at the locale being served.
+    #
+    # Every template hardcodes [data-lang="en"] { display: block; }. That was
+    # correct when one page carried all three languages and JavaScript chose
+    # between them, but the site now renders a page per locale. Span trios are
+    # collapsed above and lose their data-lang attribute, so they were fine and
+    # hid the problem. Anything the collapser does not touch did not:
+    # support.html's 27 FAQ answers are <div data-lang=...>, and the store
+    # badges on index.html are <a data-lang=...>. Those kept the attribute, so
+    # the stale rule showed English on every locale while the translated
+    # markup sat next to it at display:none. French and Spanish support pages
+    # served English answers this way until 2026-08-18.
+    if locale != "en":
+        out = out.replace('[data-lang="en"]', f'[data-lang="{locale}"]')
+
     # 2. Correct <html lang> for the locale actually being served.
     rtl = locale in doc.get("rtl", [])
     attrs = f'lang="{locale}"' + (' dir="rtl"' if rtl else "")
