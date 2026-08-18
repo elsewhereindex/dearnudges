@@ -214,9 +214,9 @@
       "es": "<span class=\"label\">Precio:"
     },
     "languages_english_french_spanish_a1fff3": {
-      "en": "<span class=\"label\">Languages:</span> English, French, Spanish",
-      "fr": "<span class=\"label\">Langues :</span> Anglais, francais, espagnol",
-      "es": "<span class=\"label\">Idiomas:"
+      "en": "<span class=\"label\">Languages:</span> 31 in the app. This site is in English, French and Spanish.",
+      "fr": "<span class=\"label\">Langues :</span> 31 dans l'app. Ce site est en anglais, fran&ccedil;ais et espagnol.",
+      "es": "<span class=\"label\">Idiomas:</span> 31 en la app. Este sitio est&aacute; en ingl&eacute;s, franc&eacute;s y espa&ntilde;ol."
     },
     "platform_ios_17_android_8_7a43e5": {
       "en": "<span class=\"label\">Platform:</span> iOS 17+, Android 8+",
@@ -289,19 +289,19 @@
       "es": "<span class=\"label\">Voces:"
     },
     "privacy_built_on_device_no_accounts_no_ads_n_e0884d": {
-      "en": "<span class=\"label\">Privacy:</span> Built on-device. No accounts, no ads, no data sold. Only anonymous, aggregate analytics and anonymous purchase records ever leave the device. Designed to exceed GDPR and EU privacy requirements by default.",
-      "fr": "<span class=\"label\">Confidentialit&eacute; :</span> Con&ccedil;u sur l'appareil. Pas de compte, pas de publicit&eacute;, aucune donn&eacute;e vendue. Seules des statistiques anonymes et agr&eacute;g&eacute;es et des enregistrements d'achat anonymes quittent l'appareil. Con&ccedil;u pour d&eacute;passer les exigences du RGPD par d&eacute;faut.",
-      "es": "<span class=\"label\">Privacidad:"
+      "en": "<span class=\"label\">Privacy:</span> Built on-device. No accounts, no ads, no data sold. Your people never leave your device. Only anonymous usage counts, anonymous purchase records and crash reports ever leave it. Designed to exceed GDPR and EU privacy requirements by default.",
+      "fr": "<span class=\"label\">Confidentialit&eacute; :</span> Con&ccedil;u pour fonctionner sur l'appareil. Aucun compte, aucune publicit&eacute;, aucune donn&eacute;e vendue. Tes proches ne quittent jamais ton appareil. Seuls des comptages d'usage anonymes, des enregistrements d'achat anonymes et des rapports de plantage en sortent. Con&ccedil;u pour d&eacute;passer le RGPD par d&eacute;faut.",
+      "es": "<span class=\"label\">Privacidad:</span> Funciona en el dispositivo. Sin cuentas, sin anuncios, sin venta de datos. Tus personas nunca salen de tu dispositivo. Solo salen recuentos de uso an&oacute;nimos, registros de compra an&oacute;nimos e informes de fallos. Dise&ntilde;ado para superar el RGPD por defecto."
     },
     "platform_ios_17_iphone_and_ipad_e03453": {
-      "en": "<span class=\"label\">Platform:</span> iOS 17+, iPhone and iPad",
-      "fr": "<span class=\"label\">Plateforme :</span> iOS 17+, iPhone et iPad",
-      "es": "<span class=\"label\">Plataforma:"
+      "en": "<span class=\"label\">Platform:</span> iOS 18+, iPhone and iPad. Android 8+.",
+      "fr": "<span class=\"label\">Plateforme :</span> iOS 18+, iPhone et iPad. Android 8+.",
+      "es": "<span class=\"label\">Plataforma:</span> iOS 18+, iPhone y iPad. Android 8+."
     },
     "built_with_swiftui_swiftdata_widgetkit_two_t_f4f7eb": {
-      "en": "<span class=\"label\">Built with:</span> SwiftUI, SwiftData, WidgetKit. Two third-party SDKs: TelemetryDeck (analytics) and RevenueCat (purchases).",
-      "fr": "<span class=\"label\">Technologies :</span> SwiftUI, SwiftData, WidgetKit. Deux SDK tiers : TelemetryDeck (analytique) et RevenueCat (achats).",
-      "es": "<span class=\"label\">Tecnologia:"
+      "en": "<span class=\"label\">Built with:</span> SwiftUI, SwiftData, WidgetKit. Three third-party SDKs: TelemetryDeck (anonymous analytics), RevenueCat (purchases) and Sentry (crash reports).",
+      "fr": "<span class=\"label\">Construit avec :</span> SwiftUI, SwiftData, WidgetKit. Trois SDK tiers : TelemetryDeck (analyses anonymes), RevenueCat (achats) et Sentry (rapports de plantage).",
+      "es": "<span class=\"label\">Creado con:</span> SwiftUI, SwiftData, WidgetKit. Tres SDK de terceros: TelemetryDeck (an&aacute;lisis an&oacute;nimos), RevenueCat (compras) y Sentry (informes de fallos)."
     },
     "research_be601d": {
       "en": "Research",

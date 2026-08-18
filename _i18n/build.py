@@ -45,10 +45,68 @@ PAGES = ["index.html", "about.html", "press.html",
 ROOT_ASSETS = re.compile(
     r'((?:src|href)=")(?!https?://|//|#|mailto:|/)([^"]*\.(?:png|jpg|jpeg|svg|css|zip|ico|webp))"')
 
-GROUP = re.compile(
-    r'<span data-lang="en">(.*?)</span>\s*'
-    r'<span data-lang="fr">(.*?)</span>\s*'
-    r'<span data-lang="es">(.*?)</span>', re.S)
+# Kept only to locate where a group starts. The span contents cannot be matched
+# with a regex: several strings wrap a nested <span class="label">...</span>, and
+# a non-greedy (.*?)</span> stops at that inner tag instead of the real one. That
+# silently truncated the match and left the Spanish tail sitting in the English
+# page, which is what shipped on press.html until 2026-08-18. Use span_body().
+GROUP_START = re.compile(r'<span data-lang="(en|fr|es)">')
+
+
+def span_body(src, open_end):
+    """Content of a <span> whose opening tag ends at `open_end`, nesting-aware.
+
+    Returns (inner_text, index_just_past_the_closing_tag). Counts <span ...>
+    against </span> so a nested label span is consumed rather than mistaken for
+    the end of the group.
+    """
+    depth, i = 1, open_end
+    while depth:
+        nxt_open = src.find('<span', i)
+        nxt_close = src.find('</span>', i)
+        if nxt_close == -1:
+            raise ValueError('unbalanced <span> in template')
+        if nxt_open != -1 and nxt_open < nxt_close:
+            depth += 1
+            i = nxt_open + 5
+        else:
+            depth -= 1
+            i = nxt_close + 7
+    return src[open_end:i - 7], i
+
+
+def collapse_groups(src, pick):
+    """Replace each en/fr/es span trio with the copy `pick` selects."""
+    out, pos = [], 0
+    while True:
+        m = GROUP_START.search(src, pos)
+        if not m or m.group(1) != 'en':
+            if not m:
+                break
+            out.append(src[pos:m.end()])
+            pos = m.end()
+            continue
+        bodies, cursor, ok = {}, m.end(), True
+        for lang in ('en', 'fr', 'es'):
+            if lang != 'en':
+                nm = GROUP_START.match(src, cursor)
+                while nm is None and cursor < len(src) and src[cursor] in ' \t\r\n':
+                    cursor += 1
+                    nm = GROUP_START.match(src, cursor)
+                if nm is None or nm.group(1) != lang:
+                    ok = False
+                    break
+                cursor = nm.end()
+            bodies[lang], cursor = span_body(src, cursor)
+        if not ok:
+            out.append(src[pos:m.end()])
+            pos = m.end()
+            continue
+        out.append(src[pos:m.start()])
+        out.append(pick(bodies['en']))
+        pos = cursor
+    out.append(src[pos:])
+    return ''.join(out)
 
 # The old client-side switcher: a fixed nav of buttons plus its <script>.
 LANG_NAV = re.compile(r'<nav class="lang-nav">.*?</nav>', re.S)
@@ -145,14 +203,14 @@ def render(page, locale, doc):
     # 1. Collapse each language group down to this locale's copy.
     by_en = {v["en"]: v for v in strings.values()}
 
-    def pick(m):
-        en = m.group(1).strip()
+    def pick(en_raw):
+        en = en_raw.strip()
         entry = by_en.get(en)
         if not entry:
-            return m.group(1)
+            return en_raw
         return entry.get(locale) or entry["en"]
 
-    out = GROUP.sub(pick, src)
+    out = collapse_groups(src, pick)
 
     # 2. Correct <html lang> for the locale actually being served.
     rtl = locale in doc.get("rtl", [])
