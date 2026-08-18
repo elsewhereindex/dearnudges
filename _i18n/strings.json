@@ -219,14 +219,14 @@
       "es": "<span class=\"label\">Idiomas:</span> 31 en la app. Este sitio est&aacute; en ingl&eacute;s, franc&eacute;s y espa&ntilde;ol."
     },
     "platform_ios_17_android_8_7a43e5": {
-      "en": "<span class=\"label\">Platform:</span> iOS 17+, Android 8+",
-      "fr": "<span class=\"label\">Plateforme :</span> iOS 17+, Android 8+",
-      "es": "<span class=\"label\">Plataforma:"
+      "en": "<span class=\"label\">Platform:</span> iOS 18+, Android 8+",
+      "fr": "<span class=\"label\">Plateforme :</span> iOS 18+, Android 8+",
+      "es": "<span class=\"label\">Plataforma:</span> iOS 18+, Android 8+"
     },
     "privacy_built_on_device_the_only_data_that_l_f840fc": {
-      "en": "<span class=\"label\">Privacy:</span> Built on-device. The only data that leaves your phone is anonymous, aggregate analytics and anonymous purchase records. Your people never leave your device.",
-      "fr": "<span class=\"label\">Confidentialit&eacute; :</span> Con&ccedil;u sur l'appareil. Les seules donn&eacute;es qui quittent ton t&eacute;l&eacute;phone sont des statistiques anonymes et agr&eacute;g&eacute;es et des enregistrements d'achat anonymes. Tes proches ne quittent jamais ton appareil.",
-      "es": "<span class=\"label\">Privacidad:"
+      "en": "<span class=\"label\">Privacy:</span> Built on-device. Your people never leave your device. The only data that leaves your phone is anonymous usage counts, anonymous purchase records and crash reports.",
+      "fr": "<span class=\"label\">Confidentialit&eacute; :</span> Con&ccedil;u pour fonctionner sur l'appareil. Tes proches ne quittent jamais ton appareil. Les seules donn&eacute;es qui sortent de ton t&eacute;l&eacute;phone sont des comptages d'usage anonymes, des enregistrements d'achat anonymes et des rapports de plantage.",
+      "es": "<span class=\"label\">Privacidad:</span> Funciona en el dispositivo. Tus personas nunca salen de tu dispositivo. Los &uacute;nicos datos que salen de tu tel&eacute;fono son recuentos de uso an&oacute;nimos, registros de compra an&oacute;nimos e informes de fallos."
     },
     "interested_in_recommending_dear_3daf5f": {
       "en": "Interested in recommending Dear?",
@@ -689,9 +689,9 @@
       "es": "1 de cada 6 personas en el mundo se ve afectada por la soledad. La OMS declar&oacute; la soledad una amenaza global para la salud en 2023, y su Comisi&oacute;n sobre Conexi&oacute;n Social public&oacute; la cifra mundial en 2025."
     },
     "who_commission_on_social_connection_2023_who_94494c": {
-      "en": "WHO Commission on Social Connection (2023). <a href=\"https://www.who.int/groups/commission-on-social-connection\">who.int</a>",
-      "fr": "Commission de l'OMS sur les liens sociaux (2023). <a href=\"https://www.who.int/groups/commission-on-social-connection\">who.int</a>",
-      "es": "Comisi&oacute;n de la OMS sobre Conexi&oacute;n Social (2023). <a href=\"https://www.who.int/groups/commission-on-social-connection\">who.int</a>"
+      "en": "WHO Commission on Social Connection (2025). <a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\">who.int</a>",
+      "fr": "Commission de l'OMS sur les liens sociaux (2025). <a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\">who.int</a>",
+      "es": "Comisi&oacute;n de la OMS sobre Conexi&oacute;n Social (2025). <a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\">who.int</a>"
     },
     "social_isolation_increases_the_risk_of_prema_a4f744": {
       "en": "Social isolation increases the risk of premature death by 26%, comparable to smoking 15 cigarettes a day.",
