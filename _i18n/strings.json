@@ -36,337 +36,404 @@
     "dear_52ee92": {
       "en": "Dear",
       "fr": "Dear",
-      "es": "Dear"
+      "es": "Dear",
+      "de": "Dear"
     },
     "one_person_a_day_before_you_lose_touch_text_11e425": {
       "en": "One person a day, before you lose touch. Text, call, done.",
       "fr": "Une personne par jour, avant de perdre le contact. Un message, un appel, c&rsquo;est fait.",
-      "es": "Una persona al d&iacute;a, antes de perder el contacto. Mensaje, llamada, listo."
+      "es": "Una persona al d&iacute;a, antes de perder el contacto. Mensaje, llamada, listo.",
+      "de": "Eine Person pro Tag, bevor der Kontakt abrei&szlig;t. Schreiben, anrufen, fertig."
     },
     "free_to_start_private_no_accounts_needed_e6ec02": {
       "en": "Free to start. Private. No accounts needed.",
       "fr": "Gratuit pour commencer. Priv&eacute;. Pas de compte.",
-      "es": "Gratis para empezar. Privado. Sin cuentas."
+      "es": "Gratis para empezar. Privado. Sin cuentas.",
+      "de": "Kostenlos starten. Privat. Kein Konto n&ouml;tig."
     },
     "dear_speaks_31_languages_b8937e": {
       "en": "Dear speaks 31 languages.",
       "fr": "Dear parle 31 langues.",
-      "es": "Dear habla 31 idiomas."
+      "es": "Dear habla 31 idiomas.",
+      "de": "Dear spricht 31 Sprachen."
     },
     "about_dear_efc368": {
       "en": "About Dear",
       "fr": "A propos de Dear",
-      "es": "Acerca de Dear"
+      "es": "Acerca de Dear",
+      "de": "&Uuml;ber Dear"
     },
     "why_dear_exists_54584d": {
       "en": "Why Dear Exists",
       "fr": "Pourquoi Dear existe",
-      "es": "Por que existe Dear"
+      "es": "Por que existe Dear",
+      "de": "Warum es Dear gibt"
     },
     "dear_was_built_on_a_simple_observation_we_th_41af87": {
       "en": "Dear was built on a simple observation: we think about our friends more often than we reach out to them. Research shows that people consistently underestimate how much others appreciate hearing from them. Dear closes that gap.",
       "fr": "Dear est n&eacute; d'un constat simple : on pense &agrave; nos amis plus souvent qu'on ne leur &eacute;crit. La recherche montre qu'on sous-estime syst&eacute;matiquement combien les autres appr&eacute;cient avoir de nos nouvelles. Dear comble cet &eacute;cart.",
-      "es": "Dear naci&oacute; de una observaci&oacute;n simple: pensamos en nuestros amigos m&aacute;s de lo que nos comunicamos con ellos. La investigaci&oacute;n muestra que subestimamos cu&aacute;nto aprecian los dem&aacute;s saber de nosotros. Dear cierra esa brecha."
+      "es": "Dear naci&oacute; de una observaci&oacute;n simple: pensamos en nuestros amigos m&aacute;s de lo que nos comunicamos con ellos. La investigaci&oacute;n muestra que subestimamos cu&aacute;nto aprecian los dem&aacute;s saber de nosotros. Dear cierra esa brecha.",
+      "de": "Dear entstand aus einer einfachen Beobachtung: Wir denken &ouml;fter an unsere Freunde, als wir uns bei ihnen melden. Studien zeigen, dass Menschen durchweg untersch&auml;tzen, wie sehr sich andere &uuml;ber eine Nachricht freuen. Dear schlie&szlig;t diese L&uuml;cke."
     },
     "one_gentle_nudge_a_day_no_guilt_no_streaks_n_e749d7": {
       "en": "One gentle nudge a day. No guilt, no streaks, no social feed. If you don't reach out today, the person simply appears again another day. The app never tells you that you failed. It just quietly keeps showing up.",
       "fr": "Un rappel doux par jour. Pas de culpabilit&eacute;, pas de s&eacute;ries, pas de fil social. Si tu ne prends pas de nouvelles aujourd'hui, la personne r&eacute;appara&icirc;t simplement un autre jour. L'app ne te dit jamais que tu as &eacute;chou&eacute;. Elle continue juste de se manifester doucement.",
-      "es": "Un recordatorio tranquilo al d&iacute;a. Sin culpa, sin rachas, sin feed social. Si no escribes hoy, la persona simplemente aparece otro d&iacute;a. La app nunca te dice que fallaste. Solo sigue apareciendo en silencio."
+      "es": "Un recordatorio tranquilo al d&iacute;a. Sin culpa, sin rachas, sin feed social. Si no escribes hoy, la persona simplemente aparece otro d&iacute;a. La app nunca te dice que fallaste. Solo sigue apareciendo en silencio.",
+      "de": "Eine sanfte Erinnerung pro Tag. Keine Vorw&uuml;rfe, keine Serien, kein Social Feed. Wenn du dich heute nicht meldest, taucht die Person einfach an einem anderen Tag wieder auf. Die App sagt dir nie, dass du etwas falsch gemacht hast. Sie ist einfach weiter da."
     },
     "the_research_behind_it_09358d": {
       "en": "The Research Behind It",
       "fr": "La recherche derri&egrave;re Dear",
-      "es": "La investigaci&oacute;n detr&aacute;s"
+      "es": "La investigaci&oacute;n detr&aacute;s",
+      "de": "Die Forschung dahinter"
     },
     "people_appreciate_hearing_from_you_more_than_43b670": {
       "en": "People appreciate hearing from you more than you think",
       "fr": "Les gens appr&eacute;cient tes nouvelles plus que tu ne le crois",
-      "es": "La gente aprecia saber de ti m&aacute;s de lo que crees"
+      "es": "La gente aprecia saber de ti m&aacute;s de lo que crees",
+      "de": "Menschen freuen sich mehr &uuml;ber deine Nachricht, als du denkst"
     },
     "people_consistently_underestimate_how_much_o_08a02e": {
       "en": "People consistently underestimate how much others value an unexpected message. The gap between how awkward you think it will be and how warmly it's received is large and consistent across strangers, acquaintances, and old friends.",
       "fr": "On sous-estime syst&eacute;matiquement combien les autres appr&eacute;cient un message inattendu. L'&eacute;cart entre la g&ecirc;ne anticip&eacute;e et la chaleur ressentie est constant, que ce soit avec des inconnus, des connaissances ou de vieux amis.",
-      "es": "Las personas subestiman constantemente cu&aacute;nto valoran los dem&aacute;s un mensaje inesperado. La brecha entre lo inc&oacute;modo que crees que ser&aacute; y lo bien que se recibe es grande y consistente."
+      "es": "Las personas subestiman constantemente cu&aacute;nto valoran los dem&aacute;s un mensaje inesperado. La brecha entre lo inc&oacute;modo que crees que ser&aacute; y lo bien que se recibe es grande y consistente.",
+      "de": "Menschen untersch&auml;tzen durchweg, wie viel eine unerwartete Nachricht anderen bedeutet. Der Abstand zwischen der erwarteten Peinlichkeit und der tats&auml;chlichen Freude ist gro&szlig; und zeigt sich bei Fremden, Bekannten und alten Freunden gleicherma&szlig;en."
     },
     "liu_et_al_journal_of_personality_and_social_112663": {
       "en": "Liu et al., <em>Journal of Personality and Social Psychology</em>, 2022",
       "fr": "Liu et al., <em>Journal of Personality and Social Psychology</em>, 2022",
-      "es": "Liu et al., <em>Journal of Personality and Social Psychology</em>, 2022"
+      "es": "Liu et al., <em>Journal of Personality and Social Psychology</em>, 2022",
+      "de": "Liu et al., <em>Journal of Personality and Social Psychology</em>, 2022"
     },
     "your_friendships_have_natural_layers_91afb7": {
       "en": "Your friendships have natural layers",
       "fr": "Tes amiti&eacute;s ont des couches naturelles",
-      "es": "Tus amistades tienen capas naturales"
+      "es": "Tus amistades tienen capas naturales",
+      "de": "Deine Freundschaften haben nat&uuml;rliche Schichten"
     },
     "humans_maintain_about_5_close_people_15_good_a26314": {
       "en": "Humans maintain about 5 close people, 15 good friends, and 50 in their wider circle. Dear respects these natural tiers and lets you choose your own rhythm for each person.",
       "fr": "On maintient environ 5 personnes proches, 15 bons amis et 50 dans un cercle &eacute;largi. Dear respecte ces niveaux naturels et te laisse choisir ton propre rythme pour chaque personne.",
-      "es": "Mantenemos unas 5 personas cercanas, 15 buenos amigos y 50 en un c&iacute;rculo m&aacute;s amplio. Dear respeta estos niveles naturales y te deja elegir tu propio ritmo para cada persona."
+      "es": "Mantenemos unas 5 personas cercanas, 15 buenos amigos y 50 en un c&iacute;rculo m&aacute;s amplio. Dear respeta estos niveles naturales y te deja elegir tu propio ritmo para cada persona.",
+      "de": "Menschen pflegen etwa 5 enge Bindungen, 15 gute Freundschaften und 50 Kontakte im weiteren Kreis. Dear respektiert diese nat&uuml;rlichen Ebenen und l&auml;sst dich f&uuml;r jede Person deinen eigenen Rhythmus w&auml;hlen."
     },
     "robin_dunbar_personal_relationships_2016_7410fe": {
       "en": "Robin Dunbar, <em>Personal Relationships</em>, 2016",
       "fr": "Robin Dunbar, <em>Personal Relationships</em>, 2016",
-      "es": "Robin Dunbar, <em>Personal Relationships</em>, 2016"
+      "es": "Robin Dunbar, <em>Personal Relationships</em>, 2016",
+      "de": "Robin Dunbar, <em>Personal Relationships</em>, 2016"
     },
     "small_nudges_close_the_gap_between_thinking_07be19": {
       "en": "Small nudges close the gap between thinking and doing",
       "fr": "De petits rappels comblent l'&eacute;cart entre penser et agir",
-      "es": "Peque&ntilde;os recordatorios cierran la brecha entre pensar y actuar"
+      "es": "Peque&ntilde;os recordatorios cierran la brecha entre pensar y actuar",
+      "de": "Kleine Anst&ouml;&szlig;e schlie&szlig;en die L&uuml;cke zwischen Denken und Tun"
     },
     "specific_plans_dramatically_increase_follow_b3f709": {
       "en": "Specific plans dramatically increase follow-through. \"I should text them\" becomes \"I just did.\" Dear turns intention into action by giving you a specific person, a specific moment, and a one-tap path to reach out.",
       "fr": "Des plans sp&eacute;cifiques augmentent consid&eacute;rablement le passage &agrave; l'action. \"Je devrais lui &eacute;crire\" devient \"C'est fait\". Dear transforme l'intention en action en te donnant une personne pr&eacute;cise, un moment pr&eacute;cis et un chemin en un tap pour &eacute;crire.",
-      "es": "Los planes espec&iacute;ficos aumentan dr&aacute;sticamente el seguimiento. \"Deber&iacute;a escribirle\" se convierte en \"Ya lo hice\". Dear convierte la intenci&oacute;n en acci&oacute;n d&aacute;ndote una persona espec&iacute;fica, un momento espec&iacute;fico y un camino directo para comunicarte."
+      "es": "Los planes espec&iacute;ficos aumentan dr&aacute;sticamente el seguimiento. \"Deber&iacute;a escribirle\" se convierte en \"Ya lo hice\". Dear convierte la intenci&oacute;n en acci&oacute;n d&aacute;ndote una persona espec&iacute;fica, un momento espec&iacute;fico y un camino directo para comunicarte.",
+      "de": "Konkrete Vorhaben erh&ouml;hen die Umsetzung deutlich. Aus „Ich sollte mich mal melden“ wird „Ich habe mich gerade gemeldet“. Dear macht aus Absicht Handlung: eine bestimmte Person, ein bestimmter Moment und ein Weg, der nur einen Fingertipp entfernt ist."
     },
     "gollwitzer_american_psychologist_1999_26dcc4": {
       "en": "Gollwitzer, <em>American Psychologist</em>, 1999",
       "fr": "Gollwitzer, <em>American Psychologist</em>, 1999",
-      "es": "Gollwitzer, <em>American Psychologist</em>, 1999"
+      "es": "Gollwitzer, <em>American Psychologist</em>, 1999",
+      "de": "Gollwitzer, <em>American Psychologist</em>, 1999"
     },
     "this_is_a_health_issue_not_just_a_nice_idea_a2e2ec": {
       "en": "This is a health issue, not just a nice idea",
       "fr": "C'est un enjeu de sant&eacute;, pas juste une bonne id&eacute;e",
-      "es": "Es un tema de salud, no solo una buena idea"
+      "es": "Es un tema de salud, no solo una buena idea",
+      "de": "Das ist ein Gesundheitsthema, nicht nur eine nette Idee"
     },
     "the_who_declared_loneliness_a_pressing_globa_dff6c7": {
       "en": "The WHO declared loneliness a pressing global health threat in 2023, reporting that around 1 in 4 older people experience social isolation. Separately, Holt-Lunstad's meta-analysis found social isolation raises the risk of premature death by 26%. Dear is a small tool pointed at a big problem.",
       "fr": "L'OMS a d&eacute;clar&eacute; la solitude menace mondiale pour la sant&eacute; en 2023, indiquant qu'environ 1 personne &acirc;g&eacute;e sur 4 conna&icirc;t l'isolement social. Par ailleurs, la m&eacute;ta-analyse de Holt-Lunstad montre que l'isolement social augmente le risque de d&eacute;c&egrave;s pr&eacute;matur&eacute; de 26%. Dear est un petit outil face &agrave; un grand probl&egrave;me.",
-      "es": "La OMS declar&oacute; la soledad una amenaza urgente para la salud global en 2023, se&ntilde;alando que alrededor de 1 de cada 4 personas mayores sufre aislamiento social. Por su parte, el metaan&aacute;lisis de Holt-Lunstad hall&oacute; que el aislamiento social aumenta el riesgo de muerte prematura en un 26%. Dear es una herramienta peque&ntilde;a apuntando a un gran problema."
+      "es": "La OMS declar&oacute; la soledad una amenaza urgente para la salud global en 2023, se&ntilde;alando que alrededor de 1 de cada 4 personas mayores sufre aislamiento social. Por su parte, el metaan&aacute;lisis de Holt-Lunstad hall&oacute; que el aislamiento social aumenta el riesgo de muerte prematura en un 26%. Dear es una herramienta peque&ntilde;a apuntando a un gran problema.",
+      "de": "Die WHO erkl&auml;rte Einsamkeit 2023 zu einer dringenden globalen Gesundheitsgefahr und berichtete, dass etwa 1 von 4 &auml;lteren Menschen sozial isoliert ist. Die Metaanalyse von Holt-Lunstad ergab zudem, dass soziale Isolation das Risiko eines vorzeitigen Todes um 26&nbsp;% erh&ouml;ht. Dear ist ein kleines Werkzeug, das auf ein gro&szlig;es Problem zielt."
     },
     "who_commission_on_social_connection_2023_hol_44f7f6": {
       "en": "WHO Commission on Social Connection, 2023; Holt-Lunstad et al., 2010",
       "fr": "Commission de l'OMS sur les liens sociaux, 2023 ; Holt-Lunstad et al., 2010",
-      "es": "Comisi&oacute;n de la OMS sobre Conexi&oacute;n Social, 2023; Holt-Lunstad et al., 2010"
+      "es": "Comisi&oacute;n de la OMS sobre Conexi&oacute;n Social, 2023; Holt-Lunstad et al., 2010",
+      "de": "WHO Commission on Social Connection, 2023; Holt-Lunstad et al., 2010"
     },
     "see_all_research_and_citations_rarr_612879": {
       "en": "See all research and citations &rarr;",
       "fr": "Voir toutes les sources et citations &rarr;",
-      "es": "Ver toda la investigaci&oacute;n y citas &rarr;"
+      "es": "Ver toda la investigaci&oacute;n y citas &rarr;",
+      "de": "Alle Studien und Quellen ansehen &rarr;"
     },
     "how_it_works_8cecc8": {
       "en": "How It Works",
       "fr": "Comment &ccedil;a marche",
-      "es": "C&oacute;mo funciona"
+      "es": "C&oacute;mo funciona",
+      "de": "So funktioniert es"
     },
     "add_your_people_17fe1a": {
       "en": "Add your people",
       "fr": "Ajoute tes proches",
-      "es": "Agrega a tu gente"
+      "es": "Agrega a tu gente",
+      "de": "F&uuml;ge deine Menschen hinzu"
     },
     "import_from_contacts_or_add_manually_set_how_6118f5": {
       "en": "Import from contacts or add manually. Set how often you want to reach out to each person: weekly, every two weeks, monthly, or less.",
       "fr": "Importe depuis tes contacts ou ajoute manuellement. Choisis la fr&eacute;quence pour chaque personne : chaque semaine, toutes les deux semaines, chaque mois, ou moins.",
-      "es": "Importa desde tus contactos o agrega manualmente. Elige con qu&eacute; frecuencia quieres comunicarte: semanal, quincenal, mensual o menos."
+      "es": "Importa desde tus contactos o agrega manualmente. Elige con qu&eacute; frecuencia quieres comunicarte: semanal, quincenal, mensual o menos.",
+      "de": "Aus den Kontakten importieren oder von Hand eintragen. Lege fest, wie oft du dich bei jeder Person melden m&ouml;chtest: w&ouml;chentlich, alle zwei Wochen, monatlich oder seltener."
     },
     "get_a_daily_nudge_805466": {
       "en": "Get a daily nudge",
       "fr": "Re&ccedil;ois un rappel quotidien",
-      "es": "Recibe un recordatorio diario"
+      "es": "Recibe un recordatorio diario",
+      "de": "Erhalte eine t&auml;gliche Erinnerung"
     },
     "each_day_dear_suggests_someone_to_reach_out_f4a99d": {
       "en": "Each day, Dear suggests someone to reach out to, delivered in a voice persona you choose. Sherlock's deductions, Nonna's gentle guilt, Cyrano's declarations, or 12 others.",
       "fr": "Chaque jour, Dear te sugg&egrave;re quelqu'un &agrave; contacter, dans une voix que tu choisis. Les d&eacute;ductions de Sherlock, les d&eacute;clarations de Cyrano, la sagesse du Renard, ou 12 autres.",
-      "es": "Cada d&iacute;a, Dear te sugiere a alguien, en la voz que elijas. Las deducciones de Sherlock, los consejos de La Abuela, las aventuras de Don Quijote, o 12 m&aacute;s."
+      "es": "Cada d&iacute;a, Dear te sugiere a alguien, en la voz que elijas. Las deducciones de Sherlock, los consejos de La Abuela, las aventuras de Don Quijote, o 12 m&aacute;s.",
+      "de": "Jeden Tag schl&auml;gt Dear jemanden vor, bei dem du dich melden kannst, in einer Stimme deiner Wahl. Sherlocks Schlussfolgerungen, Nonnas sanfte Art, Cyranos Liebeserkl&auml;rungen oder 12 weitere."
     },
     "text_call_or_facetime_a7007a": {
       "en": "Text, call, or FaceTime",
       "fr": "&Eacute;cris, appelle ou FaceTime",
-      "es": "Escribe, llama o haz FaceTime"
+      "es": "Escribe, llama o haz FaceTime",
+      "de": "Schreiben, anrufen oder FaceTime"
     },
     "one_tap_opens_a_text_call_or_video_chat_that_7f230b": {
       "en": "One tap opens a text, call, or video chat. That's it. No journaling, no metrics, no noise. Just a real conversation with a real person.",
       "fr": "Un tap ouvre un message, un appel ou un FaceTime. C'est tout. Pas de journal, pas de m&eacute;triques, pas de bruit. Juste une vraie conversation avec une vraie personne.",
-      "es": "Un toque abre un mensaje, una llamada o un FaceTime. Eso es todo. Sin diario, sin m&eacute;tricas, sin ruido. Solo una conversaci&oacute;n real con una persona real."
+      "es": "Un toque abre un mensaje, una llamada o un FaceTime. Eso es todo. Sin diario, sin m&eacute;tricas, sin ruido. Solo una conversaci&oacute;n real con una persona real.",
+      "de": "Ein Fingertipp &ouml;ffnet eine Nachricht, einen Anruf oder ein Videogespr&auml;ch. Das war es. Kein Tagebuch, keine Kennzahlen, kein L&auml;rm. Nur ein echtes Gespr&auml;ch mit einem echten Menschen."
     },
     "15_voice_personas_26cea2": {
       "en": "15 Voice Personas",
       "fr": "15 voix",
-      "es": "15 voces"
+      "es": "15 voces",
+      "de": "15 Stimmen"
     },
     "the_voice_personas_make_the_nudge_feel_like_eaa628": {
       "en": "The voice personas make the nudge feel like a friend reminding you, not a calendar alert. Each one writes differently, notices differently, and cares differently.",
       "fr": "Les voix font que le rappel ressemble &agrave; un ami qui te pousse, pas &agrave; une alerte de calendrier. Chacune &eacute;crit diff&eacute;remment, remarque diff&eacute;remment et s'inqui&egrave;te diff&eacute;remment.",
-      "es": "Las voces hacen que el recordatorio se sienta como un amigo que te anima, no como una alarma. Cada una escribe diferente, nota cosas diferentes y se preocupa diferente."
+      "es": "Las voces hacen que el recordatorio se sienta como un amigo que te anima, no como una alarma. Cada una escribe diferente, nota cosas diferentes y se preocupa diferente.",
+      "de": "Die Stimmen lassen die Erinnerung wie einen Freund wirken, der dich anstupst, nicht wie einen Kalendereintrag. Jede schreibt anders, bemerkt anderes und k&uuml;mmert sich anders."
     },
     "private_by_design_fec57b": {
       "en": "Private by Design",
       "fr": "Priv&eacute; par conception",
-      "es": "Privado por dise&ntilde;o"
+      "es": "Privado por dise&ntilde;o",
+      "de": "Privat von Grund auf"
     },
     "your_friends_your_messages_your_relationship_ad47ac": {
-      "en": "Your friends, your messages, your relationships: none of it ever leaves your device. No accounts, no ads, nothing sold. The only things Dear sends are anonymous, aggregate analytics and anonymous purchase records, never anything that could identify you or your people. We designed it this way on purpose.",
-      "fr": "Tes amis, tes messages, tes relations : rien de tout cela ne quitte jamais ton appareil. Pas de compte, pas de publicit&eacute;, rien qui soit vendu. Les seules choses que Dear envoie sont des statistiques anonymes et agr&eacute;g&eacute;es et des enregistrements d'achat anonymes, jamais quoi que ce soit qui puisse t'identifier, toi ou tes proches. C'est un choix d&eacute;lib&eacute;r&eacute;.",
-      "es": "Tus amigos, tus mensajes, tus relaciones: nada de eso sale jam&aacute;s de tu dispositivo. Sin cuentas, sin anuncios, nada que se venda. Lo &uacute;nico que Dear env&iacute;a son estad&iacute;sticas an&oacute;nimas y agregadas y registros de compra an&oacute;nimos, nunca nada que pueda identificarte a ti o a tus personas. Lo dise&ntilde;amos as&iacute; a prop&oacute;sito."
+      "en": "Your friends, your messages, your relationships: none of it ever leaves your device. No accounts, no ads, nothing sold. The only things Dear sends are anonymous usage counts, anonymous purchase records and crash reports, never anything that could identify you or your people. We designed it this way on purpose.",
+      "fr": "Tes amis, tes messages, tes relations : rien de tout cela ne quitte ton appareil. Aucun compte, aucune publicit&eacute;, rien &agrave; vendre. Dear n'envoie que des comptages d'usage anonymes, des enregistrements d'achat anonymes et des rapports de plantage, jamais quoi que ce soit qui puisse t'identifier, toi ou tes proches. C'est un choix d&eacute;lib&eacute;r&eacute;.",
+      "es": "Tus amigos, tus mensajes, tus relaciones: nada de eso sale nunca de tu dispositivo. Sin cuentas, sin anuncios, sin vender nada. Lo &uacute;nico que Dear env&iacute;a son recuentos de uso an&oacute;nimos, registros de compra an&oacute;nimos e informes de fallos, nunca algo que pueda identificarte a ti o a tus personas. Lo dise&ntilde;amos as&iacute; a prop&oacute;sito.",
+      "de": "Deine Freunde, deine Nachrichten, deine Beziehungen: nichts davon verl&auml;sst je dein Ger&auml;t. Keine Konten, keine Werbung, nichts wird verkauft. Dear sendet nur anonyme Nutzungsz&auml;hlungen, anonyme Kaufbelege und Fehlerberichte, nie etwas, das dich oder deine Menschen identifizieren k&ouml;nnte. Das ist eine bewusste Entscheidung."
     },
     "read_the_full_privacy_policy_rarr_9d0cbe": {
       "en": "<a href=\"privacy.html\" style=\"color: #6B8AD6; text-decoration: none; font-weight: 600;\">Read the full privacy policy &rarr;</a>",
       "fr": "<a href=\"privacy.html\" style=\"color: #6B8AD6; text-decoration: none; font-weight: 600;\">Lire la politique de confidentialit&eacute; &rarr;</a>",
-      "es": "<a href=\"privacy.html\" style=\"color: #6B8AD6; text-decoration: none; font-weight: 600;\">Leer la pol&iacute;tica de privacidad &rarr;</a>"
+      "es": "<a href=\"privacy.html\" style=\"color: #6B8AD6; text-decoration: none; font-weight: 600;\">Leer la pol&iacute;tica de privacidad &rarr;</a>",
+      "de": "<a href=\"privacy.html\" style=\"color: #6B8AD6; text-decoration: none; font-weight: 600;\">Die vollst&auml;ndige Datenschutzerkl&auml;rung lesen &rarr;</a>"
     },
     "quick_facts_e54bdb": {
       "en": "Quick Facts",
       "fr": "En bref",
-      "es": "Datos r&aacute;pidos"
+      "es": "Datos r&aacute;pidos",
+      "de": "Kurz gefasst"
     },
     "price_free_for_up_to_15_people_upgrades_are_cb4d56": {
       "en": "<span class=\"label\">Price:</span> Free for up to 15 people. Upgrades are priced like an espresso in your country (about $2.99/month in the US), set with World Bank income data and Numbeo coffee prices.",
       "fr": "<span class=\"label\">Prix :</span> Gratuit jusqu'&agrave; 15 personnes. Les options payantes co&ucirc;tent environ le prix d'un espresso dans ton pays (autour de 2,99&nbsp;$/mois aux &Eacute;tats-Unis), calcul&eacute;es avec les donn&eacute;es de revenus de la Banque mondiale et les prix du caf&eacute; de Numbeo.",
-      "es": "<span class=\"label\">Precio:"
+      "es": "<span class=\"label\">Precio:",
+      "de": "<span class=\"label\">Preis:</span> Kostenlos f&uuml;r bis zu 15 Personen. Erweiterungen kosten ungef&auml;hr so viel wie ein Espresso in deinem Land (etwa 2,99&nbsp;$/Monat in den USA), berechnet mit Einkommensdaten der Weltbank und Kaffeepreisen von Numbeo."
     },
     "languages_english_french_spanish_a1fff3": {
       "en": "<span class=\"label\">Languages:</span> 31 in the app. This site is in English, French and Spanish.",
       "fr": "<span class=\"label\">Langues :</span> 31 dans l'app. Ce site est en anglais, fran&ccedil;ais et espagnol.",
-      "es": "<span class=\"label\">Idiomas:</span> 31 en la app. Este sitio est&aacute; en ingl&eacute;s, franc&eacute;s y espa&ntilde;ol."
+      "es": "<span class=\"label\">Idiomas:</span> 31 en la app. Este sitio est&aacute; en ingl&eacute;s, franc&eacute;s y espa&ntilde;ol.",
+      "de": "<span class=\"label\">Sprachen:</span> 31 in der App. Diese Website gibt es auf Englisch, Franz&ouml;sisch und Spanisch."
     },
     "platform_ios_17_android_8_7a43e5": {
       "en": "<span class=\"label\">Platform:</span> iOS 18+, Android 8+",
       "fr": "<span class=\"label\">Plateforme :</span> iOS 18+, Android 8+",
-      "es": "<span class=\"label\">Plataforma:</span> iOS 18+, Android 8+"
+      "es": "<span class=\"label\">Plataforma:</span> iOS 18+, Android 8+",
+      "de": "<span class=\"label\">Plattform:</span> iOS 18+, Android 8+"
     },
     "privacy_built_on_device_the_only_data_that_l_f840fc": {
       "en": "<span class=\"label\">Privacy:</span> Built on-device. Your people never leave your device. The only data that leaves your phone is anonymous usage counts, anonymous purchase records and crash reports.",
       "fr": "<span class=\"label\">Confidentialit&eacute; :</span> Con&ccedil;u pour fonctionner sur l'appareil. Tes proches ne quittent jamais ton appareil. Les seules donn&eacute;es qui sortent de ton t&eacute;l&eacute;phone sont des comptages d'usage anonymes, des enregistrements d'achat anonymes et des rapports de plantage.",
-      "es": "<span class=\"label\">Privacidad:</span> Funciona en el dispositivo. Tus personas nunca salen de tu dispositivo. Los &uacute;nicos datos que salen de tu tel&eacute;fono son recuentos de uso an&oacute;nimos, registros de compra an&oacute;nimos e informes de fallos."
+      "es": "<span class=\"label\">Privacidad:</span> Funciona en el dispositivo. Tus personas nunca salen de tu dispositivo. Los &uacute;nicos datos que salen de tu tel&eacute;fono son recuentos de uso an&oacute;nimos, registros de compra an&oacute;nimos e informes de fallos.",
+      "de": "<span class=\"label\">Datenschutz:</span> L&auml;uft auf dem Ger&auml;t. Deine Menschen verlassen dein Ger&auml;t nie. Dein Telefon sendet nur anonyme Nutzungsz&auml;hlungen, anonyme Kaufbelege und Fehlerberichte."
     },
     "interested_in_recommending_dear_3daf5f": {
       "en": "Interested in recommending Dear?",
       "fr": "Envie de recommander Dear ?",
-      "es": "&iquest;Te interesa recomendar Dear?"
+      "es": "&iquest;Te interesa recomendar Dear?",
+      "de": "M&ouml;chtest du Dear weiterempfehlen?"
     },
     "if_you_re_a_therapist_counselor_coach_or_wel_048a89": {
       "en": "If you're a therapist, counselor, coach, or wellness professional and think Dear could help your clients build stronger connections, we'd love to hear from you.",
       "fr": "Si tu es th&eacute;rapeute, conseiller, coach ou professionnel du bien-&ecirc;tre et que tu penses que Dear pourrait aider tes clients &agrave; renforcer leurs liens, on aimerait beaucoup avoir de tes nouvelles.",
-      "es": "Si eres terapeuta, consejero, coach o profesional del bienestar y crees que Dear podr&iacute;a ayudar a tus clientes a fortalecer sus conexiones, nos encantar&iacute;a saber de ti."
+      "es": "Si eres terapeuta, consejero, coach o profesional del bienestar y crees que Dear podr&iacute;a ayudar a tus clientes a fortalecer sus conexiones, nos encantar&iacute;a saber de ti.",
+      "de": "Wenn du in Therapie, Beratung, Coaching oder Gesundheitsf&ouml;rderung arbeitest und denkst, dass Dear deinen Klientinnen und Klienten zu st&auml;rkeren Bindungen verhelfen kann, freuen wir uns von dir zu h&ouml;ren."
     },
     "dear_is_made_by_elsewhere_index_an_independe_c06956": {
       "en": "Dear is made by Elsewhere Index, an independent studio. Built with a lot of care.",
       "fr": "Dear est cr&eacute;&eacute; par Elsewhere Index, un studio ind&eacute;pendant. D&eacute;velopp&eacute; avec beaucoup de soin.",
-      "es": "Dear fue creado por Elsewhere Index, un estudio independiente. Desarrollado con mucho cuidado."
+      "es": "Dear fue creado por Elsewhere Index, un estudio independiente. Desarrollado con mucho cuidado.",
+      "de": "Dear kommt von Elsewhere Index, einem unabh&auml;ngigen Studio. Mit viel Sorgfalt gebaut."
     },
     "press_kit_300534": {
       "en": "Press Kit",
       "fr": "Dossier de presse",
-      "es": "Kit de prensa"
+      "es": "Kit de prensa",
+      "de": "Pressekit"
     },
     "app_overview_1d58e9": {
       "en": "App Overview",
       "fr": "Apercu de l'app",
-      "es": "Resumen de la app"
+      "es": "Resumen de la app",
+      "de": "&Uuml;berblick"
     },
     "one_gentle_nudge_a_day_to_text_the_people_yo_bf14dc": {
       "en": "One gentle nudge a day to text the people you care about. 15+ voice personas across English, French, and Spanish. Free, private, no accounts.",
       "fr": "Un rappel doux par jour pour prendre des nouvelles de ceux qui comptent. Plus de 15 voix en anglais, fran&ccedil;ais et espagnol. Gratuit, priv&eacute;, sans compte.",
-      "es": "Un recordatorio diario para escribirle a las personas que te importan. M&aacute;s de 15 voces en ingl&eacute;s, franc&eacute;s y espa&ntilde;ol. Gratis, privado, sin cuentas."
+      "es": "Un recordatorio diario para escribirle a las personas que te importan. M&aacute;s de 15 voces en ingl&eacute;s, franc&eacute;s y espa&ntilde;ol. Gratis, privado, sin cuentas.",
+      "de": "Eine sanfte Erinnerung pro Tag, um den Menschen zu schreiben, die dir wichtig sind. 15 Stimmen auf Englisch, Franz&ouml;sisch und Spanisch. Kostenlos, privat, ohne Konto."
     },
     "philosophy_496e94": {
       "en": "Philosophy",
       "fr": "Philosophie",
-      "es": "Filosofia"
+      "es": "Filosofia",
+      "de": "Haltung"
     },
     "dear_is_built_on_one_principle_no_guilt_ever_266994": {
       "en": "Dear is built on one principle: no guilt, ever (except from Nonna). There are no streaks, no \"missed\" nudges, no counters, no backlog. Every day is a clean slate.",
       "fr": "Dear repose sur un principe : z&eacute;ro culpabilit&eacute; (sauf de la part de Cyrano). Pas de s&eacute;ries, pas de rappels &laquo; manqu&eacute;s &raquo;, pas de compteurs, pas d'historique. Chaque jour repart de z&eacute;ro.",
-      "es": "Dear se basa en un principio: cero culpa (excepto de parte de La Abuela). Sin rachas, sin recordatorios \"perdidos\", sin contadores, sin pendientes. Cada d&iacute;a empieza de cero."
+      "es": "Dear se basa en un principio: cero culpa (excepto de parte de La Abuela). Sin rachas, sin recordatorios \"perdidos\", sin contadores, sin pendientes. Cada d&iacute;a empieza de cero.",
+      "de": "Dear folgt einem Grundsatz: keine Vorw&uuml;rfe, nie (au&szlig;er von Nonna). Es gibt keine Serien, keine verpassten Erinnerungen, keine Z&auml;hler, keinen Rückstand. Jeder Tag f&auml;ngt neu an."
     },
     "if_you_don_t_reach_out_today_the_person_simp_354682": {
       "en": "If you don't reach out today, the person simply appears again another day. The app never tells you that you failed. It just quietly keeps showing up.",
       "fr": "Si tu ne prends pas de nouvelles aujourd'hui, la personne r&eacute;appara&icirc;t simplement un autre jour. L'app ne te dit jamais que tu as &eacute;chou&eacute;. Elle continue juste de se manifester doucement.",
-      "es": "Si no escribes hoy, la persona simplemente aparece otro dia. La app nunca te dice que fallaste. Solo sigue apareciendo en silencio."
+      "es": "Si no escribes hoy, la persona simplemente aparece otro dia. La app nunca te dice que fallaste. Solo sigue apareciendo en silencio.",
+      "de": "Wenn du dich heute nicht meldest, taucht die Person einfach an einem anderen Tag wieder auf. Die App sagt dir nie, dass du etwas falsch gemacht hast. Sie ist einfach weiter da."
     },
     "the_voice_personas_exist_to_make_the_nudge_f_5825b4": {
       "en": "The voice personas exist to make the nudge feel like a friend reminding you, not a calendar alert. Sherlock's deductions, Nonna's gentle guilt, Cyrano's declarations. The goal is a smile, then a text.",
       "fr": "Les voix existent pour que le rappel ressemble &agrave; un ami qui te pousse, pas &agrave; une alerte de calendrier. Les d&eacute;ductions de Sherlock, les d&eacute;clarations de Cyrano, la sagesse du Renard. L'objectif : un sourire, puis un message.",
-      "es": "Las voces existen para que el recordatorio se sienta como un amigo que te anima, no como una alarma. Las deducciones de Sherlock, las preguntas de La Abuela, las aventuras de Don Quijote. El objetivo: una sonrisa, y luego un mensaje."
+      "es": "Las voces existen para que el recordatorio se sienta como un amigo que te anima, no como una alarma. Las deducciones de Sherlock, las preguntas de La Abuela, las aventuras de Don Quijote. El objetivo: una sonrisa, y luego un mensaje.",
+      "de": "Die Stimmen sind daf&uuml;r da, dass sich die Erinnerung wie ein Freund anf&uuml;hlt, der dich anstupst, nicht wie ein Kalendereintrag. Sherlocks Schlussfolgerungen, Nonnas sanfte Art, Cyranos Liebeserkl&auml;rungen. Erst ein L&auml;cheln, dann eine Nachricht."
     },
     "key_facts_b8573c": {
       "en": "Key Facts",
       "fr": "Infos cles",
-      "es": "Datos clave"
+      "es": "Datos clave",
+      "de": "Kernzahlen"
     },
     "voice_personas_15_sherlock_holmes_nonna_cyra_7d8b1f": {
       "en": "<span class=\"label\">Voice personas:</span> 15+ (Sherlock Holmes, Nonna, Cyrano, Don Quijote, and more)",
       "fr": "<span class=\"label\">Voix :</span> Plus de 15 (Sherlock Holmes, Nonna, Cyrano, Don Quichotte, et plus)",
-      "es": "<span class=\"label\">Voces:"
+      "es": "<span class=\"label\">Voces:",
+      "de": "<span class=\"label\">Stimmen:</span> 15 (Sherlock Holmes, Nonna, Cyrano, Don Quijote und weitere)"
     },
     "privacy_built_on_device_no_accounts_no_ads_n_e0884d": {
       "en": "<span class=\"label\">Privacy:</span> Built on-device. No accounts, no ads, no data sold. Your people never leave your device. Only anonymous usage counts, anonymous purchase records and crash reports ever leave it. Designed to exceed GDPR and EU privacy requirements by default.",
       "fr": "<span class=\"label\">Confidentialit&eacute; :</span> Con&ccedil;u pour fonctionner sur l'appareil. Aucun compte, aucune publicit&eacute;, aucune donn&eacute;e vendue. Tes proches ne quittent jamais ton appareil. Seuls des comptages d'usage anonymes, des enregistrements d'achat anonymes et des rapports de plantage en sortent. Con&ccedil;u pour d&eacute;passer le RGPD par d&eacute;faut.",
-      "es": "<span class=\"label\">Privacidad:</span> Funciona en el dispositivo. Sin cuentas, sin anuncios, sin venta de datos. Tus personas nunca salen de tu dispositivo. Solo salen recuentos de uso an&oacute;nimos, registros de compra an&oacute;nimos e informes de fallos. Dise&ntilde;ado para superar el RGPD por defecto."
+      "es": "<span class=\"label\">Privacidad:</span> Funciona en el dispositivo. Sin cuentas, sin anuncios, sin venta de datos. Tus personas nunca salen de tu dispositivo. Solo salen recuentos de uso an&oacute;nimos, registros de compra an&oacute;nimos e informes de fallos. Dise&ntilde;ado para superar el RGPD por defecto.",
+      "de": "<span class=\"label\">Datenschutz:</span> L&auml;uft auf dem Ger&auml;t. Keine Konten, keine Werbung, keine Daten zum Verkauf. Deine Menschen verlassen dein Ger&auml;t nie. Nur anonyme Nutzungsz&auml;hlungen, anonyme Kaufbelege und Fehlerberichte verlassen es. So gebaut, dass es die Anforderungen der DSGVO standardm&auml;&szlig;ig &uuml;bertrifft."
     },
     "platform_ios_17_iphone_and_ipad_e03453": {
       "en": "<span class=\"label\">Platform:</span> iOS 18+, iPhone and iPad. Android 8+.",
       "fr": "<span class=\"label\">Plateforme :</span> iOS 18+, iPhone et iPad. Android 8+.",
-      "es": "<span class=\"label\">Plataforma:</span> iOS 18+, iPhone y iPad. Android 8+."
+      "es": "<span class=\"label\">Plataforma:</span> iOS 18+, iPhone y iPad. Android 8+.",
+      "de": "<span class=\"label\">Plattform:</span> iOS 18+, iPhone und iPad. Android 8+."
     },
     "built_with_swiftui_swiftdata_widgetkit_two_t_f4f7eb": {
       "en": "<span class=\"label\">Built with:</span> SwiftUI, SwiftData, WidgetKit. Three third-party SDKs: TelemetryDeck (anonymous analytics), RevenueCat (purchases) and Sentry (crash reports).",
       "fr": "<span class=\"label\">Construit avec :</span> SwiftUI, SwiftData, WidgetKit. Trois SDK tiers : TelemetryDeck (analyses anonymes), RevenueCat (achats) et Sentry (rapports de plantage).",
-      "es": "<span class=\"label\">Creado con:</span> SwiftUI, SwiftData, WidgetKit. Tres SDK de terceros: TelemetryDeck (an&aacute;lisis an&oacute;nimos), RevenueCat (compras) y Sentry (informes de fallos)."
+      "es": "<span class=\"label\">Creado con:</span> SwiftUI, SwiftData, WidgetKit. Tres SDK de terceros: TelemetryDeck (an&aacute;lisis an&oacute;nimos), RevenueCat (compras) y Sentry (informes de fallos).",
+      "de": "<span class=\"label\">Gebaut mit:</span> SwiftUI, SwiftData, WidgetKit. Drei SDKs von Dritten: TelemetryDeck (anonyme Auswertung), RevenueCat (K&auml;ufe) und Sentry (Fehlerberichte)."
     },
     "research_be601d": {
       "en": "Research",
       "fr": "Recherche",
-      "es": "Investigacion"
+      "es": "Investigacion",
+      "de": "Forschung"
     },
     "who_2023_1_in_4_people_worldwide_report_feel_7c5d5b": {
       "en": "<strong><a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\" style=\"color: #2D2D2D; text-decoration: underline;\">WHO (2025)</a>:</strong> 1 in 6 people worldwide are affected by loneliness. WHO declared loneliness a pressing global health threat in 2023.",
       "fr": "<strong>OMS (2025) :</strong> 1 personne sur 6 dans le monde est touch&eacute;e par la solitude. L'OMS a d&eacute;clar&eacute; la solitude menace mondiale urgente pour la sant&eacute; en 2023.",
-      "es": "<strong>OMS (2025):</strong> 1 de cada 6 personas en el mundo se ve afectada por la soledad. La OMS declar&oacute; la soledad una amenaza urgente para la salud global en 2023."
+      "es": "<strong>OMS (2025):</strong> 1 de cada 6 personas en el mundo se ve afectada por la soledad. La OMS declar&oacute; la soledad una amenaza urgente para la salud global en 2023.",
+      "de": "<strong><a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\" style=\"color: #2D2D2D; text-decoration: underline;\">WHO (2025)</a>:</strong> 1 von 6 Menschen weltweit ist von Einsamkeit betroffen. Die WHO erkl&auml;rte Einsamkeit 2023 zu einer dringenden globalen Gesundheitsgefahr."
     },
     "peggy_liu_2022_people_consistently_underesti_191103": {
       "en": "<em><a href=\"https://doi.org/10.1037/pspi0000402\" style=\"color: #6B8AD6;\">Peggy Liu (2022)</a>:</em> People consistently underestimate how much others appreciate hearing from them, especially when reaching out \"just because.\"",
       "fr": "<em>Peggy Liu (2022) :</em> Les gens sous-estiment systematiquement combien les autres apprecient avoir de leurs nouvelles, surtout quand on ecrit \"juste comme ca\".",
-      "es": "<em>Peggy Liu (2022):</em> Las personas subestiman constantemente cuanto aprecian los demas saber de ellas, especialmente cuando escriben \"solo porque si\"."
+      "es": "<em>Peggy Liu (2022):</em> Las personas subestiman constantemente cuanto aprecian los demas saber de ellas, especialmente cuando escriben \"solo porque si\".",
+      "de": "<em><a href=\"https://doi.org/10.1037/pspi0000402\" style=\"color: #6B8AD6;\">Peggy Liu (2022)</a>:</em> Menschen untersch&auml;tzen durchweg, wie sehr sich andere &uuml;ber eine Nachricht freuen, besonders wenn sie einfach so kommt."
     },
     "dunbar_s_social_layers_humans_organize_relat_2bcf8b": {
       "en": "<strong><a href=\"https://doi.org/10.1016/0047-2484(92)90081-J\" style=\"color: #2D2D2D; text-decoration: underline;\">Dunbar's social layers</a>:</strong> Humans organize relationships in concentric frequency tiers. Dear mirrors this structure, letting users set per-person contact frequency.",
       "fr": "<strong>Couches sociales de Dunbar :</strong> Les humains organisent leurs relations en cercles concentriques de frequence. Dear reproduit cette structure en permettant de definir la frequence de contact par personne.",
-      "es": "<strong>Capas sociales de Dunbar:</strong> Los humanos organizan sus relaciones en circulos concentricos de frecuencia. Dear replica esta estructura, permitiendo definir la frecuencia de contacto por persona."
+      "es": "<strong>Capas sociales de Dunbar:</strong> Los humanos organizan sus relaciones en circulos concentricos de frecuencia. Dear replica esta estructura, permitiendo definir la frecuencia de contacto por persona.",
+      "de": "<strong><a href=\"https://doi.org/10.1016/0047-2484(92)90081-J\" style=\"color: #2D2D2D; text-decoration: underline;\">Dunbars soziale Schichten</a>:</strong> Menschen ordnen Beziehungen in konzentrischen H&auml;ufigkeitsebenen. Dear bildet diese Struktur ab und l&auml;sst pro Person eine eigene H&auml;ufigkeit einstellen."
     },
     "full_citations_available_on_request_at_press_2904bd": {
       "en": "Full citations available on request at press@dearnudges.com",
       "fr": "Citations completes disponibles sur demande a press@dearnudges.com",
-      "es": "Citas completas disponibles a pedido en press@dearnudges.com"
+      "es": "Citas completas disponibles a pedido en press@dearnudges.com",
+      "de": "Vollst&auml;ndige Quellenangaben auf Anfrage unter press@dearnudges.com"
     },
     "downloads_a862c2": {
       "en": "Downloads",
       "fr": "T&eacute;l&eacute;chargements",
-      "es": "Descargas"
+      "es": "Descargas",
+      "de": "Downloads"
     },
     "app_icon_f54c83": {
       "en": "App Icon",
       "fr": "Ic&ocirc;ne de l'app",
-      "es": "Icono de la app"
+      "es": "Icono de la app",
+      "de": "App-Symbol"
     },
     "full_press_kit_zip_fdcecb": {
       "en": "Full Press Kit (ZIP)",
       "fr": "Dossier de presse complet (ZIP)",
-      "es": "Kit de prensa completo (ZIP)"
+      "es": "Kit de prensa completo (ZIP)",
+      "de": "Komplettes Pressekit (ZIP)"
     },
     "icon_28_screenshots_en_fr_es_13mb_d4006f": {
-      "en": "Icon, 28 screenshots (EN/FR/ES), 13MB",
-      "fr": "Ic&ocirc;ne, 28 captures d'&eacute;cran (EN/FR/ES), 13 Mo",
-      "es": "Icono, 28 capturas de pantalla (EN/FR/ES), 13 MB"
+      "en": "Icon, fact sheet, 21 screenshots (EN/FR/ES), 7MB",
+      "fr": "Ic&ocirc;ne, fiche d'information, 21 captures (EN/FR/ES), 7 Mo",
+      "es": "Icono, ficha informativa, 21 capturas (EN/FR/ES), 7 MB",
+      "de": "Symbol, Factsheet, 21 Screenshots (EN/FR/ES), 7&nbsp;MB"
     },
     "brand_color_3337c1": {
       "en": "Brand Color",
       "fr": "Couleur de marque",
-      "es": "Color de marca"
+      "es": "Color de marca",
+      "de": "Markenfarbe"
     },
     "contact_b37456": {
       "en": "Contact",
       "fr": "Contact",
-      "es": "Contacto"
+      "es": "Contacto",
+      "de": "Kontakt"
     },
     "the_dear_team_is_available_for_interviews_pr_2d2f42": {
       "en": "The Dear team is available for interviews. Promo codes available for editorial review.",
       "fr": "L'&eacute;quipe Dear est disponible pour des interviews. Codes promo disponibles pour la presse.",
-      "es": "El equipo de Dear est&aacute; disponible para entrevistas. C&oacute;digos promocionales disponibles para prensa."
+      "es": "El equipo de Dear est&aacute; disponible para entrevistas. C&oacute;digos promocionales disponibles para prensa.",
+      "de": "Das Dear-Team steht f&uuml;r Interviews zur Verf&uuml;gung. Promo-Codes f&uuml;r Rezensionen sind auf Anfrage erh&auml;ltlich."
     },
     "larr_back_to_dear_9f5dc0": {
       "en": "&larr; Back to Dear",
       "fr": "&larr; Retour &agrave; Dear",
-      "es": "&larr; Volver a Dear"
+      "es": "&larr; Volver a Dear",
+      "de": "&larr; Zur&uuml;ck zu Dear"
     },
     "privacy_policy_9db108": {
       "en": "Privacy Policy",
@@ -581,362 +648,434 @@
     "the_research_05d3d7": {
       "en": "The Research",
       "fr": "La recherche",
-      "es": "La investigaci&oacute;n"
+      "es": "La investigaci&oacute;n",
+      "de": "Die Forschung"
     },
     "dear_is_built_on_behavioral_science_not_intu_710f16": {
       "en": "Dear is built on behavioral science, not intuition. Here are the studies that shaped the app.",
       "fr": "Dear repose sur la science comportementale, pas sur l'intuition. Voici les &eacute;tudes qui ont fa&ccedil;onn&eacute; l'app.",
-      "es": "Dear se basa en ciencia del comportamiento, no en intuici&oacute;n. Estas son las investigaciones que dieron forma a la app."
+      "es": "Dear se basa en ciencia del comportamiento, no en intuici&oacute;n. Estas son las investigaciones que dieron forma a la app.",
+      "de": "Dear beruht auf Verhaltensforschung, nicht auf Bauchgef&uuml;hl. Hier sind die Studien, die die App gepr&auml;gt haben."
     },
     "the_appreciation_gap_bfd8ff": {
       "en": "The Appreciation Gap",
       "fr": "L'&eacute;cart d'appr&eacute;ciation",
-      "es": "La brecha de apreciaci&oacute;n"
+      "es": "La brecha de apreciaci&oacute;n",
+      "de": "Die untersch&auml;tzte Freude"
     },
     "people_consistently_underestimate_how_much_o_d8f19c": {
       "en": "People consistently underestimate how much others appreciate hearing from them, especially when reaching out \"just because.\"",
       "fr": "On sous-estime syst&eacute;matiquement combien les autres appr&eacute;cient avoir de nos nouvelles, surtout quand on &eacute;crit \"juste comme &ccedil;a\".",
-      "es": "Las personas subestiman constantemente cu&aacute;nto aprecian los dem&aacute;s saber de ellas, especialmente cuando escriben \"solo porque s&iacute;\"."
+      "es": "Las personas subestiman constantemente cu&aacute;nto aprecian los dem&aacute;s saber de ellas, especialmente cuando escriben \"solo porque s&iacute;\".",
+      "de": "Menschen untersch&auml;tzen durchweg, wie sehr sich andere &uuml;ber eine Nachricht freuen, besonders wenn sie einfach so kommt."
     },
     "across_multiple_experiments_senders_predicte_8d4f07": {
       "en": "Across multiple experiments, senders predicted recipients would feel mildly pleased. Recipients actually felt deeply touched. The gap was largest when people hadn't been in contact for a long time.",
       "fr": "&Agrave; travers plusieurs exp&eacute;riences, les exp&eacute;diteurs pr&eacute;voyaient une r&eacute;action mod&eacute;r&eacute;e. Les destinataires &eacute;taient en r&eacute;alit&eacute; profond&eacute;ment touch&eacute;s. L'&eacute;cart &eacute;tait le plus grand quand les gens n'avaient pas &eacute;t&eacute; en contact depuis longtemps.",
-      "es": "En m&uacute;ltiples experimentos, los remitentes predijeron que los destinatarios se sentir&iacute;an ligeramente contentos. En realidad se sintieron profundamente conmovidos. La brecha era mayor cuando no hab&iacute;an estado en contacto durante mucho tiempo."
+      "es": "En m&uacute;ltiples experimentos, los remitentes predijeron que los destinatarios se sentir&iacute;an ligeramente contentos. En realidad se sintieron profundamente conmovidos. La brecha era mayor cuando no hab&iacute;an estado en contacto durante mucho tiempo.",
+      "de": "In mehreren Experimenten erwarteten die Absender, die Empf&auml;nger w&uuml;rden sich m&auml;&szlig;ig freuen. Tats&auml;chlich waren die Empf&auml;nger tief ber&uuml;hrt. Der Unterschied war am gr&ouml;&szlig;ten, wenn man lange keinen Kontakt hatte."
     },
     "liu_p_j_rim_s_min_l_amp_min_k_e_2022_journal_dbf70e": {
       "en": "Liu, P.J., Rim, S., Min, L., &amp; Min, K.E. (2022). <em>Journal of Personality and Social Psychology</em>. <a href=\"https://doi.org/10.1037/pspi0000402\">doi:10.1037/pspi0000402</a>",
       "fr": "Liu, P.J., Rim, S., Min, L., &amp; Min, K.E. (2022). <em>Journal of Personality and Social Psychology</em>. <a href=\"https://doi.org/10.1037/pspi0000402\">doi:10.1037/pspi0000402</a>",
-      "es": "Liu, P.J., Rim, S., Min, L., &amp; Min, K.E. (2022). <em>Journal of Personality and Social Psychology</em>. <a href=\"https://doi.org/10.1037/pspi0000402\">doi:10.1037/pspi0000402</a>"
+      "es": "Liu, P.J., Rim, S., Min, L., &amp; Min, K.E. (2022). <em>Journal of Personality and Social Psychology</em>. <a href=\"https://doi.org/10.1037/pspi0000402\">doi:10.1037/pspi0000402</a>",
+      "de": "Liu, P.J., Rim, S., Min, L., &amp; Min, K.E. (2022). <em>Journal of Personality and Social Psychology</em>. <a href=\"https://doi.org/10.1037/pspi0000402\">doi:10.1037/pspi0000402</a>"
     },
     "this_is_why_dear_exists_the_nudge_closes_the_e230b2": {
       "en": "This is why Dear exists. The nudge closes the gap between thinking about someone and actually reaching out.",
       "fr": "C'est pour cela que Dear existe. Le rappel comble l'&eacute;cart entre penser &agrave; quelqu'un et vraiment prendre de ses nouvelles.",
-      "es": "Por esto existe Dear. El recordatorio cierra la brecha entre pensar en alguien y realmente comunicarse."
+      "es": "Por esto existe Dear. El recordatorio cierra la brecha entre pensar en alguien y realmente comunicarse.",
+      "de": "Genau daf&uuml;r gibt es Dear. Die Erinnerung schlie&szlig;t die L&uuml;cke zwischen an jemanden denken und sich tats&auml;chlich melden."
     },
     "people_overestimate_how_awkward_it_will_feel_1c799f": {
       "en": "People overestimate how awkward it will feel to reconnect with a lapsed friendship. The anticipatory anxiety is almost always worse than the actual conversation.",
       "fr": "On surestime &agrave; quel point ce sera g&ecirc;nant de renouer avec une amiti&eacute; perdue de vue. L'anxi&eacute;t&eacute; d'anticipation est presque toujours pire que la conversation elle-m&ecirc;me.",
-      "es": "Las personas sobreestiman lo inc&oacute;modo que ser&aacute; reconectarse con una amistad perdida. La ansiedad anticipatoria es casi siempre peor que la conversaci&oacute;n real."
+      "es": "Las personas sobreestiman lo inc&oacute;modo que ser&aacute; reconectarse con una amistad perdida. La ansiedad anticipatoria es casi siempre peor que la conversaci&oacute;n real.",
+      "de": "Menschen &uuml;bersch&auml;tzen, wie unangenehm es sein wird, eine eingeschlafene Freundschaft wieder aufzunehmen. Die Sorge vorher ist fast immer schlimmer als das Gespr&auml;ch selbst."
     },
     "boothby_e_j_amp_bohns_v_k_2021_journal_of_pe_103e0f": {
       "en": "Boothby, E.J. &amp; Bohns, V.K. (2021). <em>Journal of Personality and Social Psychology</em>. See also: <a href=\"https://hbr.org/2022/02/you-should-actually-reach-out-to-that-old-friend\">Harvard Business Review summary</a>",
       "fr": "Boothby, E.J. &amp; Bohns, V.K. (2021). <em>Journal of Personality and Social Psychology</em>. Voir aussi : <a href=\"https://hbr.org/2022/02/you-should-actually-reach-out-to-that-old-friend\">article Harvard Business Review</a>",
-      "es": "Boothby, E.J. &amp; Bohns, V.K. (2021). <em>Journal of Personality and Social Psychology</em>. Ver tambi&eacute;n: <a href=\"https://hbr.org/2022/02/you-should-actually-reach-out-to-that-old-friend\">resumen en Harvard Business Review</a>"
+      "es": "Boothby, E.J. &amp; Bohns, V.K. (2021). <em>Journal of Personality and Social Psychology</em>. Ver tambi&eacute;n: <a href=\"https://hbr.org/2022/02/you-should-actually-reach-out-to-that-old-friend\">resumen en Harvard Business Review</a>",
+      "de": "Boothby, E.J. &amp; Bohns, V.K. (2021). <em>Journal of Personality and Social Psychology</em>. Siehe auch: <a href=\"https://hbr.org/2022/02/you-should-actually-reach-out-to-that-old-friend\">Zusammenfassung der Harvard Business Review</a>"
     },
     "dunbar_s_social_layers_5605b4": {
       "en": "Dunbar's Social Layers",
       "fr": "Les couches sociales de Dunbar",
-      "es": "Las capas sociales de Dunbar"
+      "es": "Las capas sociales de Dunbar",
+      "de": "Dunbars soziale Schichten"
     },
     "humans_organize_relationships_in_concentric_a04fe1": {
       "en": "Humans organize relationships in concentric layers: ~5 intimate, ~15 close friends, ~50 active network, ~150 stable contacts. Each layer roughly triples in size.",
       "fr": "Les humains organisent leurs relations en couches concentriques : ~5 intimes, ~15 amis proches, ~50 r&eacute;seau actif, ~150 contacts stables. Chaque couche triple environ en taille.",
-      "es": "Los humanos organizan sus relaciones en capas conc&eacute;ntricas: ~5 &iacute;ntimos, ~15 amigos cercanos, ~50 red activa, ~150 contactos estables. Cada capa se triplica aproximadamente en tama&ntilde;o."
+      "es": "Los humanos organizan sus relaciones en capas conc&eacute;ntricas: ~5 &iacute;ntimos, ~15 amigos cercanos, ~50 red activa, ~150 contactos estables. Cada capa se triplica aproximadamente en tama&ntilde;o.",
+      "de": "Menschen ordnen Beziehungen in konzentrischen Schichten: etwa 5 sehr enge, etwa 15 nahe Freundschaften, etwa 50 im aktiven Netzwerk, etwa 150 stabile Kontakte. Jede Schicht ist ungef&auml;hr dreimal so gro&szlig; wie die vorherige."
     },
     "dunbar_r_i_m_2016_personal_relationships_doi_8e56c8": {
       "en": "Dunbar, R.I.M. (2016). <em>Personal Relationships</em>. <a href=\"https://doi.org/10.1111/pere.12149\">doi:10.1111/pere.12149</a>",
       "fr": "Dunbar, R.I.M. (2016). <em>Personal Relationships</em>. <a href=\"https://doi.org/10.1111/pere.12149\">doi:10.1111/pere.12149</a>",
-      "es": "Dunbar, R.I.M. (2016). <em>Personal Relationships</em>. <a href=\"https://doi.org/10.1111/pere.12149\">doi:10.1111/pere.12149</a>"
+      "es": "Dunbar, R.I.M. (2016). <em>Personal Relationships</em>. <a href=\"https://doi.org/10.1111/pere.12149\">doi:10.1111/pere.12149</a>",
+      "de": "Dunbar, R.I.M. (2016). <em>Personal Relationships</em>. <a href=\"https://doi.org/10.1111/pere.12149\">doi:10.1111/pere.12149</a>"
     },
     "dear_s_frequency_tiers_mirror_dunbar_s_layer_6fd217": {
       "en": "Dear's frequency tiers mirror Dunbar's layers. You set your own rhythm for each person, and the app respects it.",
       "fr": "Les niveaux de fr&eacute;quence de Dear refl&egrave;tent les couches de Dunbar. Tu choisis ton propre rythme pour chaque personne, et l'app le respecte.",
-      "es": "Los niveles de frecuencia de Dear reflejan las capas de Dunbar. T&uacute; eliges tu propio ritmo para cada persona, y la app lo respeta."
+      "es": "Los niveles de frecuencia de Dear reflejan las capas de Dunbar. T&uacute; eliges tu propio ritmo para cada persona, y la app lo respeta.",
+      "de": "Die H&auml;ufigkeitsstufen in Dear bilden Dunbars Schichten ab. Du legst f&uuml;r jede Person deinen eigenen Rhythmus fest, und die App h&auml;lt sich daran."
     },
     "phone_and_video_calls_can_maintain_the_two_c_f0cea6": {
       "en": "Phone and video calls can maintain the two closest layers of friendship (5 and 15) with similar effectiveness to in-person contact. Text and social media alone cannot.",
       "fr": "Les appels t&eacute;l&eacute;phoniques et vid&eacute;o peuvent maintenir les deux couches d'amiti&eacute; les plus proches (5 et 15) avec une efficacit&eacute; similaire au contact en personne. Les SMS et r&eacute;seaux sociaux seuls ne le peuvent pas.",
-      "es": "Las llamadas telef&oacute;nicas y de video pueden mantener las dos capas de amistad m&aacute;s cercanas (5 y 15) con una eficacia similar al contacto en persona. Solo los mensajes y las redes sociales no pueden."
+      "es": "Las llamadas telef&oacute;nicas y de video pueden mantener las dos capas de amistad m&aacute;s cercanas (5 y 15) con una eficacia similar al contacto en persona. Solo los mensajes y las redes sociales no pueden.",
+      "de": "Telefon- und Videoanrufe k&ouml;nnen die beiden engsten Freundschaftsschichten (5 und 15) &auml;hnlich gut erhalten wie pers&ouml;nliche Treffen. Nachrichten und soziale Medien allein k&ouml;nnen das nicht."
     },
     "dunbar_r_i_m_et_al_2021_royal_society_open_s_78abf0": {
       "en": "Dunbar, R.I.M. et al. (2021). <em>Royal Society Open Science</em>. <a href=\"https://doi.org/10.1098/rsos.210298\">doi:10.1098/rsos.210298</a>",
       "fr": "Dunbar, R.I.M. et al. (2021). <em>Royal Society Open Science</em>. <a href=\"https://doi.org/10.1098/rsos.210298\">doi:10.1098/rsos.210298</a>",
-      "es": "Dunbar, R.I.M. et al. (2021). <em>Royal Society Open Science</em>. <a href=\"https://doi.org/10.1098/rsos.210298\">doi:10.1098/rsos.210298</a>"
+      "es": "Dunbar, R.I.M. et al. (2021). <em>Royal Society Open Science</em>. <a href=\"https://doi.org/10.1098/rsos.210298\">doi:10.1098/rsos.210298</a>",
+      "de": "Dunbar, R.I.M. et al. (2021). <em>Royal Society Open Science</em>. <a href=\"https://doi.org/10.1098/rsos.210298\">doi:10.1098/rsos.210298</a>"
     },
     "dear_offers_text_call_and_facetime_buttons_f_f41ff8": {
       "en": "Dear offers text, call, and FaceTime buttons for each nudge. The call and video options exist because the research says they matter.",
       "fr": "Dear propose des boutons message, appel et FaceTime pour chaque rappel. Les options d'appel et vid&eacute;o existent parce que la recherche montre qu'elles comptent.",
-      "es": "Dear ofrece botones de mensaje, llamada y FaceTime para cada recordatorio. Las opciones de llamada y video existen porque la investigaci&oacute;n dice que importan."
+      "es": "Dear ofrece botones de mensaje, llamada y FaceTime para cada recordatorio. Las opciones de llamada y video existen porque la investigaci&oacute;n dice que importan.",
+      "de": "Dear bietet zu jeder Erinnerung Schaltfl&auml;chen f&uuml;r Nachricht, Anruf und FaceTime. Die Anruf- und Videooptionen gibt es, weil die Forschung zeigt, dass sie z&auml;hlen."
     },
     "implementation_intentions_c7abfd": {
       "en": "Implementation Intentions",
       "fr": "Intentions de mise en oeuvre",
-      "es": "Intenciones de implementaci&oacute;n"
+      "es": "Intenciones de implementaci&oacute;n",
+      "de": "Vorsatzbildung"
     },
     "specific_plans_i_will_do_x_at_time_y_in_plac_383870": {
       "en": "Specific plans (\"I will do X at time Y in place Z\") dramatically increase follow-through compared to general intentions (\"I should do X\").",
       "fr": "Des plans sp&eacute;cifiques (\"je ferai X &agrave; l'heure Y &agrave; l'endroit Z\") augmentent consid&eacute;rablement le passage &agrave; l'action par rapport &agrave; des intentions g&eacute;n&eacute;rales (\"je devrais faire X\").",
-      "es": "Los planes espec&iacute;ficos (\"har&eacute; X a la hora Y en el lugar Z\") aumentan dr&aacute;sticamente el seguimiento en comparaci&oacute;n con las intenciones generales (\"deber&iacute;a hacer X\")."
+      "es": "Los planes espec&iacute;ficos (\"har&eacute; X a la hora Y en el lugar Z\") aumentan dr&aacute;sticamente el seguimiento en comparaci&oacute;n con las intenciones generales (\"deber&iacute;a hacer X\").",
+      "de": "Konkrete Vorhaben („Ich mache X zur Zeit Y am Ort Z“) erh&ouml;hen die Umsetzung deutlich st&auml;rker als allgemeine Absichten („Ich sollte X machen“)."
     },
     "this_is_the_difference_between_i_should_text_472e56": {
       "en": "This is the difference between \"I should text my friend more\" and Dear showing you a specific person with a one-tap action. The specificity is the mechanism.",
       "fr": "C'est la diff&eacute;rence entre \"je devrais &eacute;crire plus &agrave; mes amis\" et Dear qui te montre une personne pr&eacute;cise avec une action en un tap. La sp&eacute;cificit&eacute; est le m&eacute;canisme.",
-      "es": "Esta es la diferencia entre \"deber&iacute;a escribirle m&aacute;s a mis amigos\" y Dear mostr&aacute;ndote una persona espec&iacute;fica con una acci&oacute;n de un toque. La especificidad es el mecanismo."
+      "es": "Esta es la diferencia entre \"deber&iacute;a escribirle m&aacute;s a mis amigos\" y Dear mostr&aacute;ndote una persona espec&iacute;fica con una acci&oacute;n de un toque. La especificidad es el mecanismo.",
+      "de": "Das ist der Unterschied zwischen „Ich sollte meinen Freunden &ouml;fter schreiben“ und Dear, das dir eine bestimmte Person mit einer Aktion zeigt, die einen Fingertipp entfernt ist. Die Konkretheit ist der Wirkmechanismus."
     },
     "gollwitzer_p_m_1999_american_psychologist_54_2c5ce4": {
       "en": "Gollwitzer, P.M. (1999). <em>American Psychologist</em>, 54(7), 493-503.",
       "fr": "Gollwitzer, P.M. (1999). <em>American Psychologist</em>, 54(7), 493-503.",
-      "es": "Gollwitzer, P.M. (1999). <em>American Psychologist</em>, 54(7), 493-503."
+      "es": "Gollwitzer, P.M. (1999). <em>American Psychologist</em>, 54(7), 493-503.",
+      "de": "Gollwitzer, P.M. (1999). <em>American Psychologist</em>, 54(7), 493-503."
     },
     "the_loneliness_epidemic_c407a3": {
       "en": "The Loneliness Epidemic",
       "fr": "L'&eacute;pid&eacute;mie de solitude",
-      "es": "La epidemia de soledad"
+      "es": "La epidemia de soledad",
+      "de": "Die Einsamkeit als Epidemie"
     },
     "1_in_4_people_worldwide_report_feeling_lonel_906f0d": {
       "en": "1 in 6 people worldwide are affected by loneliness. The WHO declared loneliness a pressing global health threat in 2023, and its Commission on Social Connection published the global figure in 2025.",
       "fr": "1 personne sur 6 dans le monde est touch&eacute;e par la solitude. L'OMS a d&eacute;clar&eacute; la solitude menace mondiale pour la sant&eacute; en 2023, et sa Commission sur les liens sociaux a publi&eacute; le chiffre mondial en 2025.",
-      "es": "1 de cada 6 personas en el mundo se ve afectada por la soledad. La OMS declar&oacute; la soledad una amenaza global para la salud en 2023, y su Comisi&oacute;n sobre Conexi&oacute;n Social public&oacute; la cifra mundial en 2025."
+      "es": "1 de cada 6 personas en el mundo se ve afectada por la soledad. La OMS declar&oacute; la soledad una amenaza global para la salud en 2023, y su Comisi&oacute;n sobre Conexi&oacute;n Social public&oacute; la cifra mundial en 2025.",
+      "de": "1 von 6 Menschen weltweit ist von Einsamkeit betroffen. Die WHO erkl&auml;rte Einsamkeit 2023 zu einer dringenden globalen Gesundheitsgefahr, und ihre Commission on Social Connection ver&ouml;ffentlichte die weltweite Zahl 2025."
     },
     "who_commission_on_social_connection_2023_who_94494c": {
       "en": "WHO Commission on Social Connection (2025). <a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\">who.int</a>",
       "fr": "Commission de l'OMS sur les liens sociaux (2025). <a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\">who.int</a>",
-      "es": "Comisi&oacute;n de la OMS sobre Conexi&oacute;n Social (2025). <a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\">who.int</a>"
+      "es": "Comisi&oacute;n de la OMS sobre Conexi&oacute;n Social (2025). <a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\">who.int</a>",
+      "de": "WHO Commission on Social Connection (2025). <a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\">who.int</a>"
     },
     "social_isolation_increases_the_risk_of_prema_a4f744": {
       "en": "Social isolation increases the risk of premature death by 26%, comparable to smoking 15 cigarettes a day.",
       "fr": "L'isolement social augmente le risque de d&eacute;c&egrave;s pr&eacute;matur&eacute; de 26 %, comparable &agrave; fumer 15 cigarettes par jour.",
-      "es": "El aislamiento social aumenta el riesgo de muerte prematura en un 26 %, comparable a fumar 15 cigarrillos al d&iacute;a."
+      "es": "El aislamiento social aumenta el riesgo de muerte prematura en un 26 %, comparable a fumar 15 cigarrillos al d&iacute;a.",
+      "de": "Soziale Isolation erh&ouml;ht das Risiko eines vorzeitigen Todes um 26&nbsp;%, vergleichbar mit 15 Zigaretten am Tag."
     },
     "holt_lunstad_j_et_al_2010_plos_medicine_doi_e69342": {
       "en": "Holt-Lunstad, J. et al. (2010). <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
       "fr": "Holt-Lunstad, J. et al. (2010). <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
-      "es": "Holt-Lunstad, J. et al. (2010). <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>"
+      "es": "Holt-Lunstad, J. et al. (2010). <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
+      "de": "Holt-Lunstad, J. et al. (2010). <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>"
     },
     "people_with_strong_social_ties_were_50_more_d506ab": {
       "en": "People with strong social ties were 50% more likely to still be alive at follow-up than those with weak ties.",
       "fr": "Les personnes avec des liens sociaux forts avaient 50 % de chances en plus d&rsquo;&ecirc;tre encore en vie au suivi que celles avec des liens faibles.",
-      "es": "Las personas con lazos sociales fuertes ten&iacute;an un 50 % m&aacute;s de probabilidades de seguir vivas en el seguimiento que aquellas con lazos d&eacute;biles."
+      "es": "Las personas con lazos sociales fuertes ten&iacute;an un 50 % m&aacute;s de probabilidades de seguir vivas en el seguimiento que aquellas con lazos d&eacute;biles.",
+      "de": "Menschen mit starken sozialen Bindungen lebten zum Zeitpunkt der Nachbeobachtung mit 50&nbsp;% h&ouml;herer Wahrscheinlichkeit noch als Menschen mit schwachen Bindungen."
     },
     "holt_lunstad_j_et_al_2010_meta_analysis_acro_a83c7e": {
       "en": "Holt-Lunstad, J. et al. (2010). Meta-analysis across 148 studies, 308,849 participants. <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
       "fr": "Holt-Lunstad, J. et al. (2010). M&eacute;ta-analyse de 148 &eacute;tudes, 308 849 participants. <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
-      "es": "Holt-Lunstad, J. et al. (2010). Meta-an&aacute;lisis de 148 estudios, 308.849 participantes. <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>"
+      "es": "Holt-Lunstad, J. et al. (2010). Meta-an&aacute;lisis de 148 estudios, 308.849 participantes. <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
+      "de": "Holt-Lunstad, J. et al. (2010). Metaanalyse &uuml;ber 148 Studien mit 308.849 Teilnehmenden. <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>"
     },
     "the_single_strongest_predictor_of_late_life_2b883f": {
       "en": "The single strongest predictor of late-life happiness and health is the quality of close relationships.",
       "fr": "Le meilleur pr&eacute;dicteur du bonheur et de la sant&eacute; en fin de vie est la qualit&eacute; des relations proches.",
-      "es": "El mejor predictor de felicidad y salud en la vejez es la calidad de las relaciones cercanas."
+      "es": "El mejor predictor de felicidad y salud en la vejez es la calidad de las relaciones cercanas.",
+      "de": "Der st&auml;rkste einzelne Vorhersagewert f&uuml;r Gl&uuml;ck und Gesundheit im Alter ist die Qualit&auml;t enger Beziehungen."
     },
     "harvard_s_grant_study_followed_724_people_fo_b47955": {
       "en": "Harvard's Grant Study followed 724 people for 85 years. Not wealth, not fame, not achievement. Relationships.",
       "fr": "L'&eacute;tude Grant de Harvard a suivi 724 personnes pendant 85 ans. Ni la richesse, ni la c&eacute;l&eacute;brit&eacute;, ni les accomplissements. Les relations.",
-      "es": "El Estudio Grant de Harvard sigui&oacute; a 724 personas durante 85 a&ntilde;os. No la riqueza, ni la fama, ni los logros. Las relaciones."
+      "es": "El Estudio Grant de Harvard sigui&oacute; a 724 personas durante 85 a&ntilde;os. No la riqueza, ni la fama, ni los logros. Las relaciones.",
+      "de": "Die Grant-Studie in Harvard begleitete 724 Menschen &uuml;ber 85 Jahre. Nicht Wohlstand, nicht Ruhm, nicht Erfolg. Beziehungen."
     },
     "waldinger_r_amp_schulz_m_2023_the_good_life_5257d5": {
       "en": "Waldinger, R. &amp; Schulz, M. (2023). <em>The Good Life</em>. <a href=\"https://www.adultdevelopmentstudy.org\">adultdevelopmentstudy.org</a>",
       "fr": "Waldinger, R. &amp; Schulz, M. (2023). <em>The Good Life</em>. <a href=\"https://www.adultdevelopmentstudy.org\">adultdevelopmentstudy.org</a>",
-      "es": "Waldinger, R. &amp; Schulz, M. (2023). <em>The Good Life</em>. <a href=\"https://www.adultdevelopmentstudy.org\">adultdevelopmentstudy.org</a>"
+      "es": "Waldinger, R. &amp; Schulz, M. (2023). <em>The Good Life</em>. <a href=\"https://www.adultdevelopmentstudy.org\">adultdevelopmentstudy.org</a>",
+      "de": "Waldinger, R. &amp; Schulz, M. (2023). <em>The Good Life</em>. <a href=\"https://www.adultdevelopmentstudy.org\">adultdevelopmentstudy.org</a>"
     },
     "friendship_drift_9374b5": {
       "en": "Friendship Drift",
       "fr": "La d&eacute;rive des amiti&eacute;s",
-      "es": "La p&eacute;rdida gradual de amistades"
+      "es": "La p&eacute;rdida gradual de amistades",
+      "de": "Wie Freundschaften sich verlieren"
     },
     "the_average_american_has_3_close_friends_dow_3bdc3a": {
       "en": "The average American has 3 close friends, down from 5 in 1990. 15% of men report having no close friends at all, up from 3% in 1990.",
       "fr": "L'Am&eacute;ricain moyen a 3 amis proches, contre 5 en 1990. 15 % des hommes d&eacute;clarent n'avoir aucun ami proche, contre 3 % en 1990.",
-      "es": "El estadounidense promedio tiene 3 amigos cercanos, menos que 5 en 1990. El 15 % de los hombres dicen no tener ning&uacute;n amigo cercano, frente al 3 % en 1990."
+      "es": "El estadounidense promedio tiene 3 amigos cercanos, menos que 5 en 1990. El 15 % de los hombres dicen no tener ning&uacute;n amigo cercano, frente al 3 % en 1990.",
+      "de": "Menschen in den USA haben im Schnitt 3 enge Freundschaften, 1990 waren es noch 5. 15&nbsp;% der M&auml;nner geben an, gar keine engen Freunde zu haben, 1990 waren es 3&nbsp;%."
     },
     "survey_center_on_american_life_2021_the_stat_a5808b": {
       "en": "Survey Center on American Life (2021). <a href=\"https://www.americansurveycenter.org/research/the-state-of-american-friendship-change-challenges-and-the-search-for-connection/\"><em>The State of American Friendship</em></a>",
       "fr": "Survey Center on American Life (2021). <a href=\"https://www.americansurveycenter.org/research/the-state-of-american-friendship-change-challenges-and-the-search-for-connection/\"><em>The State of American Friendship</em></a>",
-      "es": "Survey Center on American Life (2021). <a href=\"https://www.americansurveycenter.org/research/the-state-of-american-friendship-change-challenges-and-the-search-for-connection/\"><em>The State of American Friendship</em></a>"
+      "es": "Survey Center on American Life (2021). <a href=\"https://www.americansurveycenter.org/research/the-state-of-american-friendship-change-challenges-and-the-search-for-connection/\"><em>The State of American Friendship</em></a>",
+      "de": "Survey Center on American Life (2021). <a href=\"https://www.americansurveycenter.org/research/the-state-of-american-friendship-change-challenges-and-the-search-for-connection/\"><em>The State of American Friendship</em></a>"
     },
     "friendship_requires_roughly_50_hours_to_move_4b69c7": {
       "en": "Friendship requires roughly 50 hours to move from acquaintance to casual friend, 90 hours to become a genuine friend, and 200+ hours for a close friendship.",
       "fr": "Une amiti&eacute; n&eacute;cessite environ 50 heures pour passer de connaissance &agrave; ami d&eacute;contract&eacute;, 90 heures pour devenir un v&eacute;ritable ami, et plus de 200 heures pour une amiti&eacute; proche.",
-      "es": "Una amistad requiere unas 50 horas para pasar de conocido a amigo casual, 90 horas para ser un amigo genuino, y m&aacute;s de 200 horas para una amistad cercana."
+      "es": "Una amistad requiere unas 50 horas para pasar de conocido a amigo casual, 90 horas para ser un amigo genuino, y m&aacute;s de 200 horas para una amistad cercana.",
+      "de": "Aus einer Bekanntschaft wird nach etwa 50 Stunden eine lockere Freundschaft, nach 90 Stunden eine echte und nach mehr als 200 Stunden eine enge."
     },
     "hall_j_a_2018_journal_of_social_and_personal_947fe1": {
       "en": "Hall, J.A. (2018). <em>Journal of Social and Personal Relationships</em>. <a href=\"https://doi.org/10.1177/0265407518761225\">doi:10.1177/0265407518761225</a>",
       "fr": "Hall, J.A. (2018). <em>Journal of Social and Personal Relationships</em>. <a href=\"https://doi.org/10.1177/0265407518761225\">doi:10.1177/0265407518761225</a>",
-      "es": "Hall, J.A. (2018). <em>Journal of Social and Personal Relationships</em>. <a href=\"https://doi.org/10.1177/0265407518761225\">doi:10.1177/0265407518761225</a>"
+      "es": "Hall, J.A. (2018). <em>Journal of Social and Personal Relationships</em>. <a href=\"https://doi.org/10.1177/0265407518761225\">doi:10.1177/0265407518761225</a>",
+      "de": "Hall, J.A. (2018). <em>Journal of Social and Personal Relationships</em>. <a href=\"https://doi.org/10.1177/0265407518761225\">doi:10.1177/0265407518761225</a>"
     },
     "dear_can_t_create_hours_together_but_it_can_c24a6d": {
       "en": "Dear can't create hours together. But it can make sure you don't lose the ones you've already invested in.",
       "fr": "Dear ne peut pas cr&eacute;er des heures ensemble. Mais il peut s'assurer que tu ne perdes pas celles que tu as d&eacute;j&agrave; investies.",
-      "es": "Dear no puede crear horas juntos. Pero puede asegurarse de que no pierdas las que ya invertiste."
+      "es": "Dear no puede crear horas juntos. Pero puede asegurarse de que no pierdas las que ya invertiste.",
+      "de": "Dear kann keine gemeinsamen Stunden schaffen. Aber es kann daf&uuml;r sorgen, dass die Stunden, die du schon investiert hast, nicht verloren gehen."
     },
     "dear_is_collaborating_with_researchers_to_st_1064ff": {
       "en": "Dear is collaborating with researchers to study the impact of gentle nudges on relationship maintenance. If you're a researcher interested in this work, reach out at <a href=\"mailto:support@dearnudges.com\">support@dearnudges.com</a>.",
       "fr": "Dear collabore avec des chercheurs pour &eacute;tudier l'impact des rappels doux sur le maintien des relations. Si tu es chercheur et que ce sujet t'int&eacute;resse, &eacute;cris-nous &agrave; <a href=\"mailto:support@dearnudges.com\">support@dearnudges.com</a>.",
-      "es": "Dear colabora con investigadores para estudiar el impacto de los recordatorios suaves en el mantenimiento de relaciones. Si eres investigador y te interesa este trabajo, escr&iacute;benos a <a href=\"mailto:support@dearnudges.com\">support@dearnudges.com</a>."
+      "es": "Dear colabora con investigadores para estudiar el impacto de los recordatorios suaves en el mantenimiento de relaciones. Si eres investigador y te interesa este trabajo, escr&iacute;benos a <a href=\"mailto:support@dearnudges.com\">support@dearnudges.com</a>.",
+      "de": "Dear arbeitet mit Forschenden zusammen, um die Wirkung sanfter Erinnerungen auf die Pflege von Beziehungen zu untersuchen. Wenn du in diesem Bereich forschst, melde dich unter <a href=\"mailto:support@dearnudges.com\">support@dearnudges.com</a>."
     },
     "support_f32d5a": {
       "en": "Support",
       "fr": "Aide",
-      "es": "Ayuda"
+      "es": "Ayuda",
+      "de": "Hilfe"
     },
     "find_answers_below_or_email_us_if_you_need_m_6811b1": {
       "en": "Find answers below, or email us if you need more help.",
       "fr": "Tu trouveras des r&eacute;ponses ci-dessous, ou &eacute;cris-nous si tu as besoin d&rsquo;aide.",
-      "es": "Encuentra respuestas abajo, o escr&iacute;benos si necesitas m&aacute;s ayuda."
+      "es": "Encuentra respuestas abajo, o escr&iacute;benos si necesitas m&aacute;s ayuda.",
+      "de": "Antworten findest du unten. Wenn du mehr Hilfe brauchst, schreib uns einfach."
     },
     "getting_started_010b85": {
       "en": "Getting Started",
       "fr": "Pour commencer",
-      "es": "Primeros pasos"
+      "es": "Primeros pasos",
+      "de": "Erste Schritte"
     },
     "how_do_i_add_people_to_dear_70b829": {
       "en": "How do I add people to Dear?",
       "fr": "Comment ajouter des personnes dans Dear&nbsp;?",
-      "es": "&iquest;C&oacute;mo agrego personas en Dear?"
+      "es": "&iquest;C&oacute;mo agrego personas en Dear?",
+      "de": "Wie f&uuml;ge ich Menschen zu Dear hinzu?"
     },
     "why_does_dear_need_access_to_my_contacts_b2dfff": {
       "en": "Why does Dear need access to my contacts?",
       "fr": "Pourquoi Dear a-t-il besoin d&rsquo;acc&eacute;der &agrave; mes contacts&nbsp;?",
-      "es": "&iquest;Por qu&eacute; Dear necesita acceso a mis contactos?"
+      "es": "&iquest;Por qu&eacute; Dear necesita acceso a mis contactos?",
+      "de": "Warum braucht Dear Zugriff auf meine Kontakte?"
     },
     "how_do_nudge_reminders_work_db1df1": {
       "en": "How do nudge reminders work?",
       "fr": "Comment fonctionnent les rappels&nbsp;?",
-      "es": "&iquest;C&oacute;mo funcionan los recordatorios?"
+      "es": "&iquest;C&oacute;mo funcionan los recordatorios?",
+      "de": "Wie funktionieren die Erinnerungen?"
     },
     "how_do_i_set_up_notifications_1b2035": {
       "en": "How do I set up notifications?",
       "fr": "Comment configurer les notifications&nbsp;?",
-      "es": "&iquest;C&oacute;mo configuro las notificaciones?"
+      "es": "&iquest;C&oacute;mo configuro las notificaciones?",
+      "de": "Wie richte ich Mitteilungen ein?"
     },
     "what_are_the_frequency_options_7edba9": {
       "en": "What are the frequency options?",
       "fr": "Quelles sont les options de fr&eacute;quence&nbsp;?",
-      "es": "&iquest;Cu&aacute;les son las opciones de frecuencia?"
+      "es": "&iquest;Cu&aacute;les son las opciones de frecuencia?",
+      "de": "Welche H&auml;ufigkeiten gibt es?"
     },
     "subscriptions_and_purchases_a684ca": {
       "en": "Subscriptions and Purchases",
       "fr": "Abonnements et achats",
-      "es": "Suscripciones y compras"
+      "es": "Suscripciones y compras",
+      "de": "Abos und K&auml;ufe"
     },
     "what_s_included_in_the_free_version_1d7461": {
       "en": "What's included in the free version?",
       "fr": "Qu&rsquo;est-ce qui est inclus dans la version gratuite&nbsp;?",
-      "es": "&iquest;Qu&eacute; incluye la versi&oacute;n gratuita?"
+      "es": "&iquest;Qu&eacute; incluye la versi&oacute;n gratuita?",
+      "de": "Was ist in der kostenlosen Version enthalten?"
     },
     "what_s_the_difference_between_monthly_and_an_90dbf5": {
       "en": "What's the difference between Monthly and Annual?",
       "fr": "Quelle est la diff&eacute;rence entre l&rsquo;abonnement mensuel et annuel&nbsp;?",
-      "es": "&iquest;Cu&aacute;l es la diferencia entre el plan mensual y el anual?"
+      "es": "&iquest;Cu&aacute;l es la diferencia entre el plan mensual y el anual?",
+      "de": "Was ist der Unterschied zwischen monatlich und j&auml;hrlich?"
     },
     "what_s_the_difference_between_individual_voi_739033": {
       "en": "What's the difference between individual voices, the Voice Bundle, and Dear+?",
       "fr": "Quelle est la diff&eacute;rence entre les voix individuelles, le pack de voix et Dear+&nbsp;?",
-      "es": "&iquest;Cu&aacute;l es la diferencia entre voces individuales, el paquete de voces y Dear+?"
+      "es": "&iquest;Cu&aacute;l es la diferencia entre voces individuales, el paquete de voces y Dear+?",
+      "de": "Was ist der Unterschied zwischen einzelnen Stimmen, dem Stimmenpaket und Dear+?"
     },
     "how_do_i_restore_my_purchases_on_a_new_devic_4b4193": {
       "en": "How do I restore my purchases on a new device?",
       "fr": "Comment restaurer mes achats sur un nouvel appareil&nbsp;?",
-      "es": "&iquest;C&oacute;mo restauro mis compras en un dispositivo nuevo?"
+      "es": "&iquest;C&oacute;mo restauro mis compras en un dispositivo nuevo?",
+      "de": "Wie stelle ich meine K&auml;ufe auf einem neuen Ger&auml;t wieder her?"
     },
     "how_do_i_cancel_my_subscription_902dd7": {
       "en": "How do I cancel my subscription?",
       "fr": "Comment annuler mon abonnement&nbsp;?",
-      "es": "&iquest;C&oacute;mo cancelo mi suscripci&oacute;n?"
+      "es": "&iquest;C&oacute;mo cancelo mi suscripci&oacute;n?",
+      "de": "Wie k&uuml;ndige ich mein Abo?"
     },
     "i_was_charged_but_my_purchase_isn_t_showing_3b582a": {
       "en": "I was charged but my purchase isn't showing up.",
       "fr": "J&rsquo;ai &eacute;t&eacute; d&eacute;bit&eacute; mais mon achat n&rsquo;appara&icirc;t pas.",
-      "es": "Se me cobr&oacute; pero mi compra no aparece."
+      "es": "Se me cobr&oacute; pero mi compra no aparece.",
+      "de": "Mir wurde etwas berechnet, aber mein Kauf wird nicht angezeigt."
     },
     "do_individual_voice_purchases_expire_385dc8": {
       "en": "Do individual voice purchases expire?",
       "fr": "Les achats de voix individuelles expirent-ils&nbsp;?",
-      "es": "&iquest;Las compras de voces individuales expiran?"
+      "es": "&iquest;Las compras de voces individuales expiran?",
+      "de": "Laufen einzeln gekaufte Stimmen ab?"
     },
     "voices_and_personas_30403a": {
       "en": "Voices and Personas",
       "fr": "Voix et personnages",
-      "es": "Voces y personajes"
+      "es": "Voces y personajes",
+      "de": "Stimmen und Charaktere"
     },
     "how_do_i_change_my_nudge_voice_d88a71": {
       "en": "How do I change my nudge voice?",
       "fr": "Comment changer ma voix de rappel&nbsp;?",
-      "es": "&iquest;C&oacute;mo cambio mi voz de recordatorio?"
+      "es": "&iquest;C&oacute;mo cambio mi voz de recordatorio?",
+      "de": "Wie &auml;ndere ich die Stimme meiner Erinnerungen?"
     },
     "what_voices_are_included_for_free_ed7ae1": {
       "en": "What voices are included for free?",
       "fr": "Quelles voix sont incluses gratuitement&nbsp;?",
-      "es": "&iquest;Qu&eacute; voces est&aacute;n incluidas gratis?"
+      "es": "&iquest;Qu&eacute; voces est&aacute;n incluidas gratis?",
+      "de": "Welche Stimmen sind kostenlos dabei?"
     },
     "what_do_the_premium_voices_sound_like_ad33a6": {
       "en": "What do the premium voices sound like?",
       "fr": "&Agrave; quoi ressemblent les voix premium&nbsp;?",
-      "es": "&iquest;C&oacute;mo suenan las voces premium?"
+      "es": "&iquest;C&oacute;mo suenan las voces premium?",
+      "de": "Wie klingen die Premium-Stimmen?"
     },
     "what_are_trilingual_voices_a14ab1": {
       "en": "What are trilingual voices?",
       "fr": "Qu&rsquo;est-ce que les voix trilingues&nbsp;?",
-      "es": "&iquest;Qu&eacute; son las voces triling&uuml;es?"
+      "es": "&iquest;Qu&eacute; son las voces triling&uuml;es?",
+      "de": "Was sind dreisprachige Stimmen?"
     },
     "features_fc338f": {
       "en": "Features",
       "fr": "Fonctionnalit&eacute;s",
-      "es": "Funciones"
+      "es": "Funciones",
+      "de": "Funktionen"
     },
     "how_does_the_whatsapp_toggle_work_6bf3b3": {
       "en": "How does the WhatsApp toggle work?",
       "fr": "Comment fonctionne l&rsquo;option WhatsApp&nbsp;?",
-      "es": "&iquest;C&oacute;mo funciona la opci&oacute;n de WhatsApp?"
+      "es": "&iquest;C&oacute;mo funciona la opci&oacute;n de WhatsApp?",
+      "de": "Wie funktioniert der WhatsApp-Schalter?"
     },
     "how_do_i_set_up_the_dear_widget_addf2e": {
       "en": "How do I set up the Dear widget?",
       "fr": "Comment configurer le widget Dear&nbsp;?",
-      "es": "&iquest;C&oacute;mo configuro el widget de Dear?"
+      "es": "&iquest;C&oacute;mo configuro el widget de Dear?",
+      "de": "Wie richte ich das Dear-Widget ein?"
     },
     "how_many_nudges_do_i_get_per_day_20ea93": {
       "en": "How many nudges do I get per day?",
       "fr": "Combien de rappels par jour&nbsp;?",
-      "es": "&iquest;Cu&aacute;ntos recordatorios recibo por d&iacute;a?"
+      "es": "&iquest;Cu&aacute;ntos recordatorios recibo por d&iacute;a?",
+      "de": "Wie viele Erinnerungen bekomme ich pro Tag?"
     },
     "privacy_and_data_77fbe4": {
       "en": "Privacy and Data",
       "fr": "Confidentialit&eacute; et donn&eacute;es",
-      "es": "Privacidad y datos"
+      "es": "Privacidad y datos",
+      "de": "Datenschutz und Daten"
     },
     "does_dear_collect_my_data_eb702c": {
       "en": "Does Dear collect my data?",
       "fr": "Dear collecte-t-il mes donn&eacute;es&nbsp;?",
-      "es": "&iquest;Dear recopila mis datos?"
+      "es": "&iquest;Dear recopila mis datos?",
+      "de": "Sammelt Dear meine Daten?"
     },
     "do_i_need_to_create_an_account_02edb7": {
       "en": "Do I need to create an account?",
       "fr": "Dois-je cr&eacute;er un compte&nbsp;?",
-      "es": "&iquest;Necesito crear una cuenta?"
+      "es": "&iquest;Necesito crear una cuenta?",
+      "de": "Muss ich ein Konto anlegen?"
     },
     "can_dear_see_my_messages_or_call_history_dda1f4": {
       "en": "Can Dear see my messages or call history?",
       "fr": "Dear peut-il voir mes messages ou mon historique d&rsquo;appels&nbsp;?",
-      "es": "&iquest;Dear puede ver mis mensajes o historial de llamadas?"
+      "es": "&iquest;Dear puede ver mis mensajes o historial de llamadas?",
+      "de": "Kann Dear meine Nachrichten oder meine Anrufliste sehen?"
     },
     "troubleshooting_285ec8": {
       "en": "Troubleshooting",
       "fr": "D&eacute;pannage",
-      "es": "Soluci&oacute;n de problemas"
+      "es": "Soluci&oacute;n de problemas",
+      "de": "Fehlerbehebung"
     },
     "i_m_not_receiving_notifications_0524f0": {
       "en": "I'm not receiving notifications.",
       "fr": "Je ne re&ccedil;ois pas de notifications.",
-      "es": "No recibo notificaciones."
+      "es": "No recibo notificaciones.",
+      "de": "Ich bekomme keine Mitteilungen."
     },
     "my_contacts_aren_t_appearing_in_the_app_b88618": {
       "en": "My contacts aren't appearing in the app.",
       "fr": "Mes contacts n&rsquo;apparaissent pas dans l&rsquo;app.",
-      "es": "Mis contactos no aparecen en la app."
+      "es": "Mis contactos no aparecen en la app.",
+      "de": "Meine Kontakte erscheinen nicht in der App."
     },
     "a_purchase_isn_t_unlocking_973b26": {
       "en": "A purchase isn't unlocking.",
       "fr": "Un achat ne se d&eacute;bloque pas.",
-      "es": "Una compra no se desbloquea."
+      "es": "Una compra no se desbloquea.",
+      "de": "Ein Kauf wird nicht freigeschaltet."
     },
     "still_need_help_25e6e3": {
       "en": "Still need help?",
       "fr": "Tu as encore besoin d&rsquo;aide&nbsp;?",
-      "es": "&iquest;A&uacute;n necesitas ayuda?"
+      "es": "&iquest;A&uacute;n necesitas ayuda?",
+      "de": "Brauchst du noch Hilfe?"
     },
     "we_usually_respond_within_48_hours_b73fa9": {
       "en": "We usually respond within 48 hours.",
       "fr": "Nous r&eacute;pondons g&eacute;n&eacute;ralement sous 48 heures.",
-      "es": "Generalmente respondemos en 48 horas."
+      "es": "Generalmente respondemos en 48 horas.",
+      "de": "Wir antworten normalerweise innerhalb von 48 Stunden."
     }
   },
   "ready": [
@@ -953,32 +1092,38 @@
     "nav_home": {
       "en": "Home",
       "fr": "Accueil",
-      "es": "Inicio"
+      "es": "Inicio",
+      "de": "Start"
     },
     "nav_about": {
       "en": "About",
       "fr": "À propos",
-      "es": "Acerca de"
+      "es": "Acerca de",
+      "de": "&Uuml;ber"
     },
     "nav_research": {
       "en": "Research",
       "fr": "Recherche",
-      "es": "Investigación"
+      "es": "Investigación",
+      "de": "Forschung"
     },
     "nav_faq": {
       "en": "FAQ",
       "fr": "FAQ",
-      "es": "Preguntas"
+      "es": "Preguntas",
+      "de": "FAQ"
     },
     "nav_privacy": {
       "en": "Privacy",
       "fr": "Confidentialité",
-      "es": "Privacidad"
+      "es": "Privacidad",
+      "de": "Datenschutz"
     },
     "nav_press": {
       "en": "Press",
       "fr": "Presse",
-      "es": "Prensa"
+      "es": "Prensa",
+      "de": "Presse"
     }
   },
   "meta": {
@@ -986,72 +1131,84 @@
       "title": {
         "en": "Dear: Stay in Touch",
         "fr": "Dear : rester en contact",
-        "es": "Dear: sigue en contacto"
+        "es": "Dear: sigue en contacto",
+        "de": "Dear: in Verbindung bleiben"
       },
       "desc": {
         "en": "One gentle nudge a day to stay close to the people who matter. Free, private, no accounts needed.",
         "fr": "Un rappel doux par jour pour rester proche de ceux qui comptent. Gratuit, privé, sans compte.",
-        "es": "Un recordatorio suave al día para seguir cerca de quienes importan. Gratis, privado, sin cuentas."
+        "es": "Un recordatorio suave al día para seguir cerca de quienes importan. Gratis, privado, sin cuentas.",
+        "de": "Eine sanfte Erinnerung pro Tag, um den Menschen nah zu bleiben, die z&auml;hlen. Kostenlos, privat, ohne Konto."
       }
     },
     "about.html": {
       "title": {
         "en": "About - Dear: Stay in Touch",
         "fr": "À propos de Dear",
-        "es": "Acerca de Dear"
+        "es": "Acerca de Dear",
+        "de": "&Uuml;ber Dear"
       },
       "desc": {
         "en": "Why Dear exists, the research behind it, and how it works.",
         "fr": "Pourquoi Dear existe, la recherche qui la fonde et son fonctionnement.",
-        "es": "Por qué existe Dear, la investigación que la respalda y cómo funciona."
+        "es": "Por qué existe Dear, la investigación que la respalda y cómo funciona.",
+        "de": "Warum es Dear gibt, die Forschung dahinter und wie es funktioniert."
       }
     },
     "press.html": {
       "title": {
         "en": "Press Kit - Dear: Stay in Touch",
         "fr": "Kit presse - Dear",
-        "es": "Kit de prensa - Dear"
+        "es": "Kit de prensa - Dear",
+        "de": "Pressekit - Dear"
       },
       "desc": {
         "en": "Press kit for Dear: Stay in Touch. App overview, key facts, research, and downloads.",
         "fr": "Kit presse de Dear. Présentation de l'app, chiffres clés, recherche et téléchargements.",
-        "es": "Kit de prensa de Dear. Resumen de la app, datos clave, investigación y descargas."
+        "es": "Kit de prensa de Dear. Resumen de la app, datos clave, investigación y descargas.",
+        "de": "Pressekit f&uuml;r Dear. &Uuml;berblick, Kernzahlen, Forschung und Downloads."
       }
     },
     "privacy.html": {
       "title": {
         "en": "Privacy Policy - Dear: Stay in Touch",
         "fr": "Politique de confidentialité - Dear",
-        "es": "Política de privacidad - Dear"
+        "es": "Política de privacidad - Dear",
+        "de": "Datenschutz - Dear"
       },
       "desc": {
         "en": "Dear privacy policy. Your friends and contact data never leave your phone.",
         "fr": "Politique de confidentialité de Dear. Tes proches et tes contacts ne quittent jamais ton téléphone.",
-        "es": "Política de privacidad de Dear. Tus personas y contactos nunca salen de tu teléfono."
+        "es": "Política de privacidad de Dear. Tus personas y contactos nunca salen de tu teléfono.",
+        "de": "Datenschutzerkl&auml;rung von Dear. Deine Menschen und Kontakte verlassen dein Telefon nie."
       }
     },
     "research.html": {
       "title": {
         "en": "Research - Dear: Stay in Touch",
         "fr": "Recherche - Dear",
-        "es": "Investigación - Dear"
+        "es": "Investigación - Dear",
+        "de": "Forschung - Dear"
       },
       "desc": {
         "en": "The behavioral science behind Dear. Research on loneliness and the appreciation gap.",
         "fr": "La science comportementale derrière Dear. Recherches sur la solitude et l'écart d'appréciation.",
-        "es": "La ciencia del comportamiento tras Dear. Investigación sobre la soledad y la brecha de aprecio."
+        "es": "La ciencia del comportamiento tras Dear. Investigación sobre la soledad y la brecha de aprecio.",
+        "de": "Die Verhaltensforschung hinter Dear. Studien zu Einsamkeit und zur untersch&auml;tzten Freude &uuml;ber Nachrichten."
       }
     },
     "support.html": {
       "title": {
         "en": "Support - Dear: Stay in Touch",
         "fr": "Aide - Dear",
-        "es": "Ayuda - Dear"
+        "es": "Ayuda - Dear",
+        "de": "Hilfe - Dear"
       },
       "desc": {
         "en": "Dear support and frequently asked questions.",
         "fr": "Aide et questions fréquentes sur Dear.",
-        "es": "Ayuda y preguntas frecuentes sobre Dear."
+        "es": "Ayuda y preguntas frecuentes sobre Dear.",
+        "de": "Hilfe und h&auml;ufige Fragen zu Dear."
       }
     }
   },
@@ -1077,22 +1234,26 @@
     "alt1": {
       "en": "Dear's daily card, suggesting one person to reach out to today",
       "fr": "La carte quotidienne de Dear, sugg&eacute;rant une personne &agrave; contacter aujourd'hui",
-      "es": "La tarjeta diaria de Dear, sugiriendo una persona a la que escribir hoy"
+      "es": "La tarjeta diaria de Dear, sugiriendo una persona a la que escribir hoy",
+      "de": "Die Tageskarte von Dear schl&auml;gt eine Person vor, bei der du dich heute melden kannst"
     },
     "alt2": {
       "en": "Your people in Dear, each with their own reach-out rhythm",
       "fr": "Tes proches dans Dear, chacun avec son propre rythme de contact",
-      "es": "Tus personas en Dear, cada una con su propio ritmo de contacto"
+      "es": "Tus personas en Dear, cada una con su propio ritmo de contacto",
+      "de": "Deine Menschen in Dear, jeder mit seinem eigenen Rhythmus"
     },
     "alt3": {
       "en": "The Dear widget on an iPhone home screen",
       "fr": "Le widget Dear sur un &eacute;cran d'accueil iPhone",
-      "es": "El widget de Dear en la pantalla de inicio de un iPhone"
+      "es": "El widget de Dear en la pantalla de inicio de un iPhone",
+      "de": "Das Dear-Widget auf einem iPhone-Home-Bildschirm"
     },
     "caption": {
       "en": "One card a day. Your circle, not a feed.",
       "fr": "Une carte par jour. Ton cercle, pas un fil d'actualit&eacute;.",
-      "es": "Una tarjeta al d&iacute;a. Tu c&iacute;rculo, no un feed."
+      "es": "Una tarjeta al d&iacute;a. Tu c&iacute;rculo, no un feed.",
+      "de": "Eine Karte pro Tag. Dein Kreis, kein Feed."
     }
   },
   "endonyms": {
@@ -1132,12 +1293,14 @@
     "soon_heading": {
       "en": "Coming soon",
       "fr": "Bientôt disponible",
-      "es": "Próximamente"
+      "es": "Próximamente",
+      "de": "Demn&auml;chst"
     },
     "app_note": {
       "en": "The app already speaks all 31.",
       "fr": "L'app parle déjà les 31.",
-      "es": "La app ya habla los 31."
+      "es": "La app ya habla los 31.",
+      "de": "Die App spricht bereits alle 31."
     }
   }
 }
