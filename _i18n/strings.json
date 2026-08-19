@@ -52,7 +52,8 @@
       "sw": "Dear",
       "vi": "Dear",
       "ru": "Dear",
-      "uk": "Dear"
+      "uk": "Dear",
+      "ja": "Dear"
     },
     "one_person_a_day_before_you_lose_touch_text_11e425": {
       "en": "One person a day, before you lose touch. Text, call, done.",
@@ -73,7 +74,8 @@
       "sw": "Mtu mmoja kwa siku, kabla mawasiliano hayajakatika. Tuma ujumbe, piga simu, umemaliza.",
       "vi": "Mỗi ngày một người, trước khi mất liên lạc. Nhắn tin, gọi điện, xong.",
       "ru": "Один человек в день, пока связь не оборвалась. Напишите, позвоните, готово.",
-      "uk": "Одна людина на день, поки зв'язок не обірвався. Напишіть, зателефонуйте, готово."
+      "uk": "Одна людина на день, поки зв'язок не обірвався. Напишіть, зателефонуйте, готово.",
+      "ja": "疎遠になる前に、一日ひとり。メッセージを送る、電話する、それだけ。"
     },
     "free_to_start_private_no_accounts_needed_e6ec02": {
       "en": "Free to start. Private. No accounts needed.",
@@ -94,7 +96,8 @@
       "sw": "Bure kuanza. Faragha. Hakuna akaunti.",
       "vi": "Miễn phí để bắt đầu. Riêng tư. Không cần tài khoản.",
       "ru": "Начать бесплатно. Приватно. Без аккаунтов.",
-      "uk": "Почати безкоштовно. Приватно. Без облікових записів."
+      "uk": "Почати безкоштовно. Приватно. Без облікових записів.",
+      "ja": "無料で始められます。プライベート。アカウント不要。"
     },
     "dear_speaks_31_languages_b8937e": {
       "en": "Dear speaks 31 languages.",
@@ -115,7 +118,8 @@
       "sw": "Dear inazungumza lugha 31.",
       "vi": "Dear nói được 31 ngôn ngữ.",
       "ru": "Dear говорит на 31 языке.",
-      "uk": "Dear говорить 31 мовою."
+      "uk": "Dear говорить 31 мовою.",
+      "ja": "Dearは31言語に対応しています。"
     },
     "about_dear_efc368": {
       "en": "About Dear",
@@ -136,7 +140,8 @@
       "sw": "Kuhusu Dear",
       "vi": "Về Dear",
       "ru": "О Dear",
-      "uk": "Про Dear"
+      "uk": "Про Dear",
+      "ja": "Dearについて"
     },
     "why_dear_exists_54584d": {
       "en": "Why Dear Exists",
@@ -157,7 +162,8 @@
       "sw": "Kwa nini Dear ipo",
       "vi": "Vì sao có Dear",
       "ru": "Зачем нужен Dear",
-      "uk": "Навіщо потрібен Dear"
+      "uk": "Навіщо потрібен Dear",
+      "ja": "Dearがある理由"
     },
     "dear_was_built_on_a_simple_observation_we_th_41af87": {
       "en": "Dear was built on a simple observation: we think about our friends more often than we reach out to them. Research shows that people consistently underestimate how much others appreciate hearing from them. Dear closes that gap.",
@@ -178,7 +184,8 @@
       "sw": "Dear ilizaliwa kutokana na jambo moja rahisi: tunawafikiria marafiki zetu mara nyingi zaidi kuliko tunavyowasiliana nao. Utafiti unaonyesha kwamba mara kwa mara tunapunguza thamani ya ujumbe kwa yule anayeupokea. Dear inaziba pengo hilo.",
       "vi": "Dear ra đời từ một quan sát đơn giản: chúng ta nghĩ đến bạn bè nhiều hơn là liên lạc với họ. Nghiên cứu cho thấy chúng ta luôn đánh giá thấp mức độ một tin nhắn có ý nghĩa với người nhận. Dear lấp khoảng cách đó.",
       "ru": "Dear вырос из простого наблюдения: мы думаем о друзьях чаще, чем пишем им. Исследования показывают, что мы регулярно недооцениваем, как много значит сообщение для того, кто его получает. Dear закрывает этот разрыв.",
-      "uk": "Dear виріс із простого спостереження: ми думаємо про друзів частіше, ніж пишемо їм. Дослідження показують, що ми регулярно недооцінюємо, як багато важить повідомлення для того, хто його отримує. Dear закриває цей розрив."
+      "uk": "Dear виріс із простого спостереження: ми думаємо про друзів частіше, ніж пишемо їм. Дослідження показують, що ми регулярно недооцінюємо, як багато важить повідомлення для того, хто його отримує. Dear закриває цей розрив.",
+      "ja": "Dearは単純な気づきから生まれました。私たちは友人に連絡するよりずっと多く、友人のことを考えています。研究によれば、メッセージが受け取る人にとってどれほど嬉しいものか、私たちはいつも過小評価しています。Dearはその隔たりを埋めます。"
     },
     "one_gentle_nudge_a_day_no_guilt_no_streaks_n_e749d7": {
       "en": "One gentle nudge a day. No guilt, no streaks, no social feed. If you don't reach out today, the person simply appears again another day. The app never tells you that you failed. It just quietly keeps showing up.",
@@ -199,7 +206,8 @@
       "sw": "Kikumbusho kimoja laini kwa siku. Hakuna lawama, hakuna mfululizo, hakuna mtiririko. Usipowasiliana leo, mtu huyo atarudi siku nyingine. Programu haitakuambia kamwe kwamba umeshindwa. Ipo tu, kimya kimya.",
       "vi": "Mỗi ngày một lời nhắc nhẹ nhàng. Không trách móc, không chuỗi ngày, không bảng tin. Nếu hôm nay bạn không liên lạc, người đó sẽ quay lại vào một ngày khác. Ứng dụng không bao giờ nói rằng bạn đã thất bại. Nó chỉ ở đó, lặng lẽ.",
       "ru": "Одно мягкое напоминание в день. Без чувства вины, без серий, без ленты. Если сегодня вы не написали, этот человек вернётся в другой день. Приложение никогда не скажет, что вы не справились. Оно просто рядом, тихо.",
-      "uk": "Одне м'яке нагадування на день. Без почуття провини, без серій, без стрічки. Якщо сьогодні ви не написали, ця людина повернеться іншого дня. Застосунок ніколи не скаже, що ви не впоралися. Він просто поруч, тихо."
+      "uk": "Одне м'яке нагадування на день. Без почуття провини, без серій, без стрічки. Якщо сьогодні ви не написали, ця людина повернеться іншого дня. Застосунок ніколи не скаже, що ви не впоралися. Він просто поруч, тихо.",
+      "ja": "一日にひとつ、やさしいリマインダー。罪悪感も、連続記録も、フィードもありません。今日連絡しなくても、その人はまた別の日に現れます。アプリがあなたを失敗したと責めることはありません。ただ静かに、そこにいます。"
     },
     "the_research_behind_it_09358d": {
       "en": "The Research Behind It",
@@ -220,7 +228,8 @@
       "sw": "Utafiti ulioifanya",
       "vi": "Nghiên cứu đằng sau",
       "ru": "Исследования, лежащие в основе",
-      "uk": "Дослідження в основі"
+      "uk": "Дослідження в основі",
+      "ja": "背景にある研究"
     },
     "people_appreciate_hearing_from_you_more_than_43b670": {
       "en": "People appreciate hearing from you more than you think",
@@ -241,7 +250,8 @@
       "sw": "Watu wanafurahia kusikia kutoka kwako kuliko unavyodhani",
       "vi": "Mọi người trân trọng tin của bạn hơn bạn tưởng",
       "ru": "Людям приятнее получить весточку от вас, чем вы думаете",
-      "uk": "Людям приємніше отримати звістку від вас, ніж ви думаєте"
+      "uk": "Людям приємніше отримати звістку від вас, ніж ви думаєте",
+      "ja": "あなたからの連絡は、思っている以上に喜ばれます"
     },
     "people_consistently_underestimate_how_much_o_08a02e": {
       "en": "People consistently underestimate how much others value an unexpected message. The gap between how awkward you think it will be and how warmly it's received is large and consistent across strangers, acquaintances, and old friends.",
@@ -262,7 +272,8 @@
       "sw": "Mara kwa mara tunapunguza thamani ya ujumbe usiotarajiwa. Pengo kati ya jinsi tunavyodhani itakuwa vigumu na jinsi unavyopokelewa kwa uchangamfu ni kubwa na la kudumu: kwa wageni, wanaojulikana, na marafiki wa zamani.",
       "vi": "Chúng ta luôn đánh giá thấp giá trị của một tin nhắn bất ngờ. Khoảng cách giữa mức ngại ngùng ta hình dung và sự ấm áp thực tế khi được đón nhận là rất lớn và bền bỉ: với người lạ, người quen và bạn cũ.",
       "ru": "Мы регулярно недооцениваем ценность неожиданного сообщения. Разрыв между тем, насколько неловко нам это кажется, и тем, насколько тепло это принимают, велик и устойчив: и с незнакомцами, и со знакомыми, и со старыми друзьями.",
-      "uk": "Ми регулярно недооцінюємо цінність несподіваного повідомлення. Розрив між тим, наскільки ніяково нам це здається, і тим, наскільки тепло це приймають, великий і сталий: і з незнайомцями, і зі знайомими, і зі старими друзями."
+      "uk": "Ми регулярно недооцінюємо цінність несподіваного повідомлення. Розрив між тим, наскільки ніяково нам це здається, і тим, наскільки тепло це приймають, великий і сталий: і з незнайомцями, і зі знайомими, і зі старими друзями.",
+      "ja": "私たちは思いがけないメッセージの価値をいつも過小評価しています。気まずいと想像する度合いと、実際に温かく迎えられる度合いの差は大きく、しかも一貫しています。見知らぬ人にも、知人にも、古い友人にも。"
     },
     "liu_et_al_journal_of_personality_and_social_112663": {
       "en": "Liu et al., <em>Journal of Personality and Social Psychology</em>, 2022",
@@ -283,7 +294,8 @@
       "sw": "Liu et al., <em>Journal of Personality and Social Psychology</em>, 2022",
       "vi": "Liu và cộng sự, <em>Journal of Personality and Social Psychology</em>, 2022",
       "ru": "Liu и др., <em>Journal of Personality and Social Psychology</em>, 2022",
-      "uk": "Liu та ін., <em>Journal of Personality and Social Psychology</em>, 2022"
+      "uk": "Liu та ін., <em>Journal of Personality and Social Psychology</em>, 2022",
+      "ja": "Liuほか、<em>Journal of Personality and Social Psychology</em>、2022年"
     },
     "your_friendships_have_natural_layers_91afb7": {
       "en": "Your friendships have natural layers",
@@ -304,7 +316,8 @@
       "sw": "Urafiki wako una tabaka za asili",
       "vi": "Tình bạn của bạn có những lớp tự nhiên",
       "ru": "У дружбы есть естественные слои",
-      "uk": "У дружби є природні шари"
+      "uk": "У дружби є природні шари",
+      "ja": "友情には自然な層があります"
     },
     "humans_maintain_about_5_close_people_15_good_a26314": {
       "en": "Humans maintain about 5 close people, 15 good friends, and 50 in their wider circle. Dear respects these natural tiers and lets you choose your own rhythm for each person.",
@@ -325,7 +338,8 @@
       "sw": "Binadamu hudumisha takriban watu 5 wa karibu sana, marafiki 15 wa karibu, na 50 katika duara pana zaidi. Dear inaheshimu tabaka hizi za asili na inakuruhusu kuchagua mwendo wako kwa kila mtu.",
       "vi": "Con người duy trì khoảng 5 người thân thiết nhất, 15 người bạn thân và 50 người trong vòng rộng hơn. Dear tôn trọng những lớp tự nhiên này và để bạn chọn nhịp riêng cho từng người.",
       "ru": "Человек поддерживает примерно 5 самых близких, 15 хороших друзей и 50 в более широком круге. Dear уважает эти естественные слои и позволяет выбрать свой ритм для каждого.",
-      "uk": "Людина підтримує приблизно 5 найближчих, 15 добрих друзів і 50 у ширшому колі. Dear поважає ці природні шари й дає вам обрати власний ритм для кожного."
+      "uk": "Людина підтримує приблизно 5 найближчих, 15 добрих друзів і 50 у ширшому колі. Dear поважає ці природні шари й дає вам обрати власний ритм для кожного.",
+      "ja": "人はおよそ5人のごく親しい相手、15人の親しい友人、そしてより広い輪の50人を保ちます。Dearはこの自然な層を尊重し、相手ごとにあなた自身のペースを選べるようにします。"
     },
     "robin_dunbar_personal_relationships_2016_7410fe": {
       "en": "Robin Dunbar, <em>Personal Relationships</em>, 2016",
@@ -346,7 +360,8 @@
       "sw": "Robin Dunbar, <em>Personal Relationships</em>, 2016",
       "vi": "Robin Dunbar, <em>Personal Relationships</em>, 2016",
       "ru": "Robin Dunbar, <em>Personal Relationships</em>, 2016",
-      "uk": "Robin Dunbar, <em>Personal Relationships</em>, 2016"
+      "uk": "Robin Dunbar, <em>Personal Relationships</em>, 2016",
+      "ja": "Robin Dunbar、<em>Personal Relationships</em>、2016年"
     },
     "small_nudges_close_the_gap_between_thinking_07be19": {
       "en": "Small nudges close the gap between thinking and doing",
@@ -367,7 +382,8 @@
       "sw": "Vikumbusho vidogo vinaziba pengo kati ya kufikiria na kutenda",
       "vi": "Những lời nhắc nhỏ lấp khoảng cách giữa nghĩ và làm",
       "ru": "Маленькие напоминания закрывают разрыв между мыслью и действием",
-      "uk": "Маленькі нагадування закривають розрив між думкою та дією"
+      "uk": "Маленькі нагадування закривають розрив між думкою та дією",
+      "ja": "小さなひと押しが、考えることと行うことの隔たりを埋めます"
     },
     "specific_plans_dramatically_increase_follow_b3f709": {
       "en": "Specific plans dramatically increase follow-through. \"I should text them\" becomes \"I just did.\" Dear turns intention into action by giving you a specific person, a specific moment, and a one-tap path to reach out.",
@@ -388,7 +404,8 @@
       "sw": "Mipango mahususi huongeza sana utekelezaji. “Ninapaswa kutuma ujumbe” hugeuka kuwa “nimetuma ujumbe”. Dear inageuza nia kuwa tendo: mtu mmoja mahususi, wakati mmoja mahususi, na mguso mmoja.",
       "vi": "Kế hoạch cụ thể làm tăng mạnh khả năng thực hiện. “Mình nên nhắn tin” trở thành “mình vừa nhắn xong”. Dear biến ý định thành hành động: một người cụ thể, một khoảnh khắc cụ thể, và một cú chạm.",
       "ru": "Конкретные планы резко повышают вероятность действия. «Надо бы написать» превращается в «я только что написал». Dear превращает намерение в поступок: конкретный человек, конкретный момент и одно касание.",
-      "uk": "Конкретні плани різко підвищують імовірність дії. «Треба б написати» перетворюється на «я щойно написав». Dear перетворює намір на вчинок: конкретна людина, конкретна мить і один дотик."
+      "uk": "Конкретні плани різко підвищують імовірність дії. «Треба б написати» перетворюється на «я щойно написав». Dear перетворює намір на вчинок: конкретна людина, конкретна мить і один дотик.",
+      "ja": "具体的な計画は実行率を大きく高めます。「連絡しなきゃ」が「いま送った」に変わります。Dearは意図を行動に変えます。特定の相手、特定の瞬間、そして一度のタップで。"
     },
     "gollwitzer_american_psychologist_1999_26dcc4": {
       "en": "Gollwitzer, <em>American Psychologist</em>, 1999",
@@ -409,7 +426,8 @@
       "sw": "Gollwitzer, <em>American Psychologist</em>, 1999",
       "vi": "Gollwitzer, <em>American Psychologist</em>, 1999",
       "ru": "Gollwitzer, <em>American Psychologist</em>, 1999",
-      "uk": "Gollwitzer, <em>American Psychologist</em>, 1999"
+      "uk": "Gollwitzer, <em>American Psychologist</em>, 1999",
+      "ja": "Gollwitzer、<em>American Psychologist</em>、1999年"
     },
     "this_is_a_health_issue_not_just_a_nice_idea_a2e2ec": {
       "en": "This is a health issue, not just a nice idea",
@@ -430,7 +448,8 @@
       "sw": "Hili ni suala la afya, si wazo zuri tu",
       "vi": "Đây là vấn đề sức khỏe, không chỉ là một ý hay",
       "ru": "Это вопрос здоровья, а не просто хорошая идея",
-      "uk": "Це питання здоров'я, а не просто гарна ідея"
+      "uk": "Це питання здоров'я, а не просто гарна ідея",
+      "ja": "これは健康の問題であって、ただの良い思いつきではありません"
     },
     "the_who_declared_loneliness_a_pressing_globa_dff6c7": {
       "en": "The WHO declared loneliness a pressing global health threat in 2023, reporting that around 1 in 4 older people experience social isolation. Separately, Holt-Lunstad's meta-analysis found social isolation raises the risk of premature death by 26%. Dear is a small tool pointed at a big problem.",
@@ -451,7 +470,8 @@
       "sw": "WHO ilitangaza upweke kuwa tishio la dharura la afya duniani mwaka 2023, na iliripoti kwamba takriban 1 kati ya wazee 4 anakumbwa na kutengwa kijamii. Uchambuzi wa Holt-Lunstad pia ulibaini kuwa kutengwa kijamii huongeza hatari ya kifo cha mapema kwa 26&nbsp;%. Dear ni chombo kidogo kilichoelekezwa kwa tatizo kubwa.",
       "vi": "WHO đã tuyên bố cô đơn là mối đe dọa sức khỏe toàn cầu cấp bách vào năm 2023, và báo cáo rằng khoảng 1 trong 4 người cao tuổi bị cô lập xã hội. Phân tích tổng hợp của Holt-Lunstad cũng cho thấy cô lập xã hội làm tăng nguy cơ tử vong sớm thêm 26&nbsp;%. Dear là một công cụ nhỏ hướng vào một vấn đề lớn.",
       "ru": "В 2023 году ВОЗ объявила одиночество неотложной глобальной угрозой здоровью и сообщила, что примерно каждый четвёртый пожилой человек живёт в социальной изоляции. Метаанализ Holt-Lunstad также показал, что социальная изоляция повышает риск преждевременной смерти на 26&nbsp;%. Dear остаётся небольшим инструментом, направленным на большую проблему.",
-      "uk": "У 2023 році ВООЗ оголосила самотність нагальною глобальною загрозою здоров'ю та повідомила, що приблизно кожна четверта літня людина живе в соціальній ізоляції. Метааналіз Holt-Lunstad також показав, що соціальна ізоляція підвищує ризик передчасної смерті на 26&nbsp;%. Dear залишається невеликим інструментом, спрямованим на велику проблему."
+      "uk": "У 2023 році ВООЗ оголосила самотність нагальною глобальною загрозою здоров'ю та повідомила, що приблизно кожна четверта літня людина живе в соціальній ізоляції. Метааналіз Holt-Lunstad також показав, що соціальна ізоляція підвищує ризик передчасної смерті на 26&nbsp;%. Dear залишається невеликим інструментом, спрямованим на велику проблему.",
+      "ja": "WHOは2023年に孤独を差し迫った世界的な健康上の脅威と宣言し、高齢者のおよそ4人に1人が社会的孤立にあると報告しました。Holt-Lunstadらのメタ分析でも、社会的孤立は早期死亡のリスクを26&nbsp;%高めるとされています。Dearは大きな問題に向けた小さな道具です。"
     },
     "who_commission_on_social_connection_2023_hol_44f7f6": {
       "en": "WHO Commission on Social Connection, 2023; Holt-Lunstad et al., 2010",
@@ -472,7 +492,8 @@
       "sw": "WHO Commission on Social Connection, 2023; Holt-Lunstad et al., 2010",
       "vi": "WHO Commission on Social Connection, 2023; Holt-Lunstad và cộng sự, 2010",
       "ru": "WHO Commission on Social Connection, 2023; Holt-Lunstad и др., 2010",
-      "uk": "WHO Commission on Social Connection, 2023; Holt-Lunstad та ін., 2010"
+      "uk": "WHO Commission on Social Connection, 2023; Holt-Lunstad та ін., 2010",
+      "ja": "WHO Commission on Social Connection、2023年；Holt-Lunstadほか、2010年"
     },
     "see_all_research_and_citations_rarr_612879": {
       "en": "See all research and citations &rarr;",
@@ -493,7 +514,8 @@
       "sw": "Tazama utafiti na marejeleo yote &rarr;",
       "vi": "Xem toàn bộ nghiên cứu và trích dẫn &rarr;",
       "ru": "Все исследования и источники &rarr;",
-      "uk": "Усі дослідження та джерела &rarr;"
+      "uk": "Усі дослідження та джерела &rarr;",
+      "ja": "研究と出典をすべて見る &rarr;"
     },
     "how_it_works_8cecc8": {
       "en": "How It Works",
@@ -514,7 +536,8 @@
       "sw": "Jinsi inavyofanya kazi",
       "vi": "Cách hoạt động",
       "ru": "Как это работает",
-      "uk": "Як це працює"
+      "uk": "Як це працює",
+      "ja": "使い方"
     },
     "add_your_people_17fe1a": {
       "en": "Add your people",
@@ -535,7 +558,8 @@
       "sw": "Ongeza watu wako",
       "vi": "Thêm những người của bạn",
       "ru": "Добавьте своих людей",
-      "uk": "Додайте своїх людей"
+      "uk": "Додайте своїх людей",
+      "ja": "あなたの人たちを追加"
     },
     "import_from_contacts_or_add_manually_set_how_6118f5": {
       "en": "Import from contacts or add manually. Set how often you want to reach out to each person: weekly, every two weeks, monthly, or less.",
@@ -556,7 +580,8 @@
       "sw": "Leta kutoka kwa Anwani au ongeza wewe mwenyewe. Weka mara ngapi ungependa kuwasiliana na kila mmoja: kila wiki, kila wiki mbili, kila mwezi, au mara chache zaidi.",
       "vi": "Nhập từ Danh bạ hoặc tự thêm. Đặt tần suất bạn muốn liên lạc với từng người: hằng tuần, hai tuần một lần, hằng tháng, hoặc thưa hơn.",
       "ru": "Импортируйте из контактов или добавьте вручную. Задайте, как часто хотите общаться с каждым: раз в неделю, раз в две недели, раз в месяц или реже.",
-      "uk": "Імпортуйте з контактів або додайте вручну. Задайте, як часто хочете спілкуватися з кожним: щотижня, раз на два тижні, щомісяця або рідше."
+      "uk": "Імпортуйте з контактів або додайте вручну. Задайте, як часто хочете спілкуватися з кожним: щотижня, раз на два тижні, щомісяця або рідше.",
+      "ja": "連絡先から取り込むか、手で追加します。相手ごとにどれくらいの頻度で連絡したいかを設定できます。毎週、隔週、毎月、あるいはもっとゆっくり。"
     },
     "get_a_daily_nudge_805466": {
       "en": "Get a daily nudge",
@@ -577,7 +602,8 @@
       "sw": "Pata kikumbusho cha kila siku",
       "vi": "Nhận lời nhắc mỗi ngày",
       "ru": "Получайте напоминание каждый день",
-      "uk": "Отримуйте нагадування щодня"
+      "uk": "Отримуйте нагадування щодня",
+      "ja": "毎日のリマインダーを受け取る"
     },
     "each_day_dear_suggests_someone_to_reach_out_f4a99d": {
       "en": "Each day, Dear suggests someone to reach out to, delivered in a voice persona you choose. Sherlock's deductions, Nonna's gentle guilt, Cyrano's declarations, or 12 others.",
@@ -598,7 +624,8 @@
       "sw": "Kila siku Dear inapendekeza mtu wa kuwasiliana naye, kwa sauti uliyochagua. Ufumbuzi wa Sherlock, uchangamfu wa Nonna, tamko la Cyrano, au nyingine 12.",
       "vi": "Mỗi ngày Dear gợi ý một người để bạn liên lạc, bằng giọng bạn đã chọn. Lối suy luận của Sherlock, sự ấm áp của Nonna, lời tỏ bày của Cyrano, hoặc 12 giọng khác.",
       "ru": "Каждый день Dear предлагает, кому написать, выбранным вами голосом. Дедукция Шерлока, теплота Nonna, признание Сирано или ещё 12 голосов.",
-      "uk": "Щодня Dear пропонує, кому написати, обраним вами голосом. Дедукція Шерлока, теплота Nonna, освідчення Сірано або ще 12 голосів."
+      "uk": "Щодня Dear пропонує, кому написати, обраним вами голосом. Дедукція Шерлока, теплота Nonna, освідчення Сірано або ще 12 голосів.",
+      "ja": "毎日、Dearがあなたの選んだ声で連絡する相手を提案します。シャーロックの推理、Nonnaの温かさ、シラノの口説き、そのほか12種類。"
     },
     "text_call_or_facetime_a7007a": {
       "en": "Text, call, or FaceTime",
@@ -619,7 +646,8 @@
       "sw": "Ujumbe, simu, au FaceTime",
       "vi": "Nhắn tin, gọi điện hoặc FaceTime",
       "ru": "Сообщение, звонок или FaceTime",
-      "uk": "Повідомлення, дзвінок або FaceTime"
+      "uk": "Повідомлення, дзвінок або FaceTime",
+      "ja": "メッセージ、電話、FaceTime"
     },
     "one_tap_opens_a_text_call_or_video_chat_that_7f230b": {
       "en": "One tap opens a text, call, or video chat. That's it. No journaling, no metrics, no noise. Just a real conversation with a real person.",
@@ -640,7 +668,8 @@
       "sw": "Mguso mmoja unafungua ujumbe, simu, au video. Ndiyo hivyo. Hakuna shajara, hakuna vipimo, hakuna kelele. Mazungumzo halisi na mtu halisi.",
       "vi": "Một cú chạm mở tin nhắn, cuộc gọi hoặc video. Chỉ vậy thôi. Không nhật ký, không chỉ số, không ồn ào. Chỉ là cuộc trò chuyện thật với một người thật.",
       "ru": "Одно касание открывает сообщение, звонок или видео. И всё. Никаких дневников, метрик и шума. Просто настоящий разговор с настоящим человеком.",
-      "uk": "Один дотик відкриває повідомлення, дзвінок або відео. І все. Жодних щоденників, метрик і шуму. Просто справжня розмова зі справжньою людиною."
+      "uk": "Один дотик відкриває повідомлення, дзвінок або відео. І все. Жодних щоденників, метрик і шуму. Просто справжня розмова зі справжньою людиною.",
+      "ja": "一度のタップでメッセージ、通話、ビデオが開きます。それだけです。日記も、指標も、雑音もありません。本当の人との、本当の会話だけ。"
     },
     "15_voice_personas_26cea2": {
       "en": "15 Voice Personas",
@@ -661,7 +690,8 @@
       "sw": "Sauti 15",
       "vi": "15 giọng",
       "ru": "15 голосов",
-      "uk": "15 голосів"
+      "uk": "15 голосів",
+      "ja": "15の声"
     },
     "the_voice_personas_make_the_nudge_feel_like_eaa628": {
       "en": "The voice personas make the nudge feel like a friend reminding you, not a calendar alert. Each one writes differently, notices differently, and cares differently.",
@@ -682,7 +712,8 @@
       "sw": "Sauti hufanya kikumbusho kihisike kama rafiki anayekukumbusha, si kengele ya kalenda. Kila moja ina namna yake ya kuandika, kuona, na kujali.",
       "vi": "Các giọng khiến lời nhắc giống một người bạn nhắc bạn, chứ không phải chuông lịch. Mỗi giọng có cách viết, cách để ý và cách quan tâm riêng.",
       "ru": "Благодаря голосам напоминание похоже на друга, который напомнил, а не на будильник в календаре. У каждого своя манера писать, замечать и заботиться.",
-      "uk": "Завдяки голосам нагадування схоже на друга, який нагадав, а не на будильник у календарі. У кожного своя манера писати, помічати й дбати."
+      "uk": "Завдяки голосам нагадування схоже на друга, який нагадав, а не на будильник у календарі. У кожного своя манера писати, помічати й дбати.",
+      "ja": "声のおかげで、リマインダーはカレンダーのアラームではなく、思い出させてくれる友人のように感じられます。書き方も、目の向け方も、気づかい方も、それぞれ違います。"
     },
     "private_by_design_fec57b": {
       "en": "Private by Design",
@@ -703,7 +734,8 @@
       "sw": "Faragha tangu muundo",
       "vi": "Riêng tư từ trong thiết kế",
       "ru": "Приватность по замыслу",
-      "uk": "Приватність за задумом"
+      "uk": "Приватність за задумом",
+      "ja": "設計からプライベート"
     },
     "your_friends_your_messages_your_relationship_ad47ac": {
       "en": "Your friends, your messages, your relationships: none of it ever leaves your device. No accounts, no ads, nothing sold. The only things Dear sends are anonymous usage counts, anonymous purchase records and crash reports, never anything that could identify you or your people. We designed it this way on purpose.",
@@ -724,7 +756,8 @@
       "sw": "Marafiki zako, ujumbe wako, mahusiano yako: hakuna hata kimoja kinachotoka kwenye kifaa chako. Hakuna akaunti, hakuna matangazo, hakuna kinachouzwa. Dear hutuma tu hesabu za matumizi zisizo na jina, kumbukumbu za manunuzi zisizo na jina, na ripoti za hitilafu, na kamwe si chochote kinachoweza kukutambua wewe au watu wako. Hilo ni chaguo la makusudi.",
       "vi": "Bạn bè của bạn, tin nhắn của bạn, các mối quan hệ của bạn: không thứ nào rời khỏi máy của bạn. Không tài khoản, không quảng cáo, không gì được đem bán. Dear chỉ gửi số liệu sử dụng ẩn danh, bản ghi mua hàng ẩn danh và báo cáo lỗi, không bao giờ gửi bất cứ thứ gì có thể nhận diện bạn hay những người của bạn. Đó là một lựa chọn có chủ đích.",
       "ru": "Ваши друзья, ваши сообщения, ваши отношения: ничто из этого не покидает устройство. Ни аккаунтов, ни рекламы, ничего на продажу. Dear отправляет только анонимные счётчики использования, анонимные записи о покупках и отчёты об ошибках, и никогда ничего, что позволило бы опознать вас или ваших людей. Это осознанный выбор.",
-      "uk": "Ваші друзі, ваші повідомлення, ваші стосунки: ніщо з цього не залишає пристрій. Ні облікових записів, ні реклами, нічого на продаж. Dear надсилає лише анонімні лічильники використання, анонімні записи про покупки та звіти про помилки, і ніколи нічого, що дозволило б упізнати вас чи ваших людей. Це свідомий вибір."
+      "uk": "Ваші друзі, ваші повідомлення, ваші стосунки: ніщо з цього не залишає пристрій. Ні облікових записів, ні реклами, нічого на продаж. Dear надсилає лише анонімні лічильники використання, анонімні записи про покупки та звіти про помилки, і ніколи нічого, що дозволило б упізнати вас чи ваших людей. Це свідомий вибір.",
+      "ja": "あなたの友人も、メッセージも、人間関係も、どれひとつ端末の外には出ません。アカウントも広告もなく、売るものもありません。Dearが送るのは匿名の利用回数、匿名の購入記録、そしてエラー報告だけで、あなたやあなたの大切な人を特定できるものは決して送りません。これは意図した選択です。"
     },
     "read_the_full_privacy_policy_rarr_9d0cbe": {
       "en": "<a href=\"privacy.html\" style=\"color: #6B8AD6; text-decoration: none; font-weight: 600;\">Read the full privacy policy &rarr;</a>",
@@ -745,7 +778,8 @@
       "sw": "<a href=\"privacy.html\" style=\"color: #6B8AD6; text-decoration: none; font-weight: 600;\">Soma sera kamili ya faragha &rarr;</a>",
       "vi": "<a href=\"privacy.html\" style=\"color: #6B8AD6; text-decoration: none; font-weight: 600;\">Đọc toàn bộ chính sách quyền riêng tư &rarr;</a>",
       "ru": "<a href=\"privacy.html\" style=\"color: #6B8AD6; text-decoration: none; font-weight: 600;\">Читать полную политику конфиденциальности &rarr;</a>",
-      "uk": "<a href=\"privacy.html\" style=\"color: #6B8AD6; text-decoration: none; font-weight: 600;\">Читати повну політику конфіденційності &rarr;</a>"
+      "uk": "<a href=\"privacy.html\" style=\"color: #6B8AD6; text-decoration: none; font-weight: 600;\">Читати повну політику конфіденційності &rarr;</a>",
+      "ja": "<a href=\"privacy.html\" style=\"color: #6B8AD6; text-decoration: none; font-weight: 600;\">プライバシーポリシー全文を読む &rarr;</a>"
     },
     "quick_facts_e54bdb": {
       "en": "Quick Facts",
@@ -766,7 +800,8 @@
       "sw": "Mambo muhimu kwa haraka",
       "vi": "Thông tin nhanh",
       "ru": "Коротко о главном",
-      "uk": "Коротко про головне"
+      "uk": "Коротко про головне",
+      "ja": "かんたんな概要"
     },
     "price_free_for_up_to_15_people_upgrades_are_cb4d56": {
       "en": "<span class=\"label\">Price:</span> Free for up to 15 people. Upgrades are priced like an espresso in your country (about $2.99/month in the US), set with World Bank income data and Numbeo coffee prices.",
@@ -787,7 +822,8 @@
       "sw": "<span class=\"label\">Bei:</span> Bure hadi watu 15. Maboresho yamewekewa bei karibu sawa na espresso moja katika nchi yako (takriban 2.99&nbsp;$ Marekani), kwa kutumia data ya mapato ya Benki ya Dunia na bei za kahawa za Numbeo.",
       "vi": "<span class=\"label\">Giá:</span> Miễn phí cho tối đa 15 người. Bản nâng cấp có giá xấp xỉ một ly espresso ở nước bạn (khoảng 2,99&nbsp;$ tại Mỹ), tính theo dữ liệu thu nhập của Ngân hàng Thế giới và giá cà phê của Numbeo.",
       "ru": "<span class=\"label\">Цена:</span> Бесплатно до 15 человек. Платные версии стоят примерно как эспрессо в вашей стране (около 2,99&nbsp;$ в США); расчёт по данным о доходах Всемирного банка и ценам на кофе Numbeo.",
-      "uk": "<span class=\"label\">Ціна:</span> Безкоштовно до 15 людей. Платні версії коштують приблизно як еспресо у вашій країні (близько 2,99&nbsp;$ у США); розрахунок за даними про доходи Світового банку та цінами на каву Numbeo."
+      "uk": "<span class=\"label\">Ціна:</span> Безкоштовно до 15 людей. Платні версії коштують приблизно як еспресо у вашій країні (близько 2,99&nbsp;$ у США); розрахунок за даними про доходи Світового банку та цінами на каву Numbeo.",
+      "ja": "<span class=\"label\">価格：</span>15人まで無料。アップグレードはお住まいの国のエスプレッソ1杯ほどの価格です（米国では約2.99&nbsp;$）。世界銀行の所得データとNumbeoのコーヒー価格をもとにしています。"
     },
     "languages_english_french_spanish_a1fff3": {
       "en": "<span class=\"label\">Languages:</span> 31 in the app. This site is in English, French and Spanish.",
@@ -808,7 +844,8 @@
       "sw": "<span class=\"label\">Lugha:</span> 31 kwenye programu. Tovuti hii ipo kwa Kiingereza, Kifaransa, na Kihispania.",
       "vi": "<span class=\"label\">Ngôn ngữ:</span> 31 trong ứng dụng. Trang này có tiếng Anh, tiếng Pháp và tiếng Tây Ban Nha.",
       "ru": "<span class=\"label\">Языки:</span> 31 в приложении. Этот сайт доступен на английском, французском и испанском.",
-      "uk": "<span class=\"label\">Мови:</span> 31 у застосунку. Цей сайт доступний англійською, французькою та іспанською."
+      "uk": "<span class=\"label\">Мови:</span> 31 у застосунку. Цей сайт доступний англійською, французькою та іспанською.",
+      "ja": "<span class=\"label\">言語：</span>アプリは31言語。このサイトは英語、フランス語、スペイン語に対応しています。"
     },
     "platform_ios_17_android_8_7a43e5": {
       "en": "<span class=\"label\">Platform:</span> iOS 18+, Android 8+",
@@ -829,7 +866,8 @@
       "sw": "<span class=\"label\">Mfumo:</span> iOS 18+, Android 8+",
       "vi": "<span class=\"label\">Nền tảng:</span> iOS 18+, Android 8+",
       "ru": "<span class=\"label\">Платформы:</span> iOS 18+, Android 8+",
-      "uk": "<span class=\"label\">Платформи:</span> iOS 18+, Android 8+"
+      "uk": "<span class=\"label\">Платформи:</span> iOS 18+, Android 8+",
+      "ja": "<span class=\"label\">対応OS：</span>iOS 18以降、Android 8以降"
     },
     "privacy_built_on_device_the_only_data_that_l_f840fc": {
       "en": "<span class=\"label\">Privacy:</span> Built on-device. Your people never leave your device. The only data that leaves your phone is anonymous usage counts, anonymous purchase records and crash reports.",
@@ -850,7 +888,8 @@
       "sw": "<span class=\"label\">Faragha:</span> Inafanya kazi kwenye kifaa. Watu wako hawatoki humo kamwe. Kinachotoka kwenye simu yako ni hesabu za matumizi zisizo na jina, kumbukumbu za manunuzi zisizo na jina, na ripoti za hitilafu tu.",
       "vi": "<span class=\"label\">Quyền riêng tư:</span> Chạy trên máy. Những người của bạn không bao giờ rời khỏi đó. Thứ duy nhất rời khỏi điện thoại của bạn là số liệu sử dụng ẩn danh, bản ghi mua hàng ẩn danh và báo cáo lỗi.",
       "ru": "<span class=\"label\">Приватность:</span> Работает на устройстве. Ваши люди его не покидают. Телефон покидают только анонимные счётчики использования, анонимные записи о покупках и отчёты об ошибках.",
-      "uk": "<span class=\"label\">Приватність:</span> Працює на пристрої. Ваші люди його не залишають. Телефон залишають лише анонімні лічильники використання, анонімні записи про покупки та звіти про помилки."
+      "uk": "<span class=\"label\">Приватність:</span> Працює на пристрої. Ваші люди його не залишають. Телефон залишають лише анонімні лічильники використання, анонімні записи про покупки та звіти про помилки.",
+      "ja": "<span class=\"label\">プライバシー：</span>端末の中で動きます。あなたの大切な人がそこから出ることはありません。端末から出るのは匿名の利用回数、匿名の購入記録、エラー報告だけです。"
     },
     "interested_in_recommending_dear_3daf5f": {
       "en": "Interested in recommending Dear?",
@@ -871,7 +910,8 @@
       "sw": "Una hamu ya kupendekeza Dear?",
       "vi": "Muốn giới thiệu Dear?",
       "ru": "Хотите рекомендовать Dear?",
-      "uk": "Хочете рекомендувати Dear?"
+      "uk": "Хочете рекомендувати Dear?",
+      "ja": "Dearを勧めてみませんか？"
     },
     "if_you_re_a_therapist_counselor_coach_or_wel_048a89": {
       "en": "If you're a therapist, counselor, coach, or wellness professional and think Dear could help your clients build stronger connections, we'd love to hear from you.",
@@ -892,7 +932,8 @@
       "sw": "Kama wewe ni mtaalamu wa tiba, mshauri, kocha, au unafanya kazi katika ustawi na unadhani Dear inaweza kuwasaidia wateja wako kuimarisha mahusiano yao, tungependa kusikia kutoka kwako.",
       "vi": "Nếu bạn là nhà trị liệu, chuyên viên tư vấn, huấn luyện viên hoặc làm trong lĩnh vực chăm sóc sức khỏe tinh thần và thấy Dear có thể giúp thân chủ của bạn xây dựng những mối quan hệ bền chặt hơn, chúng tôi rất mong được nghe từ bạn.",
       "ru": "Если вы психотерапевт, консультант, коуч или работаете в сфере благополучия и считаете, что Dear поможет вашим клиентам укрепить отношения, будем рады услышать вас.",
-      "uk": "Якщо ви психотерапевт, консультант, коуч або працюєте у сфері добробуту й вважаєте, що Dear допоможе вашим клієнтам зміцнити стосунки, будемо раді почути вас."
+      "uk": "Якщо ви психотерапевт, консультант, коуч або працюєте у сфері добробуту й вважаєте, що Dear допоможе вашим клієнтам зміцнити стосунки, будемо раді почути вас.",
+      "ja": "セラピスト、カウンセラー、コーチ、あるいはウェルビーイングに関わる方で、Dearがクライアントの人間関係を強くする助けになると感じたら、ぜひご連絡ください。"
     },
     "dear_is_made_by_elsewhere_index_an_independe_c06956": {
       "en": "Dear is made by Elsewhere Index, an independent studio. Built with a lot of care.",
@@ -913,7 +954,8 @@
       "sw": "Dear imetengenezwa na Elsewhere Index, studio huru. Imejengwa kwa uangalifu mkubwa.",
       "vi": "Dear do Elsewhere Index thực hiện, một studio độc lập. Được xây dựng với rất nhiều cẩn trọng.",
       "ru": "Dear создан студией Elsewhere Index, независимой студией. Сделан с большой заботой.",
-      "uk": "Dear створює Elsewhere Index, незалежна студія. Зроблено з великою турботою."
+      "uk": "Dear створює Elsewhere Index, незалежна студія. Зроблено з великою турботою.",
+      "ja": "Dearは独立系スタジオのElsewhere Indexが作っています。とても丁寧に作られています。"
     },
     "press_kit_300534": {
       "en": "Press Kit",
@@ -934,7 +976,8 @@
       "sw": "Kifurushi cha vyombo vya habari",
       "vi": "Bộ tài liệu báo chí",
       "ru": "Пресс-кит",
-      "uk": "Прескіт"
+      "uk": "Прескіт",
+      "ja": "プレスキット"
     },
     "app_overview_1d58e9": {
       "en": "App Overview",
@@ -955,7 +998,8 @@
       "sw": "Muhtasari wa programu",
       "vi": "Tổng quan ứng dụng",
       "ru": "О приложении",
-      "uk": "Про застосунок"
+      "uk": "Про застосунок",
+      "ja": "アプリの概要"
     },
     "one_gentle_nudge_a_day_to_text_the_people_yo_bf14dc": {
       "en": "One gentle nudge a day to text the people you care about. 15+ voice personas across English, French, and Spanish. Free, private, no accounts.",
@@ -976,7 +1020,8 @@
       "sw": "Kikumbusho kimoja laini kwa siku cha kuwatumia ujumbe watu unaowajali. Sauti 15 kwa Kiingereza, Kifaransa, na Kihispania. Bure, faragha, hakuna akaunti.",
       "vi": "Mỗi ngày một lời nhắc nhẹ nhàng để nhắn tin cho những người bạn quan tâm. 15 giọng bằng tiếng Anh, tiếng Pháp và tiếng Tây Ban Nha. Miễn phí, riêng tư, không cần tài khoản.",
       "ru": "Одно мягкое напоминание в день, чтобы написать тем, кто вам дорог. 15 голосов на английском, французском и испанском. Бесплатно, приватно, без аккаунтов.",
-      "uk": "Одне м'яке нагадування на день, щоб написати тим, хто вам дорогий. 15 голосів англійською, французькою та іспанською. Безкоштовно, приватно, без облікових записів."
+      "uk": "Одне м'яке нагадування на день, щоб написати тим, хто вам дорогий. 15 голосів англійською, французькою та іспанською. Безкоштовно, приватно, без облікових записів.",
+      "ja": "大切な人にメッセージを送るための、一日ひとつのやさしいリマインダー。英語、フランス語、スペイン語で15の声。無料、プライベート、アカウント不要。"
     },
     "philosophy_496e94": {
       "en": "Philosophy",
@@ -997,7 +1042,8 @@
       "sw": "Msingi",
       "vi": "Nguyên tắc",
       "ru": "Принцип",
-      "uk": "Принцип"
+      "uk": "Принцип",
+      "ja": "考え方"
     },
     "dear_is_built_on_one_principle_no_guilt_ever_266994": {
       "en": "Dear is built on one principle: no guilt, ever (except from Nonna). There are no streaks, no \"missed\" nudges, no counters, no backlog. Every day is a clean slate.",
@@ -1018,7 +1064,8 @@
       "sw": "Dear imejengwa juu ya msingi mmoja: hakuna lawama kamwe (isipokuwa kutoka kwa Nonna). Hakuna mfululizo, hakuna kikumbusho “kilichokosekana”, hakuna kihesabu, hakuna deni. Kila siku huanza safi.",
       "vi": "Dear được xây trên một nguyên tắc: không bao giờ trách móc (trừ Nonna). Không chuỗi ngày, không lời nhắc “bị bỏ lỡ”, không bộ đếm, không nợ nần. Mỗi ngày đều bắt đầu sạch sẽ.",
       "ru": "Dear построен на одном принципе: никакого чувства вины (кроме как от Nonna). Никаких серий, никаких «пропущенных» напоминаний, никаких счётчиков, никаких долгов. Каждый день начинается с чистого листа.",
-      "uk": "Dear побудований на одному принципі: жодного почуття провини (окрім як від Nonna). Жодних серій, жодних «пропущених» нагадувань, жодних лічильників, жодних боргів. Кожен день починається з чистого аркуша."
+      "uk": "Dear побудований на одному принципі: жодного почуття провини (окрім як від Nonna). Жодних серій, жодних «пропущених» нагадувань, жодних лічильників, жодних боргів. Кожен день починається з чистого аркуша.",
+      "ja": "Dearはひとつの原則の上に作られています。決して罪悪感を与えないこと（Nonnaは別として）。連続記録も、「見逃した」リマインダーも、カウンターも、負い目もありません。毎日が新しく始まります。"
     },
     "if_you_don_t_reach_out_today_the_person_simp_354682": {
       "en": "If you don't reach out today, the person simply appears again another day. The app never tells you that you failed. It just quietly keeps showing up.",
@@ -1039,7 +1086,8 @@
       "sw": "Usipowasiliana leo, mtu huyo atarudi siku nyingine. Programu haitakuambia kamwe kwamba umeshindwa. Ipo tu, kimya kimya.",
       "vi": "Nếu hôm nay bạn không liên lạc, người đó sẽ quay lại vào một ngày khác. Ứng dụng không bao giờ nói rằng bạn đã thất bại. Nó chỉ ở đó, lặng lẽ.",
       "ru": "Если сегодня вы не написали, этот человек вернётся в другой день. Приложение никогда не скажет, что вы не справились. Оно просто рядом, тихо.",
-      "uk": "Якщо сьогодні ви не написали, ця людина повернеться іншого дня. Застосунок ніколи не скаже, що ви не впоралися. Він просто поруч, тихо."
+      "uk": "Якщо сьогодні ви не написали, ця людина повернеться іншого дня. Застосунок ніколи не скаже, що ви не впоралися. Він просто поруч, тихо.",
+      "ja": "今日連絡しなくても、その人はまた別の日に現れます。アプリがあなたを失敗したと責めることはありません。ただ静かに、そこにいます。"
     },
     "the_voice_personas_exist_to_make_the_nudge_f_5825b4": {
       "en": "The voice personas exist to make the nudge feel like a friend reminding you, not a calendar alert. Sherlock's deductions, Nonna's gentle guilt, Cyrano's declarations. The goal is a smile, then a text.",
@@ -1060,7 +1108,8 @@
       "sw": "Sauti zipo ili kikumbusho kihisike kama rafiki, si kengele ya kalenda. Ufumbuzi wa Sherlock, uchangamfu wa Nonna, tamko la Cyrano. Tabasamu kwanza, kisha ujumbe.",
       "vi": "Các giọng tồn tại để lời nhắc giống một người bạn, chứ không phải chuông lịch. Lối suy luận của Sherlock, sự ấm áp của Nonna, lời tỏ bày của Cyrano. Mỉm cười trước, rồi mới nhắn tin.",
       "ru": "Голоса нужны, чтобы напоминание было похоже на друга, а не на будильник в календаре. Дедукция Шерлока, теплота Nonna, признание Сирано. Сначала улыбка, потом сообщение.",
-      "uk": "Голоси потрібні, щоб нагадування було схоже на друга, а не на будильник у календарі. Дедукція Шерлока, теплота Nonna, освідчення Сірано. Спершу усмішка, потім повідомлення."
+      "uk": "Голоси потрібні, щоб нагадування було схоже на друга, а не на будильник у календарі. Дедукція Шерлока, теплота Nonna, освідчення Сірано. Спершу усмішка, потім повідомлення.",
+      "ja": "声があるのは、リマインダーをカレンダーのアラームではなく友人のように感じさせるためです。シャーロックの推理、Nonnaの温かさ、シラノの口説き。まず笑顔、それからメッセージ。"
     },
     "key_facts_b8573c": {
       "en": "Key Facts",
@@ -1081,7 +1130,8 @@
       "sw": "Mambo muhimu",
       "vi": "Thông tin chính",
       "ru": "Ключевые факты",
-      "uk": "Ключові факти"
+      "uk": "Ключові факти",
+      "ja": "主な情報"
     },
     "voice_personas_15_sherlock_holmes_nonna_cyra_7d8b1f": {
       "en": "<span class=\"label\">Voice personas:</span> 15+ (Sherlock Holmes, Nonna, Cyrano, Don Quijote, and more)",
@@ -1102,7 +1152,8 @@
       "sw": "<span class=\"label\">Sauti:</span> 15 (Sherlock Holmes, Nonna, Cyrano, Don Quijote, na wengine)",
       "vi": "<span class=\"label\">Giọng:</span> 15 (Sherlock Holmes, Nonna, Cyrano, Don Quijote và những giọng khác)",
       "ru": "<span class=\"label\">Голоса:</span> 15 (Шерлок Холмс, Nonna, Сирано, Дон Кихот и другие)",
-      "uk": "<span class=\"label\">Голоси:</span> 15 (Шерлок Голмс, Nonna, Сірано, Дон Кіхот та інші)"
+      "uk": "<span class=\"label\">Голоси:</span> 15 (Шерлок Голмс, Nonna, Сірано, Дон Кіхот та інші)",
+      "ja": "<span class=\"label\">声：</span>15種類（シャーロック・ホームズ、Nonna、シラノ、ドン・キホーテほか）"
     },
     "privacy_built_on_device_no_accounts_no_ads_n_e0884d": {
       "en": "<span class=\"label\">Privacy:</span> Built on-device. No accounts, no ads, no data sold. Your people never leave your device. Only anonymous usage counts, anonymous purchase records and crash reports ever leave it. Designed to exceed GDPR and EU privacy requirements by default.",
@@ -1123,7 +1174,8 @@
       "sw": "<span class=\"label\">Faragha:</span> Inafanya kazi kwenye kifaa. Hakuna akaunti, hakuna matangazo, hakuna data inayouzwa. Watu wako hawatoki kwenye kifaa kamwe. Kinachotoka ni hesabu za matumizi zisizo na jina, kumbukumbu za manunuzi zisizo na jina, na ripoti za hitilafu tu. Imeundwa kuzidi matakwa ya GDPR tangu mwanzo.",
       "vi": "<span class=\"label\">Quyền riêng tư:</span> Chạy trên máy. Không tài khoản, không quảng cáo, không bán dữ liệu. Những người của bạn không bao giờ rời khỏi máy. Thứ rời đi chỉ là số liệu sử dụng ẩn danh, bản ghi mua hàng ẩn danh và báo cáo lỗi. Được thiết kế vượt trên yêu cầu của GDPR ngay từ mặc định.",
       "ru": "<span class=\"label\">Приватность:</span> Работает на устройстве. Ни аккаунтов, ни рекламы, ни продажи данных. Ваши люди не покидают устройство. Уходят только анонимные счётчики использования, анонимные записи о покупках и отчёты об ошибках. Спроектировано с превышением требований GDPR по умолчанию.",
-      "uk": "<span class=\"label\">Приватність:</span> Працює на пристрої. Ні облікових записів, ні реклами, ні продажу даних. Ваші люди не залишають пристрій. Ідуть лише анонімні лічильники використання, анонімні записи про покупки та звіти про помилки. Спроєктовано з перевищенням вимог GDPR за замовчуванням."
+      "uk": "<span class=\"label\">Приватність:</span> Працює на пристрої. Ні облікових записів, ні реклами, ні продажу даних. Ваші люди не залишають пристрій. Ідуть лише анонімні лічильники використання, анонімні записи про покупки та звіти про помилки. Спроєктовано з перевищенням вимог GDPR за замовчуванням.",
+      "ja": "<span class=\"label\">プライバシー：</span>端末の中で動きます。アカウントも、広告も、データの販売もありません。あなたの大切な人が端末から出ることはありません。出ていくのは匿名の利用回数、匿名の購入記録、エラー報告だけです。初期状態でGDPRの要件を上回るよう設計しています。"
     },
     "platform_ios_17_iphone_and_ipad_e03453": {
       "en": "<span class=\"label\">Platform:</span> iOS 18+, iPhone and iPad. Android 8+.",
@@ -1144,7 +1196,8 @@
       "sw": "<span class=\"label\">Mfumo:</span> iOS 18+, iPhone na iPad. Android 8+.",
       "vi": "<span class=\"label\">Nền tảng:</span> iOS 18+, iPhone và iPad. Android 8+.",
       "ru": "<span class=\"label\">Платформы:</span> iOS 18+, iPhone и iPad. Android 8+.",
-      "uk": "<span class=\"label\">Платформи:</span> iOS 18+, iPhone та iPad. Android 8+."
+      "uk": "<span class=\"label\">Платформи:</span> iOS 18+, iPhone та iPad. Android 8+.",
+      "ja": "<span class=\"label\">対応OS：</span>iOS 18以降、iPhoneとiPad。Android 8以降。"
     },
     "built_with_swiftui_swiftdata_widgetkit_two_t_f4f7eb": {
       "en": "<span class=\"label\">Built with:</span> SwiftUI, SwiftData, WidgetKit. Three third-party SDKs: TelemetryDeck (anonymous analytics), RevenueCat (purchases) and Sentry (crash reports).",
@@ -1165,7 +1218,8 @@
       "sw": "<span class=\"label\">Imejengwa kwa:</span> SwiftUI, SwiftData, WidgetKit. SDK tatu za nje: TelemetryDeck (uchanganuzi usio na jina), RevenueCat (manunuzi), na Sentry (ripoti za hitilafu).",
       "vi": "<span class=\"label\">Xây bằng:</span> SwiftUI, SwiftData, WidgetKit. Ba SDK bên thứ ba: TelemetryDeck (phân tích ẩn danh), RevenueCat (mua hàng) và Sentry (báo cáo lỗi).",
       "ru": "<span class=\"label\">Сделано на:</span> SwiftUI, SwiftData, WidgetKit. Три сторонних SDK: TelemetryDeck (анонимная аналитика), RevenueCat (покупки) и Sentry (отчёты об ошибках).",
-      "uk": "<span class=\"label\">Зроблено на:</span> SwiftUI, SwiftData, WidgetKit. Три сторонні SDK: TelemetryDeck (анонімна аналітика), RevenueCat (покупки) та Sentry (звіти про помилки)."
+      "uk": "<span class=\"label\">Зроблено на:</span> SwiftUI, SwiftData, WidgetKit. Три сторонні SDK: TelemetryDeck (анонімна аналітика), RevenueCat (покупки) та Sentry (звіти про помилки).",
+      "ja": "<span class=\"label\">使用技術：</span>SwiftUI、SwiftData、WidgetKit。外部SDKは3つ：TelemetryDeck（匿名の分析）、RevenueCat（購入）、Sentry（エラー報告）。"
     },
     "research_be601d": {
       "en": "Research",
@@ -1186,7 +1240,8 @@
       "sw": "Utafiti",
       "vi": "Nghiên cứu",
       "ru": "Исследования",
-      "uk": "Дослідження"
+      "uk": "Дослідження",
+      "ja": "研究"
     },
     "who_2023_1_in_4_people_worldwide_report_feel_7c5d5b": {
       "en": "<strong><a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\" style=\"color: #2D2D2D; text-decoration: underline;\">WHO (2025)</a>:</strong> 1 in 6 people worldwide are affected by loneliness. WHO declared loneliness a pressing global health threat in 2023.",
@@ -1207,7 +1262,8 @@
       "sw": "<strong><a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\" style=\"color: #2D2D2D; text-decoration: underline;\">WHO (2025)</a>:</strong> Mtu 1 kati ya 6 duniani anaathiriwa na upweke. WHO ilitangaza upweke kuwa tishio la dharura la afya duniani mwaka 2023.",
       "vi": "<strong><a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\" style=\"color: #2D2D2D; text-decoration: underline;\">WHO (2025)</a>:</strong> 1 trong 6 người trên thế giới chịu ảnh hưởng của sự cô đơn. WHO đã tuyên bố cô đơn là mối đe dọa sức khỏe toàn cầu cấp bách vào năm 2023.",
       "ru": "<strong><a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\" style=\"color: #2D2D2D; text-decoration: underline;\">ВОЗ (2025)</a>:</strong> Каждый шестой человек в мире страдает от одиночества. В 2023 году ВОЗ объявила одиночество неотложной глобальной угрозой здоровью.",
-      "uk": "<strong><a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\" style=\"color: #2D2D2D; text-decoration: underline;\">ВООЗ (2025)</a>:</strong> Кожна шоста людина у світі потерпає від самотності. У 2023 році ВООЗ оголосила самотність нагальною глобальною загрозою здоров'ю."
+      "uk": "<strong><a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\" style=\"color: #2D2D2D; text-decoration: underline;\">ВООЗ (2025)</a>:</strong> Кожна шоста людина у світі потерпає від самотності. У 2023 році ВООЗ оголосила самотність нагальною глобальною загрозою здоров'ю.",
+      "ja": "<strong><a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\" style=\"color: #2D2D2D; text-decoration: underline;\">WHO（2025年）</a>：</strong>世界で6人に1人が孤独の影響を受けています。WHOは2023年に孤独を差し迫った世界的な健康上の脅威と宣言しました。"
     },
     "peggy_liu_2022_people_consistently_underesti_191103": {
       "en": "<em><a href=\"https://doi.org/10.1037/pspi0000402\" style=\"color: #6B8AD6;\">Peggy Liu (2022)</a>:</em> People consistently underestimate how much others appreciate hearing from them, especially when reaching out \"just because.\"",
@@ -1228,7 +1284,8 @@
       "sw": "<em><a href=\"https://doi.org/10.1037/pspi0000402\" style=\"color: #6B8AD6;\">Peggy Liu (2022)</a>:</em> Mara kwa mara tunapunguza thamani ambayo wengine huipa kusikia kutoka kwetu, hasa ujumbe unaotumwa “bila sababu maalum”.",
       "vi": "<em><a href=\"https://doi.org/10.1037/pspi0000402\" style=\"color: #6B8AD6;\">Peggy Liu (2022)</a>:</em> Chúng ta luôn đánh giá thấp mức độ người khác trân trọng khi nghe tin từ ta, nhất là khi tin được gửi “chẳng vì lý do gì cả”.",
       "ru": "<em><a href=\"https://doi.org/10.1037/pspi0000402\" style=\"color: #6B8AD6;\">Peggy Liu (2022)</a>:</em> Мы регулярно недооцениваем, как ценят другие весточку от нас, особенно отправленную «просто так».",
-      "uk": "<em><a href=\"https://doi.org/10.1037/pspi0000402\" style=\"color: #6B8AD6;\">Peggy Liu (2022)</a>:</em> Ми регулярно недооцінюємо, як цінують інші звістку від нас, надто надіслану «просто так»."
+      "uk": "<em><a href=\"https://doi.org/10.1037/pspi0000402\" style=\"color: #6B8AD6;\">Peggy Liu (2022)</a>:</em> Ми регулярно недооцінюємо, як цінують інші звістку від нас, надто надіслану «просто так».",
+      "ja": "<em><a href=\"https://doi.org/10.1037/pspi0000402\" style=\"color: #6B8AD6;\">Peggy Liu（2022年）</a>：</em>私たちは自分からの連絡が相手にどれほど喜ばれるかをいつも過小評価しています。とくに「なんとなく」送ったときに。"
     },
     "dunbar_s_social_layers_humans_organize_relat_2bcf8b": {
       "en": "<strong><a href=\"https://doi.org/10.1016/0047-2484(92)90081-J\" style=\"color: #2D2D2D; text-decoration: underline;\">Dunbar's social layers</a>:</strong> Humans organize relationships in concentric frequency tiers. Dear mirrors this structure, letting users set per-person contact frequency.",
@@ -1249,7 +1306,8 @@
       "sw": "<strong><a href=\"https://doi.org/10.1016/0047-2484(92)90081-J\" style=\"color: #2D2D2D; text-decoration: underline;\">Tabaka za kijamii za Dunbar</a>:</strong> Binadamu hupanga mahusiano katika tabaka zinazozunguka kulingana na mara ngapi wanawasiliana. Dear inaakisi muundo huo na inakuruhusu kuweka mara ngapi kwa kila mtu.",
       "vi": "<strong><a href=\"https://doi.org/10.1016/0047-2484(92)90081-J\" style=\"color: #2D2D2D; text-decoration: underline;\">Các lớp xã hội của Dunbar</a>:</strong> Con người sắp xếp các mối quan hệ thành những lớp đồng tâm theo tần suất liên lạc. Dear phản chiếu cấu trúc đó và cho bạn đặt tần suất cho từng người.",
       "ru": "<strong><a href=\"https://doi.org/10.1016/0047-2484(92)90081-J\" style=\"color: #2D2D2D; text-decoration: underline;\">Социальные слои Данбара</a>:</strong> Люди выстраивают отношения концентрическими слоями по частоте общения. Dear отражает эту структуру и позволяет задать частоту для каждого.",
-      "uk": "<strong><a href=\"https://doi.org/10.1016/0047-2484(92)90081-J\" style=\"color: #2D2D2D; text-decoration: underline;\">Соціальні шари Данбара</a>:</strong> Люди вибудовують стосунки концентричними шарами за частотою спілкування. Dear відображає цю структуру й дає задати частоту для кожного."
+      "uk": "<strong><a href=\"https://doi.org/10.1016/0047-2484(92)90081-J\" style=\"color: #2D2D2D; text-decoration: underline;\">Соціальні шари Данбара</a>:</strong> Люди вибудовують стосунки концентричними шарами за частотою спілкування. Dear відображає цю структуру й дає задати частоту для кожного.",
+      "ja": "<strong><a href=\"https://doi.org/10.1016/0047-2484(92)90081-J\" style=\"color: #2D2D2D; text-decoration: underline;\">ダンバーの社会的な層</a>：</strong>人は連絡の頻度に応じて、同心円状の層に人間関係を並べます。Dearはその構造を映し、相手ごとに頻度を設定できるようにします。"
     },
     "full_citations_available_on_request_at_press_2904bd": {
       "en": "Full citations available on request at press@dearnudges.com",
@@ -1270,7 +1328,8 @@
       "sw": "Marejeleo kamili yanapatikana ukiomba kupitia press@dearnudges.com",
       "vi": "Trích dẫn đầy đủ có sẵn khi yêu cầu tại press@dearnudges.com",
       "ru": "Полный список источников по запросу на press@dearnudges.com",
-      "uk": "Повний перелік джерел на запит: press@dearnudges.com"
+      "uk": "Повний перелік джерел на запит: press@dearnudges.com",
+      "ja": "出典の全リストはpress@dearnudges.comまでご請求ください"
     },
     "downloads_a862c2": {
       "en": "Downloads",
@@ -1291,7 +1350,8 @@
       "sw": "Vipakuzi",
       "vi": "Tải xuống",
       "ru": "Загрузки",
-      "uk": "Завантаження"
+      "uk": "Завантаження",
+      "ja": "ダウンロード"
     },
     "app_icon_f54c83": {
       "en": "App Icon",
@@ -1312,7 +1372,8 @@
       "sw": "Aikoni ya programu",
       "vi": "Biểu tượng ứng dụng",
       "ru": "Иконка приложения",
-      "uk": "Іконка застосунку"
+      "uk": "Іконка застосунку",
+      "ja": "アプリアイコン"
     },
     "full_press_kit_zip_fdcecb": {
       "en": "Full Press Kit (ZIP)",
@@ -1333,7 +1394,8 @@
       "sw": "Kifurushi kamili cha vyombo vya habari (ZIP)",
       "vi": "Bộ tài liệu báo chí đầy đủ (ZIP)",
       "ru": "Полный пресс-кит (ZIP)",
-      "uk": "Повний прескіт (ZIP)"
+      "uk": "Повний прескіт (ZIP)",
+      "ja": "プレスキット一式（ZIP）"
     },
     "icon_28_screenshots_en_fr_es_13mb_d4006f": {
       "en": "Icon, fact sheet, 21 screenshots (EN/FR/ES), 7MB",
@@ -1354,7 +1416,8 @@
       "sw": "Aikoni, karatasi ya ukweli, picha 21 za skrini (EN/FR/ES), 7&nbsp;MB",
       "vi": "Biểu tượng, bảng thông tin, 21 ảnh chụp màn hình (EN/FR/ES), 7&nbsp;MB",
       "ru": "Иконка, справка, 21 скриншот (EN/FR/ES), 7&nbsp;МБ",
-      "uk": "Іконка, довідка, 21 знімок екрана (EN/FR/ES), 7&nbsp;МБ"
+      "uk": "Іконка, довідка, 21 знімок екрана (EN/FR/ES), 7&nbsp;МБ",
+      "ja": "アイコン、ファクトシート、スクリーンショット21点（EN/FR/ES）、7&nbsp;MB"
     },
     "brand_color_3337c1": {
       "en": "Brand Color",
@@ -1375,7 +1438,8 @@
       "sw": "Rangi ya chapa",
       "vi": "Màu thương hiệu",
       "ru": "Фирменный цвет",
-      "uk": "Фірмовий колір"
+      "uk": "Фірмовий колір",
+      "ja": "ブランドカラー"
     },
     "contact_b37456": {
       "en": "Contact",
@@ -1396,7 +1460,8 @@
       "sw": "Wasiliana",
       "vi": "Liên hệ",
       "ru": "Связаться",
-      "uk": "Зв'язатися"
+      "uk": "Зв'язатися",
+      "ja": "お問い合わせ"
     },
     "the_dear_team_is_available_for_interviews_pr_2d2f42": {
       "en": "The Dear team is available for interviews. Promo codes available for editorial review.",
@@ -1417,7 +1482,8 @@
       "sw": "Timu ya Dear inapatikana kwa mahojiano. Misimbo ya matangazo inapatikana kwa mapitio.",
       "vi": "Đội ngũ Dear sẵn sàng cho các cuộc phỏng vấn. Có mã khuyến mãi dành cho việc đánh giá.",
       "ru": "Команда Dear открыта для интервью. Для обзоров есть промокоды.",
-      "uk": "Команда Dear відкрита до інтерв'ю. Для оглядів є промокоди."
+      "uk": "Команда Dear відкрита до інтерв'ю. Для оглядів є промокоди.",
+      "ja": "Dearチームは取材に対応しています。レビュー用のプロモコードもご用意しています。"
     },
     "larr_back_to_dear_9f5dc0": {
       "en": "&larr; Back to Dear",
@@ -1438,7 +1504,8 @@
       "sw": "&larr; Rudi kwa Dear",
       "vi": "&larr; Quay lại Dear",
       "ru": "&larr; Назад к Dear",
-      "uk": "&larr; Назад до Dear"
+      "uk": "&larr; Назад до Dear",
+      "ja": "&larr; Dearに戻る"
     },
     "privacy_policy_9db108": {
       "en": "Privacy Policy",
@@ -1449,7 +1516,8 @@
       "sw": "Sera ya faragha",
       "vi": "Chính sách quyền riêng tư",
       "ru": "Политика конфиденциальности",
-      "uk": "Політика конфіденційності"
+      "uk": "Політика конфіденційності",
+      "ja": "プライバシーポリシー"
     },
     "last_updated_july_2026_56b301": {
       "en": "Last updated July 2026",
@@ -1460,7 +1528,8 @@
       "sw": "Ilisasishwa mwisho Julai 2026",
       "vi": "Cập nhật lần cuối tháng 7 năm 2026",
       "ru": "Последнее обновление: июль 2026",
-      "uk": "Останнє оновлення: липень 2026"
+      "uk": "Останнє оновлення: липень 2026",
+      "ja": "最終更新：2026年7月"
     },
     "your_friends_and_contact_data_never_leave_yo_7a226f": {
       "en": "Your friends and contact data never leave your device. We have no accounts and no advertising. We do collect a small set of anonymous usage counts through TelemetryDeck, a privacy-focused analytics service in Germany, anonymous purchase records through RevenueCat, and anonymous crash reports through Sentry, to understand how the app is being used, to restore your purchases, and to fix what breaks. We cannot identify you from these, and your friends' names and contact details are never included.<br><br>\n            That's it. That's the privacy policy.",
@@ -1471,7 +1540,8 @@
       "sw": "Marafiki zako na data ya anwani zako havitoki kamwe kwenye kifaa chako. Hatuna akaunti wala matangazo. Tunakusanya seti ndogo ya hesabu za matumizi zisizo na jina kupitia TelemetryDeck, huduma ya uchanganuzi inayozingatia faragha nchini Ujerumani, kumbukumbu za manunuzi zisizo na jina kupitia RevenueCat, na ripoti za hitilafu zisizo na jina kupitia Sentry, ili kuelewa jinsi programu inavyotumika, kurudisha manunuzi yako, na kurekebisha kinachoharibika. Hatuwezi kukutambua kutokana na hizo, na majina na anwani za marafiki zako hazijumuishwi kamwe.<br><br>\n            Ndiyo hivyo. Hiyo ndiyo sera ya faragha.",
       "vi": "Bạn bè và dữ liệu danh bạ của bạn không bao giờ rời khỏi máy của bạn. Chúng tôi không có tài khoản và không có quảng cáo. Chúng tôi có thu thập một lượng nhỏ số liệu sử dụng ẩn danh qua TelemetryDeck, một dịch vụ phân tích chú trọng quyền riêng tư đặt tại Đức, bản ghi mua hàng ẩn danh qua RevenueCat, và báo cáo sự cố ẩn danh qua Sentry, để hiểu ứng dụng đang được dùng thế nào, khôi phục các khoản bạn đã mua, và sửa những gì hỏng. Chúng tôi không thể nhận diện bạn từ những dữ liệu đó, và tên cùng thông tin liên hệ của bạn bè bạn không bao giờ nằm trong đó.<br><br>\n            Vậy thôi. Đó là chính sách quyền riêng tư.",
       "ru": "Ваши друзья и данные контактов никогда не покидают устройство. У нас нет аккаунтов и нет рекламы. Мы собираем небольшой набор анонимных счётчиков использования через TelemetryDeck, сервис аналитики с упором на приватность из Германии, анонимные записи о покупках через RevenueCat и анонимные отчёты о сбоях через Sentry, чтобы понимать, как используется приложение, восстанавливать ваши покупки и чинить поломки. Опознать вас по ним мы не можем, а имена и контакты ваших друзей туда никогда не попадают.<br><br>\n            Вот и всё. Это и есть политика конфиденциальности.",
-      "uk": "Ваші друзі та дані контактів ніколи не залишають пристрій. У нас немає облікових записів і немає реклами. Ми збираємо невеликий набір анонімних лічильників використання через TelemetryDeck, сервіс аналітики з наголосом на приватності з Німеччини, анонімні записи про покупки через RevenueCat та анонімні звіти про збої через Sentry, щоб розуміти, як використовується застосунок, відновлювати ваші покупки й лагодити поламане. Упізнати вас за ними ми не можемо, а імена та контакти ваших друзів туди ніколи не потрапляють.<br><br>\n            Ось і все. Це і є політика конфіденційності."
+      "uk": "Ваші друзі та дані контактів ніколи не залишають пристрій. У нас немає облікових записів і немає реклами. Ми збираємо невеликий набір анонімних лічильників використання через TelemetryDeck, сервіс аналітики з наголосом на приватності з Німеччини, анонімні записи про покупки через RevenueCat та анонімні звіти про збої через Sentry, щоб розуміти, як використовується застосунок, відновлювати ваші покупки й лагодити поламане. Упізнати вас за ними ми не можемо, а імена та контакти ваших друзів туди ніколи не потрапляють.<br><br>\n            Ось і все. Це і є політика конфіденційності.",
+      "ja": "あなたの友人と連絡先のデータが端末から出ることは決してありません。アカウントも広告もありません。アプリがどう使われているかを知り、購入を復元し、不具合を直すために、ドイツにあるプライバシー重視の分析サービスTelemetryDeckを通じて匿名の利用回数を、RevenueCatを通じて匿名の購入記録を、Sentryを通じて匿名のクラッシュ報告を集めています。これらからあなたを特定することはできませんし、ご友人の名前や連絡先が含まれることはありません。<br><br>\n            以上です。これがプライバシーポリシーのすべてです。"
     },
     "if_you_want_the_longer_version_for_legal_pur_6609b9": {
       "en": "If you want the longer version for legal purposes, keep reading.",
@@ -1482,7 +1552,8 @@
       "sw": "Kama unataka toleo refu zaidi kwa madhumuni ya kisheria, endelea kusoma.",
       "vi": "Nếu bạn muốn bản dài hơn cho mục đích pháp lý, hãy đọc tiếp.",
       "ru": "Если вам нужна расширенная версия для юридических целей, читайте дальше.",
-      "uk": "Якщо вам потрібна розширена версія для юридичних цілей, читайте далі."
+      "uk": "Якщо вам потрібна розширена версія для юридичних цілей, читайте далі.",
+      "ja": "法的な目的で詳しい内容が必要な方は、このままお読みください。"
     },
     "what_data_dear_accesses_2f05d0": {
       "en": "What data Dear accesses",
@@ -1493,7 +1564,8 @@
       "sw": "Data gani Dear inaifikia",
       "vi": "Dear truy cập dữ liệu gì",
       "ru": "К каким данным обращается Dear",
-      "uk": "До яких даних звертається Dear"
+      "uk": "До яких даних звертається Dear",
+      "ja": "Dearがアクセスするデータ"
     },
     "contact_names_and_photos_during_onboarding_d_8da663": {
       "en": "<strong>Contact names and photos.</strong> During onboarding, Dear asks for permission to access your Contacts. This is used solely to let you select people to add to your nudge list. Contact data is read once during selection and stored locally on your device. Dear never transmits contact data off your device, and you can use the app without granting Contacts access by typing names manually.",
@@ -1504,7 +1576,8 @@
       "sw": "<strong>Majina na picha za anwani.</strong> Wakati wa kuanza, Dear inaomba ruhusa ya kufikia Anwani zako. Hii inatumika tu ili uweze kuchagua watu wa kuwaongeza kwenye orodha yako ya vikumbusho. Data ya anwani inasomwa mara moja wakati wa kuchagua na kuhifadhiwa ndani ya kifaa chako. Dear haitumi kamwe data ya anwani nje ya kifaa chako, na unaweza kutumia programu bila kutoa ruhusa ya Anwani kwa kuandika majina mwenyewe.",
       "vi": "<strong>Tên và ảnh danh bạ.</strong> Khi bắt đầu, Dear xin quyền truy cập Danh bạ của bạn. Quyền này chỉ dùng để bạn chọn người thêm vào danh sách nhắc. Dữ liệu danh bạ được đọc một lần trong lúc chọn và lưu cục bộ trên máy bạn. Dear không bao giờ truyền dữ liệu danh bạ ra khỏi máy, và bạn vẫn dùng được ứng dụng mà không cấp quyền Danh bạ bằng cách tự nhập tên.",
       "ru": "<strong>Имена и фотографии контактов.</strong> При первом запуске Dear запрашивает доступ к контактам. Он нужен только для того, чтобы вы могли выбрать людей для списка напоминаний. Данные контактов считываются один раз во время выбора и сохраняются локально на устройстве. Dear никогда не передаёт данные контактов за пределы устройства, и приложением можно пользоваться без доступа к контактам, вводя имена вручную.",
-      "uk": "<strong>Імена та фотографії контактів.</strong> Під час першого запуску Dear запитує доступ до контактів. Він потрібен лише для того, щоб ви могли обрати людей для списку нагадувань. Дані контактів зчитуються один раз під час вибору й зберігаються локально на пристрої. Dear ніколи не передає дані контактів за межі пристрою, і застосунком можна користуватися без доступу до контактів, вводячи імена вручну."
+      "uk": "<strong>Імена та фотографії контактів.</strong> Під час першого запуску Dear запитує доступ до контактів. Він потрібен лише для того, щоб ви могли обрати людей для списку нагадувань. Дані контактів зчитуються один раз під час вибору й зберігаються локально на пристрої. Dear ніколи не передає дані контактів за межі пристрою, і застосунком можна користуватися без доступу до контактів, вводячи імена вручну.",
+      "ja": "<strong>連絡先の名前と写真。</strong>最初の起動時に、Dearは連絡先へのアクセス許可を求めます。これはリマインダーの一覧に加える人を選んでいただくためだけに使われます。連絡先のデータは選択のときに一度だけ読み込まれ、端末の中に保存されます。Dearが連絡先のデータを端末の外へ送ることは決してありません。連絡先へのアクセスを許可せず、名前を手で入力して使うこともできます。"
     },
     "notification_permissions_dear_requests_permi_76b691": {
       "en": "<strong>Notification permissions.</strong> Dear requests permission to send local notifications so it can remind you to reach out to someone. These notifications are scheduled and delivered entirely on your device; their content is never sent anywhere.",
@@ -1515,7 +1588,8 @@
       "sw": "<strong>Ruhusa za arifa.</strong> Dear inaomba ruhusa ya kutuma arifa za ndani ili ikukumbushe kuwasiliana na mtu. Arifa hizi zinapangwa na kutolewa kabisa ndani ya kifaa chako; maudhui yake hayatumwi kamwe popote.",
       "vi": "<strong>Quyền thông báo.</strong> Dear xin quyền gửi thông báo cục bộ để nhắc bạn liên lạc với ai đó. Các thông báo này được lên lịch và gửi hoàn toàn trên máy bạn; nội dung của chúng không bao giờ được gửi đi đâu.",
       "ru": "<strong>Разрешение на уведомления.</strong> Dear запрашивает разрешение отправлять локальные уведомления, чтобы напоминать вам написать кому-то. Эти уведомления планируются и доставляются полностью на вашем устройстве; их содержимое никуда не отправляется.",
-      "uk": "<strong>Дозвіл на сповіщення.</strong> Dear запитує дозвіл надсилати локальні сповіщення, щоб нагадувати вам написати комусь. Ці сповіщення плануються й доставляються повністю на вашому пристрої; їхній вміст нікуди не надсилається."
+      "uk": "<strong>Дозвіл на сповіщення.</strong> Dear запитує дозвіл надсилати локальні сповіщення, щоб нагадувати вам написати комусь. Ці сповіщення плануються й доставляються повністю на вашому пристрої; їхній вміст нікуди не надсилається.",
+      "ja": "<strong>通知の許可。</strong>誰かに連絡することをお知らせできるよう、Dearはローカル通知を送る許可を求めます。これらの通知は端末の中だけで予約され、届けられます。その内容がどこかへ送られることはありません。"
     },
     "what_data_dear_stores_8c54cc": {
       "en": "What data Dear stores",
@@ -1526,7 +1600,8 @@
       "sw": "Data gani Dear inaihifadhi",
       "vi": "Dear lưu dữ liệu gì",
       "ru": "Какие данные хранит Dear",
-      "uk": "Які дані зберігає Dear"
+      "uk": "Які дані зберігає Dear",
+      "ja": "Dearが保存するデータ"
     },
     "all_data_is_stored_locally_on_your_device_in_1bebdc": {
       "en": "All data is stored locally on your device (including a small shared store so the widget can display your nudges). This includes:",
@@ -1537,7 +1612,8 @@
       "sw": "Data yote inahifadhiwa ndani ya kifaa chako (ikiwa ni pamoja na hifadhi ndogo ya pamoja ili wijeti iweze kuonyesha vikumbusho vyako). Hii ni pamoja na:",
       "vi": "Mọi dữ liệu được lưu cục bộ trên máy bạn (bao gồm một kho chia sẻ nhỏ để widget hiển thị lời nhắc). Gồm có:",
       "ru": "Все данные хранятся локально на устройстве (включая небольшое общее хранилище, чтобы виджет мог показывать ваши напоминания). Сюда входят:",
-      "uk": "Усі дані зберігаються локально на пристрої (включно з невеликим спільним сховищем, щоб віджет міг показувати ваші нагадування). Сюди входять:"
+      "uk": "Усі дані зберігаються локально на пристрої (включно з невеликим спільним сховищем, щоб віджет міг показувати ваші нагадування). Сюди входять:",
+      "ja": "すべてのデータは端末の中に保存されます（ウィジェットがリマインダーを表示できるようにする小さな共有領域も含みます）。内容は次のとおりです："
     },
     "this_data_never_leaves_your_device_there_is_9b93ae": {
       "en": "This data never leaves your device. There is no cloud sync, no backup to our servers, and no way for us to access it.",
@@ -1548,7 +1624,8 @@
       "sw": "Data hii haitoki kamwe kwenye kifaa chako. Hakuna usawazishaji wa wingu, hakuna nakala rudufu kwenye seva zetu, na hakuna njia yoyote kwetu ya kuifikia.",
       "vi": "Dữ liệu này không bao giờ rời khỏi máy bạn. Không đồng bộ đám mây, không sao lưu lên máy chủ của chúng tôi, và chúng tôi không có cách nào truy cập nó.",
       "ru": "Эти данные никогда не покидают устройство. Нет синхронизации с облаком, нет резервных копий на наших серверах, и у нас нет способа получить к ним доступ.",
-      "uk": "Ці дані ніколи не залишають пристрій. Немає синхронізації з хмарою, немає резервних копій на наших серверах, і в нас немає способу отримати до них доступ."
+      "uk": "Ці дані ніколи не залишають пристрій. Немає синхронізації з хмарою, немає резервних копій на наших серверах, і в нас немає способу отримати до них доступ.",
+      "ja": "このデータが端末から出ることは決してありません。クラウド同期も、当社サーバーへのバックアップもなく、当社がアクセスする手段もありません。"
     },
     "what_data_dear_collects_or_transmits_70a2d6": {
       "en": "What data Dear collects or transmits",
@@ -1559,7 +1636,8 @@
       "sw": "Data gani Dear inaikusanya au kuituma",
       "vi": "Dear thu thập hoặc truyền dữ liệu gì",
       "ru": "Какие данные Dear собирает или передаёт",
-      "uk": "Які дані Dear збирає або передає"
+      "uk": "Які дані Dear збирає або передає",
+      "ja": "Dearが集める、または送信するデータ"
     },
     "dear_has_no_accounts_and_no_advertising_we_d_f0722e": {
       "en": "Dear has no accounts and no advertising. We do not use tracking pixels or advertising frameworks. We do not know who you are, who your friends are, or what messages you send. We do collect anonymous usage counts through TelemetryDeck, anonymous purchase records through RevenueCat, and anonymous crash reports through Sentry (see sections below). Beyond that, we know only what Apple and Google provide in aggregate App Store and Google Play analytics, which contains no personally identifiable information and is controlled by your device settings.",
@@ -1570,7 +1648,8 @@
       "sw": "Dear haina akaunti wala matangazo. Hatutumii pikseli za ufuatiliaji wala mifumo ya matangazo. Hatujui wewe ni nani, marafiki zako ni nani, au ujumbe gani unatuma. Tunakusanya hesabu za matumizi zisizo na jina kupitia TelemetryDeck, kumbukumbu za manunuzi zisizo na jina kupitia RevenueCat, na ripoti za hitilafu zisizo na jina kupitia Sentry (tazama sehemu zilizo hapa chini). Zaidi ya hapo, tunajua tu kile ambacho Apple na Google hutoa katika uchanganuzi wa jumla wa App Store na Google Play, ambacho hakina taarifa zinazomtambulisha mtu na kinadhibitiwa na mipangilio ya kifaa chako.",
       "vi": "Dear không có tài khoản và không có quảng cáo. Chúng tôi không dùng pixel theo dõi hay khung quảng cáo. Chúng tôi không biết bạn là ai, bạn bè bạn là ai, hay bạn gửi tin nhắn gì. Chúng tôi có thu thập số liệu sử dụng ẩn danh qua TelemetryDeck, bản ghi mua hàng ẩn danh qua RevenueCat, và báo cáo sự cố ẩn danh qua Sentry (xem các mục bên dưới). Ngoài ra, chúng tôi chỉ biết những gì Apple và Google cung cấp trong phân tích tổng hợp của App Store và Google Play, vốn không chứa thông tin nhận dạng cá nhân và do cài đặt trên máy bạn kiểm soát.",
       "ru": "У Dear нет аккаунтов и нет рекламы. Мы не используем трекинговые пиксели и рекламные фреймворки. Мы не знаем, кто вы, кто ваши друзья и какие сообщения вы отправляете. Мы собираем анонимные счётчики использования через TelemetryDeck, анонимные записи о покупках через RevenueCat и анонимные отчёты о сбоях через Sentry (см. разделы ниже). Кроме этого нам известно лишь то, что Apple и Google дают в сводной аналитике App Store и Google Play; она не содержит персональных данных и управляется настройками вашего устройства.",
-      "uk": "У Dear немає облікових записів і немає реклами. Ми не використовуємо трекінгові пікселі та рекламні фреймворки. Ми не знаємо, хто ви, хто ваші друзі та які повідомлення ви надсилаєте. Ми збираємо анонімні лічильники використання через TelemetryDeck, анонімні записи про покупки через RevenueCat та анонімні звіти про збої через Sentry (див. розділи нижче). Крім цього нам відомо лише те, що Apple і Google дають у зведеній аналітиці App Store та Google Play; вона не містить персональних даних і керується налаштуваннями вашого пристрою."
+      "uk": "У Dear немає облікових записів і немає реклами. Ми не використовуємо трекінгові пікселі та рекламні фреймворки. Ми не знаємо, хто ви, хто ваші друзі та які повідомлення ви надсилаєте. Ми збираємо анонімні лічильники використання через TelemetryDeck, анонімні записи про покупки через RevenueCat та анонімні звіти про збої через Sentry (див. розділи нижче). Крім цього нам відомо лише те, що Apple і Google дають у зведеній аналітиці App Store та Google Play; вона не містить персональних даних і керується налаштуваннями вашого пристрою.",
+      "ja": "Dearにはアカウントも広告もありません。トラッキングピクセルや広告フレームワークは使っていません。あなたが誰か、ご友人が誰か、どんなメッセージを送ったかを当社は知りません。TelemetryDeckを通じて匿名の利用回数を、RevenueCatを通じて匿名の購入記録を、Sentryを通じて匿名のクラッシュ報告を集めています（以下の各節をご覧ください）。それ以外に当社が知るのは、AppleとGoogleがApp StoreとGoogle Playの集計分析として提供する情報だけで、個人を特定できる情報は含まれず、端末の設定で制御されます。"
     },
     "anonymous_analytics_d26430": {
       "en": "Anonymous Analytics",
@@ -1581,7 +1660,8 @@
       "sw": "Uchanganuzi usio na jina",
       "vi": "Phân tích ẩn danh",
       "ru": "Анонимная аналитика",
-      "uk": "Анонімна аналітика"
+      "uk": "Анонімна аналітика",
+      "ja": "匿名の分析"
     },
     "to_understand_how_dear_is_being_used_so_we_c_764b27": {
       "en": "To understand how Dear is being used so we can improve it, we collect a small set of anonymous events through TelemetryDeck, a privacy-focused analytics service hosted in Germany and compliant with GDPR. We track only counts of feature use, never who used them.",
@@ -1592,7 +1672,8 @@
       "sw": "Ili kuelewa jinsi Dear inavyotumika na hivyo kuiboresha, tunakusanya seti ndogo ya matukio yasiyo na jina kupitia TelemetryDeck, huduma ya uchanganuzi inayozingatia faragha iliyohifadhiwa Ujerumani na inayotii GDPR. Tunafuatilia hesabu za matumizi ya vipengele tu, kamwe si nani aliyevitumia.",
       "vi": "Để hiểu Dear đang được dùng thế nào nhằm cải thiện nó, chúng tôi thu thập một lượng nhỏ sự kiện ẩn danh qua TelemetryDeck, một dịch vụ phân tích chú trọng quyền riêng tư đặt tại Đức và tuân thủ GDPR. Chúng tôi chỉ ghi nhận số lần dùng tính năng, không bao giờ ghi ai đã dùng.",
       "ru": "Чтобы понимать, как используется Dear, и улучшать его, мы собираем небольшой набор анонимных событий через TelemetryDeck, сервис аналитики с упором на приватность, размещённый в Германии и соответствующий GDPR. Мы фиксируем только счётчики использования функций, но никогда не то, кто ими пользовался.",
-      "uk": "Щоб розуміти, як використовується Dear, і покращувати його, ми збираємо невеликий набір анонімних подій через TelemetryDeck, сервіс аналітики з наголосом на приватності, розміщений у Німеччині та сумісний із GDPR. Ми фіксуємо лише лічильники використання функцій, але ніколи не те, хто ними користувався."
+      "uk": "Щоб розуміти, як використовується Dear, і покращувати його, ми збираємо невеликий набір анонімних подій через TelemetryDeck, сервіс аналітики з наголосом на приватності, розміщений у Німеччині та сумісний із GDPR. Ми фіксуємо лише лічильники використання функцій, але ніколи не те, хто ними користувався.",
+      "ja": "Dearがどう使われているかを知り、改善するために、ドイツにありGDPRに準拠したプライバシー重視の分析サービスTelemetryDeckを通じて、少数の匿名イベントを集めています。記録するのは機能の利用回数だけで、誰が使ったかは決して記録しません。"
     },
     "what_we_track_fc83f6": {
       "en": "What we track:",
@@ -1603,7 +1684,8 @@
       "sw": "Tunachofuatilia:",
       "vi": "Những gì chúng tôi ghi nhận:",
       "ru": "Что мы фиксируем:",
-      "uk": "Що ми фіксуємо:"
+      "uk": "Що ми фіксуємо:",
+      "ja": "記録するもの："
     },
     "what_we_never_track_your_name_your_friends_n_9b1253": {
       "en": "<strong>What we never track:</strong> your name, your friends' names or contact information, what messages you send, the time of day you opened the app, your location, your IP address, or any device identifier that could be linked back to you.",
@@ -1614,7 +1696,8 @@
       "sw": "<strong>Tusichofuatilia kamwe:</strong> jina lako, majina au anwani za marafiki zako, ujumbe unaotuma, saa ya siku uliyofungua programu, mahali ulipo, anwani yako ya IP, au kitambulisho chochote cha kifaa kinachoweza kuunganishwa nawe.",
       "vi": "<strong>Những gì chúng tôi không bao giờ ghi nhận:</strong> tên bạn, tên hay thông tin liên hệ của bạn bè bạn, tin nhắn bạn gửi, thời điểm trong ngày bạn mở ứng dụng, vị trí của bạn, địa chỉ IP của bạn, hay bất kỳ mã định danh thiết bị nào có thể liên hệ ngược về bạn.",
       "ru": "<strong>Чего мы не фиксируем никогда:</strong> ваше имя, имена и контакты ваших друзей, отправляемые вами сообщения, время суток, когда вы открыли приложение, ваше местоположение, ваш IP-адрес или любой идентификатор устройства, который можно связать с вами.",
-      "uk": "<strong>Чого ми не фіксуємо ніколи:</strong> ваше ім'я, імена та контакти ваших друзів, надіслані вами повідомлення, час доби, коли ви відкрили застосунок, ваше місцеперебування, вашу IP-адресу або будь-який ідентифікатор пристрою, який можна пов'язати з вами."
+      "uk": "<strong>Чого ми не фіксуємо ніколи:</strong> ваше ім'я, імена та контакти ваших друзів, надіслані вами повідомлення, час доби, коли ви відкрили застосунок, ваше місцеперебування, вашу IP-адресу або будь-який ідентифікатор пристрою, який можна пов'язати з вами.",
+      "ja": "<strong>決して記録しないもの：</strong>あなたの名前、ご友人の名前や連絡先、送ったメッセージ、アプリを開いた時刻、位置情報、IPアドレス、そしてあなたにたどり着ける端末識別子。"
     },
     "these_events_are_pseudonymous_and_aggregated_a6807b": {
       "en": "These events are pseudonymous and aggregated. We cannot identify you from them. Because no personal data is processed, we do not require a consent prompt under GDPR. If you would prefer to opt out anyway, please email us at support@dearnudges.com and we will note your request for the next release.",
@@ -1625,7 +1708,8 @@
       "sw": "Matukio haya hayana majina na yamejumlishwa. Hatuwezi kukutambua kutokana nayo. Kwa kuwa hakuna data binafsi inayochakatwa, hatuhitaji ombi la idhini chini ya GDPR. Kama ungependa kujiondoa hata hivyo, tutumie barua pepe kwa support@dearnudges.com nasi tutaandika ombi lako kwa toleo lijalo.",
       "vi": "Các sự kiện này là giả danh và được tổng hợp. Chúng tôi không thể nhận diện bạn từ đó. Vì không có dữ liệu cá nhân nào được xử lý, chúng tôi không cần hộp thoại xin đồng ý theo GDPR. Nếu bạn vẫn muốn từ chối, hãy gửi email tới support@dearnudges.com và chúng tôi sẽ ghi nhận yêu cầu của bạn cho bản phát hành kế tiếp.",
       "ru": "Эти события псевдонимны и агрегированы. Опознать вас по ним мы не можем. Поскольку персональные данные не обрабатываются, запрос согласия по GDPR нам не требуется. Если вы всё же хотите отказаться, напишите на support@dearnudges.com, и мы учтём вашу просьбу в следующем выпуске.",
-      "uk": "Ці події псевдонімні та агреговані. Упізнати вас за ними ми не можемо. Оскільки персональні дані не обробляються, запит згоди за GDPR нам не потрібен. Якщо ви все ж хочете відмовитися, напишіть на support@dearnudges.com, і ми врахуємо ваше прохання в наступному випуску."
+      "uk": "Ці події псевдонімні та агреговані. Упізнати вас за ними ми не можемо. Оскільки персональні дані не обробляються, запит згоди за GDPR нам не потрібен. Якщо ви все ж хочете відмовитися, напишіть на support@dearnudges.com, і ми врахуємо ваше прохання в наступному випуску.",
+      "ja": "これらのイベントは仮名化され、集計されています。そこからあなたを特定することはできません。個人データを扱っていないため、GDPRに基づく同意の確認は必要ありません。それでも記録を望まない場合は、support@dearnudges.comまでご連絡ください。次のリリースに向けてご要望を記録します。"
     },
     "delete_your_data_40ab22": {
       "en": "Delete your data",
@@ -1636,7 +1720,8 @@
       "sw": "Futa data yako",
       "vi": "Xóa dữ liệu của bạn",
       "ru": "Удалить свои данные",
-      "uk": "Видалити свої дані"
+      "uk": "Видалити свої дані",
+      "ja": "データを削除する"
     },
     "dear_has_no_accounts_and_no_server_holds_you_ccc0f0": {
       "en": "Dear has no accounts, and no server holds your personal information. Your friends, your nudges, and your messages live only on your device. To delete everything Dear knows about you:",
@@ -1647,7 +1732,8 @@
       "sw": "Dear haina akaunti, na hakuna seva inayoshikilia taarifa zako binafsi. Marafiki zako, vikumbusho vyako, na ujumbe wako viko kwenye kifaa chako tu. Ili kufuta kila kitu ambacho Dear inajua kukuhusu:",
       "vi": "Dear không có tài khoản, và không máy chủ nào giữ thông tin cá nhân của bạn. Bạn bè, lời nhắc và tin nhắn của bạn chỉ nằm trên máy bạn. Để xóa mọi thứ Dear biết về bạn:",
       "ru": "У Dear нет аккаунтов, и ни один сервер не хранит ваши персональные данные. Ваши друзья, напоминания и сообщения живут только на вашем устройстве. Чтобы удалить всё, что Dear о вас знает:",
-      "uk": "У Dear немає облікових записів, і жоден сервер не зберігає ваші персональні дані. Ваші друзі, нагадування та повідомлення живуть лише на вашому пристрої. Щоб видалити все, що Dear про вас знає:"
+      "uk": "У Dear немає облікових записів, і жоден сервер не зберігає ваші персональні дані. Ваші друзі, нагадування та повідомлення живуть лише на вашому пристрої. Щоб видалити все, що Dear про вас знає:",
+      "ja": "Dearにはアカウントがなく、あなたの個人情報を保持するサーバーもありません。ご友人も、リマインダーも、メッセージも、あなたの端末の中だけにあります。Dearが知っているすべてを消すには："
     },
     "we_do_not_have_a_server_with_your_personal_i_7469ac": {
       "en": "We do not have a server with your personal information on it. We never collected it, so there is nothing to delete on our side. The only data that ever leaves your device is anonymous, aggregated analytics (see <a href=\"#anonymous-analytics\">Anonymous Analytics</a>) and anonymous purchase records, neither of which can be linked back to you: there is no per-user record to delete.",
@@ -1658,7 +1744,8 @@
       "sw": "Hatuna seva yenye taarifa zako binafsi. Hatukuzikusanya kamwe, kwa hivyo hakuna cha kufuta upande wetu. Data pekee inayotoka kwenye kifaa chako ni uchanganuzi usio na jina na uliojumlishwa (tazama <a href=\"#anonymous-analytics\">Uchanganuzi usio na jina</a>) na kumbukumbu za manunuzi zisizo na jina, ambazo zote haziwezi kuunganishwa nawe: hakuna kumbukumbu ya kila mtumiaji ya kufuta.",
       "vi": "Chúng tôi không có máy chủ chứa thông tin cá nhân của bạn. Chúng tôi chưa từng thu thập nó, nên không có gì để xóa ở phía chúng tôi. Dữ liệu duy nhất rời khỏi máy bạn là phân tích ẩn danh đã tổng hợp (xem <a href=\"#anonymous-analytics\">Phân tích ẩn danh</a>) và bản ghi mua hàng ẩn danh, cả hai đều không thể liên hệ ngược về bạn: không có bản ghi theo từng người dùng để xóa.",
       "ru": "У нас нет сервера с вашими персональными данными. Мы их никогда не собирали, поэтому удалять на нашей стороне нечего. Ваше устройство покидает только анонимная агрегированная аналитика (см. <a href=\"#anonymous-analytics\">Анонимная аналитика</a>) и анонимные записи о покупках; ни то, ни другое нельзя связать с вами: удалять попросту нечего.",
-      "uk": "У нас немає сервера з вашими персональними даними. Ми їх ніколи не збирали, тож видаляти на нашому боці нічого. Ваш пристрій залишає лише анонімна агрегована аналітика (див. <a href=\"#anonymous-analytics\">Анонімна аналітика</a>) та анонімні записи про покупки; ні те, ні інше не можна пов'язати з вами: видаляти просто нічого."
+      "uk": "У нас немає сервера з вашими персональними даними. Ми їх ніколи не збирали, тож видаляти на нашому боці нічого. Ваш пристрій залишає лише анонімна агрегована аналітика (див. <a href=\"#anonymous-analytics\">Анонімна аналітика</a>) та анонімні записи про покупки; ні те, ні інше не можна пов'язати з вами: видаляти просто нічого.",
+      "ja": "あなたの個人情報を置いたサーバーはありません。そもそも集めていないので、当社側に消すものはありません。端末から出るのは匿名で集計された分析（<a href=\"#anonymous-analytics\">匿名の分析</a>をご覧ください）と匿名の購入記録だけで、どちらもあなたに結びつけることはできません。利用者ごとの記録が存在しないため、削除すべきものがないのです。"
     },
     "if_you_have_questions_or_need_help_with_any_3bd7d1": {
       "en": "If you have questions or need help with any of this, email <a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>.",
@@ -1669,7 +1756,8 @@
       "sw": "Kama una maswali au unahitaji msaada kuhusu lolote kati ya haya, tuma barua pepe kwa <a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>.",
       "vi": "Nếu bạn có câu hỏi hoặc cần trợ giúp về bất kỳ điều gì ở đây, hãy gửi email tới <a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>.",
       "ru": "Если у вас есть вопросы или нужна помощь по любому из этих пунктов, напишите на <a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>.",
-      "uk": "Якщо у вас є запитання або потрібна допомога з будь-яким із цих пунктів, напишіть на <a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>."
+      "uk": "Якщо у вас є запитання або потрібна допомога з будь-яким із цих пунктів, напишіть на <a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>.",
+      "ja": "ご質問や、この内容についてお困りのことがあれば、<a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>までご連絡ください。"
     },
     "note_a_future_version_of_dear_will_offer_an_38fcb5": {
       "en": "Note: a future version of Dear will offer an optional toggle to share anonymized usage data with academic researchers studying loneliness and well-being. When that ships, opting out and deleting contributed research data will be available in the same Settings menu, and this page will be updated to reflect the new option.",
@@ -1680,7 +1768,8 @@
       "sw": "Kumbuka: toleo lijalo la Dear litatoa kitufe cha hiari cha kushiriki data ya matumizi isiyo na utambulisho na watafiti wa kitaaluma wanaochunguza upweke na ustawi. Litakapotoka, kujiondoa na kufuta data ya utafiti iliyochangiwa kutapatikana katika menyu ile ile ya Mipangilio, na ukurasa huu utasasishwa.",
       "vi": "Lưu ý: một phiên bản Dear trong tương lai sẽ có tùy chọn chia sẻ dữ liệu sử dụng đã ẩn danh với các nhà nghiên cứu học thuật đang tìm hiểu về cô đơn và sức khỏe tinh thần. Khi tính năng đó ra mắt, việc từ chối và xóa dữ liệu nghiên cứu đã đóng góp sẽ nằm trong cùng menu Cài đặt, và trang này sẽ được cập nhật.",
       "ru": "Примечание: в будущей версии Dear появится необязательный переключатель, позволяющий делиться обезличенными данными об использовании с академическими исследователями, изучающими одиночество и благополучие. Когда он выйдет, отказ и удаление переданных исследовательских данных будут в том же меню настроек, а эта страница будет обновлена.",
-      "uk": "Примітка: у майбутній версії Dear з'явиться необов'язковий перемикач, що дозволить ділитися знеособленими даними про використання з академічними дослідниками, які вивчають самотність і добробут. Коли він вийде, відмова та видалення переданих дослідницьких даних будуть у тому самому меню налаштувань, а цю сторінку буде оновлено."
+      "uk": "Примітка: у майбутній версії Dear з'явиться необов'язковий перемикач, що дозволить ділитися знеособленими даними про використання з академічними дослідниками, які вивчають самотність і добробут. Коли він вийде, відмова та видалення переданих дослідницьких даних будуть у тому самому меню налаштувань, а цю сторінку буде оновлено.",
+      "ja": "補足：今後のDearでは、孤独とウェルビーイングを研究する学術研究者に匿名化した利用データを共有するかどうかを選べる項目を用意する予定です。提供が始まったら、参加をやめることと提供済みの研究データを削除することが同じ設定メニューからできるようになり、このページも更新します。"
     },
     "in_app_purchases_a8c5a8": {
       "en": "In-app purchases",
@@ -1691,7 +1780,8 @@
       "sw": "Manunuzi ndani ya programu",
       "vi": "Mua hàng trong ứng dụng",
       "ru": "Покупки в приложении",
-      "uk": "Покупки в застосунку"
+      "uk": "Покупки в застосунку",
+      "ja": "アプリ内課金"
     },
     "dear_offers_optional_subscriptions_and_one_t_1e7881": {
       "en": "Dear offers optional subscriptions and one-time purchases through the Apple App Store (and Google Play on Android). Apple and Google handle all payment processing; we never see or store your card or payment details. To unlock what you've bought across devices and reinstalls, Dear uses RevenueCat, which receives an anonymous record of each transaction (the product purchased, the purchase date, and an anonymous app-internal identifier). This record contains no name, email, or payment information. The privacy policies of Apple, Google, and RevenueCat govern this data.",
@@ -1702,7 +1792,8 @@
       "sw": "Dear inatoa usajili wa hiari na manunuzi ya mara moja kupitia Apple App Store (na Google Play kwenye Android). Apple na Google ndio wanaoshughulikia malipo yote; hatuoni wala hatuhifadhi kamwe maelezo ya kadi au malipo yako. Ili kufungua ulichonunua katika vifaa mbalimbali na baada ya kusakinisha upya, Dear inatumia RevenueCat, ambayo inapokea kumbukumbu isiyo na jina ya kila muamala (bidhaa iliyonunuliwa, tarehe ya ununuzi, na kitambulisho cha ndani cha programu kisicho na jina). Kumbukumbu hii haina jina, barua pepe, wala taarifa za malipo. Sera za faragha za Apple, Google, na RevenueCat ndizo zinazosimamia data hii.",
       "vi": "Dear cung cấp các gói đăng ký tùy chọn và các khoản mua một lần qua Apple App Store (và Google Play trên Android). Apple và Google xử lý toàn bộ thanh toán; chúng tôi không bao giờ thấy hay lưu thông tin thẻ hoặc thanh toán của bạn. Để mở khóa những gì bạn đã mua trên nhiều máy và sau khi cài lại, Dear dùng RevenueCat, dịch vụ này nhận một bản ghi ẩn danh cho mỗi giao dịch (sản phẩm đã mua, ngày mua, và một mã định danh nội bộ ẩn danh của ứng dụng). Bản ghi này không có tên, email hay thông tin thanh toán. Chính sách quyền riêng tư của Apple, Google và RevenueCat điều chỉnh dữ liệu này.",
       "ru": "Dear предлагает необязательные подписки и разовые покупки через Apple App Store (и Google Play на Android). Apple и Google обрабатывают все платежи; мы никогда не видим и не храним данные вашей карты или платежа. Чтобы покупки открывались на разных устройствах и после переустановки, Dear использует RevenueCat, который получает анонимную запись о каждой транзакции (купленный продукт, дату покупки и анонимный внутренний идентификатор приложения). В этой записи нет ни имени, ни адреса почты, ни платёжных данных. Эти данные регулируются политиками конфиденциальности Apple, Google и RevenueCat.",
-      "uk": "Dear пропонує необов'язкові підписки та разові покупки через Apple App Store (і Google Play на Android). Apple і Google обробляють усі платежі; ми ніколи не бачимо й не зберігаємо дані вашої картки чи платежу. Щоб покупки відкривалися на різних пристроях і після перевстановлення, Dear використовує RevenueCat, який отримує анонімний запис про кожну транзакцію (куплений продукт, дату покупки та анонімний внутрішній ідентифікатор застосунку). У цьому записі немає ні імені, ні адреси пошти, ні платіжних даних. Ці дані регулюються політиками конфіденційності Apple, Google та RevenueCat."
+      "uk": "Dear пропонує необов'язкові підписки та разові покупки через Apple App Store (і Google Play на Android). Apple і Google обробляють усі платежі; ми ніколи не бачимо й не зберігаємо дані вашої картки чи платежу. Щоб покупки відкривалися на різних пристроях і після перевстановлення, Dear використовує RevenueCat, який отримує анонімний запис про кожну транзакцію (куплений продукт, дату покупки та анонімний внутрішній ідентифікатор застосунку). У цьому записі немає ні імені, ні адреси пошти, ні платіжних даних. Ці дані регулюються політиками конфіденційності Apple, Google та RevenueCat.",
+      "ja": "DearはApple App Store（AndroidではGoogle Play）を通じて、任意のサブスクリプションと買い切りの購入を提供しています。支払いの処理はすべてAppleとGoogleが行い、当社がカード情報や支払い情報を見たり保存したりすることはありません。購入した内容を複数の端末や再インストール後にも使えるようにするため、DearはRevenueCatを利用しています。RevenueCatは取引ごとに匿名の記録（購入した製品、購入日、匿名のアプリ内部識別子）を受け取ります。この記録に名前、メールアドレス、支払い情報は含まれません。このデータにはApple、Google、RevenueCatの各プライバシーポリシーが適用されます。"
     },
     "third_party_services_871d2b": {
       "en": "Third-party services",
@@ -1713,7 +1804,8 @@
       "sw": "Huduma za nje",
       "vi": "Dịch vụ bên thứ ba",
       "ru": "Сторонние сервисы",
-      "uk": "Сторонні сервіси"
+      "uk": "Сторонні сервіси",
+      "ja": "外部サービス"
     },
     "the_dear_app_uses_four_third_party_services_9dfaac": {
       "en": "The Dear app uses four third-party services. Apple StoreKit and Google Play Billing process in-app purchases. RevenueCat manages purchase entitlements and receives the anonymous transaction records described above. TelemetryDeck (anonymous usage analytics) receives the anonymous event counts described above. Sentry receives crash reports so we can fix what breaks; user identity is stripped from every report before it is sent, and no personal information is attached. No advertising networks, tracking libraries, or data brokers are used.",
@@ -1724,7 +1816,8 @@
       "sw": "Programu ya Dear inatumia huduma nne za nje. Apple StoreKit na Google Play Billing zinashughulikia manunuzi ndani ya programu. RevenueCat inasimamia haki za manunuzi na inapokea kumbukumbu za miamala zisizo na jina zilizoelezwa hapo juu. TelemetryDeck (uchanganuzi wa matumizi usio na jina) inapokea hesabu za matukio zisizo na jina zilizoelezwa hapo juu. Sentry inapokea ripoti za hitilafu ili tuweze kurekebisha kinachoharibika; utambulisho wa mtumiaji unaondolewa katika kila ripoti kabla ya kutumwa, na hakuna taarifa binafsi inayoambatanishwa. Hakuna mitandao ya matangazo, maktaba za ufuatiliaji, au madalali wa data wanaotumika.",
       "vi": "Ứng dụng Dear dùng bốn dịch vụ bên thứ ba. Apple StoreKit và Google Play Billing xử lý mua hàng trong ứng dụng. RevenueCat quản lý quyền sở hữu các khoản mua và nhận các bản ghi giao dịch ẩn danh nêu trên. TelemetryDeck (phân tích sử dụng ẩn danh) nhận số liệu sự kiện ẩn danh nêu trên. Sentry nhận báo cáo sự cố để chúng tôi sửa những gì hỏng; danh tính người dùng được gỡ khỏi mọi báo cáo trước khi gửi, và không thông tin cá nhân nào được đính kèm. Không dùng mạng quảng cáo, thư viện theo dõi hay môi giới dữ liệu nào.",
       "ru": "Приложение Dear использует четыре сторонних сервиса. Apple StoreKit и Google Play Billing обрабатывают покупки в приложении. RevenueCat управляет правами на покупки и получает анонимные записи о транзакциях, описанные выше. TelemetryDeck (анонимная аналитика использования) получает анонимные счётчики событий, описанные выше. Sentry получает отчёты о сбоях, чтобы мы могли чинить поломки; идентификация пользователя удаляется из каждого отчёта перед отправкой, и никакие персональные данные не прикрепляются. Рекламные сети, трекинговые библиотеки и брокеры данных не используются.",
-      "uk": "Застосунок Dear використовує чотири сторонні сервіси. Apple StoreKit і Google Play Billing обробляють покупки в застосунку. RevenueCat керує правами на покупки й отримує анонімні записи про транзакції, описані вище. TelemetryDeck (анонімна аналітика використання) отримує анонімні лічильники подій, описані вище. Sentry отримує звіти про збої, щоб ми могли лагодити поламане; ідентифікація користувача видаляється з кожного звіту перед надсиланням, і жодні персональні дані не додаються. Рекламні мережі, трекінгові бібліотеки та брокери даних не використовуються."
+      "uk": "Застосунок Dear використовує чотири сторонні сервіси. Apple StoreKit і Google Play Billing обробляють покупки в застосунку. RevenueCat керує правами на покупки й отримує анонімні записи про транзакції, описані вище. TelemetryDeck (анонімна аналітика використання) отримує анонімні лічильники подій, описані вище. Sentry отримує звіти про збої, щоб ми могли лагодити поламане; ідентифікація користувача видаляється з кожного звіту перед надсиланням, і жодні персональні дані не додаються. Рекламні мережі, трекінгові бібліотеки та брокери даних не використовуються.",
+      "ja": "Dearは4つの外部サービスを使っています。Apple StoreKitとGoogle Play Billingがアプリ内課金を処理します。RevenueCatは購入権を管理し、上に述べた匿名の取引記録を受け取ります。TelemetryDeck（匿名の利用分析）は上に述べた匿名のイベント回数を受け取ります。Sentryは不具合を直せるようクラッシュ報告を受け取ります。利用者の識別情報は送信前にすべての報告から取り除かれ、個人情報が添えられることはありません。広告ネットワーク、トラッキングライブラリ、データブローカーは一切使っていません。"
     },
     "this_website_36f800": {
       "en": "This website",
@@ -1735,7 +1828,8 @@
       "sw": "Tovuti hii",
       "vi": "Trang web này",
       "ru": "Этот сайт",
-      "uk": "Цей сайт"
+      "uk": "Цей сайт",
+      "ja": "このウェブサイト"
     },
     "this_policy_describes_the_dear_app_the_websi_ed6d0c": {
       "en": "This policy describes the Dear app. The website you are reading is separate, and it works differently. dearnudges.com has no accounts, no cookies, no analytics and no tracking scripts. It sets nothing in your browser and asks you for nothing.",
@@ -1746,7 +1840,8 @@
       "sw": "Sera hii inaelezea programu ya Dear. Tovuti unayoisoma ni tofauti, na inafanya kazi kwa namna nyingine. dearnudges.com haina akaunti, haina vidakuzi, haina uchanganuzi wala hati za ufuatiliaji. Haiwekei chochote kwenye kivinjari chako wala haikuombi chochote.",
       "vi": "Chính sách này mô tả ứng dụng Dear. Trang web bạn đang đọc là riêng biệt và hoạt động khác. dearnudges.com không có tài khoản, không cookie, không phân tích và không kịch bản theo dõi. Nó không đặt gì vào trình duyệt của bạn và không hỏi bạn điều gì.",
       "ru": "Эта политика описывает приложение Dear. Сайт, который вы читаете, устроен отдельно и работает иначе. У dearnudges.com нет аккаунтов, нет cookie, нет аналитики и нет трекинговых скриптов. Он ничего не записывает в ваш браузер и ничего у вас не спрашивает.",
-      "uk": "Ця політика описує застосунок Dear. Сайт, який ви читаєте, влаштований окремо й працює інакше. У dearnudges.com немає облікових записів, немає cookie, немає аналітики та немає трекінгових скриптів. Він нічого не записує у ваш браузер і нічого у вас не питає."
+      "uk": "Ця політика описує застосунок Dear. Сайт, який ви читаєте, влаштований окремо й працює інакше. У dearnudges.com немає облікових записів, немає cookie, немає аналітики та немає трекінгових скриптів. Він нічого не записує у ваш браузер і нічого у вас не питає.",
+      "ja": "このポリシーはDearアプリについて説明しています。いまご覧のウェブサイトは別のもので、動き方も違います。dearnudges.comにはアカウントも、Cookieも、分析も、トラッキングスクリプトもありません。ブラウザーに何かを置くことも、あなたに何かを尋ねることもありません。"
     },
     "two_companies_do_see_your_visit_because_they_48616d": {
       "en": "Two companies do see your visit, because they deliver the site: GitHub hosts the files, and Cloudflare serves them and handles security. Like any web host, both receive your IP address and browser details in their server logs. We do not control those logs and we do not read them. Fonts are served from this domain rather than a font provider, so no third party is contacted to display this page.",
@@ -1757,7 +1852,8 @@
       "sw": "Kampuni mbili zinaona ziara yako, kwa sababu ndizo zinazowasilisha tovuti: GitHub inahifadhi mafaili, na Cloudflare inayawasilisha na kushughulikia usalama. Kama mwenyeji yeyote wa tovuti, zote mbili zinapokea anwani yako ya IP na maelezo ya kivinjari katika kumbukumbu zao za seva. Hatudhibiti kumbukumbu hizo wala hatuzisomi. Fonti zinawasilishwa kutoka kwenye kikoa hiki badala ya mtoa fonti, kwa hivyo hakuna upande wa tatu unaowasiliana ili kuonyesha ukurasa huu.",
       "vi": "Có hai công ty thấy lượt truy cập của bạn, vì họ phân phối trang: GitHub lưu trữ các tệp, và Cloudflare phục vụ chúng cùng xử lý bảo mật. Như mọi nhà cung cấp lưu trữ web, cả hai đều nhận địa chỉ IP và thông tin trình duyệt của bạn trong nhật ký máy chủ. Chúng tôi không kiểm soát những nhật ký đó và không đọc chúng. Phông chữ được phục vụ từ chính miền này thay vì từ một nhà cung cấp phông, nên không bên thứ ba nào được liên hệ để hiển thị trang này.",
       "ru": "Две компании всё же видят ваш визит, потому что доставляют сайт: GitHub хранит файлы, а Cloudflare отдаёт их и обеспечивает безопасность. Как и любой веб-хостинг, обе получают ваш IP-адрес и данные браузера в свои серверные логи. Мы не управляем этими логами и не читаем их. Шрифты отдаются с этого же домена, а не от поставщика шрифтов, так что для показа страницы никто третий не привлекается.",
-      "uk": "Дві компанії все ж бачать ваш візит, бо доставляють сайт: GitHub зберігає файли, а Cloudflare віддає їх і забезпечує безпеку. Як і будь-який вебхостинг, обидві отримують вашу IP-адресу та дані браузера у свої серверні журнали. Ми не керуємо цими журналами й не читаємо їх. Шрифти віддаються з цього самого домену, а не від постачальника шрифтів, тож для показу сторінки жодна третя сторона не залучається."
+      "uk": "Дві компанії все ж бачать ваш візит, бо доставляють сайт: GitHub зберігає файли, а Cloudflare віддає їх і забезпечує безпеку. Як і будь-який вебхостинг, обидві отримують вашу IP-адресу та дані браузера у свої серверні журнали. Ми не керуємо цими журналами й не читаємо їх. Шрифти віддаються з цього самого домену, а не від постачальника шрифтів, тож для показу сторінки жодна третя сторона не залучається.",
+      "ja": "サイトを届けているため、2社があなたの訪問を見ています。GitHubがファイルを保管し、Cloudflareがそれを配信して安全性を担っています。どのウェブホストとも同じく、両社はサーバーのログにあなたのIPアドレスとブラウザーの情報を受け取ります。当社はそのログを管理しておらず、読むこともありません。フォントはフォント提供事業者ではなくこのドメインから配信されるため、このページを表示するために第三者へ接続することはありません。"
     },
     "data_sharing_f0155c": {
       "en": "Data sharing",
@@ -1768,7 +1864,8 @@
       "sw": "Kushiriki data",
       "vi": "Chia sẻ dữ liệu",
       "ru": "Передача данных",
-      "uk": "Передавання даних"
+      "uk": "Передавання даних",
+      "ja": "データの共有"
     },
     "we_do_not_sell_rent_or_share_your_data_the_a_4672a8": {
       "en": "We do not sell, rent, or share your data. The anonymous usage counts sent to TelemetryDeck are not linked to you personally and are not shared with any advertising network or data broker. TelemetryDeck's own privacy policy governs how they process these counts on their infrastructure.",
@@ -1779,7 +1876,8 @@
       "sw": "Hatuuzi, hatukodishi, wala hatushiriki data yako. Hesabu za matumizi zisizo na jina zinazotumwa TelemetryDeck haziunganishwi nawe binafsi na hazishirikiwi na mtandao wowote wa matangazo au dalali wa data. Sera ya faragha ya TelemetryDeck yenyewe ndiyo inayosimamia jinsi wanavyochakata hesabu hizi kwenye miundombinu yao.",
       "vi": "Chúng tôi không bán, cho thuê hay chia sẻ dữ liệu của bạn. Số liệu sử dụng ẩn danh gửi tới TelemetryDeck không gắn với cá nhân bạn và không được chia sẻ với bất kỳ mạng quảng cáo hay môi giới dữ liệu nào. Chính sách quyền riêng tư của TelemetryDeck điều chỉnh cách họ xử lý các số liệu này trên hạ tầng của mình.",
       "ru": "Мы не продаём, не сдаём в аренду и не передаём ваши данные. Анонимные счётчики использования, отправляемые в TelemetryDeck, не связаны с вами лично и не передаются ни рекламным сетям, ни брокерам данных. Порядок их обработки на своей инфраструктуре TelemetryDeck определяет собственной политикой конфиденциальности.",
-      "uk": "Ми не продаємо, не здаємо в оренду й не передаємо ваші дані. Анонімні лічильники використання, що надсилаються до TelemetryDeck, не пов'язані з вами особисто й не передаються ні рекламним мережам, ні брокерам даних. Порядок їх обробки на своїй інфраструктурі TelemetryDeck визначає власною політикою конфіденційності."
+      "uk": "Ми не продаємо, не здаємо в оренду й не передаємо ваші дані. Анонімні лічильники використання, що надсилаються до TelemetryDeck, не пов'язані з вами особисто й не передаються ні рекламним мережам, ні брокерам даних. Порядок їх обробки на своїй інфраструктурі TelemetryDeck визначає власною політикою конфіденційності.",
+      "ja": "当社はあなたのデータを販売、貸与、共有しません。TelemetryDeckへ送られる匿名の利用回数はあなた個人と結びついておらず、広告ネットワークやデータブローカーに共有されることもありません。TelemetryDeckが自社の基盤でこれらの回数をどう扱うかは、同社のプライバシーポリシーに従います。"
     },
     "children_s_privacy_eb4d03": {
       "en": "Children's privacy",
@@ -1790,7 +1888,8 @@
       "sw": "Faragha ya watoto",
       "vi": "Quyền riêng tư của trẻ em",
       "ru": "Приватность детей",
-      "uk": "Приватність дітей"
+      "uk": "Приватність дітей",
+      "ja": "子どものプライバシー"
     },
     "dear_does_not_knowingly_collect_any_personal_87069f": {
       "en": "Dear does not knowingly collect any personal information from children under the age of 13. The anonymous usage counts we collect through TelemetryDeck contain no personal data and cannot identify any individual user, including children.",
@@ -1801,7 +1900,8 @@
       "sw": "Dear haikusanyi kwa makusudi taarifa yoyote binafsi kutoka kwa watoto walio chini ya umri wa miaka 13. Hesabu za matumizi zisizo na jina tunazokusanya kupitia TelemetryDeck hazina data binafsi na haziwezi kumtambua mtumiaji yeyote, wakiwemo watoto.",
       "vi": "Dear không cố ý thu thập bất kỳ thông tin cá nhân nào từ trẻ em dưới 13 tuổi. Số liệu sử dụng ẩn danh chúng tôi thu thập qua TelemetryDeck không chứa dữ liệu cá nhân và không thể nhận diện bất kỳ người dùng nào, kể cả trẻ em.",
       "ru": "Dear сознательно не собирает персональные данные детей младше 13 лет. Анонимные счётчики использования, которые мы собираем через TelemetryDeck, не содержат персональных данных и не позволяют опознать ни одного пользователя, включая детей.",
-      "uk": "Dear свідомо не збирає персональні дані дітей до 13 років. Анонімні лічильники використання, які ми збираємо через TelemetryDeck, не містять персональних даних і не дозволяють упізнати жодного користувача, зокрема дітей."
+      "uk": "Dear свідомо не збирає персональні дані дітей до 13 років. Анонімні лічильники використання, які ми збираємо через TelemetryDeck, не містять персональних даних і не дозволяють упізнати жодного користувача, зокрема дітей.",
+      "ja": "Dearは13歳未満の子どもから個人情報を意図的に集めることはありません。TelemetryDeckを通じて集める匿名の利用回数には個人データが含まれず、子どもを含むいかなる利用者も特定できません。"
     },
     "dear_friend_7e1005": {
       "en": "Dear Friend",
@@ -1812,7 +1912,8 @@
       "sw": "Dear Friend",
       "vi": "Dear Friend",
       "ru": "Dear Friend",
-      "uk": "Dear Friend"
+      "uk": "Dear Friend",
+      "ja": "Dear Friend"
     },
     "if_you_choose_to_become_a_dear_friend_a_patr_d6ba58": {
       "en": "If you choose to become a Dear Friend (a patron tier within Dear), you may optionally share information with Elsewhere Index through email. This is entirely voluntary and happens outside the app.",
@@ -1823,7 +1924,8 @@
       "sw": "Ukichagua kuwa Dear Friend (kiwango cha mfadhili ndani ya Dear), unaweza kwa hiari kushiriki taarifa na Elsewhere Index kupitia barua pepe. Hii ni ya hiari kabisa na inatokea nje ya programu.",
       "vi": "Nếu bạn chọn trở thành Dear Friend (một bậc bảo trợ trong Dear), bạn có thể tùy ý chia sẻ thông tin với Elsewhere Index qua email. Việc này hoàn toàn tự nguyện và diễn ra ngoài ứng dụng.",
       "ru": "Если вы решите стать Dear Friend (уровень патрона внутри Dear), вы можете по желанию поделиться информацией с Elsewhere Index по электронной почте. Это полностью добровольно и происходит вне приложения.",
-      "uk": "Якщо ви вирішите стати Dear Friend (рівень патрона всередині Dear), ви можете за бажанням поділитися інформацією з Elsewhere Index електронною поштою. Це цілком добровільно й відбувається поза застосунком."
+      "uk": "Якщо ви вирішите стати Dear Friend (рівень патрона всередині Dear), ви можете за бажанням поділитися інформацією з Elsewhere Index електронною поштою. Це цілком добровільно й відбувається поза застосунком.",
+      "ja": "Dear Friend（Dear内の支援者向けの区分）になることを選んだ場合、任意でElsewhere Indexにメールで情報を共有できます。これは完全に任意で、アプリの外で行われます。"
     },
     "the_dear_friend_post_purchase_screen_may_hel_55ed35": {
       "en": "The Dear Friend post-purchase screen may help you compose an email to Elsewhere Index. This email may include:",
@@ -1834,7 +1936,8 @@
       "sw": "Skrini ya baada ya ununuzi ya Dear Friend inaweza kukusaidia kuandika barua pepe kwa Elsewhere Index. Barua pepe hii inaweza kujumuisha:",
       "vi": "Màn hình sau khi mua Dear Friend có thể giúp bạn soạn một email gửi Elsewhere Index. Email này có thể gồm:",
       "ru": "Экран после покупки Dear Friend может помочь составить письмо в Elsewhere Index. Такое письмо может содержать:",
-      "uk": "Екран після покупки Dear Friend може допомогти скласти лист до Elsewhere Index. Такий лист може містити:"
+      "uk": "Екран після покупки Dear Friend може допомогти скласти лист до Elsewhere Index. Такий лист може містити:",
+      "ja": "Dear Friendの購入後の画面では、Elsewhere Index宛のメールの作成をお手伝いすることがあります。このメールには次の内容が含まれる場合があります："
     },
     "this_email_is_composed_on_your_device_using_4c3688": {
       "en": "This email is composed on your device using your own email app. You review and send it yourself. Dear does not collect, store, or transmit this information through any server or API. Elsewhere Index receives it only through your email and uses it only for the stated purposes.",
@@ -1845,7 +1948,8 @@
       "sw": "Barua pepe hii inaandikwa kwenye kifaa chako kwa kutumia programu yako ya barua pepe. Wewe ndiye unayeikagua na kuituma. Dear haikusanyi, haihifadhi, wala haitumi taarifa hii kupitia seva au API yoyote. Elsewhere Index inaipokea kupitia barua pepe yako tu na inaitumia kwa madhumuni yaliyotajwa tu.",
       "vi": "Email này được soạn trên máy bạn bằng ứng dụng email của chính bạn. Bạn tự xem lại và gửi đi. Dear không thu thập, lưu trữ hay truyền thông tin này qua bất kỳ máy chủ hay API nào. Elsewhere Index chỉ nhận nó qua email của bạn và chỉ dùng cho các mục đích đã nêu.",
       "ru": "Это письмо составляется на вашем устройстве в вашем почтовом приложении. Вы сами его просматриваете и отправляете. Dear не собирает, не хранит и не передаёт эти сведения через какой-либо сервер или API. Elsewhere Index получает их только через вашу почту и использует только для указанных целей.",
-      "uk": "Цей лист складається на вашому пристрої у вашому поштовому застосунку. Ви самі його переглядаєте й надсилаєте. Dear не збирає, не зберігає й не передає ці відомості через жоден сервер чи API. Elsewhere Index отримує їх лише через вашу пошту й використовує лише для зазначених цілей."
+      "uk": "Цей лист складається на вашому пристрої у вашому поштовому застосунку. Ви самі його переглядаєте й надсилаєте. Dear не збирає, не зберігає й не передає ці відомості через жоден сервер чи API. Elsewhere Index отримує їх лише через вашу пошту й використовує лише для зазначених цілей.",
+      "ja": "このメールはあなたの端末で、あなた自身のメールアプリを使って作成されます。内容を確認して送るのもあなたです。Dearがこの情報をサーバーやAPIを通じて集めたり、保存したり、送信したりすることはありません。Elsewhere Indexはあなたのメールを通じてのみ受け取り、記載された目的にのみ使用します。"
     },
     "your_email_address_is_visible_to_elsewhere_i_2751ff": {
       "en": "Your email address is visible to Elsewhere Index when you send the message. It will not be added to any marketing list or shared with anyone else.",
@@ -1856,7 +1960,8 @@
       "sw": "Anwani yako ya barua pepe inaonekana kwa Elsewhere Index unapotuma ujumbe. Haitaongezwa kwenye orodha yoyote ya masoko wala kushirikiwa na mtu mwingine yeyote.",
       "vi": "Địa chỉ email của bạn hiện ra với Elsewhere Index khi bạn gửi tin nhắn. Nó sẽ không được thêm vào danh sách tiếp thị nào hay chia sẻ với bất kỳ ai khác.",
       "ru": "Ваш адрес электронной почты виден Elsewhere Index, когда вы отправляете сообщение. Он не будет добавлен ни в какие маркетинговые списки и не будет передан кому-либо ещё.",
-      "uk": "Ваша адреса електронної пошти видима для Elsewhere Index, коли ви надсилаєте повідомлення. Її не буде додано до жодних маркетингових списків і не буде передано комусь іще."
+      "uk": "Ваша адреса електронної пошти видима для Elsewhere Index, коли ви надсилаєте повідомлення. Її не буде додано до жодних маркетингових списків і не буде передано комусь іще.",
+      "ja": "メッセージを送ると、あなたのメールアドレスはElsewhere Indexに見えます。マーケティング用の名簿に加えられることも、ほかの誰かに共有されることもありません。"
     },
     "changes_to_this_policy_615043": {
       "en": "Changes to this policy",
@@ -1867,7 +1972,8 @@
       "sw": "Mabadiliko ya sera hii",
       "vi": "Thay đổi đối với chính sách này",
       "ru": "Изменения этой политики",
-      "uk": "Зміни цієї політики"
+      "uk": "Зміни цієї політики",
+      "ja": "このポリシーの変更"
     },
     "if_we_ever_change_how_dear_handles_data_for_896ab0": {
       "en": "If we ever change how Dear handles data (for example, adding optional cloud sync in a future version), we will update this policy and note the changes here. Any future feature that involves data transmission will be opt-in and clearly disclosed.",
@@ -1878,7 +1984,8 @@
       "sw": "Iwapo tutabadilisha jinsi Dear inavyoshughulikia data (kwa mfano, kuongeza usawazishaji wa wingu wa hiari katika toleo lijalo), tutasasisha sera hii na kuandika mabadiliko hapa. Kipengele chochote cha baadaye kinachohusisha kutuma data kitakuwa cha kujiunga kwa hiari na kitawekwa wazi.",
       "vi": "Nếu chúng tôi thay đổi cách Dear xử lý dữ liệu (ví dụ thêm đồng bộ đám mây tùy chọn ở phiên bản sau), chúng tôi sẽ cập nhật chính sách này và ghi lại thay đổi ở đây. Mọi tính năng trong tương lai có liên quan tới truyền dữ liệu sẽ là tùy chọn tham gia và được nêu rõ.",
       "ru": "Если мы когда-нибудь изменим то, как Dear обращается с данными (например, добавим необязательную синхронизацию с облаком в будущей версии), мы обновим эту политику и отметим изменения здесь. Любая будущая функция, связанная с передачей данных, будет подключаться по вашему выбору и будет чётко описана.",
-      "uk": "Якщо ми колись змінимо те, як Dear поводиться з даними (наприклад, додамо необов'язкову синхронізацію з хмарою в майбутній версії), ми оновимо цю політику й відзначимо зміни тут. Будь-яка майбутня функція, пов'язана з передаванням даних, підключатиметься за вашим вибором і буде чітко описана."
+      "uk": "Якщо ми колись змінимо те, як Dear поводиться з даними (наприклад, додамо необов'язкову синхронізацію з хмарою в майбутній версії), ми оновимо цю політику й відзначимо зміни тут. Будь-яка майбутня функція, пов'язана з передаванням даних, підключатиметься за вашим вибором і буде чітко описана.",
+      "ja": "Dearのデータの扱い方を変更する場合（たとえば今後のバージョンで任意のクラウド同期を追加する場合など）、このポリシーを更新し、変更点をここに記します。データの送信を伴う今後の機能は、すべて任意で有効にするものとし、明確にお知らせします。"
     },
     "if_you_have_questions_about_this_privacy_pol_88568f": {
       "en": "If you have questions about this privacy policy, you can reach us at support@dearnudges.com.",
@@ -1889,7 +1996,8 @@
       "sw": "Kama una maswali kuhusu sera hii ya faragha, unaweza kutufikia kupitia support@dearnudges.com.",
       "vi": "Nếu bạn có câu hỏi về chính sách quyền riêng tư này, bạn có thể liên hệ chúng tôi tại support@dearnudges.com.",
       "ru": "Если у вас есть вопросы об этой политике конфиденциальности, напишите нам на support@dearnudges.com.",
-      "uk": "Якщо у вас є запитання про цю політику конфіденційності, напишіть нам на support@dearnudges.com."
+      "uk": "Якщо у вас є запитання про цю політику конфіденційності, напишіть нам на support@dearnudges.com.",
+      "ja": "このプライバシーポリシーについてご質問があれば、support@dearnudges.comまでご連絡ください。"
     },
     "dear_stay_in_touch_is_made_by_elsewhere_inde_ae2a9d": {
       "en": "Dear: Stay in Touch is made by Elsewhere Index LLC. Distributed on the Apple App Store and Google Play with optional in-app purchases, no ads, no accounts, and no personal data collection.",
@@ -1900,7 +2008,8 @@
       "sw": "Dear: Stay in Touch imetengenezwa na Elsewhere Index LLC. Inasambazwa kupitia Apple App Store na Google Play ikiwa na manunuzi ya hiari ndani ya programu, bila matangazo, bila akaunti, na bila kukusanya data binafsi.",
       "vi": "Dear: Stay in Touch do Elsewhere Index LLC thực hiện. Phát hành trên Apple App Store và Google Play với các khoản mua trong ứng dụng tùy chọn, không quảng cáo, không tài khoản và không thu thập dữ liệu cá nhân.",
       "ru": "Dear: Stay in Touch создан Elsewhere Index LLC. Распространяется в Apple App Store и Google Play с необязательными покупками в приложении, без рекламы, без аккаунтов и без сбора персональных данных.",
-      "uk": "Dear: Stay in Touch створює Elsewhere Index LLC. Розповсюджується в Apple App Store і Google Play з необов'язковими покупками в застосунку, без реклами, без облікових записів і без збирання персональних даних."
+      "uk": "Dear: Stay in Touch створює Elsewhere Index LLC. Розповсюджується в Apple App Store і Google Play з необов'язковими покупками в застосунку, без реклами, без облікових записів і без збирання персональних даних.",
+      "ja": "Dear: Stay in TouchはElsewhere Index LLCが制作しています。Apple App StoreとGoogle Playで配信しており、任意のアプリ内課金があり、広告もアカウントも個人データの収集もありません。"
     },
     "the_research_05d3d7": {
       "en": "The Research",
@@ -1921,7 +2030,8 @@
       "sw": "Utafiti",
       "vi": "Nghiên cứu",
       "ru": "Исследования",
-      "uk": "Дослідження"
+      "uk": "Дослідження",
+      "ja": "研究"
     },
     "dear_is_built_on_behavioral_science_not_intu_710f16": {
       "en": "Dear is built on behavioral science, not intuition. Here are the studies that shaped the app.",
@@ -1942,7 +2052,8 @@
       "sw": "Dear imejengwa juu ya sayansi ya tabia, si hisia tu. Hii ndiyo tafiti zilizoiunda programu hii.",
       "vi": "Dear được xây trên khoa học hành vi, không phải cảm tính. Đây là những nghiên cứu đã định hình ứng dụng.",
       "ru": "Dear построен на поведенческой науке, а не на интуиции. Вот исследования, которые сформировали приложение.",
-      "uk": "Dear побудований на поведінковій науці, а не на інтуїції. Ось дослідження, які сформували застосунок."
+      "uk": "Dear побудований на поведінковій науці, а не на інтуїції. Ось дослідження, які сформували застосунок.",
+      "ja": "Dearは勘ではなく行動科学の上に作られています。アプリを形づくった研究をご紹介します。"
     },
     "the_appreciation_gap_bfd8ff": {
       "en": "The Appreciation Gap",
@@ -1963,7 +2074,8 @@
       "sw": "Thamani halisi ya ujumbe",
       "vi": "Giá trị thật của một tin nhắn",
       "ru": "Что на самом деле значит сообщение",
-      "uk": "Що насправді означає повідомлення"
+      "uk": "Що насправді означає повідомлення",
+      "ja": "メッセージが本当に持つ意味"
     },
     "people_consistently_underestimate_how_much_o_d8f19c": {
       "en": "People consistently underestimate how much others appreciate hearing from them, especially when reaching out \"just because.\"",
@@ -1984,7 +2096,8 @@
       "sw": "Mara kwa mara tunapunguza thamani ambayo wengine huipa kusikia kutoka kwetu, hasa ujumbe unaotumwa “bila sababu maalum”.",
       "vi": "Chúng ta luôn đánh giá thấp mức độ người khác trân trọng khi nghe tin từ ta, nhất là khi tin được gửi “chẳng vì lý do gì cả”.",
       "ru": "Мы регулярно недооцениваем, как ценят другие весточку от нас, особенно отправленную «просто так».",
-      "uk": "Ми регулярно недооцінюємо, як цінують інші звістку від нас, надто надіслану «просто так»."
+      "uk": "Ми регулярно недооцінюємо, як цінують інші звістку від нас, надто надіслану «просто так».",
+      "ja": "私たちは自分からの連絡が相手にどれほど喜ばれるかをいつも過小評価しています。とくに「なんとなく」送ったときに。"
     },
     "across_multiple_experiments_senders_predicte_8d4f07": {
       "en": "Across multiple experiments, senders predicted recipients would feel mildly pleased. Recipients actually felt deeply touched. The gap was largest when people hadn't been in contact for a long time.",
@@ -2005,7 +2118,8 @@
       "sw": "Katika majaribio kadhaa, watumaji walidhani wapokeaji wangefurahi kidogo tu. Kiuhalisia waliguswa sana. Pengo lilikuwa kubwa zaidi pale ambapo mawasiliano yalikuwa yamekatika kwa muda mrefu.",
       "vi": "Qua nhiều thí nghiệm, người gửi dự đoán người nhận sẽ chỉ hơi vui. Thực tế họ xúc động sâu sắc. Khoảng cách lớn nhất khi hai bên đã lâu không liên lạc.",
       "ru": "В нескольких экспериментах отправители полагали, что получатели обрадуются слегка. На деле те были глубоко тронуты. Разрыв был самым большим там, где долго не общались.",
-      "uk": "У кількох експериментах відправники гадали, що одержувачі зрадіють трохи. Насправді вони були глибоко зворушені. Розрив був найбільшим там, де довго не спілкувалися."
+      "uk": "У кількох експериментах відправники гадали, що одержувачі зрадіють трохи. Насправді вони були глибоко зворушені. Розрив був найбільшим там, де довго не спілкувалися.",
+      "ja": "複数の実験で、送り手は受け手が少し喜ぶ程度だろうと予想しました。実際には深く心を動かされていました。差が最も大きかったのは、長く連絡が途絶えていた場合です。"
     },
     "liu_p_j_rim_s_min_l_amp_min_k_e_2022_journal_dbf70e": {
       "en": "Liu, P.J., Rim, S., Min, L., &amp; Min, K.E. (2022). <em>Journal of Personality and Social Psychology</em>. <a href=\"https://doi.org/10.1037/pspi0000402\">doi:10.1037/pspi0000402</a>",
@@ -2026,7 +2140,8 @@
       "sw": "Liu, P.J., Rim, S., Min, L., &amp; Min, K.E. (2022). <em>Journal of Personality and Social Psychology</em>. <a href=\"https://doi.org/10.1037/pspi0000402\">doi:10.1037/pspi0000402</a>",
       "vi": "Liu, P.J., Rim, S., Min, L., &amp; Min, K.E. (2022). <em>Journal of Personality and Social Psychology</em>. <a href=\"https://doi.org/10.1037/pspi0000402\">doi:10.1037/pspi0000402</a>",
       "ru": "Liu, P.J., Rim, S., Min, L., &amp; Min, K.E. (2022). <em>Journal of Personality and Social Psychology</em>. <a href=\"https://doi.org/10.1037/pspi0000402\">doi:10.1037/pspi0000402</a>",
-      "uk": "Liu, P.J., Rim, S., Min, L., &amp; Min, K.E. (2022). <em>Journal of Personality and Social Psychology</em>. <a href=\"https://doi.org/10.1037/pspi0000402\">doi:10.1037/pspi0000402</a>"
+      "uk": "Liu, P.J., Rim, S., Min, L., &amp; Min, K.E. (2022). <em>Journal of Personality and Social Psychology</em>. <a href=\"https://doi.org/10.1037/pspi0000402\">doi:10.1037/pspi0000402</a>",
+      "ja": "Liu, P.J., Rim, S., Min, L., &amp; Min, K.E.（2022年）. <em>Journal of Personality and Social Psychology</em>. <a href=\"https://doi.org/10.1037/pspi0000402\">doi:10.1037/pspi0000402</a>"
     },
     "this_is_why_dear_exists_the_nudge_closes_the_e230b2": {
       "en": "This is why Dear exists. The nudge closes the gap between thinking about someone and actually reaching out.",
@@ -2047,7 +2162,8 @@
       "sw": "Ndiyo maana Dear ipo. Kikumbusho kinaziba pengo kati ya kumfikiria mtu na kuwasiliana naye kweli.",
       "vi": "Đây là lý do Dear tồn tại. Lời nhắc lấp khoảng cách giữa việc nghĩ về ai đó và việc thật sự liên lạc với họ.",
       "ru": "Ради этого Dear и существует. Напоминание закрывает разрыв между мыслью о человеке и настоящим сообщением ему.",
-      "uk": "Заради цього Dear і існує. Нагадування закриває розрив між думкою про людину та справжнім повідомленням їй."
+      "uk": "Заради цього Dear і існує. Нагадування закриває розрив між думкою про людину та справжнім повідомленням їй.",
+      "ja": "だからDearがあります。リマインダーが、誰かを思うことと実際に連絡することの隔たりを埋めます。"
     },
     "people_overestimate_how_awkward_it_will_feel_1c799f": {
       "en": "People overestimate how awkward it will feel to reconnect with a lapsed friendship. The anticipatory anxiety is almost always worse than the actual conversation.",
@@ -2068,7 +2184,8 @@
       "sw": "Tunazidisha jinsi itakavyokuwa vigumu kufufua urafiki uliolala kwa muda mrefu. Wasiwasi wa kabla karibu daima ni mbaya zaidi kuliko mazungumzo yenyewe.",
       "vi": "Chúng ta phóng đại mức độ ngại ngùng khi nối lại một tình bạn đã ngủ quên từ lâu. Nỗi lo trước đó gần như luôn tệ hơn chính cuộc trò chuyện.",
       "ru": "Мы преувеличиваем, насколько неловко будет возобновить давно уснувшую дружбу. Тревога перед разговором почти всегда хуже самого разговора.",
-      "uk": "Ми перебільшуємо, наскільки ніяково буде відновити давно приспану дружбу. Тривога перед розмовою майже завжди гірша за саму розмову."
+      "uk": "Ми перебільшуємо, наскільки ніяково буде відновити давно приспану дружбу. Тривога перед розмовою майже завжди гірша за саму розмову.",
+      "ja": "長く眠っていた友情を再開するとき、どれほど気まずいかを私たちは大げさに見積もります。事前の不安は、たいてい会話そのものより重いのです。"
     },
     "boothby_e_j_amp_bohns_v_k_2021_journal_of_pe_103e0f": {
       "en": "Boothby, E.J. &amp; Bohns, V.K. (2021). <em>Journal of Personality and Social Psychology</em>. See also: <a href=\"https://hbr.org/2022/02/you-should-actually-reach-out-to-that-old-friend\">Harvard Business Review summary</a>",
@@ -2089,7 +2206,8 @@
       "sw": "Boothby, E.J. &amp; Bohns, V.K. (2021). <em>Journal of Personality and Social Psychology</em>. Tazama pia: <a href=\"https://hbr.org/2022/02/you-should-actually-reach-out-to-that-old-friend\">muhtasari wa Harvard Business Review</a>",
       "vi": "Boothby, E.J. &amp; Bohns, V.K. (2021). <em>Journal of Personality and Social Psychology</em>. Xem thêm: <a href=\"https://hbr.org/2022/02/you-should-actually-reach-out-to-that-old-friend\">bản tóm tắt của Harvard Business Review</a>",
       "ru": "Boothby, E.J. &amp; Bohns, V.K. (2021). <em>Journal of Personality and Social Psychology</em>. См. также: <a href=\"https://hbr.org/2022/02/you-should-actually-reach-out-to-that-old-friend\">обзор Harvard Business Review</a>",
-      "uk": "Boothby, E.J. &amp; Bohns, V.K. (2021). <em>Journal of Personality and Social Psychology</em>. Див. також: <a href=\"https://hbr.org/2022/02/you-should-actually-reach-out-to-that-old-friend\">огляд Harvard Business Review</a>"
+      "uk": "Boothby, E.J. &amp; Bohns, V.K. (2021). <em>Journal of Personality and Social Psychology</em>. Див. також: <a href=\"https://hbr.org/2022/02/you-should-actually-reach-out-to-that-old-friend\">огляд Harvard Business Review</a>",
+      "ja": "Boothby, E.J. &amp; Bohns, V.K.（2021年）. <em>Journal of Personality and Social Psychology</em>. こちらも参照：<a href=\"https://hbr.org/2022/02/you-should-actually-reach-out-to-that-old-friend\">Harvard Business Reviewの要約</a>"
     },
     "dunbar_s_social_layers_5605b4": {
       "en": "Dunbar's Social Layers",
@@ -2110,7 +2228,8 @@
       "sw": "Tabaka za kijamii za Dunbar",
       "vi": "Các lớp xã hội của Dunbar",
       "ru": "Социальные слои Данбара",
-      "uk": "Соціальні шари Данбара"
+      "uk": "Соціальні шари Данбара",
+      "ja": "ダンバーの社会的な層"
     },
     "humans_organize_relationships_in_concentric_a04fe1": {
       "en": "Humans organize relationships in concentric layers: ~5 intimate, ~15 close friends, ~50 active network, ~150 stable contacts. Each layer roughly triples in size.",
@@ -2131,7 +2250,8 @@
       "sw": "Binadamu hupanga mahusiano katika tabaka zinazozunguka: takriban 5 wa karibu zaidi, takriban 15 marafiki wa karibu, takriban 50 katika mtandao hai, takriban 150 wanaojulikana kwa uthabiti. Kila tabaka ni takriban mara tatu ya iliyotangulia.",
       "vi": "Con người sắp xếp các mối quan hệ thành những lớp đồng tâm: khoảng 5 người thân thiết nhất, khoảng 15 người bạn thân, khoảng 50 người trong mạng lưới đang hoạt động, khoảng 150 người quen ổn định. Mỗi lớp lớn gấp khoảng ba lần lớp trước.",
       "ru": "Люди выстраивают отношения концентрическими слоями: около 5 самых близких, около 15 близких друзей, около 50 в активной сети, около 150 устойчивых знакомств. Каждый слой примерно втрое больше предыдущего.",
-      "uk": "Люди вибудовують стосунки концентричними шарами: близько 5 найближчих, близько 15 близьких друзів, близько 50 в активній мережі, близько 150 сталих знайомств. Кожен шар приблизно втричі більший за попередній."
+      "uk": "Люди вибудовують стосунки концентричними шарами: близько 5 найближчих, близько 15 близьких друзів, близько 50 в активній мережі, близько 150 сталих знайомств. Кожен шар приблизно втричі більший за попередній.",
+      "ja": "人は同心円状の層に人間関係を並べます。最も近い5人ほど、親しい友人15人ほど、活発なつながり50人ほど、安定した知人150人ほど。各層は前の層のおよそ3倍です。"
     },
     "dunbar_r_i_m_2016_personal_relationships_doi_8e56c8": {
       "en": "Dunbar, R.I.M. (2016). <em>Personal Relationships</em>. <a href=\"https://doi.org/10.1111/pere.12149\">doi:10.1111/pere.12149</a>",
@@ -2152,7 +2272,8 @@
       "sw": "Dunbar, R.I.M. (2016). <em>Personal Relationships</em>. <a href=\"https://doi.org/10.1111/pere.12149\">doi:10.1111/pere.12149</a>",
       "vi": "Dunbar, R.I.M. (2016). <em>Personal Relationships</em>. <a href=\"https://doi.org/10.1111/pere.12149\">doi:10.1111/pere.12149</a>",
       "ru": "Dunbar, R.I.M. (2016). <em>Personal Relationships</em>. <a href=\"https://doi.org/10.1111/pere.12149\">doi:10.1111/pere.12149</a>",
-      "uk": "Dunbar, R.I.M. (2016). <em>Personal Relationships</em>. <a href=\"https://doi.org/10.1111/pere.12149\">doi:10.1111/pere.12149</a>"
+      "uk": "Dunbar, R.I.M. (2016). <em>Personal Relationships</em>. <a href=\"https://doi.org/10.1111/pere.12149\">doi:10.1111/pere.12149</a>",
+      "ja": "Dunbar, R.I.M.（2016年）. <em>Personal Relationships</em>. <a href=\"https://doi.org/10.1111/pere.12149\">doi:10.1111/pere.12149</a>"
     },
     "dear_s_frequency_tiers_mirror_dunbar_s_layer_6fd217": {
       "en": "Dear's frequency tiers mirror Dunbar's layers. You set your own rhythm for each person, and the app respects it.",
@@ -2173,7 +2294,8 @@
       "sw": "Viwango vya mara ngapi vya Dear vinaakisi tabaka za Dunbar. Wewe unaweka mwendo kwa kila mtu, na programu inafuata.",
       "vi": "Các mức tần suất của Dear phản chiếu các lớp của Dunbar. Bạn đặt nhịp cho từng người, và ứng dụng làm theo.",
       "ru": "Уровни частоты в Dear отражают слои Данбара. Вы задаёте ритм для каждого, а приложение следует ему.",
-      "uk": "Рівні частоти в Dear відображають шари Данбара. Ви задаєте ритм для кожного, а застосунок його дотримується."
+      "uk": "Рівні частоти в Dear відображають шари Данбара. Ви задаєте ритм для кожного, а застосунок його дотримується.",
+      "ja": "Dearの頻度の段階はダンバーの層を映しています。相手ごとのペースはあなたが決め、アプリはそれに従います。"
     },
     "phone_and_video_calls_can_maintain_the_two_c_f0cea6": {
       "en": "Phone and video calls can maintain the two closest layers of friendship (5 and 15) with similar effectiveness to in-person contact. Text and social media alone cannot.",
@@ -2194,7 +2316,8 @@
       "sw": "Simu za sauti na video zinaweza kudumisha tabaka mbili za karibu zaidi za urafiki (5 na 15) karibu vizuri kama kukutana ana kwa ana. Ujumbe na mitandao ya kijamii pekee haviwezi.",
       "vi": "Gọi điện và gọi video có thể duy trì hai lớp tình bạn thân thiết nhất (5 và 15) gần tốt như gặp mặt trực tiếp. Chỉ nhắn tin và mạng xã hội thì không.",
       "ru": "Звонки и видеозвонки поддерживают два самых близких слоя дружбы (5 и 15) почти так же хорошо, как встречи вживую. Одни сообщения и соцсети так не работают.",
-      "uk": "Дзвінки та відеодзвінки підтримують два найближчі шари дружби (5 і 15) майже так само добре, як зустрічі наживо. Самі лише повідомлення та соцмережі так не працюють."
+      "uk": "Дзвінки та відеодзвінки підтримують два найближчі шари дружби (5 і 15) майже так само добре, як зустрічі наживо. Самі лише повідомлення та соцмережі так не працюють.",
+      "ja": "音声通話とビデオ通話は、最も近い2つの友情の層（5人と15人）を、対面とほぼ同じくらいよく保てます。メッセージやSNSだけではそうはいきません。"
     },
     "dunbar_r_i_m_et_al_2021_royal_society_open_s_78abf0": {
       "en": "Dunbar, R.I.M. et al. (2021). <em>Royal Society Open Science</em>. <a href=\"https://doi.org/10.1098/rsos.210298\">doi:10.1098/rsos.210298</a>",
@@ -2215,7 +2338,8 @@
       "sw": "Dunbar, R.I.M. et al. (2021). <em>Royal Society Open Science</em>. <a href=\"https://doi.org/10.1098/rsos.210298\">doi:10.1098/rsos.210298</a>",
       "vi": "Dunbar, R.I.M. và cộng sự (2021). <em>Royal Society Open Science</em>. <a href=\"https://doi.org/10.1098/rsos.210298\">doi:10.1098/rsos.210298</a>",
       "ru": "Dunbar, R.I.M. и др. (2021). <em>Royal Society Open Science</em>. <a href=\"https://doi.org/10.1098/rsos.210298\">doi:10.1098/rsos.210298</a>",
-      "uk": "Dunbar, R.I.M. та ін. (2021). <em>Royal Society Open Science</em>. <a href=\"https://doi.org/10.1098/rsos.210298\">doi:10.1098/rsos.210298</a>"
+      "uk": "Dunbar, R.I.M. та ін. (2021). <em>Royal Society Open Science</em>. <a href=\"https://doi.org/10.1098/rsos.210298\">doi:10.1098/rsos.210298</a>",
+      "ja": "Dunbar, R.I.M. ほか（2021年）. <em>Royal Society Open Science</em>. <a href=\"https://doi.org/10.1098/rsos.210298\">doi:10.1098/rsos.210298</a>"
     },
     "dear_offers_text_call_and_facetime_buttons_f_f41ff8": {
       "en": "Dear offers text, call, and FaceTime buttons for each nudge. The call and video options exist because the research says they matter.",
@@ -2236,7 +2360,8 @@
       "sw": "Dear inatoa vitufe vya ujumbe, simu, na FaceTime kwa kila kikumbusho. Chaguo za simu na video zipo kwa sababu utafiti unasema zina maana.",
       "vi": "Dear có nút nhắn tin, gọi điện và FaceTime trên mọi lời nhắc. Các lựa chọn gọi và video tồn tại vì nghiên cứu nói rằng chúng quan trọng.",
       "ru": "В каждом напоминании Dear есть кнопки сообщения, звонка и FaceTime. Звонок и видео там потому, что исследования говорят: они важны.",
-      "uk": "У кожному нагадуванні Dear є кнопки повідомлення, дзвінка та FaceTime. Дзвінок і відео там тому, що дослідження кажуть: вони важливі."
+      "uk": "У кожному нагадуванні Dear є кнопки повідомлення, дзвінка та FaceTime. Дзвінок і відео там тому, що дослідження кажуть: вони важливі.",
+      "ja": "Dearはどのリマインダーにもメッセージ、通話、FaceTimeのボタンを用意しています。通話とビデオがあるのは、研究がそれを大切だと示しているからです。"
     },
     "implementation_intentions_c7abfd": {
       "en": "Implementation Intentions",
@@ -2257,7 +2382,8 @@
       "sw": "Nia za utekelezaji",
       "vi": "Ý định thực hiện",
       "ru": "Намерения реализации",
-      "uk": "Наміри реалізації"
+      "uk": "Наміри реалізації",
+      "ja": "実行意図"
     },
     "specific_plans_i_will_do_x_at_time_y_in_plac_383870": {
       "en": "Specific plans (\"I will do X at time Y in place Z\") dramatically increase follow-through compared to general intentions (\"I should do X\").",
@@ -2278,7 +2404,8 @@
       "sw": "Mipango mahususi (“nitafanya X saa Y mahali Z”) huongeza utekelezaji kwa kiasi kikubwa kuliko nia za jumla (“ninapaswa kufanya X”).",
       "vi": "Kế hoạch cụ thể (“tôi sẽ làm X vào lúc Y ở nơi Z”) làm tăng khả năng thực hiện nhiều hơn hẳn so với ý định chung chung (“tôi nên làm X”).",
       "ru": "Конкретные планы («я сделаю X в момент Y в месте Z») повышают вероятность выполнения гораздо сильнее, чем общие намерения («надо бы сделать X»).",
-      "uk": "Конкретні плани («я зроблю X о годині Y у місці Z») підвищують імовірність виконання значно сильніше, ніж загальні наміри («треба б зробити X»)."
+      "uk": "Конкретні плани («я зроблю X о годині Y у місці Z») підвищують імовірність виконання значно сильніше, ніж загальні наміри («треба б зробити X»).",
+      "ja": "具体的な計画（「Zの場所でY時にXをする」）は、漠然とした意図（「Xをしなければ」）よりも実行率をはるかに高めます。"
     },
     "this_is_the_difference_between_i_should_text_472e56": {
       "en": "This is the difference between \"I should text my friend more\" and Dear showing you a specific person with a one-tap action. The specificity is the mechanism.",
@@ -2299,7 +2426,8 @@
       "sw": "Hii ndiyo tofauti kati ya “ninapaswa kuwasiliana na marafiki mara nyingi zaidi” na Dear inayokuonyesha mtu mmoja mahususi na tendo lililo mguso mmoja tu. Umahususi ndiyo utaratibu wenyewe.",
       "vi": "Đây là khác biệt giữa “mình nên liên lạc với bạn bè thường xuyên hơn” và việc Dear chỉ ra một người cụ thể cùng một hành động chỉ cách một cú chạm. Chính sự cụ thể là cơ chế.",
       "ru": "В этом и разница между «надо бы чаще писать друзьям» и Dear, который показывает конкретного человека и действие в одно касание. Конкретность и есть механизм.",
-      "uk": "У цьому й різниця між «треба б частіше писати друзям» і Dear, який показує конкретну людину та дію в один дотик. Конкретність і є механізмом."
+      "uk": "У цьому й різниця між «треба б частіше писати друзям» і Dear, який показує конкретну людину та дію в один дотик. Конкретність і є механізмом.",
+      "ja": "これが「もっと友達に連絡しなきゃ」と、特定の相手とタップひとつの行動を示すDearとの違いです。具体性そのものが仕組みなのです。"
     },
     "gollwitzer_p_m_1999_american_psychologist_54_2c5ce4": {
       "en": "Gollwitzer, P.M. (1999). <em>American Psychologist</em>, 54(7), 493-503.",
@@ -2320,7 +2448,8 @@
       "sw": "Gollwitzer, P.M. (1999). <em>American Psychologist</em>, 54(7), 493-503.",
       "vi": "Gollwitzer, P.M. (1999). <em>American Psychologist</em>, 54(7), 493-503.",
       "ru": "Gollwitzer, P.M. (1999). <em>American Psychologist</em>, 54(7), 493-503.",
-      "uk": "Gollwitzer, P.M. (1999). <em>American Psychologist</em>, 54(7), 493-503."
+      "uk": "Gollwitzer, P.M. (1999). <em>American Psychologist</em>, 54(7), 493-503.",
+      "ja": "Gollwitzer, P.M.（1999年）. <em>American Psychologist</em>, 54(7), 493-503."
     },
     "the_loneliness_epidemic_c407a3": {
       "en": "The Loneliness Epidemic",
@@ -2341,7 +2470,8 @@
       "sw": "Janga la upweke",
       "vi": "Đại dịch cô đơn",
       "ru": "Эпидемия одиночества",
-      "uk": "Епідемія самотності"
+      "uk": "Епідемія самотності",
+      "ja": "孤独という流行病"
     },
     "1_in_4_people_worldwide_report_feeling_lonel_906f0d": {
       "en": "1 in 6 people worldwide are affected by loneliness. The WHO declared loneliness a pressing global health threat in 2023, and its Commission on Social Connection published the global figure in 2025.",
@@ -2362,7 +2492,8 @@
       "sw": "Mtu 1 kati ya 6 duniani anaathiriwa na upweke. WHO ilitangaza upweke kuwa tishio la dharura la afya duniani mwaka 2023, na Tume yake ya Muunganiko wa Kijamii ilichapisha takwimu hiyo ya kimataifa mwaka 2025.",
       "vi": "1 trong 6 người trên thế giới chịu ảnh hưởng của sự cô đơn. WHO đã tuyên bố cô đơn là mối đe dọa sức khỏe toàn cầu cấp bách vào năm 2023, và Ủy ban về Kết nối Xã hội của tổ chức này công bố con số toàn cầu đó vào năm 2025.",
       "ru": "Каждый шестой человек в мире страдает от одиночества. В 2023 году ВОЗ объявила одиночество неотложной глобальной угрозой здоровью, а её Комиссия по социальным связям опубликовала эту мировую цифру в 2025 году.",
-      "uk": "Кожна шоста людина у світі потерпає від самотності. У 2023 році ВООЗ оголосила самотність нагальною глобальною загрозою здоров'ю, а її Комісія із соціальних зв'язків оприлюднила цю світову цифру у 2025 році."
+      "uk": "Кожна шоста людина у світі потерпає від самотності. У 2023 році ВООЗ оголосила самотність нагальною глобальною загрозою здоров'ю, а її Комісія із соціальних зв'язків оприлюднила цю світову цифру у 2025 році.",
+      "ja": "世界で6人に1人が孤独の影響を受けています。WHOは2023年に孤独を差し迫った世界的な健康上の脅威と宣言し、社会的つながりに関する委員会が2025年にこの世界的な数字を公表しました。"
     },
     "who_commission_on_social_connection_2023_who_94494c": {
       "en": "WHO Commission on Social Connection (2025). <a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\">who.int</a>",
@@ -2383,7 +2514,8 @@
       "sw": "WHO Commission on Social Connection (2025). <a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\">who.int</a>",
       "vi": "WHO Commission on Social Connection (2025). <a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\">who.int</a>",
       "ru": "WHO Commission on Social Connection (2025). <a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\">who.int</a>",
-      "uk": "WHO Commission on Social Connection (2025). <a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\">who.int</a>"
+      "uk": "WHO Commission on Social Connection (2025). <a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\">who.int</a>",
+      "ja": "WHO Commission on Social Connection（2025年）. <a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\">who.int</a>"
     },
     "social_isolation_increases_the_risk_of_prema_a4f744": {
       "en": "Social isolation increases the risk of premature death by 26%, comparable to smoking 15 cigarettes a day.",
@@ -2404,7 +2536,8 @@
       "sw": "Kutengwa kijamii huongeza hatari ya kifo cha mapema kwa 26&nbsp;%, sawa na sigara 15 kwa siku.",
       "vi": "Cô lập xã hội làm tăng nguy cơ tử vong sớm thêm 26&nbsp;%, tương đương 15 điếu thuốc mỗi ngày.",
       "ru": "Социальная изоляция повышает риск преждевременной смерти на 26&nbsp;%, что сопоставимо с 15 сигаретами в день.",
-      "uk": "Соціальна ізоляція підвищує ризик передчасної смерті на 26&nbsp;%, що можна порівняти з 15 цигарками на день."
+      "uk": "Соціальна ізоляція підвищує ризик передчасної смерті на 26&nbsp;%, що можна порівняти з 15 цигарками на день.",
+      "ja": "社会的孤立は早期死亡のリスクを26&nbsp;%高めます。これは1日15本の喫煙に相当します。"
     },
     "holt_lunstad_j_et_al_2010_plos_medicine_doi_e69342": {
       "en": "Holt-Lunstad, J. et al. (2010). <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
@@ -2425,7 +2558,8 @@
       "sw": "Holt-Lunstad, J. et al. (2010). <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
       "vi": "Holt-Lunstad, J. và cộng sự (2010). <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
       "ru": "Holt-Lunstad, J. и др. (2010). <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
-      "uk": "Holt-Lunstad, J. та ін. (2010). <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>"
+      "uk": "Holt-Lunstad, J. та ін. (2010). <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
+      "ja": "Holt-Lunstad, J. ほか（2010年）. <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>"
     },
     "people_with_strong_social_ties_were_50_more_d506ab": {
       "en": "People with strong social ties were 50% more likely to still be alive at follow-up than those with weak ties.",
@@ -2446,7 +2580,8 @@
       "sw": "Watu wenye mahusiano imara ya kijamii walikuwa na uwezekano wa 50&nbsp;% zaidi wa kuwa hai wakati wa ufuatiliaji kuliko wale wenye mahusiano dhaifu.",
       "vi": "Những người có mối liên kết xã hội bền chặt có khả năng còn sống ở thời điểm theo dõi cao hơn 50&nbsp;% so với người có liên kết yếu.",
       "ru": "У людей с крепкими социальными связями шанс быть живыми на момент повторного обследования был на 50&nbsp;% выше, чем у людей со слабыми связями.",
-      "uk": "У людей із міцними соціальними зв'язками шанс бути живими на момент повторного обстеження був на 50&nbsp;% вищий, ніж у людей зі слабкими зв'язками."
+      "uk": "У людей із міцними соціальними зв'язками шанс бути живими на момент повторного обстеження був на 50&nbsp;% вищий, ніж у людей зі слабкими зв'язками.",
+      "ja": "社会的なつながりが強い人は、弱い人に比べて追跡調査時に生存している可能性が50&nbsp;%高いという結果でした。"
     },
     "holt_lunstad_j_et_al_2010_meta_analysis_acro_a83c7e": {
       "en": "Holt-Lunstad, J. et al. (2010). Meta-analysis across 148 studies, 308,849 participants. <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
@@ -2467,7 +2602,8 @@
       "sw": "Holt-Lunstad, J. et al. (2010). Uchambuzi wa tafiti 148, washiriki 308,849. <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
       "vi": "Holt-Lunstad, J. và cộng sự (2010). Phân tích tổng hợp 148 nghiên cứu, 308.849 người tham gia. <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
       "ru": "Holt-Lunstad, J. и др. (2010). Метаанализ 148 исследований, 308 849 участников. <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
-      "uk": "Holt-Lunstad, J. та ін. (2010). Метааналіз 148 досліджень, 308 849 учасників. <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>"
+      "uk": "Holt-Lunstad, J. та ін. (2010). Метааналіз 148 досліджень, 308 849 учасників. <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
+      "ja": "Holt-Lunstad, J. ほか（2010年）. 148件の研究、308,849人の参加者を対象としたメタ分析. <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>"
     },
     "the_single_strongest_predictor_of_late_life_2b883f": {
       "en": "The single strongest predictor of late-life happiness and health is the quality of close relationships.",
@@ -2488,7 +2624,8 @@
       "sw": "Kiashiria kikubwa zaidi cha furaha na afya katika uzee ni ubora wa mahusiano ya karibu.",
       "vi": "Yếu tố dự báo mạnh nhất cho hạnh phúc và sức khỏe ở tuổi già là chất lượng của các mối quan hệ thân thiết.",
       "ru": "Сильнее всего счастье и здоровье в старости предсказывает качество близких отношений.",
-      "uk": "Найсильніше щастя та здоров'я в старості передбачає якість близьких стосунків."
+      "uk": "Найсильніше щастя та здоров'я в старості передбачає якість близьких стосунків.",
+      "ja": "晩年の幸福と健康を最も強く予測するのは、親密な人間関係の質です。"
     },
     "harvard_s_grant_study_followed_724_people_fo_b47955": {
       "en": "Harvard's Grant Study followed 724 people for 85 years. Not wealth, not fame, not achievement. Relationships.",
@@ -2509,7 +2646,8 @@
       "sw": "Grant Study ya Harvard ilifuatilia watu 724 kwa miaka 85. Si utajiri, si umaarufu, si mafanikio. Mahusiano.",
       "vi": "Nghiên cứu Grant của Harvard theo dõi 724 người trong 85 năm. Không phải tài sản, không phải danh tiếng, không phải thành tựu. Là các mối quan hệ.",
       "ru": "Гарвардское исследование Grant Study наблюдало 724 человека на протяжении 85 лет. Не богатство, не слава, не достижения. Отношения.",
-      "uk": "Гарвардське дослідження Grant Study спостерігало 724 особи протягом 85 років. Не багатство, не слава, не досягнення. Стосунки."
+      "uk": "Гарвардське дослідження Grant Study спостерігало 724 особи протягом 85 років. Не багатство, не слава, не досягнення. Стосунки.",
+      "ja": "ハーバードのGrant Studyは724人を85年にわたって追跡しました。富でも、名声でも、業績でもありません。人間関係でした。"
     },
     "waldinger_r_amp_schulz_m_2023_the_good_life_5257d5": {
       "en": "Waldinger, R. &amp; Schulz, M. (2023). <em>The Good Life</em>. <a href=\"https://www.adultdevelopmentstudy.org\">adultdevelopmentstudy.org</a>",
@@ -2530,7 +2668,8 @@
       "sw": "Waldinger, R. &amp; Schulz, M. (2023). <em>The Good Life</em>. <a href=\"https://www.adultdevelopmentstudy.org\">adultdevelopmentstudy.org</a>",
       "vi": "Waldinger, R. &amp; Schulz, M. (2023). <em>The Good Life</em>. <a href=\"https://www.adultdevelopmentstudy.org\">adultdevelopmentstudy.org</a>",
       "ru": "Waldinger, R. &amp; Schulz, M. (2023). <em>The Good Life</em>. <a href=\"https://www.adultdevelopmentstudy.org\">adultdevelopmentstudy.org</a>",
-      "uk": "Waldinger, R. &amp; Schulz, M. (2023). <em>The Good Life</em>. <a href=\"https://www.adultdevelopmentstudy.org\">adultdevelopmentstudy.org</a>"
+      "uk": "Waldinger, R. &amp; Schulz, M. (2023). <em>The Good Life</em>. <a href=\"https://www.adultdevelopmentstudy.org\">adultdevelopmentstudy.org</a>",
+      "ja": "Waldinger, R. &amp; Schulz, M.（2023年）. <em>The Good Life</em>. <a href=\"https://www.adultdevelopmentstudy.org\">adultdevelopmentstudy.org</a>"
     },
     "friendship_drift_9374b5": {
       "en": "Friendship Drift",
@@ -2551,7 +2690,8 @@
       "sw": "Urafiki unapofifia",
       "vi": "Khi tình bạn nhạt dần",
       "ru": "Когда дружба тускнеет",
-      "uk": "Коли дружба тьмяніє"
+      "uk": "Коли дружба тьмяніє",
+      "ja": "友情が薄れていくとき"
     },
     "the_average_american_has_3_close_friends_dow_3bdc3a": {
       "en": "The average American has 3 close friends, down from 5 in 1990. 15% of men report having no close friends at all, up from 3% in 1990.",
@@ -2572,7 +2712,8 @@
       "sw": "Mmarekani wa kawaida ana marafiki 3 wa karibu, kutoka 5 mwaka 1990. Asilimia 15 ya wanaume wanasema hawana hata mmoja, kutoka asilimia 3 mwaka 1990.",
       "vi": "Người Mỹ trung bình có 3 người bạn thân, giảm từ 5 vào năm 1990. 15&nbsp;% nam giới nói họ không có ai, tăng từ 3&nbsp;% năm 1990.",
       "ru": "У среднего американца 3 близких друга против 5 в 1990 году. 15&nbsp;% мужчин говорят, что у них нет ни одного, против 3&nbsp;% в 1990 году.",
-      "uk": "У пересічного американця 3 близьких друзі проти 5 у 1990 році. 15&nbsp;% чоловіків кажуть, що не мають жодного, проти 3&nbsp;% у 1990 році."
+      "uk": "У пересічного американця 3 близьких друзі проти 5 у 1990 році. 15&nbsp;% чоловіків кажуть, що не мають жодного, проти 3&nbsp;% у 1990 році.",
+      "ja": "平均的なアメリカ人の親しい友人は3人で、1990年の5人から減りました。男性の15&nbsp;%はひとりもいないと答えており、1990年の3&nbsp;%から増えています。"
     },
     "survey_center_on_american_life_2021_the_stat_a5808b": {
       "en": "Survey Center on American Life (2021). <a href=\"https://www.americansurveycenter.org/research/the-state-of-american-friendship-change-challenges-and-the-search-for-connection/\"><em>The State of American Friendship</em></a>",
@@ -2593,7 +2734,8 @@
       "sw": "Survey Center on American Life (2021). <a href=\"https://www.americansurveycenter.org/research/the-state-of-american-friendship-change-challenges-and-the-search-for-connection/\"><em>The State of American Friendship</em></a>",
       "vi": "Survey Center on American Life (2021). <a href=\"https://www.americansurveycenter.org/research/the-state-of-american-friendship-change-challenges-and-the-search-for-connection/\"><em>The State of American Friendship</em></a>",
       "ru": "Survey Center on American Life (2021). <a href=\"https://www.americansurveycenter.org/research/the-state-of-american-friendship-change-challenges-and-the-search-for-connection/\"><em>The State of American Friendship</em></a>",
-      "uk": "Survey Center on American Life (2021). <a href=\"https://www.americansurveycenter.org/research/the-state-of-american-friendship-change-challenges-and-the-search-for-connection/\"><em>The State of American Friendship</em></a>"
+      "uk": "Survey Center on American Life (2021). <a href=\"https://www.americansurveycenter.org/research/the-state-of-american-friendship-change-challenges-and-the-search-for-connection/\"><em>The State of American Friendship</em></a>",
+      "ja": "Survey Center on American Life（2021年）. <a href=\"https://www.americansurveycenter.org/research/the-state-of-american-friendship-change-challenges-and-the-search-for-connection/\"><em>The State of American Friendship</em></a>"
     },
     "friendship_requires_roughly_50_hours_to_move_4b69c7": {
       "en": "Friendship requires roughly 50 hours to move from acquaintance to casual friend, 90 hours to become a genuine friend, and 200+ hours for a close friendship.",
@@ -2614,7 +2756,8 @@
       "sw": "Inachukua takriban saa 50 kwa mtu unayemjua kuwa rafiki wa kawaida, saa 90 kuwa rafiki wa kweli, na zaidi ya saa 200 kuwa wa karibu.",
       "vi": "Cần khoảng 50 giờ để một người quen thành bạn bình thường, 90 giờ để thành bạn thật sự, và hơn 200 giờ để thành bạn thân.",
       "ru": "Чтобы знакомый стал приятелем, нужно около 50 часов, чтобы стал настоящим другом, около 90 часов, а чтобы стал близким, более 200 часов.",
-      "uk": "Щоб знайомий став приятелем, потрібно близько 50 годин, щоб став справжнім другом, близько 90 годин, а щоб став близьким, понад 200 годин."
+      "uk": "Щоб знайомий став приятелем, потрібно близько 50 годин, щоб став справжнім другом, близько 90 годин, а щоб став близьким, понад 200 годин.",
+      "ja": "知人が気軽な友人になるにはおよそ50時間、本当の友人になるには90時間、親しい友人になるには200時間以上かかります。"
     },
     "hall_j_a_2018_journal_of_social_and_personal_947fe1": {
       "en": "Hall, J.A. (2018). <em>Journal of Social and Personal Relationships</em>. <a href=\"https://doi.org/10.1177/0265407518761225\">doi:10.1177/0265407518761225</a>",
@@ -2635,7 +2778,8 @@
       "sw": "Hall, J.A. (2018). <em>Journal of Social and Personal Relationships</em>. <a href=\"https://doi.org/10.1177/0265407518761225\">doi:10.1177/0265407518761225</a>",
       "vi": "Hall, J.A. (2018). <em>Journal of Social and Personal Relationships</em>. <a href=\"https://doi.org/10.1177/0265407518761225\">doi:10.1177/0265407518761225</a>",
       "ru": "Hall, J.A. (2018). <em>Journal of Social and Personal Relationships</em>. <a href=\"https://doi.org/10.1177/0265407518761225\">doi:10.1177/0265407518761225</a>",
-      "uk": "Hall, J.A. (2018). <em>Journal of Social and Personal Relationships</em>. <a href=\"https://doi.org/10.1177/0265407518761225\">doi:10.1177/0265407518761225</a>"
+      "uk": "Hall, J.A. (2018). <em>Journal of Social and Personal Relationships</em>. <a href=\"https://doi.org/10.1177/0265407518761225\">doi:10.1177/0265407518761225</a>",
+      "ja": "Hall, J.A.（2018年）. <em>Journal of Social and Personal Relationships</em>. <a href=\"https://doi.org/10.1177/0265407518761225\">doi:10.1177/0265407518761225</a>"
     },
     "dear_can_t_create_hours_together_but_it_can_c24a6d": {
       "en": "Dear can't create hours together. But it can make sure you don't lose the ones you've already invested in.",
@@ -2656,7 +2800,8 @@
       "sw": "Dear haiwezi kuunda saa za kuwa pamoja. Lakini inaweza kuhakikisha kwamba zile ulizokwisha kuwekeza haziendi bure.",
       "vi": "Dear không thể tạo ra những giờ bên nhau. Nhưng nó có thể đảm bảo những giờ bạn đã bỏ ra không trôi đi vô ích.",
       "ru": "Dear не может создать часы, проведённые вместе. Но может сделать так, чтобы уже вложенные не пропали зря.",
-      "uk": "Dear не може створити години, проведені разом. Але може зробити так, щоб уже вкладені не пропали марно."
+      "uk": "Dear не може створити години, проведені разом. Але може зробити так, щоб уже вкладені не пропали марно.",
+      "ja": "Dearは一緒に過ごす時間を作り出せません。でも、すでに注いだ時間が無駄にならないようにはできます。"
     },
     "dear_is_collaborating_with_researchers_to_st_1064ff": {
       "en": "Dear is collaborating with researchers to study the impact of gentle nudges on relationship maintenance. If you're a researcher interested in this work, reach out at <a href=\"mailto:support@dearnudges.com\">support@dearnudges.com</a>.",
@@ -2677,7 +2822,8 @@
       "sw": "Dear inashirikiana na watafiti kuchunguza athari za vikumbusho laini kwenye kudumisha mahusiano. Kama unafanya utafiti katika eneo hili, wasiliana nasi kupitia <a href=\"mailto:support@dearnudges.com\">support@dearnudges.com</a>.",
       "vi": "Dear đang hợp tác với các nhà nghiên cứu để tìm hiểu tác động của những lời nhắc nhẹ nhàng lên việc duy trì quan hệ. Nếu bạn nghiên cứu lĩnh vực này, hãy liên hệ <a href=\"mailto:support@dearnudges.com\">support@dearnudges.com</a>.",
       "ru": "Dear сотрудничает с исследователями, изучая, как мягкие напоминания влияют на поддержание отношений. Если вы работаете в этой области, напишите на <a href=\"mailto:support@dearnudges.com\">support@dearnudges.com</a>.",
-      "uk": "Dear співпрацює з дослідниками, вивчаючи, як м'які нагадування впливають на підтримання стосунків. Якщо ви працюєте в цій царині, напишіть на <a href=\"mailto:support@dearnudges.com\">support@dearnudges.com</a>."
+      "uk": "Dear співпрацює з дослідниками, вивчаючи, як м'які нагадування впливають на підтримання стосунків. Якщо ви працюєте в цій царині, напишіть на <a href=\"mailto:support@dearnudges.com\">support@dearnudges.com</a>.",
+      "ja": "Dearは研究者と協力し、やさしいリマインダーが人間関係の維持に与える影響を調べています。この分野を研究されている方は<a href=\"mailto:support@dearnudges.com\">support@dearnudges.com</a>までご連絡ください。"
     },
     "support_f32d5a": {
       "en": "Support",
@@ -2698,7 +2844,8 @@
       "sw": "Msaada",
       "vi": "Hỗ trợ",
       "ru": "Поддержка",
-      "uk": "Підтримка"
+      "uk": "Підтримка",
+      "ja": "サポート"
     },
     "find_answers_below_or_email_us_if_you_need_m_6811b1": {
       "en": "Find answers below, or email us if you need more help.",
@@ -2719,7 +2866,8 @@
       "sw": "Pata majibu hapa chini, au tutumie barua pepe ukihitaji msaada zaidi.",
       "vi": "Tìm câu trả lời bên dưới, hoặc gửi email cho chúng tôi nếu bạn cần thêm trợ giúp.",
       "ru": "Ответы ниже, а если нужна дополнительная помощь, напишите нам.",
-      "uk": "Відповіді нижче, а якщо потрібна додаткова допомога, напишіть нам."
+      "uk": "Відповіді нижче, а якщо потрібна додаткова допомога, напишіть нам.",
+      "ja": "下の回答をご覧ください。さらにお困りのことがあればメールでご連絡ください。"
     },
     "getting_started_010b85": {
       "en": "Getting Started",
@@ -2740,7 +2888,8 @@
       "sw": "Kuanza",
       "vi": "Bắt đầu",
       "ru": "Начало работы",
-      "uk": "Початок роботи"
+      "uk": "Початок роботи",
+      "ja": "はじめに"
     },
     "how_do_i_add_people_to_dear_70b829": {
       "en": "How do I add people to Dear?",
@@ -2761,7 +2910,8 @@
       "sw": "Ninaongezaje watu kwenye Dear?",
       "vi": "Làm sao để thêm người vào Dear?",
       "ru": "Как добавить людей в Dear?",
-      "uk": "Як додати людей до Dear?"
+      "uk": "Як додати людей до Dear?",
+      "ja": "Dearに人を追加するには？"
     },
     "why_does_dear_need_access_to_my_contacts_b2dfff": {
       "en": "Why does Dear need access to my contacts?",
@@ -2782,7 +2932,8 @@
       "sw": "Kwa nini Dear inahitaji ufikiaji wa anwani zangu?",
       "vi": "Vì sao Dear cần truy cập danh bạ của tôi?",
       "ru": "Зачем Dear доступ к моим контактам?",
-      "uk": "Навіщо Dear доступ до моїх контактів?"
+      "uk": "Навіщо Dear доступ до моїх контактів?",
+      "ja": "なぜDearに連絡先へのアクセスが必要なのですか？"
     },
     "how_do_nudge_reminders_work_db1df1": {
       "en": "How do nudge reminders work?",
@@ -2803,7 +2954,8 @@
       "sw": "Vikumbusho vinafanyaje kazi?",
       "vi": "Lời nhắc hoạt động thế nào?",
       "ru": "Как работают напоминания?",
-      "uk": "Як працюють нагадування?"
+      "uk": "Як працюють нагадування?",
+      "ja": "リマインダーはどう動きますか？"
     },
     "how_do_i_set_up_notifications_1b2035": {
       "en": "How do I set up notifications?",
@@ -2824,7 +2976,8 @@
       "sw": "Ninawashaje arifa?",
       "vi": "Làm sao để bật thông báo?",
       "ru": "Как включить уведомления?",
-      "uk": "Як увімкнути сповіщення?"
+      "uk": "Як увімкнути сповіщення?",
+      "ja": "通知をオンにするには？"
     },
     "what_are_the_frequency_options_7edba9": {
       "en": "What are the frequency options?",
@@ -2845,7 +2998,8 @@
       "sw": "Chaguo za mara ngapi ni zipi?",
       "vi": "Có những tùy chọn tần suất nào?",
       "ru": "Какие есть варианты частоты?",
-      "uk": "Які є варіанти частоти?"
+      "uk": "Які є варіанти частоти?",
+      "ja": "頻度の選択肢は？"
     },
     "subscriptions_and_purchases_a684ca": {
       "en": "Subscriptions and Purchases",
@@ -2866,7 +3020,8 @@
       "sw": "Usajili na manunuzi",
       "vi": "Gói đăng ký và mua hàng",
       "ru": "Подписки и покупки",
-      "uk": "Підписки та покупки"
+      "uk": "Підписки та покупки",
+      "ja": "サブスクリプションと購入"
     },
     "what_s_included_in_the_free_version_1d7461": {
       "en": "What's included in the free version?",
@@ -2887,7 +3042,8 @@
       "sw": "Toleo la bure lina nini?",
       "vi": "Bản miễn phí có gì?",
       "ru": "Что входит в бесплатную версию?",
-      "uk": "Що входить у безкоштовну версію?"
+      "uk": "Що входить у безкоштовну версію?",
+      "ja": "無料版には何が含まれますか？"
     },
     "what_s_the_difference_between_monthly_and_an_90dbf5": {
       "en": "What's the difference between Monthly and Annual?",
@@ -2908,7 +3064,8 @@
       "sw": "Kuna tofauti gani kati ya kila mwezi na kila mwaka?",
       "vi": "Gói tháng và gói năm khác nhau thế nào?",
       "ru": "Чем месячная подписка отличается от годовой?",
-      "uk": "Чим місячна підписка відрізняється від річної?"
+      "uk": "Чим місячна підписка відрізняється від річної?",
+      "ja": "月額と年額の違いは？"
     },
     "what_s_the_difference_between_individual_voi_739033": {
       "en": "What's the difference between individual voices, the Voice Bundle, and Dear+?",
@@ -2929,7 +3086,8 @@
       "sw": "Kuna tofauti gani kati ya sauti moja, kifurushi cha sauti, na Dear+?",
       "vi": "Giọng lẻ, gói giọng và Dear+ khác nhau thế nào?",
       "ru": "Чем отличаются отдельные голоса, набор голосов и Dear+?",
-      "uk": "Чим відрізняються окремі голоси, набір голосів і Dear+?"
+      "uk": "Чим відрізняються окремі голоси, набір голосів і Dear+?",
+      "ja": "個別の声、声のセット、Dear+の違いは？"
     },
     "how_do_i_restore_my_purchases_on_a_new_devic_4b4193": {
       "en": "How do I restore my purchases on a new device?",
@@ -2950,7 +3108,8 @@
       "sw": "Ninarudishaje manunuzi yangu kwenye kifaa kipya?",
       "vi": "Làm sao khôi phục các khoản đã mua trên máy mới?",
       "ru": "Как восстановить покупки на новом устройстве?",
-      "uk": "Як відновити покупки на новому пристрої?"
+      "uk": "Як відновити покупки на новому пристрої?",
+      "ja": "新しい端末で購入を復元するには？"
     },
     "how_do_i_cancel_my_subscription_902dd7": {
       "en": "How do I cancel my subscription?",
@@ -2971,7 +3130,8 @@
       "sw": "Ninasitishaje usajili wangu?",
       "vi": "Làm sao để hủy gói đăng ký?",
       "ru": "Как отменить подписку?",
-      "uk": "Як скасувати підписку?"
+      "uk": "Як скасувати підписку?",
+      "ja": "サブスクリプションを解約するには？"
     },
     "i_was_charged_but_my_purchase_isn_t_showing_3b582a": {
       "en": "I was charged but my purchase isn't showing up.",
@@ -2992,7 +3152,8 @@
       "sw": "Nimetozwa lakini ununuzi wangu hauonekani.",
       "vi": "Tôi đã bị tính phí nhưng khoản mua không hiện ra.",
       "ru": "Деньги списались, а покупка не появилась.",
-      "uk": "Гроші списалися, а покупка не з'явилася."
+      "uk": "Гроші списалися, а покупка не з'явилася.",
+      "ja": "請求されたのに購入が反映されません。"
     },
     "do_individual_voice_purchases_expire_385dc8": {
       "en": "Do individual voice purchases expire?",
@@ -3013,7 +3174,8 @@
       "sw": "Je, sauti za peke yake zinaisha muda?",
       "vi": "Giọng mua lẻ có hết hạn không?",
       "ru": "Истекает ли срок у отдельных голосов?",
-      "uk": "Чи спливає термін в окремих голосів?"
+      "uk": "Чи спливає термін в окремих голосів?",
+      "ja": "個別に買った声に期限はありますか？"
     },
     "voices_and_personas_30403a": {
       "en": "Voices and Personas",
@@ -3034,7 +3196,8 @@
       "sw": "Sauti na wahusika",
       "vi": "Giọng và nhân vật",
       "ru": "Голоса и персонажи",
-      "uk": "Голоси та персонажі"
+      "uk": "Голоси та персонажі",
+      "ja": "声とキャラクター"
     },
     "how_do_i_change_my_nudge_voice_d88a71": {
       "en": "How do I change my nudge voice?",
@@ -3055,7 +3218,8 @@
       "sw": "Ninabadilishaje sauti ya kikumbusho?",
       "vi": "Làm sao đổi giọng nhắc?",
       "ru": "Как сменить голос напоминаний?",
-      "uk": "Як змінити голос нагадувань?"
+      "uk": "Як змінити голос нагадувань?",
+      "ja": "リマインダーの声を変えるには？"
     },
     "what_voices_are_included_for_free_ed7ae1": {
       "en": "What voices are included for free?",
@@ -3076,7 +3240,8 @@
       "sw": "Ni sauti zipi ni bure?",
       "vi": "Những giọng nào miễn phí?",
       "ru": "Какие голоса бесплатные?",
-      "uk": "Які голоси безкоштовні?"
+      "uk": "Які голоси безкоштовні?",
+      "ja": "無料の声はどれですか？"
     },
     "what_do_the_premium_voices_sound_like_ad33a6": {
       "en": "What do the premium voices sound like?",
@@ -3097,7 +3262,8 @@
       "sw": "Sauti za malipo zinasikikaje?",
       "vi": "Các giọng trả phí nghe như thế nào?",
       "ru": "Как звучат платные голоса?",
-      "uk": "Як звучать платні голоси?"
+      "uk": "Як звучать платні голоси?",
+      "ja": "有料の声はどんな感じですか？"
     },
     "what_are_trilingual_voices_a14ab1": {
       "en": "What are trilingual voices?",
@@ -3118,7 +3284,8 @@
       "sw": "Sauti za lugha tatu ni zipi?",
       "vi": "Giọng ba thứ tiếng là gì?",
       "ru": "Что такое трёхъязычные голоса?",
-      "uk": "Що таке тримовні голоси?"
+      "uk": "Що таке тримовні голоси?",
+      "ja": "三言語対応の声とは？"
     },
     "features_fc338f": {
       "en": "Features",
@@ -3139,7 +3306,8 @@
       "sw": "Vipengele",
       "vi": "Tính năng",
       "ru": "Возможности",
-      "uk": "Можливості"
+      "uk": "Можливості",
+      "ja": "機能"
     },
     "how_does_the_whatsapp_toggle_work_6bf3b3": {
       "en": "How does the WhatsApp toggle work?",
@@ -3160,7 +3328,8 @@
       "sw": "Kitufe cha WhatsApp kinafanyaje kazi?",
       "vi": "Nút WhatsApp hoạt động thế nào?",
       "ru": "Как работает переключатель WhatsApp?",
-      "uk": "Як працює перемикач WhatsApp?"
+      "uk": "Як працює перемикач WhatsApp?",
+      "ja": "WhatsAppの切り替えはどう動きますか？"
     },
     "how_do_i_set_up_the_dear_widget_addf2e": {
       "en": "How do I set up the Dear widget?",
@@ -3181,7 +3350,8 @@
       "sw": "Ninawekaje wijeti ya Dear?",
       "vi": "Làm sao để cài widget Dear?",
       "ru": "Как настроить виджет Dear?",
-      "uk": "Як налаштувати віджет Dear?"
+      "uk": "Як налаштувати віджет Dear?",
+      "ja": "Dearのウィジェットを設定するには？"
     },
     "how_many_nudges_do_i_get_per_day_20ea93": {
       "en": "How many nudges do I get per day?",
@@ -3202,7 +3372,8 @@
       "sw": "Napata vikumbusho vingapi kwa siku?",
       "vi": "Mỗi ngày tôi nhận bao nhiêu lời nhắc?",
       "ru": "Сколько напоминаний в день я получаю?",
-      "uk": "Скільки нагадувань на день я отримую?"
+      "uk": "Скільки нагадувань на день я отримую?",
+      "ja": "一日に届くリマインダーはいくつですか？"
     },
     "privacy_and_data_77fbe4": {
       "en": "Privacy and Data",
@@ -3223,7 +3394,8 @@
       "sw": "Faragha na data",
       "vi": "Quyền riêng tư và dữ liệu",
       "ru": "Приватность и данные",
-      "uk": "Приватність і дані"
+      "uk": "Приватність і дані",
+      "ja": "プライバシーとデータ"
     },
     "does_dear_collect_my_data_eb702c": {
       "en": "Does Dear collect my data?",
@@ -3244,7 +3416,8 @@
       "sw": "Je, Dear inakusanya data yangu?",
       "vi": "Dear có thu thập dữ liệu của tôi không?",
       "ru": "Собирает ли Dear мои данные?",
-      "uk": "Чи збирає Dear мої дані?"
+      "uk": "Чи збирає Dear мої дані?",
+      "ja": "Dearは私のデータを集めますか？"
     },
     "do_i_need_to_create_an_account_02edb7": {
       "en": "Do I need to create an account?",
@@ -3265,7 +3438,8 @@
       "sw": "Je, ninahitaji kufungua akaunti?",
       "vi": "Tôi có cần tạo tài khoản không?",
       "ru": "Нужно ли создавать аккаунт?",
-      "uk": "Чи потрібно створювати обліковий запис?"
+      "uk": "Чи потрібно створювати обліковий запис?",
+      "ja": "アカウントを作る必要はありますか？"
     },
     "can_dear_see_my_messages_or_call_history_dda1f4": {
       "en": "Can Dear see my messages or call history?",
@@ -3286,7 +3460,8 @@
       "sw": "Je, Dear inaweza kuona ujumbe au simu zangu?",
       "vi": "Dear có thấy tin nhắn hay lịch sử cuộc gọi của tôi không?",
       "ru": "Видит ли Dear мои сообщения или звонки?",
-      "uk": "Чи бачить Dear мої повідомлення або дзвінки?"
+      "uk": "Чи бачить Dear мої повідомлення або дзвінки?",
+      "ja": "Dearはメッセージや通話履歴を見られますか？"
     },
     "troubleshooting_285ec8": {
       "en": "Troubleshooting",
@@ -3307,7 +3482,8 @@
       "sw": "Kutatua matatizo",
       "vi": "Khắc phục sự cố",
       "ru": "Устранение неполадок",
-      "uk": "Усунення несправностей"
+      "uk": "Усунення несправностей",
+      "ja": "トラブルシューティング"
     },
     "i_m_not_receiving_notifications_0524f0": {
       "en": "I'm not receiving notifications.",
@@ -3328,7 +3504,8 @@
       "sw": "Sipati arifa.",
       "vi": "Tôi không nhận được thông báo.",
       "ru": "Уведомления не приходят.",
-      "uk": "Сповіщення не надходять."
+      "uk": "Сповіщення не надходять.",
+      "ja": "通知が届きません。"
     },
     "my_contacts_aren_t_appearing_in_the_app_b88618": {
       "en": "My contacts aren't appearing in the app.",
@@ -3349,7 +3526,8 @@
       "sw": "Anwani zangu hazionekani kwenye programu.",
       "vi": "Danh bạ của tôi không hiện trong ứng dụng.",
       "ru": "Мои контакты не появляются в приложении.",
-      "uk": "Мої контакти не з'являються в застосунку."
+      "uk": "Мої контакти не з'являються в застосунку.",
+      "ja": "連絡先がアプリに表示されません。"
     },
     "a_purchase_isn_t_unlocking_973b26": {
       "en": "A purchase isn't unlocking.",
@@ -3370,7 +3548,8 @@
       "sw": "Ununuzi haufunguki.",
       "vi": "Khoản đã mua không mở khóa.",
       "ru": "Покупка не открывается.",
-      "uk": "Покупка не відкривається."
+      "uk": "Покупка не відкривається.",
+      "ja": "購入したのに使えません。"
     },
     "still_need_help_25e6e3": {
       "en": "Still need help?",
@@ -3391,7 +3570,8 @@
       "sw": "Bado unahitaji msaada?",
       "vi": "Vẫn cần trợ giúp?",
       "ru": "Нужна ещё помощь?",
-      "uk": "Потрібна ще допомога?"
+      "uk": "Потрібна ще допомога?",
+      "ja": "まだお困りですか？"
     },
     "we_usually_respond_within_48_hours_b73fa9": {
       "en": "We usually respond within 48 hours.",
@@ -3412,7 +3592,8 @@
       "sw": "Kwa kawaida tunajibu ndani ya saa 48.",
       "vi": "Chúng tôi thường phản hồi trong vòng 48 giờ.",
       "ru": "Обычно мы отвечаем в течение 48 часов.",
-      "uk": "Зазвичай ми відповідаємо протягом 48 годин."
+      "uk": "Зазвичай ми відповідаємо протягом 48 годин.",
+      "ja": "通常48時間以内に返信します。"
     }
   },
   "ready": [
@@ -3434,7 +3615,8 @@
     "sw",
     "vi",
     "ru",
-    "uk"
+    "uk",
+    "ja"
   ],
   "names": {
     "en": "EN",
@@ -3455,7 +3637,8 @@
     "sw": "SW",
     "vi": "VI",
     "ru": "RU",
-    "uk": "UK"
+    "uk": "UK",
+    "ja": "JA"
   },
   "nav": {
     "nav_home": {
@@ -3477,7 +3660,8 @@
       "sw": "Mwanzo",
       "vi": "Trang chủ",
       "ru": "Главная",
-      "uk": "Головна"
+      "uk": "Головна",
+      "ja": "ホーム"
     },
     "nav_about": {
       "en": "About",
@@ -3498,7 +3682,8 @@
       "sw": "Kuhusu",
       "vi": "Giới thiệu",
       "ru": "О приложении",
-      "uk": "Про застосунок"
+      "uk": "Про застосунок",
+      "ja": "概要"
     },
     "nav_research": {
       "en": "Research",
@@ -3519,7 +3704,8 @@
       "sw": "Utafiti",
       "vi": "Nghiên cứu",
       "ru": "Исследования",
-      "uk": "Дослідження"
+      "uk": "Дослідження",
+      "ja": "研究"
     },
     "nav_faq": {
       "en": "FAQ",
@@ -3540,7 +3726,8 @@
       "sw": "Maswali",
       "vi": "Hỏi đáp",
       "ru": "Вопросы",
-      "uk": "Запитання"
+      "uk": "Запитання",
+      "ja": "よくある質問"
     },
     "nav_privacy": {
       "en": "Privacy",
@@ -3561,7 +3748,8 @@
       "sw": "Faragha",
       "vi": "Riêng tư",
       "ru": "Приватность",
-      "uk": "Приватність"
+      "uk": "Приватність",
+      "ja": "プライバシー"
     },
     "nav_press": {
       "en": "Press",
@@ -3582,7 +3770,8 @@
       "sw": "Habari",
       "vi": "Báo chí",
       "ru": "Пресса",
-      "uk": "Преса"
+      "uk": "Преса",
+      "ja": "プレス"
     }
   },
   "meta": {
@@ -3606,7 +3795,8 @@
         "sw": "Dear: endelea kuwasiliana",
         "vi": "Dear: giữ liên lạc",
         "ru": "Dear: оставайтесь на связи",
-        "uk": "Dear: залишайтеся на зв'язку"
+        "uk": "Dear: залишайтеся на зв'язку",
+        "ja": "Dear：つながりを保つ"
       },
       "desc": {
         "en": "One gentle nudge a day to stay close to the people who matter. Free, private, no accounts needed.",
@@ -3627,7 +3817,8 @@
         "sw": "Kikumbusho kimoja laini kwa siku ili ubaki karibu na watu muhimu. Bure, faragha, hakuna akaunti.",
         "vi": "Mỗi ngày một lời nhắc nhẹ nhàng để ở gần những người quan trọng. Miễn phí, riêng tư, không cần tài khoản.",
         "ru": "Одно мягкое напоминание в день, чтобы быть ближе к важным людям. Бесплатно, приватно, без аккаунтов.",
-        "uk": "Одне м'яке нагадування на день, щоб бути ближче до важливих людей. Безкоштовно, приватно, без облікових записів."
+        "uk": "Одне м'яке нагадування на день, щоб бути ближче до важливих людей. Безкоштовно, приватно, без облікових записів.",
+        "ja": "大切な人と近くあり続けるための、一日ひとつのやさしいリマインダー。無料、プライベート、アカウント不要。"
       }
     },
     "about.html": {
@@ -3650,7 +3841,8 @@
         "sw": "Kuhusu Dear",
         "vi": "Về Dear",
         "ru": "О Dear",
-        "uk": "Про Dear"
+        "uk": "Про Dear",
+        "ja": "Dearについて"
       },
       "desc": {
         "en": "Why Dear exists, the research behind it, and how it works.",
@@ -3671,7 +3863,8 @@
         "sw": "Kwa nini Dear ipo, utafiti ulioifanya, na jinsi inavyofanya kazi.",
         "vi": "Vì sao có Dear, nghiên cứu đằng sau, và cách nó hoạt động.",
         "ru": "Зачем нужен Dear, какие исследования за ним стоят и как он работает.",
-        "uk": "Навіщо потрібен Dear, які дослідження за ним стоять і як він працює."
+        "uk": "Навіщо потрібен Dear, які дослідження за ним стоять і як він працює.",
+        "ja": "Dearがある理由、その背景にある研究、そして使い方。"
       }
     },
     "press.html": {
@@ -3694,7 +3887,8 @@
         "sw": "Kifurushi cha vyombo vya habari - Dear",
         "vi": "Bộ tài liệu báo chí - Dear",
         "ru": "Пресс-кит - Dear",
-        "uk": "Прескіт - Dear"
+        "uk": "Прескіт - Dear",
+        "ja": "プレスキット - Dear"
       },
       "desc": {
         "en": "Press kit for Dear: Stay in Touch. App overview, key facts, research, and downloads.",
@@ -3715,7 +3909,8 @@
         "sw": "Kifurushi cha vyombo vya habari cha Dear. Muhtasari, mambo muhimu, utafiti, na vipakuzi.",
         "vi": "Bộ tài liệu báo chí của Dear. Tổng quan, thông tin chính, nghiên cứu và tải xuống.",
         "ru": "Пресс-кит Dear. Обзор, ключевые факты, исследования и загрузки.",
-        "uk": "Прескіт Dear. Огляд, ключові факти, дослідження та завантаження."
+        "uk": "Прескіт Dear. Огляд, ключові факти, дослідження та завантаження.",
+        "ja": "Dearのプレスキット。概要、主な情報、研究、ダウンロード。"
       }
     },
     "privacy.html": {
@@ -3738,7 +3933,8 @@
         "sw": "Faragha - Dear",
         "vi": "Quyền riêng tư - Dear",
         "ru": "Приватность - Dear",
-        "uk": "Приватність - Dear"
+        "uk": "Приватність - Dear",
+        "ja": "プライバシー - Dear"
       },
       "desc": {
         "en": "Dear privacy policy. Your friends and contact data never leave your phone.",
@@ -3759,7 +3955,8 @@
         "sw": "Sera ya faragha ya Dear. Watu na anwani zako hazitoki kamwe kwenye simu yako.",
         "vi": "Chính sách quyền riêng tư của Dear. Những người và danh bạ của bạn không bao giờ rời khỏi điện thoại.",
         "ru": "Политика конфиденциальности Dear. Ваши люди и контакты никогда не покидают телефон.",
-        "uk": "Політика конфіденційності Dear. Ваші люди та контакти ніколи не залишають телефон."
+        "uk": "Політика конфіденційності Dear. Ваші люди та контакти ніколи не залишають телефон.",
+        "ja": "Dearのプライバシーポリシー。あなたの大切な人と連絡先が端末から出ることはありません。"
       }
     },
     "research.html": {
@@ -3782,7 +3979,8 @@
         "sw": "Utafiti - Dear",
         "vi": "Nghiên cứu - Dear",
         "ru": "Исследования - Dear",
-        "uk": "Дослідження - Dear"
+        "uk": "Дослідження - Dear",
+        "ja": "研究 - Dear"
       },
       "desc": {
         "en": "The behavioral science behind Dear. Research on loneliness and the appreciation gap.",
@@ -3803,7 +4001,8 @@
         "sw": "Sayansi ya tabia iliyo nyuma ya Dear. Tafiti kuhusu upweke na thamani ya ujumbe.",
         "vi": "Khoa học hành vi đằng sau Dear. Các nghiên cứu về cô đơn và giá trị của một tin nhắn.",
         "ru": "Поведенческая наука, лежащая в основе Dear. Исследования об одиночестве и о значении сообщения.",
-        "uk": "Поведінкова наука в основі Dear. Дослідження про самотність і про значення повідомлення."
+        "uk": "Поведінкова наука в основі Dear. Дослідження про самотність і про значення повідомлення.",
+        "ja": "Dearの背景にある行動科学。孤独とメッセージの持つ意味についての研究。"
       }
     },
     "support.html": {
@@ -3826,7 +4025,8 @@
         "sw": "Msaada - Dear",
         "vi": "Hỗ trợ - Dear",
         "ru": "Поддержка - Dear",
-        "uk": "Підтримка - Dear"
+        "uk": "Підтримка - Dear",
+        "ja": "サポート - Dear"
       },
       "desc": {
         "en": "Dear support and frequently asked questions.",
@@ -3847,12 +4047,12 @@
         "sw": "Msaada na maswali yanayoulizwa mara kwa mara kuhusu Dear.",
         "vi": "Hỗ trợ và các câu hỏi thường gặp về Dear.",
         "ru": "Поддержка и частые вопросы о Dear.",
-        "uk": "Підтримка та часті запитання про Dear."
+        "uk": "Підтримка та часті запитання про Dear.",
+        "ja": "Dearのサポートとよくある質問。"
       }
     }
   },
   "needs_font": [
-    "ja",
     "ko",
     "zh-Hant",
     "zh-Hans",
@@ -3889,7 +4089,8 @@
       "sw": "Kadi ya kila siku ya Dear inapendekeza mtu wa kuwasiliana naye leo",
       "vi": "Thẻ hằng ngày của Dear gợi ý một người để liên lạc hôm nay",
       "ru": "Ежедневная карточка Dear предлагает, кому написать сегодня",
-      "uk": "Щоденна картка Dear пропонує, кому написати сьогодні"
+      "uk": "Щоденна картка Dear пропонує, кому написати сьогодні",
+      "ja": "Dearの毎日のカードが、今日連絡する相手を提案します"
     },
     "alt2": {
       "en": "Your people in Dear, each with their own reach-out rhythm",
@@ -3910,7 +4111,8 @@
       "sw": "Watu wako katika Dear, kila mmoja na mwendo wake",
       "vi": "Những người của bạn trong Dear, mỗi người một nhịp riêng",
       "ru": "Ваши люди в Dear, у каждого свой ритм",
-      "uk": "Ваші люди в Dear, у кожного свій ритм"
+      "uk": "Ваші люди в Dear, у кожного свій ритм",
+      "ja": "Dearの中のあなたの人たち。それぞれに自分のペースがあります"
     },
     "alt3": {
       "en": "The Dear widget on an iPhone home screen",
@@ -3931,7 +4133,8 @@
       "sw": "Wijeti ya Dear kwenye skrini ya mwanzo ya iPhone",
       "vi": "Widget Dear trên màn hình chính iPhone",
       "ru": "Виджет Dear на домашнем экране iPhone",
-      "uk": "Віджет Dear на домашньому екрані iPhone"
+      "uk": "Віджет Dear на домашньому екрані iPhone",
+      "ja": "iPhoneのホーム画面にあるDearのウィジェット"
     },
     "caption": {
       "en": "One card a day. Your circle, not a feed.",
@@ -3952,7 +4155,8 @@
       "sw": "Kadi moja kwa siku. Duara lako, si mtiririko.",
       "vi": "Mỗi ngày một thẻ. Vòng thân của bạn, không phải bảng tin.",
       "ru": "Одна карточка в день. Ваш круг, а не лента.",
-      "uk": "Одна картка на день. Ваше коло, а не стрічка."
+      "uk": "Одна картка на день. Ваше коло, а не стрічка.",
+      "ja": "一日にカード一枚。フィードではなく、あなたの輪。"
     }
   },
   "endonyms": {
@@ -4008,7 +4212,8 @@
       "sw": "Zinakuja hivi karibuni",
       "vi": "Sắp có",
       "ru": "Скоро",
-      "uk": "Незабаром"
+      "uk": "Незабаром",
+      "ja": "近日対応"
     },
     "app_note": {
       "en": "The app already speaks all 31.",
@@ -4029,7 +4234,8 @@
       "sw": "Programu tayari inazungumza zote 31.",
       "vi": "Ứng dụng đã nói được cả 31.",
       "ru": "Приложение уже говорит на всех 31.",
-      "uk": "Застосунок уже говорить усіма 31."
+      "uk": "Застосунок уже говорить усіма 31.",
+      "ja": "アプリはすでに31言語すべてに対応しています。"
     }
   }
 }

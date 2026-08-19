@@ -27,6 +27,8 @@ LAYOUT
 
 Run:  python3 _i18n/build.py
 """
+import glob
+import html
 import json
 import os
 import re
@@ -395,17 +397,52 @@ def sitemap(doc):
 def preflight(doc):
     """Refuse to build a locale that would render in a fallback font.
 
-    Quicksand, Inter and Encode Sans Expanded are Latin-only, and only the
-    latin + latin-ext subsets are self-hosted. Shipping Japanese or Arabic
-    would silently drop to a system font: translated, and visibly off-brand.
-    Marking such a locale `ready` is therefore a mistake worth failing on
-    rather than discovering on the live site."""
-    bad = [l for l in doc.get("ready", []) if l in doc.get("needs_font", [])]
+    A locale whose script has no self-hosted glyphs ships translated and
+    visibly off-brand, which is worse than not shipping it. So this fails the
+    build rather than letting it reach the live site.
+
+    It asks the FONTS, not a list. `needs_font` in strings.json is
+    hand-maintained and was the whole guard here; the moment a subset was added
+    for a locale the list still named, the build refused to ship a locale that
+    was in fact covered. Now the list is only the fallback for the case where
+    fontTools is not installed and the fonts cannot be read.
+    """
+    ready = doc.get("ready", [])
+    try:
+        from fontTools.ttLib import TTFont
+        covered = set()
+        for f in glob.glob(os.path.join(ROOT, "fonts", "*.woff2")):
+            covered |= set(TTFont(f).getBestCmap().keys())
+        if not covered:
+            raise RuntimeError("no readable fonts")
+    except Exception:
+        bad = [l for l in ready if l in doc.get("needs_font", [])]
+        if bad:
+            raise SystemExit(
+                f"REFUSING TO BUILD: {bad} are listed in `needs_font` and font "
+                f"coverage could not be measured (install fonttools + brotli to "
+                f"check for real). Add a font with those glyphs, or remove them "
+                f"from `ready`.")
+        return
+
+    ALWAYS_OK = set(range(0x20, 0x7F)) | {0xA0, 0x200B} | set(range(0x2190, 0x2200))
+    bad = {}
+    for loc in ready:
+        used = set()
+        for bucket in ("strings", "nav", "ui", "shots"):
+            for entry in doc.get(bucket, {}).values():
+                v = entry.get(loc)
+                if isinstance(v, str):
+                    used |= set(html.unescape(v))
+        miss = {c for c in used if ord(c) not in covered
+                and ord(c) not in ALWAYS_OK and not c.isspace()}
+        if miss:
+            bad[loc] = "".join(sorted(miss)[:12])
     if bad:
+        detail = "; ".join(f"{l} (e.g. {s})" for l, s in bad.items())
         raise SystemExit(
-            f"REFUSING TO BUILD: {bad} need a script the self-hosted fonts do not "
-            f"cover. Add a font with those glyphs and extend fonts.css first, or "
-            f"remove them from `ready`.")
+            f"REFUSING TO BUILD: no self-hosted glyph for {detail}. Run "
+            f"subset_fonts.py for those locales, or remove them from `ready`.")
 
 
 def verify_canonicals(doc, produced):

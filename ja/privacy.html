@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プライバシー - Dear</title>
+    <meta name="description" content="Dearのプライバシーポリシー。あなたの大切な人と連絡先が端末から出ることはありません。">
+    <link rel="icon" type="image/png" href="../app-icon.png">
+    <link rel="apple-touch-icon" href="../app-icon.png">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Quicksand', -apple-system, sans-serif;
+            background: #FAFAFD;
+            color: #2D2D2D;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0 24px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Language switcher */
+        .lang-nav {
+            position: fixed;
+            top: 16px;
+            right: 20px;
+            display: flex;
+            gap: 4px;
+            z-index: 10;
+        }
+
+        .lang-btn {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #7A767B;
+            background: white;
+            border: 1px solid #E0E0E0;
+            padding: 5px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            text-decoration: none;
+        }
+
+        .lang-btn:hover, .lang-btn.active {
+            color: #6B8AD6;
+            border-color: #6B8AD6;
+            background: #F5F6FB;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            padding: 60px 0 40px;
+        }
+
+        a.back {
+            font-size: 0.85rem;
+            color: #8396D1;
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-block;
+            margin-bottom: 32px;
+        }
+
+        a.back:hover { text-decoration: underline; }
+
+        h1 {
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 700;
+            font-size: 1.6rem;
+            color: #2D2D2D;
+            margin-bottom: 6px;
+        }
+
+        .updated {
+            font-size: 0.82rem;
+            color: #7A767B;
+            margin-bottom: 36px;
+        }
+
+        .short-version {
+            background: #EDEEF7;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 36px;
+            line-height: 1.65;
+            font-size: 0.95rem;
+        }
+
+        h2 {
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: #2D2D2D;
+            margin-top: 32px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            font-size: 0.92rem;
+            line-height: 1.65;
+            color: #2D2D2D;
+            margin-bottom: 12px;
+        }
+
+        p strong {
+            font-weight: 600;
+        }
+
+        ul {
+            font-size: 0.92rem;
+            line-height: 1.65;
+            margin-left: 20px;
+            margin-bottom: 12px;
+        }
+
+        .divider {
+            width: 48px;
+            height: 1px;
+            background: #C9CFDF;
+            margin: 36px 0;
+        }
+
+        footer {
+            font-size: 0.78rem;
+            color: #7A767B;
+            padding-bottom: 80px;
+            line-height: 1.7;
+        }
+
+        footer em {
+            font-style: italic;
+        }
+
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #8396D1;
+            border-top: none;
+            display: flex;
+            justify-content: center;
+            gap: 0;
+            padding: 0;
+            z-index: 20;
+        }
+
+        .bottom-nav a {
+            flex: 1;
+            max-width: 100px;
+            text-align: center;
+            padding: 10px 0 calc(10px + env(safe-area-inset-bottom, 0px));
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 3px;
+            transition: color 0.15s ease;
+        }
+
+        .bottom-nav a:hover,
+        .bottom-nav a.active {
+            color: #FFFFFF;
+        }
+
+        .bottom-nav svg {
+            width: 18px;
+            height: 18px;
+            fill: none;
+            stroke: currentColor;
+            stroke-width: 1.8;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        /* Hide inactive languages */
+        [data-lang] { display: none; }
+        [data-lang="ja"] { display: block; }
+        span[data-lang="ja"] { display: inline; }
+
+        @media (max-width: 480px) {
+            .container { padding: 40px 0 32px; }
+            h1 { font-size: 1.4rem; }
+            .lang-nav { top: 10px; right: 10px; }
+            .lang-btn { padding: 4px 8px; font-size: 0.7rem; }
+        }
+    </style>
+    <link rel="stylesheet" href="../fonts.css">
+    <link rel="stylesheet" href="../fonts-i18n.css">
+    <link rel="stylesheet" href="../site.css">
+    <link rel="canonical" href="https://dearnudges.com/ja/privacy.html">
+    <link rel="alternate" hreflang="en" href="https://dearnudges.com/privacy.html">
+    <link rel="alternate" hreflang="fr" href="https://dearnudges.com/fr/privacy.html">
+    <link rel="alternate" hreflang="es" href="https://dearnudges.com/es/privacy.html">
+    <link rel="alternate" hreflang="de" href="https://dearnudges.com/de/privacy.html">
+    <link rel="alternate" hreflang="it" href="https://dearnudges.com/it/privacy.html">
+    <link rel="alternate" hreflang="ja" href="https://dearnudges.com/ja/privacy.html">
+    <link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/privacy.html">
+    <link rel="alternate" hreflang="ru" href="https://dearnudges.com/ru/privacy.html">
+    <link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/privacy.html">
+    <link rel="alternate" hreflang="id" href="https://dearnudges.com/id/privacy.html">
+    <link rel="alternate" hreflang="tr" href="https://dearnudges.com/tr/privacy.html">
+    <link rel="alternate" hreflang="pl" href="https://dearnudges.com/pl/privacy.html">
+    <link rel="alternate" hreflang="vi" href="https://dearnudges.com/vi/privacy.html">
+    <link rel="alternate" hreflang="uk" href="https://dearnudges.com/uk/privacy.html">
+    <link rel="alternate" hreflang="sv" href="https://dearnudges.com/sv/privacy.html">
+    <link rel="alternate" hreflang="nb" href="https://dearnudges.com/nb/privacy.html">
+    <link rel="alternate" hreflang="da" href="https://dearnudges.com/da/privacy.html">
+    <link rel="alternate" hreflang="fi" href="https://dearnudges.com/fi/privacy.html">
+    <link rel="alternate" hreflang="fil" href="https://dearnudges.com/fil/privacy.html">
+    <link rel="alternate" hreflang="sw" href="https://dearnudges.com/sw/privacy.html">
+    <link rel="alternate" hreflang="x-default" href="https://dearnudges.com/privacy.html">
+</head>
+<body>
+
+    <!-- Language switcher -->
+    <nav class="lang-nav" aria-label="Language">
+        <a class="lang-btn" hreflang="en" href="../privacy.html">EN</a><a class="lang-btn" hreflang="fr" href="../fr/privacy.html">FR</a><a class="lang-btn" hreflang="es" href="../es/privacy.html">ES</a><a class="lang-btn" hreflang="de" href="../de/privacy.html">DE</a><a class="lang-btn" hreflang="it" href="../it/privacy.html">IT</a><a class="lang-btn active" hreflang="ja" aria-current="true" href="../ja/privacy.html">JA</a><a class="lang-btn" hreflang="pt-BR" href="../pt-BR/privacy.html">PT</a><a class="lang-btn" hreflang="ru" href="../ru/privacy.html">RU</a><a class="lang-btn" hreflang="nl" href="../nl/privacy.html">NL</a><a class="lang-btn" hreflang="id" href="../id/privacy.html">ID</a><a class="lang-btn" hreflang="tr" href="../tr/privacy.html">TR</a><a class="lang-btn" hreflang="pl" href="../pl/privacy.html">PL</a><a class="lang-btn" hreflang="vi" href="../vi/privacy.html">VI</a><a class="lang-btn" hreflang="uk" href="../uk/privacy.html">UK</a><a class="lang-btn" hreflang="sv" href="../sv/privacy.html">SV</a><a class="lang-btn" hreflang="nb" href="../nb/privacy.html">NB</a><a class="lang-btn" hreflang="da" href="../da/privacy.html">DA</a><a class="lang-btn" hreflang="fi" href="../fi/privacy.html">FI</a><a class="lang-btn" hreflang="fil" href="../fil/privacy.html">FIL</a><a class="lang-btn" hreflang="sw" href="../sw/privacy.html">SW</a>
+        <button class="lang-btn lang-more" aria-expanded="false" aria-controls="lang-more-list" aria-label="More languages" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='true'?'false':'true')">+</button>
+        <div class="lang-more-list" id="lang-more-list">
+            <p class="lang-soon-heading">近日対応</p>
+            <div class="lang-soon-grid"><span class="lang-soon-item">한국어</span><span class="lang-soon-item">繁體中文</span><span class="lang-soon-item">简体中文</span><span class="lang-soon-item">हिन्दी</span><span class="lang-soon-item">العربية</span><span class="lang-soon-item">ไทย</span><span class="lang-soon-item">עברית</span><span class="lang-soon-item">বাংলা</span><span class="lang-soon-item">தமிழ்</span><span class="lang-soon-item">తెలుగు</span><span class="lang-soon-item">मराठी</span></div>
+            <p class="lang-soon-note">アプリはすでに31言語すべてに対応しています。</p>
+        </div>
+    </nav>
+
+    <div class="container">
+        <a href="/" class="back">
+            &larr; Dearに戻る
+        </a>
+
+        <h1>
+            プライバシーポリシー
+        </h1>
+        <p class="updated">
+            最終更新：2026年7月
+        </p>
+
+        <div class="short-version">
+            あなたの友人と連絡先のデータが端末から出ることは決してありません。アカウントも広告もありません。アプリがどう使われているかを知り、購入を復元し、不具合を直すために、ドイツにあるプライバシー重視の分析サービスTelemetryDeckを通じて匿名の利用回数を、RevenueCatを通じて匿名の購入記録を、Sentryを通じて匿名のクラッシュ報告を集めています。これらからあなたを特定することはできませんし、ご友人の名前や連絡先が含まれることはありません。<br><br>
+            以上です。これがプライバシーポリシーのすべてです。
+        </div>
+
+        <p>
+            法的な目的で詳しい内容が必要な方は、このままお読みください。
+        </p>
+
+        <div class="divider"></div>
+
+        <h2>
+            Dearがアクセスするデータ
+        </h2>
+
+        <p>
+            <strong>連絡先の名前と写真。</strong>最初の起動時に、Dearは連絡先へのアクセス許可を求めます。これはリマインダーの一覧に加える人を選んでいただくためだけに使われます。連絡先のデータは選択のときに一度だけ読み込まれ、端末の中に保存されます。Dearが連絡先のデータを端末の外へ送ることは決してありません。連絡先へのアクセスを許可せず、名前を手で入力して使うこともできます。
+        </p>
+
+        <p>
+            <strong>通知の許可。</strong>誰かに連絡することをお知らせできるよう、Dearはローカル通知を送る許可を求めます。これらの通知は端末の中だけで予約され、届けられます。その内容がどこかへ送られることはありません。
+        </p>
+
+        <h2>
+            Dearが保存するデータ
+        </h2>
+
+        <p>
+            すべてのデータは端末の中に保存されます（ウィジェットがリマインダーを表示できるようにする小さな共有領域も含みます）。内容は次のとおりです：
+        </p>
+
+        <div data-lang="en">
+            <ul>
+                <li>The names and optional photos of people you've added</li>
+                <li>Your nudge preferences (frequency, notification time)</li>
+                <li>Your persona and theme selections</li>
+                <li>Nudge completion history</li>
+                <li>Purchase status for subscriptions and voice personas</li>
+            </ul>
+        </div>
+        <div data-lang="fr">
+            <ul>
+                <li>Les noms et photos optionnelles des personnes que tu as ajout&eacute;es</li>
+                <li>Tes pr&eacute;f&eacute;rences de rappels (fr&eacute;quence, heure de notification)</li>
+                <li>Tes choix de voix et de th&egrave;me</li>
+                <li>L'historique des rappels compl&eacute;t&eacute;s</li>
+                <li>Le statut de tes achats pour les abonnements et les voix</li>
+            </ul>
+        </div>
+        <div data-lang="es">
+            <ul>
+                <li>Los nombres y fotos opcionales de las personas que has agregado</li>
+                <li>Tus preferencias de recordatorios (frecuencia, hora de notificaci&oacute;n)</li>
+                <li>Tus selecciones de voz y tema</li>
+                <li>El historial de recordatorios completados</li>
+                <li>El estado de tus compras de suscripciones y voces</li>
+            </ul>
+        </div>
+
+        
+<div data-lang="ja">
+            <ul>
+                <li>The names and optional photos of people you've added</li>
+                <li>Your nudge preferences (frequency, notification time)</li>
+                <li>Your persona and theme selections</li>
+                <li>Nudge completion history</li>
+                <li>Purchase status for subscriptions and voice personas</li>
+            </ul>
+        </div><p>
+            このデータが端末から出ることは決してありません。クラウド同期も、当社サーバーへのバックアップもなく、当社がアクセスする手段もありません。
+        </p>
+
+        <h2>
+            Dearが集める、または送信するデータ
+        </h2>
+
+        <p>
+            Dearにはアカウントも広告もありません。トラッキングピクセルや広告フレームワークは使っていません。あなたが誰か、ご友人が誰か、どんなメッセージを送ったかを当社は知りません。TelemetryDeckを通じて匿名の利用回数を、RevenueCatを通じて匿名の購入記録を、Sentryを通じて匿名のクラッシュ報告を集めています（以下の各節をご覧ください）。それ以外に当社が知るのは、AppleとGoogleがApp StoreとGoogle Playの集計分析として提供する情報だけで、個人を特定できる情報は含まれず、端末の設定で制御されます。
+        </p>
+
+        <h2 id="anonymous-analytics">
+            匿名の分析
+        </h2>
+
+        <p>
+            Dearがどう使われているかを知り、改善するために、ドイツにありGDPRに準拠したプライバシー重視の分析サービスTelemetryDeckを通じて、少数の匿名イベントを集めています。記録するのは機能の利用回数だけで、誰が使ったかは決して記録しません。
+        </p>
+
+        <p><strong>記録するもの：</strong></p>
+
+        <div data-lang="en">
+            <ul>
+                <li>App opens, onboarding starts and completions, and the outcome of permission prompts (granted or denied)</li>
+                <li>Counts of friends added, nudges completed and skipped, and contact actions taken (text, call, video)</li>
+                <li>Paywall views and in-app purchase events, identified by product ID only</li>
+                <li>Settings changes such as voice selection, frequency changes, data deletion, and adding the home-screen widget</li>
+            </ul>
+        </div>
+        <div data-lang="fr">
+            <ul>
+                <li>Ouvertures de l'app, d&eacute;buts et fins du processus de configuration, et r&eacute;sultat des demandes d'autorisation (accord&eacute;e ou refus&eacute;e)</li>
+                <li>Nombre d'amis ajout&eacute;s, de rappels compl&eacute;t&eacute;s ou ignor&eacute;s, et d'actions de contact effectu&eacute;es (message, appel, vid&eacute;o)</li>
+                <li>Vues du paywall et &eacute;v&eacute;nements d'achat int&eacute;gr&eacute;, identifi&eacute;s uniquement par l'identifiant du produit</li>
+                <li>Modifications des r&eacute;glages telles que la s&eacute;lection de voix, les changements de fr&eacute;quence, la suppression des donn&eacute;es, et l'ajout du widget sur l'&eacute;cran d'accueil</li>
+            </ul>
+        </div>
+        <div data-lang="es">
+            <ul>
+                <li>Aperturas de la app, inicios y finalizaciones del proceso de configuraci&oacute;n, y el resultado de las solicitudes de permiso (concedido o denegado)</li>
+                <li>Cantidad de amistades agregadas, recordatorios completados y omitidos, y acciones de contacto realizadas (mensaje, llamada, video)</li>
+                <li>Vistas del paywall y eventos de compra dentro de la app, identificados solo por el ID del producto</li>
+                <li>Cambios en ajustes como selecci&oacute;n de voz, cambios de frecuencia, eliminaci&oacute;n de datos, y adici&oacute;n del widget en la pantalla de inicio</li>
+            </ul>
+        </div>
+
+        
+<div data-lang="ja">
+            <ul>
+                <li>App opens, onboarding starts and completions, and the outcome of permission prompts (granted or denied)</li>
+                <li>Counts of friends added, nudges completed and skipped, and contact actions taken (text, call, video)</li>
+                <li>Paywall views and in-app purchase events, identified by product ID only</li>
+                <li>Settings changes such as voice selection, frequency changes, data deletion, and adding the home-screen widget</li>
+            </ul>
+        </div><p>
+            <strong>決して記録しないもの：</strong>あなたの名前、ご友人の名前や連絡先、送ったメッセージ、アプリを開いた時刻、位置情報、IPアドレス、そしてあなたにたどり着ける端末識別子。
+        </p>
+
+        <p>
+            これらのイベントは仮名化され、集計されています。そこからあなたを特定することはできません。個人データを扱っていないため、GDPRに基づく同意の確認は必要ありません。それでも記録を望まない場合は、support@dearnudges.comまでご連絡ください。次のリリースに向けてご要望を記録します。
+        </p>
+
+        <h2 id="delete-data">
+            データを削除する
+        </h2>
+
+        <p>
+            Dearにはアカウントがなく、あなたの個人情報を保持するサーバーもありません。ご友人も、リマインダーも、メッセージも、あなたの端末の中だけにあります。Dearが知っているすべてを消すには：
+        </p>
+
+        <div data-lang="en">
+            <ol>
+                <li>Open the Dear app</li>
+                <li>Go to <strong>Settings &rarr; Delete all my data</strong></li>
+                <li>Confirm. All friends, nudges, and preferences are wiped from your device immediately. Uninstalling the app afterward removes everything else.</li>
+            </ol>
+        </div>
+        <div data-lang="fr">
+            <ol>
+                <li>Ouvrez l'app Dear</li>
+                <li>Allez dans <strong>R&eacute;glages &rarr; Supprimer toutes mes donn&eacute;es</strong></li>
+                <li>Confirmez. Tous les amis, rappels et pr&eacute;f&eacute;rences sont effac&eacute;s de votre appareil imm&eacute;diatement. D&eacute;sinstaller l'app ensuite supprime le reste.</li>
+            </ol>
+        </div>
+        <div data-lang="es">
+            <ol>
+                <li>Abre la app Dear</li>
+                <li>Ve a <strong>Ajustes &rarr; Borrar todos mis datos</strong></li>
+                <li>Confirma. Todas las amistades, recordatorios y preferencias se borran de tu dispositivo de inmediato. Desinstalar la app despu&eacute;s elimina lo dem&aacute;s.</li>
+            </ol>
+        </div>
+
+        
+<div data-lang="ja">
+            <ol>
+                <li>Open the Dear app</li>
+                <li>Go to <strong>Settings &rarr; Delete all my data</strong></li>
+                <li>Confirm. All friends, nudges, and preferences are wiped from your device immediately. Uninstalling the app afterward removes everything else.</li>
+            </ol>
+        </div><p>
+            あなたの個人情報を置いたサーバーはありません。そもそも集めていないので、当社側に消すものはありません。端末から出るのは匿名で集計された分析（<a href="#anonymous-analytics">匿名の分析</a>をご覧ください）と匿名の購入記録だけで、どちらもあなたに結びつけることはできません。利用者ごとの記録が存在しないため、削除すべきものがないのです。
+        </p>
+
+        <p>
+            ご質問や、この内容についてお困りのことがあれば、<a href="mailto:hello@dearnudges.com">hello@dearnudges.com</a>までご連絡ください。
+        </p>
+
+        <p>
+            <em>補足：今後のDearでは、孤独とウェルビーイングを研究する学術研究者に匿名化した利用データを共有するかどうかを選べる項目を用意する予定です。提供が始まったら、参加をやめることと提供済みの研究データを削除することが同じ設定メニューからできるようになり、このページも更新します。</em>
+        </p>
+
+        <h2>
+            アプリ内課金
+        </h2>
+
+        <p>
+            DearはApple App Store（AndroidではGoogle Play）を通じて、任意のサブスクリプションと買い切りの購入を提供しています。支払いの処理はすべてAppleとGoogleが行い、当社がカード情報や支払い情報を見たり保存したりすることはありません。購入した内容を複数の端末や再インストール後にも使えるようにするため、DearはRevenueCatを利用しています。RevenueCatは取引ごとに匿名の記録（購入した製品、購入日、匿名のアプリ内部識別子）を受け取ります。この記録に名前、メールアドレス、支払い情報は含まれません。このデータにはApple、Google、RevenueCatの各プライバシーポリシーが適用されます。
+        </p>
+
+        <h2>
+            外部サービス
+        </h2>
+
+        <p>
+            Dearは4つの外部サービスを使っています。Apple StoreKitとGoogle Play Billingがアプリ内課金を処理します。RevenueCatは購入権を管理し、上に述べた匿名の取引記録を受け取ります。TelemetryDeck（匿名の利用分析）は上に述べた匿名のイベント回数を受け取ります。Sentryは不具合を直せるようクラッシュ報告を受け取ります。利用者の識別情報は送信前にすべての報告から取り除かれ、個人情報が添えられることはありません。広告ネットワーク、トラッキングライブラリ、データブローカーは一切使っていません。
+        </p>
+
+        <h2>
+            このウェブサイト
+        </h2>
+        <p>
+            このポリシーはDearアプリについて説明しています。いまご覧のウェブサイトは別のもので、動き方も違います。dearnudges.comにはアカウントも、Cookieも、分析も、トラッキングスクリプトもありません。ブラウザーに何かを置くことも、あなたに何かを尋ねることもありません。
+        </p>
+        <p>
+            サイトを届けているため、2社があなたの訪問を見ています。GitHubがファイルを保管し、Cloudflareがそれを配信して安全性を担っています。どのウェブホストとも同じく、両社はサーバーのログにあなたのIPアドレスとブラウザーの情報を受け取ります。当社はそのログを管理しておらず、読むこともありません。フォントはフォント提供事業者ではなくこのドメインから配信されるため、このページを表示するために第三者へ接続することはありません。
+        </p>
+
+        <h2>
+            データの共有
+        </h2>
+
+        <p>
+            当社はあなたのデータを販売、貸与、共有しません。TelemetryDeckへ送られる匿名の利用回数はあなた個人と結びついておらず、広告ネットワークやデータブローカーに共有されることもありません。TelemetryDeckが自社の基盤でこれらの回数をどう扱うかは、同社のプライバシーポリシーに従います。
+        </p>
+
+        <h2>
+            子どものプライバシー
+        </h2>
+
+        <p>
+            Dearは13歳未満の子どもから個人情報を意図的に集めることはありません。TelemetryDeckを通じて集める匿名の利用回数には個人データが含まれず、子どもを含むいかなる利用者も特定できません。
+        </p>
+
+        <h2>
+            Dear Friend
+        </h2>
+
+        <p>
+            Dear Friend（Dear内の支援者向けの区分）になることを選んだ場合、任意でElsewhere Indexにメールで情報を共有できます。これは完全に任意で、アプリの外で行われます。
+        </p>
+
+        <p>
+            Dear Friendの購入後の画面では、Elsewhere Index宛のメールの作成をお手伝いすることがあります。このメールには次の内容が含まれる場合があります：
+        </p>
+
+        <div data-lang="en">
+            <ul>
+                <li>Your preferred name, if you choose to be listed in Dear's credits</li>
+            </ul>
+        </div>
+        <div data-lang="fr">
+            <ul>
+                <li>Ton nom pr&eacute;f&eacute;r&eacute;, si tu choisis d'appara&icirc;tre dans les cr&eacute;dits de Dear</li>
+            </ul>
+        </div>
+        <div data-lang="es">
+            <ul>
+                <li>Tu nombre preferido, si eliges aparecer en los cr&eacute;ditos de Dear</li>
+            </ul>
+        </div>
+
+        
+<div data-lang="ja">
+            <ul>
+                <li>Your preferred name, if you choose to be listed in Dear's credits</li>
+            </ul>
+        </div><p>
+            このメールはあなたの端末で、あなた自身のメールアプリを使って作成されます。内容を確認して送るのもあなたです。Dearがこの情報をサーバーやAPIを通じて集めたり、保存したり、送信したりすることはありません。Elsewhere Indexはあなたのメールを通じてのみ受け取り、記載された目的にのみ使用します。
+        </p>
+
+        <p>
+            メッセージを送ると、あなたのメールアドレスはElsewhere Indexに見えます。マーケティング用の名簿に加えられることも、ほかの誰かに共有されることもありません。
+        </p>
+
+        <h2>
+            このポリシーの変更
+        </h2>
+
+        <p>
+            Dearのデータの扱い方を変更する場合（たとえば今後のバージョンで任意のクラウド同期を追加する場合など）、このポリシーを更新し、変更点をここに記します。データの送信を伴う今後の機能は、すべて任意で有効にするものとし、明確にお知らせします。
+        </p>
+
+        <h2>
+            お問い合わせ
+        </h2>
+
+        <p>
+            このプライバシーポリシーについてご質問があれば、support@dearnudges.comまでご連絡ください。
+        </p>
+
+        <div class="divider"></div>
+
+        <footer>
+            <em>
+                Dear: Stay in TouchはElsewhere Index LLCが制作しています。Apple App StoreとGoogle Playで配信しており、任意のアプリ内課金があり、広告もアカウントも個人データの収集もありません。
+            </em>
+        </footer>
+    </div>
+
+    <!-- Sticky bottom nav -->
+    <nav class="bottom-nav">
+        <a href="/">
+            <svg viewBox="0 0 24 24"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z"/><path d="M9 21V12h6v9"/></svg>
+            ホーム
+        </a>
+        <a href="about.html">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            概要
+        </a>
+        <a href="research.html">
+            <svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            研究
+        </a>
+        <a href="support.html">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            よくある質問
+        </a>
+        <a href="privacy.html" class="active">
+            <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            プライバシー
+        </a>
+        <a href="press.html">
+            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            プレス
+        </a>
+    </nav>
+
+    
+
+</body>
+</html>
