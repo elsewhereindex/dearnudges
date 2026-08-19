@@ -25,7 +25,7 @@ file is that the next one gets caught by `python3 _i18n/verify.py` instead.
 
 Exit code 1 on any failure, so it can gate a deploy.
 """
-import json, io, os, re, sys, glob
+import html, json, io, os, re, sys, glob
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FAIL = []
@@ -120,19 +120,31 @@ def font_coverage(doc, ready):
             return  # woff2 needs brotli; not worth failing the build over
     if not covered:
         return
-    ALWAYS_OK = set(range(0x20, 0x7F)) | {0xA0, 0x200B, 0x2018, 0x2019, 0x201C, 0x201D}
+    # The copy is HTML, so accents arrive as entities (&eogon;, &lstrok;). Compare
+    # the DECODED text: otherwise a locale written entirely in entities looks
+    # like pure ASCII and passes even when none of its glyphs are self-hosted,
+    # which is the exact failure this check exists to catch.
+    # Arrows and a few typographic marks are deliberately allowed. U+2190 and
+    # U+2192 are not in any self-hosted subset, so "&larr; Back to Dear" and
+    # "See all research &rarr;" already fall back to a system glyph in EVERY
+    # locale, English included. That is cosmetic, identical across locales, and
+    # not a localisation defect. Flagging it on every locale would be noise,
+    # and a check that cries wolf gets ignored.
+    ALWAYS_OK = (set(range(0x20, 0x7F))
+                 | {0xA0, 0x200B, 0x2018, 0x2019, 0x201C, 0x201D, 0x2013, 0x2026}
+                 | set(range(0x2190, 0x2200)))
     for loc in ready:
         used = set()
         for bucket in ("strings", "nav", "ui", "shots"):
             for entry in doc.get(bucket, {}).values():
                 v = entry.get(loc)
                 if isinstance(v, str):
-                    used |= set(v)
+                    used |= set(html.unescape(v))
         for page in doc.get("meta", {}).values():
             for field in ("title", "desc"):
                 v = page.get(field, {}).get(loc)
                 if isinstance(v, str):
-                    used |= set(v)
+                    used |= set(html.unescape(v))
         missing = sorted({c for c in used
                           if ord(c) not in covered and ord(c) not in ALWAYS_OK
                           and not c.isspace()})
