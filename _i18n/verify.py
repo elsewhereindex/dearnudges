@@ -111,13 +111,19 @@ def font_coverage(doc, ready):
     try:
         from fontTools.ttLib import TTFont
     except ImportError:
+        print("verify: SKIPPED font coverage (fontTools not installed)")
         return
     covered = set()
     for f in glob.glob(os.path.join(ROOT, "fonts", "*.woff2")):
         try:
             covered |= set(TTFont(f).getBestCmap().keys())
-        except Exception:
-            return  # woff2 needs brotli; not worth failing the build over
+        except Exception as e:
+            # woff2 needs the brotli extension. Not worth failing the build
+            # over, but it must not be silent: a skipped coverage check reads
+            # as "all checks pass" and that is how a locale ships into a system
+            # fallback. Run under a venv with brotli to get the real result.
+            print(f"verify: SKIPPED font coverage ({type(e).__name__}: install brotli)")
+            return
     if not covered:
         return
     # The copy is HTML, so accents arrive as entities (&eogon;, &lstrok;). Compare
