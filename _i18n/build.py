@@ -457,6 +457,15 @@ def main():
     print(f"rendered {written} files across {len(ready)} locales")
     print(f"wrote sitemap.xml")
 
+    # Verification is part of the build, not an optional extra. Every check in
+    # verify.py exists because that bug reached production and was found by
+    # someone looking at a page. Running it here means a bad build fails at the
+    # point it is made rather than after it is pushed.
+    import subprocess
+    rc = subprocess.call([sys.executable, os.path.join(ROOT, "_i18n", "verify.py")])
+    if rc != 0:
+        raise SystemExit("BUILD BLOCKED: verify.py failed, see failures above")
+
 
 if __name__ == "__main__":
     sys.exit(main())
