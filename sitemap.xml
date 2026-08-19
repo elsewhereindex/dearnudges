@@ -8,6 +8,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/"/>
   </url>
   <url>
@@ -18,6 +19,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/"/>
   </url>
   <url>
@@ -28,6 +30,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/"/>
   </url>
   <url>
@@ -38,6 +41,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/"/>
   </url>
   <url>
@@ -48,6 +52,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/"/>
   </url>
   <url>
@@ -58,6 +63,18 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/"/>
+  </url>
+  <url>
+    <loc>https://dearnudges.com/nl/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dearnudges.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dearnudges.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dearnudges.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/"/>
   </url>
   <url>
@@ -68,6 +85,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/about.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/about.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/about.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/about.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/about.html"/>
   </url>
   <url>
@@ -78,6 +96,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/about.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/about.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/about.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/about.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/about.html"/>
   </url>
   <url>
@@ -88,6 +107,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/about.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/about.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/about.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/about.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/about.html"/>
   </url>
   <url>
@@ -98,6 +118,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/about.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/about.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/about.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/about.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/about.html"/>
   </url>
   <url>
@@ -108,6 +129,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/about.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/about.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/about.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/about.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/about.html"/>
   </url>
   <url>
@@ -118,6 +140,18 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/about.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/about.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/about.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://dearnudges.com/nl/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dearnudges.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dearnudges.com/fr/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dearnudges.com/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/about.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/about.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/about.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/about.html"/>
   </url>
   <url>
@@ -128,6 +162,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/press.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/press.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/press.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/press.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/press.html"/>
   </url>
   <url>
@@ -138,6 +173,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/press.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/press.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/press.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/press.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/press.html"/>
   </url>
   <url>
@@ -148,6 +184,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/press.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/press.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/press.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/press.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/press.html"/>
   </url>
   <url>
@@ -158,6 +195,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/press.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/press.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/press.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/press.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/press.html"/>
   </url>
   <url>
@@ -168,6 +206,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/press.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/press.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/press.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/press.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/press.html"/>
   </url>
   <url>
@@ -178,6 +217,18 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/press.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/press.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/press.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/press.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/press.html"/>
+  </url>
+  <url>
+    <loc>https://dearnudges.com/nl/press.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dearnudges.com/press.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dearnudges.com/fr/press.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dearnudges.com/es/press.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/press.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/press.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/press.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/press.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/press.html"/>
   </url>
   <url>
@@ -188,6 +239,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/privacy.html"/>
   </url>
   <url>
@@ -198,6 +250,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/privacy.html"/>
   </url>
   <url>
@@ -208,6 +261,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/privacy.html"/>
   </url>
   <url>
@@ -218,6 +272,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/privacy.html"/>
   </url>
   <url>
@@ -228,6 +283,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/privacy.html"/>
   </url>
   <url>
@@ -238,6 +294,18 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://dearnudges.com/nl/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dearnudges.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dearnudges.com/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dearnudges.com/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/privacy.html"/>
   </url>
   <url>
@@ -248,6 +316,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/research.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/research.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/research.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/research.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/research.html"/>
   </url>
   <url>
@@ -258,6 +327,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/research.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/research.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/research.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/research.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/research.html"/>
   </url>
   <url>
@@ -268,6 +338,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/research.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/research.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/research.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/research.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/research.html"/>
   </url>
   <url>
@@ -278,6 +349,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/research.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/research.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/research.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/research.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/research.html"/>
   </url>
   <url>
@@ -288,6 +360,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/research.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/research.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/research.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/research.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/research.html"/>
   </url>
   <url>
@@ -298,6 +371,18 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/research.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/research.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/research.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/research.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/research.html"/>
+  </url>
+  <url>
+    <loc>https://dearnudges.com/nl/research.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dearnudges.com/research.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dearnudges.com/fr/research.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dearnudges.com/es/research.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/research.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/research.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/research.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/research.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/research.html"/>
   </url>
   <url>
@@ -308,6 +393,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/support.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/support.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/support.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/support.html"/>
   </url>
   <url>
@@ -318,6 +404,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/support.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/support.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/support.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/support.html"/>
   </url>
   <url>
@@ -328,6 +415,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/support.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/support.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/support.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/support.html"/>
   </url>
   <url>
@@ -338,6 +426,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/support.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/support.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/support.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/support.html"/>
   </url>
   <url>
@@ -348,6 +437,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/support.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/support.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/support.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/support.html"/>
   </url>
   <url>
@@ -358,6 +448,18 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/support.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/support.html"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/support.html"/>
+  </url>
+  <url>
+    <loc>https://dearnudges.com/nl/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dearnudges.com/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dearnudges.com/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dearnudges.com/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dearnudges.com/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dearnudges.com/it/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/support.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/support.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/support.html"/>
   </url>
 </urlset>

@@ -42,8 +42,18 @@ PAGES = ["index.html", "about.html", "press.html",
 
 # Assets that live at the site root. A page rendered into /fr/ has to reach
 # them with ../ , so every local reference is rewritten per locale.
+# srcset is in this list because it was missing, and the omission was invisible
+# in the markup: the <img src> fallback WAS being rewritten correctly, so the
+# HTML looked right while every <source srcset> in a locale subdirectory pointed
+# at /<locale>/img/... and 404'd. A <picture> does not fall back to the <img>
+# once a matched <source> fails to load, so the homepage images were broken in
+# every non-English locale, live, until 2026-08-18.
+#
+# srcset can hold a comma-separated candidate list. Dear only ever emits a
+# single candidate, so the simple form is enough, but anything richer would
+# need splitting on commas first.
 ROOT_ASSETS = re.compile(
-    r'((?:src|href)=")(?!https?://|//|#|mailto:|/)([^"]*\.(?:png|jpg|jpeg|svg|css|zip|ico|webp))"')
+    r'((?:src|srcset|href)=")(?!https?://|//|#|mailto:|/)([^"]*\.(?:png|jpg|jpeg|svg|css|zip|ico|webp))"')
 
 # Kept only to locate where a group starts. The span contents cannot be matched
 # with a regex: several strings wrap a nested <span class="label">...</span>, and
