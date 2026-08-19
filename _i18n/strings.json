@@ -1081,12 +1081,14 @@
   "ready": [
     "en",
     "fr",
-    "es"
+    "es",
+    "de"
   ],
   "names": {
     "en": "EN",
     "fr": "FR",
-    "es": "ES"
+    "es": "ES",
+    "de": "DE"
   },
   "nav": {
     "nav_home": {

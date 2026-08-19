@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Support - Dear: Stay in Touch</title>
-    <meta name="description" content="Dear: Stay in Touch support and frequently asked questions.">
-    <link rel="icon" type="image/png" href="app-icon.png">
-    <link rel="apple-touch-icon" href="app-icon.png">
+    <title>Hilfe - Dear</title>
+    <meta name="description" content="Hilfe und h&auml;ufige Fragen zu Dear.">
+    <link rel="icon" type="image/png" href="../app-icon.png">
+    <link rel="apple-touch-icon" href="../app-icon.png">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -53,9 +53,9 @@
         }
 
         [data-lang] { display: none; }
-        [data-lang="en"] { display: block; }
-        span[data-lang="en"] { display: inline; }
-        a.contact-btn[data-lang="en"] { display: inline-block; }
+        [data-lang="de"] { display: block; }
+        span[data-lang="de"] { display: inline; }
+        a.contact-btn[data-lang="de"] { display: inline-block; }
 
         .container {
             max-width: 640px;
@@ -219,7 +219,7 @@
         .contact-section a.contact-btn[data-lang] {
             display: none;
         }
-        .contact-section a.contact-btn[data-lang="en"] {
+        .contact-section a.contact-btn[data-lang="de"] {
             display: inline-block;
         }
         .contact-section a.contact-btn {
@@ -302,49 +302,49 @@
             .lang-btn { padding: 4px 8px; font-size: 0.7rem; }
         }
     </style>
-    <link rel="stylesheet" href="fonts.css">
-    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="../fonts.css">
+    <link rel="stylesheet" href="../site.css">
+    <link rel="canonical" href="https://dearnudges.com/de/support.html">
+    <link rel="alternate" hreflang="en" href="https://dearnudges.com/support.html">
+    <link rel="alternate" hreflang="fr" href="https://dearnudges.com/fr/support.html">
+    <link rel="alternate" hreflang="es" href="https://dearnudges.com/es/support.html">
+    <link rel="alternate" hreflang="de" href="https://dearnudges.com/de/support.html">
+    <link rel="alternate" hreflang="x-default" href="https://dearnudges.com/support.html">
 </head>
 <body>
 
 <!-- Language switcher -->
-<nav class="lang-nav">
-    <button class="lang-btn active" data-set-lang="en" aria-pressed="true" onclick="setLang('en')">EN</button>
-    <button class="lang-btn" data-set-lang="fr" aria-pressed="false" onclick="setLang('fr')">FR</button>
-    <button class="lang-btn" data-set-lang="es" aria-pressed="false" onclick="setLang('es')">ES</button>
-</nav>
+<nav class="lang-nav" aria-label="Language">
+        <a class="lang-btn" hreflang="en" href="../support.html">EN</a><a class="lang-btn" hreflang="fr" href="../fr/support.html">FR</a><a class="lang-btn" hreflang="es" href="../es/support.html">ES</a><a class="lang-btn active" hreflang="de" aria-current="true" href="../de/support.html">DE</a>
+        <button class="lang-btn lang-more" aria-expanded="false" aria-controls="lang-more-list" aria-label="More languages" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='true'?'false':'true')">+</button>
+        <div class="lang-more-list" id="lang-more-list">
+            <p class="lang-soon-heading">Demn&auml;chst</p>
+            <div class="lang-soon-grid"><span class="lang-soon-item">Italiano</span><span class="lang-soon-item">日本語</span><span class="lang-soon-item">한국어</span><span class="lang-soon-item">繁體中文</span><span class="lang-soon-item">简体中文</span><span class="lang-soon-item">Português</span><span class="lang-soon-item">Русский</span><span class="lang-soon-item">Nederlands</span><span class="lang-soon-item">हिन्दी</span><span class="lang-soon-item">Indonesia</span><span class="lang-soon-item">العربية</span><span class="lang-soon-item">Türkçe</span><span class="lang-soon-item">Polski</span><span class="lang-soon-item">Tiếng Việt</span><span class="lang-soon-item">ไทย</span><span class="lang-soon-item">עברית</span><span class="lang-soon-item">Українська</span><span class="lang-soon-item">Svenska</span><span class="lang-soon-item">Norsk</span><span class="lang-soon-item">Dansk</span><span class="lang-soon-item">Suomi</span><span class="lang-soon-item">Filipino</span><span class="lang-soon-item">বাংলা</span><span class="lang-soon-item">தமிழ்</span><span class="lang-soon-item">తెలుగు</span><span class="lang-soon-item">मराठी</span><span class="lang-soon-item">Kiswahili</span></div>
+            <p class="lang-soon-note">Die App spricht bereits alle 31.</p>
+        </div>
+    </nav>
 
 <div class="container">
     <a href="/" class="back">
-        <span data-lang="en">&larr; Back to Dear</span>
-        <span data-lang="fr">&larr; Retour &agrave; Dear</span>
-        <span data-lang="es">&larr; Volver a Dear</span>
+        &larr; Zur&uuml;ck zu Dear
     </a>
 
     <h1>
-        <span data-lang="en">Support</span>
-        <span data-lang="fr">Aide</span>
-        <span data-lang="es">Ayuda</span>
+        Hilfe
     </h1>
     <p class="subtitle">
-        <span data-lang="en">Find answers below, or email us if you need more help.</span>
-        <span data-lang="fr">Tu trouveras des r&eacute;ponses ci-dessous, ou &eacute;cris-nous si tu as besoin d&rsquo;aide.</span>
-        <span data-lang="es">Encuentra respuestas abajo, o escr&iacute;benos si necesitas m&aacute;s ayuda.</span>
+        Antworten findest du unten. Wenn du mehr Hilfe brauchst, schreib uns einfach.
     </p>
 
     <!-- GETTING STARTED -->
     <div class="category">
         <div class="category-title">
-            <span data-lang="en">Getting Started</span>
-            <span data-lang="fr">Pour commencer</span>
-            <span data-lang="es">Primeros pasos</span>
+            Erste Schritte
         </div>
 
         <div class="faq-item">
             <button class="faq-question">
-                <span data-lang="en">How do I add people to Dear?</span>
-                <span data-lang="fr">Comment ajouter des personnes dans Dear&nbsp;?</span>
-                <span data-lang="es">&iquest;C&oacute;mo agrego personas en Dear?</span>
+                Wie f&uuml;ge ich Menschen zu Dear hinzu?
             </button>
             <div class="faq-answer">
                 <div data-lang="en">
@@ -367,9 +367,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                <span data-lang="en">Why does Dear need access to my contacts?</span>
-                <span data-lang="fr">Pourquoi Dear a-t-il besoin d&rsquo;acc&eacute;der &agrave; mes contacts&nbsp;?</span>
-                <span data-lang="es">&iquest;Por qu&eacute; Dear necesita acceso a mis contactos?</span>
+                Warum braucht Dear Zugriff auf meine Kontakte?
             </button>
             <div class="faq-answer">
                 <div data-lang="en">
@@ -392,9 +390,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                <span data-lang="en">How do nudge reminders work?</span>
-                <span data-lang="fr">Comment fonctionnent les rappels&nbsp;?</span>
-                <span data-lang="es">&iquest;C&oacute;mo funcionan los recordatorios?</span>
+                Wie funktionieren die Erinnerungen?
             </button>
             <div class="faq-answer">
                 <div data-lang="en">
@@ -417,9 +413,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                <span data-lang="en">How do I set up notifications?</span>
-                <span data-lang="fr">Comment configurer les notifications&nbsp;?</span>
-                <span data-lang="es">&iquest;C&oacute;mo configuro las notificaciones?</span>
+                Wie richte ich Mitteilungen ein?
             </button>
             <div class="faq-answer">
                 <div data-lang="en">
@@ -442,9 +436,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                <span data-lang="en">What are the frequency options?</span>
-                <span data-lang="fr">Quelles sont les options de fr&eacute;quence&nbsp;?</span>
-                <span data-lang="es">&iquest;Cu&aacute;les son las opciones de frecuencia?</span>
+                Welche H&auml;ufigkeiten gibt es?
             </button>
             <div class="faq-answer">
                 <div data-lang="en">
@@ -493,16 +485,12 @@
     <!-- SUBSCRIPTIONS -->
     <div class="category">
         <div class="category-title">
-            <span data-lang="en">Subscriptions and Purchases</span>
-            <span data-lang="fr">Abonnements et achats</span>
-            <span data-lang="es">Suscripciones y compras</span>
+            Abos und K&auml;ufe
         </div>
 
         <div class="faq-item">
             <button class="faq-question">
-                <span data-lang="en">What's included in the free version?</span>
-                <span data-lang="fr">Qu&rsquo;est-ce qui est inclus dans la version gratuite&nbsp;?</span>
-                <span data-lang="es">&iquest;Qu&eacute; incluye la versi&oacute;n gratuita?</span>
+                Was ist in der kostenlosen Version enthalten?
             </button>
             <div class="faq-answer">
                 <div data-lang="en">
@@ -522,9 +510,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                <span data-lang="en">What's the difference between Monthly and Annual?</span>
-                <span data-lang="fr">Quelle est la diff&eacute;rence entre l&rsquo;abonnement mensuel et annuel&nbsp;?</span>
-                <span data-lang="es">&iquest;Cu&aacute;l es la diferencia entre el plan mensual y el anual?</span>
+                Was ist der Unterschied zwischen monatlich und j&auml;hrlich?
             </button>
             <div class="faq-answer">
                 <div data-lang="en">
@@ -562,9 +548,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                <span data-lang="en">What's the difference between individual voices, the Voice Bundle, and Dear+?</span>
-                <span data-lang="fr">Quelle est la diff&eacute;rence entre les voix individuelles, le pack de voix et Dear+&nbsp;?</span>
-                <span data-lang="es">&iquest;Cu&aacute;l es la diferencia entre voces individuales, el paquete de voces y Dear+?</span>
+                Was ist der Unterschied zwischen einzelnen Stimmen, dem Stimmenpaket und Dear+?
             </button>
             <div class="faq-answer">
                 <div data-lang="en">
@@ -596,9 +580,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                <span data-lang="en">How do I restore my purchases on a new device?</span>
-                <span data-lang="fr">Comment restaurer mes achats sur un nouvel appareil&nbsp;?</span>
-                <span data-lang="es">&iquest;C&oacute;mo restauro mis compras en un dispositivo nuevo?</span>
+                Wie stelle ich meine K&auml;ufe auf einem neuen Ger&auml;t wieder her?
             </button>
             <div class="faq-answer">
                 <div data-lang="en">
@@ -618,9 +600,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                <span data-lang="en">How do I cancel my subscription?</span>
-                <span data-lang="fr">Comment annuler mon abonnement&nbsp;?</span>
-                <span data-lang="es">&iquest;C&oacute;mo cancelo mi suscripci&oacute;n?</span>
+                Wie k&uuml;ndige ich mein Abo?
             </button>
             <div class="faq-answer">
                 <div data-lang="en">
@@ -640,9 +620,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                <span data-lang="en">I was charged but my purchase isn't showing up.</span>
-                <span data-lang="fr">J&rsquo;ai &eacute;t&eacute; d&eacute;bit&eacute; mais mon achat n&rsquo;appara&icirc;t pas.</span>
-                <span data-lang="es">Se me cobr&oacute; pero mi compra no aparece.</span>
+                Mir wurde etwas berechnet, aber mein Kauf wird nicht angezeigt.
             </button>
             <div class="faq-answer">
                 <div data-lang="en">
@@ -680,9 +658,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                <span data-lang="en">Do individual voice purchases expire?</span>
-                <span data-lang="fr">Les achats de voix individuelles expirent-ils&nbsp;?</span>
-                <span data-lang="es">&iquest;Las compras de voces individuales expiran?</span>
+                Laufen einzeln gekaufte Stimmen ab?
             </button>
             <div class="faq-answer">
                 <div data-lang="en">
@@ -707,16 +683,12 @@
     <!-- VOICES -->
     <div class="category">
         <div class="category-title">
-            <span data-lang="en">Voices and Personas</span>
-            <span data-lang="fr">Voix et personnages</span>
-            <span data-lang="es">Voces y personajes</span>
+            Stimmen und Charaktere
         </div>
 
         <div class="faq-item">
             <button class="faq-question">
-                <span data-lang="en">How do I change my nudge voice?</span>
-                <span data-lang="fr">Comment changer ma voix de rappel&nbsp;?</span>
-                <span data-lang="es">&iquest;C&oacute;mo cambio mi voz de recordatorio?</span>
+                Wie &auml;ndere ich die Stimme meiner Erinnerungen?
             </button>
             <div class="faq-answer">
                 <div data-lang="en">
@@ -736,9 +708,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                <span data-lang="en">What voices are included for free?</span>
-                <span data-lang="fr">Quelles voix sont incluses gratuitement&nbsp;?</span>
-                <span data-lang="es">&iquest;Qu&eacute; voces est&aacute;n incluidas gratis?</span>
+                Welche Stimmen sind kostenlos dabei?
             </button>
             <div class="faq-answer">
                 <div data-lang="en">
@@ -764,9 +734,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                <span data-lang="en">What do the premium voices sound like?</span>
-                <span data-lang="fr">&Agrave; quoi ressemblent les voix premium&nbsp;?</span>
-                <span data-lang="es">&iquest;C&oacute;mo suenan las voces premium?</span>
+                Wie klingen die Premium-Stimmen?
             </button>
             <div class="faq-answer">
                 <div data-lang="en">
@@ -851,9 +819,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                <span data-lang="en">What are trilingual voices?</span>
-                <span data-lang="fr">Qu&rsquo;est-ce que les voix trilingues&nbsp;?</span>
-                <span data-lang="es">&iquest;Qu&eacute; son las voces triling&uuml;es?</span>
+                Was sind dreisprachige Stimmen?
             </button>
             <div class="faq-answer">
                 <div data-lang="en">
@@ -875,16 +841,12 @@
     <!-- FEATURES -->
     <div class="category">
         <div class="category-title">
-            <span data-lang="en">Features</span>
-            <span data-lang="fr">Fonctionnalit&eacute;s</span>
-            <span data-lang="es">Funciones</span>
+            Funktionen
         </div>
 
         <div class="faq-item">
             <button class="faq-question">
-                <span data-lang="en">How does the WhatsApp toggle work?</span>
-                <span data-lang="fr">Comment fonctionne l&rsquo;option WhatsApp&nbsp;?</span>
-                <span data-lang="es">&iquest;C&oacute;mo funciona la opci&oacute;n de WhatsApp?</span>
+                Wie funktioniert der WhatsApp-Schalter?
             </button>
             <div class="faq-answer">
                 <div data-lang="en">
@@ -904,9 +866,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                <span data-lang="en">How do I set up the Dear widget?</span>
-                <span data-lang="fr">Comment configurer le widget Dear&nbsp;?</span>
-                <span data-lang="es">&iquest;C&oacute;mo configuro el widget de Dear?</span>
+                Wie richte ich das Dear-Widget ein?
             </button>
             <div class="faq-answer">
                 <div data-lang="en">
@@ -929,9 +889,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                <span data-lang="en">How many nudges do I get per day?</span>
-                <span data-lang="fr">Combien de rappels par jour&nbsp;?</span>
-                <span data-lang="es">&iquest;Cu&aacute;ntos recordatorios recibo por d&iacute;a?</span>
+                Wie viele Erinnerungen bekomme ich pro Tag?
             </button>
             <div class="faq-answer">
                 <div data-lang="en">
@@ -953,16 +911,12 @@
     <!-- PRIVACY -->
     <div class="category">
         <div class="category-title">
-            <span data-lang="en">Privacy and Data</span>
-            <span data-lang="fr">Confidentialit&eacute; et donn&eacute;es</span>
-            <span data-lang="es">Privacidad y datos</span>
+            Datenschutz und Daten
         </div>
 
         <div class="faq-item">
             <button class="faq-question">
-                <span data-lang="en">Does Dear collect my data?</span>
-                <span data-lang="fr">Dear collecte-t-il mes donn&eacute;es&nbsp;?</span>
-                <span data-lang="es">&iquest;Dear recopila mis datos?</span>
+                Sammelt Dear meine Daten?
             </button>
             <div class="faq-answer">
                 <div data-lang="en">
@@ -982,9 +936,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                <span data-lang="en">Do I need to create an account?</span>
-                <span data-lang="fr">Dois-je cr&eacute;er un compte&nbsp;?</span>
-                <span data-lang="es">&iquest;Necesito crear una cuenta?</span>
+                Muss ich ein Konto anlegen?
             </button>
             <div class="faq-answer">
                 <div data-lang="en">
@@ -1004,9 +956,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                <span data-lang="en">Can Dear see my messages or call history?</span>
-                <span data-lang="fr">Dear peut-il voir mes messages ou mon historique d&rsquo;appels&nbsp;?</span>
-                <span data-lang="es">&iquest;Dear puede ver mis mensajes o historial de llamadas?</span>
+                Kann Dear meine Nachrichten oder meine Anrufliste sehen?
             </button>
             <div class="faq-answer">
                 <div data-lang="en">
@@ -1028,16 +978,12 @@
     <!-- TROUBLESHOOTING -->
     <div class="category">
         <div class="category-title">
-            <span data-lang="en">Troubleshooting</span>
-            <span data-lang="fr">D&eacute;pannage</span>
-            <span data-lang="es">Soluci&oacute;n de problemas</span>
+            Fehlerbehebung
         </div>
 
         <div class="faq-item">
             <button class="faq-question">
-                <span data-lang="en">I'm not receiving notifications.</span>
-                <span data-lang="fr">Je ne re&ccedil;ois pas de notifications.</span>
-                <span data-lang="es">No recibo notificaciones.</span>
+                Ich bekomme keine Mitteilungen.
             </button>
             <div class="faq-answer">
                 <div data-lang="en">
@@ -1075,9 +1021,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                <span data-lang="en">My contacts aren't appearing in the app.</span>
-                <span data-lang="fr">Mes contacts n&rsquo;apparaissent pas dans l&rsquo;app.</span>
-                <span data-lang="es">Mis contactos no aparecen en la app.</span>
+                Meine Kontakte erscheinen nicht in der App.
             </button>
             <div class="faq-answer">
                 <div data-lang="en">
@@ -1097,9 +1041,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                <span data-lang="en">A purchase isn't unlocking.</span>
-                <span data-lang="fr">Un achat ne se d&eacute;bloque pas.</span>
-                <span data-lang="es">Una compra no se desbloquea.</span>
+                Ein Kauf wird nicht freigeschaltet.
             </button>
             <div class="faq-answer">
                 <div data-lang="en">
@@ -1121,14 +1063,10 @@
     <!-- CONTACT -->
     <div class="contact-section">
         <h2>
-            <span data-lang="en">Still need help?</span>
-            <span data-lang="fr">Tu as encore besoin d&rsquo;aide&nbsp;?</span>
-            <span data-lang="es">&iquest;A&uacute;n necesitas ayuda?</span>
+            Brauchst du noch Hilfe?
         </h2>
         <p>
-            <span data-lang="en">We usually respond within 48 hours.</span>
-            <span data-lang="fr">Nous r&eacute;pondons g&eacute;n&eacute;ralement sous 48 heures.</span>
-            <span data-lang="es">Generalmente respondemos en 48 horas.</span>
+            Wir antworten normalerweise innerhalb von 48 Stunden.
         </p>
         <a class="contact-btn" data-lang="en" href="mailto:support@dearnudges.com?subject=Dear%20App%20Support">Email Support</a>
         <a class="contact-btn" data-lang="fr" href="mailto:support@dearnudges.com?subject=Dear%20App%20-%20Aide">Envoyer un courriel</a>
@@ -1144,15 +1082,15 @@
 <nav class="bottom-nav">
     <a href="/">
         <svg viewBox="0 0 24 24"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z"/><path d="M9 21V12h6v9"/></svg>
-        Home
+        Start
     </a>
     <a href="about.html">
         <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
-        About
+        &Uuml;ber
     </a>
     <a href="research.html">
         <svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-        Research
+        Forschung
     </a>
     <a href="support.html" class="active">
         <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
@@ -1160,11 +1098,11 @@
     </a>
     <a href="privacy.html">
         <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        Privacy
+        Datenschutz
     </a>
     <a href="press.html">
         <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-        Press
+        Presse
     </a>
 </nav>
 

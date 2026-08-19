@@ -20,9 +20,14 @@
         color: #F0EEE0 !important;
     }
 
-    /* Headings and primary text */
+    /* Headings and primary text.
+       .faq-question belongs here: it is a <button> styled as a heading, and it
+       was in none of the dark-mode lists, so it kept its light-mode #2D2D2D on
+       the #2A2A28 card. That is about 1.02:1, i.e. invisible. Every FAQ
+       question on the support page was unreadable in dark mode until
+       2026-08-18. */
     h1, h2, h3, h4,
-    .card-title, .finding, .quick-facts h3 {
+    .card-title, .finding, .quick-facts h3, .faq-question {
         color: #F0EEE0 !important;
     }
 
@@ -35,6 +40,32 @@
     /* Accent: the light-mode blue is too dark on a dark ground.
        #85A4E0 is the app's own dark-mode accent. */
     a, .accent, strong.accent { color: #85A4E0; }
+
+    /* Labels and titles that hardcode the light-mode ink and appeared in none
+       of the lists above. On press.html in dark mode this meant every fact
+       label (Price, Languages, Privacy, Platform, Built with) rendered at
+       about 1.04:1, i.e. invisible, on the page the App Store featuring
+       nomination links to. Found by scanning the templates for dark colours
+       with no dark-mode override rather than one at a time. */
+    .app-name, .step-title, .voice-tag, .cta-title,
+    .facts-list .label, .download-item {
+        color: #F0EEE0 !important;
+    }
+
+    /* Some citations carry an inline style="color: #2D2D2D", which normal
+       cascade cannot beat. A stylesheet !important does. They are links, so
+       they take the accent rather than the body colour. */
+    .research-list a[style], .facts-list a[style], .citation a[style] {
+        color: #85A4E0 !important;
+    }
+
+    /* Emphasis inside answers. `.faq-answer strong` sets its own #2D2D2D for
+       light mode and was in none of the dark-mode lists, so every bolded term
+       on the support page was invisible on the #2A2A28 card: about 1.04:1.
+       Those are the menu paths, button names and prices, i.e. the part of a
+       support answer a reader is actually looking for. Brighter than body text
+       on purpose, since that is what the bold is doing. */
+    .faq-answer strong { color: #F0EEE0 !important; }
 
     /* Surfaces: cards, panels, quote blocks */
     .card, .citation, .quick-facts, .faq-item, .container > section,
