@@ -52,6 +52,18 @@
         color: #F0EEE0 !important;
     }
 
+    /* Three more found by resolving each class to the tag it is used on, then
+       applying the right WCAG threshold. Most flagged selectors turned out to
+       be fine: .page-title and .app-name .dear are large text, where 4.27:1
+       clears the 3:1 bar, and anything on a <p> or <li> is already caught by
+       the !important tag rules above. These three are small text on tags the
+       tag rules do not reach.
+
+       .research-link is a link, so it takes the accent (5.74:1). The other two
+       are muted supporting text (5.72:1). */
+    .research-link { color: #85A4E0 !important; }
+    .voice-lang, .faq-answer .voice-sample { color: #9FA59F !important; }
+
     /* Some citations carry an inline style="color: #2D2D2D", which normal
        cascade cannot beat. A stylesheet !important does. They are links, so
        they take the accent rather than the body colour. */
@@ -69,7 +81,13 @@
 
     /* Surfaces: cards, panels, quote blocks */
     .card, .citation, .quick-facts, .faq-item, .container > section,
-    .research-list, .founder, .press-section {
+    .research-list, .founder, .press-section,
+    /* These four kept a light surface while the text on them was being turned
+       light by the rules above, which is worse than either alone. .research-card
+       is `background: white` and holds .card-title, so an about-page research
+       card was cream text on white. The surface list and the text list have to
+       move together. */
+    .research-card, .short-version, .contact-section, .faq-answer .voice-sample {
         background: #2A2A28 !important;
         border-color: #3A3A38 !important;
     }
