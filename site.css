@@ -226,18 +226,46 @@ a.lang-btn {
 
 .lang-more { cursor: pointer; font-weight: 700; }
 
+/* The switcher was `position: fixed` in the top-right gutter, which worked
+   while three locales fit there. At 14 it runs the full width of the header
+   and lands on top of the centred top nav, and it only gets worse as locales
+   are added. So it becomes an ordinary in-flow row that wraps: it is the first
+   thing in the page (order: -2, above the top nav's -1), full width, centred,
+   and it can grow to 31 locales without touching anything else.
+   `position: relative` rather than `static` because .lang-more-list is
+   absolutely positioned against this element. */
+.lang-nav {
+    position: relative;
+    top: auto;
+    right: auto;
+    order: -2;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    padding: 14px 0 0;
+}
+
+/* On a phone the row is the whole width already, so shrink the chips rather
+   than let 16 of them stack four rows deep above the fold. */
+@media (max-width: 600px) {
+    .lang-nav { gap: 4px; padding-top: 10px; }
+    .lang-btn { font-size: 0.68rem; padding: 4px 7px; }
+}
+
 /* The overflow panel. Collapsed until "+" is pressed, driven by aria-expanded
    so the accessible state and the visual state cannot drift.
 
    A two-column grid of plain rows, not wrapped chips: 28 variable-width pills
    wrap raggedly and read as clutter. A grid scans in one pass. */
-.lang-nav { position: fixed; }
-
 .lang-more-list {
     display: none;
     position: absolute;
     top: calc(100% + 8px);
-    right: 0;
+    /* Centred, not right-anchored: the nav is now full width, so `right: 0`
+       would park the panel in the far corner away from the "+" that opens it. */
+    left: 50%;
+    transform: translateX(-50%);
     width: 250px;
     max-height: 64vh;
     overflow-y: auto;
