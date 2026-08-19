@@ -90,6 +90,58 @@ def check_dashes(locale, path, html):
     if "—" in html:
         fail(locale, "dashes", f"{os.path.basename(path)} contains an em dash")
 
+
+def font_coverage(doc, ready):
+    """Every character a locale renders must exist in the self-hosted fonts.
+
+    `needs_font` in strings.json is a hand-maintained list, and a hand list
+    drifts. It named the CJK, Arabic and Indic locales but missed Cyrillic
+    (ru, uk) and Vietnamese (vi), which the latin + latin-ext subsets do not
+    cover either. Shipping those would have put them in a system fallback,
+    which is exactly what the list exists to prevent.
+
+    This computes it instead: take the union of codepoints across the
+    self-hosted faces, take the characters each locale actually uses, and
+    report the difference. It cannot drift, and adding a font subset clears
+    the failure automatically.
+
+    Skipped silently when fontTools is unavailable, so the ordinary build does
+    not gain a hard dependency on it.
+    """
+    try:
+        from fontTools.ttLib import TTFont
+    except ImportError:
+        return
+    covered = set()
+    for f in glob.glob(os.path.join(ROOT, "fonts", "*.woff2")):
+        try:
+            covered |= set(TTFont(f).getBestCmap().keys())
+        except Exception:
+            return  # woff2 needs brotli; not worth failing the build over
+    if not covered:
+        return
+    ALWAYS_OK = set(range(0x20, 0x7F)) | {0xA0, 0x200B, 0x2018, 0x2019, 0x201C, 0x201D}
+    for loc in ready:
+        used = set()
+        for bucket in ("strings", "nav", "ui", "shots"):
+            for entry in doc.get(bucket, {}).values():
+                v = entry.get(loc)
+                if isinstance(v, str):
+                    used |= set(v)
+        for page in doc.get("meta", {}).values():
+            for field in ("title", "desc"):
+                v = page.get(field, {}).get(loc)
+                if isinstance(v, str):
+                    used |= set(v)
+        missing = sorted({c for c in used
+                          if ord(c) not in covered and ord(c) not in ALWAYS_OK
+                          and not c.isspace()})
+        if missing:
+            sample = "".join(missing[:12])
+            fail(loc, "fonts",
+                 f"{len(missing)} characters have no self-hosted glyph, e.g. {sample}")
+
+
 def main():
     doc = load()
     ready = [l for l in doc["locales"] if l in doc.get("ready", [])]
@@ -100,6 +152,7 @@ def main():
             tail = "" if page == "index.html" else page
             produced.add(f"https://dearnudges.com/{tail}" if loc == "en"
                          else f"https://dearnudges.com/{loc}/{tail}")
+    font_coverage(doc, ready)
     for loc in ready:
         for p in pages_for(loc):
             html = io.open(p, encoding="utf-8").read()
