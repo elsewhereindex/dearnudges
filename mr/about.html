@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dear विषयी</title>
+    <meta name="description" content="Dear का आहे, त्यामागचं संशोधन, आणि तो कसा चालतो.">
+    <meta property="og:title" content="Dear विषयी">
+    <meta property="og:description" content="Dear का आहे, त्यामागचं संशोधन, आणि तो कसा चालतो.">
+    <meta property="og:image" content="https://dearnudges.com/app-icon.png">
+    <meta property="og:url" content="https://dearnudges.com/mr/about.html">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/png" href="../app-icon.png">
+    <link rel="apple-touch-icon" href="../app-icon.png">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Quicksand', -apple-system, sans-serif;
+            background: #FAFAFD;
+            color: #2D2D2D;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0 24px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .lang-nav {
+            position: fixed;
+            top: 16px;
+            right: 20px;
+            display: flex;
+            gap: 4px;
+            z-index: 10;
+        }
+
+        .lang-btn {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #7A767B;
+            background: white;
+            border: 1px solid #E0E0E0;
+            padding: 5px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+
+        .lang-btn:hover, .lang-btn.active {
+            color: #6B8AD6;
+            border-color: #6B8AD6;
+            background: #F5F6FB;
+        }
+
+        .page { max-width: 600px; width: 100%; padding: 64px 0 24px; }
+
+        .page-title {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 2rem;
+            color: #6B8AD6;
+            margin-bottom: 48px;
+            text-align: center;
+        }
+
+        .section { margin-bottom: 40px; }
+
+        .section-title {
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 700;
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: #6B8AD6;
+            margin-bottom: 16px;
+        }
+
+        .divider { width: 64px; height: 1px; background: rgba(92, 133, 214, 0.25); margin: 0 0 40px; }
+
+        .body-text { font-size: 0.95rem; color: #7A767B; line-height: 1.65; }
+        .body-text + .body-text { margin-top: 12px; }
+
+        .app-overview { display: flex; align-items: flex-start; gap: 20px; }
+        .app-overview .icon { width: 80px; height: 80px; border-radius: 18px; flex-shrink: 0; box-shadow: 0 4px 16px rgba(131, 150, 209, 0.15); }
+        .app-overview .info { flex: 1; }
+
+        .app-name { font-family: 'Quicksand', sans-serif; font-weight: 700; font-size: 1.25rem; color: #2D2D2D; margin-bottom: 8px; line-height: 1.3; }
+        .app-name .dear { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-style: normal; font-weight: 700; color: #6B8AD6; }
+
+        /* Research cards */
+        .research-cards { display: flex; flex-direction: column; gap: 16px; }
+
+        .research-card {
+            background: white;
+            border: 1px solid #E8E8EC;
+            border-radius: 12px;
+            padding: 20px;
+            transition: border-color 0.15s ease, box-shadow 0.15s ease;
+        }
+        .research-card:hover {
+            border-color: #6B8AD6;
+            box-shadow: 0 2px 12px rgba(92, 133, 214, 0.1);
+        }
+
+        .research-card .card-title {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 1rem;
+            color: #2D2D2D;
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+
+        .research-card .card-body {
+            font-size: 0.9rem;
+            color: #7A767B;
+            line-height: 1.6;
+        }
+
+        .research-card .card-source {
+            font-size: 0.78rem;
+            color: #6E6A6F;
+            margin-top: 10px;
+            font-style: italic;
+        }
+        .research-card .card-source a {
+            color: #6B8AD6;
+            text-decoration: none;
+        }
+        .research-card .card-source a:hover { text-decoration: underline; }
+
+        .research-link {
+            display: inline-block;
+            margin-top: 16px;
+            font-size: 0.88rem;
+            font-weight: 600;
+            color: #6B8AD6;
+            text-decoration: none;
+        }
+        .research-link:hover { text-decoration: underline; }
+
+        /* How it works */
+        .steps { display: flex; flex-direction: column; gap: 16px; }
+        .step { display: flex; gap: 16px; align-items: flex-start; }
+        .step-number {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: #6B8AD6;
+            color: white;
+            font-weight: 700;
+            font-size: 0.85rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        .step-text { flex: 1; }
+        .step-text .step-title { font-weight: 700; font-size: 0.95rem; color: #2D2D2D; margin-bottom: 4px; }
+        .step-text .step-desc { font-size: 0.88rem; color: #7A767B; line-height: 1.55; }
+
+        /* Voices preview */
+        .voices-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-top: 12px;
+        }
+        .voice-tag {
+            background: white;
+            border: 1px solid #E8E8EC;
+            border-radius: 8px;
+            padding: 10px 8px;
+            text-align: center;
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: #2D2D2D;
+        }
+        .voice-tag .voice-lang {
+            font-size: 0.7rem;
+            color: #6E6A6F;
+            font-weight: 400;
+            display: block;
+            margin-top: 2px;
+        }
+
+        /* CTA section */
+        .cta-box {
+            background: white;
+            border: 1px solid #E8E8EC;
+            border-radius: 12px;
+            padding: 24px;
+            text-align: center;
+        }
+        .cta-box .cta-title {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: #2D2D2D;
+            margin-bottom: 8px;
+        }
+        .cta-box .cta-body {
+            font-size: 0.88rem;
+            color: #7A767B;
+            line-height: 1.55;
+            margin-bottom: 16px;
+        }
+        .cta-box a {
+            color: #6B8AD6;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.92rem;
+        }
+        .cta-box a:hover { text-decoration: underline; }
+
+        /* Facts */
+        .facts-list { list-style: none; padding: 0; }
+        .facts-list li { font-size: 0.95rem; color: #7A767B; line-height: 1.65; padding: 6px 0; border-bottom: 1px solid rgba(92, 133, 214, 0.1); }
+        .facts-list li:last-child { border-bottom: none; }
+        .facts-list .label { font-weight: 700; color: #2D2D2D; }
+
+        footer { font-size: 0.75rem; color: #7A767B; padding-bottom: 80px; line-height: 1.7; text-align: center; max-width: 600px; width: 100%; }
+
+        .bottom-nav { position: fixed; bottom: 0; left: 0; right: 0; background: #8396D1; display: flex; justify-content: center; padding: 0; z-index: 20; }
+        .bottom-nav a { flex: 1; max-width: 100px; text-align: center; padding: 10px 0 calc(10px + env(safe-area-inset-bottom, 0px)); font-family: 'Quicksand', sans-serif; font-size: 0.65rem; font-weight: 600; color: rgba(255, 255, 255, 0.7); text-decoration: none; display: flex; flex-direction: column; align-items: center; gap: 3px; transition: color 0.15s ease; }
+        .bottom-nav a:hover, .bottom-nav a.active { color: #FFFFFF; }
+        .bottom-nav svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+
+        [data-lang] { display: none; }
+        [data-lang="mr"] { display: block; }
+
+        @media (max-width: 480px) {
+            .page { padding: 40px 0 20px; }
+            .page-title { font-size: 1.65rem; margin-bottom: 36px; }
+            .app-overview { flex-direction: column; align-items: center; text-align: center; }
+            .app-overview .icon { width: 72px; height: 72px; border-radius: 16px; }
+            .voices-grid { grid-template-columns: repeat(2, 1fr); }
+            .body-text { font-size: 0.88rem; }
+            .section-title { font-size: 0.78rem; }
+            .bottom-nav a { font-size: 0.6rem; }
+            .lang-nav { top: 10px; right: 10px; }
+            .lang-btn { padding: 4px 8px; font-size: 0.7rem; }
+        }
+    </style>
+    <link rel="stylesheet" href="../fonts.css">
+    <link rel="stylesheet" href="../fonts-i18n.css">
+    <link rel="stylesheet" href="../site.css">
+    <link rel="canonical" href="https://dearnudges.com/mr/about.html">
+    <link rel="alternate" hreflang="en" href="https://dearnudges.com/about.html">
+    <link rel="alternate" hreflang="fr" href="https://dearnudges.com/fr/about.html">
+    <link rel="alternate" hreflang="es" href="https://dearnudges.com/es/about.html">
+    <link rel="alternate" hreflang="de" href="https://dearnudges.com/de/about.html">
+    <link rel="alternate" hreflang="it" href="https://dearnudges.com/it/about.html">
+    <link rel="alternate" hreflang="ja" href="https://dearnudges.com/ja/about.html">
+    <link rel="alternate" hreflang="ko" href="https://dearnudges.com/ko/about.html">
+    <link rel="alternate" hreflang="zh-Hant" href="https://dearnudges.com/zh-Hant/about.html">
+    <link rel="alternate" hreflang="zh-Hans" href="https://dearnudges.com/zh-Hans/about.html">
+    <link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/about.html">
+    <link rel="alternate" hreflang="ru" href="https://dearnudges.com/ru/about.html">
+    <link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/about.html">
+    <link rel="alternate" hreflang="hi" href="https://dearnudges.com/hi/about.html">
+    <link rel="alternate" hreflang="id" href="https://dearnudges.com/id/about.html">
+    <link rel="alternate" hreflang="tr" href="https://dearnudges.com/tr/about.html">
+    <link rel="alternate" hreflang="pl" href="https://dearnudges.com/pl/about.html">
+    <link rel="alternate" hreflang="vi" href="https://dearnudges.com/vi/about.html">
+    <link rel="alternate" hreflang="uk" href="https://dearnudges.com/uk/about.html">
+    <link rel="alternate" hreflang="sv" href="https://dearnudges.com/sv/about.html">
+    <link rel="alternate" hreflang="nb" href="https://dearnudges.com/nb/about.html">
+    <link rel="alternate" hreflang="da" href="https://dearnudges.com/da/about.html">
+    <link rel="alternate" hreflang="fi" href="https://dearnudges.com/fi/about.html">
+    <link rel="alternate" hreflang="fil" href="https://dearnudges.com/fil/about.html">
+    <link rel="alternate" hreflang="mr" href="https://dearnudges.com/mr/about.html">
+    <link rel="alternate" hreflang="sw" href="https://dearnudges.com/sw/about.html">
+    <link rel="alternate" hreflang="x-default" href="https://dearnudges.com/about.html">
+</head>
+<body>
+
+    <nav class="lang-nav" aria-label="Language">
+        <a class="lang-btn" hreflang="en" href="../about.html">EN</a><a class="lang-btn" hreflang="fr" href="../fr/about.html">FR</a><a class="lang-btn" hreflang="es" href="../es/about.html">ES</a><a class="lang-btn" hreflang="de" href="../de/about.html">DE</a><a class="lang-btn" hreflang="it" href="../it/about.html">IT</a><a class="lang-btn" hreflang="ja" href="../ja/about.html">JA</a><a class="lang-btn" hreflang="ko" href="../ko/about.html">KO</a><a class="lang-btn" hreflang="zh-Hant" href="../zh-Hant/about.html">ZH-HANT</a><a class="lang-btn" hreflang="zh-Hans" href="../zh-Hans/about.html">ZH-HANS</a><a class="lang-btn" hreflang="pt-BR" href="../pt-BR/about.html">PT</a><a class="lang-btn" hreflang="ru" href="../ru/about.html">RU</a><a class="lang-btn" hreflang="nl" href="../nl/about.html">NL</a><a class="lang-btn" hreflang="hi" href="../hi/about.html">HI</a><a class="lang-btn" hreflang="id" href="../id/about.html">ID</a><a class="lang-btn" hreflang="tr" href="../tr/about.html">TR</a><a class="lang-btn" hreflang="pl" href="../pl/about.html">PL</a><a class="lang-btn" hreflang="vi" href="../vi/about.html">VI</a><a class="lang-btn" hreflang="uk" href="../uk/about.html">UK</a><a class="lang-btn" hreflang="sv" href="../sv/about.html">SV</a><a class="lang-btn" hreflang="nb" href="../nb/about.html">NB</a><a class="lang-btn" hreflang="da" href="../da/about.html">DA</a><a class="lang-btn" hreflang="fi" href="../fi/about.html">FI</a><a class="lang-btn" hreflang="fil" href="../fil/about.html">FIL</a><a class="lang-btn active" hreflang="mr" aria-current="true" href="../mr/about.html">MR</a><a class="lang-btn" hreflang="sw" href="../sw/about.html">SW</a>
+        <button class="lang-btn lang-more" aria-expanded="false" aria-controls="lang-more-list" aria-label="More languages" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='true'?'false':'true')">+</button>
+        <div class="lang-more-list" id="lang-more-list">
+            <p class="lang-soon-heading">लवकरच येत आहे</p>
+            <div class="lang-soon-grid"><span class="lang-soon-item">العربية</span><span class="lang-soon-item">ไทย</span><span class="lang-soon-item">עברית</span><span class="lang-soon-item">বাংলা</span><span class="lang-soon-item">தமிழ்</span><span class="lang-soon-item">తెలుగు</span></div>
+            <p class="lang-soon-note">ॲप आधीच सर्व 31 भाषा बोलतो.</p>
+        </div>
+    </nav>
+
+    <div class="page">
+        <h1 class="page-title">
+            Dear विषयी
+        </h1>
+
+        <!-- Why Dear Exists -->
+        <div class="section">
+            <h2 class="section-title">
+                Dear का आहे
+            </h2>
+            <p class="body-text">
+                Dear एका साध्या निरीक्षणातून उभा राहिला: आपण मित्रांची आठवण त्यांना संपर्क करण्यापेक्षा कितीतरी जास्त वेळा काढतो. संशोधन सांगतं की एका मेसेजचं मिळणाऱ्याला किती मोल असतं, हे आपण नेहमी कमी लेखतो. Dear तेच अंतर भरून काढतो.
+            </p>
+            <p class="body-text">
+                दिवसाला एक हळुवार आठवण. अपराधीपणा नाही, सलग मोजणी नाही, फीड नाही. आज बोलणं झालं नाही तर ती व्यक्ती दुसऱ्या दिवशी पुन्हा येईल. ॲप कधीच म्हणणार नाही की तुम्ही चुकलात. तो फक्त शांतपणे तिथे असतो.
+            </p>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- The Research -->
+        <div class="section">
+            <h2 class="section-title">
+                यामागचं संशोधन
+            </h2>
+
+            <div class="research-cards">
+                <div class="research-card">
+                    <p class="card-title">
+                        तुमचा निरोप लोकांना वाटतं त्यापेक्षा खूप जास्त आवडतो
+                    </p>
+                    <p class="card-body">
+                        अनपेक्षित मेसेजचं मोल आपण नेहमी कमी लेखतो. आपल्याला वाटणारा संकोच आणि प्रत्यक्षात मिळणारा उबदार प्रतिसाद यातलं अंतर मोठं आणि सातत्यपूर्ण असतं: अनोळखी माणसांबाबत, ओळखीच्यांबाबत आणि जुन्या मित्रांबाबतही.
+                    </p>
+                    <p class="card-source">
+                        Liu आदी, <em>Journal of Personality and Social Psychology</em>, 2022
+                    </p>
+                </div>
+
+                <div class="research-card">
+                    <p class="card-title">
+                        मैत्रीला स्वाभाविक थर असतात
+                    </p>
+                    <p class="card-body">
+                        माणूस साधारण 5 अगदी जवळची माणसं, 15 चांगले मित्र आणि मोठ्या वर्तुळात 50 जण सांभाळतो. Dear या स्वाभाविक थरांचा मान राखतो आणि प्रत्येकासाठी तुमची स्वतःची गती निवडू देतो.
+                    </p>
+                    <p class="card-source">
+                        Robin Dunbar, <em>Personal Relationships</em>, 2016
+                    </p>
+                </div>
+
+                <div class="research-card">
+                    <p class="card-title">
+                        छोट्या आठवणी विचार आणि कृती यातलं अंतर भरून काढतात
+                    </p>
+                    <p class="card-body">
+                        ठोस बेत कृती होण्याची शक्यता खूप वाढवतात. “मेसेज करायला हवा” चं “आत्ताच केला” होतं. Dear हेतूचं कृतीत रूपांतर करतो: एक ठरावीक माणूस, एक ठरावीक क्षण, आणि एक टॅप.
+                    </p>
+                    <p class="card-source">
+                        Gollwitzer, <em>American Psychologist</em>, 1999
+                    </p>
+                </div>
+
+                <div class="research-card">
+                    <p class="card-title">
+                        हा आरोग्याचा प्रश्न आहे, नुसती चांगली कल्पना नाही
+                    </p>
+                    <p class="card-body">
+                        WHO ने 2023 मध्ये एकटेपणाला तातडीचा जागतिक आरोग्य धोका जाहीर केलं, आणि सांगितलं की साधारण दर 4 पैकी 1 ज्येष्ठ सामाजिक एकाकीपणात आहे. Holt-Lunstad यांच्या मेटा-विश्लेषणातही आढळलं की सामाजिक एकाकीपणा अकाली मृत्यूचा धोका 26&nbsp;% वाढवतो. Dear हा मोठ्या प्रश्नाकडे वळवलेला छोटा उपाय आहे.
+                    </p>
+                    <p class="card-source">
+                        WHO Commission on Social Connection, 2023; Holt-Lunstad आदी, 2010
+                    </p>
+                </div>
+            </div>
+
+            <a href="research.html" class="research-link">
+                सर्व संशोधन आणि संदर्भ पाहा &rarr;
+            </a>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- How It Works -->
+        <div class="section">
+            <h2 class="section-title">
+                हे कसं चालतं
+            </h2>
+
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-text">
+                        <p class="step-title">
+                            तुमची माणसं जोडा
+                        </p>
+                        <p class="step-desc">
+                            संपर्कांमधून आणा किंवा स्वतः जोडा. प्रत्येकाशी किती वेळा बोलायचं ते ठरवा: दर आठवड्याला, दर दोन आठवड्यांनी, दर महिन्याला, किंवा त्याहून कमी.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-text">
+                        <p class="step-title">
+                            दररोज एक आठवण मिळवा
+                        </p>
+                        <p class="step-desc">
+                            दररोज Dear तुम्ही निवडलेल्या आवाजात कोणाशी बोलायचं ते सुचवतो. शेरलॉकची तर्कबुद्धी, Nonna चा जिव्हाळा, सिरानोचं प्रेमनिवेदन, किंवा आणखी 12.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-text">
+                        <p class="step-title">
+                            मेसेज, फोन किंवा FaceTime
+                        </p>
+                        <p class="step-desc">
+                            एका टॅपवर मेसेज, फोन किंवा व्हिडिओ उघडतो. एवढंच. रोजनिशी नाही, आकडेवारी नाही, गोंगाट नाही. फक्त खऱ्या माणसाशी खरं बोलणं.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Voices -->
+        <div class="section">
+            <h2 class="section-title">
+                15 आवाज
+            </h2>
+            <p class="body-text">
+                या आवाजांमुळे आठवण कॅलेंडरच्या गजरासारखी न वाटता आठवण करून देणाऱ्या मित्रासारखी वाटते. प्रत्येकाची लिहिण्याची, लक्ष देण्याची आणि काळजी घेण्याची स्वतःची पद्धत आहे.
+            </p>
+            <div class="voices-grid">
+                <span class="voice-tag">Dear<span class="voice-lang">EN / FR / ES</span></span>
+                <span class="voice-tag">Friendo<span class="voice-lang">EN / FR / ES</span></span>
+                <span class="voice-tag">Sherlock<span class="voice-lang">EN</span></span>
+                <span class="voice-tag">Bront&euml;<span class="voice-lang">EN</span></span>
+                <span class="voice-tag">Nonna<span class="voice-lang">EN</span></span>
+                <span class="voice-tag">Haiku<span class="voice-lang">EN</span></span>
+                <span class="voice-tag">Noir<span class="voice-lang">EN</span></span>
+                <span class="voice-tag">Mom Text<span class="voice-lang">EN</span></span>
+                <span class="voice-tag">Dracula<span class="voice-lang">EN</span></span>
+                <span class="voice-tag">Proust<span class="voice-lang">FR</span></span>
+                <span class="voice-tag">Cyrano<span class="voice-lang">FR</span></span>
+                <span class="voice-tag">Le Renard<span class="voice-lang">FR</span></span>
+                <span class="voice-tag">Don Quijote<span class="voice-lang">ES</span></span>
+                <span class="voice-tag">El Mar<span class="voice-lang">ES</span></span>
+                <span class="voice-tag">La Abuela<span class="voice-lang">ES</span></span>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Privacy -->
+        <div class="section">
+            <h2 class="section-title">
+                रचनेपासूनच खाजगी
+            </h2>
+            <p class="body-text">
+                तुमचे मित्र, तुमचे मेसेज, तुमची नाती: यातलं काहीही तुमच्या डिव्हाइसबाहेर जात नाही. खातं नाही, जाहिराती नाहीत, विकायला काही नाही. Dear फक्त नावाशिवायची वापराची मोजणी, नावाशिवायच्या खरेदीच्या नोंदी आणि त्रुटींचे अहवाल पाठवतो, आणि तुमची किंवा तुमच्या माणसांची ओळख पटवणारं काहीही कधीच नाही. हा जाणीवपूर्वक घेतलेला निर्णय आहे.
+            </p>
+            <p class="body-text">
+                <a href="privacy.html" style="color: #6B8AD6; text-decoration: none; font-weight: 600;">संपूर्ण गोपनीयता धोरण वाचा &rarr;</a>
+            </p>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Quick Facts -->
+        <div class="section">
+            <h2 class="section-title">
+                थोडक्यात माहिती
+            </h2>
+            <ul class="facts-list">
+                <li>
+                    <span class="label">किंमत:</span> 15 माणसांपर्यंत मोफत. अपग्रेडची किंमत तुमच्या देशातल्या साधारण एका एस्प्रेसोइतकी आहे (अमेरिकेत सुमारे 2.99&nbsp;$), जी जागतिक बँकेच्या उत्पन्न आकडेवारीवर आणि Numbeo च्या कॉफी किमतींवर ठरवली आहे.
+                </li>
+                <li>
+                    <span class="label">Languages:</span> English, French, Spanish
+                </li>
+                <li>
+                    <span class="label">प्लॅटफॉर्म:</span> iOS 18+, Android 8+
+                </li>
+                <li>
+                    <span class="label">गोपनीयता:</span> डिव्हाइसवरच चालतो. तुमची माणसं तिथून बाहेर जात नाहीत. फोनमधून फक्त नावाशिवायची वापराची मोजणी, नावाशिवायच्या खरेदीच्या नोंदी आणि त्रुटींचे अहवाल जातात.
+                </li>
+            </ul>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Recommend Dear -->
+        <div class="section">
+            <div class="cta-box">
+                <p class="cta-title">
+                    Dear ची शिफारस करावीशी वाटते?
+                </p>
+                <p class="cta-body">
+                    तुम्ही थेरपिस्ट, समुपदेशक, प्रशिक्षक असाल किंवा आरोग्य-कल्याण क्षेत्रात काम करत असाल आणि तुम्हाला वाटत असेल की Dear तुमच्या क्लायंटना नाती अधिक घट्ट करायला मदत करेल, तर आम्हाला जरूर कळवा.
+                </p>
+                <a href="mailto:support@dearnudges.com">support@dearnudges.com</a>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Made By -->
+        <div class="section" style="text-align: center;">
+            <p class="body-text">
+                Dear हा Elsewhere Index या स्वतंत्र स्टुडिओने बनवला आहे. खूप काळजीपूर्वक बांधलेला.
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Elsewhere Index LLC</p>
+    </footer>
+
+    <nav class="bottom-nav">
+        <a href="/">
+            <svg viewBox="0 0 24 24"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z"/><path d="M9 21V12h6v9"/></svg>
+            मुख्यपृष्ठ
+        </a>
+        <a href="about.html" class="active">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            ओळख
+        </a>
+        <a href="research.html">
+            <svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            संशोधन
+        </a>
+        <a href="support.html">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            प्रश्न
+        </a>
+        <a href="privacy.html">
+            <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            गोपनीयता
+        </a>
+        <a href="press.html">
+            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            प्रेस
+        </a>
+    </nav>
+
+    
+
+</body>
+</html>

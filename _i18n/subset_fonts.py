@@ -116,7 +116,13 @@ def main():
     doc = json.load(open(os.path.join(ROOT, "strings.json")))
     tpl = open(os.path.join(ROOT, "templates", "support.html")).read()
     ready = set(doc["ready"])
-    want = sys.argv[1:] or [l for l in doc.get("needs_font", []) if l in ready]
+    # Every ready locale that HAS a source font, not just the ones still listed
+    # in needs_font. A locale is cleared from that list the moment it gets its
+    # first subset, so selecting from it meant a subset was built exactly once
+    # and never again: edit one Marathi string afterwards and the font silently
+    # no longer covers the text, with nothing to catch it until the page renders
+    # tofu. Re-subsetting is cheap and idempotent; skipping it is not.
+    want = sys.argv[1:] or [l for l in SOURCES if l in ready]
     if not want:
         print("subset_fonts: nothing to do (no needs_font locale is ready yet)")
         return
@@ -136,7 +142,9 @@ def main():
             print(f"  !! no source font mapped for {loc}"); continue
         rel, slug = SOURCES[loc]
         chars = {c for c in chars_for(loc, doc, tpl) if ord(c) not in covered}
-        chars = {c for c in chars if c.isprintable() and not c.isspace()}
+        JOINERS = {0x200C, 0x200D}   # ZWNJ / ZWJ: zero-width but meaningful
+        chars = {c for c in chars
+                 if (c.isprintable() and not c.isspace()) or ord(c) in JOINERS}
         if not chars:
             print(f"  {loc}: nothing outside the Latin faces, no subset needed"); continue
         cps = sorted(ord(c) for c in chars)
