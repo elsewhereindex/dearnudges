@@ -296,7 +296,9 @@ a.lang-btn {
     background: #FFFFFF;
     border: 1px solid #E8E8EC;
     box-shadow: 0 12px 34px rgba(45, 45, 45, 0.14);
-    text-align: left;
+    /* `start`, not `left`: under dir=rtl the panel should read from the
+       right like the rest of the page. */
+    text-align: start;
 }
 .lang-more[aria-expanded="true"] + .lang-more-list { display: block; }
 

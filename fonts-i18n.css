@@ -14,6 +14,38 @@
   font-style: normal;
   font-weight: 400 700;
   font-display: swap;
+  src: url(fonts/NotoSansArabic-ar.woff2) format('woff2');
+  unicode-range: U+060C, U+061B, U+061F, U+0621, U+0622, U+0623, U+0624, U+0625, U+0626, U+0627, U+0628, U+0629, U+062A, U+062B, U+062C, U+062D, U+062E, U+062F, U+0630, U+0631, U+0632, U+0633, U+0634, U+0635, U+0636, U+0637, U+0638, U+0639, U+063A, U+0640, U+0641, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+0649, U+064A, U+064B, U+064E, U+064F, U+0650, U+0651, U+2190, U+2192;
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: italic;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(fonts/NotoSansArabic-ar.woff2) format('woff2');
+  unicode-range: U+060C, U+061B, U+061F, U+0621, U+0622, U+0623, U+0624, U+0625, U+0626, U+0627, U+0628, U+0629, U+062A, U+062B, U+062C, U+062D, U+062E, U+062F, U+0630, U+0631, U+0632, U+0633, U+0634, U+0635, U+0636, U+0637, U+0638, U+0639, U+063A, U+0640, U+0641, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+0649, U+064A, U+064B, U+064E, U+064F, U+0650, U+0651, U+2190, U+2192;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(fonts/NotoSansArabic-ar.woff2) format('woff2');
+  unicode-range: U+060C, U+061B, U+061F, U+0621, U+0622, U+0623, U+0624, U+0625, U+0626, U+0627, U+0628, U+0629, U+062A, U+062B, U+062C, U+062D, U+062E, U+062F, U+0630, U+0631, U+0632, U+0633, U+0634, U+0635, U+0636, U+0637, U+0638, U+0639, U+063A, U+0640, U+0641, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+0649, U+064A, U+064B, U+064E, U+064F, U+0650, U+0651, U+2190, U+2192;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(fonts/NotoSansArabic-ar.woff2) format('woff2');
+  unicode-range: U+060C, U+061B, U+061F, U+0621, U+0622, U+0623, U+0624, U+0625, U+0626, U+0627, U+0628, U+0629, U+062A, U+062B, U+062C, U+062D, U+062E, U+062F, U+0630, U+0631, U+0632, U+0633, U+0634, U+0635, U+0636, U+0637, U+0638, U+0639, U+063A, U+0640, U+0641, U+0642, U+0643, U+0644, U+0645, U+0646, U+0647, U+0648, U+0649, U+064A, U+064B, U+064E, U+064F, U+0650, U+0651, U+2190, U+2192;
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
   src: url(fonts/NotoSansBengali-bn.woff2) format('woff2');
   unicode-range: U+0964, U+0981, U+0982, U+0985, U+0986, U+0987, U+0989, U+098F, U+0990, U+0993, U+0995, U+0996, U+0997, U+0998, U+0999, U+099A, U+099B, U+099C, U+099D, U+099E, U+099F, U+09A0, U+09A1, U+09A2, U+09A3, U+09A4, U+09A5, U+09A6, U+09A7, U+09A8, U+09AA, U+09AB, U+09AC, U+09AD, U+09AE, U+09AF, U+09B0, U+09B2, U+09B6, U+09B7, U+09B8, U+09B9, U+09BC, U+09BE, U+09BF, U+09C0, U+09C1, U+09C2, U+09C3, U+09C7, U+09C8, U+09CB, U+09CC, U+09CD, U+09CE, U+2190, U+2192;
 }

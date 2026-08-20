@@ -103,7 +103,7 @@
         .facts-list a:hover { text-decoration: underline; }
 
         .research-list { list-style: none; padding: 0; }
-        .research-list li { font-size: 0.92rem; color: #7A767B; line-height: 1.65; padding: 8px 0; padding-left: 16px; position: relative; }
+        .research-list li { font-size: 0.92rem; color: #7A767B; line-height: 1.65; padding: 8px 0; padding-inline-start: 16px; position: relative; }
         .research-list li::before { content: ''; position: absolute; left: 0; top: 16px; width: 4px; height: 4px; border-radius: 50%; background: #6B8AD6; opacity: 0.5; }
         .research-list em { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-style: italic; color: #6B8AD6; }
         .research-note { font-size: 0.85rem; color: #7A767B; margin-top: 12px; font-style: italic; }
@@ -113,7 +113,7 @@
         .download-item:hover { border-color: #6B8AD6; box-shadow: 0 2px 12px rgba(92, 133, 214, 0.1); }
         .download-item .download-label { font-weight: 700; font-size: 0.88rem; margin-bottom: 4px; }
         .download-item .download-detail { font-size: 0.78rem; color: #7A767B; }
-        .color-swatch { display: inline-block; width: 14px; height: 14px; border-radius: 4px; background: #6B8AD6; vertical-align: middle; margin-right: 4px; }
+        .color-swatch { display: inline-block; width: 14px; height: 14px; border-radius: 4px; background: #6B8AD6; vertical-align: middle; margin-inline-end: 4px; }
 
         .contact-links { display: flex; gap: 24px; flex-wrap: wrap; }
         .contact-links a { font-size: 0.95rem; color: #6B8AD6; text-decoration: none; font-weight: 600; }
@@ -165,6 +165,7 @@
     <link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/press.html">
     <link rel="alternate" hreflang="hi" href="https://dearnudges.com/hi/press.html">
     <link rel="alternate" hreflang="id" href="https://dearnudges.com/id/press.html">
+    <link rel="alternate" hreflang="ar" href="https://dearnudges.com/ar/press.html">
     <link rel="alternate" hreflang="tr" href="https://dearnudges.com/tr/press.html">
     <link rel="alternate" hreflang="pl" href="https://dearnudges.com/pl/press.html">
     <link rel="alternate" hreflang="vi" href="https://dearnudges.com/vi/press.html">
@@ -185,11 +186,11 @@
 <body>
 
     <nav class="lang-nav" aria-label="Language">
-        <a class="lang-btn" hreflang="en" href="../press.html">EN</a><a class="lang-btn" hreflang="fr" href="../fr/press.html">FR</a><a class="lang-btn" hreflang="es" href="../es/press.html">ES</a><a class="lang-btn" hreflang="de" href="../de/press.html">DE</a><a class="lang-btn" hreflang="it" href="../it/press.html">IT</a><a class="lang-btn" hreflang="ja" href="../ja/press.html">JA</a><a class="lang-btn" hreflang="ko" href="../ko/press.html">KO</a><a class="lang-btn" hreflang="zh-Hant" href="../zh-Hant/press.html">ZH-HANT</a><a class="lang-btn" hreflang="zh-Hans" href="../zh-Hans/press.html">ZH-HANS</a><a class="lang-btn" hreflang="pt-BR" href="../pt-BR/press.html">PT</a><a class="lang-btn" hreflang="ru" href="../ru/press.html">RU</a><a class="lang-btn" hreflang="nl" href="../nl/press.html">NL</a><a class="lang-btn" hreflang="hi" href="../hi/press.html">HI</a><a class="lang-btn" hreflang="id" href="../id/press.html">ID</a><a class="lang-btn" hreflang="tr" href="../tr/press.html">TR</a><a class="lang-btn" hreflang="pl" href="../pl/press.html">PL</a><a class="lang-btn" hreflang="vi" href="../vi/press.html">VI</a><a class="lang-btn" hreflang="th" href="../th/press.html">TH</a><a class="lang-btn" hreflang="uk" href="../uk/press.html">UK</a><a class="lang-btn" hreflang="sv" href="../sv/press.html">SV</a><a class="lang-btn" hreflang="nb" href="../nb/press.html">NB</a><a class="lang-btn" hreflang="da" href="../da/press.html">DA</a><a class="lang-btn active" hreflang="fi" aria-current="true" href="../fi/press.html">FI</a><a class="lang-btn" hreflang="fil" href="../fil/press.html">FIL</a><a class="lang-btn" hreflang="bn" href="../bn/press.html">BN</a><a class="lang-btn" hreflang="ta" href="../ta/press.html">TA</a><a class="lang-btn" hreflang="te" href="../te/press.html">TE</a><a class="lang-btn" hreflang="mr" href="../mr/press.html">MR</a><a class="lang-btn" hreflang="sw" href="../sw/press.html">SW</a>
+        <a class="lang-btn" hreflang="en" href="../press.html">EN</a><a class="lang-btn" hreflang="fr" href="../fr/press.html">FR</a><a class="lang-btn" hreflang="es" href="../es/press.html">ES</a><a class="lang-btn" hreflang="de" href="../de/press.html">DE</a><a class="lang-btn" hreflang="it" href="../it/press.html">IT</a><a class="lang-btn" hreflang="ja" href="../ja/press.html">JA</a><a class="lang-btn" hreflang="ko" href="../ko/press.html">KO</a><a class="lang-btn" hreflang="zh-Hant" href="../zh-Hant/press.html">ZH-HANT</a><a class="lang-btn" hreflang="zh-Hans" href="../zh-Hans/press.html">ZH-HANS</a><a class="lang-btn" hreflang="pt-BR" href="../pt-BR/press.html">PT</a><a class="lang-btn" hreflang="ru" href="../ru/press.html">RU</a><a class="lang-btn" hreflang="nl" href="../nl/press.html">NL</a><a class="lang-btn" hreflang="hi" href="../hi/press.html">HI</a><a class="lang-btn" hreflang="id" href="../id/press.html">ID</a><a class="lang-btn" hreflang="ar" href="../ar/press.html">AR</a><a class="lang-btn" hreflang="tr" href="../tr/press.html">TR</a><a class="lang-btn" hreflang="pl" href="../pl/press.html">PL</a><a class="lang-btn" hreflang="vi" href="../vi/press.html">VI</a><a class="lang-btn" hreflang="th" href="../th/press.html">TH</a><a class="lang-btn" hreflang="uk" href="../uk/press.html">UK</a><a class="lang-btn" hreflang="sv" href="../sv/press.html">SV</a><a class="lang-btn" hreflang="nb" href="../nb/press.html">NB</a><a class="lang-btn" hreflang="da" href="../da/press.html">DA</a><a class="lang-btn active" hreflang="fi" aria-current="true" href="../fi/press.html">FI</a><a class="lang-btn" hreflang="fil" href="../fil/press.html">FIL</a><a class="lang-btn" hreflang="bn" href="../bn/press.html">BN</a><a class="lang-btn" hreflang="ta" href="../ta/press.html">TA</a><a class="lang-btn" hreflang="te" href="../te/press.html">TE</a><a class="lang-btn" hreflang="mr" href="../mr/press.html">MR</a><a class="lang-btn" hreflang="sw" href="../sw/press.html">SW</a>
         <button class="lang-btn lang-more" aria-expanded="false" aria-controls="lang-more-list" aria-label="More languages" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='true'?'false':'true')">+</button>
         <div class="lang-more-list" id="lang-more-list">
             <p class="lang-soon-heading">Tulossa pian</p>
-            <div class="lang-soon-grid"><span class="lang-soon-item">العربية</span><span class="lang-soon-item">עברית</span></div>
+            <div class="lang-soon-grid"><span class="lang-soon-item">עברית</span></div>
             <p class="lang-soon-note">Sovellus puhuu jo kaikkia 31.</p>
         </div>
     </nav>
