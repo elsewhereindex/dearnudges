@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ความเป็นส่วนตัว - Dear</title>
+    <meta name="description" content="นโยบายความเป็นส่วนตัวของ Dear คนของคุณและรายชื่อผู้ติดต่อไม่เคยออกจากโทรศัพท์">
+    <link rel="icon" type="image/png" href="../app-icon.png">
+    <link rel="apple-touch-icon" href="../app-icon.png">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Quicksand', -apple-system, sans-serif;
+            background: #FAFAFD;
+            color: #2D2D2D;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0 24px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Language switcher */
+        .lang-nav {
+            position: fixed;
+            top: 16px;
+            right: 20px;
+            display: flex;
+            gap: 4px;
+            z-index: 10;
+        }
+
+        .lang-btn {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #7A767B;
+            background: white;
+            border: 1px solid #E0E0E0;
+            padding: 5px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            text-decoration: none;
+        }
+
+        .lang-btn:hover, .lang-btn.active {
+            color: #6B8AD6;
+            border-color: #6B8AD6;
+            background: #F5F6FB;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            padding: 60px 0 40px;
+        }
+
+        a.back {
+            font-size: 0.85rem;
+            color: #8396D1;
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-block;
+            margin-bottom: 32px;
+        }
+
+        a.back:hover { text-decoration: underline; }
+
+        h1 {
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 700;
+            font-size: 1.6rem;
+            color: #2D2D2D;
+            margin-bottom: 6px;
+        }
+
+        .updated {
+            font-size: 0.82rem;
+            color: #7A767B;
+            margin-bottom: 36px;
+        }
+
+        .short-version {
+            background: #EDEEF7;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 36px;
+            line-height: 1.65;
+            font-size: 0.95rem;
+        }
+
+        h2 {
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: #2D2D2D;
+            margin-top: 32px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            font-size: 0.92rem;
+            line-height: 1.65;
+            color: #2D2D2D;
+            margin-bottom: 12px;
+        }
+
+        p strong {
+            font-weight: 600;
+        }
+
+        ul {
+            font-size: 0.92rem;
+            line-height: 1.65;
+            margin-left: 20px;
+            margin-bottom: 12px;
+        }
+
+        .divider {
+            width: 48px;
+            height: 1px;
+            background: #C9CFDF;
+            margin: 36px 0;
+        }
+
+        footer {
+            font-size: 0.78rem;
+            color: #7A767B;
+            padding-bottom: 80px;
+            line-height: 1.7;
+        }
+
+        footer em {
+            font-style: italic;
+        }
+
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #8396D1;
+            border-top: none;
+            display: flex;
+            justify-content: center;
+            gap: 0;
+            padding: 0;
+            z-index: 20;
+        }
+
+        .bottom-nav a {
+            flex: 1;
+            max-width: 100px;
+            text-align: center;
+            padding: 10px 0 calc(10px + env(safe-area-inset-bottom, 0px));
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 3px;
+            transition: color 0.15s ease;
+        }
+
+        .bottom-nav a:hover,
+        .bottom-nav a.active {
+            color: #FFFFFF;
+        }
+
+        .bottom-nav svg {
+            width: 18px;
+            height: 18px;
+            fill: none;
+            stroke: currentColor;
+            stroke-width: 1.8;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        /* Hide inactive languages */
+        [data-lang] { display: none; }
+        [data-lang="th"] { display: block; }
+        span[data-lang="th"] { display: inline; }
+
+        @media (max-width: 480px) {
+            .container { padding: 40px 0 32px; }
+            h1 { font-size: 1.4rem; }
+            .lang-nav { top: 10px; right: 10px; }
+            .lang-btn { padding: 4px 8px; font-size: 0.7rem; }
+        }
+    </style>
+    <link rel="stylesheet" href="../fonts.css">
+    <link rel="stylesheet" href="../fonts-i18n.css">
+    <link rel="stylesheet" href="../site.css">
+    <link rel="canonical" href="https://dearnudges.com/th/privacy.html">
+    <link rel="alternate" hreflang="en" href="https://dearnudges.com/privacy.html">
+    <link rel="alternate" hreflang="fr" href="https://dearnudges.com/fr/privacy.html">
+    <link rel="alternate" hreflang="es" href="https://dearnudges.com/es/privacy.html">
+    <link rel="alternate" hreflang="de" href="https://dearnudges.com/de/privacy.html">
+    <link rel="alternate" hreflang="it" href="https://dearnudges.com/it/privacy.html">
+    <link rel="alternate" hreflang="ja" href="https://dearnudges.com/ja/privacy.html">
+    <link rel="alternate" hreflang="ko" href="https://dearnudges.com/ko/privacy.html">
+    <link rel="alternate" hreflang="zh-Hant" href="https://dearnudges.com/zh-Hant/privacy.html">
+    <link rel="alternate" hreflang="zh-Hans" href="https://dearnudges.com/zh-Hans/privacy.html">
+    <link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/privacy.html">
+    <link rel="alternate" hreflang="ru" href="https://dearnudges.com/ru/privacy.html">
+    <link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/privacy.html">
+    <link rel="alternate" hreflang="hi" href="https://dearnudges.com/hi/privacy.html">
+    <link rel="alternate" hreflang="id" href="https://dearnudges.com/id/privacy.html">
+    <link rel="alternate" hreflang="tr" href="https://dearnudges.com/tr/privacy.html">
+    <link rel="alternate" hreflang="pl" href="https://dearnudges.com/pl/privacy.html">
+    <link rel="alternate" hreflang="vi" href="https://dearnudges.com/vi/privacy.html">
+    <link rel="alternate" hreflang="th" href="https://dearnudges.com/th/privacy.html">
+    <link rel="alternate" hreflang="uk" href="https://dearnudges.com/uk/privacy.html">
+    <link rel="alternate" hreflang="sv" href="https://dearnudges.com/sv/privacy.html">
+    <link rel="alternate" hreflang="nb" href="https://dearnudges.com/nb/privacy.html">
+    <link rel="alternate" hreflang="da" href="https://dearnudges.com/da/privacy.html">
+    <link rel="alternate" hreflang="fi" href="https://dearnudges.com/fi/privacy.html">
+    <link rel="alternate" hreflang="fil" href="https://dearnudges.com/fil/privacy.html">
+    <link rel="alternate" hreflang="mr" href="https://dearnudges.com/mr/privacy.html">
+    <link rel="alternate" hreflang="sw" href="https://dearnudges.com/sw/privacy.html">
+    <link rel="alternate" hreflang="x-default" href="https://dearnudges.com/privacy.html">
+</head>
+<body>
+
+    <!-- Language switcher -->
+    <nav class="lang-nav" aria-label="Language">
+        <a class="lang-btn" hreflang="en" href="../privacy.html">EN</a><a class="lang-btn" hreflang="fr" href="../fr/privacy.html">FR</a><a class="lang-btn" hreflang="es" href="../es/privacy.html">ES</a><a class="lang-btn" hreflang="de" href="../de/privacy.html">DE</a><a class="lang-btn" hreflang="it" href="../it/privacy.html">IT</a><a class="lang-btn" hreflang="ja" href="../ja/privacy.html">JA</a><a class="lang-btn" hreflang="ko" href="../ko/privacy.html">KO</a><a class="lang-btn" hreflang="zh-Hant" href="../zh-Hant/privacy.html">ZH-HANT</a><a class="lang-btn" hreflang="zh-Hans" href="../zh-Hans/privacy.html">ZH-HANS</a><a class="lang-btn" hreflang="pt-BR" href="../pt-BR/privacy.html">PT</a><a class="lang-btn" hreflang="ru" href="../ru/privacy.html">RU</a><a class="lang-btn" hreflang="nl" href="../nl/privacy.html">NL</a><a class="lang-btn" hreflang="hi" href="../hi/privacy.html">HI</a><a class="lang-btn" hreflang="id" href="../id/privacy.html">ID</a><a class="lang-btn" hreflang="tr" href="../tr/privacy.html">TR</a><a class="lang-btn" hreflang="pl" href="../pl/privacy.html">PL</a><a class="lang-btn" hreflang="vi" href="../vi/privacy.html">VI</a><a class="lang-btn active" hreflang="th" aria-current="true" href="../th/privacy.html">TH</a><a class="lang-btn" hreflang="uk" href="../uk/privacy.html">UK</a><a class="lang-btn" hreflang="sv" href="../sv/privacy.html">SV</a><a class="lang-btn" hreflang="nb" href="../nb/privacy.html">NB</a><a class="lang-btn" hreflang="da" href="../da/privacy.html">DA</a><a class="lang-btn" hreflang="fi" href="../fi/privacy.html">FI</a><a class="lang-btn" hreflang="fil" href="../fil/privacy.html">FIL</a><a class="lang-btn" hreflang="mr" href="../mr/privacy.html">MR</a><a class="lang-btn" hreflang="sw" href="../sw/privacy.html">SW</a>
+        <button class="lang-btn lang-more" aria-expanded="false" aria-controls="lang-more-list" aria-label="More languages" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='true'?'false':'true')">+</button>
+        <div class="lang-more-list" id="lang-more-list">
+            <p class="lang-soon-heading">เร็ว ๆ นี้</p>
+            <div class="lang-soon-grid"><span class="lang-soon-item">العربية</span><span class="lang-soon-item">עברית</span><span class="lang-soon-item">বাংলা</span><span class="lang-soon-item">தமிழ்</span><span class="lang-soon-item">తెలుగు</span></div>
+            <p class="lang-soon-note">แอปรองรับครบทั้ง 31 ภาษาแล้ว</p>
+        </div>
+    </nav>
+
+    <div class="container">
+        <a href="/" class="back">
+            &larr; กลับไปที่ Dear
+        </a>
+
+        <h1>
+            นโยบายความเป็นส่วนตัว
+        </h1>
+        <p class="updated">
+            ปรับปรุงล่าสุด กรกฎาคม 2026
+        </p>
+
+        <div class="short-version">
+            เพื่อนและข้อมูลผู้ติดต่อของคุณไม่เคยออกจากเครื่องของคุณ เราไม่มีบัญชีและไม่มีโฆษณา เราเก็บจำนวนการใช้งานแบบไม่ระบุตัวตนจำนวนเล็กน้อยผ่าน TelemetryDeck ซึ่งเป็นบริการวิเคราะห์ที่ให้ความสำคัญกับความเป็นส่วนตัวในเยอรมนี เก็บบันทึกการซื้อแบบไม่ระบุตัวตนผ่าน RevenueCat และรายงานข้อขัดข้องแบบไม่ระบุตัวตนผ่าน Sentry เพื่อให้เข้าใจว่าแอปถูกใช้อย่างไร กู้คืนการซื้อของคุณ และแก้ไขสิ่งที่เสีย เราไม่สามารถระบุตัวคุณจากข้อมูลเหล่านี้ และชื่อกับข้อมูลติดต่อของเพื่อนคุณไม่เคยรวมอยู่ในนั้น<br><br>
+            แค่นั้น นั่นคือนโยบายความเป็นส่วนตัว
+        </div>
+
+        <p>
+            ถ้าต้องการฉบับยาวเพื่อวัตถุประสงค์ทางกฎหมาย อ่านต่อได้เลย
+        </p>
+
+        <div class="divider"></div>
+
+        <h2>
+            Dear เข้าถึงข้อมูลอะไรบ้าง
+        </h2>
+
+        <p>
+            <strong>ชื่อและรูปของผู้ติดต่อ</strong> เมื่อเปิดใช้ครั้งแรก Dear จะขออนุญาตเข้าถึงรายชื่อผู้ติดต่อ ใช้เพียงเพื่อให้คุณเลือกคนมาใส่ในรายการเตือนเท่านั้น ข้อมูลผู้ติดต่อถูกอ่านครั้งเดียวตอนเลือก และเก็บไว้ในเครื่องของคุณ Dear ไม่เคยส่งข้อมูลผู้ติดต่อออกจากเครื่อง และคุณใช้แอปได้โดยไม่ให้สิทธิ์เข้าถึง ด้วยการพิมพ์ชื่อเอง
+        </p>
+
+        <p>
+            <strong>สิทธิ์การแจ้งเตือน</strong> Dear ขออนุญาตส่งการแจ้งเตือนในเครื่อง เพื่อเตือนให้คุณติดต่อใครสักคน การแจ้งเตือนเหล่านี้ถูกตั้งเวลาและส่งภายในเครื่องของคุณทั้งหมด เนื้อหาไม่เคยถูกส่งไปที่ใด
+        </p>
+
+        <h2>
+            Dear เก็บข้อมูลอะไรบ้าง
+        </h2>
+
+        <p>
+            ข้อมูลทั้งหมดถูกเก็บไว้ในเครื่องของคุณ (รวมถึงพื้นที่แบ่งปันขนาดเล็กเพื่อให้วิดเจ็ตแสดงการเตือนได้) ซึ่งรวมถึง:
+        </p>
+
+        <div data-lang="en">
+            <ul>
+                <li>The names and optional photos of people you've added</li>
+                <li>Your nudge preferences (frequency, notification time)</li>
+                <li>Your persona and theme selections</li>
+                <li>Nudge completion history</li>
+                <li>Purchase status for subscriptions and voice personas</li>
+            </ul>
+        </div>
+        <div data-lang="fr">
+            <ul>
+                <li>Les noms et photos optionnelles des personnes que tu as ajout&eacute;es</li>
+                <li>Tes pr&eacute;f&eacute;rences de rappels (fr&eacute;quence, heure de notification)</li>
+                <li>Tes choix de voix et de th&egrave;me</li>
+                <li>L'historique des rappels compl&eacute;t&eacute;s</li>
+                <li>Le statut de tes achats pour les abonnements et les voix</li>
+            </ul>
+        </div>
+        <div data-lang="es">
+            <ul>
+                <li>Los nombres y fotos opcionales de las personas que has agregado</li>
+                <li>Tus preferencias de recordatorios (frecuencia, hora de notificaci&oacute;n)</li>
+                <li>Tus selecciones de voz y tema</li>
+                <li>El historial de recordatorios completados</li>
+                <li>El estado de tus compras de suscripciones y voces</li>
+            </ul>
+        </div>
+
+        
+<div data-lang="th">
+            <ul>
+                <li>The names and optional photos of people you've added</li>
+                <li>Your nudge preferences (frequency, notification time)</li>
+                <li>Your persona and theme selections</li>
+                <li>Nudge completion history</li>
+                <li>Purchase status for subscriptions and voice personas</li>
+            </ul>
+        </div><p>
+            ข้อมูลนี้ไม่เคยออกจากเครื่องของคุณ ไม่มีการซิงก์คลาวด์ ไม่มีการสำรองไปยังเซิร์ฟเวอร์ของเรา และเราไม่มีทางเข้าถึงได้
+        </p>
+
+        <h2>
+            Dear เก็บหรือส่งข้อมูลอะไรบ้าง
+        </h2>
+
+        <p>
+            Dear ไม่มีบัญชีและไม่มีโฆษณา เราไม่ใช้พิกเซลติดตามหรือเฟรมเวิร์กโฆษณา เราไม่รู้ว่าคุณเป็นใคร เพื่อนคุณเป็นใคร หรือคุณส่งข้อความอะไร เราเก็บจำนวนการใช้งานแบบไม่ระบุตัวตนผ่าน TelemetryDeck บันทึกการซื้อแบบไม่ระบุตัวตนผ่าน RevenueCat และรายงานข้อขัดข้องแบบไม่ระบุตัวตนผ่าน Sentry (ดูหัวข้อด้านล่าง) นอกจากนั้น เรารู้เพียงสิ่งที่ Apple และ Google ให้ในการวิเคราะห์รวมของ App Store และ Google Play ซึ่งไม่มีข้อมูลที่ระบุตัวบุคคล และควบคุมได้จากการตั้งค่าเครื่องของคุณ
+        </p>
+
+        <h2 id="anonymous-analytics">
+            การวิเคราะห์แบบไม่ระบุตัวตน
+        </h2>
+
+        <p>
+            เพื่อเข้าใจว่า Dear ถูกใช้อย่างไรและปรับปรุงให้ดีขึ้น เราเก็บเหตุการณ์แบบไม่ระบุตัวตนจำนวนเล็กน้อยผ่าน TelemetryDeck บริการวิเคราะห์ที่ให้ความสำคัญกับความเป็นส่วนตัว ตั้งอยู่ในเยอรมนีและสอดคล้องกับ GDPR เราบันทึกเพียงจำนวนครั้งที่ใช้ฟีเจอร์ ไม่เคยบันทึกว่าใครใช้
+        </p>
+
+        <p><strong>สิ่งที่เราบันทึก:</strong></p>
+
+        <div data-lang="en">
+            <ul>
+                <li>App opens, onboarding starts and completions, and the outcome of permission prompts (granted or denied)</li>
+                <li>Counts of friends added, nudges completed and skipped, and contact actions taken (text, call, video)</li>
+                <li>Paywall views and in-app purchase events, identified by product ID only</li>
+                <li>Settings changes such as voice selection, frequency changes, data deletion, and adding the home-screen widget</li>
+            </ul>
+        </div>
+        <div data-lang="fr">
+            <ul>
+                <li>Ouvertures de l'app, d&eacute;buts et fins du processus de configuration, et r&eacute;sultat des demandes d'autorisation (accord&eacute;e ou refus&eacute;e)</li>
+                <li>Nombre d'amis ajout&eacute;s, de rappels compl&eacute;t&eacute;s ou ignor&eacute;s, et d'actions de contact effectu&eacute;es (message, appel, vid&eacute;o)</li>
+                <li>Vues du paywall et &eacute;v&eacute;nements d'achat int&eacute;gr&eacute;, identifi&eacute;s uniquement par l'identifiant du produit</li>
+                <li>Modifications des r&eacute;glages telles que la s&eacute;lection de voix, les changements de fr&eacute;quence, la suppression des donn&eacute;es, et l'ajout du widget sur l'&eacute;cran d'accueil</li>
+            </ul>
+        </div>
+        <div data-lang="es">
+            <ul>
+                <li>Aperturas de la app, inicios y finalizaciones del proceso de configuraci&oacute;n, y el resultado de las solicitudes de permiso (concedido o denegado)</li>
+                <li>Cantidad de amistades agregadas, recordatorios completados y omitidos, y acciones de contacto realizadas (mensaje, llamada, video)</li>
+                <li>Vistas del paywall y eventos de compra dentro de la app, identificados solo por el ID del producto</li>
+                <li>Cambios en ajustes como selecci&oacute;n de voz, cambios de frecuencia, eliminaci&oacute;n de datos, y adici&oacute;n del widget en la pantalla de inicio</li>
+            </ul>
+        </div>
+
+        
+<div data-lang="th">
+            <ul>
+                <li>App opens, onboarding starts and completions, and the outcome of permission prompts (granted or denied)</li>
+                <li>Counts of friends added, nudges completed and skipped, and contact actions taken (text, call, video)</li>
+                <li>Paywall views and in-app purchase events, identified by product ID only</li>
+                <li>Settings changes such as voice selection, frequency changes, data deletion, and adding the home-screen widget</li>
+            </ul>
+        </div><p>
+            <strong>สิ่งที่เราไม่เคยบันทึก:</strong> ชื่อของคุณ ชื่อหรือข้อมูลติดต่อของเพื่อนคุณ ข้อความที่คุณส่ง เวลาที่คุณเปิดแอป ตำแหน่งของคุณ ที่อยู่ IP ของคุณ หรือรหัสอุปกรณ์ใด ๆ ที่ย้อนกลับมาถึงคุณได้
+        </p>
+
+        <p>
+            เหตุการณ์เหล่านี้เป็นนามแฝงและถูกรวมกัน เราไม่สามารถระบุตัวคุณจากมันได้ เนื่องจากไม่มีการประมวลผลข้อมูลส่วนบุคคล เราจึงไม่ต้องขอความยินยอมตาม GDPR หากคุณยังต้องการไม่เข้าร่วม กรุณาอีเมลหาเราที่ support@dearnudges.com แล้วเราจะบันทึกคำขอไว้สำหรับรุ่นถัดไป
+        </p>
+
+        <h2 id="delete-data">
+            ลบข้อมูลของคุณ
+        </h2>
+
+        <p>
+            Dear ไม่มีบัญชี และไม่มีเซิร์ฟเวอร์ใดเก็บข้อมูลส่วนตัวของคุณ เพื่อน การเตือน และข้อความของคุณอยู่แค่ในเครื่องของคุณ หากต้องการลบทุกอย่างที่ Dear รู้เกี่ยวกับคุณ:
+        </p>
+
+        <div data-lang="en">
+            <ol>
+                <li>Open the Dear app</li>
+                <li>Go to <strong>Settings &rarr; Delete all my data</strong></li>
+                <li>Confirm. All friends, nudges, and preferences are wiped from your device immediately. Uninstalling the app afterward removes everything else.</li>
+            </ol>
+        </div>
+        <div data-lang="fr">
+            <ol>
+                <li>Ouvrez l'app Dear</li>
+                <li>Allez dans <strong>R&eacute;glages &rarr; Supprimer toutes mes donn&eacute;es</strong></li>
+                <li>Confirmez. Tous les amis, rappels et pr&eacute;f&eacute;rences sont effac&eacute;s de votre appareil imm&eacute;diatement. D&eacute;sinstaller l'app ensuite supprime le reste.</li>
+            </ol>
+        </div>
+        <div data-lang="es">
+            <ol>
+                <li>Abre la app Dear</li>
+                <li>Ve a <strong>Ajustes &rarr; Borrar todos mis datos</strong></li>
+                <li>Confirma. Todas las amistades, recordatorios y preferencias se borran de tu dispositivo de inmediato. Desinstalar la app despu&eacute;s elimina lo dem&aacute;s.</li>
+            </ol>
+        </div>
+
+        
+<div data-lang="th">
+            <ol>
+                <li>Open the Dear app</li>
+                <li>Go to <strong>Settings &rarr; Delete all my data</strong></li>
+                <li>Confirm. All friends, nudges, and preferences are wiped from your device immediately. Uninstalling the app afterward removes everything else.</li>
+            </ol>
+        </div><p>
+            เราไม่มีเซิร์ฟเวอร์ที่เก็บข้อมูลส่วนตัวของคุณ เราไม่เคยเก็บมันเลย จึงไม่มีอะไรให้ลบในฝั่งเรา สิ่งเดียวที่ออกจากเครื่องของคุณคือการวิเคราะห์แบบไม่ระบุตัวตนที่รวมกันแล้ว (ดู<a href="#anonymous-analytics">การวิเคราะห์แบบไม่ระบุตัวตน</a>) และบันทึกการซื้อแบบไม่ระบุตัวตน ซึ่งทั้งสองอย่างย้อนกลับมาถึงคุณไม่ได้ ไม่มีบันทึกรายผู้ใช้ให้ลบ
+        </p>
+
+        <p>
+            หากมีคำถามหรือต้องการความช่วยเหลือเรื่องใด อีเมลหาเราที่ <a href="mailto:hello@dearnudges.com">hello@dearnudges.com</a>
+        </p>
+
+        <p>
+            <em>หมายเหตุ: Dear รุ่นถัดไปจะมีตัวเลือกให้แบ่งปันข้อมูลการใช้งานที่ลบตัวตนแล้วกับนักวิจัยที่ศึกษาความเหงาและสุขภาวะ เมื่อเปิดใช้ การไม่เข้าร่วมและการลบข้อมูลวิจัยที่ให้ไปจะอยู่ในเมนูการตั้งค่าเดียวกัน และหน้านี้จะได้รับการปรับปรุง</em>
+        </p>
+
+        <h2>
+            การซื้อในแอป
+        </h2>
+
+        <p>
+            Dear มีการสมัครสมาชิกและการซื้อครั้งเดียวแบบไม่บังคับ ผ่าน Apple App Store (และ Google Play บน Android) Apple และ Google จัดการการชำระเงินทั้งหมด เราไม่เคยเห็นหรือเก็บข้อมูลบัตรหรือการชำระเงินของคุณ เพื่อให้สิ่งที่คุณซื้อใช้ได้ข้ามเครื่องและหลังติดตั้งใหม่ Dear ใช้ RevenueCat ซึ่งได้รับบันทึกแบบไม่ระบุตัวตนของแต่ละธุรกรรม (สินค้าที่ซื้อ วันที่ซื้อ และรหัสภายในแอปแบบไม่ระบุตัวตน) บันทึกนี้ไม่มีชื่อ อีเมล หรือข้อมูลการชำระเงิน ข้อมูลนี้อยู่ภายใต้นโยบายความเป็นส่วนตัวของ Apple, Google และ RevenueCat
+        </p>
+
+        <h2>
+            บริการภายนอก
+        </h2>
+
+        <p>
+            แอป Dear ใช้บริการภายนอกสี่ราย Apple StoreKit และ Google Play Billing จัดการการซื้อในแอป RevenueCat จัดการสิทธิ์การซื้อและรับบันทึกธุรกรรมแบบไม่ระบุตัวตนที่กล่าวข้างต้น TelemetryDeck (การวิเคราะห์การใช้งานแบบไม่ระบุตัวตน) รับจำนวนเหตุการณ์แบบไม่ระบุตัวตนที่กล่าวข้างต้น Sentry รับรายงานข้อขัดข้องเพื่อให้เราแก้สิ่งที่เสียได้ ข้อมูลระบุตัวผู้ใช้ถูกตัดออกจากทุกรายงานก่อนส่ง และไม่มีการแนบข้อมูลส่วนบุคคล ไม่มีการใช้เครือข่ายโฆษณา ไลบรารีติดตาม หรือนายหน้าข้อมูลใด ๆ
+        </p>
+
+        <h2>
+            เว็บไซต์นี้
+        </h2>
+        <p>
+            นโยบายนี้อธิบายแอป Dear เว็บไซต์ที่คุณกำลังอ่านแยกต่างหากและทำงานต่างออกไป dearnudges.com ไม่มีบัญชี ไม่มีคุกกี้ ไม่มีการวิเคราะห์ และไม่มีสคริปต์ติดตาม มันไม่ฝากอะไรไว้ในเบราว์เซอร์ของคุณ และไม่ขออะไรจากคุณ
+        </p>
+        <p>
+            มีสองบริษัทที่เห็นการเข้าชมของคุณ เพราะเป็นผู้ส่งมอบเว็บไซต์ GitHub เก็บไฟล์ และ Cloudflare ส่งไฟล์และดูแลความปลอดภัย เช่นเดียวกับผู้ให้บริการเว็บโฮสต์ทั่วไป ทั้งสองได้รับที่อยู่ IP และรายละเอียดเบราว์เซอร์ของคุณในบันทึกเซิร์ฟเวอร์ เราไม่ได้ควบคุมบันทึกเหล่านั้นและไม่ได้อ่าน ฟอนต์ถูกส่งจากโดเมนนี้เอง ไม่ใช่จากผู้ให้บริการฟอนต์ จึงไม่มีการติดต่อบุคคลที่สามเพื่อแสดงหน้านี้
+        </p>
+
+        <h2>
+            การแบ่งปันข้อมูล
+        </h2>
+
+        <p>
+            เราไม่ขาย ไม่ให้เช่า และไม่แบ่งปันข้อมูลของคุณ จำนวนการใช้งานแบบไม่ระบุตัวตนที่ส่งไปยัง TelemetryDeck ไม่ได้เชื่อมโยงกับตัวคุณ และไม่ถูกแบ่งปันกับเครือข่ายโฆษณาหรือนายหน้าข้อมูลใด ๆ นโยบายความเป็นส่วนตัวของ TelemetryDeck เองกำกับวิธีที่พวกเขาประมวลผลข้อมูลเหล่านี้บนโครงสร้างพื้นฐานของตน
+        </p>
+
+        <h2>
+            ความเป็นส่วนตัวของเด็ก
+        </h2>
+
+        <p>
+            Dear ไม่เก็บข้อมูลส่วนบุคคลใด ๆ จากเด็กอายุต่ำกว่า 13 ปีโดยเจตนา จำนวนการใช้งานแบบไม่ระบุตัวตนที่เราเก็บผ่าน TelemetryDeck ไม่มีข้อมูลส่วนบุคคล และไม่สามารถระบุตัวผู้ใช้คนใดได้ รวมถึงเด็ก
+        </p>
+
+        <h2>
+            Dear Friend
+        </h2>
+
+        <p>
+            หากคุณเลือกเป็น Dear Friend (ระดับผู้อุปถัมภ์ภายใน Dear) คุณอาจเลือกแบ่งปันข้อมูลกับ Elsewhere Index ทางอีเมลได้ ทั้งหมดนี้เป็นไปโดยสมัครใจและเกิดขึ้นนอกแอป
+        </p>
+
+        <p>
+            หน้าจอหลังการซื้อ Dear Friend อาจช่วยคุณร่างอีเมลถึง Elsewhere Index อีเมลนี้อาจมี:
+        </p>
+
+        <div data-lang="en">
+            <ul>
+                <li>Your preferred name, if you choose to be listed in Dear's credits</li>
+            </ul>
+        </div>
+        <div data-lang="fr">
+            <ul>
+                <li>Ton nom pr&eacute;f&eacute;r&eacute;, si tu choisis d'appara&icirc;tre dans les cr&eacute;dits de Dear</li>
+            </ul>
+        </div>
+        <div data-lang="es">
+            <ul>
+                <li>Tu nombre preferido, si eliges aparecer en los cr&eacute;ditos de Dear</li>
+            </ul>
+        </div>
+
+        
+<div data-lang="th">
+            <ul>
+                <li>Your preferred name, if you choose to be listed in Dear's credits</li>
+            </ul>
+        </div><p>
+            อีเมลนี้ถูกเขียนบนเครื่องของคุณด้วยแอปอีเมลของคุณเอง คุณเป็นผู้ตรวจและส่งเอง Dear ไม่เก็บ ไม่บันทึก และไม่ส่งข้อมูลนี้ผ่านเซิร์ฟเวอร์หรือ API ใด ๆ Elsewhere Index ได้รับผ่านอีเมลของคุณเท่านั้น และใช้เพื่อวัตถุประสงค์ที่ระบุไว้เท่านั้น
+        </p>
+
+        <p>
+            ที่อยู่อีเมลของคุณจะปรากฏต่อ Elsewhere Index เมื่อคุณส่งข้อความ จะไม่ถูกเพิ่มเข้าในรายชื่อการตลาดใด ๆ หรือแบ่งปันกับใครอื่น
+        </p>
+
+        <h2>
+            การเปลี่ยนแปลงนโยบายนี้
+        </h2>
+
+        <p>
+            หากเราเปลี่ยนวิธีที่ Dear จัดการข้อมูล (เช่น เพิ่มการซิงก์คลาวด์แบบไม่บังคับในรุ่นถัดไป) เราจะปรับปรุงนโยบายนี้และบันทึกการเปลี่ยนแปลงไว้ที่นี่ ฟีเจอร์ใดในอนาคตที่เกี่ยวกับการส่งข้อมูลจะเป็นแบบเลือกเข้าร่วมและแจ้งอย่างชัดเจน
+        </p>
+
+        <h2>
+            ติดต่อเรา
+        </h2>
+
+        <p>
+            หากมีคำถามเกี่ยวกับนโยบายความเป็นส่วนตัวนี้ ติดต่อเราได้ที่ support@dearnudges.com
+        </p>
+
+        <div class="divider"></div>
+
+        <footer>
+            <em>
+                Dear: Stay in Touch สร้างโดย Elsewhere Index LLC จัดจำหน่ายบน Apple App Store และ Google Play พร้อมการซื้อในแอปแบบไม่บังคับ ไม่มีโฆษณา ไม่มีบัญชี และไม่มีการเก็บข้อมูลส่วนบุคคล
+            </em>
+        </footer>
+    </div>
+
+    <!-- Sticky bottom nav -->
+    <nav class="bottom-nav">
+        <a href="/">
+            <svg viewBox="0 0 24 24"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z"/><path d="M9 21V12h6v9"/></svg>
+            หน้าแรก
+        </a>
+        <a href="about.html">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            เกี่ยวกับ
+        </a>
+        <a href="research.html">
+            <svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            งานวิจัย
+        </a>
+        <a href="support.html">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            คำถามที่พบบ่อย
+        </a>
+        <a href="privacy.html" class="active">
+            <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            ความเป็นส่วนตัว
+        </a>
+        <a href="press.html">
+            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            สื่อ
+        </a>
+    </nav>
+
+    
+
+</body>
+</html>

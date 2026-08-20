@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dear: ติดต่อกันไว้</title>
+    <meta name="description" content="วันละหนึ่งการเตือนแบบอ่อนโยน ให้อยู่ใกล้คนที่สำคัญ ฟรี เป็นส่วนตัว ไม่ต้องมีบัญชี">
+    <meta name="apple-itunes-app" content="app-id=6760280035">
+    <meta name="google-site-verification" content="SxhJAGNRItExulyke-yJz5xvbeCsNVE5zFN9K2EYvSs" />
+    <meta property="og:title" content="Dear: ติดต่อกันไว้">
+    <meta property="og:description" content="วันละหนึ่งการเตือนแบบอ่อนโยน ให้อยู่ใกล้คนที่สำคัญ ฟรี เป็นส่วนตัว ไม่ต้องมีบัญชี">
+    <meta property="og:image" content="https://dearnudges.com/app-icon.png">
+    <meta property="og:url" content="https://dearnudges.com/th/">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Dear: ติดต่อกันไว้">
+    <meta name="twitter:description" content="วันละหนึ่งการเตือนแบบอ่อนโยน ให้อยู่ใกล้คนที่สำคัญ ฟรี เป็นส่วนตัว ไม่ต้องมีบัญชี">
+    <meta name="twitter:image" content="https://dearnudges.com/app-icon.png">
+    <link rel="icon" type="image/png" href="../img/icon-200.png">
+    <link rel="apple-touch-icon" href="../img/icon-180.png">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Quicksand', -apple-system, sans-serif;
+            background: #FAFAFD;
+            color: #2D2D2D;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 0 24px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .page {
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+            padding: 80px 0 120px;
+        }
+
+        .app-icon {
+            width: 100px;
+            height: 100px;
+            border-radius: 22px;
+            margin-bottom: 32px;
+            box-shadow: 0 8px 32px rgba(131, 150, 209, 0.18);
+        }
+
+        h1 {
+            font-family: 'Encode Sans Expanded', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-weight: 900;
+            font-size: 2rem;
+            color: #2D2D2D;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+
+        .tagline {
+            font-size: 1rem;
+            font-weight: 400;
+            color: #7A767B;
+            line-height: 1.6;
+            margin-bottom: 32px;
+        }
+
+        .app-store-badge {
+            display: inline-block;
+            margin-bottom: 12px;
+            transition: opacity 0.15s ease;
+        }
+        .app-store-badge:hover { opacity: 0.8; }
+        .app-store-badge img { height: 48px; width: auto; }
+
+        .play-store-badge {
+            display: inline-block;
+            margin-bottom: 12px;
+            transition: opacity 0.15s ease;
+        }
+        .play-store-badge:hover { opacity: 0.8; }
+        .play-store-badge img { height: 48px; width: auto; }
+
+        .free-note {
+            font-size: 0.78rem;
+            color: #6E6A6F;
+            margin-top: 8px;
+            letter-spacing: 0.01em;
+        }
+
+        .footer-links {
+            margin-top: 48px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .footer-links a {
+            font-size: 0.78rem;
+            color: #6E6A6F;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .footer-links a:hover { color: #7A767B; }
+
+        .copyright {
+            font-size: 0.7rem;
+            color: #6E6A6F;
+            margin-top: 16px;
+        }
+
+        /* Language switcher */
+        .lang-nav {
+            position: fixed;
+            top: 16px;
+            right: 20px;
+            display: flex;
+            gap: 4px;
+            z-index: 10;
+        }
+        .lang-btn {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: #6E6A6F;
+            background: transparent;
+            border: 1px solid #E0E0E0;
+            padding: 4px 8px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+        .lang-btn:hover, .lang-btn.active {
+            color: #2D2D2D;
+            border-color: #2D2D2D;
+        }
+
+        /* Hide inactive languages */
+        [data-lang] { display: none; }
+        [data-lang="th"] { display: block; }
+        .app-store-badge[data-lang] { display: none; }
+        .app-store-badge[data-lang="th"] { display: inline-block; }
+        .play-store-badge[data-lang] { display: none; }
+        .play-store-badge[data-lang="th"] { display: inline-block; }
+
+        /* Bottom nav */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #8396D1;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            z-index: 20;
+        }
+        .bottom-nav a {
+            flex: 1;
+            max-width: 100px;
+            text-align: center;
+            padding: 10px 0 calc(10px + env(safe-area-inset-bottom, 0px));
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 3px;
+        }
+        .bottom-nav a:hover, .bottom-nav a.active { color: #FFFFFF; }
+        .bottom-nav svg {
+            width: 18px; height: 18px;
+            fill: none; stroke: currentColor;
+            stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round;
+        }
+
+        @media (max-width: 480px) {
+            .page { padding: 60px 0 100px; }
+            h1 { font-size: 1.7rem; }
+            .app-icon { width: 80px; height: 80px; border-radius: 18px; }
+            .lang-nav { top: 10px; right: 10px; }
+        }
+    </style>
+    <link rel="stylesheet" href="../fonts.css">
+    <link rel="stylesheet" href="../fonts-i18n.css">
+    <link rel="stylesheet" href="../site.css">
+    <link rel="canonical" href="https://dearnudges.com/th/">
+    <link rel="alternate" hreflang="en" href="https://dearnudges.com/">
+    <link rel="alternate" hreflang="fr" href="https://dearnudges.com/fr/">
+    <link rel="alternate" hreflang="es" href="https://dearnudges.com/es/">
+    <link rel="alternate" hreflang="de" href="https://dearnudges.com/de/">
+    <link rel="alternate" hreflang="it" href="https://dearnudges.com/it/">
+    <link rel="alternate" hreflang="ja" href="https://dearnudges.com/ja/">
+    <link rel="alternate" hreflang="ko" href="https://dearnudges.com/ko/">
+    <link rel="alternate" hreflang="zh-Hant" href="https://dearnudges.com/zh-Hant/">
+    <link rel="alternate" hreflang="zh-Hans" href="https://dearnudges.com/zh-Hans/">
+    <link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/">
+    <link rel="alternate" hreflang="ru" href="https://dearnudges.com/ru/">
+    <link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/">
+    <link rel="alternate" hreflang="hi" href="https://dearnudges.com/hi/">
+    <link rel="alternate" hreflang="id" href="https://dearnudges.com/id/">
+    <link rel="alternate" hreflang="tr" href="https://dearnudges.com/tr/">
+    <link rel="alternate" hreflang="pl" href="https://dearnudges.com/pl/">
+    <link rel="alternate" hreflang="vi" href="https://dearnudges.com/vi/">
+    <link rel="alternate" hreflang="th" href="https://dearnudges.com/th/">
+    <link rel="alternate" hreflang="uk" href="https://dearnudges.com/uk/">
+    <link rel="alternate" hreflang="sv" href="https://dearnudges.com/sv/">
+    <link rel="alternate" hreflang="nb" href="https://dearnudges.com/nb/">
+    <link rel="alternate" hreflang="da" href="https://dearnudges.com/da/">
+    <link rel="alternate" hreflang="fi" href="https://dearnudges.com/fi/">
+    <link rel="alternate" hreflang="fil" href="https://dearnudges.com/fil/">
+    <link rel="alternate" hreflang="mr" href="https://dearnudges.com/mr/">
+    <link rel="alternate" hreflang="sw" href="https://dearnudges.com/sw/">
+    <link rel="alternate" hreflang="x-default" href="https://dearnudges.com/">
+</head>
+<body>
+
+    <nav class="lang-nav" aria-label="Language">
+        <a class="lang-btn" hreflang="en" href="../">EN</a><a class="lang-btn" hreflang="fr" href="../fr/">FR</a><a class="lang-btn" hreflang="es" href="../es/">ES</a><a class="lang-btn" hreflang="de" href="../de/">DE</a><a class="lang-btn" hreflang="it" href="../it/">IT</a><a class="lang-btn" hreflang="ja" href="../ja/">JA</a><a class="lang-btn" hreflang="ko" href="../ko/">KO</a><a class="lang-btn" hreflang="zh-Hant" href="../zh-Hant/">ZH-HANT</a><a class="lang-btn" hreflang="zh-Hans" href="../zh-Hans/">ZH-HANS</a><a class="lang-btn" hreflang="pt-BR" href="../pt-BR/">PT</a><a class="lang-btn" hreflang="ru" href="../ru/">RU</a><a class="lang-btn" hreflang="nl" href="../nl/">NL</a><a class="lang-btn" hreflang="hi" href="../hi/">HI</a><a class="lang-btn" hreflang="id" href="../id/">ID</a><a class="lang-btn" hreflang="tr" href="../tr/">TR</a><a class="lang-btn" hreflang="pl" href="../pl/">PL</a><a class="lang-btn" hreflang="vi" href="../vi/">VI</a><a class="lang-btn active" hreflang="th" aria-current="true" href="../th/">TH</a><a class="lang-btn" hreflang="uk" href="../uk/">UK</a><a class="lang-btn" hreflang="sv" href="../sv/">SV</a><a class="lang-btn" hreflang="nb" href="../nb/">NB</a><a class="lang-btn" hreflang="da" href="../da/">DA</a><a class="lang-btn" hreflang="fi" href="../fi/">FI</a><a class="lang-btn" hreflang="fil" href="../fil/">FIL</a><a class="lang-btn" hreflang="mr" href="../mr/">MR</a><a class="lang-btn" hreflang="sw" href="../sw/">SW</a>
+        <button class="lang-btn lang-more" aria-expanded="false" aria-controls="lang-more-list" aria-label="More languages" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='true'?'false':'true')">+</button>
+        <div class="lang-more-list" id="lang-more-list">
+            <p class="lang-soon-heading">เร็ว ๆ นี้</p>
+            <div class="lang-soon-grid"><span class="lang-soon-item">العربية</span><span class="lang-soon-item">עברית</span><span class="lang-soon-item">বাংলা</span><span class="lang-soon-item">தமிழ்</span><span class="lang-soon-item">తెలుగు</span></div>
+            <p class="lang-soon-note">แอปรองรับครบทั้ง 31 ภาษาแล้ว</p>
+        </div>
+    </nav>
+
+    <div class="page">
+        <picture class="app-icon-wrap">
+            <source srcset="../img/icon-200.webp" type="image/webp">
+            <img src="../img/icon-200.png" width="100" height="100" alt="Dear app icon" class="app-icon">
+        </picture>
+
+        <h1>
+            Dear
+        </h1>
+
+        <p class="tagline">
+            วันละคน ก่อนที่จะขาดการติดต่อ ส่งข้อความ โทรหา แค่นั้นเอง
+        </p>
+
+
+        <div class="shots" role="group" aria-label="Screenshots">
+            <picture class="shot shot-side">
+                <source srcset="../img/shot-02.webp" type="image/webp">
+                <img src="../img/shot-02.png" width="800" height="1214" loading="lazy" decoding="async"
+                     alt="คนของคุณใน Dear แต่ละคนมีจังหวะของตัวเอง">
+            </picture>
+            <picture class="shot shot-hero">
+                <source srcset="../img/shot-01.webp" type="image/webp">
+                <img src="../img/shot-01.png" width="800" height="1214" decoding="async"
+                     alt="การ์ดประจำวันของ Dear เสนอคนที่ควรติดต่อวันนี้">
+            </picture>
+            <picture class="shot shot-side">
+                <source srcset="../img/shot-03.webp" type="image/webp">
+                <img src="../img/shot-03.png" width="800" height="1214" loading="lazy" decoding="async"
+                     alt="วิดเจ็ต Dear บนหน้าจอโฮมของ iPhone">
+            </picture>
+        </div>
+        <p class="shots-caption">วันละหนึ่งการ์ด วงของคุณ ไม่ใช่ฟีด</p>
+
+        <a href="https://apps.apple.com/app/id6760280035" class="app-store-badge" data-lang="en" aria-label="Download on the App Store">
+            <img src="../app-store-badge.svg" alt="Download on the App Store">
+        </a>
+        <a href="https://apps.apple.com/app/id6760280035" class="app-store-badge" data-lang="fr" aria-label="Telecharger dans l'App Store">
+            <img src="../app-store-badge-fr.svg" alt="Telecharger dans l'App Store">
+        </a>
+        <a href="https://apps.apple.com/app/id6760280035" class="app-store-badge" data-lang="es" aria-label="Descargar en el App Store">
+            <img src="../app-store-badge-es.svg" alt="Descargar en el App Store">
+        </a>
+
+        <a href="https://play.google.com/store/apps/details?id=com.elsewhere.dear" class="play-store-badge" data-lang="en" aria-label="Get it on Google Play">
+            <img src="../gplay-badge-en.png" alt="Get it on Google Play">
+        </a>
+        <a href="https://play.google.com/store/apps/details?id=com.elsewhere.dear" class="play-store-badge" data-lang="fr" aria-label="Disponible sur Google Play">
+            <img src="../gplay-badge-fr.png" alt="Disponible sur Google Play">
+        </a>
+        <a href="https://play.google.com/store/apps/details?id=com.elsewhere.dear" class="play-store-badge" data-lang="es" aria-label="Descargar en Google Play">
+            <img src="../gplay-badge-es.png" alt="Descargar en Google Play">
+        </a>
+
+        <p class="free-note">
+            เริ่มใช้ฟรี เป็นส่วนตัว ไม่ต้องมีบัญชี
+        </p>
+
+        <p class="free-note">
+            Dear รองรับ 31 ภาษา
+        </p>
+
+        <div class="footer-links">
+            <a href="about.html">เกี่ยวกับ</a>
+            <a href="research.html">งานวิจัย</a>
+            <a href="support.html">คำถามที่พบบ่อย</a>
+            <a href="privacy.html">ความเป็นส่วนตัว</a>
+            <a href="press.html">สื่อ</a>
+        </div>
+
+        <p class="copyright">&copy; 2026 Elsewhere Index LLC</p>
+    </div>
+
+    <nav class="bottom-nav">
+        <a href="/" class="active">
+            <svg viewBox="0 0 24 24"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z"/><path d="M9 21V12h6v9"/></svg>
+            หน้าแรก
+        </a>
+        <a href="about.html">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            เกี่ยวกับ
+        </a>
+        <a href="research.html">
+            <svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            งานวิจัย
+        </a>
+        <a href="support.html">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            คำถามที่พบบ่อย
+        </a>
+        <a href="privacy.html">
+            <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            ความเป็นส่วนตัว
+        </a>
+        <a href="press.html">
+            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            สื่อ
+        </a>
+    </nav>
+
+    
+
+</body>
+</html>
