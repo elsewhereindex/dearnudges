@@ -54,7 +54,9 @@
       "ru": "Dear",
       "uk": "Dear",
       "ja": "Dear",
-      "ko": "Dear"
+      "ko": "Dear",
+      "zh-Hans": "Dear",
+      "zh-Hant": "Dear"
     },
     "one_person_a_day_before_you_lose_touch_text_11e425": {
       "en": "One person a day, before you lose touch. Text, call, done.",
@@ -77,7 +79,9 @@
       "ru": "Один человек в день, пока связь не оборвалась. Напишите, позвоните, готово.",
       "uk": "Одна людина на день, поки зв'язок не обірвався. Напишіть, зателефонуйте, готово.",
       "ja": "疎遠になる前に、一日ひとり。メッセージを送る、電話する、それだけ。",
-      "ko": "연락이 끊기기 전에, 하루에 한 사람. 문자하고, 전화하고, 끝."
+      "ko": "연락이 끊기기 전에, 하루에 한 사람. 문자하고, 전화하고, 끝.",
+      "zh-Hans": "每天一个人，在失去联系之前。发条消息，打个电话，就好了。",
+      "zh-Hant": "每天一個人，在失去聯絡之前。傳個訊息，打通電話，就好了。"
     },
     "free_to_start_private_no_accounts_needed_e6ec02": {
       "en": "Free to start. Private. No accounts needed.",
@@ -100,7 +104,9 @@
       "ru": "Начать бесплатно. Приватно. Без аккаунтов.",
       "uk": "Почати безкоштовно. Приватно. Без облікових записів.",
       "ja": "無料で始められます。プライベート。アカウント不要。",
-      "ko": "무료로 시작하세요. 비공개. 계정 없음."
+      "ko": "무료로 시작하세요. 비공개. 계정 없음.",
+      "zh-Hans": "免费开始。私密。无需账号。",
+      "zh-Hant": "免費開始。私密。不需要帳號。"
     },
     "dear_speaks_31_languages_b8937e": {
       "en": "Dear speaks 31 languages.",
@@ -123,7 +129,9 @@
       "ru": "Dear говорит на 31 языке.",
       "uk": "Dear говорить 31 мовою.",
       "ja": "Dearは31言語に対応しています。",
-      "ko": "Dear는 31개 언어를 지원합니다."
+      "ko": "Dear는 31개 언어를 지원합니다.",
+      "zh-Hans": "Dear 支持 31 种语言。",
+      "zh-Hant": "Dear 支援 31 種語言。"
     },
     "about_dear_efc368": {
       "en": "About Dear",
@@ -146,7 +154,9 @@
       "ru": "О Dear",
       "uk": "Про Dear",
       "ja": "Dearについて",
-      "ko": "Dear 소개"
+      "ko": "Dear 소개",
+      "zh-Hans": "关于 Dear",
+      "zh-Hant": "關於 Dear"
     },
     "why_dear_exists_54584d": {
       "en": "Why Dear Exists",
@@ -169,7 +179,9 @@
       "ru": "Зачем нужен Dear",
       "uk": "Навіщо потрібен Dear",
       "ja": "Dearがある理由",
-      "ko": "Dear가 존재하는 이유"
+      "ko": "Dear가 존재하는 이유",
+      "zh-Hans": "为什么会有 Dear",
+      "zh-Hant": "為什麼會有 Dear"
     },
     "dear_was_built_on_a_simple_observation_we_th_41af87": {
       "en": "Dear was built on a simple observation: we think about our friends more often than we reach out to them. Research shows that people consistently underestimate how much others appreciate hearing from them. Dear closes that gap.",
@@ -192,7 +204,9 @@
       "ru": "Dear вырос из простого наблюдения: мы думаем о друзьях чаще, чем пишем им. Исследования показывают, что мы регулярно недооцениваем, как много значит сообщение для того, кто его получает. Dear закрывает этот разрыв.",
       "uk": "Dear виріс із простого спостереження: ми думаємо про друзів частіше, ніж пишемо їм. Дослідження показують, що ми регулярно недооцінюємо, як багато важить повідомлення для того, хто його отримує. Dear закриває цей розрив.",
       "ja": "Dearは単純な気づきから生まれました。私たちは友人に連絡するよりずっと多く、友人のことを考えています。研究によれば、メッセージが受け取る人にとってどれほど嬉しいものか、私たちはいつも過小評価しています。Dearはその隔たりを埋めます。",
-      "ko": "Dear는 단순한 관찰에서 시작됐습니다. 우리는 친구에게 연락하는 것보다 훨씬 자주 친구를 떠올립니다. 연구에 따르면 메시지를 받는 사람이 그것을 얼마나 반가워하는지 우리는 늘 과소평가합니다. Dear는 그 간격을 메웁니다."
+      "ko": "Dear는 단순한 관찰에서 시작됐습니다. 우리는 친구에게 연락하는 것보다 훨씬 자주 친구를 떠올립니다. 연구에 따르면 메시지를 받는 사람이 그것을 얼마나 반가워하는지 우리는 늘 과소평가합니다. Dear는 그 간격을 메웁니다.",
+      "zh-Hans": "Dear 源自一个简单的观察：我们想起朋友的次数，远多于真正联系他们的次数。研究表明，我们总是低估一条消息对收到的人有多重要。Dear 填补了这段距离。",
+      "zh-Hant": "Dear 來自一個簡單的觀察：我們想起朋友的次數，遠多於真正聯絡他們的次數。研究顯示，我們總是低估一則訊息對收到的人有多重要。Dear 補上了這段距離。"
     },
     "one_gentle_nudge_a_day_no_guilt_no_streaks_n_e749d7": {
       "en": "One gentle nudge a day. No guilt, no streaks, no social feed. If you don't reach out today, the person simply appears again another day. The app never tells you that you failed. It just quietly keeps showing up.",
@@ -215,7 +229,9 @@
       "ru": "Одно мягкое напоминание в день. Без чувства вины, без серий, без ленты. Если сегодня вы не написали, этот человек вернётся в другой день. Приложение никогда не скажет, что вы не справились. Оно просто рядом, тихо.",
       "uk": "Одне м'яке нагадування на день. Без почуття провини, без серій, без стрічки. Якщо сьогодні ви не написали, ця людина повернеться іншого дня. Застосунок ніколи не скаже, що ви не впоралися. Він просто поруч, тихо.",
       "ja": "一日にひとつ、やさしいリマインダー。罪悪感も、連続記録も、フィードもありません。今日連絡しなくても、その人はまた別の日に現れます。アプリがあなたを失敗したと責めることはありません。ただ静かに、そこにいます。",
-      "ko": "하루에 하나, 부드러운 알림. 죄책감도, 연속 기록도, 피드도 없습니다. 오늘 연락하지 않아도 그 사람은 다른 날 다시 나타납니다. 앱이 당신에게 실패했다고 말하는 일은 없습니다. 그저 조용히 곁에 있습니다."
+      "ko": "하루에 하나, 부드러운 알림. 죄책감도, 연속 기록도, 피드도 없습니다. 오늘 연락하지 않아도 그 사람은 다른 날 다시 나타납니다. 앱이 당신에게 실패했다고 말하는 일은 없습니다. 그저 조용히 곁에 있습니다.",
+      "zh-Hans": "每天一条温和的提醒。没有愧疚，没有连续打卡，没有信息流。今天没联系，那个人会在别的日子再次出现。应用永远不会说你做得不好。它只是安静地在那里。",
+      "zh-Hant": "每天一則溫和的提醒。沒有愧疚，沒有連續紀錄，沒有動態牆。今天沒聯絡，那個人會在別的日子再次出現。App 永遠不會說你做得不好。它只是安靜地在那裡。"
     },
     "the_research_behind_it_09358d": {
       "en": "The Research Behind It",
@@ -238,7 +254,9 @@
       "ru": "Исследования, лежащие в основе",
       "uk": "Дослідження в основі",
       "ja": "背景にある研究",
-      "ko": "그 뒤에 있는 연구"
+      "ko": "그 뒤에 있는 연구",
+      "zh-Hans": "背后的研究",
+      "zh-Hant": "背後的研究"
     },
     "people_appreciate_hearing_from_you_more_than_43b670": {
       "en": "People appreciate hearing from you more than you think",
@@ -261,7 +279,9 @@
       "ru": "Людям приятнее получить весточку от вас, чем вы думаете",
       "uk": "Людям приємніше отримати звістку від вас, ніж ви думаєте",
       "ja": "あなたからの連絡は、思っている以上に喜ばれます",
-      "ko": "사람들은 당신의 연락을 생각보다 훨씬 반가워합니다"
+      "ko": "사람들은 당신의 연락을 생각보다 훨씬 반가워합니다",
+      "zh-Hans": "别人收到你的消息，比你以为的更开心",
+      "zh-Hant": "別人收到你的訊息，比你以為的更開心"
     },
     "people_consistently_underestimate_how_much_o_08a02e": {
       "en": "People consistently underestimate how much others value an unexpected message. The gap between how awkward you think it will be and how warmly it's received is large and consistent across strangers, acquaintances, and old friends.",
@@ -284,7 +304,9 @@
       "ru": "Мы регулярно недооцениваем ценность неожиданного сообщения. Разрыв между тем, насколько неловко нам это кажется, и тем, насколько тепло это принимают, велик и устойчив: и с незнакомцами, и со знакомыми, и со старыми друзьями.",
       "uk": "Ми регулярно недооцінюємо цінність несподіваного повідомлення. Розрив між тим, наскільки ніяково нам це здається, і тим, наскільки тепло це приймають, великий і сталий: і з незнайомцями, і зі знайомими, і зі старими друзями.",
       "ja": "私たちは思いがけないメッセージの価値をいつも過小評価しています。気まずいと想像する度合いと、実際に温かく迎えられる度合いの差は大きく、しかも一貫しています。見知らぬ人にも、知人にも、古い友人にも。",
-      "ko": "우리는 뜻밖의 메시지가 가진 가치를 늘 과소평가합니다. 어색할 거라는 예상과 실제로 받는 따뜻한 반응 사이의 차이는 크고 한결같습니다. 낯선 사람에게도, 아는 사람에게도, 오래된 친구에게도."
+      "ko": "우리는 뜻밖의 메시지가 가진 가치를 늘 과소평가합니다. 어색할 거라는 예상과 실제로 받는 따뜻한 반응 사이의 차이는 크고 한결같습니다. 낯선 사람에게도, 아는 사람에게도, 오래된 친구에게도.",
+      "zh-Hans": "我们总是低估一条意外消息的分量。我们想象中的尴尬，和实际收到的温暖回应之间，差距既大又稳定：对陌生人、熟人和老朋友都是如此。",
+      "zh-Hant": "我們總是低估一則意外訊息的分量。我們想像中的尷尬，和實際收到的溫暖回應之間，差距既大又穩定：對陌生人、熟人和老朋友都是如此。"
     },
     "liu_et_al_journal_of_personality_and_social_112663": {
       "en": "Liu et al., <em>Journal of Personality and Social Psychology</em>, 2022",
@@ -307,7 +329,9 @@
       "ru": "Liu и др., <em>Journal of Personality and Social Psychology</em>, 2022",
       "uk": "Liu та ін., <em>Journal of Personality and Social Psychology</em>, 2022",
       "ja": "Liuほか、<em>Journal of Personality and Social Psychology</em>、2022年",
-      "ko": "Liu 외, <em>Journal of Personality and Social Psychology</em>, 2022"
+      "ko": "Liu 외, <em>Journal of Personality and Social Psychology</em>, 2022",
+      "zh-Hans": "Liu 等，<em>Journal of Personality and Social Psychology</em>，2022",
+      "zh-Hant": "Liu 等，<em>Journal of Personality and Social Psychology</em>，2022"
     },
     "your_friendships_have_natural_layers_91afb7": {
       "en": "Your friendships have natural layers",
@@ -330,7 +354,9 @@
       "ru": "У дружбы есть естественные слои",
       "uk": "У дружби є природні шари",
       "ja": "友情には自然な層があります",
-      "ko": "우정에는 자연스러운 층이 있습니다"
+      "ko": "우정에는 자연스러운 층이 있습니다",
+      "zh-Hans": "友谊有天然的层次",
+      "zh-Hant": "友誼有天然的層次"
     },
     "humans_maintain_about_5_close_people_15_good_a26314": {
       "en": "Humans maintain about 5 close people, 15 good friends, and 50 in their wider circle. Dear respects these natural tiers and lets you choose your own rhythm for each person.",
@@ -353,7 +379,9 @@
       "ru": "Человек поддерживает примерно 5 самых близких, 15 хороших друзей и 50 в более широком круге. Dear уважает эти естественные слои и позволяет выбрать свой ритм для каждого.",
       "uk": "Людина підтримує приблизно 5 найближчих, 15 добрих друзів і 50 у ширшому колі. Dear поважає ці природні шари й дає вам обрати власний ритм для кожного.",
       "ja": "人はおよそ5人のごく親しい相手、15人の親しい友人、そしてより広い輪の50人を保ちます。Dearはこの自然な層を尊重し、相手ごとにあなた自身のペースを選べるようにします。",
-      "ko": "사람은 가장 가까운 5명, 좋은 친구 15명, 그리고 더 넓은 테두리의 50명 정도를 유지합니다. Dear는 이 자연스러운 층을 존중하고, 각 사람에게 맞는 속도를 직접 고르게 합니다."
+      "ko": "사람은 가장 가까운 5명, 좋은 친구 15명, 그리고 더 넓은 테두리의 50명 정도를 유지합니다. Dear는 이 자연스러운 층을 존중하고, 각 사람에게 맞는 속도를 직접 고르게 합니다.",
+      "zh-Hans": "人大约维持 5 位最亲近的人、15 位好朋友，以及更外圈的 50 人。Dear 尊重这些天然的层次，让你为每个人选择自己的节奏。",
+      "zh-Hant": "人大約維持 5 位最親近的人、15 位好朋友，以及更外圈的 50 人。Dear 尊重這些天然的層次，讓你為每個人選擇自己的節奏。"
     },
     "robin_dunbar_personal_relationships_2016_7410fe": {
       "en": "Robin Dunbar, <em>Personal Relationships</em>, 2016",
@@ -376,7 +404,9 @@
       "ru": "Robin Dunbar, <em>Personal Relationships</em>, 2016",
       "uk": "Robin Dunbar, <em>Personal Relationships</em>, 2016",
       "ja": "Robin Dunbar、<em>Personal Relationships</em>、2016年",
-      "ko": "Robin Dunbar, <em>Personal Relationships</em>, 2016"
+      "ko": "Robin Dunbar, <em>Personal Relationships</em>, 2016",
+      "zh-Hans": "Robin Dunbar，<em>Personal Relationships</em>，2016",
+      "zh-Hant": "Robin Dunbar，<em>Personal Relationships</em>，2016"
     },
     "small_nudges_close_the_gap_between_thinking_07be19": {
       "en": "Small nudges close the gap between thinking and doing",
@@ -399,7 +429,9 @@
       "ru": "Маленькие напоминания закрывают разрыв между мыслью и действием",
       "uk": "Маленькі нагадування закривають розрив між думкою та дією",
       "ja": "小さなひと押しが、考えることと行うことの隔たりを埋めます",
-      "ko": "작은 알림이 생각과 행동 사이의 간격을 메웁니다"
+      "ko": "작은 알림이 생각과 행동 사이의 간격을 메웁니다",
+      "zh-Hans": "小小的提醒，填补了想到和做到之间的距离",
+      "zh-Hant": "小小的提醒，補上了想到和做到之間的距離"
     },
     "specific_plans_dramatically_increase_follow_b3f709": {
       "en": "Specific plans dramatically increase follow-through. \"I should text them\" becomes \"I just did.\" Dear turns intention into action by giving you a specific person, a specific moment, and a one-tap path to reach out.",
@@ -422,7 +454,9 @@
       "ru": "Конкретные планы резко повышают вероятность действия. «Надо бы написать» превращается в «я только что написал». Dear превращает намерение в поступок: конкретный человек, конкретный момент и одно касание.",
       "uk": "Конкретні плани різко підвищують імовірність дії. «Треба б написати» перетворюється на «я щойно написав». Dear перетворює намір на вчинок: конкретна людина, конкретна мить і один дотик.",
       "ja": "具体的な計画は実行率を大きく高めます。「連絡しなきゃ」が「いま送った」に変わります。Dearは意図を行動に変えます。特定の相手、特定の瞬間、そして一度のタップで。",
-      "ko": "구체적인 계획은 실행 가능성을 크게 높입니다. “연락해야지”가 “방금 보냈어”로 바뀝니다. Dear는 의도를 행동으로 바꿉니다. 특정한 사람, 특정한 순간, 그리고 한 번의 탭으로."
+      "ko": "구체적인 계획은 실행 가능성을 크게 높입니다. “연락해야지”가 “방금 보냈어”로 바뀝니다. Dear는 의도를 행동으로 바꿉니다. 특정한 사람, 특정한 순간, 그리고 한 번의 탭으로.",
+      "zh-Hans": "具体的计划会大幅提高执行率。“我该发条消息”变成了“我刚发了”。Dear 把想法变成行动：一个具体的人，一个具体的时刻，一次点击。",
+      "zh-Hant": "具體的計畫會大幅提高執行率。「我該傳個訊息」變成了「我剛傳了」。Dear 把想法變成行動：一個具體的人，一個具體的時刻，一次點按。"
     },
     "gollwitzer_american_psychologist_1999_26dcc4": {
       "en": "Gollwitzer, <em>American Psychologist</em>, 1999",
@@ -445,7 +479,9 @@
       "ru": "Gollwitzer, <em>American Psychologist</em>, 1999",
       "uk": "Gollwitzer, <em>American Psychologist</em>, 1999",
       "ja": "Gollwitzer、<em>American Psychologist</em>、1999年",
-      "ko": "Gollwitzer, <em>American Psychologist</em>, 1999"
+      "ko": "Gollwitzer, <em>American Psychologist</em>, 1999",
+      "zh-Hans": "Gollwitzer，<em>American Psychologist</em>，1999",
+      "zh-Hant": "Gollwitzer，<em>American Psychologist</em>，1999"
     },
     "this_is_a_health_issue_not_just_a_nice_idea_a2e2ec": {
       "en": "This is a health issue, not just a nice idea",
@@ -468,7 +504,9 @@
       "ru": "Это вопрос здоровья, а не просто хорошая идея",
       "uk": "Це питання здоров'я, а не просто гарна ідея",
       "ja": "これは健康の問題であって、ただの良い思いつきではありません",
-      "ko": "이것은 좋은 아이디어가 아니라 건강의 문제입니다"
+      "ko": "이것은 좋은 아이디어가 아니라 건강의 문제입니다",
+      "zh-Hans": "这是健康问题，不只是一个好想法",
+      "zh-Hant": "這是健康問題，不只是一個好想法"
     },
     "the_who_declared_loneliness_a_pressing_globa_dff6c7": {
       "en": "The WHO declared loneliness a pressing global health threat in 2023, reporting that around 1 in 4 older people experience social isolation. Separately, Holt-Lunstad's meta-analysis found social isolation raises the risk of premature death by 26%. Dear is a small tool pointed at a big problem.",
@@ -491,7 +529,9 @@
       "ru": "В 2023 году ВОЗ объявила одиночество неотложной глобальной угрозой здоровью и сообщила, что примерно каждый четвёртый пожилой человек живёт в социальной изоляции. Метаанализ Holt-Lunstad также показал, что социальная изоляция повышает риск преждевременной смерти на 26&nbsp;%. Dear остаётся небольшим инструментом, направленным на большую проблему.",
       "uk": "У 2023 році ВООЗ оголосила самотність нагальною глобальною загрозою здоров'ю та повідомила, що приблизно кожна четверта літня людина живе в соціальній ізоляції. Метааналіз Holt-Lunstad також показав, що соціальна ізоляція підвищує ризик передчасної смерті на 26&nbsp;%. Dear залишається невеликим інструментом, спрямованим на велику проблему.",
       "ja": "WHOは2023年に孤独を差し迫った世界的な健康上の脅威と宣言し、高齢者のおよそ4人に1人が社会的孤立にあると報告しました。Holt-Lunstadらのメタ分析でも、社会的孤立は早期死亡のリスクを26&nbsp;%高めるとされています。Dearは大きな問題に向けた小さな道具です。",
-      "ko": "WHO는 2023년 외로움을 시급한 세계 보건 위협으로 선언했고, 노년층 4명 중 약 1명이 사회적 고립을 겪고 있다고 보고했습니다. Holt-Lunstad의 메타분석에서도 사회적 고립이 조기 사망 위험을 26&nbsp;% 높이는 것으로 나타났습니다. Dear는 큰 문제를 향한 작은 도구입니다."
+      "ko": "WHO는 2023년 외로움을 시급한 세계 보건 위협으로 선언했고, 노년층 4명 중 약 1명이 사회적 고립을 겪고 있다고 보고했습니다. Holt-Lunstad의 메타분석에서도 사회적 고립이 조기 사망 위험을 26&nbsp;% 높이는 것으로 나타났습니다. Dear는 큰 문제를 향한 작은 도구입니다.",
+      "zh-Hans": "世卫组织在 2023 年宣布孤独是紧迫的全球健康威胁，并报告约每 4 位老年人中就有 1 位处于社会隔离状态。Holt-Lunstad 的元分析也发现，社会隔离使过早死亡的风险提高 26&nbsp;%。Dear 是针对一个大问题的小工具。",
+      "zh-Hant": "世界衛生組織在 2023 年宣布孤獨是迫切的全球健康威脅，並報告約每 4 位長者中就有 1 位處於社會孤立狀態。Holt-Lunstad 的統合分析也發現，社會孤立使過早死亡的風險提高 26&nbsp;%。Dear 是針對一個大問題的小工具。"
     },
     "who_commission_on_social_connection_2023_hol_44f7f6": {
       "en": "WHO Commission on Social Connection, 2023; Holt-Lunstad et al., 2010",
@@ -514,7 +554,9 @@
       "ru": "WHO Commission on Social Connection, 2023; Holt-Lunstad и др., 2010",
       "uk": "WHO Commission on Social Connection, 2023; Holt-Lunstad та ін., 2010",
       "ja": "WHO Commission on Social Connection、2023年；Holt-Lunstadほか、2010年",
-      "ko": "WHO Commission on Social Connection, 2023; Holt-Lunstad 외, 2010"
+      "ko": "WHO Commission on Social Connection, 2023; Holt-Lunstad 외, 2010",
+      "zh-Hans": "WHO Commission on Social Connection，2023；Holt-Lunstad 等，2010",
+      "zh-Hant": "WHO Commission on Social Connection，2023；Holt-Lunstad 等，2010"
     },
     "see_all_research_and_citations_rarr_612879": {
       "en": "See all research and citations &rarr;",
@@ -537,7 +579,9 @@
       "ru": "Все исследования и источники &rarr;",
       "uk": "Усі дослідження та джерела &rarr;",
       "ja": "研究と出典をすべて見る &rarr;",
-      "ko": "모든 연구와 출처 보기 &rarr;"
+      "ko": "모든 연구와 출처 보기 &rarr;",
+      "zh-Hans": "查看全部研究与出处 &rarr;",
+      "zh-Hant": "查看所有研究與出處 &rarr;"
     },
     "how_it_works_8cecc8": {
       "en": "How It Works",
@@ -560,7 +604,9 @@
       "ru": "Как это работает",
       "uk": "Як це працює",
       "ja": "使い方",
-      "ko": "작동 방식"
+      "ko": "작동 방식",
+      "zh-Hans": "如何运作",
+      "zh-Hant": "如何運作"
     },
     "add_your_people_17fe1a": {
       "en": "Add your people",
@@ -583,7 +629,9 @@
       "ru": "Добавьте своих людей",
       "uk": "Додайте своїх людей",
       "ja": "あなたの人たちを追加",
-      "ko": "당신의 사람들을 추가하세요"
+      "ko": "당신의 사람들을 추가하세요",
+      "zh-Hans": "添加你的人",
+      "zh-Hant": "加入你的人"
     },
     "import_from_contacts_or_add_manually_set_how_6118f5": {
       "en": "Import from contacts or add manually. Set how often you want to reach out to each person: weekly, every two weeks, monthly, or less.",
@@ -606,7 +654,9 @@
       "ru": "Импортируйте из контактов или добавьте вручную. Задайте, как часто хотите общаться с каждым: раз в неделю, раз в две недели, раз в месяц или реже.",
       "uk": "Імпортуйте з контактів або додайте вручну. Задайте, як часто хочете спілкуватися з кожним: щотижня, раз на два тижні, щомісяця або рідше.",
       "ja": "連絡先から取り込むか、手で追加します。相手ごとにどれくらいの頻度で連絡したいかを設定できます。毎週、隔週、毎月、あるいはもっとゆっくり。",
-      "ko": "연락처에서 가져오거나 직접 추가하세요. 각 사람과 얼마나 자주 연락하고 싶은지 정할 수 있습니다. 매주, 격주, 매월, 또는 더 드물게."
+      "ko": "연락처에서 가져오거나 직접 추가하세요. 각 사람과 얼마나 자주 연락하고 싶은지 정할 수 있습니다. 매주, 격주, 매월, 또는 더 드물게.",
+      "zh-Hans": "从通讯录导入或手动添加。为每个人设定你希望联系的频率：每周、每两周、每月，或者更久一次。",
+      "zh-Hant": "從聯絡資訊匯入或手動新增。為每個人設定你希望聯絡的頻率：每週、每兩週、每月，或更久一次。"
     },
     "get_a_daily_nudge_805466": {
       "en": "Get a daily nudge",
@@ -629,7 +679,9 @@
       "ru": "Получайте напоминание каждый день",
       "uk": "Отримуйте нагадування щодня",
       "ja": "毎日のリマインダーを受け取る",
-      "ko": "매일 알림을 받으세요"
+      "ko": "매일 알림을 받으세요",
+      "zh-Hans": "每天收到一条提醒",
+      "zh-Hant": "每天收到一則提醒"
     },
     "each_day_dear_suggests_someone_to_reach_out_f4a99d": {
       "en": "Each day, Dear suggests someone to reach out to, delivered in a voice persona you choose. Sherlock's deductions, Nonna's gentle guilt, Cyrano's declarations, or 12 others.",
@@ -652,7 +704,9 @@
       "ru": "Каждый день Dear предлагает, кому написать, выбранным вами голосом. Дедукция Шерлока, теплота Nonna, признание Сирано или ещё 12 голосов.",
       "uk": "Щодня Dear пропонує, кому написати, обраним вами голосом. Дедукція Шерлока, теплота Nonna, освідчення Сірано або ще 12 голосів.",
       "ja": "毎日、Dearがあなたの選んだ声で連絡する相手を提案します。シャーロックの推理、Nonnaの温かさ、シラノの口説き、そのほか12種類。",
-      "ko": "매일 Dear가 당신이 고른 목소리로 연락할 사람을 제안합니다. 셜록의 추리, Nonna의 따뜻함, 시라노의 고백, 그 밖에 12가지가 더 있습니다."
+      "ko": "매일 Dear가 당신이 고른 목소리로 연락할 사람을 제안합니다. 셜록의 추리, Nonna의 따뜻함, 시라노의 고백, 그 밖에 12가지가 더 있습니다.",
+      "zh-Hans": "每天，Dear 用你选的声音建议一个可以联系的人。夏洛克的推理、Nonna 的温暖、西哈诺的告白，还有另外 12 种。",
+      "zh-Hant": "每天，Dear 用你選的聲音建議一個可以聯絡的人。福爾摩斯的推理、Nonna 的溫暖、西哈諾的告白，還有另外 12 種。"
     },
     "text_call_or_facetime_a7007a": {
       "en": "Text, call, or FaceTime",
@@ -675,7 +729,9 @@
       "ru": "Сообщение, звонок или FaceTime",
       "uk": "Повідомлення, дзвінок або FaceTime",
       "ja": "メッセージ、電話、FaceTime",
-      "ko": "문자, 전화, FaceTime"
+      "ko": "문자, 전화, FaceTime",
+      "zh-Hans": "消息、通话或 FaceTime",
+      "zh-Hant": "訊息、通話或 FaceTime"
     },
     "one_tap_opens_a_text_call_or_video_chat_that_7f230b": {
       "en": "One tap opens a text, call, or video chat. That's it. No journaling, no metrics, no noise. Just a real conversation with a real person.",
@@ -698,7 +754,9 @@
       "ru": "Одно касание открывает сообщение, звонок или видео. И всё. Никаких дневников, метрик и шума. Просто настоящий разговор с настоящим человеком.",
       "uk": "Один дотик відкриває повідомлення, дзвінок або відео. І все. Жодних щоденників, метрик і шуму. Просто справжня розмова зі справжньою людиною.",
       "ja": "一度のタップでメッセージ、通話、ビデオが開きます。それだけです。日記も、指標も、雑音もありません。本当の人との、本当の会話だけ。",
-      "ko": "한 번 탭하면 문자, 전화, 영상통화가 열립니다. 그게 전부입니다. 일지도, 지표도, 소음도 없습니다. 진짜 사람과의 진짜 대화만 있습니다."
+      "ko": "한 번 탭하면 문자, 전화, 영상통화가 열립니다. 그게 전부입니다. 일지도, 지표도, 소음도 없습니다. 진짜 사람과의 진짜 대화만 있습니다.",
+      "zh-Hans": "一次点击就打开消息、通话或视频。就这样。没有日志，没有指标，没有噪音。只有和真实的人真实地聊天。",
+      "zh-Hant": "一次點按就打開訊息、通話或視訊。就這樣。沒有日誌，沒有數據指標，沒有雜訊。只有和真實的人真實地聊天。"
     },
     "15_voice_personas_26cea2": {
       "en": "15 Voice Personas",
@@ -721,7 +779,9 @@
       "ru": "15 голосов",
       "uk": "15 голосів",
       "ja": "15の声",
-      "ko": "15가지 목소리"
+      "ko": "15가지 목소리",
+      "zh-Hans": "15 种声音",
+      "zh-Hant": "15 種聲音"
     },
     "the_voice_personas_make_the_nudge_feel_like_eaa628": {
       "en": "The voice personas make the nudge feel like a friend reminding you, not a calendar alert. Each one writes differently, notices differently, and cares differently.",
@@ -744,7 +804,9 @@
       "ru": "Благодаря голосам напоминание похоже на друга, который напомнил, а не на будильник в календаре. У каждого своя манера писать, замечать и заботиться.",
       "uk": "Завдяки голосам нагадування схоже на друга, який нагадав, а не на будильник у календарі. У кожного своя манера писати, помічати й дбати.",
       "ja": "声のおかげで、リマインダーはカレンダーのアラームではなく、思い出させてくれる友人のように感じられます。書き方も、目の向け方も、気づかい方も、それぞれ違います。",
-      "ko": "목소리 덕분에 알림이 달력 알람이 아니라 상기시켜 주는 친구처럼 느껴집니다. 저마다 쓰는 방식도, 살피는 방식도, 마음 쓰는 방식도 다릅니다."
+      "ko": "목소리 덕분에 알림이 달력 알람이 아니라 상기시켜 주는 친구처럼 느껴집니다. 저마다 쓰는 방식도, 살피는 방식도, 마음 쓰는 방식도 다릅니다.",
+      "zh-Hans": "有了这些声音，提醒更像是一位朋友在提醒你，而不是日历闹钟。每一种都有自己写字、留意和关心的方式。",
+      "zh-Hant": "有了這些聲音，提醒更像是一位朋友在提醒你，而不是行事曆鬧鐘。每一種都有自己寫字、留意和關心的方式。"
     },
     "private_by_design_fec57b": {
       "en": "Private by Design",
@@ -767,7 +829,9 @@
       "ru": "Приватность по замыслу",
       "uk": "Приватність за задумом",
       "ja": "設計からプライベート",
-      "ko": "설계부터 비공개"
+      "ko": "설계부터 비공개",
+      "zh-Hans": "从设计之初就私密",
+      "zh-Hant": "從設計之初就私密"
     },
     "your_friends_your_messages_your_relationship_ad47ac": {
       "en": "Your friends, your messages, your relationships: none of it ever leaves your device. No accounts, no ads, nothing sold. The only things Dear sends are anonymous usage counts, anonymous purchase records and crash reports, never anything that could identify you or your people. We designed it this way on purpose.",
@@ -790,7 +854,9 @@
       "ru": "Ваши друзья, ваши сообщения, ваши отношения: ничто из этого не покидает устройство. Ни аккаунтов, ни рекламы, ничего на продажу. Dear отправляет только анонимные счётчики использования, анонимные записи о покупках и отчёты об ошибках, и никогда ничего, что позволило бы опознать вас или ваших людей. Это осознанный выбор.",
       "uk": "Ваші друзі, ваші повідомлення, ваші стосунки: ніщо з цього не залишає пристрій. Ні облікових записів, ні реклами, нічого на продаж. Dear надсилає лише анонімні лічильники використання, анонімні записи про покупки та звіти про помилки, і ніколи нічого, що дозволило б упізнати вас чи ваших людей. Це свідомий вибір.",
       "ja": "あなたの友人も、メッセージも、人間関係も、どれひとつ端末の外には出ません。アカウントも広告もなく、売るものもありません。Dearが送るのは匿名の利用回数、匿名の購入記録、そしてエラー報告だけで、あなたやあなたの大切な人を特定できるものは決して送りません。これは意図した選択です。",
-      "ko": "당신의 친구도, 메시지도, 관계도 기기를 벗어나지 않습니다. 계정도, 광고도 없고, 파는 것도 없습니다. Dear가 보내는 것은 익명 사용 횟수, 익명 구매 기록, 오류 보고뿐이며, 당신이나 당신의 사람들을 알아볼 수 있는 것은 결코 보내지 않습니다. 의도한 선택입니다."
+      "ko": "당신의 친구도, 메시지도, 관계도 기기를 벗어나지 않습니다. 계정도, 광고도 없고, 파는 것도 없습니다. Dear가 보내는 것은 익명 사용 횟수, 익명 구매 기록, 오류 보고뿐이며, 당신이나 당신의 사람들을 알아볼 수 있는 것은 결코 보내지 않습니다. 의도한 선택입니다.",
+      "zh-Hans": "你的朋友、你的消息、你的关系，没有一样会离开你的设备。没有账号，没有广告，没有任何东西被出售。Dear 只发送匿名的使用次数、匿名的购买记录和错误报告，绝不发送任何能识别你或你身边人的信息。这是有意的选择。",
+      "zh-Hant": "你的朋友、你的訊息、你的關係，沒有一樣會離開你的裝置。沒有帳號，沒有廣告，沒有任何東西被販售。Dear 只傳送匿名的使用次數、匿名的購買紀錄和錯誤報告，絕不傳送任何能辨識你或你身邊人的資訊。這是刻意的選擇。"
     },
     "read_the_full_privacy_policy_rarr_9d0cbe": {
       "en": "<a href=\"privacy.html\" style=\"color: #6B8AD6; text-decoration: none; font-weight: 600;\">Read the full privacy policy &rarr;</a>",
@@ -813,7 +879,9 @@
       "ru": "<a href=\"privacy.html\" style=\"color: #6B8AD6; text-decoration: none; font-weight: 600;\">Читать полную политику конфиденциальности &rarr;</a>",
       "uk": "<a href=\"privacy.html\" style=\"color: #6B8AD6; text-decoration: none; font-weight: 600;\">Читати повну політику конфіденційності &rarr;</a>",
       "ja": "<a href=\"privacy.html\" style=\"color: #6B8AD6; text-decoration: none; font-weight: 600;\">プライバシーポリシー全文を読む &rarr;</a>",
-      "ko": "<a href=\"privacy.html\" style=\"color: #6B8AD6; text-decoration: none; font-weight: 600;\">개인정보 처리방침 전문 읽기 &rarr;</a>"
+      "ko": "<a href=\"privacy.html\" style=\"color: #6B8AD6; text-decoration: none; font-weight: 600;\">개인정보 처리방침 전문 읽기 &rarr;</a>",
+      "zh-Hans": "<a href=\"privacy.html\" style=\"color: #6B8AD6; text-decoration: none; font-weight: 600;\">阅读完整隐私政策 &rarr;</a>",
+      "zh-Hant": "<a href=\"privacy.html\" style=\"color: #6B8AD6; text-decoration: none; font-weight: 600;\">閱讀完整隱私權政策 &rarr;</a>"
     },
     "quick_facts_e54bdb": {
       "en": "Quick Facts",
@@ -836,7 +904,9 @@
       "ru": "Коротко о главном",
       "uk": "Коротко про головне",
       "ja": "かんたんな概要",
-      "ko": "간단 정보"
+      "ko": "간단 정보",
+      "zh-Hans": "简要信息",
+      "zh-Hant": "簡要資訊"
     },
     "price_free_for_up_to_15_people_upgrades_are_cb4d56": {
       "en": "<span class=\"label\">Price:</span> Free for up to 15 people. Upgrades are priced like an espresso in your country (about $2.99/month in the US), set with World Bank income data and Numbeo coffee prices.",
@@ -859,7 +929,9 @@
       "ru": "<span class=\"label\">Цена:</span> Бесплатно до 15 человек. Платные версии стоят примерно как эспрессо в вашей стране (около 2,99&nbsp;$ в США); расчёт по данным о доходах Всемирного банка и ценам на кофе Numbeo.",
       "uk": "<span class=\"label\">Ціна:</span> Безкоштовно до 15 людей. Платні версії коштують приблизно як еспресо у вашій країні (близько 2,99&nbsp;$ у США); розрахунок за даними про доходи Світового банку та цінами на каву Numbeo.",
       "ja": "<span class=\"label\">価格：</span>15人まで無料。アップグレードはお住まいの国のエスプレッソ1杯ほどの価格です（米国では約2.99&nbsp;$）。世界銀行の所得データとNumbeoのコーヒー価格をもとにしています。",
-      "ko": "<span class=\"label\">가격:</span> 15명까지 무료. 업그레이드 가격은 각 나라의 에스프레소 한 잔 정도입니다(미국 기준 약 2.99&nbsp;$). 세계은행 소득 자료와 Numbeo 커피 가격을 기준으로 정했습니다."
+      "ko": "<span class=\"label\">가격:</span> 15명까지 무료. 업그레이드 가격은 각 나라의 에스프레소 한 잔 정도입니다(미국 기준 약 2.99&nbsp;$). 세계은행 소득 자료와 Numbeo 커피 가격을 기준으로 정했습니다.",
+      "zh-Hans": "<span class=\"label\">价格：</span>15 人以内免费。升级的价格大致相当于你所在国家一杯浓缩咖啡（美国约 2.99&nbsp;$），依据世界银行的收入数据和 Numbeo 的咖啡价格定价。",
+      "zh-Hant": "<span class=\"label\">價格：</span>15 人以內免費。升級的價格大約相當於你所在國家一杯濃縮咖啡（美國約 2.99&nbsp;$），依據世界銀行的所得資料和 Numbeo 的咖啡價格訂定。"
     },
     "languages_english_french_spanish_a1fff3": {
       "en": "<span class=\"label\">Languages:</span> 31 in the app. This site is in English, French and Spanish.",
@@ -882,7 +954,9 @@
       "ru": "<span class=\"label\">Языки:</span> 31 в приложении. Этот сайт доступен на английском, французском и испанском.",
       "uk": "<span class=\"label\">Мови:</span> 31 у застосунку. Цей сайт доступний англійською, французькою та іспанською.",
       "ja": "<span class=\"label\">言語：</span>アプリは31言語。このサイトは英語、フランス語、スペイン語に対応しています。",
-      "ko": "<span class=\"label\">언어:</span> 앱은 31개. 이 사이트는 영어, 프랑스어, 스페인어를 지원합니다."
+      "ko": "<span class=\"label\">언어:</span> 앱은 31개. 이 사이트는 영어, 프랑스어, 스페인어를 지원합니다.",
+      "zh-Hans": "<span class=\"label\">语言：</span>应用支持 31 种。本网站提供英语、法语和西班牙语。",
+      "zh-Hant": "<span class=\"label\">語言：</span>App 支援 31 種。本網站提供英文、法文和西班牙文。"
     },
     "platform_ios_17_android_8_7a43e5": {
       "en": "<span class=\"label\">Platform:</span> iOS 18+, Android 8+",
@@ -905,7 +979,9 @@
       "ru": "<span class=\"label\">Платформы:</span> iOS 18+, Android 8+",
       "uk": "<span class=\"label\">Платформи:</span> iOS 18+, Android 8+",
       "ja": "<span class=\"label\">対応OS：</span>iOS 18以降、Android 8以降",
-      "ko": "<span class=\"label\">플랫폼:</span> iOS 18 이상, Android 8 이상"
+      "ko": "<span class=\"label\">플랫폼:</span> iOS 18 이상, Android 8 이상",
+      "zh-Hans": "<span class=\"label\">平台：</span>iOS 18 及以上，Android 8 及以上",
+      "zh-Hant": "<span class=\"label\">平台：</span>iOS 18 以上，Android 8 以上"
     },
     "privacy_built_on_device_the_only_data_that_l_f840fc": {
       "en": "<span class=\"label\">Privacy:</span> Built on-device. Your people never leave your device. The only data that leaves your phone is anonymous usage counts, anonymous purchase records and crash reports.",
@@ -928,7 +1004,9 @@
       "ru": "<span class=\"label\">Приватность:</span> Работает на устройстве. Ваши люди его не покидают. Телефон покидают только анонимные счётчики использования, анонимные записи о покупках и отчёты об ошибках.",
       "uk": "<span class=\"label\">Приватність:</span> Працює на пристрої. Ваші люди його не залишають. Телефон залишають лише анонімні лічильники використання, анонімні записи про покупки та звіти про помилки.",
       "ja": "<span class=\"label\">プライバシー：</span>端末の中で動きます。あなたの大切な人がそこから出ることはありません。端末から出るのは匿名の利用回数、匿名の購入記録、エラー報告だけです。",
-      "ko": "<span class=\"label\">개인정보:</span> 기기 안에서 작동합니다. 당신의 사람들은 기기를 벗어나지 않습니다. 휴대폰을 벗어나는 것은 익명 사용 횟수, 익명 구매 기록, 오류 보고뿐입니다."
+      "ko": "<span class=\"label\">개인정보:</span> 기기 안에서 작동합니다. 당신의 사람들은 기기를 벗어나지 않습니다. 휴대폰을 벗어나는 것은 익명 사용 횟수, 익명 구매 기록, 오류 보고뿐입니다.",
+      "zh-Hans": "<span class=\"label\">隐私：</span>在设备上运行。你身边的人不会离开设备。离开手机的只有匿名的使用次数、匿名的购买记录和错误报告。",
+      "zh-Hant": "<span class=\"label\">隱私：</span>在裝置上執行。你身邊的人不會離開裝置。離開手機的只有匿名的使用次數、匿名的購買紀錄和錯誤報告。"
     },
     "interested_in_recommending_dear_3daf5f": {
       "en": "Interested in recommending Dear?",
@@ -951,7 +1029,9 @@
       "ru": "Хотите рекомендовать Dear?",
       "uk": "Хочете рекомендувати Dear?",
       "ja": "Dearを勧めてみませんか？",
-      "ko": "Dear를 추천하고 싶으신가요?"
+      "ko": "Dear를 추천하고 싶으신가요?",
+      "zh-Hans": "有兴趣推荐 Dear 吗？",
+      "zh-Hant": "有興趣推薦 Dear 嗎？"
     },
     "if_you_re_a_therapist_counselor_coach_or_wel_048a89": {
       "en": "If you're a therapist, counselor, coach, or wellness professional and think Dear could help your clients build stronger connections, we'd love to hear from you.",
@@ -974,7 +1054,9 @@
       "ru": "Если вы психотерапевт, консультант, коуч или работаете в сфере благополучия и считаете, что Dear поможет вашим клиентам укрепить отношения, будем рады услышать вас.",
       "uk": "Якщо ви психотерапевт, консультант, коуч або працюєте у сфері добробуту й вважаєте, що Dear допоможе вашим клієнтам зміцнити стосунки, будемо раді почути вас.",
       "ja": "セラピスト、カウンセラー、コーチ、あるいはウェルビーイングに関わる方で、Dearがクライアントの人間関係を強くする助けになると感じたら、ぜひご連絡ください。",
-      "ko": "치료사, 상담사, 코치이거나 웰빙 분야에서 일하시면서 Dear가 내담자의 관계를 더 단단하게 하는 데 도움이 되겠다고 생각하신다면, 꼭 연락 주세요."
+      "ko": "치료사, 상담사, 코치이거나 웰빙 분야에서 일하시면서 Dear가 내담자의 관계를 더 단단하게 하는 데 도움이 되겠다고 생각하신다면, 꼭 연락 주세요.",
+      "zh-Hans": "如果你是心理治疗师、咨询师、教练，或从事身心健康相关工作，并且觉得 Dear 能帮助来访者建立更牢固的关系，我们很想听到你的声音。",
+      "zh-Hant": "如果你是心理治療師、諮商師、教練，或從事身心健康相關工作，並覺得 Dear 能幫助你的個案建立更穩固的關係，我們很想聽到你的聲音。"
     },
     "dear_is_made_by_elsewhere_index_an_independe_c06956": {
       "en": "Dear is made by Elsewhere Index, an independent studio. Built with a lot of care.",
@@ -997,7 +1079,9 @@
       "ru": "Dear создан студией Elsewhere Index, независимой студией. Сделан с большой заботой.",
       "uk": "Dear створює Elsewhere Index, незалежна студія. Зроблено з великою турботою.",
       "ja": "Dearは独立系スタジオのElsewhere Indexが作っています。とても丁寧に作られています。",
-      "ko": "Dear는 독립 스튜디오 Elsewhere Index가 만듭니다. 아주 정성껏 만들었습니다."
+      "ko": "Dear는 독립 스튜디오 Elsewhere Index가 만듭니다. 아주 정성껏 만들었습니다.",
+      "zh-Hans": "Dear 由独立工作室 Elsewhere Index 制作。做得非常用心。",
+      "zh-Hant": "Dear 由獨立工作室 Elsewhere Index 製作。做得非常用心。"
     },
     "press_kit_300534": {
       "en": "Press Kit",
@@ -1020,7 +1104,9 @@
       "ru": "Пресс-кит",
       "uk": "Прескіт",
       "ja": "プレスキット",
-      "ko": "프레스 킷"
+      "ko": "프레스 킷",
+      "zh-Hans": "媒体资料包",
+      "zh-Hant": "媒體資料包"
     },
     "app_overview_1d58e9": {
       "en": "App Overview",
@@ -1043,7 +1129,9 @@
       "ru": "О приложении",
       "uk": "Про застосунок",
       "ja": "アプリの概要",
-      "ko": "앱 개요"
+      "ko": "앱 개요",
+      "zh-Hans": "应用概览",
+      "zh-Hant": "App 概覽"
     },
     "one_gentle_nudge_a_day_to_text_the_people_yo_bf14dc": {
       "en": "One gentle nudge a day to text the people you care about. 15+ voice personas across English, French, and Spanish. Free, private, no accounts.",
@@ -1066,7 +1154,9 @@
       "ru": "Одно мягкое напоминание в день, чтобы написать тем, кто вам дорог. 15 голосов на английском, французском и испанском. Бесплатно, приватно, без аккаунтов.",
       "uk": "Одне м'яке нагадування на день, щоб написати тим, хто вам дорогий. 15 голосів англійською, французькою та іспанською. Безкоштовно, приватно, без облікових записів.",
       "ja": "大切な人にメッセージを送るための、一日ひとつのやさしいリマインダー。英語、フランス語、スペイン語で15の声。無料、プライベート、アカウント不要。",
-      "ko": "소중한 사람에게 문자를 보내도록 하루에 하나씩 보내는 부드러운 알림. 영어, 프랑스어, 스페인어로 15가지 목소리. 무료, 비공개, 계정 불필요."
+      "ko": "소중한 사람에게 문자를 보내도록 하루에 하나씩 보내는 부드러운 알림. 영어, 프랑스어, 스페인어로 15가지 목소리. 무료, 비공개, 계정 불필요.",
+      "zh-Hans": "每天一条温和的提醒，让你给在意的人发条消息。英语、法语和西班牙语共 15 种声音。免费、私密、无需账号。",
+      "zh-Hant": "每天一則溫和的提醒，讓你傳訊息給在乎的人。英文、法文和西班牙文共 15 種聲音。免費、私密、不需要帳號。"
     },
     "philosophy_496e94": {
       "en": "Philosophy",
@@ -1089,7 +1179,9 @@
       "ru": "Принцип",
       "uk": "Принцип",
       "ja": "考え方",
-      "ko": "원칙"
+      "ko": "원칙",
+      "zh-Hans": "原则",
+      "zh-Hant": "原則"
     },
     "dear_is_built_on_one_principle_no_guilt_ever_266994": {
       "en": "Dear is built on one principle: no guilt, ever (except from Nonna). There are no streaks, no \"missed\" nudges, no counters, no backlog. Every day is a clean slate.",
@@ -1112,7 +1204,9 @@
       "ru": "Dear построен на одном принципе: никакого чувства вины (кроме как от Nonna). Никаких серий, никаких «пропущенных» напоминаний, никаких счётчиков, никаких долгов. Каждый день начинается с чистого листа.",
       "uk": "Dear побудований на одному принципі: жодного почуття провини (окрім як від Nonna). Жодних серій, жодних «пропущених» нагадувань, жодних лічильників, жодних боргів. Кожен день починається з чистого аркуша.",
       "ja": "Dearはひとつの原則の上に作られています。決して罪悪感を与えないこと（Nonnaは別として）。連続記録も、「見逃した」リマインダーも、カウンターも、負い目もありません。毎日が新しく始まります。",
-      "ko": "Dear는 하나의 원칙 위에 세워졌습니다. 결코 죄책감을 주지 않는다는 것(Nonna는 예외입니다). 연속 기록도, “놓친” 알림도, 카운터도, 밀린 것도 없습니다. 매일이 깨끗하게 시작됩니다."
+      "ko": "Dear는 하나의 원칙 위에 세워졌습니다. 결코 죄책감을 주지 않는다는 것(Nonna는 예외입니다). 연속 기록도, “놓친” 알림도, 카운터도, 밀린 것도 없습니다. 매일이 깨끗하게 시작됩니다.",
+      "zh-Hans": "Dear 建立在一个原则之上：永远不制造愧疚（Nonna 除外）。没有连续打卡，没有“错过”的提醒，没有计数器，没有欠账。每一天都是全新的开始。",
+      "zh-Hant": "Dear 建立在一個原則之上：永遠不製造愧疚（Nonna 除外）。沒有連續紀錄，沒有「錯過」的提醒，沒有計數器，沒有欠帳。每一天都是全新的開始。"
     },
     "if_you_don_t_reach_out_today_the_person_simp_354682": {
       "en": "If you don't reach out today, the person simply appears again another day. The app never tells you that you failed. It just quietly keeps showing up.",
@@ -1135,7 +1229,9 @@
       "ru": "Если сегодня вы не написали, этот человек вернётся в другой день. Приложение никогда не скажет, что вы не справились. Оно просто рядом, тихо.",
       "uk": "Якщо сьогодні ви не написали, ця людина повернеться іншого дня. Застосунок ніколи не скаже, що ви не впоралися. Він просто поруч, тихо.",
       "ja": "今日連絡しなくても、その人はまた別の日に現れます。アプリがあなたを失敗したと責めることはありません。ただ静かに、そこにいます。",
-      "ko": "오늘 연락하지 않아도 그 사람은 다른 날 다시 나타납니다. 앱이 당신에게 실패했다고 말하는 일은 없습니다. 그저 조용히 곁에 있습니다."
+      "ko": "오늘 연락하지 않아도 그 사람은 다른 날 다시 나타납니다. 앱이 당신에게 실패했다고 말하는 일은 없습니다. 그저 조용히 곁에 있습니다.",
+      "zh-Hans": "今天没联系，那个人会在别的日子再次出现。应用永远不会说你做得不好。它只是安静地在那里。",
+      "zh-Hant": "今天沒聯絡，那個人會在別的日子再次出現。App 永遠不會說你做得不好。它只是安靜地在那裡。"
     },
     "the_voice_personas_exist_to_make_the_nudge_f_5825b4": {
       "en": "The voice personas exist to make the nudge feel like a friend reminding you, not a calendar alert. Sherlock's deductions, Nonna's gentle guilt, Cyrano's declarations. The goal is a smile, then a text.",
@@ -1158,7 +1254,9 @@
       "ru": "Голоса нужны, чтобы напоминание было похоже на друга, а не на будильник в календаре. Дедукция Шерлока, теплота Nonna, признание Сирано. Сначала улыбка, потом сообщение.",
       "uk": "Голоси потрібні, щоб нагадування було схоже на друга, а не на будильник у календарі. Дедукція Шерлока, теплота Nonna, освідчення Сірано. Спершу усмішка, потім повідомлення.",
       "ja": "声があるのは、リマインダーをカレンダーのアラームではなく友人のように感じさせるためです。シャーロックの推理、Nonnaの温かさ、シラノの口説き。まず笑顔、それからメッセージ。",
-      "ko": "목소리가 있는 이유는 알림이 달력 알람이 아니라 친구처럼 느껴지게 하기 위해서입니다. 셜록의 추리, Nonna의 따뜻함, 시라노의 고백. 먼저 미소, 그다음 메시지."
+      "ko": "목소리가 있는 이유는 알림이 달력 알람이 아니라 친구처럼 느껴지게 하기 위해서입니다. 셜록의 추리, Nonna의 따뜻함, 시라노의 고백. 먼저 미소, 그다음 메시지.",
+      "zh-Hans": "这些声音的存在，是为了让提醒像一位朋友，而不是日历闹钟。夏洛克的推理、Nonna 的温暖、西哈诺的告白。先笑一下，再发消息。",
+      "zh-Hant": "這些聲音的存在，是為了讓提醒像一位朋友，而不是行事曆鬧鐘。福爾摩斯的推理、Nonna 的溫暖、西哈諾的告白。先笑一下，再傳訊息。"
     },
     "key_facts_b8573c": {
       "en": "Key Facts",
@@ -1181,7 +1279,9 @@
       "ru": "Ключевые факты",
       "uk": "Ключові факти",
       "ja": "主な情報",
-      "ko": "주요 정보"
+      "ko": "주요 정보",
+      "zh-Hans": "关键信息",
+      "zh-Hant": "重點資訊"
     },
     "voice_personas_15_sherlock_holmes_nonna_cyra_7d8b1f": {
       "en": "<span class=\"label\">Voice personas:</span> 15+ (Sherlock Holmes, Nonna, Cyrano, Don Quijote, and more)",
@@ -1204,7 +1304,9 @@
       "ru": "<span class=\"label\">Голоса:</span> 15 (Шерлок Холмс, Nonna, Сирано, Дон Кихот и другие)",
       "uk": "<span class=\"label\">Голоси:</span> 15 (Шерлок Голмс, Nonna, Сірано, Дон Кіхот та інші)",
       "ja": "<span class=\"label\">声：</span>15種類（シャーロック・ホームズ、Nonna、シラノ、ドン・キホーテほか）",
-      "ko": "<span class=\"label\">목소리:</span> 15가지(셜록 홈즈, Nonna, 시라노, 돈키호테 등)"
+      "ko": "<span class=\"label\">목소리:</span> 15가지(셜록 홈즈, Nonna, 시라노, 돈키호테 등)",
+      "zh-Hans": "<span class=\"label\">声音：</span>15 种（夏洛克·福尔摩斯、Nonna、西哈诺、堂吉诃德等）",
+      "zh-Hant": "<span class=\"label\">聲音：</span>15 種（夏洛克·福爾摩斯、Nonna、西哈諾、唐吉訶德等）"
     },
     "privacy_built_on_device_no_accounts_no_ads_n_e0884d": {
       "en": "<span class=\"label\">Privacy:</span> Built on-device. No accounts, no ads, no data sold. Your people never leave your device. Only anonymous usage counts, anonymous purchase records and crash reports ever leave it. Designed to exceed GDPR and EU privacy requirements by default.",
@@ -1227,7 +1329,9 @@
       "ru": "<span class=\"label\">Приватность:</span> Работает на устройстве. Ни аккаунтов, ни рекламы, ни продажи данных. Ваши люди не покидают устройство. Уходят только анонимные счётчики использования, анонимные записи о покупках и отчёты об ошибках. Спроектировано с превышением требований GDPR по умолчанию.",
       "uk": "<span class=\"label\">Приватність:</span> Працює на пристрої. Ні облікових записів, ні реклами, ні продажу даних. Ваші люди не залишають пристрій. Ідуть лише анонімні лічильники використання, анонімні записи про покупки та звіти про помилки. Спроєктовано з перевищенням вимог GDPR за замовчуванням.",
       "ja": "<span class=\"label\">プライバシー：</span>端末の中で動きます。アカウントも、広告も、データの販売もありません。あなたの大切な人が端末から出ることはありません。出ていくのは匿名の利用回数、匿名の購入記録、エラー報告だけです。初期状態でGDPRの要件を上回るよう設計しています。",
-      "ko": "<span class=\"label\">개인정보:</span> 기기 안에서 작동합니다. 계정도, 광고도, 데이터 판매도 없습니다. 당신의 사람들은 기기를 벗어나지 않습니다. 나가는 것은 익명 사용 횟수, 익명 구매 기록, 오류 보고뿐입니다. 기본 설정만으로 GDPR 요구 수준을 넘도록 설계했습니다."
+      "ko": "<span class=\"label\">개인정보:</span> 기기 안에서 작동합니다. 계정도, 광고도, 데이터 판매도 없습니다. 당신의 사람들은 기기를 벗어나지 않습니다. 나가는 것은 익명 사용 횟수, 익명 구매 기록, 오류 보고뿐입니다. 기본 설정만으로 GDPR 요구 수준을 넘도록 설계했습니다.",
+      "zh-Hans": "<span class=\"label\">隐私：</span>在设备上运行。没有账号，没有广告，不出售数据。你身边的人不会离开设备。离开的只有匿名的使用次数、匿名的购买记录和错误报告。默认设计就超出 GDPR 的要求。",
+      "zh-Hant": "<span class=\"label\">隱私：</span>在裝置上執行。沒有帳號，沒有廣告，不販售資料。你身邊的人不會離開裝置。離開的只有匿名的使用次數、匿名的購買紀錄和錯誤報告。預設設計就超出 GDPR 的要求。"
     },
     "platform_ios_17_iphone_and_ipad_e03453": {
       "en": "<span class=\"label\">Platform:</span> iOS 18+, iPhone and iPad. Android 8+.",
@@ -1250,7 +1354,9 @@
       "ru": "<span class=\"label\">Платформы:</span> iOS 18+, iPhone и iPad. Android 8+.",
       "uk": "<span class=\"label\">Платформи:</span> iOS 18+, iPhone та iPad. Android 8+.",
       "ja": "<span class=\"label\">対応OS：</span>iOS 18以降、iPhoneとiPad。Android 8以降。",
-      "ko": "<span class=\"label\">플랫폼:</span> iOS 18 이상, iPhone과 iPad. Android 8 이상."
+      "ko": "<span class=\"label\">플랫폼:</span> iOS 18 이상, iPhone과 iPad. Android 8 이상.",
+      "zh-Hans": "<span class=\"label\">平台：</span>iOS 18 及以上，iPhone 和 iPad。Android 8 及以上。",
+      "zh-Hant": "<span class=\"label\">平台：</span>iOS 18 以上，iPhone 和 iPad。Android 8 以上。"
     },
     "built_with_swiftui_swiftdata_widgetkit_two_t_f4f7eb": {
       "en": "<span class=\"label\">Built with:</span> SwiftUI, SwiftData, WidgetKit. Three third-party SDKs: TelemetryDeck (anonymous analytics), RevenueCat (purchases) and Sentry (crash reports).",
@@ -1273,7 +1379,9 @@
       "ru": "<span class=\"label\">Сделано на:</span> SwiftUI, SwiftData, WidgetKit. Три сторонних SDK: TelemetryDeck (анонимная аналитика), RevenueCat (покупки) и Sentry (отчёты об ошибках).",
       "uk": "<span class=\"label\">Зроблено на:</span> SwiftUI, SwiftData, WidgetKit. Три сторонні SDK: TelemetryDeck (анонімна аналітика), RevenueCat (покупки) та Sentry (звіти про помилки).",
       "ja": "<span class=\"label\">使用技術：</span>SwiftUI、SwiftData、WidgetKit。外部SDKは3つ：TelemetryDeck（匿名の分析）、RevenueCat（購入）、Sentry（エラー報告）。",
-      "ko": "<span class=\"label\">사용 기술:</span> SwiftUI, SwiftData, WidgetKit. 외부 SDK 3개: TelemetryDeck(익명 분석), RevenueCat(구매), Sentry(오류 보고)."
+      "ko": "<span class=\"label\">사용 기술:</span> SwiftUI, SwiftData, WidgetKit. 외부 SDK 3개: TelemetryDeck(익명 분석), RevenueCat(구매), Sentry(오류 보고).",
+      "zh-Hans": "<span class=\"label\">技术：</span>SwiftUI、SwiftData、WidgetKit。三个第三方 SDK：TelemetryDeck（匿名分析）、RevenueCat（购买）和 Sentry（错误报告）。",
+      "zh-Hant": "<span class=\"label\">技術：</span>SwiftUI、SwiftData、WidgetKit。三個第三方 SDK：TelemetryDeck（匿名分析）、RevenueCat（購買）和 Sentry（錯誤報告）。"
     },
     "research_be601d": {
       "en": "Research",
@@ -1296,7 +1404,9 @@
       "ru": "Исследования",
       "uk": "Дослідження",
       "ja": "研究",
-      "ko": "연구"
+      "ko": "연구",
+      "zh-Hans": "研究",
+      "zh-Hant": "研究"
     },
     "who_2023_1_in_4_people_worldwide_report_feel_7c5d5b": {
       "en": "<strong><a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\" style=\"color: #2D2D2D; text-decoration: underline;\">WHO (2025)</a>:</strong> 1 in 6 people worldwide are affected by loneliness. WHO declared loneliness a pressing global health threat in 2023.",
@@ -1319,7 +1429,9 @@
       "ru": "<strong><a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\" style=\"color: #2D2D2D; text-decoration: underline;\">ВОЗ (2025)</a>:</strong> Каждый шестой человек в мире страдает от одиночества. В 2023 году ВОЗ объявила одиночество неотложной глобальной угрозой здоровью.",
       "uk": "<strong><a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\" style=\"color: #2D2D2D; text-decoration: underline;\">ВООЗ (2025)</a>:</strong> Кожна шоста людина у світі потерпає від самотності. У 2023 році ВООЗ оголосила самотність нагальною глобальною загрозою здоров'ю.",
       "ja": "<strong><a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\" style=\"color: #2D2D2D; text-decoration: underline;\">WHO（2025年）</a>：</strong>世界で6人に1人が孤独の影響を受けています。WHOは2023年に孤独を差し迫った世界的な健康上の脅威と宣言しました。",
-      "ko": "<strong><a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\" style=\"color: #2D2D2D; text-decoration: underline;\">WHO(2025)</a>:</strong> 전 세계에서 6명 중 1명이 외로움의 영향을 받고 있습니다. WHO는 2023년 외로움을 시급한 세계 보건 위협으로 선언했습니다."
+      "ko": "<strong><a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\" style=\"color: #2D2D2D; text-decoration: underline;\">WHO(2025)</a>:</strong> 전 세계에서 6명 중 1명이 외로움의 영향을 받고 있습니다. WHO는 2023년 외로움을 시급한 세계 보건 위협으로 선언했습니다.",
+      "zh-Hans": "<strong><a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\" style=\"color: #2D2D2D; text-decoration: underline;\">世卫组织（2025）</a>：</strong>全球每 6 人中就有 1 人受孤独影响。世卫组织在 2023 年宣布孤独是紧迫的全球健康威胁。",
+      "zh-Hant": "<strong><a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\" style=\"color: #2D2D2D; text-decoration: underline;\">世界衛生組織（2025）</a>：</strong>全球每 6 人中就有 1 人受孤獨影響。世界衛生組織在 2023 年宣布孤獨是迫切的全球健康威脅。"
     },
     "peggy_liu_2022_people_consistently_underesti_191103": {
       "en": "<em><a href=\"https://doi.org/10.1037/pspi0000402\" style=\"color: #6B8AD6;\">Peggy Liu (2022)</a>:</em> People consistently underestimate how much others appreciate hearing from them, especially when reaching out \"just because.\"",
@@ -1342,7 +1454,9 @@
       "ru": "<em><a href=\"https://doi.org/10.1037/pspi0000402\" style=\"color: #6B8AD6;\">Peggy Liu (2022)</a>:</em> Мы регулярно недооцениваем, как ценят другие весточку от нас, особенно отправленную «просто так».",
       "uk": "<em><a href=\"https://doi.org/10.1037/pspi0000402\" style=\"color: #6B8AD6;\">Peggy Liu (2022)</a>:</em> Ми регулярно недооцінюємо, як цінують інші звістку від нас, надто надіслану «просто так».",
       "ja": "<em><a href=\"https://doi.org/10.1037/pspi0000402\" style=\"color: #6B8AD6;\">Peggy Liu（2022年）</a>：</em>私たちは自分からの連絡が相手にどれほど喜ばれるかをいつも過小評価しています。とくに「なんとなく」送ったときに。",
-      "ko": "<em><a href=\"https://doi.org/10.1037/pspi0000402\" style=\"color: #6B8AD6;\">Peggy Liu(2022)</a>:</em> 우리는 우리의 연락을 상대가 얼마나 반가워하는지 늘 과소평가합니다. 특히 “그냥” 보낸 연락일수록 그렇습니다."
+      "ko": "<em><a href=\"https://doi.org/10.1037/pspi0000402\" style=\"color: #6B8AD6;\">Peggy Liu(2022)</a>:</em> 우리는 우리의 연락을 상대가 얼마나 반가워하는지 늘 과소평가합니다. 특히 “그냥” 보낸 연락일수록 그렇습니다.",
+      "zh-Hans": "<em><a href=\"https://doi.org/10.1037/pspi0000402\" style=\"color: #6B8AD6;\">Peggy Liu（2022）</a>：</em>我们总是低估别人收到我们消息时有多高兴，尤其是“没什么特别原因”发出的那种。",
+      "zh-Hant": "<em><a href=\"https://doi.org/10.1037/pspi0000402\" style=\"color: #6B8AD6;\">Peggy Liu（2022）</a>：</em>我們總是低估別人收到我們訊息時有多高興，尤其是「沒什麼特別原因」傳出的那種。"
     },
     "dunbar_s_social_layers_humans_organize_relat_2bcf8b": {
       "en": "<strong><a href=\"https://doi.org/10.1016/0047-2484(92)90081-J\" style=\"color: #2D2D2D; text-decoration: underline;\">Dunbar's social layers</a>:</strong> Humans organize relationships in concentric frequency tiers. Dear mirrors this structure, letting users set per-person contact frequency.",
@@ -1365,7 +1479,9 @@
       "ru": "<strong><a href=\"https://doi.org/10.1016/0047-2484(92)90081-J\" style=\"color: #2D2D2D; text-decoration: underline;\">Социальные слои Данбара</a>:</strong> Люди выстраивают отношения концентрическими слоями по частоте общения. Dear отражает эту структуру и позволяет задать частоту для каждого.",
       "uk": "<strong><a href=\"https://doi.org/10.1016/0047-2484(92)90081-J\" style=\"color: #2D2D2D; text-decoration: underline;\">Соціальні шари Данбара</a>:</strong> Люди вибудовують стосунки концентричними шарами за частотою спілкування. Dear відображає цю структуру й дає задати частоту для кожного.",
       "ja": "<strong><a href=\"https://doi.org/10.1016/0047-2484(92)90081-J\" style=\"color: #2D2D2D; text-decoration: underline;\">ダンバーの社会的な層</a>：</strong>人は連絡の頻度に応じて、同心円状の層に人間関係を並べます。Dearはその構造を映し、相手ごとに頻度を設定できるようにします。",
-      "ko": "<strong><a href=\"https://doi.org/10.1016/0047-2484(92)90081-J\" style=\"color: #2D2D2D; text-decoration: underline;\">던바의 사회적 층</a>:</strong> 사람은 연락 빈도에 따라 관계를 동심원 형태의 층으로 정리합니다. Dear는 그 구조를 반영해 사람마다 주기를 정할 수 있게 합니다."
+      "ko": "<strong><a href=\"https://doi.org/10.1016/0047-2484(92)90081-J\" style=\"color: #2D2D2D; text-decoration: underline;\">던바의 사회적 층</a>:</strong> 사람은 연락 빈도에 따라 관계를 동심원 형태의 층으로 정리합니다. Dear는 그 구조를 반영해 사람마다 주기를 정할 수 있게 합니다.",
+      "zh-Hans": "<strong><a href=\"https://doi.org/10.1016/0047-2484(92)90081-J\" style=\"color: #2D2D2D; text-decoration: underline;\">邓巴的社交层次</a>：</strong>人按联系频率把关系排成同心的层次。Dear 映照这个结构，让你为每个人设定频率。",
+      "zh-Hant": "<strong><a href=\"https://doi.org/10.1016/0047-2484(92)90081-J\" style=\"color: #2D2D2D; text-decoration: underline;\">鄧巴的社交層次</a>：</strong>人依聯絡頻率把關係排成同心的層次。Dear 映照這個結構，讓你為每個人設定頻率。"
     },
     "full_citations_available_on_request_at_press_2904bd": {
       "en": "Full citations available on request at press@dearnudges.com",
@@ -1388,7 +1504,9 @@
       "ru": "Полный список источников по запросу на press@dearnudges.com",
       "uk": "Повний перелік джерел на запит: press@dearnudges.com",
       "ja": "出典の全リストはpress@dearnudges.comまでご請求ください",
-      "ko": "전체 출처는 press@dearnudges.com으로 요청하시면 드립니다"
+      "ko": "전체 출처는 press@dearnudges.com으로 요청하시면 드립니다",
+      "zh-Hans": "完整出处可向 press@dearnudges.com 索取",
+      "zh-Hant": "完整出處可向 press@dearnudges.com 索取"
     },
     "downloads_a862c2": {
       "en": "Downloads",
@@ -1411,7 +1529,9 @@
       "ru": "Загрузки",
       "uk": "Завантаження",
       "ja": "ダウンロード",
-      "ko": "다운로드"
+      "ko": "다운로드",
+      "zh-Hans": "下载",
+      "zh-Hant": "下載"
     },
     "app_icon_f54c83": {
       "en": "App Icon",
@@ -1434,7 +1554,9 @@
       "ru": "Иконка приложения",
       "uk": "Іконка застосунку",
       "ja": "アプリアイコン",
-      "ko": "앱 아이콘"
+      "ko": "앱 아이콘",
+      "zh-Hans": "应用图标",
+      "zh-Hant": "App 圖示"
     },
     "full_press_kit_zip_fdcecb": {
       "en": "Full Press Kit (ZIP)",
@@ -1457,7 +1579,9 @@
       "ru": "Полный пресс-кит (ZIP)",
       "uk": "Повний прескіт (ZIP)",
       "ja": "プレスキット一式（ZIP）",
-      "ko": "프레스 킷 전체(ZIP)"
+      "ko": "프레스 킷 전체(ZIP)",
+      "zh-Hans": "完整媒体资料包（ZIP）",
+      "zh-Hant": "完整媒體資料包（ZIP）"
     },
     "icon_28_screenshots_en_fr_es_13mb_d4006f": {
       "en": "Icon, fact sheet, 21 screenshots (EN/FR/ES), 7MB",
@@ -1480,7 +1604,9 @@
       "ru": "Иконка, справка, 21 скриншот (EN/FR/ES), 7&nbsp;МБ",
       "uk": "Іконка, довідка, 21 знімок екрана (EN/FR/ES), 7&nbsp;МБ",
       "ja": "アイコン、ファクトシート、スクリーンショット21点（EN/FR/ES）、7&nbsp;MB",
-      "ko": "아이콘, 자료표, 스크린샷 21장(EN/FR/ES), 7&nbsp;MB"
+      "ko": "아이콘, 자료표, 스크린샷 21장(EN/FR/ES), 7&nbsp;MB",
+      "zh-Hans": "图标、资料表、21 张截图（EN/FR/ES），7&nbsp;MB",
+      "zh-Hant": "圖示、資料表、21 張螢幕截圖（EN/FR/ES），7&nbsp;MB"
     },
     "brand_color_3337c1": {
       "en": "Brand Color",
@@ -1503,7 +1629,9 @@
       "ru": "Фирменный цвет",
       "uk": "Фірмовий колір",
       "ja": "ブランドカラー",
-      "ko": "브랜드 색상"
+      "ko": "브랜드 색상",
+      "zh-Hans": "品牌色",
+      "zh-Hant": "品牌色"
     },
     "contact_b37456": {
       "en": "Contact",
@@ -1526,7 +1654,9 @@
       "ru": "Связаться",
       "uk": "Зв'язатися",
       "ja": "お問い合わせ",
-      "ko": "문의하기"
+      "ko": "문의하기",
+      "zh-Hans": "联系我们",
+      "zh-Hant": "聯絡我們"
     },
     "the_dear_team_is_available_for_interviews_pr_2d2f42": {
       "en": "The Dear team is available for interviews. Promo codes available for editorial review.",
@@ -1549,7 +1679,9 @@
       "ru": "Команда Dear открыта для интервью. Для обзоров есть промокоды.",
       "uk": "Команда Dear відкрита до інтерв'ю. Для оглядів є промокоди.",
       "ja": "Dearチームは取材に対応しています。レビュー用のプロモコードもご用意しています。",
-      "ko": "Dear 팀은 인터뷰에 응할 수 있습니다. 리뷰용 프로모 코드도 제공합니다."
+      "ko": "Dear 팀은 인터뷰에 응할 수 있습니다. 리뷰용 프로모 코드도 제공합니다.",
+      "zh-Hans": "Dear 团队可接受采访。可提供评测用的兑换码。",
+      "zh-Hant": "Dear 團隊可接受採訪。可提供評測用的兌換碼。"
     },
     "larr_back_to_dear_9f5dc0": {
       "en": "&larr; Back to Dear",
@@ -1572,7 +1704,9 @@
       "ru": "&larr; Назад к Dear",
       "uk": "&larr; Назад до Dear",
       "ja": "&larr; Dearに戻る",
-      "ko": "&larr; Dear로 돌아가기"
+      "ko": "&larr; Dear로 돌아가기",
+      "zh-Hans": "&larr; 返回 Dear",
+      "zh-Hant": "&larr; 返回 Dear"
     },
     "privacy_policy_9db108": {
       "en": "Privacy Policy",
@@ -1585,7 +1719,9 @@
       "ru": "Политика конфиденциальности",
       "uk": "Політика конфіденційності",
       "ja": "プライバシーポリシー",
-      "ko": "개인정보 처리방침"
+      "ko": "개인정보 처리방침",
+      "zh-Hans": "隐私政策",
+      "zh-Hant": "隱私權政策"
     },
     "last_updated_july_2026_56b301": {
       "en": "Last updated July 2026",
@@ -1598,7 +1734,9 @@
       "ru": "Последнее обновление: июль 2026",
       "uk": "Останнє оновлення: липень 2026",
       "ja": "最終更新：2026年7月",
-      "ko": "최종 업데이트: 2026년 7월"
+      "ko": "최종 업데이트: 2026년 7월",
+      "zh-Hans": "最后更新：2026 年 7 月",
+      "zh-Hant": "最後更新：2026 年 7 月"
     },
     "your_friends_and_contact_data_never_leave_yo_7a226f": {
       "en": "Your friends and contact data never leave your device. We have no accounts and no advertising. We do collect a small set of anonymous usage counts through TelemetryDeck, a privacy-focused analytics service in Germany, anonymous purchase records through RevenueCat, and anonymous crash reports through Sentry, to understand how the app is being used, to restore your purchases, and to fix what breaks. We cannot identify you from these, and your friends' names and contact details are never included.<br><br>\n            That's it. That's the privacy policy.",
@@ -1611,7 +1749,9 @@
       "ru": "Ваши друзья и данные контактов никогда не покидают устройство. У нас нет аккаунтов и нет рекламы. Мы собираем небольшой набор анонимных счётчиков использования через TelemetryDeck, сервис аналитики с упором на приватность из Германии, анонимные записи о покупках через RevenueCat и анонимные отчёты о сбоях через Sentry, чтобы понимать, как используется приложение, восстанавливать ваши покупки и чинить поломки. Опознать вас по ним мы не можем, а имена и контакты ваших друзей туда никогда не попадают.<br><br>\n            Вот и всё. Это и есть политика конфиденциальности.",
       "uk": "Ваші друзі та дані контактів ніколи не залишають пристрій. У нас немає облікових записів і немає реклами. Ми збираємо невеликий набір анонімних лічильників використання через TelemetryDeck, сервіс аналітики з наголосом на приватності з Німеччини, анонімні записи про покупки через RevenueCat та анонімні звіти про збої через Sentry, щоб розуміти, як використовується застосунок, відновлювати ваші покупки й лагодити поламане. Упізнати вас за ними ми не можемо, а імена та контакти ваших друзів туди ніколи не потрапляють.<br><br>\n            Ось і все. Це і є політика конфіденційності.",
       "ja": "あなたの友人と連絡先のデータが端末から出ることは決してありません。アカウントも広告もありません。アプリがどう使われているかを知り、購入を復元し、不具合を直すために、ドイツにあるプライバシー重視の分析サービスTelemetryDeckを通じて匿名の利用回数を、RevenueCatを通じて匿名の購入記録を、Sentryを通じて匿名のクラッシュ報告を集めています。これらからあなたを特定することはできませんし、ご友人の名前や連絡先が含まれることはありません。<br><br>\n            以上です。これがプライバシーポリシーのすべてです。",
-      "ko": "당신의 친구와 연락처 데이터는 기기를 벗어나지 않습니다. 계정도 광고도 없습니다. 앱이 어떻게 쓰이는지 파악하고, 구매를 복원하고, 고장난 것을 고치기 위해 독일에 있는 개인정보 중심 분석 서비스 TelemetryDeck을 통해 익명 사용 횟수를, RevenueCat을 통해 익명 구매 기록을, Sentry를 통해 익명 오류 보고를 수집합니다. 이것으로 당신을 특정할 수 없으며, 친구의 이름이나 연락처는 결코 포함되지 않습니다.<br><br>\n            그게 전부입니다. 이것이 개인정보 처리방침입니다."
+      "ko": "당신의 친구와 연락처 데이터는 기기를 벗어나지 않습니다. 계정도 광고도 없습니다. 앱이 어떻게 쓰이는지 파악하고, 구매를 복원하고, 고장난 것을 고치기 위해 독일에 있는 개인정보 중심 분석 서비스 TelemetryDeck을 통해 익명 사용 횟수를, RevenueCat을 통해 익명 구매 기록을, Sentry를 통해 익명 오류 보고를 수집합니다. 이것으로 당신을 특정할 수 없으며, 친구의 이름이나 연락처는 결코 포함되지 않습니다.<br><br>\n            그게 전부입니다. 이것이 개인정보 처리방침입니다.",
+      "zh-Hans": "你的朋友和通讯录数据永远不会离开你的设备。我们没有账号，也没有广告。为了了解应用如何被使用、恢复你的购买以及修复故障，我们确实会通过位于德国、注重隐私的分析服务 TelemetryDeck 收集少量匿名使用次数，通过 RevenueCat 收集匿名购买记录，通过 Sentry 收集匿名崩溃报告。我们无法据此识别你，你朋友的姓名和联系方式也绝不会包含在内。<br><br>\n            就这些。这就是隐私政策。",
+      "zh-Hant": "你的朋友和聯絡資訊永遠不會離開你的裝置。我們沒有帳號，也沒有廣告。為了了解 App 如何被使用、回復你的購買項目以及修復問題，我們確實會透過位於德國、注重隱私的分析服務 TelemetryDeck 蒐集少量匿名使用次數，透過 RevenueCat 蒐集匿名購買紀錄，透過 Sentry 蒐集匿名當機報告。我們無法藉此辨識你，你朋友的姓名和聯絡方式也絕不會包含在內。<br><br>\n            就這些。這就是隱私權政策。"
     },
     "if_you_want_the_longer_version_for_legal_pur_6609b9": {
       "en": "If you want the longer version for legal purposes, keep reading.",
@@ -1624,7 +1764,9 @@
       "ru": "Если вам нужна расширенная версия для юридических целей, читайте дальше.",
       "uk": "Якщо вам потрібна розширена версія для юридичних цілей, читайте далі.",
       "ja": "法的な目的で詳しい内容が必要な方は、このままお読みください。",
-      "ko": "법적 목적으로 더 자세한 내용이 필요하시면 계속 읽어주세요."
+      "ko": "법적 목적으로 더 자세한 내용이 필요하시면 계속 읽어주세요.",
+      "zh-Hans": "如果你出于法律目的需要更详细的版本，请继续阅读。",
+      "zh-Hant": "如果你基於法律目的需要更詳細的版本，請繼續閱讀。"
     },
     "what_data_dear_accesses_2f05d0": {
       "en": "What data Dear accesses",
@@ -1637,7 +1779,9 @@
       "ru": "К каким данным обращается Dear",
       "uk": "До яких даних звертається Dear",
       "ja": "Dearがアクセスするデータ",
-      "ko": "Dear가 접근하는 데이터"
+      "ko": "Dear가 접근하는 데이터",
+      "zh-Hans": "Dear 会访问哪些数据",
+      "zh-Hant": "Dear 會存取哪些資料"
     },
     "contact_names_and_photos_during_onboarding_d_8da663": {
       "en": "<strong>Contact names and photos.</strong> During onboarding, Dear asks for permission to access your Contacts. This is used solely to let you select people to add to your nudge list. Contact data is read once during selection and stored locally on your device. Dear never transmits contact data off your device, and you can use the app without granting Contacts access by typing names manually.",
@@ -1650,7 +1794,9 @@
       "ru": "<strong>Имена и фотографии контактов.</strong> При первом запуске Dear запрашивает доступ к контактам. Он нужен только для того, чтобы вы могли выбрать людей для списка напоминаний. Данные контактов считываются один раз во время выбора и сохраняются локально на устройстве. Dear никогда не передаёт данные контактов за пределы устройства, и приложением можно пользоваться без доступа к контактам, вводя имена вручную.",
       "uk": "<strong>Імена та фотографії контактів.</strong> Під час першого запуску Dear запитує доступ до контактів. Він потрібен лише для того, щоб ви могли обрати людей для списку нагадувань. Дані контактів зчитуються один раз під час вибору й зберігаються локально на пристрої. Dear ніколи не передає дані контактів за межі пристрою, і застосунком можна користуватися без доступу до контактів, вводячи імена вручну.",
       "ja": "<strong>連絡先の名前と写真。</strong>最初の起動時に、Dearは連絡先へのアクセス許可を求めます。これはリマインダーの一覧に加える人を選んでいただくためだけに使われます。連絡先のデータは選択のときに一度だけ読み込まれ、端末の中に保存されます。Dearが連絡先のデータを端末の外へ送ることは決してありません。連絡先へのアクセスを許可せず、名前を手で入力して使うこともできます。",
-      "ko": "<strong>연락처 이름과 사진.</strong> 처음 실행할 때 Dear는 연락처 접근 권한을 요청합니다. 이는 알림 목록에 추가할 사람을 고르게 하기 위해서만 사용됩니다. 연락처 데이터는 고르는 동안 한 번만 읽히고 기기 안에 저장됩니다. Dear는 연락처 데이터를 기기 밖으로 보내지 않으며, 권한을 주지 않고 이름을 직접 입력해서 사용할 수도 있습니다."
+      "ko": "<strong>연락처 이름과 사진.</strong> 처음 실행할 때 Dear는 연락처 접근 권한을 요청합니다. 이는 알림 목록에 추가할 사람을 고르게 하기 위해서만 사용됩니다. 연락처 데이터는 고르는 동안 한 번만 읽히고 기기 안에 저장됩니다. Dear는 연락처 데이터를 기기 밖으로 보내지 않으며, 권한을 주지 않고 이름을 직접 입력해서 사용할 수도 있습니다.",
+      "zh-Hans": "<strong>联系人姓名和照片。</strong>首次使用时，Dear 会请求访问通讯录的权限。这仅用于让你挑选要加入提醒列表的人。通讯录数据在挑选时只读取一次，并保存在你的设备中。Dear 绝不会把通讯录数据传出设备，你也可以不授予权限，手动输入姓名来使用应用。",
+      "zh-Hant": "<strong>聯絡人姓名和照片。</strong>首次使用時，Dear 會請求存取聯絡資訊的權限。這僅用於讓你挑選要加入提醒清單的人。聯絡資訊在挑選時只讀取一次，並儲存在你的裝置中。Dear 絕不會把聯絡資訊傳出裝置，你也可以不授權，手動輸入姓名來使用 App。"
     },
     "notification_permissions_dear_requests_permi_76b691": {
       "en": "<strong>Notification permissions.</strong> Dear requests permission to send local notifications so it can remind you to reach out to someone. These notifications are scheduled and delivered entirely on your device; their content is never sent anywhere.",
@@ -1663,7 +1809,9 @@
       "ru": "<strong>Разрешение на уведомления.</strong> Dear запрашивает разрешение отправлять локальные уведомления, чтобы напоминать вам написать кому-то. Эти уведомления планируются и доставляются полностью на вашем устройстве; их содержимое никуда не отправляется.",
       "uk": "<strong>Дозвіл на сповіщення.</strong> Dear запитує дозвіл надсилати локальні сповіщення, щоб нагадувати вам написати комусь. Ці сповіщення плануються й доставляються повністю на вашому пристрої; їхній вміст нікуди не надсилається.",
       "ja": "<strong>通知の許可。</strong>誰かに連絡することをお知らせできるよう、Dearはローカル通知を送る許可を求めます。これらの通知は端末の中だけで予約され、届けられます。その内容がどこかへ送られることはありません。",
-      "ko": "<strong>알림 권한.</strong> Dear는 누군가에게 연락하라고 알려주기 위해 로컬 알림을 보낼 권한을 요청합니다. 이 알림은 전부 기기 안에서 예약되고 전달되며, 그 내용은 어디로도 전송되지 않습니다."
+      "ko": "<strong>알림 권한.</strong> Dear는 누군가에게 연락하라고 알려주기 위해 로컬 알림을 보낼 권한을 요청합니다. 이 알림은 전부 기기 안에서 예약되고 전달되며, 그 내용은 어디로도 전송되지 않습니다.",
+      "zh-Hans": "<strong>通知权限。</strong>Dear 会请求发送本地通知的权限，以便提醒你联系某个人。这些通知完全在你的设备上安排和送达，内容绝不会发送到任何地方。",
+      "zh-Hant": "<strong>通知權限。</strong>Dear 會請求傳送本地通知的權限，以便提醒你聯絡某個人。這些通知完全在你的裝置上排程與送達，內容絕不會傳送到任何地方。"
     },
     "what_data_dear_stores_8c54cc": {
       "en": "What data Dear stores",
@@ -1676,7 +1824,9 @@
       "ru": "Какие данные хранит Dear",
       "uk": "Які дані зберігає Dear",
       "ja": "Dearが保存するデータ",
-      "ko": "Dear가 저장하는 데이터"
+      "ko": "Dear가 저장하는 데이터",
+      "zh-Hans": "Dear 会保存哪些数据",
+      "zh-Hant": "Dear 會儲存哪些資料"
     },
     "all_data_is_stored_locally_on_your_device_in_1bebdc": {
       "en": "All data is stored locally on your device (including a small shared store so the widget can display your nudges). This includes:",
@@ -1689,7 +1839,9 @@
       "ru": "Все данные хранятся локально на устройстве (включая небольшое общее хранилище, чтобы виджет мог показывать ваши напоминания). Сюда входят:",
       "uk": "Усі дані зберігаються локально на пристрої (включно з невеликим спільним сховищем, щоб віджет міг показувати ваші нагадування). Сюди входять:",
       "ja": "すべてのデータは端末の中に保存されます（ウィジェットがリマインダーを表示できるようにする小さな共有領域も含みます）。内容は次のとおりです：",
-      "ko": "모든 데이터는 기기 안에 저장됩니다(위젯이 알림을 표시할 수 있게 하는 작은 공유 저장소 포함). 여기에는 다음이 포함됩니다:"
+      "ko": "모든 데이터는 기기 안에 저장됩니다(위젯이 알림을 표시할 수 있게 하는 작은 공유 저장소 포함). 여기에는 다음이 포함됩니다:",
+      "zh-Hans": "所有数据都保存在你的设备本地（包括一个小的共享存储，让小组件能显示你的提醒）。其中包括：",
+      "zh-Hant": "所有資料都儲存在你的裝置本機（包括一個小型共用儲存空間，讓小工具能顯示你的提醒）。其中包括："
     },
     "this_data_never_leaves_your_device_there_is_9b93ae": {
       "en": "This data never leaves your device. There is no cloud sync, no backup to our servers, and no way for us to access it.",
@@ -1702,7 +1854,9 @@
       "ru": "Эти данные никогда не покидают устройство. Нет синхронизации с облаком, нет резервных копий на наших серверах, и у нас нет способа получить к ним доступ.",
       "uk": "Ці дані ніколи не залишають пристрій. Немає синхронізації з хмарою, немає резервних копій на наших серверах, і в нас немає способу отримати до них доступ.",
       "ja": "このデータが端末から出ることは決してありません。クラウド同期も、当社サーバーへのバックアップもなく、当社がアクセスする手段もありません。",
-      "ko": "이 데이터는 기기를 벗어나지 않습니다. 클라우드 동기화도, 저희 서버로의 백업도 없으며, 저희가 접근할 방법도 없습니다."
+      "ko": "이 데이터는 기기를 벗어나지 않습니다. 클라우드 동기화도, 저희 서버로의 백업도 없으며, 저희가 접근할 방법도 없습니다.",
+      "zh-Hans": "这些数据永远不会离开你的设备。没有云同步，没有备份到我们的服务器，我们也没有任何办法访问。",
+      "zh-Hant": "這些資料永遠不會離開你的裝置。沒有雲端同步，沒有備份到我們的伺服器，我們也沒有任何辦法存取。"
     },
     "what_data_dear_collects_or_transmits_70a2d6": {
       "en": "What data Dear collects or transmits",
@@ -1715,7 +1869,9 @@
       "ru": "Какие данные Dear собирает или передаёт",
       "uk": "Які дані Dear збирає або передає",
       "ja": "Dearが集める、または送信するデータ",
-      "ko": "Dear가 수집하거나 전송하는 데이터"
+      "ko": "Dear가 수집하거나 전송하는 데이터",
+      "zh-Hans": "Dear 会收集或传输哪些数据",
+      "zh-Hant": "Dear 會蒐集或傳輸哪些資料"
     },
     "dear_has_no_accounts_and_no_advertising_we_d_f0722e": {
       "en": "Dear has no accounts and no advertising. We do not use tracking pixels or advertising frameworks. We do not know who you are, who your friends are, or what messages you send. We do collect anonymous usage counts through TelemetryDeck, anonymous purchase records through RevenueCat, and anonymous crash reports through Sentry (see sections below). Beyond that, we know only what Apple and Google provide in aggregate App Store and Google Play analytics, which contains no personally identifiable information and is controlled by your device settings.",
@@ -1728,7 +1884,9 @@
       "ru": "У Dear нет аккаунтов и нет рекламы. Мы не используем трекинговые пиксели и рекламные фреймворки. Мы не знаем, кто вы, кто ваши друзья и какие сообщения вы отправляете. Мы собираем анонимные счётчики использования через TelemetryDeck, анонимные записи о покупках через RevenueCat и анонимные отчёты о сбоях через Sentry (см. разделы ниже). Кроме этого нам известно лишь то, что Apple и Google дают в сводной аналитике App Store и Google Play; она не содержит персональных данных и управляется настройками вашего устройства.",
       "uk": "У Dear немає облікових записів і немає реклами. Ми не використовуємо трекінгові пікселі та рекламні фреймворки. Ми не знаємо, хто ви, хто ваші друзі та які повідомлення ви надсилаєте. Ми збираємо анонімні лічильники використання через TelemetryDeck, анонімні записи про покупки через RevenueCat та анонімні звіти про збої через Sentry (див. розділи нижче). Крім цього нам відомо лише те, що Apple і Google дають у зведеній аналітиці App Store та Google Play; вона не містить персональних даних і керується налаштуваннями вашого пристрою.",
       "ja": "Dearにはアカウントも広告もありません。トラッキングピクセルや広告フレームワークは使っていません。あなたが誰か、ご友人が誰か、どんなメッセージを送ったかを当社は知りません。TelemetryDeckを通じて匿名の利用回数を、RevenueCatを通じて匿名の購入記録を、Sentryを通じて匿名のクラッシュ報告を集めています（以下の各節をご覧ください）。それ以外に当社が知るのは、AppleとGoogleがApp StoreとGoogle Playの集計分析として提供する情報だけで、個人を特定できる情報は含まれず、端末の設定で制御されます。",
-      "ko": "Dear에는 계정도 광고도 없습니다. 추적 픽셀이나 광고 프레임워크를 쓰지 않습니다. 저희는 당신이 누구인지, 친구가 누구인지, 어떤 메시지를 보내는지 알지 못합니다. TelemetryDeck을 통해 익명 사용 횟수를, RevenueCat을 통해 익명 구매 기록을, Sentry를 통해 익명 오류 보고를 수집합니다(아래 항목 참고). 그 밖에 저희가 아는 것은 Apple과 Google이 App Store 및 Google Play 집계 분석으로 제공하는 정보뿐이며, 여기에는 개인을 식별할 수 있는 정보가 없고 기기 설정으로 제어됩니다."
+      "ko": "Dear에는 계정도 광고도 없습니다. 추적 픽셀이나 광고 프레임워크를 쓰지 않습니다. 저희는 당신이 누구인지, 친구가 누구인지, 어떤 메시지를 보내는지 알지 못합니다. TelemetryDeck을 통해 익명 사용 횟수를, RevenueCat을 통해 익명 구매 기록을, Sentry를 통해 익명 오류 보고를 수집합니다(아래 항목 참고). 그 밖에 저희가 아는 것은 Apple과 Google이 App Store 및 Google Play 집계 분석으로 제공하는 정보뿐이며, 여기에는 개인을 식별할 수 있는 정보가 없고 기기 설정으로 제어됩니다.",
+      "zh-Hans": "Dear 没有账号，也没有广告。我们不使用跟踪像素或广告框架。我们不知道你是谁、你的朋友是谁，也不知道你发了什么消息。我们确实会通过 TelemetryDeck 收集匿名使用次数，通过 RevenueCat 收集匿名购买记录，通过 Sentry 收集匿名崩溃报告（见下文各节）。除此之外，我们只知道 Apple 和 Google 在 App Store 与 Google Play 汇总分析中提供的信息，其中不含可识别个人的内容，并由你的设备设置控制。",
+      "zh-Hant": "Dear 沒有帳號，也沒有廣告。我們不使用追蹤像素或廣告框架。我們不知道你是誰、你的朋友是誰，也不知道你傳了什麼訊息。我們確實會透過 TelemetryDeck 蒐集匿名使用次數，透過 RevenueCat 蒐集匿名購買紀錄，透過 Sentry 蒐集匿名當機報告（見下列各節）。除此之外，我們只知道 Apple 和 Google 在 App Store 與 Google Play 彙總分析中提供的資訊，其中不含可辨識個人的內容，並由你的裝置設定控制。"
     },
     "anonymous_analytics_d26430": {
       "en": "Anonymous Analytics",
@@ -1741,7 +1899,9 @@
       "ru": "Анонимная аналитика",
       "uk": "Анонімна аналітика",
       "ja": "匿名の分析",
-      "ko": "익명 분석"
+      "ko": "익명 분석",
+      "zh-Hans": "匿名分析",
+      "zh-Hant": "匿名分析"
     },
     "to_understand_how_dear_is_being_used_so_we_c_764b27": {
       "en": "To understand how Dear is being used so we can improve it, we collect a small set of anonymous events through TelemetryDeck, a privacy-focused analytics service hosted in Germany and compliant with GDPR. We track only counts of feature use, never who used them.",
@@ -1754,7 +1914,9 @@
       "ru": "Чтобы понимать, как используется Dear, и улучшать его, мы собираем небольшой набор анонимных событий через TelemetryDeck, сервис аналитики с упором на приватность, размещённый в Германии и соответствующий GDPR. Мы фиксируем только счётчики использования функций, но никогда не то, кто ими пользовался.",
       "uk": "Щоб розуміти, як використовується Dear, і покращувати його, ми збираємо невеликий набір анонімних подій через TelemetryDeck, сервіс аналітики з наголосом на приватності, розміщений у Німеччині та сумісний із GDPR. Ми фіксуємо лише лічильники використання функцій, але ніколи не те, хто ними користувався.",
       "ja": "Dearがどう使われているかを知り、改善するために、ドイツにありGDPRに準拠したプライバシー重視の分析サービスTelemetryDeckを通じて、少数の匿名イベントを集めています。記録するのは機能の利用回数だけで、誰が使ったかは決して記録しません。",
-      "ko": "Dear가 어떻게 쓰이는지 파악해 개선하기 위해, 독일에 있고 GDPR을 준수하는 개인정보 중심 분석 서비스 TelemetryDeck을 통해 소수의 익명 이벤트를 수집합니다. 기능 사용 횟수만 기록하며, 누가 썼는지는 결코 기록하지 않습니다."
+      "ko": "Dear가 어떻게 쓰이는지 파악해 개선하기 위해, 독일에 있고 GDPR을 준수하는 개인정보 중심 분석 서비스 TelemetryDeck을 통해 소수의 익명 이벤트를 수집합니다. 기능 사용 횟수만 기록하며, 누가 썼는지는 결코 기록하지 않습니다.",
+      "zh-Hans": "为了解 Dear 的使用情况并加以改进，我们通过 TelemetryDeck 收集少量匿名事件。该服务注重隐私，托管在德国并符合 GDPR。我们只记录功能的使用次数，绝不记录是谁使用的。",
+      "zh-Hant": "為了解 Dear 的使用情形並加以改進，我們透過 TelemetryDeck 蒐集少量匿名事件。該服務注重隱私，代管於德國並符合 GDPR。我們只記錄功能的使用次數，絕不記錄是誰使用的。"
     },
     "what_we_track_fc83f6": {
       "en": "What we track:",
@@ -1767,7 +1929,9 @@
       "ru": "Что мы фиксируем:",
       "uk": "Що ми фіксуємо:",
       "ja": "記録するもの：",
-      "ko": "기록하는 것:"
+      "ko": "기록하는 것:",
+      "zh-Hans": "我们记录的内容：",
+      "zh-Hant": "我們記錄的內容："
     },
     "what_we_never_track_your_name_your_friends_n_9b1253": {
       "en": "<strong>What we never track:</strong> your name, your friends' names or contact information, what messages you send, the time of day you opened the app, your location, your IP address, or any device identifier that could be linked back to you.",
@@ -1780,7 +1944,9 @@
       "ru": "<strong>Чего мы не фиксируем никогда:</strong> ваше имя, имена и контакты ваших друзей, отправляемые вами сообщения, время суток, когда вы открыли приложение, ваше местоположение, ваш IP-адрес или любой идентификатор устройства, который можно связать с вами.",
       "uk": "<strong>Чого ми не фіксуємо ніколи:</strong> ваше ім'я, імена та контакти ваших друзів, надіслані вами повідомлення, час доби, коли ви відкрили застосунок, ваше місцеперебування, вашу IP-адресу або будь-який ідентифікатор пристрою, який можна пов'язати з вами.",
       "ja": "<strong>決して記録しないもの：</strong>あなたの名前、ご友人の名前や連絡先、送ったメッセージ、アプリを開いた時刻、位置情報、IPアドレス、そしてあなたにたどり着ける端末識別子。",
-      "ko": "<strong>결코 기록하지 않는 것:</strong> 당신의 이름, 친구의 이름이나 연락처, 보낸 메시지, 앱을 연 시각, 위치, IP 주소, 그리고 당신과 연결될 수 있는 모든 기기 식별자."
+      "ko": "<strong>결코 기록하지 않는 것:</strong> 당신의 이름, 친구의 이름이나 연락처, 보낸 메시지, 앱을 연 시각, 위치, IP 주소, 그리고 당신과 연결될 수 있는 모든 기기 식별자.",
+      "zh-Hans": "<strong>我们绝不记录的内容：</strong>你的姓名、你朋友的姓名或联系方式、你发送的消息、你打开应用的时间、你的位置、你的 IP 地址，以及任何能追溯到你的设备标识符。",
+      "zh-Hant": "<strong>我們絕不記錄的內容：</strong>你的姓名、你朋友的姓名或聯絡方式、你傳送的訊息、你打開 App 的時間、你的位置、你的 IP 位址，以及任何能追溯到你的裝置識別碼。"
     },
     "these_events_are_pseudonymous_and_aggregated_a6807b": {
       "en": "These events are pseudonymous and aggregated. We cannot identify you from them. Because no personal data is processed, we do not require a consent prompt under GDPR. If you would prefer to opt out anyway, please email us at support@dearnudges.com and we will note your request for the next release.",
@@ -1793,7 +1959,9 @@
       "ru": "Эти события псевдонимны и агрегированы. Опознать вас по ним мы не можем. Поскольку персональные данные не обрабатываются, запрос согласия по GDPR нам не требуется. Если вы всё же хотите отказаться, напишите на support@dearnudges.com, и мы учтём вашу просьбу в следующем выпуске.",
       "uk": "Ці події псевдонімні та агреговані. Упізнати вас за ними ми не можемо. Оскільки персональні дані не обробляються, запит згоди за GDPR нам не потрібен. Якщо ви все ж хочете відмовитися, напишіть на support@dearnudges.com, і ми врахуємо ваше прохання в наступному випуску.",
       "ja": "これらのイベントは仮名化され、集計されています。そこからあなたを特定することはできません。個人データを扱っていないため、GDPRに基づく同意の確認は必要ありません。それでも記録を望まない場合は、support@dearnudges.comまでご連絡ください。次のリリースに向けてご要望を記録します。",
-      "ko": "이 이벤트는 가명 처리되고 집계됩니다. 이것으로 당신을 특정할 수 없습니다. 개인 데이터를 처리하지 않으므로 GDPR에 따른 동의 요청이 필요하지 않습니다. 그래도 원치 않으신다면 support@dearnudges.com으로 알려주시면 다음 릴리스에 반영하겠습니다."
+      "ko": "이 이벤트는 가명 처리되고 집계됩니다. 이것으로 당신을 특정할 수 없습니다. 개인 데이터를 처리하지 않으므로 GDPR에 따른 동의 요청이 필요하지 않습니다. 그래도 원치 않으신다면 support@dearnudges.com으로 알려주시면 다음 릴리스에 반영하겠습니다.",
+      "zh-Hans": "这些事件经过假名化并汇总处理。我们无法据此识别你。由于不处理个人数据，我们无需依据 GDPR 弹出同意提示。如果你仍希望退出，请发邮件至 support@dearnudges.com，我们会在下个版本中记录你的请求。",
+      "zh-Hant": "這些事件經過假名化並彙總處理。我們無法藉此辨識你。由於不處理個人資料，我們無需依 GDPR 跳出同意提示。如果你仍希望退出，請寄信至 support@dearnudges.com，我們會在下個版本中記錄你的要求。"
     },
     "delete_your_data_40ab22": {
       "en": "Delete your data",
@@ -1806,7 +1974,9 @@
       "ru": "Удалить свои данные",
       "uk": "Видалити свої дані",
       "ja": "データを削除する",
-      "ko": "데이터 삭제하기"
+      "ko": "데이터 삭제하기",
+      "zh-Hans": "删除你的数据",
+      "zh-Hant": "刪除你的資料"
     },
     "dear_has_no_accounts_and_no_server_holds_you_ccc0f0": {
       "en": "Dear has no accounts, and no server holds your personal information. Your friends, your nudges, and your messages live only on your device. To delete everything Dear knows about you:",
@@ -1819,7 +1989,9 @@
       "ru": "У Dear нет аккаунтов, и ни один сервер не хранит ваши персональные данные. Ваши друзья, напоминания и сообщения живут только на вашем устройстве. Чтобы удалить всё, что Dear о вас знает:",
       "uk": "У Dear немає облікових записів, і жоден сервер не зберігає ваші персональні дані. Ваші друзі, нагадування та повідомлення живуть лише на вашому пристрої. Щоб видалити все, що Dear про вас знає:",
       "ja": "Dearにはアカウントがなく、あなたの個人情報を保持するサーバーもありません。ご友人も、リマインダーも、メッセージも、あなたの端末の中だけにあります。Dearが知っているすべてを消すには：",
-      "ko": "Dear에는 계정이 없고, 어떤 서버도 당신의 개인정보를 갖고 있지 않습니다. 친구도, 알림도, 메시지도 오직 당신의 기기에만 있습니다. Dear가 당신에 대해 아는 모든 것을 지우려면:"
+      "ko": "Dear에는 계정이 없고, 어떤 서버도 당신의 개인정보를 갖고 있지 않습니다. 친구도, 알림도, 메시지도 오직 당신의 기기에만 있습니다. Dear가 당신에 대해 아는 모든 것을 지우려면:",
+      "zh-Hans": "Dear 没有账号，也没有任何服务器保存你的个人信息。你的朋友、提醒和消息只存在于你的设备上。要删除 Dear 所知道的关于你的一切：",
+      "zh-Hant": "Dear 沒有帳號，也沒有任何伺服器保存你的個人資訊。你的朋友、提醒和訊息只存在於你的裝置上。要刪除 Dear 所知道關於你的一切："
     },
     "we_do_not_have_a_server_with_your_personal_i_7469ac": {
       "en": "We do not have a server with your personal information on it. We never collected it, so there is nothing to delete on our side. The only data that ever leaves your device is anonymous, aggregated analytics (see <a href=\"#anonymous-analytics\">Anonymous Analytics</a>) and anonymous purchase records, neither of which can be linked back to you: there is no per-user record to delete.",
@@ -1832,7 +2004,9 @@
       "ru": "У нас нет сервера с вашими персональными данными. Мы их никогда не собирали, поэтому удалять на нашей стороне нечего. Ваше устройство покидает только анонимная агрегированная аналитика (см. <a href=\"#anonymous-analytics\">Анонимная аналитика</a>) и анонимные записи о покупках; ни то, ни другое нельзя связать с вами: удалять попросту нечего.",
       "uk": "У нас немає сервера з вашими персональними даними. Ми їх ніколи не збирали, тож видаляти на нашому боці нічого. Ваш пристрій залишає лише анонімна агрегована аналітика (див. <a href=\"#anonymous-analytics\">Анонімна аналітика</a>) та анонімні записи про покупки; ні те, ні інше не можна пов'язати з вами: видаляти просто нічого.",
       "ja": "あなたの個人情報を置いたサーバーはありません。そもそも集めていないので、当社側に消すものはありません。端末から出るのは匿名で集計された分析（<a href=\"#anonymous-analytics\">匿名の分析</a>をご覧ください）と匿名の購入記録だけで、どちらもあなたに結びつけることはできません。利用者ごとの記録が存在しないため、削除すべきものがないのです。",
-      "ko": "당신의 개인정보가 담긴 서버는 없습니다. 애초에 수집하지 않았으니 저희 쪽에서 지울 것도 없습니다. 기기를 벗어나는 것은 익명으로 집계된 분석(<a href=\"#anonymous-analytics\">익명 분석</a> 참고)과 익명 구매 기록뿐이며, 둘 다 당신과 연결할 수 없습니다. 사용자별 기록이 존재하지 않으니 지울 것이 없습니다."
+      "ko": "당신의 개인정보가 담긴 서버는 없습니다. 애초에 수집하지 않았으니 저희 쪽에서 지울 것도 없습니다. 기기를 벗어나는 것은 익명으로 집계된 분석(<a href=\"#anonymous-analytics\">익명 분석</a> 참고)과 익명 구매 기록뿐이며, 둘 다 당신과 연결할 수 없습니다. 사용자별 기록이 존재하지 않으니 지울 것이 없습니다.",
+      "zh-Hans": "我们没有存放你个人信息的服务器。我们从未收集过，所以我们这边没有可删除的内容。离开你设备的只有匿名汇总的分析数据（见<a href=\"#anonymous-analytics\">匿名分析</a>）和匿名购买记录，两者都无法追溯到你：不存在按用户区分的记录可供删除。",
+      "zh-Hant": "我們沒有存放你個人資訊的伺服器。我們從未蒐集過，所以我們這邊沒有可刪除的內容。離開你裝置的只有匿名彙總的分析資料（見<a href=\"#anonymous-analytics\">匿名分析</a>）和匿名購買紀錄，兩者都無法追溯到你：不存在依使用者區分的紀錄可供刪除。"
     },
     "if_you_have_questions_or_need_help_with_any_3bd7d1": {
       "en": "If you have questions or need help with any of this, email <a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>.",
@@ -1845,7 +2019,9 @@
       "ru": "Если у вас есть вопросы или нужна помощь по любому из этих пунктов, напишите на <a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>.",
       "uk": "Якщо у вас є запитання або потрібна допомога з будь-яким із цих пунктів, напишіть на <a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>.",
       "ja": "ご質問や、この内容についてお困りのことがあれば、<a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>までご連絡ください。",
-      "ko": "이 내용에 대해 궁금한 점이나 도움이 필요하시면 <a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>으로 연락 주세요."
+      "ko": "이 내용에 대해 궁금한 점이나 도움이 필요하시면 <a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>으로 연락 주세요.",
+      "zh-Hans": "如果你对其中任何一项有疑问或需要帮助，请发邮件至 <a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>。",
+      "zh-Hant": "如果你對其中任何一項有疑問或需要協助，請寄信至 <a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>。"
     },
     "note_a_future_version_of_dear_will_offer_an_38fcb5": {
       "en": "Note: a future version of Dear will offer an optional toggle to share anonymized usage data with academic researchers studying loneliness and well-being. When that ships, opting out and deleting contributed research data will be available in the same Settings menu, and this page will be updated to reflect the new option.",
@@ -1858,7 +2034,9 @@
       "ru": "Примечание: в будущей версии Dear появится необязательный переключатель, позволяющий делиться обезличенными данными об использовании с академическими исследователями, изучающими одиночество и благополучие. Когда он выйдет, отказ и удаление переданных исследовательских данных будут в том же меню настроек, а эта страница будет обновлена.",
       "uk": "Примітка: у майбутній версії Dear з'явиться необов'язковий перемикач, що дозволить ділитися знеособленими даними про використання з академічними дослідниками, які вивчають самотність і добробут. Коли він вийде, відмова та видалення переданих дослідницьких даних будуть у тому самому меню налаштувань, а цю сторінку буде оновлено.",
       "ja": "補足：今後のDearでは、孤独とウェルビーイングを研究する学術研究者に匿名化した利用データを共有するかどうかを選べる項目を用意する予定です。提供が始まったら、参加をやめることと提供済みの研究データを削除することが同じ設定メニューからできるようになり、このページも更新します。",
-      "ko": "참고: 앞으로의 Dear 버전에서는 외로움과 웰빙을 연구하는 학술 연구자에게 익명화된 사용 데이터를 공유할지 선택할 수 있는 항목이 제공될 예정입니다. 제공이 시작되면, 참여를 그만두는 것과 이미 제공한 연구 데이터를 삭제하는 것을 같은 설정 메뉴에서 할 수 있고, 이 페이지도 업데이트됩니다."
+      "ko": "참고: 앞으로의 Dear 버전에서는 외로움과 웰빙을 연구하는 학술 연구자에게 익명화된 사용 데이터를 공유할지 선택할 수 있는 항목이 제공될 예정입니다. 제공이 시작되면, 참여를 그만두는 것과 이미 제공한 연구 데이터를 삭제하는 것을 같은 설정 메뉴에서 할 수 있고, 이 페이지도 업데이트됩니다.",
+      "zh-Hans": "说明：Dear 的未来版本将提供一个可选开关，把匿名化的使用数据分享给研究孤独与身心健康的学术研究者。上线后，退出以及删除已贡献的研究数据都可以在同一个设置菜单中完成，本页面也会随之更新。",
+      "zh-Hant": "說明：Dear 的未來版本將提供一個選用開關，把匿名化的使用資料分享給研究孤獨與身心健康的學術研究者。上線後，退出以及刪除已提供的研究資料都可以在同一個設定選單中完成，本頁面也會隨之更新。"
     },
     "in_app_purchases_a8c5a8": {
       "en": "In-app purchases",
@@ -1871,7 +2049,9 @@
       "ru": "Покупки в приложении",
       "uk": "Покупки в застосунку",
       "ja": "アプリ内課金",
-      "ko": "앱 내 구입"
+      "ko": "앱 내 구입",
+      "zh-Hans": "应用内购买",
+      "zh-Hant": "App 內購買"
     },
     "dear_offers_optional_subscriptions_and_one_t_1e7881": {
       "en": "Dear offers optional subscriptions and one-time purchases through the Apple App Store (and Google Play on Android). Apple and Google handle all payment processing; we never see or store your card or payment details. To unlock what you've bought across devices and reinstalls, Dear uses RevenueCat, which receives an anonymous record of each transaction (the product purchased, the purchase date, and an anonymous app-internal identifier). This record contains no name, email, or payment information. The privacy policies of Apple, Google, and RevenueCat govern this data.",
@@ -1884,7 +2064,9 @@
       "ru": "Dear предлагает необязательные подписки и разовые покупки через Apple App Store (и Google Play на Android). Apple и Google обрабатывают все платежи; мы никогда не видим и не храним данные вашей карты или платежа. Чтобы покупки открывались на разных устройствах и после переустановки, Dear использует RevenueCat, который получает анонимную запись о каждой транзакции (купленный продукт, дату покупки и анонимный внутренний идентификатор приложения). В этой записи нет ни имени, ни адреса почты, ни платёжных данных. Эти данные регулируются политиками конфиденциальности Apple, Google и RevenueCat.",
       "uk": "Dear пропонує необов'язкові підписки та разові покупки через Apple App Store (і Google Play на Android). Apple і Google обробляють усі платежі; ми ніколи не бачимо й не зберігаємо дані вашої картки чи платежу. Щоб покупки відкривалися на різних пристроях і після перевстановлення, Dear використовує RevenueCat, який отримує анонімний запис про кожну транзакцію (куплений продукт, дату покупки та анонімний внутрішній ідентифікатор застосунку). У цьому записі немає ні імені, ні адреси пошти, ні платіжних даних. Ці дані регулюються політиками конфіденційності Apple, Google та RevenueCat.",
       "ja": "DearはApple App Store（AndroidではGoogle Play）を通じて、任意のサブスクリプションと買い切りの購入を提供しています。支払いの処理はすべてAppleとGoogleが行い、当社がカード情報や支払い情報を見たり保存したりすることはありません。購入した内容を複数の端末や再インストール後にも使えるようにするため、DearはRevenueCatを利用しています。RevenueCatは取引ごとに匿名の記録（購入した製品、購入日、匿名のアプリ内部識別子）を受け取ります。この記録に名前、メールアドレス、支払い情報は含まれません。このデータにはApple、Google、RevenueCatの各プライバシーポリシーが適用されます。",
-      "ko": "Dear는 Apple App Store(Android에서는 Google Play)를 통해 선택형 구독과 단건 구매를 제공합니다. 결제 처리는 전부 Apple과 Google이 하며, 저희가 카드나 결제 정보를 보거나 저장하는 일은 없습니다. 구매한 내용을 여러 기기와 재설치 후에도 쓸 수 있게 하기 위해 Dear는 RevenueCat을 사용하며, RevenueCat은 거래마다 익명 기록(구매한 상품, 구매 날짜, 익명의 앱 내부 식별자)을 받습니다. 이 기록에는 이름, 이메일, 결제 정보가 없습니다. 이 데이터에는 Apple, Google, RevenueCat의 개인정보 처리방침이 적용됩니다."
+      "ko": "Dear는 Apple App Store(Android에서는 Google Play)를 통해 선택형 구독과 단건 구매를 제공합니다. 결제 처리는 전부 Apple과 Google이 하며, 저희가 카드나 결제 정보를 보거나 저장하는 일은 없습니다. 구매한 내용을 여러 기기와 재설치 후에도 쓸 수 있게 하기 위해 Dear는 RevenueCat을 사용하며, RevenueCat은 거래마다 익명 기록(구매한 상품, 구매 날짜, 익명의 앱 내부 식별자)을 받습니다. 이 기록에는 이름, 이메일, 결제 정보가 없습니다. 이 데이터에는 Apple, Google, RevenueCat의 개인정보 처리방침이 적용됩니다.",
+      "zh-Hans": "Dear 通过 Apple App Store（Android 上为 Google Play）提供可选的订阅和一次性购买。所有支付处理均由 Apple 和 Google 完成，我们绝不会看到或保存你的银行卡或支付信息。为了让你购买的内容在多台设备和重装后都能使用，Dear 使用 RevenueCat，它会收到每笔交易的匿名记录（购买的产品、购买日期，以及一个匿名的应用内部标识符）。该记录不含姓名、邮箱或支付信息。这些数据受 Apple、Google 和 RevenueCat 各自隐私政策的约束。",
+      "zh-Hant": "Dear 透過 Apple App Store（Android 上為 Google Play）提供選用的訂閱和一次性購買。所有付款處理均由 Apple 和 Google 完成，我們絕不會看到或儲存你的信用卡或付款資訊。為了讓你購買的內容在多台裝置和重新安裝後都能使用，Dear 使用 RevenueCat，它會收到每筆交易的匿名紀錄（購買的產品、購買日期，以及一個匿名的 App 內部識別碼）。該紀錄不含姓名、電子郵件或付款資訊。這些資料受 Apple、Google 和 RevenueCat 各自隱私權政策的規範。"
     },
     "third_party_services_871d2b": {
       "en": "Third-party services",
@@ -1897,7 +2079,9 @@
       "ru": "Сторонние сервисы",
       "uk": "Сторонні сервіси",
       "ja": "外部サービス",
-      "ko": "외부 서비스"
+      "ko": "외부 서비스",
+      "zh-Hans": "第三方服务",
+      "zh-Hant": "第三方服務"
     },
     "the_dear_app_uses_four_third_party_services_9dfaac": {
       "en": "The Dear app uses four third-party services. Apple StoreKit and Google Play Billing process in-app purchases. RevenueCat manages purchase entitlements and receives the anonymous transaction records described above. TelemetryDeck (anonymous usage analytics) receives the anonymous event counts described above. Sentry receives crash reports so we can fix what breaks; user identity is stripped from every report before it is sent, and no personal information is attached. No advertising networks, tracking libraries, or data brokers are used.",
@@ -1910,7 +2094,9 @@
       "ru": "Приложение Dear использует четыре сторонних сервиса. Apple StoreKit и Google Play Billing обрабатывают покупки в приложении. RevenueCat управляет правами на покупки и получает анонимные записи о транзакциях, описанные выше. TelemetryDeck (анонимная аналитика использования) получает анонимные счётчики событий, описанные выше. Sentry получает отчёты о сбоях, чтобы мы могли чинить поломки; идентификация пользователя удаляется из каждого отчёта перед отправкой, и никакие персональные данные не прикрепляются. Рекламные сети, трекинговые библиотеки и брокеры данных не используются.",
       "uk": "Застосунок Dear використовує чотири сторонні сервіси. Apple StoreKit і Google Play Billing обробляють покупки в застосунку. RevenueCat керує правами на покупки й отримує анонімні записи про транзакції, описані вище. TelemetryDeck (анонімна аналітика використання) отримує анонімні лічильники подій, описані вище. Sentry отримує звіти про збої, щоб ми могли лагодити поламане; ідентифікація користувача видаляється з кожного звіту перед надсиланням, і жодні персональні дані не додаються. Рекламні мережі, трекінгові бібліотеки та брокери даних не використовуються.",
       "ja": "Dearは4つの外部サービスを使っています。Apple StoreKitとGoogle Play Billingがアプリ内課金を処理します。RevenueCatは購入権を管理し、上に述べた匿名の取引記録を受け取ります。TelemetryDeck（匿名の利用分析）は上に述べた匿名のイベント回数を受け取ります。Sentryは不具合を直せるようクラッシュ報告を受け取ります。利用者の識別情報は送信前にすべての報告から取り除かれ、個人情報が添えられることはありません。広告ネットワーク、トラッキングライブラリ、データブローカーは一切使っていません。",
-      "ko": "Dear 앱은 네 개의 외부 서비스를 사용합니다. Apple StoreKit과 Google Play Billing이 앱 내 구입을 처리합니다. RevenueCat은 구매 권한을 관리하고 위에 설명한 익명 거래 기록을 받습니다. TelemetryDeck(익명 사용 분석)은 위에 설명한 익명 이벤트 횟수를 받습니다. Sentry는 고장난 것을 고칠 수 있도록 오류 보고를 받으며, 사용자 식별 정보는 전송 전에 모든 보고에서 제거되고 개인정보는 첨부되지 않습니다. 광고 네트워크, 추적 라이브러리, 데이터 브로커는 전혀 쓰지 않습니다."
+      "ko": "Dear 앱은 네 개의 외부 서비스를 사용합니다. Apple StoreKit과 Google Play Billing이 앱 내 구입을 처리합니다. RevenueCat은 구매 권한을 관리하고 위에 설명한 익명 거래 기록을 받습니다. TelemetryDeck(익명 사용 분석)은 위에 설명한 익명 이벤트 횟수를 받습니다. Sentry는 고장난 것을 고칠 수 있도록 오류 보고를 받으며, 사용자 식별 정보는 전송 전에 모든 보고에서 제거되고 개인정보는 첨부되지 않습니다. 광고 네트워크, 추적 라이브러리, 데이터 브로커는 전혀 쓰지 않습니다.",
+      "zh-Hans": "Dear 使用四项第三方服务。Apple StoreKit 和 Google Play Billing 处理应用内购买。RevenueCat 管理购买权益，并接收上述匿名交易记录。TelemetryDeck（匿名使用分析）接收上述匿名事件次数。Sentry 接收崩溃报告，以便我们修复故障；用户身份信息在发送前已从每份报告中剔除，不附带任何个人信息。不使用任何广告网络、跟踪库或数据经纪商。",
+      "zh-Hant": "Dear 使用四項第三方服務。Apple StoreKit 和 Google Play Billing 處理 App 內購買。RevenueCat 管理購買權限，並接收上述匿名交易紀錄。TelemetryDeck（匿名使用分析）接收上述匿名事件次數。Sentry 接收當機報告，以便我們修復問題；使用者身分資訊在傳送前已從每份報告中移除，不附帶任何個人資訊。不使用任何廣告聯播網、追蹤程式庫或資料仲介商。"
     },
     "this_website_36f800": {
       "en": "This website",
@@ -1923,7 +2109,9 @@
       "ru": "Этот сайт",
       "uk": "Цей сайт",
       "ja": "このウェブサイト",
-      "ko": "이 웹사이트"
+      "ko": "이 웹사이트",
+      "zh-Hans": "本网站",
+      "zh-Hant": "本網站"
     },
     "this_policy_describes_the_dear_app_the_websi_ed6d0c": {
       "en": "This policy describes the Dear app. The website you are reading is separate, and it works differently. dearnudges.com has no accounts, no cookies, no analytics and no tracking scripts. It sets nothing in your browser and asks you for nothing.",
@@ -1936,7 +2124,9 @@
       "ru": "Эта политика описывает приложение Dear. Сайт, который вы читаете, устроен отдельно и работает иначе. У dearnudges.com нет аккаунтов, нет cookie, нет аналитики и нет трекинговых скриптов. Он ничего не записывает в ваш браузер и ничего у вас не спрашивает.",
       "uk": "Ця політика описує застосунок Dear. Сайт, який ви читаєте, влаштований окремо й працює інакше. У dearnudges.com немає облікових записів, немає cookie, немає аналітики та немає трекінгових скриптів. Він нічого не записує у ваш браузер і нічого у вас не питає.",
       "ja": "このポリシーはDearアプリについて説明しています。いまご覧のウェブサイトは別のもので、動き方も違います。dearnudges.comにはアカウントも、Cookieも、分析も、トラッキングスクリプトもありません。ブラウザーに何かを置くことも、あなたに何かを尋ねることもありません。",
-      "ko": "이 방침은 Dear 앱에 대한 것입니다. 지금 보고 계신 웹사이트는 별개이며 작동 방식도 다릅니다. dearnudges.com에는 계정도, 쿠키도, 분석도, 추적 스크립트도 없습니다. 브라우저에 무언가를 남기지도, 당신에게 무언가를 묻지도 않습니다."
+      "ko": "이 방침은 Dear 앱에 대한 것입니다. 지금 보고 계신 웹사이트는 별개이며 작동 방식도 다릅니다. dearnudges.com에는 계정도, 쿠키도, 분석도, 추적 스크립트도 없습니다. 브라우저에 무언가를 남기지도, 당신에게 무언가를 묻지도 않습니다.",
+      "zh-Hans": "本政策描述的是 Dear 应用。你正在阅读的网站是独立的，运作方式也不同。dearnudges.com 没有账号、没有 Cookie、没有分析，也没有跟踪脚本。它不会在你的浏览器里留下任何东西，也不会向你索要任何信息。",
+      "zh-Hant": "本政策描述的是 Dear App。你正在閱讀的網站是獨立的，運作方式也不同。dearnudges.com 沒有帳號、沒有 Cookie、沒有分析，也沒有追蹤程式碼。它不會在你的瀏覽器裡留下任何東西，也不會向你索取任何資訊。"
     },
     "two_companies_do_see_your_visit_because_they_48616d": {
       "en": "Two companies do see your visit, because they deliver the site: GitHub hosts the files, and Cloudflare serves them and handles security. Like any web host, both receive your IP address and browser details in their server logs. We do not control those logs and we do not read them. Fonts are served from this domain rather than a font provider, so no third party is contacted to display this page.",
@@ -1949,7 +2139,9 @@
       "ru": "Две компании всё же видят ваш визит, потому что доставляют сайт: GitHub хранит файлы, а Cloudflare отдаёт их и обеспечивает безопасность. Как и любой веб-хостинг, обе получают ваш IP-адрес и данные браузера в свои серверные логи. Мы не управляем этими логами и не читаем их. Шрифты отдаются с этого же домена, а не от поставщика шрифтов, так что для показа страницы никто третий не привлекается.",
       "uk": "Дві компанії все ж бачать ваш візит, бо доставляють сайт: GitHub зберігає файли, а Cloudflare віддає їх і забезпечує безпеку. Як і будь-який вебхостинг, обидві отримують вашу IP-адресу та дані браузера у свої серверні журнали. Ми не керуємо цими журналами й не читаємо їх. Шрифти віддаються з цього самого домену, а не від постачальника шрифтів, тож для показу сторінки жодна третя сторона не залучається.",
       "ja": "サイトを届けているため、2社があなたの訪問を見ています。GitHubがファイルを保管し、Cloudflareがそれを配信して安全性を担っています。どのウェブホストとも同じく、両社はサーバーのログにあなたのIPアドレスとブラウザーの情報を受け取ります。当社はそのログを管理しておらず、読むこともありません。フォントはフォント提供事業者ではなくこのドメインから配信されるため、このページを表示するために第三者へ接続することはありません。",
-      "ko": "두 회사가 당신의 방문을 보게 됩니다. 사이트를 전달하는 곳이기 때문입니다. GitHub이 파일을 보관하고, Cloudflare가 그것을 전송하며 보안을 담당합니다. 다른 모든 웹 호스트와 마찬가지로 두 곳 모두 서버 로그에 당신의 IP 주소와 브라우저 정보를 받습니다. 저희는 그 로그를 관리하지도, 읽지도 않습니다. 글꼴은 글꼴 제공업체가 아니라 이 도메인에서 전송되므로, 이 페이지를 표시하기 위해 제3자에 연결하지 않습니다."
+      "ko": "두 회사가 당신의 방문을 보게 됩니다. 사이트를 전달하는 곳이기 때문입니다. GitHub이 파일을 보관하고, Cloudflare가 그것을 전송하며 보안을 담당합니다. 다른 모든 웹 호스트와 마찬가지로 두 곳 모두 서버 로그에 당신의 IP 주소와 브라우저 정보를 받습니다. 저희는 그 로그를 관리하지도, 읽지도 않습니다. 글꼴은 글꼴 제공업체가 아니라 이 도메인에서 전송되므로, 이 페이지를 표시하기 위해 제3자에 연결하지 않습니다.",
+      "zh-Hans": "确实有两家公司能看到你的访问，因为网站由它们送达：GitHub 托管文件，Cloudflare 负责分发和安全。和任何网站主机一样，两者都会在服务器日志中收到你的 IP 地址和浏览器信息。我们不掌管这些日志，也不会去读。字体由本域名提供，而不是来自字体服务商，因此显示本页面不会联系任何第三方。",
+      "zh-Hant": "確實有兩家公司能看到你的造訪，因為網站由它們送達：GitHub 代管檔案，Cloudflare 負責傳送與安全。和任何網站主機一樣，兩者都會在伺服器記錄中收到你的 IP 位址和瀏覽器資訊。我們不掌管這些記錄，也不會去讀。字型由本網域提供，而非來自字型服務商，因此顯示本頁面不會聯繫任何第三方。"
     },
     "data_sharing_f0155c": {
       "en": "Data sharing",
@@ -1962,7 +2154,9 @@
       "ru": "Передача данных",
       "uk": "Передавання даних",
       "ja": "データの共有",
-      "ko": "데이터 공유"
+      "ko": "데이터 공유",
+      "zh-Hans": "数据共享",
+      "zh-Hant": "資料分享"
     },
     "we_do_not_sell_rent_or_share_your_data_the_a_4672a8": {
       "en": "We do not sell, rent, or share your data. The anonymous usage counts sent to TelemetryDeck are not linked to you personally and are not shared with any advertising network or data broker. TelemetryDeck's own privacy policy governs how they process these counts on their infrastructure.",
@@ -1975,7 +2169,9 @@
       "ru": "Мы не продаём, не сдаём в аренду и не передаём ваши данные. Анонимные счётчики использования, отправляемые в TelemetryDeck, не связаны с вами лично и не передаются ни рекламным сетям, ни брокерам данных. Порядок их обработки на своей инфраструктуре TelemetryDeck определяет собственной политикой конфиденциальности.",
       "uk": "Ми не продаємо, не здаємо в оренду й не передаємо ваші дані. Анонімні лічильники використання, що надсилаються до TelemetryDeck, не пов'язані з вами особисто й не передаються ні рекламним мережам, ні брокерам даних. Порядок їх обробки на своїй інфраструктурі TelemetryDeck визначає власною політикою конфіденційності.",
       "ja": "当社はあなたのデータを販売、貸与、共有しません。TelemetryDeckへ送られる匿名の利用回数はあなた個人と結びついておらず、広告ネットワークやデータブローカーに共有されることもありません。TelemetryDeckが自社の基盤でこれらの回数をどう扱うかは、同社のプライバシーポリシーに従います。",
-      "ko": "저희는 당신의 데이터를 팔거나, 빌려주거나, 공유하지 않습니다. TelemetryDeck으로 보내는 익명 사용 횟수는 당신 개인과 연결되지 않으며, 어떤 광고 네트워크나 데이터 브로커와도 공유되지 않습니다. TelemetryDeck이 자사 인프라에서 이 수치를 어떻게 처리하는지는 그들의 개인정보 처리방침을 따릅니다."
+      "ko": "저희는 당신의 데이터를 팔거나, 빌려주거나, 공유하지 않습니다. TelemetryDeck으로 보내는 익명 사용 횟수는 당신 개인과 연결되지 않으며, 어떤 광고 네트워크나 데이터 브로커와도 공유되지 않습니다. TelemetryDeck이 자사 인프라에서 이 수치를 어떻게 처리하는지는 그들의 개인정보 처리방침을 따릅니다.",
+      "zh-Hans": "我们不出售、不出租、不共享你的数据。发送到 TelemetryDeck 的匿名使用次数不与你个人关联，也不会与任何广告网络或数据经纪商共享。TelemetryDeck 如何在自己的基础设施上处理这些数据，受其自身隐私政策约束。",
+      "zh-Hant": "我們不販售、不出租、不分享你的資料。傳送到 TelemetryDeck 的匿名使用次數不與你個人關聯，也不會與任何廣告聯播網或資料仲介商分享。TelemetryDeck 如何在自己的基礎設施上處理這些資料，受其自身隱私權政策規範。"
     },
     "children_s_privacy_eb4d03": {
       "en": "Children's privacy",
@@ -1988,7 +2184,9 @@
       "ru": "Приватность детей",
       "uk": "Приватність дітей",
       "ja": "子どものプライバシー",
-      "ko": "아동의 개인정보"
+      "ko": "아동의 개인정보",
+      "zh-Hans": "儿童隐私",
+      "zh-Hant": "兒童隱私"
     },
     "dear_does_not_knowingly_collect_any_personal_87069f": {
       "en": "Dear does not knowingly collect any personal information from children under the age of 13. The anonymous usage counts we collect through TelemetryDeck contain no personal data and cannot identify any individual user, including children.",
@@ -2001,7 +2199,9 @@
       "ru": "Dear сознательно не собирает персональные данные детей младше 13 лет. Анонимные счётчики использования, которые мы собираем через TelemetryDeck, не содержат персональных данных и не позволяют опознать ни одного пользователя, включая детей.",
       "uk": "Dear свідомо не збирає персональні дані дітей до 13 років. Анонімні лічильники використання, які ми збираємо через TelemetryDeck, не містять персональних даних і не дозволяють упізнати жодного користувача, зокрема дітей.",
       "ja": "Dearは13歳未満の子どもから個人情報を意図的に集めることはありません。TelemetryDeckを通じて集める匿名の利用回数には個人データが含まれず、子どもを含むいかなる利用者も特定できません。",
-      "ko": "Dear는 13세 미만 아동의 개인정보를 고의로 수집하지 않습니다. TelemetryDeck을 통해 수집하는 익명 사용 횟수에는 개인 데이터가 없으며, 아동을 포함한 어떤 사용자도 식별할 수 없습니다."
+      "ko": "Dear는 13세 미만 아동의 개인정보를 고의로 수집하지 않습니다. TelemetryDeck을 통해 수집하는 익명 사용 횟수에는 개인 데이터가 없으며, 아동을 포함한 어떤 사용자도 식별할 수 없습니다.",
+      "zh-Hans": "Dear 不会有意收集 13 岁以下儿童的任何个人信息。我们通过 TelemetryDeck 收集的匿名使用次数不含个人数据，无法识别包括儿童在内的任何用户。",
+      "zh-Hant": "Dear 不會有意蒐集 13 歲以下兒童的任何個人資訊。我們透過 TelemetryDeck 蒐集的匿名使用次數不含個人資料，無法辨識包括兒童在內的任何使用者。"
     },
     "dear_friend_7e1005": {
       "en": "Dear Friend",
@@ -2014,7 +2214,9 @@
       "ru": "Dear Friend",
       "uk": "Dear Friend",
       "ja": "Dear Friend",
-      "ko": "Dear Friend"
+      "ko": "Dear Friend",
+      "zh-Hans": "Dear Friend",
+      "zh-Hant": "Dear Friend"
     },
     "if_you_choose_to_become_a_dear_friend_a_patr_d6ba58": {
       "en": "If you choose to become a Dear Friend (a patron tier within Dear), you may optionally share information with Elsewhere Index through email. This is entirely voluntary and happens outside the app.",
@@ -2027,7 +2229,9 @@
       "ru": "Если вы решите стать Dear Friend (уровень патрона внутри Dear), вы можете по желанию поделиться информацией с Elsewhere Index по электронной почте. Это полностью добровольно и происходит вне приложения.",
       "uk": "Якщо ви вирішите стати Dear Friend (рівень патрона всередині Dear), ви можете за бажанням поділитися інформацією з Elsewhere Index електронною поштою. Це цілком добровільно й відбувається поза застосунком.",
       "ja": "Dear Friend（Dear内の支援者向けの区分）になることを選んだ場合、任意でElsewhere Indexにメールで情報を共有できます。これは完全に任意で、アプリの外で行われます。",
-      "ko": "Dear Friend(Dear 안의 후원 등급)가 되기로 하셨다면, 원하실 경우 이메일로 Elsewhere Index에 정보를 공유할 수 있습니다. 이는 전적으로 자발적이며 앱 밖에서 이루어집니다."
+      "ko": "Dear Friend(Dear 안의 후원 등급)가 되기로 하셨다면, 원하실 경우 이메일로 Elsewhere Index에 정보를 공유할 수 있습니다. 이는 전적으로 자발적이며 앱 밖에서 이루어집니다.",
+      "zh-Hans": "如果你选择成为 Dear Friend（Dear 内的赞助档位），你可以自愿通过电子邮件与 Elsewhere Index 分享信息。这完全出于自愿，并且发生在应用之外。",
+      "zh-Hant": "如果你選擇成為 Dear Friend（Dear 內的贊助級別），你可以自願透過電子郵件與 Elsewhere Index 分享資訊。這完全出於自願，並且發生在 App 之外。"
     },
     "the_dear_friend_post_purchase_screen_may_hel_55ed35": {
       "en": "The Dear Friend post-purchase screen may help you compose an email to Elsewhere Index. This email may include:",
@@ -2040,7 +2244,9 @@
       "ru": "Экран после покупки Dear Friend может помочь составить письмо в Elsewhere Index. Такое письмо может содержать:",
       "uk": "Екран після покупки Dear Friend може допомогти скласти лист до Elsewhere Index. Такий лист може містити:",
       "ja": "Dear Friendの購入後の画面では、Elsewhere Index宛のメールの作成をお手伝いすることがあります。このメールには次の内容が含まれる場合があります：",
-      "ko": "Dear Friend 구매 후 화면은 Elsewhere Index에 보낼 이메일 작성을 도와줄 수 있습니다. 이 이메일에는 다음이 포함될 수 있습니다:"
+      "ko": "Dear Friend 구매 후 화면은 Elsewhere Index에 보낼 이메일 작성을 도와줄 수 있습니다. 이 이메일에는 다음이 포함될 수 있습니다:",
+      "zh-Hans": "Dear Friend 购买后的界面可以帮你写一封发给 Elsewhere Index 的邮件。这封邮件可能包含：",
+      "zh-Hant": "Dear Friend 購買後的畫面可以幫你撰寫一封寄給 Elsewhere Index 的信。這封信可能包含："
     },
     "this_email_is_composed_on_your_device_using_4c3688": {
       "en": "This email is composed on your device using your own email app. You review and send it yourself. Dear does not collect, store, or transmit this information through any server or API. Elsewhere Index receives it only through your email and uses it only for the stated purposes.",
@@ -2053,7 +2259,9 @@
       "ru": "Это письмо составляется на вашем устройстве в вашем почтовом приложении. Вы сами его просматриваете и отправляете. Dear не собирает, не хранит и не передаёт эти сведения через какой-либо сервер или API. Elsewhere Index получает их только через вашу почту и использует только для указанных целей.",
       "uk": "Цей лист складається на вашому пристрої у вашому поштовому застосунку. Ви самі його переглядаєте й надсилаєте. Dear не збирає, не зберігає й не передає ці відомості через жоден сервер чи API. Elsewhere Index отримує їх лише через вашу пошту й використовує лише для зазначених цілей.",
       "ja": "このメールはあなたの端末で、あなた自身のメールアプリを使って作成されます。内容を確認して送るのもあなたです。Dearがこの情報をサーバーやAPIを通じて集めたり、保存したり、送信したりすることはありません。Elsewhere Indexはあなたのメールを通じてのみ受け取り、記載された目的にのみ使用します。",
-      "ko": "이 이메일은 당신의 기기에서 당신의 이메일 앱으로 작성됩니다. 검토하고 보내는 것도 당신입니다. Dear가 이 정보를 서버나 API를 통해 수집, 저장, 전송하는 일은 없습니다. Elsewhere Index는 오직 당신의 이메일을 통해서만 받고, 명시된 목적으로만 사용합니다."
+      "ko": "이 이메일은 당신의 기기에서 당신의 이메일 앱으로 작성됩니다. 검토하고 보내는 것도 당신입니다. Dear가 이 정보를 서버나 API를 통해 수집, 저장, 전송하는 일은 없습니다. Elsewhere Index는 오직 당신의 이메일을 통해서만 받고, 명시된 목적으로만 사용합니다.",
+      "zh-Hans": "这封邮件在你的设备上用你自己的邮件应用撰写。由你自己检查并发送。Dear 不会通过任何服务器或 API 收集、保存或传输这些信息。Elsewhere Index 只通过你的邮件收到，并且仅用于所述目的。",
+      "zh-Hant": "這封信在你的裝置上用你自己的郵件 App 撰寫。由你自己檢查並寄出。Dear 不會透過任何伺服器或 API 蒐集、儲存或傳輸這些資訊。Elsewhere Index 只透過你的信件收到，並且僅用於所述目的。"
     },
     "your_email_address_is_visible_to_elsewhere_i_2751ff": {
       "en": "Your email address is visible to Elsewhere Index when you send the message. It will not be added to any marketing list or shared with anyone else.",
@@ -2066,7 +2274,9 @@
       "ru": "Ваш адрес электронной почты виден Elsewhere Index, когда вы отправляете сообщение. Он не будет добавлен ни в какие маркетинговые списки и не будет передан кому-либо ещё.",
       "uk": "Ваша адреса електронної пошти видима для Elsewhere Index, коли ви надсилаєте повідомлення. Її не буде додано до жодних маркетингових списків і не буде передано комусь іще.",
       "ja": "メッセージを送ると、あなたのメールアドレスはElsewhere Indexに見えます。マーケティング用の名簿に加えられることも、ほかの誰かに共有されることもありません。",
-      "ko": "메시지를 보내면 당신의 이메일 주소가 Elsewhere Index에 보입니다. 어떤 마케팅 목록에도 추가되지 않고, 다른 누구와도 공유되지 않습니다."
+      "ko": "메시지를 보내면 당신의 이메일 주소가 Elsewhere Index에 보입니다. 어떤 마케팅 목록에도 추가되지 않고, 다른 누구와도 공유되지 않습니다.",
+      "zh-Hans": "你发送消息时，Elsewhere Index 会看到你的邮箱地址。它不会被加入任何营销名单，也不会分享给其他任何人。",
+      "zh-Hant": "你寄出訊息時，Elsewhere Index 會看到你的電子郵件地址。它不會被加入任何行銷名單，也不會分享給其他任何人。"
     },
     "changes_to_this_policy_615043": {
       "en": "Changes to this policy",
@@ -2079,7 +2289,9 @@
       "ru": "Изменения этой политики",
       "uk": "Зміни цієї політики",
       "ja": "このポリシーの変更",
-      "ko": "이 방침의 변경"
+      "ko": "이 방침의 변경",
+      "zh-Hans": "本政策的变更",
+      "zh-Hant": "本政策的變更"
     },
     "if_we_ever_change_how_dear_handles_data_for_896ab0": {
       "en": "If we ever change how Dear handles data (for example, adding optional cloud sync in a future version), we will update this policy and note the changes here. Any future feature that involves data transmission will be opt-in and clearly disclosed.",
@@ -2092,7 +2304,9 @@
       "ru": "Если мы когда-нибудь изменим то, как Dear обращается с данными (например, добавим необязательную синхронизацию с облаком в будущей версии), мы обновим эту политику и отметим изменения здесь. Любая будущая функция, связанная с передачей данных, будет подключаться по вашему выбору и будет чётко описана.",
       "uk": "Якщо ми колись змінимо те, як Dear поводиться з даними (наприклад, додамо необов'язкову синхронізацію з хмарою в майбутній версії), ми оновимо цю політику й відзначимо зміни тут. Будь-яка майбутня функція, пов'язана з передаванням даних, підключатиметься за вашим вибором і буде чітко описана.",
       "ja": "Dearのデータの扱い方を変更する場合（たとえば今後のバージョンで任意のクラウド同期を追加する場合など）、このポリシーを更新し、変更点をここに記します。データの送信を伴う今後の機能は、すべて任意で有効にするものとし、明確にお知らせします。",
-      "ko": "Dear가 데이터를 다루는 방식을 바꾸게 되면(예를 들어 앞으로 선택형 클라우드 동기화를 추가하는 경우), 이 방침을 갱신하고 변경 사항을 여기에 적겠습니다. 데이터 전송이 관련된 앞으로의 기능은 모두 선택해서 켜는 방식이며 분명히 알려드립니다."
+      "ko": "Dear가 데이터를 다루는 방식을 바꾸게 되면(예를 들어 앞으로 선택형 클라우드 동기화를 추가하는 경우), 이 방침을 갱신하고 변경 사항을 여기에 적겠습니다. 데이터 전송이 관련된 앞으로의 기능은 모두 선택해서 켜는 방식이며 분명히 알려드립니다.",
+      "zh-Hans": "如果我们改变 Dear 处理数据的方式（例如在未来版本中加入可选的云同步），我们会更新本政策并在此记录变更。未来任何涉及数据传输的功能都将由你选择开启，并会清楚说明。",
+      "zh-Hant": "如果我們改變 Dear 處理資料的方式（例如在未來版本中加入選用的雲端同步），我們會更新本政策並在此記錄變更。未來任何涉及資料傳輸的功能都將由你選擇開啟，並會清楚說明。"
     },
     "if_you_have_questions_about_this_privacy_pol_88568f": {
       "en": "If you have questions about this privacy policy, you can reach us at support@dearnudges.com.",
@@ -2105,7 +2319,9 @@
       "ru": "Если у вас есть вопросы об этой политике конфиденциальности, напишите нам на support@dearnudges.com.",
       "uk": "Якщо у вас є запитання про цю політику конфіденційності, напишіть нам на support@dearnudges.com.",
       "ja": "このプライバシーポリシーについてご質問があれば、support@dearnudges.comまでご連絡ください。",
-      "ko": "이 개인정보 처리방침에 대해 궁금한 점이 있으면 support@dearnudges.com으로 연락 주세요."
+      "ko": "이 개인정보 처리방침에 대해 궁금한 점이 있으면 support@dearnudges.com으로 연락 주세요.",
+      "zh-Hans": "如果你对本隐私政策有疑问，可以通过 support@dearnudges.com 联系我们。",
+      "zh-Hant": "如果你對本隱私權政策有疑問，可以透過 support@dearnudges.com 聯絡我們。"
     },
     "dear_stay_in_touch_is_made_by_elsewhere_inde_ae2a9d": {
       "en": "Dear: Stay in Touch is made by Elsewhere Index LLC. Distributed on the Apple App Store and Google Play with optional in-app purchases, no ads, no accounts, and no personal data collection.",
@@ -2118,7 +2334,9 @@
       "ru": "Dear: Stay in Touch создан Elsewhere Index LLC. Распространяется в Apple App Store и Google Play с необязательными покупками в приложении, без рекламы, без аккаунтов и без сбора персональных данных.",
       "uk": "Dear: Stay in Touch створює Elsewhere Index LLC. Розповсюджується в Apple App Store і Google Play з необов'язковими покупками в застосунку, без реклами, без облікових записів і без збирання персональних даних.",
       "ja": "Dear: Stay in TouchはElsewhere Index LLCが制作しています。Apple App StoreとGoogle Playで配信しており、任意のアプリ内課金があり、広告もアカウントも個人データの収集もありません。",
-      "ko": "Dear: Stay in Touch는 Elsewhere Index LLC가 만듭니다. Apple App Store와 Google Play에서 배포되며, 선택형 앱 내 구입이 있고, 광고도 계정도 개인 데이터 수집도 없습니다."
+      "ko": "Dear: Stay in Touch는 Elsewhere Index LLC가 만듭니다. Apple App Store와 Google Play에서 배포되며, 선택형 앱 내 구입이 있고, 광고도 계정도 개인 데이터 수집도 없습니다.",
+      "zh-Hans": "Dear: Stay in Touch 由 Elsewhere Index LLC 制作。在 Apple App Store 和 Google Play 发行，含可选的应用内购买，无广告、无账号、不收集个人数据。",
+      "zh-Hant": "Dear: Stay in Touch 由 Elsewhere Index LLC 製作。在 Apple App Store 和 Google Play 發行，含選用的 App 內購買，無廣告、無帳號、不蒐集個人資料。"
     },
     "the_research_05d3d7": {
       "en": "The Research",
@@ -2141,7 +2359,9 @@
       "ru": "Исследования",
       "uk": "Дослідження",
       "ja": "研究",
-      "ko": "연구"
+      "ko": "연구",
+      "zh-Hans": "研究",
+      "zh-Hant": "研究"
     },
     "dear_is_built_on_behavioral_science_not_intu_710f16": {
       "en": "Dear is built on behavioral science, not intuition. Here are the studies that shaped the app.",
@@ -2164,7 +2384,9 @@
       "ru": "Dear построен на поведенческой науке, а не на интуиции. Вот исследования, которые сформировали приложение.",
       "uk": "Dear побудований на поведінковій науці, а не на інтуїції. Ось дослідження, які сформували застосунок.",
       "ja": "Dearは勘ではなく行動科学の上に作られています。アプリを形づくった研究をご紹介します。",
-      "ko": "Dear는 감이 아니라 행동과학 위에 세워졌습니다. 이 앱을 만든 연구들을 소개합니다."
+      "ko": "Dear는 감이 아니라 행동과학 위에 세워졌습니다. 이 앱을 만든 연구들을 소개합니다.",
+      "zh-Hans": "Dear 建立在行为科学之上，而不是直觉。以下是塑造了这款应用的研究。",
+      "zh-Hant": "Dear 建立在行為科學之上，而不是直覺。以下是形塑了這款 App 的研究。"
     },
     "the_appreciation_gap_bfd8ff": {
       "en": "The Appreciation Gap",
@@ -2187,7 +2409,9 @@
       "ru": "Что на самом деле значит сообщение",
       "uk": "Що насправді означає повідомлення",
       "ja": "メッセージが本当に持つ意味",
-      "ko": "메시지가 실제로 갖는 의미"
+      "ko": "메시지가 실제로 갖는 의미",
+      "zh-Hans": "一条消息真正的分量",
+      "zh-Hant": "一則訊息真正的分量"
     },
     "people_consistently_underestimate_how_much_o_d8f19c": {
       "en": "People consistently underestimate how much others appreciate hearing from them, especially when reaching out \"just because.\"",
@@ -2210,7 +2434,9 @@
       "ru": "Мы регулярно недооцениваем, как ценят другие весточку от нас, особенно отправленную «просто так».",
       "uk": "Ми регулярно недооцінюємо, як цінують інші звістку від нас, надто надіслану «просто так».",
       "ja": "私たちは自分からの連絡が相手にどれほど喜ばれるかをいつも過小評価しています。とくに「なんとなく」送ったときに。",
-      "ko": "우리는 우리의 연락을 상대가 얼마나 반가워하는지 늘 과소평가합니다. 특히 “그냥” 보낸 연락일수록 그렇습니다."
+      "ko": "우리는 우리의 연락을 상대가 얼마나 반가워하는지 늘 과소평가합니다. 특히 “그냥” 보낸 연락일수록 그렇습니다.",
+      "zh-Hans": "我们总是低估别人收到我们消息时有多高兴，尤其是“没什么特别原因”发出的那种。",
+      "zh-Hant": "我們總是低估別人收到我們訊息時有多高興，尤其是「沒什麼特別原因」傳出的那種。"
     },
     "across_multiple_experiments_senders_predicte_8d4f07": {
       "en": "Across multiple experiments, senders predicted recipients would feel mildly pleased. Recipients actually felt deeply touched. The gap was largest when people hadn't been in contact for a long time.",
@@ -2233,7 +2459,9 @@
       "ru": "В нескольких экспериментах отправители полагали, что получатели обрадуются слегка. На деле те были глубоко тронуты. Разрыв был самым большим там, где долго не общались.",
       "uk": "У кількох експериментах відправники гадали, що одержувачі зрадіють трохи. Насправді вони були глибоко зворушені. Розрив був найбільшим там, де довго не спілкувалися.",
       "ja": "複数の実験で、送り手は受け手が少し喜ぶ程度だろうと予想しました。実際には深く心を動かされていました。差が最も大きかったのは、長く連絡が途絶えていた場合です。",
-      "ko": "여러 실험에서 보낸 사람은 받는 사람이 조금 기뻐할 거라고 예상했습니다. 실제로는 깊이 감동했습니다. 오래 연락이 끊겼을수록 그 차이가 가장 컸습니다."
+      "ko": "여러 실험에서 보낸 사람은 받는 사람이 조금 기뻐할 거라고 예상했습니다. 실제로는 깊이 감동했습니다. 오래 연락이 끊겼을수록 그 차이가 가장 컸습니다.",
+      "zh-Hans": "在多项实验中，发送者预计收信人只会稍微高兴。实际上他们深受触动。断联越久，这个差距越大。",
+      "zh-Hant": "在多項實驗中，傳送者預期收信人只會稍微高興。實際上他們深受觸動。斷聯越久，這個差距越大。"
     },
     "liu_p_j_rim_s_min_l_amp_min_k_e_2022_journal_dbf70e": {
       "en": "Liu, P.J., Rim, S., Min, L., &amp; Min, K.E. (2022). <em>Journal of Personality and Social Psychology</em>. <a href=\"https://doi.org/10.1037/pspi0000402\">doi:10.1037/pspi0000402</a>",
@@ -2256,7 +2484,9 @@
       "ru": "Liu, P.J., Rim, S., Min, L., &amp; Min, K.E. (2022). <em>Journal of Personality and Social Psychology</em>. <a href=\"https://doi.org/10.1037/pspi0000402\">doi:10.1037/pspi0000402</a>",
       "uk": "Liu, P.J., Rim, S., Min, L., &amp; Min, K.E. (2022). <em>Journal of Personality and Social Psychology</em>. <a href=\"https://doi.org/10.1037/pspi0000402\">doi:10.1037/pspi0000402</a>",
       "ja": "Liu, P.J., Rim, S., Min, L., &amp; Min, K.E.（2022年）. <em>Journal of Personality and Social Psychology</em>. <a href=\"https://doi.org/10.1037/pspi0000402\">doi:10.1037/pspi0000402</a>",
-      "ko": "Liu, P.J., Rim, S., Min, L., &amp; Min, K.E. (2022). <em>Journal of Personality and Social Psychology</em>. <a href=\"https://doi.org/10.1037/pspi0000402\">doi:10.1037/pspi0000402</a>"
+      "ko": "Liu, P.J., Rim, S., Min, L., &amp; Min, K.E. (2022). <em>Journal of Personality and Social Psychology</em>. <a href=\"https://doi.org/10.1037/pspi0000402\">doi:10.1037/pspi0000402</a>",
+      "zh-Hans": "Liu, P.J., Rim, S., Min, L., &amp; Min, K.E.（2022）. <em>Journal of Personality and Social Psychology</em>. <a href=\"https://doi.org/10.1037/pspi0000402\">doi:10.1037/pspi0000402</a>",
+      "zh-Hant": "Liu, P.J., Rim, S., Min, L., &amp; Min, K.E.（2022）. <em>Journal of Personality and Social Psychology</em>. <a href=\"https://doi.org/10.1037/pspi0000402\">doi:10.1037/pspi0000402</a>"
     },
     "this_is_why_dear_exists_the_nudge_closes_the_e230b2": {
       "en": "This is why Dear exists. The nudge closes the gap between thinking about someone and actually reaching out.",
@@ -2279,7 +2509,9 @@
       "ru": "Ради этого Dear и существует. Напоминание закрывает разрыв между мыслью о человеке и настоящим сообщением ему.",
       "uk": "Заради цього Dear і існує. Нагадування закриває розрив між думкою про людину та справжнім повідомленням їй.",
       "ja": "だからDearがあります。リマインダーが、誰かを思うことと実際に連絡することの隔たりを埋めます。",
-      "ko": "Dear가 존재하는 이유가 바로 이것입니다. 알림이 누군가를 떠올리는 것과 실제로 연락하는 것 사이의 간격을 메웁니다."
+      "ko": "Dear가 존재하는 이유가 바로 이것입니다. 알림이 누군가를 떠올리는 것과 실제로 연락하는 것 사이의 간격을 메웁니다.",
+      "zh-Hans": "这就是 Dear 存在的原因。提醒填补了想起某个人和真正联系他之间的距离。",
+      "zh-Hant": "這就是 Dear 存在的原因。提醒補上了想起某個人和真正聯絡他之間的距離。"
     },
     "people_overestimate_how_awkward_it_will_feel_1c799f": {
       "en": "People overestimate how awkward it will feel to reconnect with a lapsed friendship. The anticipatory anxiety is almost always worse than the actual conversation.",
@@ -2302,7 +2534,9 @@
       "ru": "Мы преувеличиваем, насколько неловко будет возобновить давно уснувшую дружбу. Тревога перед разговором почти всегда хуже самого разговора.",
       "uk": "Ми перебільшуємо, наскільки ніяково буде відновити давно приспану дружбу. Тривога перед розмовою майже завжди гірша за саму розмову.",
       "ja": "長く眠っていた友情を再開するとき、どれほど気まずいかを私たちは大げさに見積もります。事前の不安は、たいてい会話そのものより重いのです。",
-      "ko": "오래 잠들어 있던 우정을 다시 깨우는 일이 얼마나 어색할지 우리는 과장해서 생각합니다. 미리 하는 걱정이 실제 대화보다 거의 언제나 더 무겁습니다."
+      "ko": "오래 잠들어 있던 우정을 다시 깨우는 일이 얼마나 어색할지 우리는 과장해서 생각합니다. 미리 하는 걱정이 실제 대화보다 거의 언제나 더 무겁습니다.",
+      "zh-Hans": "我们高估了重新联系一段沉睡已久的友谊有多尴尬。事前的忐忑几乎总是比对话本身更难熬。",
+      "zh-Hant": "我們高估了重新聯絡一段沉睡已久的友誼有多尷尬。事前的忐忑幾乎總是比對話本身更難熬。"
     },
     "boothby_e_j_amp_bohns_v_k_2021_journal_of_pe_103e0f": {
       "en": "Boothby, E.J. &amp; Bohns, V.K. (2021). <em>Journal of Personality and Social Psychology</em>. See also: <a href=\"https://hbr.org/2022/02/you-should-actually-reach-out-to-that-old-friend\">Harvard Business Review summary</a>",
@@ -2325,7 +2559,9 @@
       "ru": "Boothby, E.J. &amp; Bohns, V.K. (2021). <em>Journal of Personality and Social Psychology</em>. См. также: <a href=\"https://hbr.org/2022/02/you-should-actually-reach-out-to-that-old-friend\">обзор Harvard Business Review</a>",
       "uk": "Boothby, E.J. &amp; Bohns, V.K. (2021). <em>Journal of Personality and Social Psychology</em>. Див. також: <a href=\"https://hbr.org/2022/02/you-should-actually-reach-out-to-that-old-friend\">огляд Harvard Business Review</a>",
       "ja": "Boothby, E.J. &amp; Bohns, V.K.（2021年）. <em>Journal of Personality and Social Psychology</em>. こちらも参照：<a href=\"https://hbr.org/2022/02/you-should-actually-reach-out-to-that-old-friend\">Harvard Business Reviewの要約</a>",
-      "ko": "Boothby, E.J. &amp; Bohns, V.K. (2021). <em>Journal of Personality and Social Psychology</em>. 함께 보기: <a href=\"https://hbr.org/2022/02/you-should-actually-reach-out-to-that-old-friend\">Harvard Business Review 요약</a>"
+      "ko": "Boothby, E.J. &amp; Bohns, V.K. (2021). <em>Journal of Personality and Social Psychology</em>. 함께 보기: <a href=\"https://hbr.org/2022/02/you-should-actually-reach-out-to-that-old-friend\">Harvard Business Review 요약</a>",
+      "zh-Hans": "Boothby, E.J. &amp; Bohns, V.K.（2021）. <em>Journal of Personality and Social Psychology</em>. 另见：<a href=\"https://hbr.org/2022/02/you-should-actually-reach-out-to-that-old-friend\">Harvard Business Review 摘要</a>",
+      "zh-Hant": "Boothby, E.J. &amp; Bohns, V.K.（2021）. <em>Journal of Personality and Social Psychology</em>. 另見：<a href=\"https://hbr.org/2022/02/you-should-actually-reach-out-to-that-old-friend\">Harvard Business Review 摘要</a>"
     },
     "dunbar_s_social_layers_5605b4": {
       "en": "Dunbar's Social Layers",
@@ -2348,7 +2584,9 @@
       "ru": "Социальные слои Данбара",
       "uk": "Соціальні шари Данбара",
       "ja": "ダンバーの社会的な層",
-      "ko": "던바의 사회적 층"
+      "ko": "던바의 사회적 층",
+      "zh-Hans": "邓巴的社交层次",
+      "zh-Hant": "鄧巴的社交層次"
     },
     "humans_organize_relationships_in_concentric_a04fe1": {
       "en": "Humans organize relationships in concentric layers: ~5 intimate, ~15 close friends, ~50 active network, ~150 stable contacts. Each layer roughly triples in size.",
@@ -2371,7 +2609,9 @@
       "ru": "Люди выстраивают отношения концентрическими слоями: около 5 самых близких, около 15 близких друзей, около 50 в активной сети, около 150 устойчивых знакомств. Каждый слой примерно втрое больше предыдущего.",
       "uk": "Люди вибудовують стосунки концентричними шарами: близько 5 найближчих, близько 15 близьких друзів, близько 50 в активній мережі, близько 150 сталих знайомств. Кожен шар приблизно втричі більший за попередній.",
       "ja": "人は同心円状の層に人間関係を並べます。最も近い5人ほど、親しい友人15人ほど、活発なつながり50人ほど、安定した知人150人ほど。各層は前の層のおよそ3倍です。",
-      "ko": "사람은 관계를 동심원 형태의 층으로 정리합니다. 가장 가까운 5명 정도, 가까운 친구 15명 정도, 활발한 관계망 50명 정도, 안정적으로 아는 사이 150명 정도입니다. 각 층은 앞 층의 약 세 배입니다."
+      "ko": "사람은 관계를 동심원 형태의 층으로 정리합니다. 가장 가까운 5명 정도, 가까운 친구 15명 정도, 활발한 관계망 50명 정도, 안정적으로 아는 사이 150명 정도입니다. 각 층은 앞 층의 약 세 배입니다.",
+      "zh-Hans": "人把关系排成同心的层次：最亲近的约 5 人，亲密朋友约 15 人，活跃人脉约 50 人，稳定的熟人约 150 人。每一层大约是前一层的三倍。",
+      "zh-Hant": "人把關係排成同心的層次：最親近的約 5 人，親密朋友約 15 人，活躍人脈約 50 人，穩定的熟人約 150 人。每一層大約是前一層的三倍。"
     },
     "dunbar_r_i_m_2016_personal_relationships_doi_8e56c8": {
       "en": "Dunbar, R.I.M. (2016). <em>Personal Relationships</em>. <a href=\"https://doi.org/10.1111/pere.12149\">doi:10.1111/pere.12149</a>",
@@ -2394,7 +2634,9 @@
       "ru": "Dunbar, R.I.M. (2016). <em>Personal Relationships</em>. <a href=\"https://doi.org/10.1111/pere.12149\">doi:10.1111/pere.12149</a>",
       "uk": "Dunbar, R.I.M. (2016). <em>Personal Relationships</em>. <a href=\"https://doi.org/10.1111/pere.12149\">doi:10.1111/pere.12149</a>",
       "ja": "Dunbar, R.I.M.（2016年）. <em>Personal Relationships</em>. <a href=\"https://doi.org/10.1111/pere.12149\">doi:10.1111/pere.12149</a>",
-      "ko": "Dunbar, R.I.M. (2016). <em>Personal Relationships</em>. <a href=\"https://doi.org/10.1111/pere.12149\">doi:10.1111/pere.12149</a>"
+      "ko": "Dunbar, R.I.M. (2016). <em>Personal Relationships</em>. <a href=\"https://doi.org/10.1111/pere.12149\">doi:10.1111/pere.12149</a>",
+      "zh-Hans": "Dunbar, R.I.M.（2016）. <em>Personal Relationships</em>. <a href=\"https://doi.org/10.1111/pere.12149\">doi:10.1111/pere.12149</a>",
+      "zh-Hant": "Dunbar, R.I.M.（2016）. <em>Personal Relationships</em>. <a href=\"https://doi.org/10.1111/pere.12149\">doi:10.1111/pere.12149</a>"
     },
     "dear_s_frequency_tiers_mirror_dunbar_s_layer_6fd217": {
       "en": "Dear's frequency tiers mirror Dunbar's layers. You set your own rhythm for each person, and the app respects it.",
@@ -2417,7 +2659,9 @@
       "ru": "Уровни частоты в Dear отражают слои Данбара. Вы задаёте ритм для каждого, а приложение следует ему.",
       "uk": "Рівні частоти в Dear відображають шари Данбара. Ви задаєте ритм для кожного, а застосунок його дотримується.",
       "ja": "Dearの頻度の段階はダンバーの層を映しています。相手ごとのペースはあなたが決め、アプリはそれに従います。",
-      "ko": "Dear의 주기 단계는 던바의 층을 반영합니다. 사람마다의 속도는 당신이 정하고, 앱은 그것을 따릅니다."
+      "ko": "Dear의 주기 단계는 던바의 층을 반영합니다. 사람마다의 속도는 당신이 정하고, 앱은 그것을 따릅니다.",
+      "zh-Hans": "Dear 的频率档位映照邓巴的层次。节奏由你为每个人设定，应用照做。",
+      "zh-Hant": "Dear 的頻率級距映照鄧巴的層次。節奏由你為每個人設定，App 照做。"
     },
     "phone_and_video_calls_can_maintain_the_two_c_f0cea6": {
       "en": "Phone and video calls can maintain the two closest layers of friendship (5 and 15) with similar effectiveness to in-person contact. Text and social media alone cannot.",
@@ -2440,7 +2684,9 @@
       "ru": "Звонки и видеозвонки поддерживают два самых близких слоя дружбы (5 и 15) почти так же хорошо, как встречи вживую. Одни сообщения и соцсети так не работают.",
       "uk": "Дзвінки та відеодзвінки підтримують два найближчі шари дружби (5 і 15) майже так само добре, як зустрічі наживо. Самі лише повідомлення та соцмережі так не працюють.",
       "ja": "音声通話とビデオ通話は、最も近い2つの友情の層（5人と15人）を、対面とほぼ同じくらいよく保てます。メッセージやSNSだけではそうはいきません。",
-      "ko": "음성 통화와 영상 통화는 가장 가까운 두 층의 우정(5명과 15명)을 직접 만나는 것과 거의 비슷하게 유지해 줍니다. 문자와 소셜 미디어만으로는 그렇게 되지 않습니다."
+      "ko": "음성 통화와 영상 통화는 가장 가까운 두 층의 우정(5명과 15명)을 직접 만나는 것과 거의 비슷하게 유지해 줍니다. 문자와 소셜 미디어만으로는 그렇게 되지 않습니다.",
+      "zh-Hans": "语音通话和视频通话能把最亲近的两层友谊（5 人和 15 人）维持得几乎和见面一样好。只靠消息和社交媒体做不到。",
+      "zh-Hant": "語音通話和視訊通話能把最親近的兩層友誼（5 人和 15 人）維持得幾乎和見面一樣好。只靠訊息和社群媒體做不到。"
     },
     "dunbar_r_i_m_et_al_2021_royal_society_open_s_78abf0": {
       "en": "Dunbar, R.I.M. et al. (2021). <em>Royal Society Open Science</em>. <a href=\"https://doi.org/10.1098/rsos.210298\">doi:10.1098/rsos.210298</a>",
@@ -2463,7 +2709,9 @@
       "ru": "Dunbar, R.I.M. и др. (2021). <em>Royal Society Open Science</em>. <a href=\"https://doi.org/10.1098/rsos.210298\">doi:10.1098/rsos.210298</a>",
       "uk": "Dunbar, R.I.M. та ін. (2021). <em>Royal Society Open Science</em>. <a href=\"https://doi.org/10.1098/rsos.210298\">doi:10.1098/rsos.210298</a>",
       "ja": "Dunbar, R.I.M. ほか（2021年）. <em>Royal Society Open Science</em>. <a href=\"https://doi.org/10.1098/rsos.210298\">doi:10.1098/rsos.210298</a>",
-      "ko": "Dunbar, R.I.M. 외 (2021). <em>Royal Society Open Science</em>. <a href=\"https://doi.org/10.1098/rsos.210298\">doi:10.1098/rsos.210298</a>"
+      "ko": "Dunbar, R.I.M. 외 (2021). <em>Royal Society Open Science</em>. <a href=\"https://doi.org/10.1098/rsos.210298\">doi:10.1098/rsos.210298</a>",
+      "zh-Hans": "Dunbar, R.I.M. 等（2021）. <em>Royal Society Open Science</em>. <a href=\"https://doi.org/10.1098/rsos.210298\">doi:10.1098/rsos.210298</a>",
+      "zh-Hant": "Dunbar, R.I.M. 等（2021）. <em>Royal Society Open Science</em>. <a href=\"https://doi.org/10.1098/rsos.210298\">doi:10.1098/rsos.210298</a>"
     },
     "dear_offers_text_call_and_facetime_buttons_f_f41ff8": {
       "en": "Dear offers text, call, and FaceTime buttons for each nudge. The call and video options exist because the research says they matter.",
@@ -2486,7 +2734,9 @@
       "ru": "В каждом напоминании Dear есть кнопки сообщения, звонка и FaceTime. Звонок и видео там потому, что исследования говорят: они важны.",
       "uk": "У кожному нагадуванні Dear є кнопки повідомлення, дзвінка та FaceTime. Дзвінок і відео там тому, що дослідження кажуть: вони важливі.",
       "ja": "Dearはどのリマインダーにもメッセージ、通話、FaceTimeのボタンを用意しています。通話とビデオがあるのは、研究がそれを大切だと示しているからです。",
-      "ko": "Dear는 모든 알림에 문자, 전화, FaceTime 버튼을 제공합니다. 전화와 영상 선택지가 있는 이유는 연구가 그것이 중요하다고 말하기 때문입니다."
+      "ko": "Dear는 모든 알림에 문자, 전화, FaceTime 버튼을 제공합니다. 전화와 영상 선택지가 있는 이유는 연구가 그것이 중요하다고 말하기 때문입니다.",
+      "zh-Hans": "Dear 在每条提醒上都提供消息、通话和 FaceTime 按钮。之所以有通话和视频，是因为研究说它们很重要。",
+      "zh-Hant": "Dear 在每則提醒上都提供訊息、通話和 FaceTime 按鈕。之所以有通話和視訊，是因為研究說它們很重要。"
     },
     "implementation_intentions_c7abfd": {
       "en": "Implementation Intentions",
@@ -2509,7 +2759,9 @@
       "ru": "Намерения реализации",
       "uk": "Наміри реалізації",
       "ja": "実行意図",
-      "ko": "실행 의도"
+      "ko": "실행 의도",
+      "zh-Hans": "执行意图",
+      "zh-Hant": "執行意圖"
     },
     "specific_plans_i_will_do_x_at_time_y_in_plac_383870": {
       "en": "Specific plans (\"I will do X at time Y in place Z\") dramatically increase follow-through compared to general intentions (\"I should do X\").",
@@ -2532,7 +2784,9 @@
       "ru": "Конкретные планы («я сделаю X в момент Y в месте Z») повышают вероятность выполнения гораздо сильнее, чем общие намерения («надо бы сделать X»).",
       "uk": "Конкретні плани («я зроблю X о годині Y у місці Z») підвищують імовірність виконання значно сильніше, ніж загальні наміри («треба б зробити X»).",
       "ja": "具体的な計画（「Zの場所でY時にXをする」）は、漠然とした意図（「Xをしなければ」）よりも実行率をはるかに高めます。",
-      "ko": "구체적인 계획(“Z에서 Y시에 X를 하겠다”)은 막연한 의도(“X를 해야지”)보다 실행 가능성을 훨씬 크게 높입니다."
+      "ko": "구체적인 계획(“Z에서 Y시에 X를 하겠다”)은 막연한 의도(“X를 해야지”)보다 실행 가능성을 훨씬 크게 높입니다.",
+      "zh-Hans": "具体的计划（“我会在 Z 地点的 Y 时间做 X”）比笼统的意图（“我该做 X”）更能提高执行率。",
+      "zh-Hant": "具體的計畫（「我會在 Z 地點的 Y 時間做 X」）比籠統的意圖（「我該做 X」）更能提高執行率。"
     },
     "this_is_the_difference_between_i_should_text_472e56": {
       "en": "This is the difference between \"I should text my friend more\" and Dear showing you a specific person with a one-tap action. The specificity is the mechanism.",
@@ -2555,7 +2809,9 @@
       "ru": "В этом и разница между «надо бы чаще писать друзьям» и Dear, который показывает конкретного человека и действие в одно касание. Конкретность и есть механизм.",
       "uk": "У цьому й різниця між «треба б частіше писати друзям» і Dear, який показує конкретну людину та дію в один дотик. Конкретність і є механізмом.",
       "ja": "これが「もっと友達に連絡しなきゃ」と、特定の相手とタップひとつの行動を示すDearとの違いです。具体性そのものが仕組みなのです。",
-      "ko": "“친구들에게 더 자주 연락해야지”와, 특정한 사람과 한 번의 탭이면 되는 행동을 보여주는 Dear의 차이가 바로 이것입니다. 구체성 자체가 작동 원리입니다."
+      "ko": "“친구들에게 더 자주 연락해야지”와, 특정한 사람과 한 번의 탭이면 되는 행동을 보여주는 Dear의 차이가 바로 이것입니다. 구체성 자체가 작동 원리입니다.",
+      "zh-Hans": "这就是“我该多联系朋友”和 Dear 指出一个具体的人、一次点击就能完成的行动之间的区别。具体本身就是机制。",
+      "zh-Hant": "這就是「我該多聯絡朋友」和 Dear 指出一個具體的人、一次點按就能完成的行動之間的差別。具體本身就是機制。"
     },
     "gollwitzer_p_m_1999_american_psychologist_54_2c5ce4": {
       "en": "Gollwitzer, P.M. (1999). <em>American Psychologist</em>, 54(7), 493-503.",
@@ -2578,7 +2834,9 @@
       "ru": "Gollwitzer, P.M. (1999). <em>American Psychologist</em>, 54(7), 493-503.",
       "uk": "Gollwitzer, P.M. (1999). <em>American Psychologist</em>, 54(7), 493-503.",
       "ja": "Gollwitzer, P.M.（1999年）. <em>American Psychologist</em>, 54(7), 493-503.",
-      "ko": "Gollwitzer, P.M. (1999). <em>American Psychologist</em>, 54(7), 493-503."
+      "ko": "Gollwitzer, P.M. (1999). <em>American Psychologist</em>, 54(7), 493-503.",
+      "zh-Hans": "Gollwitzer, P.M.（1999）. <em>American Psychologist</em>, 54(7), 493-503.",
+      "zh-Hant": "Gollwitzer, P.M.（1999）. <em>American Psychologist</em>, 54(7), 493-503."
     },
     "the_loneliness_epidemic_c407a3": {
       "en": "The Loneliness Epidemic",
@@ -2601,7 +2859,9 @@
       "ru": "Эпидемия одиночества",
       "uk": "Епідемія самотності",
       "ja": "孤独という流行病",
-      "ko": "외로움이라는 유행병"
+      "ko": "외로움이라는 유행병",
+      "zh-Hans": "孤独这场流行病",
+      "zh-Hant": "孤獨這場流行病"
     },
     "1_in_4_people_worldwide_report_feeling_lonel_906f0d": {
       "en": "1 in 6 people worldwide are affected by loneliness. The WHO declared loneliness a pressing global health threat in 2023, and its Commission on Social Connection published the global figure in 2025.",
@@ -2624,7 +2884,9 @@
       "ru": "Каждый шестой человек в мире страдает от одиночества. В 2023 году ВОЗ объявила одиночество неотложной глобальной угрозой здоровью, а её Комиссия по социальным связям опубликовала эту мировую цифру в 2025 году.",
       "uk": "Кожна шоста людина у світі потерпає від самотності. У 2023 році ВООЗ оголосила самотність нагальною глобальною загрозою здоров'ю, а її Комісія із соціальних зв'язків оприлюднила цю світову цифру у 2025 році.",
       "ja": "世界で6人に1人が孤独の影響を受けています。WHOは2023年に孤独を差し迫った世界的な健康上の脅威と宣言し、社会的つながりに関する委員会が2025年にこの世界的な数字を公表しました。",
-      "ko": "전 세계에서 6명 중 1명이 외로움의 영향을 받고 있습니다. WHO는 2023년 외로움을 시급한 세계 보건 위협으로 선언했고, 사회적 연결 위원회가 2025년 이 세계 수치를 발표했습니다."
+      "ko": "전 세계에서 6명 중 1명이 외로움의 영향을 받고 있습니다. WHO는 2023년 외로움을 시급한 세계 보건 위협으로 선언했고, 사회적 연결 위원회가 2025년 이 세계 수치를 발표했습니다.",
+      "zh-Hans": "全球每 6 人中就有 1 人受孤独影响。世卫组织在 2023 年宣布孤独是紧迫的全球健康威胁，其社会联系委员会于 2025 年公布了这一全球数字。",
+      "zh-Hant": "全球每 6 人中就有 1 人受孤獨影響。世界衛生組織在 2023 年宣布孤獨是迫切的全球健康威脅，其社會連結委員會於 2025 年公布了這項全球數字。"
     },
     "who_commission_on_social_connection_2023_who_94494c": {
       "en": "WHO Commission on Social Connection (2025). <a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\">who.int</a>",
@@ -2647,7 +2909,9 @@
       "ru": "WHO Commission on Social Connection (2025). <a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\">who.int</a>",
       "uk": "WHO Commission on Social Connection (2025). <a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\">who.int</a>",
       "ja": "WHO Commission on Social Connection（2025年）. <a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\">who.int</a>",
-      "ko": "WHO Commission on Social Connection (2025). <a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\">who.int</a>"
+      "ko": "WHO Commission on Social Connection (2025). <a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\">who.int</a>",
+      "zh-Hans": "WHO Commission on Social Connection（2025）. <a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\">who.int</a>",
+      "zh-Hant": "WHO Commission on Social Connection（2025）. <a href=\"https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death\">who.int</a>"
     },
     "social_isolation_increases_the_risk_of_prema_a4f744": {
       "en": "Social isolation increases the risk of premature death by 26%, comparable to smoking 15 cigarettes a day.",
@@ -2670,7 +2934,9 @@
       "ru": "Социальная изоляция повышает риск преждевременной смерти на 26&nbsp;%, что сопоставимо с 15 сигаретами в день.",
       "uk": "Соціальна ізоляція підвищує ризик передчасної смерті на 26&nbsp;%, що можна порівняти з 15 цигарками на день.",
       "ja": "社会的孤立は早期死亡のリスクを26&nbsp;%高めます。これは1日15本の喫煙に相当します。",
-      "ko": "사회적 고립은 조기 사망 위험을 26&nbsp;% 높이며, 이는 하루 담배 15개비에 해당합니다."
+      "ko": "사회적 고립은 조기 사망 위험을 26&nbsp;% 높이며, 이는 하루 담배 15개비에 해당합니다.",
+      "zh-Hans": "社会隔离使过早死亡的风险提高 26&nbsp;%，相当于每天 15 支香烟。",
+      "zh-Hant": "社會孤立使過早死亡的風險提高 26&nbsp;%，相當於每天 15 支香菸。"
     },
     "holt_lunstad_j_et_al_2010_plos_medicine_doi_e69342": {
       "en": "Holt-Lunstad, J. et al. (2010). <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
@@ -2693,7 +2959,9 @@
       "ru": "Holt-Lunstad, J. и др. (2010). <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
       "uk": "Holt-Lunstad, J. та ін. (2010). <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
       "ja": "Holt-Lunstad, J. ほか（2010年）. <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
-      "ko": "Holt-Lunstad, J. 외 (2010). <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>"
+      "ko": "Holt-Lunstad, J. 외 (2010). <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
+      "zh-Hans": "Holt-Lunstad, J. 等（2010）. <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
+      "zh-Hant": "Holt-Lunstad, J. 等（2010）. <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>"
     },
     "people_with_strong_social_ties_were_50_more_d506ab": {
       "en": "People with strong social ties were 50% more likely to still be alive at follow-up than those with weak ties.",
@@ -2716,7 +2984,9 @@
       "ru": "У людей с крепкими социальными связями шанс быть живыми на момент повторного обследования был на 50&nbsp;% выше, чем у людей со слабыми связями.",
       "uk": "У людей із міцними соціальними зв'язками шанс бути живими на момент повторного обстеження був на 50&nbsp;% вищий, ніж у людей зі слабкими зв'язками.",
       "ja": "社会的なつながりが強い人は、弱い人に比べて追跡調査時に生存している可能性が50&nbsp;%高いという結果でした。",
-      "ko": "사회적 유대가 강한 사람은 약한 사람보다 추적 조사 시점에 생존해 있을 가능성이 50&nbsp;% 더 높았습니다."
+      "ko": "사회적 유대가 강한 사람은 약한 사람보다 추적 조사 시점에 생존해 있을 가능성이 50&nbsp;% 더 높았습니다.",
+      "zh-Hans": "社会联系紧密的人，在随访时仍然在世的可能性比联系薄弱的人高 50&nbsp;%。",
+      "zh-Hant": "社會連結緊密的人，在追蹤時仍然在世的可能性比連結薄弱的人高 50&nbsp;%。"
     },
     "holt_lunstad_j_et_al_2010_meta_analysis_acro_a83c7e": {
       "en": "Holt-Lunstad, J. et al. (2010). Meta-analysis across 148 studies, 308,849 participants. <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
@@ -2739,7 +3009,9 @@
       "ru": "Holt-Lunstad, J. и др. (2010). Метаанализ 148 исследований, 308 849 участников. <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
       "uk": "Holt-Lunstad, J. та ін. (2010). Метааналіз 148 досліджень, 308 849 учасників. <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
       "ja": "Holt-Lunstad, J. ほか（2010年）. 148件の研究、308,849人の参加者を対象としたメタ分析. <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
-      "ko": "Holt-Lunstad, J. 외 (2010). 148개 연구, 참가자 308,849명에 대한 메타분석. <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>"
+      "ko": "Holt-Lunstad, J. 외 (2010). 148개 연구, 참가자 308,849명에 대한 메타분석. <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
+      "zh-Hans": "Holt-Lunstad, J. 等（2010）. 对 148 项研究、308,849 名参与者的元分析. <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>",
+      "zh-Hant": "Holt-Lunstad, J. 等（2010）. 對 148 項研究、308,849 名參與者的統合分析. <em>PLOS Medicine</em>. <a href=\"https://doi.org/10.1371/journal.pmed.1000316\">doi:10.1371/journal.pmed.1000316</a>"
     },
     "the_single_strongest_predictor_of_late_life_2b883f": {
       "en": "The single strongest predictor of late-life happiness and health is the quality of close relationships.",
@@ -2762,7 +3034,9 @@
       "ru": "Сильнее всего счастье и здоровье в старости предсказывает качество близких отношений.",
       "uk": "Найсильніше щастя та здоров'я в старості передбачає якість близьких стосунків.",
       "ja": "晩年の幸福と健康を最も強く予測するのは、親密な人間関係の質です。",
-      "ko": "노년의 행복과 건강을 가장 강하게 예측하는 것은 가까운 관계의 질입니다."
+      "ko": "노년의 행복과 건강을 가장 강하게 예측하는 것은 가까운 관계의 질입니다.",
+      "zh-Hans": "晚年幸福与健康最强的预测因素，是亲密关系的质量。",
+      "zh-Hant": "晚年幸福與健康最強的預測因子，是親密關係的品質。"
     },
     "harvard_s_grant_study_followed_724_people_fo_b47955": {
       "en": "Harvard's Grant Study followed 724 people for 85 years. Not wealth, not fame, not achievement. Relationships.",
@@ -2785,7 +3059,9 @@
       "ru": "Гарвардское исследование Grant Study наблюдало 724 человека на протяжении 85 лет. Не богатство, не слава, не достижения. Отношения.",
       "uk": "Гарвардське дослідження Grant Study спостерігало 724 особи протягом 85 років. Не багатство, не слава, не досягнення. Стосунки.",
       "ja": "ハーバードのGrant Studyは724人を85年にわたって追跡しました。富でも、名声でも、業績でもありません。人間関係でした。",
-      "ko": "하버드의 Grant Study는 724명을 85년 동안 추적했습니다. 재산도, 명성도, 성취도 아니었습니다. 관계였습니다."
+      "ko": "하버드의 Grant Study는 724명을 85년 동안 추적했습니다. 재산도, 명성도, 성취도 아니었습니다. 관계였습니다.",
+      "zh-Hans": "哈佛的 Grant Study 追踪了 724 人长达 85 年。不是财富，不是名声，不是成就。是关系。",
+      "zh-Hant": "哈佛的 Grant Study 追蹤了 724 人長達 85 年。不是財富，不是名聲，不是成就。是關係。"
     },
     "waldinger_r_amp_schulz_m_2023_the_good_life_5257d5": {
       "en": "Waldinger, R. &amp; Schulz, M. (2023). <em>The Good Life</em>. <a href=\"https://www.adultdevelopmentstudy.org\">adultdevelopmentstudy.org</a>",
@@ -2808,7 +3084,9 @@
       "ru": "Waldinger, R. &amp; Schulz, M. (2023). <em>The Good Life</em>. <a href=\"https://www.adultdevelopmentstudy.org\">adultdevelopmentstudy.org</a>",
       "uk": "Waldinger, R. &amp; Schulz, M. (2023). <em>The Good Life</em>. <a href=\"https://www.adultdevelopmentstudy.org\">adultdevelopmentstudy.org</a>",
       "ja": "Waldinger, R. &amp; Schulz, M.（2023年）. <em>The Good Life</em>. <a href=\"https://www.adultdevelopmentstudy.org\">adultdevelopmentstudy.org</a>",
-      "ko": "Waldinger, R. &amp; Schulz, M. (2023). <em>The Good Life</em>. <a href=\"https://www.adultdevelopmentstudy.org\">adultdevelopmentstudy.org</a>"
+      "ko": "Waldinger, R. &amp; Schulz, M. (2023). <em>The Good Life</em>. <a href=\"https://www.adultdevelopmentstudy.org\">adultdevelopmentstudy.org</a>",
+      "zh-Hans": "Waldinger, R. &amp; Schulz, M.（2023）. <em>The Good Life</em>. <a href=\"https://www.adultdevelopmentstudy.org\">adultdevelopmentstudy.org</a>",
+      "zh-Hant": "Waldinger, R. &amp; Schulz, M.（2023）. <em>The Good Life</em>. <a href=\"https://www.adultdevelopmentstudy.org\">adultdevelopmentstudy.org</a>"
     },
     "friendship_drift_9374b5": {
       "en": "Friendship Drift",
@@ -2831,7 +3109,9 @@
       "ru": "Когда дружба тускнеет",
       "uk": "Коли дружба тьмяніє",
       "ja": "友情が薄れていくとき",
-      "ko": "우정이 흐려질 때"
+      "ko": "우정이 흐려질 때",
+      "zh-Hans": "当友谊淡去",
+      "zh-Hant": "當友誼淡去"
     },
     "the_average_american_has_3_close_friends_dow_3bdc3a": {
       "en": "The average American has 3 close friends, down from 5 in 1990. 15% of men report having no close friends at all, up from 3% in 1990.",
@@ -2854,7 +3134,9 @@
       "ru": "У среднего американца 3 близких друга против 5 в 1990 году. 15&nbsp;% мужчин говорят, что у них нет ни одного, против 3&nbsp;% в 1990 году.",
       "uk": "У пересічного американця 3 близьких друзі проти 5 у 1990 році. 15&nbsp;% чоловіків кажуть, що не мають жодного, проти 3&nbsp;% у 1990 році.",
       "ja": "平均的なアメリカ人の親しい友人は3人で、1990年の5人から減りました。男性の15&nbsp;%はひとりもいないと答えており、1990年の3&nbsp;%から増えています。",
-      "ko": "미국인의 평균 가까운 친구 수는 3명으로, 1990년의 5명에서 줄었습니다. 남성의 15&nbsp;%는 한 명도 없다고 답했고, 이는 1990년의 3&nbsp;%에서 늘어난 수치입니다."
+      "ko": "미국인의 평균 가까운 친구 수는 3명으로, 1990년의 5명에서 줄었습니다. 남성의 15&nbsp;%는 한 명도 없다고 답했고, 이는 1990년의 3&nbsp;%에서 늘어난 수치입니다.",
+      "zh-Hans": "美国人平均有 3 位亲密朋友，低于 1990 年的 5 位。15&nbsp;% 的男性表示一位都没有，高于 1990 年的 3&nbsp;%。",
+      "zh-Hant": "美國人平均有 3 位親密朋友，低於 1990 年的 5 位。15&nbsp;% 的男性表示一位都沒有，高於 1990 年的 3&nbsp;%。"
     },
     "survey_center_on_american_life_2021_the_stat_a5808b": {
       "en": "Survey Center on American Life (2021). <a href=\"https://www.americansurveycenter.org/research/the-state-of-american-friendship-change-challenges-and-the-search-for-connection/\"><em>The State of American Friendship</em></a>",
@@ -2877,7 +3159,9 @@
       "ru": "Survey Center on American Life (2021). <a href=\"https://www.americansurveycenter.org/research/the-state-of-american-friendship-change-challenges-and-the-search-for-connection/\"><em>The State of American Friendship</em></a>",
       "uk": "Survey Center on American Life (2021). <a href=\"https://www.americansurveycenter.org/research/the-state-of-american-friendship-change-challenges-and-the-search-for-connection/\"><em>The State of American Friendship</em></a>",
       "ja": "Survey Center on American Life（2021年）. <a href=\"https://www.americansurveycenter.org/research/the-state-of-american-friendship-change-challenges-and-the-search-for-connection/\"><em>The State of American Friendship</em></a>",
-      "ko": "Survey Center on American Life (2021). <a href=\"https://www.americansurveycenter.org/research/the-state-of-american-friendship-change-challenges-and-the-search-for-connection/\"><em>The State of American Friendship</em></a>"
+      "ko": "Survey Center on American Life (2021). <a href=\"https://www.americansurveycenter.org/research/the-state-of-american-friendship-change-challenges-and-the-search-for-connection/\"><em>The State of American Friendship</em></a>",
+      "zh-Hans": "Survey Center on American Life（2021）. <a href=\"https://www.americansurveycenter.org/research/the-state-of-american-friendship-change-challenges-and-the-search-for-connection/\"><em>The State of American Friendship</em></a>",
+      "zh-Hant": "Survey Center on American Life（2021）. <a href=\"https://www.americansurveycenter.org/research/the-state-of-american-friendship-change-challenges-and-the-search-for-connection/\"><em>The State of American Friendship</em></a>"
     },
     "friendship_requires_roughly_50_hours_to_move_4b69c7": {
       "en": "Friendship requires roughly 50 hours to move from acquaintance to casual friend, 90 hours to become a genuine friend, and 200+ hours for a close friendship.",
@@ -2900,7 +3184,9 @@
       "ru": "Чтобы знакомый стал приятелем, нужно около 50 часов, чтобы стал настоящим другом, около 90 часов, а чтобы стал близким, более 200 часов.",
       "uk": "Щоб знайомий став приятелем, потрібно близько 50 годин, щоб став справжнім другом, близько 90 годин, а щоб став близьким, понад 200 годин.",
       "ja": "知人が気軽な友人になるにはおよそ50時間、本当の友人になるには90時間、親しい友人になるには200時間以上かかります。",
-      "ko": "아는 사이가 가벼운 친구가 되려면 약 50시간, 진짜 친구가 되려면 90시간, 가까운 사이가 되려면 200시간 이상이 필요합니다."
+      "ko": "아는 사이가 가벼운 친구가 되려면 약 50시간, 진짜 친구가 되려면 90시간, 가까운 사이가 되려면 200시간 이상이 필요합니다.",
+      "zh-Hans": "熟人变成一般朋友大约需要 50 小时，成为真正的朋友需要 90 小时，成为亲密朋友需要 200 小时以上。",
+      "zh-Hant": "熟人變成一般朋友大約需要 50 小時，成為真正的朋友需要 90 小時，成為親密朋友需要 200 小時以上。"
     },
     "hall_j_a_2018_journal_of_social_and_personal_947fe1": {
       "en": "Hall, J.A. (2018). <em>Journal of Social and Personal Relationships</em>. <a href=\"https://doi.org/10.1177/0265407518761225\">doi:10.1177/0265407518761225</a>",
@@ -2923,7 +3209,9 @@
       "ru": "Hall, J.A. (2018). <em>Journal of Social and Personal Relationships</em>. <a href=\"https://doi.org/10.1177/0265407518761225\">doi:10.1177/0265407518761225</a>",
       "uk": "Hall, J.A. (2018). <em>Journal of Social and Personal Relationships</em>. <a href=\"https://doi.org/10.1177/0265407518761225\">doi:10.1177/0265407518761225</a>",
       "ja": "Hall, J.A.（2018年）. <em>Journal of Social and Personal Relationships</em>. <a href=\"https://doi.org/10.1177/0265407518761225\">doi:10.1177/0265407518761225</a>",
-      "ko": "Hall, J.A. (2018). <em>Journal of Social and Personal Relationships</em>. <a href=\"https://doi.org/10.1177/0265407518761225\">doi:10.1177/0265407518761225</a>"
+      "ko": "Hall, J.A. (2018). <em>Journal of Social and Personal Relationships</em>. <a href=\"https://doi.org/10.1177/0265407518761225\">doi:10.1177/0265407518761225</a>",
+      "zh-Hans": "Hall, J.A.（2018）. <em>Journal of Social and Personal Relationships</em>. <a href=\"https://doi.org/10.1177/0265407518761225\">doi:10.1177/0265407518761225</a>",
+      "zh-Hant": "Hall, J.A.（2018）. <em>Journal of Social and Personal Relationships</em>. <a href=\"https://doi.org/10.1177/0265407518761225\">doi:10.1177/0265407518761225</a>"
     },
     "dear_can_t_create_hours_together_but_it_can_c24a6d": {
       "en": "Dear can't create hours together. But it can make sure you don't lose the ones you've already invested in.",
@@ -2946,7 +3234,9 @@
       "ru": "Dear не может создать часы, проведённые вместе. Но может сделать так, чтобы уже вложенные не пропали зря.",
       "uk": "Dear не може створити години, проведені разом. Але може зробити так, щоб уже вкладені не пропали марно.",
       "ja": "Dearは一緒に過ごす時間を作り出せません。でも、すでに注いだ時間が無駄にならないようにはできます。",
-      "ko": "Dear가 함께한 시간을 만들어낼 수는 없습니다. 하지만 이미 쏟은 시간이 헛되지 않게 할 수는 있습니다."
+      "ko": "Dear가 함께한 시간을 만들어낼 수는 없습니다. 하지만 이미 쏟은 시간이 헛되지 않게 할 수는 있습니다.",
+      "zh-Hans": "Dear 无法创造相处的时间。但它能让你已经付出的时间不白费。",
+      "zh-Hant": "Dear 無法創造相處的時間。但它能讓你已經付出的時間不白費。"
     },
     "dear_is_collaborating_with_researchers_to_st_1064ff": {
       "en": "Dear is collaborating with researchers to study the impact of gentle nudges on relationship maintenance. If you're a researcher interested in this work, reach out at <a href=\"mailto:support@dearnudges.com\">support@dearnudges.com</a>.",
@@ -2969,7 +3259,9 @@
       "ru": "Dear сотрудничает с исследователями, изучая, как мягкие напоминания влияют на поддержание отношений. Если вы работаете в этой области, напишите на <a href=\"mailto:support@dearnudges.com\">support@dearnudges.com</a>.",
       "uk": "Dear співпрацює з дослідниками, вивчаючи, як м'які нагадування впливають на підтримання стосунків. Якщо ви працюєте в цій царині, напишіть на <a href=\"mailto:support@dearnudges.com\">support@dearnudges.com</a>.",
       "ja": "Dearは研究者と協力し、やさしいリマインダーが人間関係の維持に与える影響を調べています。この分野を研究されている方は<a href=\"mailto:support@dearnudges.com\">support@dearnudges.com</a>までご連絡ください。",
-      "ko": "Dear는 부드러운 알림이 관계 유지에 미치는 영향을 연구자들과 함께 살펴보고 있습니다. 이 분야를 연구하신다면 <a href=\"mailto:support@dearnudges.com\">support@dearnudges.com</a>으로 연락 주세요."
+      "ko": "Dear는 부드러운 알림이 관계 유지에 미치는 영향을 연구자들과 함께 살펴보고 있습니다. 이 분야를 연구하신다면 <a href=\"mailto:support@dearnudges.com\">support@dearnudges.com</a>으로 연락 주세요.",
+      "zh-Hans": "Dear 正与研究者合作，研究温和的提醒对维系关系的影响。如果你从事这方面的研究，请联系 <a href=\"mailto:support@dearnudges.com\">support@dearnudges.com</a>。",
+      "zh-Hant": "Dear 正與研究者合作，研究溫和的提醒對維繫關係的影響。如果你從事這方面的研究，請聯絡 <a href=\"mailto:support@dearnudges.com\">support@dearnudges.com</a>。"
     },
     "support_f32d5a": {
       "en": "Support",
@@ -2992,7 +3284,9 @@
       "ru": "Поддержка",
       "uk": "Підтримка",
       "ja": "サポート",
-      "ko": "지원"
+      "ko": "지원",
+      "zh-Hans": "帮助",
+      "zh-Hant": "支援"
     },
     "find_answers_below_or_email_us_if_you_need_m_6811b1": {
       "en": "Find answers below, or email us if you need more help.",
@@ -3015,7 +3309,9 @@
       "ru": "Ответы ниже, а если нужна дополнительная помощь, напишите нам.",
       "uk": "Відповіді нижче, а якщо потрібна додаткова допомога, напишіть нам.",
       "ja": "下の回答をご覧ください。さらにお困りのことがあればメールでご連絡ください。",
-      "ko": "아래에서 답을 찾아보세요. 더 도움이 필요하면 이메일을 보내주세요."
+      "ko": "아래에서 답을 찾아보세요. 더 도움이 필요하면 이메일을 보내주세요.",
+      "zh-Hans": "下面有答案，如果还需要帮助，请发邮件给我们。",
+      "zh-Hant": "下面有解答，如果還需要協助，請寄電子郵件給我們。"
     },
     "getting_started_010b85": {
       "en": "Getting Started",
@@ -3038,7 +3334,9 @@
       "ru": "Начало работы",
       "uk": "Початок роботи",
       "ja": "はじめに",
-      "ko": "시작하기"
+      "ko": "시작하기",
+      "zh-Hans": "开始使用",
+      "zh-Hant": "開始使用"
     },
     "how_do_i_add_people_to_dear_70b829": {
       "en": "How do I add people to Dear?",
@@ -3061,7 +3359,9 @@
       "ru": "Как добавить людей в Dear?",
       "uk": "Як додати людей до Dear?",
       "ja": "Dearに人を追加するには？",
-      "ko": "Dear에 사람을 어떻게 추가하나요?"
+      "ko": "Dear에 사람을 어떻게 추가하나요?",
+      "zh-Hans": "如何把人添加到 Dear？",
+      "zh-Hant": "如何把人加入 Dear？"
     },
     "why_does_dear_need_access_to_my_contacts_b2dfff": {
       "en": "Why does Dear need access to my contacts?",
@@ -3084,7 +3384,9 @@
       "ru": "Зачем Dear доступ к моим контактам?",
       "uk": "Навіщо Dear доступ до моїх контактів?",
       "ja": "なぜDearに連絡先へのアクセスが必要なのですか？",
-      "ko": "Dear가 왜 연락처 접근 권한이 필요한가요?"
+      "ko": "Dear가 왜 연락처 접근 권한이 필요한가요?",
+      "zh-Hans": "Dear 为什么需要访问我的通讯录？",
+      "zh-Hant": "Dear 為什麼需要存取我的聯絡資訊？"
     },
     "how_do_nudge_reminders_work_db1df1": {
       "en": "How do nudge reminders work?",
@@ -3107,7 +3409,9 @@
       "ru": "Как работают напоминания?",
       "uk": "Як працюють нагадування?",
       "ja": "リマインダーはどう動きますか？",
-      "ko": "알림은 어떻게 작동하나요?"
+      "ko": "알림은 어떻게 작동하나요?",
+      "zh-Hans": "提醒是怎么工作的？",
+      "zh-Hant": "提醒是怎麼運作的？"
     },
     "how_do_i_set_up_notifications_1b2035": {
       "en": "How do I set up notifications?",
@@ -3130,7 +3434,9 @@
       "ru": "Как включить уведомления?",
       "uk": "Як увімкнути сповіщення?",
       "ja": "通知をオンにするには？",
-      "ko": "알림을 어떻게 켜나요?"
+      "ko": "알림을 어떻게 켜나요?",
+      "zh-Hans": "如何开启通知？",
+      "zh-Hant": "如何開啟通知？"
     },
     "what_are_the_frequency_options_7edba9": {
       "en": "What are the frequency options?",
@@ -3153,7 +3459,9 @@
       "ru": "Какие есть варианты частоты?",
       "uk": "Які є варіанти частоти?",
       "ja": "頻度の選択肢は？",
-      "ko": "주기 옵션에는 무엇이 있나요?"
+      "ko": "주기 옵션에는 무엇이 있나요?",
+      "zh-Hans": "有哪些频率选项？",
+      "zh-Hant": "有哪些頻率選項？"
     },
     "subscriptions_and_purchases_a684ca": {
       "en": "Subscriptions and Purchases",
@@ -3176,7 +3484,9 @@
       "ru": "Подписки и покупки",
       "uk": "Підписки та покупки",
       "ja": "サブスクリプションと購入",
-      "ko": "구독과 구매"
+      "ko": "구독과 구매",
+      "zh-Hans": "订阅与购买",
+      "zh-Hant": "訂閱與購買"
     },
     "what_s_included_in_the_free_version_1d7461": {
       "en": "What's included in the free version?",
@@ -3199,7 +3509,9 @@
       "ru": "Что входит в бесплатную версию?",
       "uk": "Що входить у безкоштовну версію?",
       "ja": "無料版には何が含まれますか？",
-      "ko": "무료 버전에는 무엇이 포함되나요?"
+      "ko": "무료 버전에는 무엇이 포함되나요?",
+      "zh-Hans": "免费版包含什么？",
+      "zh-Hant": "免費版包含什麼？"
     },
     "what_s_the_difference_between_monthly_and_an_90dbf5": {
       "en": "What's the difference between Monthly and Annual?",
@@ -3222,7 +3534,9 @@
       "ru": "Чем месячная подписка отличается от годовой?",
       "uk": "Чим місячна підписка відрізняється від річної?",
       "ja": "月額と年額の違いは？",
-      "ko": "월간과 연간은 무엇이 다른가요?"
+      "ko": "월간과 연간은 무엇이 다른가요?",
+      "zh-Hans": "按月和按年有什么区别？",
+      "zh-Hant": "月付和年付有什麼不同？"
     },
     "what_s_the_difference_between_individual_voi_739033": {
       "en": "What's the difference between individual voices, the Voice Bundle, and Dear+?",
@@ -3245,7 +3559,9 @@
       "ru": "Чем отличаются отдельные голоса, набор голосов и Dear+?",
       "uk": "Чим відрізняються окремі голоси, набір голосів і Dear+?",
       "ja": "個別の声、声のセット、Dear+の違いは？",
-      "ko": "개별 목소리, 목소리 묶음, Dear+는 무엇이 다른가요?"
+      "ko": "개별 목소리, 목소리 묶음, Dear+는 무엇이 다른가요?",
+      "zh-Hans": "单个声音、声音合集和 Dear+ 有什么区别？",
+      "zh-Hant": "單一聲音、聲音組合和 Dear+ 有什麼不同？"
     },
     "how_do_i_restore_my_purchases_on_a_new_devic_4b4193": {
       "en": "How do I restore my purchases on a new device?",
@@ -3268,7 +3584,9 @@
       "ru": "Как восстановить покупки на новом устройстве?",
       "uk": "Як відновити покупки на новому пристрої?",
       "ja": "新しい端末で購入を復元するには？",
-      "ko": "새 기기에서 구매 항목을 어떻게 복원하나요?"
+      "ko": "새 기기에서 구매 항목을 어떻게 복원하나요?",
+      "zh-Hans": "如何在新设备上恢复购买？",
+      "zh-Hant": "如何在新裝置上回復購買項目？"
     },
     "how_do_i_cancel_my_subscription_902dd7": {
       "en": "How do I cancel my subscription?",
@@ -3291,7 +3609,9 @@
       "ru": "Как отменить подписку?",
       "uk": "Як скасувати підписку?",
       "ja": "サブスクリプションを解約するには？",
-      "ko": "구독을 어떻게 취소하나요?"
+      "ko": "구독을 어떻게 취소하나요?",
+      "zh-Hans": "如何取消订阅？",
+      "zh-Hant": "如何取消訂閱？"
     },
     "i_was_charged_but_my_purchase_isn_t_showing_3b582a": {
       "en": "I was charged but my purchase isn't showing up.",
@@ -3314,7 +3634,9 @@
       "ru": "Деньги списались, а покупка не появилась.",
       "uk": "Гроші списалися, а покупка не з'явилася.",
       "ja": "請求されたのに購入が反映されません。",
-      "ko": "결제는 됐는데 구매 항목이 보이지 않아요."
+      "ko": "결제는 됐는데 구매 항목이 보이지 않아요.",
+      "zh-Hans": "已经扣款了，但购买没有生效。",
+      "zh-Hant": "已經扣款了，但購買項目沒有出現。"
     },
     "do_individual_voice_purchases_expire_385dc8": {
       "en": "Do individual voice purchases expire?",
@@ -3337,7 +3659,9 @@
       "ru": "Истекает ли срок у отдельных голосов?",
       "uk": "Чи спливає термін в окремих голосів?",
       "ja": "個別に買った声に期限はありますか？",
-      "ko": "개별 목소리 구매는 만료되나요?"
+      "ko": "개별 목소리 구매는 만료되나요?",
+      "zh-Hans": "单独购买的声音会过期吗？",
+      "zh-Hant": "單獨購買的聲音會過期嗎？"
     },
     "voices_and_personas_30403a": {
       "en": "Voices and Personas",
@@ -3360,7 +3684,9 @@
       "ru": "Голоса и персонажи",
       "uk": "Голоси та персонажі",
       "ja": "声とキャラクター",
-      "ko": "목소리와 캐릭터"
+      "ko": "목소리와 캐릭터",
+      "zh-Hans": "声音与角色",
+      "zh-Hant": "聲音與角色"
     },
     "how_do_i_change_my_nudge_voice_d88a71": {
       "en": "How do I change my nudge voice?",
@@ -3383,7 +3709,9 @@
       "ru": "Как сменить голос напоминаний?",
       "uk": "Як змінити голос нагадувань?",
       "ja": "リマインダーの声を変えるには？",
-      "ko": "알림 목소리를 어떻게 바꾸나요?"
+      "ko": "알림 목소리를 어떻게 바꾸나요?",
+      "zh-Hans": "如何更换提醒的声音？",
+      "zh-Hant": "如何更換提醒的聲音？"
     },
     "what_voices_are_included_for_free_ed7ae1": {
       "en": "What voices are included for free?",
@@ -3406,7 +3734,9 @@
       "ru": "Какие голоса бесплатные?",
       "uk": "Які голоси безкоштовні?",
       "ja": "無料の声はどれですか？",
-      "ko": "무료 목소리는 어떤 것인가요?"
+      "ko": "무료 목소리는 어떤 것인가요?",
+      "zh-Hans": "哪些声音是免费的？",
+      "zh-Hant": "哪些聲音是免費的？"
     },
     "what_do_the_premium_voices_sound_like_ad33a6": {
       "en": "What do the premium voices sound like?",
@@ -3429,7 +3759,9 @@
       "ru": "Как звучат платные голоса?",
       "uk": "Як звучать платні голоси?",
       "ja": "有料の声はどんな感じですか？",
-      "ko": "유료 목소리는 어떤 느낌인가요?"
+      "ko": "유료 목소리는 어떤 느낌인가요?",
+      "zh-Hans": "付费声音是什么感觉？",
+      "zh-Hant": "付費聲音是什麼感覺？"
     },
     "what_are_trilingual_voices_a14ab1": {
       "en": "What are trilingual voices?",
@@ -3452,7 +3784,9 @@
       "ru": "Что такое трёхъязычные голоса?",
       "uk": "Що таке тримовні голоси?",
       "ja": "三言語対応の声とは？",
-      "ko": "3개 언어 목소리란 무엇인가요?"
+      "ko": "3개 언어 목소리란 무엇인가요?",
+      "zh-Hans": "什么是三语声音？",
+      "zh-Hant": "什麼是三語聲音？"
     },
     "features_fc338f": {
       "en": "Features",
@@ -3475,7 +3809,9 @@
       "ru": "Возможности",
       "uk": "Можливості",
       "ja": "機能",
-      "ko": "기능"
+      "ko": "기능",
+      "zh-Hans": "功能",
+      "zh-Hant": "功能"
     },
     "how_does_the_whatsapp_toggle_work_6bf3b3": {
       "en": "How does the WhatsApp toggle work?",
@@ -3498,7 +3834,9 @@
       "ru": "Как работает переключатель WhatsApp?",
       "uk": "Як працює перемикач WhatsApp?",
       "ja": "WhatsAppの切り替えはどう動きますか？",
-      "ko": "WhatsApp 전환은 어떻게 작동하나요?"
+      "ko": "WhatsApp 전환은 어떻게 작동하나요?",
+      "zh-Hans": "WhatsApp 切换是怎么工作的？",
+      "zh-Hant": "WhatsApp 切換是怎麼運作的？"
     },
     "how_do_i_set_up_the_dear_widget_addf2e": {
       "en": "How do I set up the Dear widget?",
@@ -3521,7 +3859,9 @@
       "ru": "Как настроить виджет Dear?",
       "uk": "Як налаштувати віджет Dear?",
       "ja": "Dearのウィジェットを設定するには？",
-      "ko": "Dear 위젯을 어떻게 설정하나요?"
+      "ko": "Dear 위젯을 어떻게 설정하나요?",
+      "zh-Hans": "如何设置 Dear 小组件？",
+      "zh-Hant": "如何設定 Dear 小工具？"
     },
     "how_many_nudges_do_i_get_per_day_20ea93": {
       "en": "How many nudges do I get per day?",
@@ -3544,7 +3884,9 @@
       "ru": "Сколько напоминаний в день я получаю?",
       "uk": "Скільки нагадувань на день я отримую?",
       "ja": "一日に届くリマインダーはいくつですか？",
-      "ko": "하루에 알림을 몇 번 받나요?"
+      "ko": "하루에 알림을 몇 번 받나요?",
+      "zh-Hans": "我每天会收到几条提醒？",
+      "zh-Hant": "我每天會收到幾則提醒？"
     },
     "privacy_and_data_77fbe4": {
       "en": "Privacy and Data",
@@ -3567,7 +3909,9 @@
       "ru": "Приватность и данные",
       "uk": "Приватність і дані",
       "ja": "プライバシーとデータ",
-      "ko": "개인정보와 데이터"
+      "ko": "개인정보와 데이터",
+      "zh-Hans": "隐私与数据",
+      "zh-Hant": "隱私與資料"
     },
     "does_dear_collect_my_data_eb702c": {
       "en": "Does Dear collect my data?",
@@ -3590,7 +3934,9 @@
       "ru": "Собирает ли Dear мои данные?",
       "uk": "Чи збирає Dear мої дані?",
       "ja": "Dearは私のデータを集めますか？",
-      "ko": "Dear가 제 데이터를 수집하나요?"
+      "ko": "Dear가 제 데이터를 수집하나요?",
+      "zh-Hans": "Dear 会收集我的数据吗？",
+      "zh-Hant": "Dear 會蒐集我的資料嗎？"
     },
     "do_i_need_to_create_an_account_02edb7": {
       "en": "Do I need to create an account?",
@@ -3613,7 +3959,9 @@
       "ru": "Нужно ли создавать аккаунт?",
       "uk": "Чи потрібно створювати обліковий запис?",
       "ja": "アカウントを作る必要はありますか？",
-      "ko": "계정을 만들어야 하나요?"
+      "ko": "계정을 만들어야 하나요?",
+      "zh-Hans": "需要注册账号吗？",
+      "zh-Hant": "需要建立帳號嗎？"
     },
     "can_dear_see_my_messages_or_call_history_dda1f4": {
       "en": "Can Dear see my messages or call history?",
@@ -3636,7 +3984,9 @@
       "ru": "Видит ли Dear мои сообщения или звонки?",
       "uk": "Чи бачить Dear мої повідомлення або дзвінки?",
       "ja": "Dearはメッセージや通話履歴を見られますか？",
-      "ko": "Dear가 제 메시지나 통화 기록을 볼 수 있나요?"
+      "ko": "Dear가 제 메시지나 통화 기록을 볼 수 있나요?",
+      "zh-Hans": "Dear 能看到我的消息或通话记录吗？",
+      "zh-Hant": "Dear 看得到我的訊息或通話紀錄嗎？"
     },
     "troubleshooting_285ec8": {
       "en": "Troubleshooting",
@@ -3659,7 +4009,9 @@
       "ru": "Устранение неполадок",
       "uk": "Усунення несправностей",
       "ja": "トラブルシューティング",
-      "ko": "문제 해결"
+      "ko": "문제 해결",
+      "zh-Hans": "故障排查",
+      "zh-Hant": "疑難排解"
     },
     "i_m_not_receiving_notifications_0524f0": {
       "en": "I'm not receiving notifications.",
@@ -3682,7 +4034,9 @@
       "ru": "Уведомления не приходят.",
       "uk": "Сповіщення не надходять.",
       "ja": "通知が届きません。",
-      "ko": "알림이 오지 않아요."
+      "ko": "알림이 오지 않아요.",
+      "zh-Hans": "我收不到通知。",
+      "zh-Hant": "我收不到通知。"
     },
     "my_contacts_aren_t_appearing_in_the_app_b88618": {
       "en": "My contacts aren't appearing in the app.",
@@ -3705,7 +4059,9 @@
       "ru": "Мои контакты не появляются в приложении.",
       "uk": "Мої контакти не з'являються в застосунку.",
       "ja": "連絡先がアプリに表示されません。",
-      "ko": "연락처가 앱에 나타나지 않아요."
+      "ko": "연락처가 앱에 나타나지 않아요.",
+      "zh-Hans": "我的联系人没有出现在应用里。",
+      "zh-Hant": "我的聯絡人沒有出現在 App 裡。"
     },
     "a_purchase_isn_t_unlocking_973b26": {
       "en": "A purchase isn't unlocking.",
@@ -3728,7 +4084,9 @@
       "ru": "Покупка не открывается.",
       "uk": "Покупка не відкривається.",
       "ja": "購入したのに使えません。",
-      "ko": "구매한 항목이 열리지 않아요."
+      "ko": "구매한 항목이 열리지 않아요.",
+      "zh-Hans": "购买的内容没有解锁。",
+      "zh-Hant": "購買的內容沒有解鎖。"
     },
     "still_need_help_25e6e3": {
       "en": "Still need help?",
@@ -3751,7 +4109,9 @@
       "ru": "Нужна ещё помощь?",
       "uk": "Потрібна ще допомога?",
       "ja": "まだお困りですか？",
-      "ko": "더 도움이 필요하신가요?"
+      "ko": "더 도움이 필요하신가요?",
+      "zh-Hans": "还需要帮助吗？",
+      "zh-Hant": "還需要協助嗎？"
     },
     "we_usually_respond_within_48_hours_b73fa9": {
       "en": "We usually respond within 48 hours.",
@@ -3774,7 +4134,9 @@
       "ru": "Обычно мы отвечаем в течение 48 часов.",
       "uk": "Зазвичай ми відповідаємо протягом 48 годин.",
       "ja": "通常48時間以内に返信します。",
-      "ko": "보통 48시간 안에 답변드립니다."
+      "ko": "보통 48시간 안에 답변드립니다.",
+      "zh-Hans": "我们通常在 48 小时内回复。",
+      "zh-Hant": "我們通常在 48 小時內回覆。"
     }
   },
   "ready": [
@@ -3798,7 +4160,9 @@
     "ru",
     "uk",
     "ja",
-    "ko"
+    "ko",
+    "zh-Hans",
+    "zh-Hant"
   ],
   "names": {
     "en": "EN",
@@ -3821,7 +4185,9 @@
     "ru": "RU",
     "uk": "UK",
     "ja": "JA",
-    "ko": "KO"
+    "ko": "KO",
+    "zh-Hans": "ZH-HANS",
+    "zh-Hant": "ZH-HANT"
   },
   "nav": {
     "nav_home": {
@@ -3845,7 +4211,9 @@
       "ru": "Главная",
       "uk": "Головна",
       "ja": "ホーム",
-      "ko": "홈"
+      "ko": "홈",
+      "zh-Hans": "首页",
+      "zh-Hant": "首頁"
     },
     "nav_about": {
       "en": "About",
@@ -3868,7 +4236,9 @@
       "ru": "О приложении",
       "uk": "Про застосунок",
       "ja": "概要",
-      "ko": "소개"
+      "ko": "소개",
+      "zh-Hans": "关于",
+      "zh-Hant": "關於"
     },
     "nav_research": {
       "en": "Research",
@@ -3891,7 +4261,9 @@
       "ru": "Исследования",
       "uk": "Дослідження",
       "ja": "研究",
-      "ko": "연구"
+      "ko": "연구",
+      "zh-Hans": "研究",
+      "zh-Hant": "研究"
     },
     "nav_faq": {
       "en": "FAQ",
@@ -3914,7 +4286,9 @@
       "ru": "Вопросы",
       "uk": "Запитання",
       "ja": "よくある質問",
-      "ko": "자주 묻는 질문"
+      "ko": "자주 묻는 질문",
+      "zh-Hans": "常见问题",
+      "zh-Hant": "常見問題"
     },
     "nav_privacy": {
       "en": "Privacy",
@@ -3937,7 +4311,9 @@
       "ru": "Приватность",
       "uk": "Приватність",
       "ja": "プライバシー",
-      "ko": "개인정보"
+      "ko": "개인정보",
+      "zh-Hans": "隐私",
+      "zh-Hant": "隱私"
     },
     "nav_press": {
       "en": "Press",
@@ -3960,7 +4336,9 @@
       "ru": "Пресса",
       "uk": "Преса",
       "ja": "プレス",
-      "ko": "프레스"
+      "ko": "프레스",
+      "zh-Hans": "媒体",
+      "zh-Hant": "媒體"
     }
   },
   "meta": {
@@ -3986,7 +4364,9 @@
         "ru": "Dear: оставайтесь на связи",
         "uk": "Dear: залишайтеся на зв'язку",
         "ja": "Dear：つながりを保つ",
-        "ko": "Dear: 계속 이어지는 연락"
+        "ko": "Dear: 계속 이어지는 연락",
+        "zh-Hans": "Dear：保持联系",
+        "zh-Hant": "Dear：保持聯絡"
       },
       "desc": {
         "en": "One gentle nudge a day to stay close to the people who matter. Free, private, no accounts needed.",
@@ -4009,7 +4389,9 @@
         "ru": "Одно мягкое напоминание в день, чтобы быть ближе к важным людям. Бесплатно, приватно, без аккаунтов.",
         "uk": "Одне м'яке нагадування на день, щоб бути ближче до важливих людей. Безкоштовно, приватно, без облікових записів.",
         "ja": "大切な人と近くあり続けるための、一日ひとつのやさしいリマインダー。無料、プライベート、アカウント不要。",
-        "ko": "소중한 사람과 가까이 지내도록 하루에 하나씩 보내는 부드러운 알림. 무료, 비공개, 계정 불필요."
+        "ko": "소중한 사람과 가까이 지내도록 하루에 하나씩 보내는 부드러운 알림. 무료, 비공개, 계정 불필요.",
+        "zh-Hans": "每天一条温和的提醒，让你和重要的人保持亲近。免费、私密、无需账号。",
+        "zh-Hant": "每天一則溫和的提醒，讓你和重要的人保持親近。免費、私密、不需要帳號。"
       }
     },
     "about.html": {
@@ -4034,7 +4416,9 @@
         "ru": "О Dear",
         "uk": "Про Dear",
         "ja": "Dearについて",
-        "ko": "Dear 소개"
+        "ko": "Dear 소개",
+        "zh-Hans": "关于 Dear",
+        "zh-Hant": "關於 Dear"
       },
       "desc": {
         "en": "Why Dear exists, the research behind it, and how it works.",
@@ -4057,7 +4441,9 @@
         "ru": "Зачем нужен Dear, какие исследования за ним стоят и как он работает.",
         "uk": "Навіщо потрібен Dear, які дослідження за ним стоять і як він працює.",
         "ja": "Dearがある理由、その背景にある研究、そして使い方。",
-        "ko": "Dear가 존재하는 이유, 그 뒤의 연구, 그리고 작동 방식."
+        "ko": "Dear가 존재하는 이유, 그 뒤의 연구, 그리고 작동 방식.",
+        "zh-Hans": "为什么会有 Dear，它背后的研究，以及它如何运作。",
+        "zh-Hant": "為什麼會有 Dear，它背後的研究，以及它如何運作。"
       }
     },
     "press.html": {
@@ -4082,7 +4468,9 @@
         "ru": "Пресс-кит - Dear",
         "uk": "Прескіт - Dear",
         "ja": "プレスキット - Dear",
-        "ko": "프레스 킷 - Dear"
+        "ko": "프레스 킷 - Dear",
+        "zh-Hans": "媒体资料包 - Dear",
+        "zh-Hant": "媒體資料包 - Dear"
       },
       "desc": {
         "en": "Press kit for Dear: Stay in Touch. App overview, key facts, research, and downloads.",
@@ -4105,7 +4493,9 @@
         "ru": "Пресс-кит Dear. Обзор, ключевые факты, исследования и загрузки.",
         "uk": "Прескіт Dear. Огляд, ключові факти, дослідження та завантаження.",
         "ja": "Dearのプレスキット。概要、主な情報、研究、ダウンロード。",
-        "ko": "Dear의 프레스 킷. 개요, 주요 정보, 연구, 다운로드."
+        "ko": "Dear의 프레스 킷. 개요, 주요 정보, 연구, 다운로드.",
+        "zh-Hans": "Dear 的媒体资料包。概览、关键信息、研究和下载。",
+        "zh-Hant": "Dear 的媒體資料包。概覽、重點資訊、研究和下載。"
       }
     },
     "privacy.html": {
@@ -4130,7 +4520,9 @@
         "ru": "Приватность - Dear",
         "uk": "Приватність - Dear",
         "ja": "プライバシー - Dear",
-        "ko": "개인정보 - Dear"
+        "ko": "개인정보 - Dear",
+        "zh-Hans": "隐私 - Dear",
+        "zh-Hant": "隱私 - Dear"
       },
       "desc": {
         "en": "Dear privacy policy. Your friends and contact data never leave your phone.",
@@ -4153,7 +4545,9 @@
         "ru": "Политика конфиденциальности Dear. Ваши люди и контакты никогда не покидают телефон.",
         "uk": "Політика конфіденційності Dear. Ваші люди та контакти ніколи не залишають телефон.",
         "ja": "Dearのプライバシーポリシー。あなたの大切な人と連絡先が端末から出ることはありません。",
-        "ko": "Dear의 개인정보 처리방침. 당신의 사람들과 연락처는 휴대폰을 벗어나지 않습니다."
+        "ko": "Dear의 개인정보 처리방침. 당신의 사람들과 연락처는 휴대폰을 벗어나지 않습니다.",
+        "zh-Hans": "Dear 的隐私政策。你身边的人和通讯录永远不会离开你的手机。",
+        "zh-Hant": "Dear 的隱私權政策。你身邊的人和聯絡資訊永遠不會離開你的手機。"
       }
     },
     "research.html": {
@@ -4178,7 +4572,9 @@
         "ru": "Исследования - Dear",
         "uk": "Дослідження - Dear",
         "ja": "研究 - Dear",
-        "ko": "연구 - Dear"
+        "ko": "연구 - Dear",
+        "zh-Hans": "研究 - Dear",
+        "zh-Hant": "研究 - Dear"
       },
       "desc": {
         "en": "The behavioral science behind Dear. Research on loneliness and the appreciation gap.",
@@ -4201,7 +4597,9 @@
         "ru": "Поведенческая наука, лежащая в основе Dear. Исследования об одиночестве и о значении сообщения.",
         "uk": "Поведінкова наука в основі Dear. Дослідження про самотність і про значення повідомлення.",
         "ja": "Dearの背景にある行動科学。孤独とメッセージの持つ意味についての研究。",
-        "ko": "Dear 뒤에 있는 행동과학. 외로움과 메시지의 의미에 관한 연구."
+        "ko": "Dear 뒤에 있는 행동과학. 외로움과 메시지의 의미에 관한 연구.",
+        "zh-Hans": "Dear 背后的行为科学。关于孤独和一条消息意义的研究。",
+        "zh-Hant": "Dear 背後的行為科學。關於孤獨和一則訊息意義的研究。"
       }
     },
     "support.html": {
@@ -4226,7 +4624,9 @@
         "ru": "Поддержка - Dear",
         "uk": "Підтримка - Dear",
         "ja": "サポート - Dear",
-        "ko": "지원 - Dear"
+        "ko": "지원 - Dear",
+        "zh-Hans": "帮助 - Dear",
+        "zh-Hant": "支援 - Dear"
       },
       "desc": {
         "en": "Dear support and frequently asked questions.",
@@ -4249,13 +4649,13 @@
         "ru": "Поддержка и частые вопросы о Dear.",
         "uk": "Підтримка та часті запитання про Dear.",
         "ja": "Dearのサポートとよくある質問。",
-        "ko": "Dear에 대한 지원과 자주 묻는 질문."
+        "ko": "Dear에 대한 지원과 자주 묻는 질문.",
+        "zh-Hans": "Dear 的帮助与常见问题。",
+        "zh-Hant": "Dear 的支援與常見問題。"
       }
     }
   },
   "needs_font": [
-    "zh-Hant",
-    "zh-Hans",
     "hi",
     "ar",
     "th",
@@ -4291,7 +4691,9 @@
       "ru": "Ежедневная карточка Dear предлагает, кому написать сегодня",
       "uk": "Щоденна картка Dear пропонує, кому написати сьогодні",
       "ja": "Dearの毎日のカードが、今日連絡する相手を提案します",
-      "ko": "Dear의 하루 카드가 오늘 연락할 사람을 제안합니다"
+      "ko": "Dear의 하루 카드가 오늘 연락할 사람을 제안합니다",
+      "zh-Hans": "Dear 的每日卡片建议今天可以联系的人",
+      "zh-Hant": "Dear 的每日卡片建議今天可以聯絡的人"
     },
     "alt2": {
       "en": "Your people in Dear, each with their own reach-out rhythm",
@@ -4314,7 +4716,9 @@
       "ru": "Ваши люди в Dear, у каждого свой ритм",
       "uk": "Ваші люди в Dear, у кожного свій ритм",
       "ja": "Dearの中のあなたの人たち。それぞれに自分のペースがあります",
-      "ko": "Dear 안의 당신의 사람들, 각자 자기 속도로"
+      "ko": "Dear 안의 당신의 사람들, 각자 자기 속도로",
+      "zh-Hans": "Dear 里你的人，各有各的节奏",
+      "zh-Hant": "Dear 裡你的人，各有各的節奏"
     },
     "alt3": {
       "en": "The Dear widget on an iPhone home screen",
@@ -4337,7 +4741,9 @@
       "ru": "Виджет Dear на домашнем экране iPhone",
       "uk": "Віджет Dear на домашньому екрані iPhone",
       "ja": "iPhoneのホーム画面にあるDearのウィジェット",
-      "ko": "iPhone 홈 화면의 Dear 위젯"
+      "ko": "iPhone 홈 화면의 Dear 위젯",
+      "zh-Hans": "iPhone 主屏幕上的 Dear 小组件",
+      "zh-Hant": "iPhone 主畫面上的 Dear 小工具"
     },
     "caption": {
       "en": "One card a day. Your circle, not a feed.",
@@ -4360,7 +4766,9 @@
       "ru": "Одна карточка в день. Ваш круг, а не лента.",
       "uk": "Одна картка на день. Ваше коло, а не стрічка.",
       "ja": "一日にカード一枚。フィードではなく、あなたの輪。",
-      "ko": "하루에 카드 한 장. 피드가 아니라 당신의 테두리."
+      "ko": "하루에 카드 한 장. 피드가 아니라 당신의 테두리.",
+      "zh-Hans": "一天一张卡片。是你的圈子，不是信息流。",
+      "zh-Hant": "一天一張卡片。是你的圈子，不是動態牆。"
     }
   },
   "endonyms": {
@@ -4418,7 +4826,9 @@
       "ru": "Скоро",
       "uk": "Незабаром",
       "ja": "近日対応",
-      "ko": "곧 지원"
+      "ko": "곧 지원",
+      "zh-Hans": "即将支持",
+      "zh-Hant": "即將支援"
     },
     "app_note": {
       "en": "The app already speaks all 31.",
@@ -4441,7 +4851,9 @@
       "ru": "Приложение уже говорит на всех 31.",
       "uk": "Застосунок уже говорить усіма 31.",
       "ja": "アプリはすでに31言語すべてに対応しています。",
-      "ko": "앱은 이미 31개 언어를 모두 지원합니다."
+      "ko": "앱은 이미 31개 언어를 모두 지원합니다.",
+      "zh-Hans": "应用已经支持全部 31 种语言。",
+      "zh-Hant": "App 已經支援全部 31 種語言。"
     }
   }
 }
