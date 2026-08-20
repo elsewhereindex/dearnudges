@@ -92,10 +92,19 @@
         border-color: #3A3A38 !important;
     }
 
-    /* Language switcher */
+    /* Language switcher.
+
+       This rule set colour and border but NOT background. Five of the six page
+       templates declare `background: white` on .lang-btn inline and index.html
+       declares `transparent`, so in dark mode the pills were white slabs on a
+       dark page everywhere except the homepage. Set the background here too. */
     .lang-btn {
         color: #9FA59F !important;
+        background: #2A2A28 !important;
         border-color: #3A3A38 !important;
+    }
+    .lang-btn:hover, .lang-btn.active {
+        background: #34342F !important;
     }
     .lang-btn:hover, .lang-btn.active {
         color: #F0EEE0 !important;
@@ -215,6 +224,18 @@ a.lang-btn {
     display: inline-block;
     text-decoration: none;
     line-height: 1.1;
+}
+
+/* The six templates each carry their own .lang-btn block and they had drifted:
+   index.html at 0.7rem / 4px 8px / 5px radius and a transparent background, the
+   other five at 0.75rem / 5px 10px / 6px and white. Two visibly different
+   switchers depending on which page you were on. Pin the shared values here,
+   in the stylesheet that loads last, so the per-template copies cannot diverge
+   again without someone noticing. */
+.lang-btn {
+    font-size: 0.72rem;
+    padding: 4px 9px;
+    border-radius: 6px;
 }
 
 /* Planned, not yet translated. Non-interactive and clearly secondary. */

@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>গবেষণা - Dear</title>
+    <meta name="description" content="Dear-এর পেছনের আচরণ বিজ্ঞান। একাকিত্ব আর একটি মেসেজের মানে নিয়ে গবেষণা।">
+    <meta property="og:title" content="গবেষণা - Dear">
+    <meta property="og:description" content="Dear-এর পেছনের আচরণ বিজ্ঞান। একাকিত্ব আর একটি মেসেজের মানে নিয়ে গবেষণা।">
+    <meta property="og:image" content="https://dearnudges.com/app-icon.png">
+    <meta property="og:url" content="https://dearnudges.com/bn/research.html">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/png" href="../app-icon.png">
+    <link rel="apple-touch-icon" href="../app-icon.png">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Quicksand', -apple-system, sans-serif;
+            background: #FAFAFD;
+            color: #2D2D2D;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0 24px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .lang-nav {
+            position: fixed;
+            top: 16px;
+            right: 20px;
+            display: flex;
+            gap: 4px;
+            z-index: 10;
+        }
+
+        .lang-btn {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #7A767B;
+            background: white;
+            border: 1px solid #E0E0E0;
+            padding: 5px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+
+        .lang-btn:hover, .lang-btn.active {
+            color: #6B8AD6;
+            border-color: #6B8AD6;
+            background: #F5F6FB;
+        }
+
+        .page { max-width: 600px; width: 100%; padding: 64px 0 24px; }
+
+        .page-title {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 2rem;
+            color: #6B8AD6;
+            margin-bottom: 12px;
+            text-align: center;
+        }
+
+        .page-subtitle {
+            font-size: 0.92rem;
+            color: #7A767B;
+            text-align: center;
+            line-height: 1.6;
+            margin-bottom: 48px;
+        }
+
+        .section { margin-bottom: 40px; }
+
+        .section-title {
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 700;
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: #6B8AD6;
+            margin-bottom: 16px;
+        }
+
+        .divider { width: 64px; height: 1px; background: rgba(92, 133, 214, 0.25); margin: 0 0 40px; }
+
+        .body-text { font-size: 0.95rem; color: #7A767B; line-height: 1.65; }
+
+        /* Citation cards */
+        .citations { display: flex; flex-direction: column; gap: 20px; }
+
+        .citation {
+            background: white;
+            border: 1px solid #E8E8EC;
+            border-radius: 12px;
+            padding: 20px;
+        }
+
+        .citation .finding {
+            font-size: 0.95rem;
+            color: #2D2D2D;
+            line-height: 1.6;
+            margin-bottom: 12px;
+            font-weight: 500;
+        }
+
+        .citation .context {
+            font-size: 0.88rem;
+            color: #7A767B;
+            line-height: 1.55;
+            margin-bottom: 12px;
+        }
+
+        .citation .source {
+            font-size: 0.78rem;
+            color: #6E6A6F;
+            line-height: 1.5;
+        }
+        .citation .source em {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-style: italic;
+            color: #7A767B;
+        }
+        .citation .source a {
+            color: #6B8AD6;
+            text-decoration: none;
+        }
+        .citation .source a:hover { text-decoration: underline; }
+
+        .citation .dear-connection {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(92, 133, 214, 0.1);
+            font-size: 0.82rem;
+            color: #6B8AD6;
+            font-weight: 600;
+            font-style: italic;
+        }
+
+        /* Bottom content */
+        .note-box {
+            background: white;
+            border: 1px solid #E8E8EC;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+        }
+        .note-box p {
+            font-size: 0.88rem;
+            color: #7A767B;
+            line-height: 1.6;
+        }
+        .note-box a {
+            color: #6B8AD6;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .note-box a:hover { text-decoration: underline; }
+
+        footer { font-size: 0.75rem; color: #7A767B; padding-bottom: 80px; line-height: 1.7; text-align: center; max-width: 600px; width: 100%; }
+
+        .bottom-nav { position: fixed; bottom: 0; left: 0; right: 0; background: #8396D1; display: flex; justify-content: center; padding: 0; z-index: 20; }
+        .bottom-nav a { flex: 1; max-width: 100px; text-align: center; padding: 10px 0 calc(10px + env(safe-area-inset-bottom, 0px)); font-family: 'Quicksand', sans-serif; font-size: 0.65rem; font-weight: 600; color: rgba(255, 255, 255, 0.7); text-decoration: none; display: flex; flex-direction: column; align-items: center; gap: 3px; transition: color 0.15s ease; }
+        .bottom-nav a:hover, .bottom-nav a.active { color: #FFFFFF; }
+        .bottom-nav svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+
+        [data-lang] { display: none; }
+        [data-lang="bn"] { display: block; }
+
+        @media (max-width: 480px) {
+            .page { padding: 40px 0 20px; }
+            .page-title { font-size: 1.65rem; }
+            .body-text { font-size: 0.88rem; }
+            .section-title { font-size: 0.78rem; }
+            .citation .finding { font-size: 0.88rem; }
+            .bottom-nav a { font-size: 0.6rem; }
+            .lang-nav { top: 10px; right: 10px; }
+            .lang-btn { padding: 4px 8px; font-size: 0.7rem; }
+        }
+    </style>
+    <link rel="stylesheet" href="../fonts.css">
+    <link rel="stylesheet" href="../fonts-i18n.css">
+    <link rel="stylesheet" href="../site.css">
+    <link rel="canonical" href="https://dearnudges.com/bn/research.html">
+    <link rel="alternate" hreflang="en" href="https://dearnudges.com/research.html">
+    <link rel="alternate" hreflang="fr" href="https://dearnudges.com/fr/research.html">
+    <link rel="alternate" hreflang="es" href="https://dearnudges.com/es/research.html">
+    <link rel="alternate" hreflang="de" href="https://dearnudges.com/de/research.html">
+    <link rel="alternate" hreflang="it" href="https://dearnudges.com/it/research.html">
+    <link rel="alternate" hreflang="ja" href="https://dearnudges.com/ja/research.html">
+    <link rel="alternate" hreflang="ko" href="https://dearnudges.com/ko/research.html">
+    <link rel="alternate" hreflang="zh-Hant" href="https://dearnudges.com/zh-Hant/research.html">
+    <link rel="alternate" hreflang="zh-Hans" href="https://dearnudges.com/zh-Hans/research.html">
+    <link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/research.html">
+    <link rel="alternate" hreflang="ru" href="https://dearnudges.com/ru/research.html">
+    <link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/research.html">
+    <link rel="alternate" hreflang="hi" href="https://dearnudges.com/hi/research.html">
+    <link rel="alternate" hreflang="id" href="https://dearnudges.com/id/research.html">
+    <link rel="alternate" hreflang="tr" href="https://dearnudges.com/tr/research.html">
+    <link rel="alternate" hreflang="pl" href="https://dearnudges.com/pl/research.html">
+    <link rel="alternate" hreflang="vi" href="https://dearnudges.com/vi/research.html">
+    <link rel="alternate" hreflang="th" href="https://dearnudges.com/th/research.html">
+    <link rel="alternate" hreflang="uk" href="https://dearnudges.com/uk/research.html">
+    <link rel="alternate" hreflang="sv" href="https://dearnudges.com/sv/research.html">
+    <link rel="alternate" hreflang="nb" href="https://dearnudges.com/nb/research.html">
+    <link rel="alternate" hreflang="da" href="https://dearnudges.com/da/research.html">
+    <link rel="alternate" hreflang="fi" href="https://dearnudges.com/fi/research.html">
+    <link rel="alternate" hreflang="fil" href="https://dearnudges.com/fil/research.html">
+    <link rel="alternate" hreflang="bn" href="https://dearnudges.com/bn/research.html">
+    <link rel="alternate" hreflang="mr" href="https://dearnudges.com/mr/research.html">
+    <link rel="alternate" hreflang="sw" href="https://dearnudges.com/sw/research.html">
+    <link rel="alternate" hreflang="x-default" href="https://dearnudges.com/research.html">
+</head>
+<body>
+
+    <nav class="lang-nav" aria-label="Language">
+        <a class="lang-btn" hreflang="en" href="../research.html">EN</a><a class="lang-btn" hreflang="fr" href="../fr/research.html">FR</a><a class="lang-btn" hreflang="es" href="../es/research.html">ES</a><a class="lang-btn" hreflang="de" href="../de/research.html">DE</a><a class="lang-btn" hreflang="it" href="../it/research.html">IT</a><a class="lang-btn" hreflang="ja" href="../ja/research.html">JA</a><a class="lang-btn" hreflang="ko" href="../ko/research.html">KO</a><a class="lang-btn" hreflang="zh-Hant" href="../zh-Hant/research.html">ZH-HANT</a><a class="lang-btn" hreflang="zh-Hans" href="../zh-Hans/research.html">ZH-HANS</a><a class="lang-btn" hreflang="pt-BR" href="../pt-BR/research.html">PT</a><a class="lang-btn" hreflang="ru" href="../ru/research.html">RU</a><a class="lang-btn" hreflang="nl" href="../nl/research.html">NL</a><a class="lang-btn" hreflang="hi" href="../hi/research.html">HI</a><a class="lang-btn" hreflang="id" href="../id/research.html">ID</a><a class="lang-btn" hreflang="tr" href="../tr/research.html">TR</a><a class="lang-btn" hreflang="pl" href="../pl/research.html">PL</a><a class="lang-btn" hreflang="vi" href="../vi/research.html">VI</a><a class="lang-btn" hreflang="th" href="../th/research.html">TH</a><a class="lang-btn" hreflang="uk" href="../uk/research.html">UK</a><a class="lang-btn" hreflang="sv" href="../sv/research.html">SV</a><a class="lang-btn" hreflang="nb" href="../nb/research.html">NB</a><a class="lang-btn" hreflang="da" href="../da/research.html">DA</a><a class="lang-btn" hreflang="fi" href="../fi/research.html">FI</a><a class="lang-btn" hreflang="fil" href="../fil/research.html">FIL</a><a class="lang-btn active" hreflang="bn" aria-current="true" href="../bn/research.html">BN</a><a class="lang-btn" hreflang="mr" href="../mr/research.html">MR</a><a class="lang-btn" hreflang="sw" href="../sw/research.html">SW</a>
+        <button class="lang-btn lang-more" aria-expanded="false" aria-controls="lang-more-list" aria-label="More languages" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='true'?'false':'true')">+</button>
+        <div class="lang-more-list" id="lang-more-list">
+            <p class="lang-soon-heading">শীঘ্রই আসছে</p>
+            <div class="lang-soon-grid"><span class="lang-soon-item">العربية</span><span class="lang-soon-item">עברית</span><span class="lang-soon-item">தமிழ்</span><span class="lang-soon-item">తెలుగు</span></div>
+            <p class="lang-soon-note">অ্যাপ ইতিমধ্যেই 31টি ভাষাতেই কথা বলে।</p>
+        </div>
+    </nav>
+
+    <div class="page">
+        <h1 class="page-title">
+            গবেষণা
+        </h1>
+        <p class="page-subtitle">
+            Dear আন্দাজে নয়, আচরণ বিজ্ঞানের উপর দাঁড়ানো। এই গবেষণাগুলোই অ্যাপটাকে গড়েছে।
+        </p>
+
+        <!-- The Appreciation Gap -->
+        <div class="section">
+            <h2 class="section-title">
+                একটা মেসেজের আসল মানে
+            </h2>
+            <div class="citations">
+                <div class="citation">
+                    <p class="finding">
+                        আমাদের খবর পেলে অন্যরা কতটা খুশি হন, আমরা সবসময়ই কম ভাবি, বিশেষ করে যখন সেটা “এমনিই” পাঠানো।
+                    </p>
+                    <p class="context">
+                        একাধিক পরীক্ষায় পাঠানো মানুষেরা ভেবেছিলেন প্রাপকেরা সামান্য খুশি হবেন। আসলে তাঁরা গভীরভাবে ছুঁয়ে গিয়েছিলেন। যত বেশি দিন যোগাযোগ ছিল না, ফারাক তত বড় ছিল।
+                    </p>
+                    <p class="source">
+                        Liu, P.J., Rim, S., Min, L., &amp; Min, K.E. (2022). <em>Journal of Personality and Social Psychology</em>. <a href="https://doi.org/10.1037/pspi0000402">doi:10.1037/pspi0000402</a>
+                    </p>
+                    <p class="dear-connection">
+                        এই কারণেই Dear আছে। মনে করিয়ে দেওয়াটা কারও কথা ভাবা আর সত্যিই তাঁর সঙ্গে যোগাযোগ করার মাঝের দূরত্ব মিটিয়ে দেয়।
+                    </p>
+                </div>
+
+                <div class="citation">
+                    <p class="finding">
+                        বহু দিন ঘুমিয়ে থাকা বন্ধুত্ব আবার জাগাতে কতটা অস্বস্তি হবে, আমরা তা অনেক বাড়িয়ে ভাবি। আগের দুশ্চিন্তা প্রায় সবসময়ই আসল কথোপকথনের চেয়ে ভারী।
+                    </p>
+                    <p class="source">
+                        Boothby, E.J. &amp; Bohns, V.K. (2021). <em>Journal of Personality and Social Psychology</em>. আরও দেখুন: <a href="https://hbr.org/2022/02/you-should-actually-reach-out-to-that-old-friend">Harvard Business Review-এর সারসংক্ষেপ</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Dunbar's Social Layers -->
+        <div class="section">
+            <h2 class="section-title">
+                ডানবারের সামাজিক স্তর
+            </h2>
+            <div class="citations">
+                <div class="citation">
+                    <p class="finding">
+                        মানুষ সম্পর্ককে একের ভেতর এক স্তরে সাজায়: প্রায় 5 জন সবচেয়ে কাছের, প্রায় 15 জন ঘনিষ্ঠ বন্ধু, প্রায় 50 জন সক্রিয় পরিচিতি, প্রায় 150 জন স্থায়ী চেনা। প্রতিটি স্তর আগেরটার প্রায় তিন গুণ।
+                    </p>
+                    <p class="source">
+                        Dunbar, R.I.M. (2016). <em>Personal Relationships</em>. <a href="https://doi.org/10.1111/pere.12149">doi:10.1111/pere.12149</a>
+                    </p>
+                    <p class="dear-connection">
+                        Dear-এর ঘনত্বের ধাপগুলো ডানবারের স্তরগুলোরই প্রতিফলন। ছন্দ আপনি প্রত্যেকের জন্য ঠিক করেন, আর অ্যাপ তা মেনে চলে।
+                    </p>
+                </div>
+
+                <div class="citation">
+                    <p class="finding">
+                        ফোন আর ভিডিও কল বন্ধুত্বের দুটি সবচেয়ে কাছের স্তর (5 আর 15) প্রায় সামনাসামনি দেখার মতোই ধরে রাখতে পারে। শুধু মেসেজ আর সোশ্যাল মিডিয়া তা পারে না।
+                    </p>
+                    <p class="source">
+                        Dunbar, R.I.M. প্রমুখ (2021). <em>Royal Society Open Science</em>. <a href="https://doi.org/10.1098/rsos.210298">doi:10.1098/rsos.210298</a>
+                    </p>
+                    <p class="dear-connection">
+                        Dear প্রতিটি মনে করিয়ে দেওয়ার সঙ্গে মেসেজ, ফোন আর FaceTime-এর বোতাম দেয়। ফোন আর ভিডিওর বিকল্প আছে কারণ গবেষণা বলে সেগুলো গুরুত্বপূর্ণ।
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Implementation Intentions -->
+        <div class="section">
+            <h2 class="section-title">
+                বাস্তবায়নের সংকল্প
+            </h2>
+            <div class="citations">
+                <div class="citation">
+                    <p class="finding">
+                        নির্দিষ্ট পরিকল্পনা (“আমি Z জায়গায় Y সময়ে X করব”) সাধারণ ইচ্ছের (“আমার X করা উচিত”) চেয়ে কাজ হওয়ার সম্ভাবনা অনেক বেশি বাড়ায়।
+                    </p>
+                    <p class="context">
+                        “বন্ধুদের সঙ্গে আরও বেশি কথা বলা উচিত” আর Dear-এর মধ্যে পার্থক্য এটাই, যা একজন নির্দিষ্ট মানুষ আর এক ট্যাপ দূরের কাজ সামনে ধরে। নির্দিষ্ট হওয়াটাই আসল কৌশল।
+                    </p>
+                    <p class="source">
+                        Gollwitzer, P.M. (1999). <em>American Psychologist</em>, 54(7), 493-503.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- The Loneliness Epidemic -->
+        <div class="section">
+            <h2 class="section-title">
+                একাকিত্বের মহামারি
+            </h2>
+            <div class="citations">
+                <div class="citation">
+                    <p class="finding">
+                        বিশ্বে প্রতি 6 জনের মধ্যে 1 জন একাকিত্বে ভুগছেন। WHO 2023 সালে একাকিত্বকে জরুরি বৈশ্বিক স্বাস্থ্য ঝুঁকি ঘোষণা করে, আর তার সামাজিক সংযোগ কমিশন 2025 সালে এই বৈশ্বিক সংখ্যাটি প্রকাশ করে।
+                    </p>
+                    <p class="source">
+                        WHO Commission on Social Connection (2025). <a href="https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death">who.int</a>
+                    </p>
+                </div>
+
+                <div class="citation">
+                    <p class="finding">
+                        সামাজিক বিচ্ছিন্নতা অকাল মৃত্যুর ঝুঁকি 26&nbsp;% বাড়ায়, যা দিনে 15টি সিগারেটের সমান।
+                    </p>
+                    <p class="source">
+                        Holt-Lunstad, J. প্রমুখ (2010). <em>PLOS Medicine</em>. <a href="https://doi.org/10.1371/journal.pmed.1000316">doi:10.1371/journal.pmed.1000316</a>
+                    </p>
+                </div>
+
+                <div class="citation">
+                    <p class="finding">
+                        দৃঢ় সামাজিক বন্ধন থাকা মানুষদের ফলো-আপের সময় বেঁচে থাকার সম্ভাবনা দুর্বল বন্ধন থাকা মানুষদের চেয়ে 50&nbsp;% বেশি ছিল।
+                    </p>
+                    <p class="source">
+                        Holt-Lunstad, J. প্রমুখ (2010). 148টি গবেষণা ও 308,849 জন অংশগ্রহণকারীর মেটা-বিশ্লেষণ. <em>PLOS Medicine</em>. <a href="https://doi.org/10.1371/journal.pmed.1000316">doi:10.1371/journal.pmed.1000316</a>
+                    </p>
+                </div>
+
+                <div class="citation">
+                    <p class="finding">
+                        বৃদ্ধ বয়সের সুখ আর স্বাস্থ্যের সবচেয়ে জোরালো ইঙ্গিত হলো ঘনিষ্ঠ সম্পর্কের মান।
+                    </p>
+                    <p class="context">
+                        হার্ভার্ডের Grant Study 724 জন মানুষকে 85 বছর ধরে অনুসরণ করেছে। সম্পদ নয়, খ্যাতি নয়, অর্জন নয়। সম্পর্ক।
+                    </p>
+                    <p class="source">
+                        Waldinger, R. &amp; Schulz, M. (2023). <em>The Good Life</em>. <a href="https://www.adultdevelopmentstudy.org">adultdevelopmentstudy.org</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Friendship Drift -->
+        <div class="section">
+            <h2 class="section-title">
+                বন্ধুত্ব যখন ফিকে হয়
+            </h2>
+            <div class="citations">
+                <div class="citation">
+                    <p class="finding">
+                        গড় আমেরিকানের 3 জন ঘনিষ্ঠ বন্ধু আছে, 1990-এ যা ছিল 5। 15&nbsp;% পুরুষ বলেন তাঁদের একজনও নেই, 1990-এ যা ছিল 3&nbsp;%।
+                    </p>
+                    <p class="source">
+                        Survey Center on American Life (2021). <a href="https://www.americansurveycenter.org/research/the-state-of-american-friendship-change-challenges-and-the-search-for-connection/"><em>The State of American Friendship</em></a>
+                    </p>
+                </div>
+
+                <div class="citation">
+                    <p class="finding">
+                        পরিচিত থেকে সাধারণ বন্ধু হতে প্রায় 50 ঘণ্টা লাগে, সত্যিকারের বন্ধু হতে 90 ঘণ্টা, আর ঘনিষ্ঠ হতে 200 ঘণ্টারও বেশি।
+                    </p>
+                    <p class="source">
+                        Hall, J.A. (2018). <em>Journal of Social and Personal Relationships</em>. <a href="https://doi.org/10.1177/0265407518761225">doi:10.1177/0265407518761225</a>
+                    </p>
+                    <p class="dear-connection">
+                        Dear একসঙ্গে কাটানো ঘণ্টা তৈরি করতে পারে না। কিন্তু আপনি যে ঘণ্টাগুলো ইতিমধ্যে দিয়েছেন, সেগুলো যেন বৃথা না যায় তা নিশ্চিত করতে পারে।
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Note -->
+        <div class="section">
+            <div class="note-box">
+                <p>
+                    নরম মনে করিয়ে দেওয়া সম্পর্ক ধরে রাখায় কী প্রভাব ফেলে, Dear গবেষকদের সঙ্গে মিলে তা দেখছে। আপনি যদি এই বিষয়ে গবেষণা করেন, <a href="mailto:support@dearnudges.com">support@dearnudges.com</a>-এ লিখুন।
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Elsewhere Index LLC</p>
+    </footer>
+
+    <nav class="bottom-nav">
+        <a href="/">
+            <svg viewBox="0 0 24 24"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z"/><path d="M9 21V12h6v9"/></svg>
+            হোম
+        </a>
+        <a href="about.html">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            পরিচিতি
+        </a>
+        <a href="research.html" class="active">
+            <svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            গবেষণা
+        </a>
+        <a href="support.html">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            প্রশ্নোত্তর
+        </a>
+        <a href="privacy.html">
+            <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            গোপনীয়তা
+        </a>
+        <a href="press.html">
+            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            প্রেস
+        </a>
+    </nav>
+
+    
+
+</body>
+</html>

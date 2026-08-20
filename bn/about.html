@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dear সম্পর্কে</title>
+    <meta name="description" content="Dear কেন আছে, এর পেছনের গবেষণা, আর এটি কীভাবে কাজ করে।">
+    <meta property="og:title" content="Dear সম্পর্কে">
+    <meta property="og:description" content="Dear কেন আছে, এর পেছনের গবেষণা, আর এটি কীভাবে কাজ করে।">
+    <meta property="og:image" content="https://dearnudges.com/app-icon.png">
+    <meta property="og:url" content="https://dearnudges.com/bn/about.html">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/png" href="../app-icon.png">
+    <link rel="apple-touch-icon" href="../app-icon.png">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Quicksand', -apple-system, sans-serif;
+            background: #FAFAFD;
+            color: #2D2D2D;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0 24px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .lang-nav {
+            position: fixed;
+            top: 16px;
+            right: 20px;
+            display: flex;
+            gap: 4px;
+            z-index: 10;
+        }
+
+        .lang-btn {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #7A767B;
+            background: white;
+            border: 1px solid #E0E0E0;
+            padding: 5px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+
+        .lang-btn:hover, .lang-btn.active {
+            color: #6B8AD6;
+            border-color: #6B8AD6;
+            background: #F5F6FB;
+        }
+
+        .page { max-width: 600px; width: 100%; padding: 64px 0 24px; }
+
+        .page-title {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 2rem;
+            color: #6B8AD6;
+            margin-bottom: 48px;
+            text-align: center;
+        }
+
+        .section { margin-bottom: 40px; }
+
+        .section-title {
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 700;
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: #6B8AD6;
+            margin-bottom: 16px;
+        }
+
+        .divider { width: 64px; height: 1px; background: rgba(92, 133, 214, 0.25); margin: 0 0 40px; }
+
+        .body-text { font-size: 0.95rem; color: #7A767B; line-height: 1.65; }
+        .body-text + .body-text { margin-top: 12px; }
+
+        .app-overview { display: flex; align-items: flex-start; gap: 20px; }
+        .app-overview .icon { width: 80px; height: 80px; border-radius: 18px; flex-shrink: 0; box-shadow: 0 4px 16px rgba(131, 150, 209, 0.15); }
+        .app-overview .info { flex: 1; }
+
+        .app-name { font-family: 'Quicksand', sans-serif; font-weight: 700; font-size: 1.25rem; color: #2D2D2D; margin-bottom: 8px; line-height: 1.3; }
+        .app-name .dear { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-style: normal; font-weight: 700; color: #6B8AD6; }
+
+        /* Research cards */
+        .research-cards { display: flex; flex-direction: column; gap: 16px; }
+
+        .research-card {
+            background: white;
+            border: 1px solid #E8E8EC;
+            border-radius: 12px;
+            padding: 20px;
+            transition: border-color 0.15s ease, box-shadow 0.15s ease;
+        }
+        .research-card:hover {
+            border-color: #6B8AD6;
+            box-shadow: 0 2px 12px rgba(92, 133, 214, 0.1);
+        }
+
+        .research-card .card-title {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 1rem;
+            color: #2D2D2D;
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+
+        .research-card .card-body {
+            font-size: 0.9rem;
+            color: #7A767B;
+            line-height: 1.6;
+        }
+
+        .research-card .card-source {
+            font-size: 0.78rem;
+            color: #6E6A6F;
+            margin-top: 10px;
+            font-style: italic;
+        }
+        .research-card .card-source a {
+            color: #6B8AD6;
+            text-decoration: none;
+        }
+        .research-card .card-source a:hover { text-decoration: underline; }
+
+        .research-link {
+            display: inline-block;
+            margin-top: 16px;
+            font-size: 0.88rem;
+            font-weight: 600;
+            color: #6B8AD6;
+            text-decoration: none;
+        }
+        .research-link:hover { text-decoration: underline; }
+
+        /* How it works */
+        .steps { display: flex; flex-direction: column; gap: 16px; }
+        .step { display: flex; gap: 16px; align-items: flex-start; }
+        .step-number {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: #6B8AD6;
+            color: white;
+            font-weight: 700;
+            font-size: 0.85rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        .step-text { flex: 1; }
+        .step-text .step-title { font-weight: 700; font-size: 0.95rem; color: #2D2D2D; margin-bottom: 4px; }
+        .step-text .step-desc { font-size: 0.88rem; color: #7A767B; line-height: 1.55; }
+
+        /* Voices preview */
+        .voices-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-top: 12px;
+        }
+        .voice-tag {
+            background: white;
+            border: 1px solid #E8E8EC;
+            border-radius: 8px;
+            padding: 10px 8px;
+            text-align: center;
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: #2D2D2D;
+        }
+        .voice-tag .voice-lang {
+            font-size: 0.7rem;
+            color: #6E6A6F;
+            font-weight: 400;
+            display: block;
+            margin-top: 2px;
+        }
+
+        /* CTA section */
+        .cta-box {
+            background: white;
+            border: 1px solid #E8E8EC;
+            border-radius: 12px;
+            padding: 24px;
+            text-align: center;
+        }
+        .cta-box .cta-title {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: #2D2D2D;
+            margin-bottom: 8px;
+        }
+        .cta-box .cta-body {
+            font-size: 0.88rem;
+            color: #7A767B;
+            line-height: 1.55;
+            margin-bottom: 16px;
+        }
+        .cta-box a {
+            color: #6B8AD6;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.92rem;
+        }
+        .cta-box a:hover { text-decoration: underline; }
+
+        /* Facts */
+        .facts-list { list-style: none; padding: 0; }
+        .facts-list li { font-size: 0.95rem; color: #7A767B; line-height: 1.65; padding: 6px 0; border-bottom: 1px solid rgba(92, 133, 214, 0.1); }
+        .facts-list li:last-child { border-bottom: none; }
+        .facts-list .label { font-weight: 700; color: #2D2D2D; }
+
+        footer { font-size: 0.75rem; color: #7A767B; padding-bottom: 80px; line-height: 1.7; text-align: center; max-width: 600px; width: 100%; }
+
+        .bottom-nav { position: fixed; bottom: 0; left: 0; right: 0; background: #8396D1; display: flex; justify-content: center; padding: 0; z-index: 20; }
+        .bottom-nav a { flex: 1; max-width: 100px; text-align: center; padding: 10px 0 calc(10px + env(safe-area-inset-bottom, 0px)); font-family: 'Quicksand', sans-serif; font-size: 0.65rem; font-weight: 600; color: rgba(255, 255, 255, 0.7); text-decoration: none; display: flex; flex-direction: column; align-items: center; gap: 3px; transition: color 0.15s ease; }
+        .bottom-nav a:hover, .bottom-nav a.active { color: #FFFFFF; }
+        .bottom-nav svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+
+        [data-lang] { display: none; }
+        [data-lang="bn"] { display: block; }
+
+        @media (max-width: 480px) {
+            .page { padding: 40px 0 20px; }
+            .page-title { font-size: 1.65rem; margin-bottom: 36px; }
+            .app-overview { flex-direction: column; align-items: center; text-align: center; }
+            .app-overview .icon { width: 72px; height: 72px; border-radius: 16px; }
+            .voices-grid { grid-template-columns: repeat(2, 1fr); }
+            .body-text { font-size: 0.88rem; }
+            .section-title { font-size: 0.78rem; }
+            .bottom-nav a { font-size: 0.6rem; }
+            .lang-nav { top: 10px; right: 10px; }
+            .lang-btn { padding: 4px 8px; font-size: 0.7rem; }
+        }
+    </style>
+    <link rel="stylesheet" href="../fonts.css">
+    <link rel="stylesheet" href="../fonts-i18n.css">
+    <link rel="stylesheet" href="../site.css">
+    <link rel="canonical" href="https://dearnudges.com/bn/about.html">
+    <link rel="alternate" hreflang="en" href="https://dearnudges.com/about.html">
+    <link rel="alternate" hreflang="fr" href="https://dearnudges.com/fr/about.html">
+    <link rel="alternate" hreflang="es" href="https://dearnudges.com/es/about.html">
+    <link rel="alternate" hreflang="de" href="https://dearnudges.com/de/about.html">
+    <link rel="alternate" hreflang="it" href="https://dearnudges.com/it/about.html">
+    <link rel="alternate" hreflang="ja" href="https://dearnudges.com/ja/about.html">
+    <link rel="alternate" hreflang="ko" href="https://dearnudges.com/ko/about.html">
+    <link rel="alternate" hreflang="zh-Hant" href="https://dearnudges.com/zh-Hant/about.html">
+    <link rel="alternate" hreflang="zh-Hans" href="https://dearnudges.com/zh-Hans/about.html">
+    <link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/about.html">
+    <link rel="alternate" hreflang="ru" href="https://dearnudges.com/ru/about.html">
+    <link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/about.html">
+    <link rel="alternate" hreflang="hi" href="https://dearnudges.com/hi/about.html">
+    <link rel="alternate" hreflang="id" href="https://dearnudges.com/id/about.html">
+    <link rel="alternate" hreflang="tr" href="https://dearnudges.com/tr/about.html">
+    <link rel="alternate" hreflang="pl" href="https://dearnudges.com/pl/about.html">
+    <link rel="alternate" hreflang="vi" href="https://dearnudges.com/vi/about.html">
+    <link rel="alternate" hreflang="th" href="https://dearnudges.com/th/about.html">
+    <link rel="alternate" hreflang="uk" href="https://dearnudges.com/uk/about.html">
+    <link rel="alternate" hreflang="sv" href="https://dearnudges.com/sv/about.html">
+    <link rel="alternate" hreflang="nb" href="https://dearnudges.com/nb/about.html">
+    <link rel="alternate" hreflang="da" href="https://dearnudges.com/da/about.html">
+    <link rel="alternate" hreflang="fi" href="https://dearnudges.com/fi/about.html">
+    <link rel="alternate" hreflang="fil" href="https://dearnudges.com/fil/about.html">
+    <link rel="alternate" hreflang="bn" href="https://dearnudges.com/bn/about.html">
+    <link rel="alternate" hreflang="mr" href="https://dearnudges.com/mr/about.html">
+    <link rel="alternate" hreflang="sw" href="https://dearnudges.com/sw/about.html">
+    <link rel="alternate" hreflang="x-default" href="https://dearnudges.com/about.html">
+</head>
+<body>
+
+    <nav class="lang-nav" aria-label="Language">
+        <a class="lang-btn" hreflang="en" href="../about.html">EN</a><a class="lang-btn" hreflang="fr" href="../fr/about.html">FR</a><a class="lang-btn" hreflang="es" href="../es/about.html">ES</a><a class="lang-btn" hreflang="de" href="../de/about.html">DE</a><a class="lang-btn" hreflang="it" href="../it/about.html">IT</a><a class="lang-btn" hreflang="ja" href="../ja/about.html">JA</a><a class="lang-btn" hreflang="ko" href="../ko/about.html">KO</a><a class="lang-btn" hreflang="zh-Hant" href="../zh-Hant/about.html">ZH-HANT</a><a class="lang-btn" hreflang="zh-Hans" href="../zh-Hans/about.html">ZH-HANS</a><a class="lang-btn" hreflang="pt-BR" href="../pt-BR/about.html">PT</a><a class="lang-btn" hreflang="ru" href="../ru/about.html">RU</a><a class="lang-btn" hreflang="nl" href="../nl/about.html">NL</a><a class="lang-btn" hreflang="hi" href="../hi/about.html">HI</a><a class="lang-btn" hreflang="id" href="../id/about.html">ID</a><a class="lang-btn" hreflang="tr" href="../tr/about.html">TR</a><a class="lang-btn" hreflang="pl" href="../pl/about.html">PL</a><a class="lang-btn" hreflang="vi" href="../vi/about.html">VI</a><a class="lang-btn" hreflang="th" href="../th/about.html">TH</a><a class="lang-btn" hreflang="uk" href="../uk/about.html">UK</a><a class="lang-btn" hreflang="sv" href="../sv/about.html">SV</a><a class="lang-btn" hreflang="nb" href="../nb/about.html">NB</a><a class="lang-btn" hreflang="da" href="../da/about.html">DA</a><a class="lang-btn" hreflang="fi" href="../fi/about.html">FI</a><a class="lang-btn" hreflang="fil" href="../fil/about.html">FIL</a><a class="lang-btn active" hreflang="bn" aria-current="true" href="../bn/about.html">BN</a><a class="lang-btn" hreflang="mr" href="../mr/about.html">MR</a><a class="lang-btn" hreflang="sw" href="../sw/about.html">SW</a>
+        <button class="lang-btn lang-more" aria-expanded="false" aria-controls="lang-more-list" aria-label="More languages" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='true'?'false':'true')">+</button>
+        <div class="lang-more-list" id="lang-more-list">
+            <p class="lang-soon-heading">শীঘ্রই আসছে</p>
+            <div class="lang-soon-grid"><span class="lang-soon-item">العربية</span><span class="lang-soon-item">עברית</span><span class="lang-soon-item">தமிழ்</span><span class="lang-soon-item">తెలుగు</span></div>
+            <p class="lang-soon-note">অ্যাপ ইতিমধ্যেই 31টি ভাষাতেই কথা বলে।</p>
+        </div>
+    </nav>
+
+    <div class="page">
+        <h1 class="page-title">
+            Dear সম্পর্কে
+        </h1>
+
+        <!-- Why Dear Exists -->
+        <div class="section">
+            <h2 class="section-title">
+                Dear কেন আছে
+            </h2>
+            <p class="body-text">
+                Dear একটা সহজ পর্যবেক্ষণ থেকে তৈরি: বন্ধুদের কথা আমরা যতবার ভাবি, তার চেয়ে অনেক কম বার যোগাযোগ করি। গবেষণা বলে, একটা মেসেজ যিনি পান তাঁর কাছে সেটা কতটা মানে রাখে, আমরা সবসময়ই কম ভাবি। Dear সেই দূরত্বটুকু মিটিয়ে দেয়।
+            </p>
+            <p class="body-text">
+                দিনে একবার নরম করে মনে করিয়ে দেওয়া। কোনো অপরাধবোধ নেই, ধারাবাহিক হিসেব নেই, কোনো ফিড নেই। আজ যোগাযোগ না হলে সেই মানুষটি অন্য কোনো দিন আবার আসবেন। অ্যাপ কখনও বলবে না যে আপনি পারেননি। সে শুধু চুপচাপ পাশে থাকে।
+            </p>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- The Research -->
+        <div class="section">
+            <h2 class="section-title">
+                এর পেছনের গবেষণা
+            </h2>
+
+            <div class="research-cards">
+                <div class="research-card">
+                    <p class="card-title">
+                        আপনার খবর পেলে মানুষ যতটা খুশি হয়, আপনি তার চেয়ে কম ভাবেন
+                    </p>
+                    <p class="card-body">
+                        অপ্রত্যাশিত একটা মেসেজের মূল্য আমরা সবসময়ই কম ভাবি। যতটা অস্বস্তি হবে বলে আমরা ভাবি আর বাস্তবে যতটা উষ্ণতা পাওয়া যায়, তার ফারাক বড় এবং ধারাবাহিক: অচেনা মানুষ, পরিচিত মানুষ, পুরোনো বন্ধু, সবার ক্ষেত্রেই।
+                    </p>
+                    <p class="card-source">
+                        Liu প্রমুখ, <em>Journal of Personality and Social Psychology</em>, 2022
+                    </p>
+                </div>
+
+                <div class="research-card">
+                    <p class="card-title">
+                        বন্ধুত্বের স্বাভাবিক স্তর আছে
+                    </p>
+                    <p class="card-body">
+                        মানুষ প্রায় 5 জন সবচেয়ে কাছের, 15 জন ভালো বন্ধু আর বড় বৃত্তে 50 জনকে ধরে রাখে। Dear এই স্বাভাবিক স্তরগুলোকে সম্মান করে এবং প্রত্যেকের জন্য আপনার নিজের ছন্দ বেছে নিতে দেয়।
+                    </p>
+                    <p class="card-source">
+                        Robin Dunbar, <em>Personal Relationships</em>, 2016
+                    </p>
+                </div>
+
+                <div class="research-card">
+                    <p class="card-title">
+                        ছোট মনে করিয়ে দেওয়া ভাবনা আর কাজের দূরত্ব মিটিয়ে দেয়
+                    </p>
+                    <p class="card-body">
+                        নির্দিষ্ট পরিকল্পনা কাজ হওয়ার সম্ভাবনা অনেক বাড়ায়। “মেসেজ করা উচিত” বদলে যায় “এইমাত্র করলাম”-এ। Dear ইচ্ছেকে কাজে বদলে দেয়: একজন নির্দিষ্ট মানুষ, একটি নির্দিষ্ট মুহূর্ত, আর একটি ট্যাপ।
+                    </p>
+                    <p class="card-source">
+                        Gollwitzer, <em>American Psychologist</em>, 1999
+                    </p>
+                </div>
+
+                <div class="research-card">
+                    <p class="card-title">
+                        এটা স্বাস্থ্যের প্রশ্ন, শুধু একটা ভালো ভাবনা নয়
+                    </p>
+                    <p class="card-body">
+                        WHO 2023 সালে একাকিত্বকে জরুরি বৈশ্বিক স্বাস্থ্য ঝুঁকি ঘোষণা করে, এবং জানায় যে প্রতি 4 জন প্রবীণের মধ্যে প্রায় 1 জন সামাজিকভাবে বিচ্ছিন্ন। Holt-Lunstad-এর মেটা-বিশ্লেষণেও দেখা গেছে, সামাজিক বিচ্ছিন্নতা অকাল মৃত্যুর ঝুঁকি 26&nbsp;% বাড়ায়। Dear একটা বড় সমস্যার দিকে তাক করা ছোট একটা যন্ত্র।
+                    </p>
+                    <p class="card-source">
+                        WHO Commission on Social Connection, 2023; Holt-Lunstad প্রমুখ, 2010
+                    </p>
+                </div>
+            </div>
+
+            <a href="research.html" class="research-link">
+                সব গবেষণা ও সূত্র দেখুন &rarr;
+            </a>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- How It Works -->
+        <div class="section">
+            <h2 class="section-title">
+                এটি যেভাবে কাজ করে
+            </h2>
+
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-text">
+                        <p class="step-title">
+                            আপনার মানুষদের যোগ করুন
+                        </p>
+                        <p class="step-desc">
+                            পরিচিতি থেকে আনুন বা নিজে যোগ করুন। ঠিক করুন প্রত্যেকের সঙ্গে কত ঘন ঘন কথা বলতে চান: প্রতি সপ্তাহে, দুই সপ্তাহে, প্রতি মাসে, বা তারও কম।
+                        </p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-text">
+                        <p class="step-title">
+                            রোজ একবার মনে করিয়ে দেওয়া পান
+                        </p>
+                        <p class="step-desc">
+                            প্রতিদিন Dear আপনার বেছে নেওয়া কণ্ঠে বলে দেয় কার সঙ্গে কথা বলা যায়। শার্লকের যুক্তি, Nonna-র উষ্ণতা, সিরানোর প্রেমনিবেদন, কিংবা আরও 12টি।
+                        </p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-text">
+                        <p class="step-title">
+                            মেসেজ, ফোন বা FaceTime
+                        </p>
+                        <p class="step-desc">
+                            এক ট্যাপে মেসেজ, ফোন বা ভিডিও খুলে যায়। এটুকুই। কোনো ডায়েরি নেই, হিসেব নেই, হইচই নেই। শুধু সত্যিকারের মানুষের সঙ্গে সত্যিকারের কথা।
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Voices -->
+        <div class="section">
+            <h2 class="section-title">
+                15টি কণ্ঠ
+            </h2>
+            <p class="body-text">
+                এই কণ্ঠগুলোর জন্য মনে করিয়ে দেওয়াটা ক্যালেন্ডারের অ্যালার্মের মতো নয়, বন্ধুর মনে করিয়ে দেওয়ার মতো লাগে। প্রত্যেকের লেখার, খেয়াল করার আর যত্ন নেওয়ার নিজস্ব ধরন আছে।
+            </p>
+            <div class="voices-grid">
+                <span class="voice-tag">Dear<span class="voice-lang">EN / FR / ES</span></span>
+                <span class="voice-tag">Friendo<span class="voice-lang">EN / FR / ES</span></span>
+                <span class="voice-tag">Sherlock<span class="voice-lang">EN</span></span>
+                <span class="voice-tag">Bront&euml;<span class="voice-lang">EN</span></span>
+                <span class="voice-tag">Nonna<span class="voice-lang">EN</span></span>
+                <span class="voice-tag">Haiku<span class="voice-lang">EN</span></span>
+                <span class="voice-tag">Noir<span class="voice-lang">EN</span></span>
+                <span class="voice-tag">Mom Text<span class="voice-lang">EN</span></span>
+                <span class="voice-tag">Dracula<span class="voice-lang">EN</span></span>
+                <span class="voice-tag">Proust<span class="voice-lang">FR</span></span>
+                <span class="voice-tag">Cyrano<span class="voice-lang">FR</span></span>
+                <span class="voice-tag">Le Renard<span class="voice-lang">FR</span></span>
+                <span class="voice-tag">Don Quijote<span class="voice-lang">ES</span></span>
+                <span class="voice-tag">El Mar<span class="voice-lang">ES</span></span>
+                <span class="voice-tag">La Abuela<span class="voice-lang">ES</span></span>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Privacy -->
+        <div class="section">
+            <h2 class="section-title">
+                গড়নেই ব্যক্তিগত
+            </h2>
+            <p class="body-text">
+                আপনার বন্ধু, আপনার মেসেজ, আপনার সম্পর্ক: এর কিছুই আপনার ডিভাইস ছাড়ে না। কোনো অ্যাকাউন্ট নেই, বিজ্ঞাপন নেই, বিক্রির কিছু নেই। Dear শুধু নামহীন ব্যবহারের হিসেব, নামহীন কেনার নথি আর ত্রুটির রিপোর্ট পাঠায়, এবং এমন কিছু কখনও নয় যা দিয়ে আপনাকে বা আপনার মানুষদের চেনা যায়। এটা ইচ্ছাকৃত সিদ্ধান্ত।
+            </p>
+            <p class="body-text">
+                <a href="privacy.html" style="color: #6B8AD6; text-decoration: none; font-weight: 600;">পুরো গোপনীয়তা নীতি পড়ুন &rarr;</a>
+            </p>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Quick Facts -->
+        <div class="section">
+            <h2 class="section-title">
+                সংক্ষেপে
+            </h2>
+            <ul class="facts-list">
+                <li>
+                    <span class="label">দাম:</span> 15 জন পর্যন্ত বিনামূল্যে। আপগ্রেডের দাম আপনার দেশে মোটামুটি এক কাপ এসপ্রেসোর সমান (যুক্তরাষ্ট্রে প্রায় 2.99&nbsp;$), বিশ্ব ব্যাংকের আয়ের তথ্য আর Numbeo-র কফির দাম ধরে ঠিক করা।
+                </li>
+                <li>
+                    <span class="label">Languages:</span> English, French, Spanish
+                </li>
+                <li>
+                    <span class="label">প্ল্যাটফর্ম:</span> iOS 18+, Android 8+
+                </li>
+                <li>
+                    <span class="label">গোপনীয়তা:</span> ডিভাইসেই চলে। আপনার মানুষেরা সেখান থেকে বের হন না। ফোন থেকে শুধু নামহীন ব্যবহারের হিসেব, নামহীন কেনার নথি আর ত্রুটির রিপোর্ট যায়।
+                </li>
+            </ul>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Recommend Dear -->
+        <div class="section">
+            <div class="cta-box">
+                <p class="cta-title">
+                    Dear সুপারিশ করতে চান?
+                </p>
+                <p class="cta-body">
+                    আপনি যদি থেরাপিস্ট, কাউন্সেলর, কোচ হন বা সুস্থতা নিয়ে কাজ করেন, আর মনে করেন Dear আপনার ক্লায়েন্টদের সম্পর্ক দৃঢ় করতে সাহায্য করবে, আমরা আপনার কথা শুনতে চাই।
+                </p>
+                <a href="mailto:support@dearnudges.com">support@dearnudges.com</a>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Made By -->
+        <div class="section" style="text-align: center;">
+            <p class="body-text">
+                Dear বানিয়েছে Elsewhere Index, একটি স্বাধীন স্টুডিও। অনেক যত্ন নিয়ে তৈরি।
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Elsewhere Index LLC</p>
+    </footer>
+
+    <nav class="bottom-nav">
+        <a href="/">
+            <svg viewBox="0 0 24 24"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z"/><path d="M9 21V12h6v9"/></svg>
+            হোম
+        </a>
+        <a href="about.html" class="active">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            পরিচিতি
+        </a>
+        <a href="research.html">
+            <svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            গবেষণা
+        </a>
+        <a href="support.html">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            প্রশ্নোত্তর
+        </a>
+        <a href="privacy.html">
+            <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            গোপনীয়তা
+        </a>
+        <a href="press.html">
+            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            প্রেস
+        </a>
+    </nav>
+
+    
+
+</body>
+</html>

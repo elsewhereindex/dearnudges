@@ -14,6 +14,38 @@
   font-style: normal;
   font-weight: 400 700;
   font-display: swap;
+  src: url(fonts/NotoSansBengali-bn.woff2) format('woff2');
+  unicode-range: U+0964, U+0981, U+0982, U+0985, U+0986, U+0987, U+0989, U+098F, U+0990, U+0993, U+0995, U+0996, U+0997, U+0998, U+0999, U+099A, U+099B, U+099C, U+099D, U+099E, U+099F, U+09A0, U+09A1, U+09A2, U+09A3, U+09A4, U+09A5, U+09A6, U+09A7, U+09A8, U+09AA, U+09AB, U+09AC, U+09AD, U+09AE, U+09AF, U+09B0, U+09B2, U+09B6, U+09B7, U+09B8, U+09B9, U+09BC, U+09BE, U+09BF, U+09C0, U+09C1, U+09C2, U+09C3, U+09C7, U+09C8, U+09CB, U+09CC, U+09CD, U+09CE, U+2190, U+2192;
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: italic;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(fonts/NotoSansBengali-bn.woff2) format('woff2');
+  unicode-range: U+0964, U+0981, U+0982, U+0985, U+0986, U+0987, U+0989, U+098F, U+0990, U+0993, U+0995, U+0996, U+0997, U+0998, U+0999, U+099A, U+099B, U+099C, U+099D, U+099E, U+099F, U+09A0, U+09A1, U+09A2, U+09A3, U+09A4, U+09A5, U+09A6, U+09A7, U+09A8, U+09AA, U+09AB, U+09AC, U+09AD, U+09AE, U+09AF, U+09B0, U+09B2, U+09B6, U+09B7, U+09B8, U+09B9, U+09BC, U+09BE, U+09BF, U+09C0, U+09C1, U+09C2, U+09C3, U+09C7, U+09C8, U+09CB, U+09CC, U+09CD, U+09CE, U+2190, U+2192;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(fonts/NotoSansBengali-bn.woff2) format('woff2');
+  unicode-range: U+0964, U+0981, U+0982, U+0985, U+0986, U+0987, U+0989, U+098F, U+0990, U+0993, U+0995, U+0996, U+0997, U+0998, U+0999, U+099A, U+099B, U+099C, U+099D, U+099E, U+099F, U+09A0, U+09A1, U+09A2, U+09A3, U+09A4, U+09A5, U+09A6, U+09A7, U+09A8, U+09AA, U+09AB, U+09AC, U+09AD, U+09AE, U+09AF, U+09B0, U+09B2, U+09B6, U+09B7, U+09B8, U+09B9, U+09BC, U+09BE, U+09BF, U+09C0, U+09C1, U+09C2, U+09C3, U+09C7, U+09C8, U+09CB, U+09CC, U+09CD, U+09CE, U+2190, U+2192;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(fonts/NotoSansBengali-bn.woff2) format('woff2');
+  unicode-range: U+0964, U+0981, U+0982, U+0985, U+0986, U+0987, U+0989, U+098F, U+0990, U+0993, U+0995, U+0996, U+0997, U+0998, U+0999, U+099A, U+099B, U+099C, U+099D, U+099E, U+099F, U+09A0, U+09A1, U+09A2, U+09A3, U+09A4, U+09A5, U+09A6, U+09A7, U+09A8, U+09AA, U+09AB, U+09AC, U+09AD, U+09AE, U+09AF, U+09B0, U+09B2, U+09B6, U+09B7, U+09B8, U+09B9, U+09BC, U+09BE, U+09BF, U+09C0, U+09C1, U+09C2, U+09C3, U+09C7, U+09C8, U+09CB, U+09CC, U+09CD, U+09CE, U+2190, U+2192;
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
   src: url(fonts/NotoSansDevanagari-hi.woff2) format('woff2');
   unicode-range: U+0901, U+0902, U+0905, U+0906, U+0907, U+0908, U+0909, U+090A, U+090F, U+0910, U+0913, U+0914, U+0915, U+0916, U+0917, U+0918, U+091A, U+091B, U+091C, U+091D, U+091E, U+091F, U+0920, U+0921, U+0922, U+0923, U+0924, U+0925, U+0926, U+0927, U+0928, U+092A, U+092B, U+092C, U+092D, U+092E, U+092F, U+0930, U+0932, U+0935, U+0936, U+0937, U+0938, U+0939, U+093C, U+093E, U+093F, U+0940, U+0941, U+0942, U+0943, U+0947, U+0948, U+0949, U+094B, U+094C, U+094D, U+0964, U+2190, U+2192;
 }
