@@ -91,6 +91,25 @@ def check_dashes(locale, path, html):
         fail(locale, "dashes", f"{os.path.basename(path)} contains an em dash")
 
 
+def fonts_are_wired_up():
+    """Every subset font on disk must actually be declared in fonts-i18n.css.
+
+    font_coverage() reads the glyphs out of fonts/*.woff2, so a font that exists
+    but is declared nowhere still counts as "covered" and the build passes while
+    the page renders in a system fallback. That happened for real: regenerating
+    the stylesheet for one locale rewrote it whole and un-declared Japanese,
+    whose file was untouched on disk. Coverage is not the same as wiring.
+    """
+    css_path = os.path.join(ROOT, "fonts-i18n.css")
+    css = io.open(css_path, encoding="utf-8").read() if os.path.exists(css_path) else ""
+    for f in sorted(glob.glob(os.path.join(ROOT, "fonts", "Noto*.woff2"))):
+        name = os.path.basename(f)
+        if name not in css:
+            fail(name.split("-")[-1].replace(".woff2", ""), "fonts",
+                 f"{name} exists but is declared in no stylesheet, so the locale "
+                 f"renders in a system fallback. Re-run subset_fonts.py.")
+
+
 def font_coverage(doc, ready):
     """Every character a locale renders must exist in the self-hosted fonts.
 
@@ -171,6 +190,7 @@ def main():
             produced.add(f"https://dearnudges.com/{tail}" if loc == "en"
                          else f"https://dearnudges.com/{loc}/{tail}")
     font_coverage(doc, ready)
+    fonts_are_wired_up()
     for loc in ready:
         for p in pages_for(loc):
             html = io.open(p, encoding="utf-8").read()
