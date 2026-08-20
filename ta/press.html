@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>பத்திரிகைத் தொகுப்பு - Dear</title>
+    <meta name="description" content="Dear-இன் பத்திரிகைத் தொகுப்பு. அறிமுகம், முக்கியத் தகவல், ஆய்வு, பதிவிறக்கங்கள்.">
+    <meta property="og:title" content="பத்திரிகைத் தொகுப்பு - Dear">
+    <meta property="og:description" content="Dear-இன் பத்திரிகைத் தொகுப்பு. அறிமுகம், முக்கியத் தகவல், ஆய்வு, பதிவிறக்கங்கள்.">
+    <meta property="og:image" content="https://dearnudges.com/app-icon.png">
+    <meta property="og:url" content="https://dearnudges.com/ta/press.html">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/png" href="../app-icon.png">
+    <link rel="apple-touch-icon" href="../app-icon.png">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Quicksand', -apple-system, sans-serif;
+            background: #FAFAFD;
+            color: #2D2D2D;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0 24px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Language switcher */
+        .lang-nav {
+            position: fixed;
+            top: 16px;
+            right: 20px;
+            display: flex;
+            gap: 4px;
+            z-index: 10;
+        }
+
+        .lang-btn {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #7A767B;
+            background: white;
+            border: 1px solid #E0E0E0;
+            padding: 5px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+
+        .lang-btn:hover, .lang-btn.active {
+            color: #6B8AD6;
+            border-color: #6B8AD6;
+            background: #F5F6FB;
+        }
+
+        .page { max-width: 600px; width: 100%; padding: 64px 0 24px; }
+
+        .page-title {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 2rem;
+            color: #6B8AD6;
+            margin-bottom: 48px;
+            text-align: center;
+        }
+
+        .section { margin-bottom: 40px; }
+
+        .section-title {
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 700;
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: #6B8AD6;
+            margin-bottom: 16px;
+        }
+
+        .divider { width: 64px; height: 1px; background: rgba(92, 133, 214, 0.25); margin: 0 0 40px; }
+
+        .app-overview { display: flex; align-items: flex-start; gap: 20px; }
+        .app-overview .icon { width: 80px; height: 80px; border-radius: 18px; flex-shrink: 0; box-shadow: 0 4px 16px rgba(131, 150, 209, 0.15); }
+        .app-overview .info { flex: 1; }
+
+        .app-name { font-family: 'Quicksand', sans-serif; font-weight: 700; font-size: 1.25rem; color: #2D2D2D; margin-bottom: 8px; line-height: 1.3; }
+        .app-name .dear { font-family: 'Encode Sans Expanded', -apple-system, BlinkMacSystemFont, sans-serif; font-weight: 900; text-transform: uppercase; letter-spacing: 0.06em; color: #6B8AD6; }
+
+        .body-text { font-size: 0.95rem; color: #7A767B; line-height: 1.65; }
+
+        .founder { display: flex; align-items: flex-start; gap: 20px; }
+        .founder .headshot { width: 80px; height: 80px; border-radius: 50%; flex-shrink: 0; object-fit: cover; box-shadow: 0 4px 16px rgba(131, 150, 209, 0.15); }
+        .founder .bio { flex: 1; }
+
+        .facts-list { list-style: none; padding: 0; }
+        .facts-list li { font-size: 0.95rem; color: #7A767B; line-height: 1.65; padding: 6px 0; border-bottom: 1px solid rgba(92, 133, 214, 0.1); }
+        .facts-list li:last-child { border-bottom: none; }
+        .facts-list .label { font-weight: 700; color: #2D2D2D; }
+        .facts-list a { color: #6B8AD6; text-decoration: none; font-weight: 600; }
+        .facts-list a:hover { text-decoration: underline; }
+
+        .research-list { list-style: none; padding: 0; }
+        .research-list li { font-size: 0.92rem; color: #7A767B; line-height: 1.65; padding: 8px 0; padding-left: 16px; position: relative; }
+        .research-list li::before { content: ''; position: absolute; left: 0; top: 16px; width: 4px; height: 4px; border-radius: 50%; background: #6B8AD6; opacity: 0.5; }
+        .research-list em { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-style: italic; color: #6B8AD6; }
+        .research-note { font-size: 0.85rem; color: #7A767B; margin-top: 12px; font-style: italic; }
+
+        .downloads-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+        .download-item { background: white; border: 1px solid #E8E8EC; border-radius: 12px; padding: 16px; text-decoration: none; color: #2D2D2D; transition: border-color 0.15s ease, box-shadow 0.15s ease; display: block; }
+        .download-item:hover { border-color: #6B8AD6; box-shadow: 0 2px 12px rgba(92, 133, 214, 0.1); }
+        .download-item .download-label { font-weight: 700; font-size: 0.88rem; margin-bottom: 4px; }
+        .download-item .download-detail { font-size: 0.78rem; color: #7A767B; }
+        .color-swatch { display: inline-block; width: 14px; height: 14px; border-radius: 4px; background: #6B8AD6; vertical-align: middle; margin-right: 4px; }
+
+        .contact-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .contact-links a { font-size: 0.95rem; color: #6B8AD6; text-decoration: none; font-weight: 600; }
+        .contact-links a:hover { text-decoration: underline; }
+
+        footer { font-size: 0.75rem; color: #7A767B; padding-bottom: 80px; line-height: 1.7; text-align: center; max-width: 600px; width: 100%; }
+        footer a { color: #7A767B; text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+
+        .bottom-nav { position: fixed; bottom: 0; left: 0; right: 0; background: #8396D1; border-top: none; display: flex; justify-content: center; gap: 0; padding: 0; z-index: 20; }
+        .bottom-nav a { flex: 1; max-width: 100px; text-align: center; padding: 10px 0 calc(10px + env(safe-area-inset-bottom, 0px)); font-family: 'Quicksand', sans-serif; font-size: 0.65rem; font-weight: 600; color: rgba(255, 255, 255, 0.7); text-decoration: none; display: flex; flex-direction: column; align-items: center; gap: 3px; transition: color 0.15s ease; }
+        .bottom-nav a:hover, .bottom-nav a.active { color: #FFFFFF; }
+        .bottom-nav svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+
+        [data-lang] { display: none; }
+        [data-lang="ta"] { display: block; }
+
+        @media (max-width: 480px) {
+            .page { padding: 40px 0 20px; }
+            .page-title { font-size: 1.65rem; margin-bottom: 36px; }
+            .app-overview { flex-direction: column; align-items: center; text-align: center; }
+            .app-overview .icon { width: 72px; height: 72px; border-radius: 16px; }
+            .founder { flex-direction: column; align-items: center; text-align: center; }
+            .founder .headshot { width: 72px; height: 72px; }
+            .downloads-grid { grid-template-columns: 1fr; }
+            .contact-links { justify-content: center; }
+            .body-text { font-size: 0.88rem; }
+            .section-title { font-size: 0.78rem; }
+            .bottom-nav a { font-size: 0.65rem; }
+            .lang-nav { top: 10px; right: 10px; }
+            .lang-btn { padding: 4px 8px; font-size: 0.7rem; }
+        }
+    </style>
+    <link rel="stylesheet" href="../fonts.css">
+    <link rel="stylesheet" href="../fonts-i18n.css">
+    <link rel="stylesheet" href="../site.css">
+    <link rel="canonical" href="https://dearnudges.com/ta/press.html">
+    <link rel="alternate" hreflang="en" href="https://dearnudges.com/press.html">
+    <link rel="alternate" hreflang="fr" href="https://dearnudges.com/fr/press.html">
+    <link rel="alternate" hreflang="es" href="https://dearnudges.com/es/press.html">
+    <link rel="alternate" hreflang="de" href="https://dearnudges.com/de/press.html">
+    <link rel="alternate" hreflang="it" href="https://dearnudges.com/it/press.html">
+    <link rel="alternate" hreflang="ja" href="https://dearnudges.com/ja/press.html">
+    <link rel="alternate" hreflang="ko" href="https://dearnudges.com/ko/press.html">
+    <link rel="alternate" hreflang="zh-Hant" href="https://dearnudges.com/zh-Hant/press.html">
+    <link rel="alternate" hreflang="zh-Hans" href="https://dearnudges.com/zh-Hans/press.html">
+    <link rel="alternate" hreflang="pt-BR" href="https://dearnudges.com/pt-BR/press.html">
+    <link rel="alternate" hreflang="ru" href="https://dearnudges.com/ru/press.html">
+    <link rel="alternate" hreflang="nl" href="https://dearnudges.com/nl/press.html">
+    <link rel="alternate" hreflang="hi" href="https://dearnudges.com/hi/press.html">
+    <link rel="alternate" hreflang="id" href="https://dearnudges.com/id/press.html">
+    <link rel="alternate" hreflang="tr" href="https://dearnudges.com/tr/press.html">
+    <link rel="alternate" hreflang="pl" href="https://dearnudges.com/pl/press.html">
+    <link rel="alternate" hreflang="vi" href="https://dearnudges.com/vi/press.html">
+    <link rel="alternate" hreflang="th" href="https://dearnudges.com/th/press.html">
+    <link rel="alternate" hreflang="uk" href="https://dearnudges.com/uk/press.html">
+    <link rel="alternate" hreflang="sv" href="https://dearnudges.com/sv/press.html">
+    <link rel="alternate" hreflang="nb" href="https://dearnudges.com/nb/press.html">
+    <link rel="alternate" hreflang="da" href="https://dearnudges.com/da/press.html">
+    <link rel="alternate" hreflang="fi" href="https://dearnudges.com/fi/press.html">
+    <link rel="alternate" hreflang="fil" href="https://dearnudges.com/fil/press.html">
+    <link rel="alternate" hreflang="bn" href="https://dearnudges.com/bn/press.html">
+    <link rel="alternate" hreflang="ta" href="https://dearnudges.com/ta/press.html">
+    <link rel="alternate" hreflang="mr" href="https://dearnudges.com/mr/press.html">
+    <link rel="alternate" hreflang="sw" href="https://dearnudges.com/sw/press.html">
+    <link rel="alternate" hreflang="x-default" href="https://dearnudges.com/press.html">
+</head>
+<body>
+
+    <nav class="lang-nav" aria-label="Language">
+        <a class="lang-btn" hreflang="en" href="../press.html">EN</a><a class="lang-btn" hreflang="fr" href="../fr/press.html">FR</a><a class="lang-btn" hreflang="es" href="../es/press.html">ES</a><a class="lang-btn" hreflang="de" href="../de/press.html">DE</a><a class="lang-btn" hreflang="it" href="../it/press.html">IT</a><a class="lang-btn" hreflang="ja" href="../ja/press.html">JA</a><a class="lang-btn" hreflang="ko" href="../ko/press.html">KO</a><a class="lang-btn" hreflang="zh-Hant" href="../zh-Hant/press.html">ZH-HANT</a><a class="lang-btn" hreflang="zh-Hans" href="../zh-Hans/press.html">ZH-HANS</a><a class="lang-btn" hreflang="pt-BR" href="../pt-BR/press.html">PT</a><a class="lang-btn" hreflang="ru" href="../ru/press.html">RU</a><a class="lang-btn" hreflang="nl" href="../nl/press.html">NL</a><a class="lang-btn" hreflang="hi" href="../hi/press.html">HI</a><a class="lang-btn" hreflang="id" href="../id/press.html">ID</a><a class="lang-btn" hreflang="tr" href="../tr/press.html">TR</a><a class="lang-btn" hreflang="pl" href="../pl/press.html">PL</a><a class="lang-btn" hreflang="vi" href="../vi/press.html">VI</a><a class="lang-btn" hreflang="th" href="../th/press.html">TH</a><a class="lang-btn" hreflang="uk" href="../uk/press.html">UK</a><a class="lang-btn" hreflang="sv" href="../sv/press.html">SV</a><a class="lang-btn" hreflang="nb" href="../nb/press.html">NB</a><a class="lang-btn" hreflang="da" href="../da/press.html">DA</a><a class="lang-btn" hreflang="fi" href="../fi/press.html">FI</a><a class="lang-btn" hreflang="fil" href="../fil/press.html">FIL</a><a class="lang-btn" hreflang="bn" href="../bn/press.html">BN</a><a class="lang-btn active" hreflang="ta" aria-current="true" href="../ta/press.html">TA</a><a class="lang-btn" hreflang="mr" href="../mr/press.html">MR</a><a class="lang-btn" hreflang="sw" href="../sw/press.html">SW</a>
+        <button class="lang-btn lang-more" aria-expanded="false" aria-controls="lang-more-list" aria-label="More languages" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='true'?'false':'true')">+</button>
+        <div class="lang-more-list" id="lang-more-list">
+            <p class="lang-soon-heading">விரைவில் வருகிறது</p>
+            <div class="lang-soon-grid"><span class="lang-soon-item">العربية</span><span class="lang-soon-item">עברית</span><span class="lang-soon-item">తెలుగు</span></div>
+            <p class="lang-soon-note">செயலி ஏற்கனவே 31 மொழிகளிலும் பேசுகிறது.</p>
+        </div>
+    </nav>
+
+    <div class="page">
+        <h1 class="page-title">
+            பத்திரிகைத் தொகுப்பு
+        </h1>
+
+        <!-- App Overview -->
+        <div class="section">
+            <h2 class="section-title">
+                செயலி அறிமுகம்
+            </h2>
+            <div class="app-overview">
+                <img src="../app-icon.png" alt="Dear app icon" class="icon">
+                <div class="info">
+                    <p class="app-name"><span class="dear">Dear:</span> Stay in Touch</p>
+                    <p class="body-text">
+                        நீங்கள் அக்கறை கொள்பவர்களுக்குச் செய்தி அனுப்ப நாளுக்கு ஒரு மென்மையான நினைவூட்டல். ஆங்கிலம், பிரெஞ்சு, ஸ்பானிஷில் 15 குரல்கள். இலவசம், தனிப்பட்டது, கணக்கு தேவையில்லை.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Philosophy -->
+        <div class="section">
+            <h2 class="section-title">
+                கொள்கை
+            </h2>
+            <p class="body-text" style="margin-bottom: 12px;">
+                Dear ஒரே ஒரு கொள்கையின் மீது கட்டப்பட்டது: ஒருபோதும் குற்ற உணர்வு இல்லை (Nonna தவிர). தொடர் எண்ணிக்கை இல்லை, “தவறவிட்ட” நினைவூட்டல் இல்லை, கணக்கீடு இல்லை, நிலுவை இல்லை. ஒவ்வொரு நாளும் புதிதாகத் தொடங்குகிறது.
+            </p>
+            <p class="body-text" style="margin-bottom: 12px;">
+                இன்று தொடர்பு கொள்ளவில்லை என்றால் அந்த நபர் வேறொரு நாளில் மீண்டும் வருவார். நீங்கள் தவறிவிட்டீர்கள் என்று செயலி ஒருபோதும் சொல்லாது. அது அமைதியாக அங்கே இருக்கும்.
+            </p>
+            <p class="body-text">
+                நினைவூட்டல் நாட்காட்டி அலாரம் போலல்லாமல் நண்பர் போலத் தோன்ற வேண்டும் என்பதற்காகவே குரல்கள் உள்ளன. ஷெர்லாக்கின் விவேகம், Nonna-வின் அன்பு, சிரானோவின் காதல் வெளிப்பாடு. முதலில் புன்னகை, பிறகு செய்தி.
+            </p>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Key Facts -->
+        <div class="section">
+            <h2 class="section-title">
+                முக்கியத் தகவல்
+            </h2>
+            <ul class="facts-list">
+                <li>
+                    <span class="label">விலை:</span> 15 நபர்கள் வரை இலவசம். மேம்படுத்தலின் விலை உங்கள் நாட்டில் ஒரு எஸ்பிரெசோ அளவுக்குச் சமம் (அமெரிக்காவில் சுமார் 2.99&nbsp;$), உலக வங்கியின் வருமானத் தரவும் Numbeo-வின் காபி விலைகளும் கொண்டு நிர்ணயிக்கப்பட்டது.
+                </li>
+                <li>
+                    <span class="label">மொழிகள்:</span> செயலியில் 31. இந்த இணையதளம் ஆங்கிலம், பிரெஞ்சு, ஸ்பானிஷ் மொழிகளில் உள்ளது.
+                </li>
+                <li>
+                    <span class="label">குரல்கள்:</span> 15 (ஷெர்லாக் ஹோம்ஸ், Nonna, சிரானோ, டான் கியூக்சோட் மற்றும் பலர்)
+                </li>
+                <li>
+                    <span class="label">தனியுரிமை:</span> சாதனத்திலேயே இயங்குகிறது. கணக்கு இல்லை, விளம்பரம் இல்லை, தரவு விற்பனை இல்லை. உங்கள் நபர்கள் சாதனத்தை விட்டு வெளியேறுவதில்லை. வெளியேறுவது பெயரில்லாத பயன்பாட்டு எண்ணிக்கை, பெயரில்லாத வாங்கிய பதிவுகள், பிழை அறிக்கைகள் மட்டுமே. இயல்பாகவே GDPR தேவைகளை மீறி வடிவமைக்கப்பட்டது.
+                </li>
+                <li>
+                    <span class="label">தளம்:</span> iOS 18+, iPhone மற்றும் iPad. Android 8+.
+                </li>
+                <li>
+                    <span class="label">எதைக் கொண்டு:</span> SwiftUI, SwiftData, WidgetKit. மூன்று வெளி SDK-கள்: TelemetryDeck (பெயரில்லாத பகுப்பாய்வு), RevenueCat (வாங்குதல்), Sentry (பிழை அறிக்கைகள்).
+                </li>
+                <li><span class="label">App Store:</span> <a href="https://apps.apple.com/app/id6760280035">apps.apple.com/app/id6760280035</a></li>
+            </ul>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Research -->
+        <div class="section">
+            <h2 class="section-title">
+                ஆய்வு
+            </h2>
+            <ul class="research-list">
+                <li>
+                    <strong><a href="https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death" style="color: #2D2D2D; text-decoration: underline;">WHO (2025)</a>:</strong> உலகில் 6 பேரில் 1 பேர் தனிமையால் பாதிக்கப்படுகிறார்கள். WHO 2023-இல் தனிமையை அவசர உலகளாவிய உடல்நல அச்சுறுத்தலாக அறிவித்தது.
+                </li>
+                <li>
+                    <em><a href="https://doi.org/10.1037/pspi0000402" style="color: #6B8AD6;">Peggy Liu (2022)</a>:</em> நம் செய்தி மற்றவர்களுக்கு எவ்வளவு மகிழ்ச்சி தருகிறது என்பதை நாம் எப்போதும் குறைத்தே மதிப்பிடுகிறோம், குறிப்பாக அது “சும்மா” அனுப்பப்பட்டதாக இருக்கும்போது.
+                </li>
+                <li>
+                    <strong><a href="https://doi.org/10.1016/0047-2484(92)90081-J" style="color: #2D2D2D; text-decoration: underline;">டன்பாரின் சமூக அடுக்குகள்</a>:</strong> மனிதர்கள் தொடர்பின் அடர்த்திக்கேற்ப உறவுகளை ஒன்றுக்குள் ஒன்றாக அடுக்குகிறார்கள். Dear அந்த அமைப்பையே பிரதிபலித்து, ஒவ்வொருவருக்கும் தனித்தனி அடர்த்தி அமைக்க விடுகிறது.
+                </li>
+            </ul>
+            <p class="research-note">
+                முழு மேற்கோள்கள் press@dearnudges.com-இல் கேட்டுப் பெறலாம்
+            </p>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Downloads -->
+        <div class="section">
+            <h2 class="section-title">
+                பதிவிறக்கங்கள்
+            </h2>
+            <div class="downloads-grid">
+                <a href="../app-icon.png" class="download-item" download>
+                    <p class="download-label">
+                        செயலி சின்னம்
+                    </p>
+                    <p class="download-detail">1024 x 1024px, PNG</p>
+                </a>
+                <a href="../dear-press-kit.zip" class="download-item" download>
+                    <p class="download-label">
+                        முழுப் பத்திரிகைத் தொகுப்பு (ZIP)
+                    </p>
+                    <p class="download-detail">
+                        சின்னம், தகவல் தாள், 21 திரைப்படங்கள் (EN/FR/ES), 7&nbsp;MB
+                    </p>
+                </a>
+                <span class="download-item">
+                    <p class="download-label">
+                        பிராண்ட் நிறம்
+                    </p>
+                    <p class="download-detail"><span class="color-swatch"></span> Nile Blue #6B8AD6</p>
+                </span>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Contact -->
+        <div class="section">
+            <h2 class="section-title">
+                தொடர்பு
+            </h2>
+            <p class="body-text" style="margin-bottom: 12px;">
+                Dear குழு நேர்காணல்களுக்குக் கிடைக்கும். மதிப்பாய்வுக்கான புரோமோ குறியீடுகளும் உண்டு.
+            </p>
+            <div class="contact-links">
+                <a href="mailto:press@dearnudges.com">press@dearnudges.com</a>
+                <a href="https://twitter.com/dearnudges">Twitter</a>
+                <a href="https://instagram.com/dearnudges">Instagram</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Elsewhere Index LLC</p>
+    </footer>
+
+    <nav class="bottom-nav">
+        <a href="/">
+            <svg viewBox="0 0 24 24"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z"/><path d="M9 21V12h6v9"/></svg>
+            முகப்பு
+        </a>
+        <a href="about.html">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            அறிமுகம்
+        </a>
+        <a href="research.html">
+            <svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            ஆய்வு
+        </a>
+        <a href="support.html">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            கேள்விகள்
+        </a>
+        <a href="privacy.html">
+            <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            தனியுரிமை
+        </a>
+        <a href="press.html" class="active">
+            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            பத்திரிகை
+        </a>
+    </nav>
+
+    
+
+</body>
+</html>

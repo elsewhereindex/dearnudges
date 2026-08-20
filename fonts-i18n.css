@@ -174,6 +174,38 @@
   font-style: normal;
   font-weight: 400 700;
   font-display: swap;
+  src: url(fonts/NotoSansTamil-ta.woff2) format('woff2');
+  unicode-range: U+0B85, U+0B86, U+0B87, U+0B89, U+0B8A, U+0B8E, U+0B8F, U+0B90, U+0B92, U+0B95, U+0B99, U+0B9A, U+0B9C, U+0B9E, U+0B9F, U+0BA3, U+0BA4, U+0BA8, U+0BA9, U+0BAA, U+0BAE, U+0BAF, U+0BB0, U+0BB1, U+0BB2, U+0BB3, U+0BB4, U+0BB5, U+0BB7, U+0BB8, U+0BB9, U+0BBE, U+0BBF, U+0BC0, U+0BC1, U+0BC2, U+0BC6, U+0BC7, U+0BC8, U+0BCA, U+0BCB, U+0BCD, U+2190, U+2192;
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: italic;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(fonts/NotoSansTamil-ta.woff2) format('woff2');
+  unicode-range: U+0B85, U+0B86, U+0B87, U+0B89, U+0B8A, U+0B8E, U+0B8F, U+0B90, U+0B92, U+0B95, U+0B99, U+0B9A, U+0B9C, U+0B9E, U+0B9F, U+0BA3, U+0BA4, U+0BA8, U+0BA9, U+0BAA, U+0BAE, U+0BAF, U+0BB0, U+0BB1, U+0BB2, U+0BB3, U+0BB4, U+0BB5, U+0BB7, U+0BB8, U+0BB9, U+0BBE, U+0BBF, U+0BC0, U+0BC1, U+0BC2, U+0BC6, U+0BC7, U+0BC8, U+0BCA, U+0BCB, U+0BCD, U+2190, U+2192;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(fonts/NotoSansTamil-ta.woff2) format('woff2');
+  unicode-range: U+0B85, U+0B86, U+0B87, U+0B89, U+0B8A, U+0B8E, U+0B8F, U+0B90, U+0B92, U+0B95, U+0B99, U+0B9A, U+0B9C, U+0B9E, U+0B9F, U+0BA3, U+0BA4, U+0BA8, U+0BA9, U+0BAA, U+0BAE, U+0BAF, U+0BB0, U+0BB1, U+0BB2, U+0BB3, U+0BB4, U+0BB5, U+0BB7, U+0BB8, U+0BB9, U+0BBE, U+0BBF, U+0BC0, U+0BC1, U+0BC2, U+0BC6, U+0BC7, U+0BC8, U+0BCA, U+0BCB, U+0BCD, U+2190, U+2192;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(fonts/NotoSansTamil-ta.woff2) format('woff2');
+  unicode-range: U+0B85, U+0B86, U+0B87, U+0B89, U+0B8A, U+0B8E, U+0B8F, U+0B90, U+0B92, U+0B95, U+0B99, U+0B9A, U+0B9C, U+0B9E, U+0B9F, U+0BA3, U+0BA4, U+0BA8, U+0BA9, U+0BAA, U+0BAE, U+0BAF, U+0BB0, U+0BB1, U+0BB2, U+0BB3, U+0BB4, U+0BB5, U+0BB7, U+0BB8, U+0BB9, U+0BBE, U+0BBF, U+0BC0, U+0BC1, U+0BC2, U+0BC6, U+0BC7, U+0BC8, U+0BCA, U+0BCB, U+0BCD, U+2190, U+2192;
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
   src: url(fonts/NotoSansThai-th.woff2) format('woff2');
   unicode-range: U+0E01, U+0E02, U+0E04, U+0E06, U+0E07, U+0E08, U+0E09, U+0E0A, U+0E0B, U+0E0D, U+0E0E, U+0E0F, U+0E10, U+0E13, U+0E14, U+0E15, U+0E16, U+0E17, U+0E18, U+0E19, U+0E1A, U+0E1B, U+0E1C, U+0E1D, U+0E1E, U+0E1F, U+0E20, U+0E21, U+0E22, U+0E23, U+0E24, U+0E25, U+0E27, U+0E28, U+0E29, U+0E2A, U+0E2B, U+0E2C, U+0E2D, U+0E2E, U+0E2F, U+0E30, U+0E31, U+0E32, U+0E33, U+0E34, U+0E35, U+0E36, U+0E37, U+0E38, U+0E39, U+0E40, U+0E41, U+0E42, U+0E43, U+0E44, U+0E46, U+0E47, U+0E48, U+0E49, U+0E4C, U+2190, U+2192;
 }
