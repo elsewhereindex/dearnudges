@@ -144,7 +144,10 @@ def rel_url(from_locale, to_locale, page):
     canonical still need absolute URLs, so only the switcher changes."""
     tail = "" if page == "index.html" else page
     if from_locale == "en":
-        return tail if to_locale == "en" else f"{to_locale}/{tail}"
+        # `tail or "./"`: the English index linking to itself produced href="",
+        # which resolves to the current URL but reads as an empty attribute to
+        # validators and to anything walking the link graph.
+        return (tail or "./") if to_locale == "en" else f"{to_locale}/{tail}"
     return f"../{tail}" if to_locale == "en" else f"../{to_locale}/{tail}"
 
 
@@ -180,35 +183,57 @@ def switcher(locales, active, page, names, ready, doc):
     Arabic in as many, so any flag chosen excludes most of its speakers. This is
     long-standing W3C guidance.
 
-    The compact row carries the live locales as short codes. The "+" opens a
-    panel listing everything else in a tidy two-column grid, rather than the
-    ragged wrap that variable-width chips produce."""
+    One button showing the current locale, opening a panel of the rest. The
+    previous design laid every live locale out as a chip in the header. That was
+    reasonable at three and unreadable at 31: two wrapped rows of near-identical
+    two-letter codes above the fold on every page, which is the first thing a
+    visitor met.
+
+    Built on <details>/<summary> rather than a button and a script. The
+    disclosure behaviour, the keyboard handling and the expanded-state
+    announcement are all native, so the panel opens on tap, click, Enter and
+    Space with no JavaScript on the page at all. Hover-to-open is layered on in
+    CSS for fine pointers only, because a hover-only menu is unreachable on a
+    touchscreen."""
     endo = doc.get("endonyms", {})
     ui = doc.get("ui", {})
-    live, soon = [], []
+    items, soon = [], []
     for loc in locales:
+        label = endo.get(loc, names.get(loc, loc.upper()))
         if loc in ready:
-            label = names.get(loc, loc.upper())
-            cls = "lang-btn active" if loc == active else "lang-btn"
+            cls = "lang-item is-active" if loc == active else "lang-item"
             extra = ' aria-current="true"' if loc == active else ""
-            live.append(f'<a class="{cls}" hreflang="{loc}"{extra} '
-                        f'href="{rel_url(active, loc, page)}">{label}</a>')
+            items.append(f'<a class="{cls}" hreflang="{loc}" lang="{loc}"{extra} '
+                         f'href="{rel_url(active, loc, page)}">{label}</a>')
         else:
-            soon.append(f'<span class="lang-soon-item">{endo.get(loc, loc)}</span>')
-    heading = (ui.get("soon_heading") or {}).get(active, "Coming soon")
-    note = (ui.get("app_note") or {}).get(active, "")
+            soon.append(f'<span class="lang-soon-item" lang="{loc}">{label}</span>')
+
+    # Only rendered when something is actually pending. All 31 locales went live
+    # on 2026-08-19, which left the old "+" opening a panel containing a heading
+    # and nothing else.
+    soon_block = ""
+    if soon:
+        heading = (ui.get("soon_heading") or {}).get(active, "Coming soon")
+        note = (ui.get("app_note") or {}).get(active, "")
+        soon_block = (
+            f'<p class="lang-soon-heading">{heading}</p>'
+            f'<div class="lang-soon-grid">{"".join(soon)}</div>'
+            f'<p class="lang-soon-note">{note}</p>'
+        )
+
+    current = names.get(active, active.upper())
     return (
         '<nav class="lang-nav" aria-label="Language">\n'
-        f'        {"".join(live)}\n'
-        '        <button class="lang-btn lang-more" aria-expanded="false" '
-        'aria-controls="lang-more-list" aria-label="More languages" '
-        'onclick="this.setAttribute(\'aria-expanded\', '
-        'this.getAttribute(\'aria-expanded\')===\'true\'?\'false\':\'true\')">+</button>\n'
-        '        <div class="lang-more-list" id="lang-more-list">\n'
-        f'            <p class="lang-soon-heading">{heading}</p>\n'
-        f'            <div class="lang-soon-grid">{"".join(soon)}</div>\n'
-        f'            <p class="lang-soon-note">{note}</p>\n'
-        '        </div>\n'
+        '        <details class="lang-switch">\n'
+        f'            <summary class="lang-current">{current}'
+        '<span class="lang-caret" aria-hidden="true"></span></summary>\n'
+        '            <div class="lang-menu">\n'
+        '                <div class="lang-menu-inner">\n'
+        f'                    <div class="lang-grid">{"".join(items)}</div>\n'
+        f'                    {soon_block}\n'
+        '                </div>\n'
+        '            </div>\n'
+        '        </details>\n'
         '    </nav>'
     )
 

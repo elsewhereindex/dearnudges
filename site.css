@@ -92,24 +92,6 @@
         border-color: #3A3A38 !important;
     }
 
-    /* Language switcher.
-
-       This rule set colour and border but NOT background. Five of the six page
-       templates declare `background: white` on .lang-btn inline and index.html
-       declares `transparent`, so in dark mode the pills were white slabs on a
-       dark page everywhere except the homepage. Set the background here too. */
-    .lang-btn {
-        color: #9FA59F !important;
-        background: #2A2A28 !important;
-        border-color: #3A3A38 !important;
-    }
-    .lang-btn:hover, .lang-btn.active {
-        background: #34342F !important;
-    }
-    .lang-btn:hover, .lang-btn.active {
-        color: #F0EEE0 !important;
-        border-color: #F0EEE0 !important;
-    }
 
     /* Bottom nav keeps the brand blue but drops a shade so it does not glow */
     .bottom-nav { background: #6E83C3 !important; }
@@ -220,32 +202,8 @@ button:focus-visible {
    ───────────────────────────────────────────── */
 .lang-nav { align-items: center; }
 
-a.lang-btn {
-    display: inline-block;
-    text-decoration: none;
-    line-height: 1.1;
-}
 
-/* The six templates each carry their own .lang-btn block and they had drifted:
-   index.html at 0.7rem / 4px 8px / 5px radius and a transparent background, the
-   other five at 0.75rem / 5px 10px / 6px and white. Two visibly different
-   switchers depending on which page you were on. Pin the shared values here,
-   in the stylesheet that loads last, so the per-template copies cannot diverge
-   again without someone noticing. */
-.lang-btn {
-    font-size: 0.72rem;
-    padding: 4px 9px;
-    border-radius: 6px;
-}
 
-/* Planned, not yet translated. Non-interactive and clearly secondary. */
-.lang-btn-soon {
-    opacity: 0.42;
-    cursor: not-allowed;
-    pointer-events: none;
-}
-
-.lang-more { cursor: pointer; font-weight: 700; }
 
 /* The switcher was `position: fixed` in the top-right gutter, which worked
    while three locales fit there. At 14 it runs the full width of the header
@@ -253,13 +211,20 @@ a.lang-btn {
    are added. So it becomes an ordinary in-flow row that wraps: it is the first
    thing in the page (order: -2, above the top nav's -1), full width, centred,
    and it can grow to 31 locales without touching anything else.
-   `position: relative` rather than `static` because .lang-more-list is
-   absolutely positioned against this element. */
+   `position: relative` is no longer needed for the panel (.lang-switch
+   carries that now) but is kept: the nav is still the positioning context
+   the header layout assumes. */
 .lang-nav {
     position: relative;
     top: auto;
     right: auto;
     order: -2;
+    /* Above .bottom-nav, which is order: -1 on desktop and carries z-index: 20.
+       Both are flex items of .page, and z-index applies to a flex item even
+       when its position is static, so .bottom-nav raises a stacking context at
+       20 that the template's z-index: 10 on this element loses to. The open
+       language panel was drawn under the nav links because of it. */
+    z-index: 60;
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
@@ -271,36 +236,109 @@ a.lang-btn {
    than let 16 of them stack four rows deep above the fold. */
 @media (max-width: 600px) {
     .lang-nav { gap: 4px; padding-top: 10px; }
-    .lang-btn { font-size: 0.68rem; padding: 4px 7px; }
 }
 
-/* The overflow panel. Collapsed until "+" is pressed, driven by aria-expanded
-   so the accessible state and the visual state cannot drift.
+/* The panel. `.lang-menu` is a transparent positioning shell whose padding
+   bridges the visual gap to the button. With a margin there instead, a
+   hover-opened menu would close as the pointer crossed the gap to reach it. */
+.lang-switch { position: relative; }
 
-   A two-column grid of plain rows, not wrapped chips: 28 variable-width pills
-   wrap raggedly and read as clutter. A grid scans in one pass. */
-.lang-more-list {
-    display: none;
+.lang-current {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    line-height: 1.1;
+    padding: 4px 9px;
+    border-radius: 6px;
+    border: 1px solid #E8E8EC;
+    background: #FFFFFF;
+    color: #6E6A6F;
+    /* Drop the native disclosure triangle in both engines: the caret below
+       replaces it so it can sit after the label rather than before it. */
+    list-style: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.lang-current::-webkit-details-marker { display: none; }
+.lang-current:hover,
+.lang-switch[open] > .lang-current { color: #2D2D2D; border-color: #2D2D2D; }
+.lang-current:focus-visible { outline: 2px solid #6B8AD6; outline-offset: 2px; }
+
+.lang-caret {
+    width: 0;
+    height: 0;
+    border-left: 3.5px solid transparent;
+    border-right: 3.5px solid transparent;
+    border-top: 4px solid currentColor;
+    transition: transform 0.15s ease;
+}
+.lang-switch[open] .lang-caret { transform: rotate(180deg); }
+
+.lang-menu {
     position: absolute;
-    top: calc(100% + 8px);
-    /* Centred, not right-anchored: the nav is now full width, so `right: 0`
-       would park the panel in the far corner away from the "+" that opens it. */
+    top: 100%;
     left: 50%;
     transform: translateX(-50%);
-    width: 250px;
+    padding-top: 8px;
+    z-index: 40;
+}
+.lang-menu-inner {
+    /* Never wider than the viewport on a narrow phone. */
+    width: min(300px, calc(100vw - 32px));
     max-height: 64vh;
     overflow-y: auto;
     overscroll-behavior: contain;
-    padding: 12px 14px 10px;
+    padding: 10px;
     border-radius: 12px;
     background: #FFFFFF;
     border: 1px solid #E8E8EC;
     box-shadow: 0 12px 34px rgba(45, 45, 45, 0.14);
-    /* `start`, not `left`: under dir=rtl the panel should read from the
-       right like the rest of the page. */
+    /* `start`, not `left`: under dir=rtl the panel reads from the right like
+       the rest of the page. */
     text-align: start;
 }
-.lang-more[aria-expanded="true"] + .lang-more-list { display: block; }
+
+/* Two columns: 31 endonyms in a single column is a 31-row scroll, and they are
+   variable-width strings that wrap raggedly if laid out as chips. */
+.lang-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px 6px;
+}
+.lang-item {
+    display: block;
+    padding: 6px 8px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    line-height: 1.25;
+    color: #2D2D2D;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.lang-item:hover { background: #F2F1EA; }
+.lang-item.is-active { font-weight: 700; color: #6B8AD6; }
+.lang-item:focus-visible { outline: 2px solid #6B8AD6; outline-offset: -2px; }
+
+/* Hover-to-open, fine pointers only. A touchscreen has no hover, so this can
+   never be the only way in: the tap and keyboard path above is the real one,
+   and this is a convenience layered on top of it. */
+@media (hover: hover) and (pointer: fine) {
+    .lang-switch:hover > .lang-menu { display: block; }
+}
+
+/* Phone sizing. This has to come after the base .lang-current rule above, not
+   up with the other max-width:600px block: the selectors have equal
+   specificity, so whichever is written last wins regardless of the media
+   query, and sitting earlier meant it silently did nothing. */
+@media (max-width: 600px) {
+    .lang-current { font-size: 0.68rem; padding: 4px 7px; }
+}
 
 .lang-soon-heading {
     font-size: 0.64rem;
@@ -336,11 +374,21 @@ a.lang-btn {
 }
 
 @media (prefers-color-scheme: dark) {
-    .lang-more-list {
+    .lang-current {
+        color: #9FA59F;
+        background: #2A2A28;
+        border-color: #3A3A38;
+    }
+    .lang-current:hover,
+    .lang-switch[open] > .lang-current { color: #F0EEE0; border-color: #F0EEE0; }
+    .lang-menu-inner {
         background: #2A2A28;
         border-color: #3A3A38;
         box-shadow: 0 12px 34px rgba(0, 0, 0, 0.5);
     }
+    .lang-item { color: #F0EEE0; }
+    .lang-item:hover { background: #34342F; }
+    .lang-item.is-active { color: #93A9E0; }
     .lang-soon-heading, .lang-soon-item, .lang-soon-note { color: #9FA59F; }
     .lang-soon-note { border-top-color: #3A3A38; }
 }
