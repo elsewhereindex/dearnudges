@@ -38,7 +38,7 @@
             max-width: 400px;
             width: 100%;
             text-align: center;
-            padding: 80px 0 120px;
+            padding: 36px 0 120px;
         }
 
         .app-icon {
@@ -53,7 +53,11 @@
             font-family: 'Encode Sans Expanded', -apple-system, BlinkMacSystemFont, sans-serif;
             font-weight: 900;
             font-size: 2rem;
-            color: #2D2D2D;
+            /* The wordmark is the app's accent, #6B8AD6, not ink. At 2rem/900
+               this is large text, where WCAG asks 3:1; it measures 3.23:1 on
+               #FAFAFD. Do not reuse the lighter #8396D1 from the numbers here:
+               that is 2.7:1 and fails even the large-text bar. */
+            color: #6B8AD6;
             margin-bottom: 16px;
             text-transform: uppercase;
             letter-spacing: 0.08em;
@@ -179,7 +183,7 @@
         }
 
         @media (max-width: 480px) {
-            .page { padding: 60px 0 100px; }
+            .page { padding: 24px 0 100px; }
             h1 { font-size: 1.7rem; }
             .app-icon { width: 80px; height: 80px; border-radius: 18px; }
             .lang-nav { top: 10px; right: 10px; }
@@ -257,7 +261,7 @@
             <img src="../img/icon-200.png" width="100" height="100" alt="Dear app icon" class="app-icon">
         </picture>
 
-        <h1>
+        <h1 class="wordmark">
             Dear
         </h1>
 
@@ -280,25 +284,6 @@
         </ul>
         <p class="stats-foot">En het loopt door. Niets over jouw mensen verlaat ooit je telefoon.</p>
 
-
-        <div class="shots" role="group" aria-label="Screenshots">
-            <picture class="shot shot-side">
-                <source srcset="../img/shot-02.webp" type="image/webp">
-                <img src="../img/shot-02.png" width="555" height="1171" loading="lazy" decoding="async"
-                     alt="Jouw mensen in Dear, elk met een eigen ritme">
-            </picture>
-            <picture class="shot shot-hero">
-                <source srcset="../img/shot-01.webp" type="image/webp">
-                <img src="../img/shot-01.png" width="555" height="1171" decoding="async"
-                     alt="De dagelijkse kaart van Dear stelt iemand voor om vandaag te benaderen">
-            </picture>
-            <picture class="shot shot-side">
-                <source srcset="../img/shot-03.webp" type="image/webp">
-                <img src="../img/shot-03.png" width="555" height="1171" loading="lazy" decoding="async"
-                     alt="De Dear-widget op een iPhone-beginscherm">
-            </picture>
-        </div>
-        <p class="shots-caption">E&eacute;n kaart per dag. Jouw kring, geen tijdlijn.</p>
 
         <a href="https://apps.apple.com/app/id6760280035" class="app-store-badge" data-lang="en" aria-label="Download on the App Store">
             <img src="../app-store-badge.svg" alt="Download on the App Store">
@@ -323,6 +308,25 @@
         <p class="free-note">
             Gratis beginnen. Priv&eacute;. Geen account nodig.
         </p>
+
+        <div class="shots" role="group" aria-label="Screenshots">
+            <picture class="shot shot-side">
+                <source srcset="../img/shot-02.webp" type="image/webp">
+                <img src="../img/shot-02.png" width="555" height="1171" loading="lazy" decoding="async"
+                     alt="Jouw mensen in Dear, elk met een eigen ritme">
+            </picture>
+            <picture class="shot shot-hero">
+                <source srcset="../img/shot-01.webp" type="image/webp">
+                <img src="../img/shot-01.png" width="555" height="1171" decoding="async"
+                     alt="De dagelijkse kaart van Dear stelt iemand voor om vandaag te benaderen">
+            </picture>
+            <picture class="shot shot-side">
+                <source srcset="../img/shot-03.webp" type="image/webp">
+                <img src="../img/shot-03.png" width="555" height="1171" loading="lazy" decoding="async"
+                     alt="De Dear-widget op een iPhone-beginscherm">
+            </picture>
+        </div>
+        <p class="shots-caption">E&eacute;n kaart per dag. Jouw kring, geen tijdlijn.</p>
 
         <p class="free-note">
             Dear spreekt 32 talen.

@@ -38,7 +38,7 @@
             max-width: 400px;
             width: 100%;
             text-align: center;
-            padding: 80px 0 120px;
+            padding: 36px 0 120px;
         }
 
         .app-icon {
@@ -53,7 +53,11 @@
             font-family: 'Encode Sans Expanded', -apple-system, BlinkMacSystemFont, sans-serif;
             font-weight: 900;
             font-size: 2rem;
-            color: #2D2D2D;
+            /* The wordmark is the app's accent, #6B8AD6, not ink. At 2rem/900
+               this is large text, where WCAG asks 3:1; it measures 3.23:1 on
+               #FAFAFD. Do not reuse the lighter #8396D1 from the numbers here:
+               that is 2.7:1 and fails even the large-text bar. */
+            color: #6B8AD6;
             margin-bottom: 16px;
             text-transform: uppercase;
             letter-spacing: 0.08em;
@@ -179,7 +183,7 @@
         }
 
         @media (max-width: 480px) {
-            .page { padding: 60px 0 100px; }
+            .page { padding: 24px 0 100px; }
             h1 { font-size: 1.7rem; }
             .app-icon { width: 80px; height: 80px; border-radius: 18px; }
             .lang-nav { top: 10px; right: 10px; }
@@ -218,7 +222,7 @@
             <img src="img/icon-200.png" width="100" height="100" alt="Dear app icon" class="app-icon">
         </picture>
 
-        <h1>
+        <h1 class="wordmark">
             <span data-lang="en">Dear</span>
             <span data-lang="fr">Dear</span>
             <span data-lang="es">Dear</span>
@@ -246,25 +250,6 @@
         <p class="stats-foot"><span data-lang="en">And counting. Nothing about your people ever leaves your phone.</span><span data-lang="fr">Et &ccedil;a continue. Rien sur tes proches ne quitte jamais ton t&eacute;l&eacute;phone.</span><span data-lang="es">Y sumando. Nada sobre tus personas sale nunca de tu tel&eacute;fono.</span></p>
 
 
-        <div class="shots" role="group" aria-label="Screenshots">
-            <picture class="shot shot-side">
-                <source srcset="img/shot-02.webp" type="image/webp">
-                <img src="img/shot-02.png" width="555" height="1171" loading="lazy" decoding="async"
-                     alt="SHOT_ALT2">
-            </picture>
-            <picture class="shot shot-hero">
-                <source srcset="img/shot-01.webp" type="image/webp">
-                <img src="img/shot-01.png" width="555" height="1171" decoding="async"
-                     alt="SHOT_ALT1">
-            </picture>
-            <picture class="shot shot-side">
-                <source srcset="img/shot-03.webp" type="image/webp">
-                <img src="img/shot-03.png" width="555" height="1171" loading="lazy" decoding="async"
-                     alt="SHOT_ALT3">
-            </picture>
-        </div>
-        <p class="shots-caption">SHOT_CAPTION</p>
-
         <a href="https://apps.apple.com/app/id6760280035" class="app-store-badge" data-lang="en" aria-label="Download on the App Store">
             <img src="app-store-badge.svg" alt="Download on the App Store">
         </a>
@@ -290,6 +275,25 @@
             <span data-lang="fr">Gratuit pour commencer. Priv&eacute;. Pas de compte.</span>
             <span data-lang="es">Gratis para empezar. Privado. Sin cuentas.</span>
         </p>
+
+        <div class="shots" role="group" aria-label="Screenshots">
+            <picture class="shot shot-side">
+                <source srcset="img/shot-02.webp" type="image/webp">
+                <img src="img/shot-02.png" width="555" height="1171" loading="lazy" decoding="async"
+                     alt="SHOT_ALT2">
+            </picture>
+            <picture class="shot shot-hero">
+                <source srcset="img/shot-01.webp" type="image/webp">
+                <img src="img/shot-01.png" width="555" height="1171" decoding="async"
+                     alt="SHOT_ALT1">
+            </picture>
+            <picture class="shot shot-side">
+                <source srcset="img/shot-03.webp" type="image/webp">
+                <img src="img/shot-03.png" width="555" height="1171" loading="lazy" decoding="async"
+                     alt="SHOT_ALT3">
+            </picture>
+        </div>
+        <p class="shots-caption">SHOT_CAPTION</p>
 
         <p class="free-note">
             <span data-lang="en">Dear speaks STAT_LANGUAGES languages.</span>

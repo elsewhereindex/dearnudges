@@ -31,6 +31,11 @@
         color: #F0EEE0 !important;
     }
 
+    /* The homepage wordmark is brand colour, not ink, so it must not fall into
+       the blanket heading rule above. #A9BCEB is 9.2:1 on #1A1A1A; the
+       light-mode #6B8AD6 would be 2.5:1 here. */
+    h1.wordmark { color: #A9BCEB !important; }
+
     /* Secondary / muted text. #9FA59F on #1A1A1A is 7.4:1, comfortably AA. */
     .tagline, .free-note, .copyright, .source, .card-source,
     .card-body, p, li, .faq-answer, .footer-links a {
