@@ -184,6 +184,21 @@
             .app-icon { width: 80px; height: 80px; border-radius: 18px; }
             .lang-nav { top: 10px; right: 10px; }
         }
+
+        /* Numbers block. One type treatment for all four so they read as a set. */
+        .stats{list-style:none;display:grid;grid-template-columns:repeat(4,1fr);
+            gap:14px 8px;margin:22px auto 0;padding:0;max-width:440px}
+        .stats li{text-align:center}
+        .stat-n{display:block;font-size:30px;font-weight:700;line-height:1.05;
+            color:#8396D1;letter-spacing:-.01em;font-variant-numeric:tabular-nums}
+        .stat-l{display:block;margin-top:4px;font-size:10px;font-weight:500;
+            letter-spacing:.16em;text-transform:uppercase;color:#6E6A6F}
+        .stats-foot{margin:14px auto 0;max-width:440px;text-align:center;
+            font-size:12.5px;color:#7A767B;line-height:1.55}
+        @media (max-width:430px){
+            .stats{grid-template-columns:repeat(2,1fr);gap:18px 8px}
+            .stat-n{font-size:28px}
+        }
     </style>
     <link rel="stylesheet" href="../fonts.css">
     <link rel="stylesheet" href="../fonts-i18n.css">
@@ -250,6 +265,21 @@
             每天一個人，在失去聯絡之前。傳個訊息，打通電話，就好了。
         </p>
 
+        <!-- Numbers. Every value is a token filled at build time from stats.json,
+             which tools/build_stats.py generates from real sources: TelemetryDeck
+             for hellos, SHIP_LANGS for languages, App Store Connect for countries.
+             Nothing here is typed by hand, because the hand-typed "31 languages"
+             stayed wrong on all 31 homepages for days after Urdu shipped.
+             The rendered values are in the markup, so the block is correct with
+             JavaScript off; the script only animates and refreshes them. -->
+        <ul class="stats" aria-label="Dear by the numbers">
+            <li><span class="stat-n" data-stat="hellos" data-to="3658">3,658</span><span class="stat-l">問候</span></li>
+            <li><span class="stat-n" data-stat="languages" data-to="32">32</span><span class="stat-l">語言</span></li>
+            <li><span class="stat-n" data-stat="countries" data-to="175">175</span><span class="stat-l">國家</span></li>
+            <li><span class="stat-n" data-stat="accounts" data-to="0">0</span><span class="stat-l">帳戶</span></li>
+        </ul>
+        <p class="stats-foot">還在增加。關於你身邊的人的一切，都不會離開你的手機。</p>
+
 
         <div class="shots" role="group" aria-label="Screenshots">
             <picture class="shot shot-side">
@@ -295,7 +325,7 @@
         </p>
 
         <p class="free-note">
-            Dear 支援 31 種語言。
+            Dear 支援 32 種語言。
         </p>
 
         <div class="footer-links">
@@ -337,6 +367,66 @@
     </nav>
 
     
+
+
+    <script>
+        /* Count-up for the numbers block.
+           Reads /stats.json so the page and the data move independently: today that
+           file is rebuilt in CI, later it can be served live from an edge worker at
+           the same URL with no change here. The path is root-relative because this
+           page is also served from /fr/, /es/ and 29 other subdirectories.
+           Respects prefers-reduced-motion, and leaves the server-rendered values in
+           place if the fetch fails, so a network problem can never blank the numbers. */
+        (function () {
+            var els = document.querySelectorAll('.stat-n');
+            if (!els.length) return;
+            var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            var loc = document.documentElement.lang || 'en';
+
+            function render(el, v) {
+                try { el.textContent = v.toLocaleString(loc); }
+                catch (e) { el.textContent = v.toLocaleString(); }
+            }
+
+            function animate(el, to) {
+                if (reduce || to === 0) { render(el, to); return; }
+                var dur = 900, start = null, from = 0;
+                function step(ts) {
+                    if (start === null) start = ts;
+                    var p = Math.min((ts - start) / dur, 1);
+                    /* ease-out so it decelerates into the real figure rather than snapping */
+                    render(el, Math.round(from + (to - from) * (1 - Math.pow(1 - p, 3))));
+                    if (p < 1) requestAnimationFrame(step);
+                }
+                requestAnimationFrame(step);
+            }
+
+            function run() {
+                els.forEach(function (el) { animate(el, parseInt(el.dataset.to, 10) || 0); });
+            }
+
+            /* Only animate once the block is actually on screen. */
+            if ('IntersectionObserver' in window) {
+                var io = new IntersectionObserver(function (entries) {
+                    entries.forEach(function (e) { if (e.isIntersecting) { run(); io.disconnect(); } });
+                }, { threshold: 0.4 });
+                io.observe(els[0].closest('.stats'));
+            } else { run(); }
+
+            fetch('/stats.json', { cache: 'no-cache' })
+                .then(function (r) { return r.ok ? r.json() : null; })
+                .then(function (d) {
+                    if (!d) return;
+                    els.forEach(function (el) {
+                        var v = d[el.dataset.stat];
+                        if (typeof v !== 'number') return;
+                        el.dataset.to = v;
+                        render(el, v);
+                    });
+                })
+                .catch(function () { /* keep the server-rendered values */ });
+        })();
+    </script>
 
 </body>
 </html>

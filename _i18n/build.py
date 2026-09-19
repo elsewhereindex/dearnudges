@@ -283,7 +283,53 @@ def fallback_blocks(html, locale):
         pos = i
     return "".join(out)
 
-def render(page, locale, doc):
+# Digit grouping per locale, for the numbers rendered into the page at build
+# time. The browser re-formats with toLocaleString once the script runs; this is
+# what a visitor with JavaScript off, or a crawler, actually reads. Only the
+# separator varies, never the digits: the site writes Western digits in every
+# locale (the language count has always read "31", not "٣١"), so changing that
+# here would make one number on the page disagree with the sentence below it.
+GROUPING = {
+    "fr": "\u00a0", "ru": "\u00a0", "uk": "\u00a0", "pl": "\u00a0",
+    "sv": "\u00a0", "nb": "\u00a0", "fi": "\u00a0",
+    "de": ".", "it": ".", "es": ".", "pt-BR": ".", "nl": ".", "da": ".",
+    "tr": ".", "id": ".", "vi": ".",
+}
+
+
+def load_stats():
+    """Read stats.json, the single source for every number on the homepage.
+
+    Hard failure rather than a default: a homepage that silently prints 0
+    reconnections, or last month's language count, is worse than a build that
+    stops. tools/build_stats.py has the same rule on the writing side.
+    """
+    path = os.path.join(ROOT, "stats.json")
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    for k in ("hellos", "languages", "countries", "accounts"):
+        if not isinstance(data.get(k), int):
+            raise SystemExit(f"REFUSING TO BUILD: stats.json has no integer {k!r}. "
+                             f"Run tools/build_stats.py.")
+    return data
+
+
+def fill_stats(out, locale, stats):
+    """Substitute STAT_* tokens.
+
+    The _RAW form goes first: "STAT_LANGUAGES" is a prefix of
+    "STAT_LANGUAGES_RAW", so replacing the short token first would eat the
+    long one and leave a stray "_RAW" in the markup.
+    """
+    sep = GROUPING.get(locale, ",")
+    for key in ("hellos", "languages", "countries", "accounts"):
+        n = stats[key]
+        out = out.replace(f"STAT_{key.upper()}_RAW", str(n))
+        out = out.replace(f"STAT_{key.upper()}", f"{n:,}".replace(",", sep))
+    return out
+
+
+def render(page, locale, doc, stats):
     src = open(os.path.join(ROOT, "_i18n", "templates", page), encoding="utf-8").read()
     strings = doc["strings"]
     locales = doc["locales"]
@@ -394,6 +440,10 @@ def render(page, locale, doc):
     # 6. Replace the JS switcher with rendered links, and drop its script.
     out = LANG_NAV.sub(lambda _m: switcher(locales, locale, page, names, ready, doc), out, count=1)
     out = LANG_SCRIPT.sub("", out)
+
+    # 7. Numbers. Last, so a token sitting inside a translated string (the
+    #    language count does) is filled whichever locale supplied the sentence.
+    out = fill_stats(out, locale, stats)
     return out
 
 
@@ -497,6 +547,7 @@ def verify_canonicals(doc, produced):
 def main():
     doc = load()
     preflight(doc)
+    stats = load_stats()
     ready = doc.get("ready", doc["locales"])
     written = 0
     produced = []
@@ -507,7 +558,7 @@ def main():
         if locale != "en":
             os.makedirs(outdir, exist_ok=True)
         for page in PAGES:
-            html = render(page, locale, doc)
+            html = render(page, locale, doc, stats)
             dest = os.path.join(outdir, page)
             with open(dest, "w", encoding="utf-8") as f:
                 f.write(html)
