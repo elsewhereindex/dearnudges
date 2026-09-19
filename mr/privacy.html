@@ -69,18 +69,26 @@
 
         a.back:hover { text-decoration: underline; }
 
-        h1 {
-            font-family: 'Quicksand', sans-serif;
+        /* Same page title as about, research and press. These two pages predate
+           it and kept a left-aligned Quicksand h1 in #2D2D2D ink, so the site
+           had two different title treatments depending on which page you
+           landed on. The subtitle underneath carries the 48px, so the title
+           itself sits tight above it. */
+        .page-title {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-style: italic;
             font-weight: 700;
-            font-size: 1.6rem;
-            color: #2D2D2D;
-            margin-bottom: 6px;
+            font-size: 2rem;
+            color: #6B8AD6;
+            margin-bottom: 10px;
+            text-align: center;
         }
 
         .updated {
+            text-align: center;
             font-size: 0.82rem;
             color: #7A767B;
-            margin-bottom: 36px;
+            margin-bottom: 48px;
         }
 
         .short-version {
@@ -92,12 +100,19 @@
             font-size: 0.95rem;
         }
 
+        /* Matches .section-title on about, research and press. This page's
+           headings were the last dark-ink ones on the site. Kept at 32px of
+           top margin because there are thirteen of them in a long document
+           and they are what makes it scannable. */
         h2 {
+            font-family: 'Quicksand', sans-serif;
             font-weight: 700;
-            font-size: 1.05rem;
-            color: #2D2D2D;
-            margin-top: 32px;
-            margin-bottom: 12px;
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: #6B8AD6;
+            margin-top: 40px;
+            margin-bottom: 14px;
         }
 
         p {
@@ -189,7 +204,7 @@
 
         @media (max-width: 480px) {
             .container { padding: 40px 0 32px; }
-            h1 { font-size: 1.4rem; }
+            .page-title { font-size: 1.65rem; }
             .lang-nav { top: 10px; right: 10px; }
             .lang-btn { padding: 4px 8px; font-size: 0.7rem; }
         }
@@ -247,7 +262,7 @@
     </nav>
 
     <div class="container">
-        <h1>
+        <h1 class="page-title">
             गोपनीयता धोरण
         </h1>
         <p class="updated">

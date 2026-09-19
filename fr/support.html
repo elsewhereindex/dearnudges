@@ -74,18 +74,26 @@
 
         a.back:hover { text-decoration: underline; }
 
-        h1 {
-            font-family: 'Quicksand', sans-serif;
+        /* Same page title as about, research and press. These two pages predate
+           it and kept a left-aligned Quicksand h1 in #2D2D2D ink, so the site
+           had two different title treatments depending on which page you
+           landed on. The subtitle underneath carries the 48px, so the title
+           itself sits tight above it. */
+        .page-title {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-style: italic;
             font-weight: 700;
-            font-size: 1.6rem;
-            color: #2D2D2D;
-            margin-bottom: 6px;
+            font-size: 2rem;
+            color: #6B8AD6;
+            margin-bottom: 10px;
+            text-align: center;
         }
 
         .subtitle {
+            text-align: center;
             font-size: 0.92rem;
             color: #7A767B;
-            margin-bottom: 32px;
+            margin-bottom: 48px;
             line-height: 1.5;
         }
 
@@ -297,7 +305,7 @@
 
         @media (max-width: 480px) {
             .container { padding: 40px 0 32px; }
-            h1 { font-size: 1.4rem; }
+            .page-title { font-size: 1.65rem; }
             .lang-nav { top: 10px; right: 10px; }
             .lang-btn { padding: 4px 8px; font-size: 0.7rem; }
         }
@@ -355,7 +363,7 @@
     </nav>
 
 <div class="container">
-    <h1>
+    <h1 class="page-title">
         Aide
     </h1>
     <p class="subtitle">
