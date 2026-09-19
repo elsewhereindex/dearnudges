@@ -416,17 +416,21 @@ button:focus-visible {
 .shots .shot {
     display: block;
     line-height: 0;
-    border-radius: 14px;
+    /* drop-shadow, not box-shadow: the PNGs are cut out to the device
+       silhouette, so a box-shadow would draw the rectangle the cutout exists
+       to remove. filter follows the alpha channel and the rounded corners. */
+    filter: drop-shadow(0 12px 24px rgba(45, 45, 45, 0.18));
 }
 .shots img {
     display: block;
     width: 100%;
     height: auto;
-    border-radius: 16px;
-    box-shadow: 0 10px 34px rgba(45, 45, 45, 0.16);
 }
 .shot-hero { width: 150px; z-index: 1; }
-.shot-side { width: 124px; opacity: 0.88; }
+/* A light fade still separates the side phones from the hero. It used to be
+   0.88, which was fighting the cream card behind them; without the card it
+   only greys out the bezel. */
+.shot-side { width: 124px; opacity: 0.94; }
 
 .shots-caption {
     font-size: 0.82rem;
@@ -448,6 +452,6 @@ button:focus-visible {
 }
 
 @media (prefers-color-scheme: dark) {
-    .shots img { box-shadow: 0 10px 34px rgba(0, 0, 0, 0.5); }
+    .shots .shot { filter: drop-shadow(0 12px 26px rgba(0, 0, 0, 0.55)); }
     .shots-caption { color: #9FA59F; }
 }
