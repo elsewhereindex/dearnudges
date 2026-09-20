@@ -309,6 +309,26 @@
             .lang-nav { top: 10px; right: 10px; }
             .lang-btn { padding: 4px 8px; font-size: 0.7rem; }
         }
+        /* Every page except the homepage had no way to reach either store.
+           A reader arriving on About or Privacy from search had to find the
+           nav, go Home, and scroll. */
+        .get-app {
+            margin: 8px 0 28px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+        .get-app a {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: #6B8AD6;
+            text-decoration: none;
+        }
+        .get-app a:hover { text-decoration: underline; }
+        .get-app .sep { color: #B9B6BB; font-size: 0.82rem; }
     </style>
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="fonts-i18n.css">
@@ -2353,6 +2373,19 @@
         <a class="contact-btn" data-lang="es" href="mailto:support@dearnudges.com?subject=Dear%20App%20-%20Ayuda">Enviar correo</a>
     </div>
 
+    <p class="get-app">
+        <a href="https://apps.apple.com/app/id6760280035">
+            <span data-lang="en">Get Dear on the App Store</span>
+            <span data-lang="fr">Dear sur l'App Store</span>
+            <span data-lang="es">Dear en el App Store</span>
+        </a>
+        <span class="sep" aria-hidden="true">&middot;</span>
+        <a href="https://play.google.com/store/apps/details?id=com.elsewhere.dear">
+            <span data-lang="en">Get Dear on Google Play</span>
+            <span data-lang="fr">Dear sur Google Play</span>
+            <span data-lang="es">Dear en Google Play</span>
+        </a>
+    </p>
     <footer>
         <p>&copy; 2026 Elsewhere Index LLC</p>
     </footer>

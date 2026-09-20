@@ -248,6 +248,26 @@
             .lang-nav { top: 10px; right: 10px; }
             .lang-btn { padding: 4px 8px; font-size: 0.7rem; }
         }
+        /* Every page except the homepage had no way to reach either store.
+           A reader arriving on About or Privacy from search had to find the
+           nav, go Home, and scroll. */
+        .get-app {
+            margin: 8px 0 28px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+        .get-app a {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: #6B8AD6;
+            text-decoration: none;
+        }
+        .get-app a:hover { text-decoration: underline; }
+        .get-app .sep { color: #B9B6BB; font-size: 0.82rem; }
     </style>
     <link rel="stylesheet" href="../fonts.css">
     <link rel="stylesheet" href="../fonts-i18n.css">
@@ -368,10 +388,10 @@
                         這是健康問題，不只是一個好想法
                     </p>
                     <p class="card-body">
-                        世界衛生組織在 2023 年宣布孤獨是迫切的全球健康威脅，並報告約每 4 位長者中就有 1 位處於社會孤立狀態。Holt-Lunstad 的統合分析也發現，社會孤立使過早死亡的風險提高 26&nbsp;%。Dear 是針對一個大問題的小工具。
+                        The WHO reports that 1 in 6 people worldwide are affected by loneliness, and links it to more than 871,000 deaths a year. Separately, Holt-Lunstad's meta-analysis found social isolation raises the risk of premature death by 26%. Dear is a small tool pointed at a big problem.
                     </p>
                     <p class="card-source">
-                        WHO Commission on Social Connection，2023；Holt-Lunstad 等，2010
+                        WHO Commission on Social Connection, 2025; Holt-Lunstad et al., 2010
                     </p>
                 </div>
             </div>
@@ -484,7 +504,7 @@
                     <span class="label">價格：</span>15 人以內免費。升級的價格大約相當於你所在國家一杯濃縮咖啡（美國約 2.99&nbsp;$），依據世界銀行的所得資料和 Numbeo 的咖啡價格訂定。
                 </li>
                 <li>
-                    <span class="label">語言：</span>App 支援 31 種。聲音提供英文、法文和西班牙文。
+                    <span class="label">Languages:</span> 32 in the app. Voices in English, French and Spanish.
                 </li>
                 <li>
                     <span class="label">平台：</span>iOS 18 以上，Android 8 以上
@@ -520,6 +540,15 @@
         </div>
     </div>
 
+    <p class="get-app">
+        <a href="https://apps.apple.com/app/id6760280035">
+            Get Dear on the App Store
+        </a>
+        <span class="sep" aria-hidden="true">&middot;</span>
+        <a href="https://play.google.com/store/apps/details?id=com.elsewhere.dear">
+            Get Dear on Google Play
+        </a>
+    </p>
     <footer>
         <p>&copy; 2026 Elsewhere Index LLC</p>
     </footer>

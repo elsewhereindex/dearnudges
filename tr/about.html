@@ -248,6 +248,26 @@
             .lang-nav { top: 10px; right: 10px; }
             .lang-btn { padding: 4px 8px; font-size: 0.7rem; }
         }
+        /* Every page except the homepage had no way to reach either store.
+           A reader arriving on About or Privacy from search had to find the
+           nav, go Home, and scroll. */
+        .get-app {
+            margin: 8px 0 28px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+        .get-app a {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: #6B8AD6;
+            text-decoration: none;
+        }
+        .get-app a:hover { text-decoration: underline; }
+        .get-app .sep { color: #B9B6BB; font-size: 0.82rem; }
     </style>
     <link rel="stylesheet" href="../fonts.css">
     <link rel="stylesheet" href="../fonts-i18n.css">
@@ -368,10 +388,10 @@
                         Bu sadece ho&scedil; bir fikir de&gbreve;il, bir sa&gbreve;l&#305;k meselesi
                     </p>
                     <p class="card-body">
-                        D&uuml;nya Sa&gbreve;l&#305;k &Ouml;rg&uuml;t&uuml; 2023'te yaln&#305;zl&#305;&gbreve;&#305; acil bir k&uuml;resel sa&gbreve;l&#305;k tehdidi ilan etti ve her 4 ya&scedil;l&#305; ki&scedil;iden yakla&scedil;&#305;k 1'inin sosyal yal&#305;t&#305;m ya&scedil;ad&#305;&gbreve;&#305;n&#305; bildirdi. Holt-Lunstad'&#305;n meta analizi ayr&#305;ca sosyal yal&#305;t&#305;m&#305;n erken &ouml;l&uuml;m riskini 26&nbsp;% art&#305;rd&#305;&gbreve;&#305;n&#305; buldu. Dear b&uuml;y&uuml;k bir soruna y&ouml;neltilmi&scedil; k&uuml;&ccedil;&uuml;k bir ara&ccedil;.
+                        The WHO reports that 1 in 6 people worldwide are affected by loneliness, and links it to more than 871,000 deaths a year. Separately, Holt-Lunstad's meta-analysis found social isolation raises the risk of premature death by 26%. Dear is a small tool pointed at a big problem.
                     </p>
                     <p class="card-source">
-                        WHO Commission on Social Connection, 2023; Holt-Lunstad et al., 2010
+                        WHO Commission on Social Connection, 2025; Holt-Lunstad et al., 2010
                     </p>
                 </div>
             </div>
@@ -484,7 +504,7 @@
                     <span class="label">Fiyat:</span> 15 ki&scedil;iye kadar &uuml;cretsiz. Y&uuml;kseltmeler &uuml;lkendeki bir espresso kadar (ABD'de ayda yakla&scedil;&#305;k 2,99&nbsp;$), D&uuml;nya Bankas&#305; gelir verileri ve Numbeo kahve fiyatlar&#305;yla belirlenir.
                 </li>
                 <li>
-                    <span class="label">Diller:</span> Uygulamada 31. Sesler &#304;ngilizce, Frans&#305;zca ve &#304;spanyolca.
+                    <span class="label">Languages:</span> 32 in the app. Voices in English, French and Spanish.
                 </li>
                 <li>
                     <span class="label">Platform:</span> iOS 18+, Android 8+
@@ -520,6 +540,15 @@
         </div>
     </div>
 
+    <p class="get-app">
+        <a href="https://apps.apple.com/app/id6760280035">
+            Get Dear on the App Store
+        </a>
+        <span class="sep" aria-hidden="true">&middot;</span>
+        <a href="https://play.google.com/store/apps/details?id=com.elsewhere.dear">
+            Get Dear on Google Play
+        </a>
+    </p>
     <footer>
         <p>&copy; 2026 Elsewhere Index LLC</p>
     </footer>

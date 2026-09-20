@@ -248,6 +248,26 @@
             .lang-nav { top: 10px; right: 10px; }
             .lang-btn { padding: 4px 8px; font-size: 0.7rem; }
         }
+        /* Every page except the homepage had no way to reach either store.
+           A reader arriving on About or Privacy from search had to find the
+           nav, go Home, and scroll. */
+        .get-app {
+            margin: 8px 0 28px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+        .get-app a {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: #6B8AD6;
+            text-decoration: none;
+        }
+        .get-app a:hover { text-decoration: underline; }
+        .get-app .sep { color: #B9B6BB; font-size: 0.82rem; }
     </style>
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="fonts-i18n.css">
@@ -359,14 +379,14 @@
                         <span data-lang="es">Es un tema de salud, no solo una buena idea</span>
                     </p>
                     <p class="card-body">
-                        <span data-lang="en">The WHO declared loneliness a pressing global health threat in 2023, reporting that around 1 in 4 older people experience social isolation. Separately, Holt-Lunstad's meta-analysis found social isolation raises the risk of premature death by 26%. Dear is a small tool pointed at a big problem.</span>
-                        <span data-lang="fr">L'OMS a d&eacute;clar&eacute; la solitude menace mondiale pour la sant&eacute; en 2023, indiquant qu'environ 1 personne &acirc;g&eacute;e sur 4 conna&icirc;t l'isolement social. Par ailleurs, la m&eacute;ta-analyse de Holt-Lunstad montre que l'isolement social augmente le risque de d&eacute;c&egrave;s pr&eacute;matur&eacute; de 26%. Dear est un petit outil face &agrave; un grand probl&egrave;me.</span>
-                        <span data-lang="es">La OMS declar&oacute; la soledad una amenaza urgente para la salud global en 2023, se&ntilde;alando que alrededor de 1 de cada 4 personas mayores sufre aislamiento social. Por su parte, el metaan&aacute;lisis de Holt-Lunstad hall&oacute; que el aislamiento social aumenta el riesgo de muerte prematura en un 26%. Dear es una herramienta peque&ntilde;a apuntando a un gran problema.</span>
+                        <span data-lang="en">The WHO reports that 1 in 6 people worldwide are affected by loneliness, and links it to more than 871,000 deaths a year. Separately, Holt-Lunstad's meta-analysis found social isolation raises the risk of premature death by 26%. Dear is a small tool pointed at a big problem.</span>
+                        <span data-lang="fr">L'OMS indique qu'1 personne sur 6 dans le monde est touch&eacute;e par la solitude, et la relie &agrave; plus de 871 000 d&eacute;c&egrave;s par an. Par ailleurs, la m&eacute;ta-analyse de Holt-Lunstad montre que l'isolement social augmente le risque de d&eacute;c&egrave;s pr&eacute;matur&eacute; de 26%. Dear est un petit outil face &agrave; un grand probl&egrave;me.</span>
+                        <span data-lang="es">La OMS se&ntilde;ala que 1 de cada 6 personas en el mundo se ve afectada por la soledad, y la relaciona con m&aacute;s de 871.000 muertes al a&ntilde;o. Por su parte, el metaan&aacute;lisis de Holt-Lunstad hall&oacute; que el aislamiento social aumenta el riesgo de muerte prematura en un 26%. Dear es una herramienta peque&ntilde;a apuntando a un gran problema.</span>
                     </p>
                     <p class="card-source">
-                        <span data-lang="en">WHO Commission on Social Connection, 2023; Holt-Lunstad et al., 2010</span>
-                        <span data-lang="fr">Commission de l'OMS sur les liens sociaux, 2023 ; Holt-Lunstad et al., 2010</span>
-                        <span data-lang="es">Comisi&oacute;n de la OMS sobre Conexi&oacute;n Social, 2023; Holt-Lunstad et al., 2010</span>
+                        <span data-lang="en">WHO Commission on Social Connection, 2025; Holt-Lunstad et al., 2010</span>
+                        <span data-lang="fr">Commission de l'OMS sur les liens sociaux, 2025 ; Holt-Lunstad et al., 2010</span>
+                        <span data-lang="es">Comisi&oacute;n de la OMS sobre Conexi&oacute;n Social, 2025; Holt-Lunstad et al., 2010</span>
                     </p>
                 </div>
             </div>
@@ -509,9 +529,9 @@
                     <span data-lang="es"><span class="label">Precio:</span> Gratis hasta 15 personas. Las mejoras cuestan como un espresso en tu pa&iacute;s (alrededor de $2.99/mes en EE.&nbsp;UU.), calculadas con datos de ingresos del Banco Mundial y precios de caf&eacute; de Numbeo.</span>
                 </li>
                 <li>
-                    <span data-lang="en"><span class="label">Languages:</span> 31 in the app. Voices in English, French and Spanish.</span>
-                    <span data-lang="fr"><span class="label">Langues :</span> 31 dans l'app. Voix en anglais, fran&ccedil;ais et espagnol.</span>
-                    <span data-lang="es"><span class="label">Idiomas:</span> 31 en la app. Voces en ingl&eacute;s, franc&eacute;s y espa&ntilde;ol.</span>
+                    <span data-lang="en"><span class="label">Languages:</span> STAT_LANGUAGES in the app. Voices in English, French and Spanish.</span>
+                    <span data-lang="fr"><span class="label">Langues :</span> STAT_LANGUAGES dans l'app. Voix en anglais, fran&ccedil;ais et espagnol.</span>
+                    <span data-lang="es"><span class="label">Idiomas:</span> STAT_LANGUAGES en la app. Voces en ingl&eacute;s, franc&eacute;s y espa&ntilde;ol.</span>
                 </li>
                 <li>
                     <span data-lang="en"><span class="label">Platform:</span> iOS 18+, Android 8+</span>
@@ -557,6 +577,19 @@
         </div>
     </div>
 
+    <p class="get-app">
+        <a href="https://apps.apple.com/app/id6760280035">
+            <span data-lang="en">Get Dear on the App Store</span>
+            <span data-lang="fr">Dear sur l'App Store</span>
+            <span data-lang="es">Dear en el App Store</span>
+        </a>
+        <span class="sep" aria-hidden="true">&middot;</span>
+        <a href="https://play.google.com/store/apps/details?id=com.elsewhere.dear">
+            <span data-lang="en">Get Dear on Google Play</span>
+            <span data-lang="fr">Dear sur Google Play</span>
+            <span data-lang="es">Dear en Google Play</span>
+        </a>
+    </p>
     <footer>
         <p>&copy; 2026 Elsewhere Index LLC</p>
     </footer>

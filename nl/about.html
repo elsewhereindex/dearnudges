@@ -248,6 +248,26 @@
             .lang-nav { top: 10px; right: 10px; }
             .lang-btn { padding: 4px 8px; font-size: 0.7rem; }
         }
+        /* Every page except the homepage had no way to reach either store.
+           A reader arriving on About or Privacy from search had to find the
+           nav, go Home, and scroll. */
+        .get-app {
+            margin: 8px 0 28px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+        .get-app a {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: #6B8AD6;
+            text-decoration: none;
+        }
+        .get-app a:hover { text-decoration: underline; }
+        .get-app .sep { color: #B9B6BB; font-size: 0.82rem; }
     </style>
     <link rel="stylesheet" href="../fonts.css">
     <link rel="stylesheet" href="../fonts-i18n.css">
@@ -368,10 +388,10 @@
                         Dit is een gezondheidskwestie, niet alleen een aardig idee
                     </p>
                     <p class="card-body">
-                        De WHO noemde eenzaamheid in 2023 een urgente wereldwijde bedreiging voor de gezondheid en meldde dat ongeveer 1 op de 4 ouderen sociaal ge&iuml;soleerd is. De meta-analyse van Holt-Lunstad vond daarnaast dat sociaal isolement de kans op vroegtijdig overlijden met 26&nbsp;% verhoogt. Dear is een klein hulpmiddel gericht op een groot probleem.
+                        The WHO reports that 1 in 6 people worldwide are affected by loneliness, and links it to more than 871,000 deaths a year. Separately, Holt-Lunstad's meta-analysis found social isolation raises the risk of premature death by 26%. Dear is a small tool pointed at a big problem.
                     </p>
                     <p class="card-source">
-                        WHO Commission on Social Connection, 2023; Holt-Lunstad et al., 2010
+                        WHO Commission on Social Connection, 2025; Holt-Lunstad et al., 2010
                     </p>
                 </div>
             </div>
@@ -484,7 +504,7 @@
                     <span class="label">Prijs:</span> Gratis tot 15 personen. Upgrades kosten ongeveer een espresso in jouw land (rond 2,99&nbsp;$ per maand in de VS), bepaald met inkomensdata van de Wereldbank en koffieprijzen van Numbeo.
                 </li>
                 <li>
-                    <span class="label">Talen:</span> 31 in de app. Stemmen in het Engels, Frans en Spaans.
+                    <span class="label">Languages:</span> 32 in the app. Voices in English, French and Spanish.
                 </li>
                 <li>
                     <span class="label">Platform:</span> iOS 18+, Android 8+
@@ -520,6 +540,15 @@
         </div>
     </div>
 
+    <p class="get-app">
+        <a href="https://apps.apple.com/app/id6760280035">
+            Get Dear on the App Store
+        </a>
+        <span class="sep" aria-hidden="true">&middot;</span>
+        <a href="https://play.google.com/store/apps/details?id=com.elsewhere.dear">
+            Get Dear on Google Play
+        </a>
+    </p>
     <footer>
         <p>&copy; 2026 Elsewhere Index LLC</p>
     </footer>

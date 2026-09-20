@@ -237,8 +237,9 @@
         <!-- Numbers. Every value is a token filled at build time from stats.json,
              which tools/build_stats.py generates from real sources: TelemetryDeck
              for hellos, SHIP_LANGS for languages, App Store Connect for countries.
-             Nothing here is typed by hand, because the hand-typed "31 languages"
-             stayed wrong on all 31 homepages for days after Urdu shipped.
+             Nothing here is typed by hand: the hand-typed language count went
+             stale on every homepage for days after Urdu shipped, which is why
+             tools/build_stats.py exists.
              The rendered values are in the markup, so the block is correct with
              JavaScript off; the script only animates and refreshes them. -->
         <ul class="stats" aria-label="Dear by the numbers">

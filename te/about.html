@@ -248,6 +248,26 @@
             .lang-nav { top: 10px; right: 10px; }
             .lang-btn { padding: 4px 8px; font-size: 0.7rem; }
         }
+        /* Every page except the homepage had no way to reach either store.
+           A reader arriving on About or Privacy from search had to find the
+           nav, go Home, and scroll. */
+        .get-app {
+            margin: 8px 0 28px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+        .get-app a {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: #6B8AD6;
+            text-decoration: none;
+        }
+        .get-app a:hover { text-decoration: underline; }
+        .get-app .sep { color: #B9B6BB; font-size: 0.82rem; }
     </style>
     <link rel="stylesheet" href="../fonts.css">
     <link rel="stylesheet" href="../fonts-i18n.css">
@@ -368,10 +388,10 @@
                         ఇది ఆరోగ్య సమస్య, కేవలం మంచి ఆలోచన కాదు
                     </p>
                     <p class="card-body">
-                        WHO 2023లో ఒంటరితనాన్ని తక్షణ ప్రపంచ ఆరోగ్య ముప్పుగా ప్రకటించింది, ప్రతి 4 మంది వృద్ధుల్లో సుమారు 1 మంది సామాజిక ఒంటరితనంలో ఉన్నారని తెలిపింది. Holt-Lunstad మెటా విశ్లేషణలోనూ సామాజిక ఒంటరితనం అకాల మరణ ప్రమాదాన్ని 26&nbsp;% పెంచుతుందని తేలింది. Dear ఒక పెద్ద సమస్య వైపు గురిపెట్టిన చిన్న సాధనం.
+                        The WHO reports that 1 in 6 people worldwide are affected by loneliness, and links it to more than 871,000 deaths a year. Separately, Holt-Lunstad's meta-analysis found social isolation raises the risk of premature death by 26%. Dear is a small tool pointed at a big problem.
                     </p>
                     <p class="card-source">
-                        WHO Commission on Social Connection, 2023; Holt-Lunstad తదితరులు, 2010
+                        WHO Commission on Social Connection, 2025; Holt-Lunstad et al., 2010
                     </p>
                 </div>
             </div>
@@ -484,7 +504,7 @@
                     <span class="label">ధర:</span> 15 మంది వరకు ఉచితం. అప్‌గ్రేడ్ ధర మీ దేశంలో ఒక ఎస్ప్రెసో అంత ఉంటుంది (అమెరికాలో సుమారు 2.99&nbsp;$), ప్రపంచ బ్యాంక్ ఆదాయ గణాంకాలు, Numbeo కాఫీ ధరల ఆధారంగా నిర్ణయించాం.
                 </li>
                 <li>
-                    <span class="label">భాషలు:</span> యాప్‌లో 31. వాయిస్‌లు ఇంగ్లిష్, ఫ్రెంచ్, స్పానిష్‌లలో.
+                    <span class="label">Languages:</span> 32 in the app. Voices in English, French and Spanish.
                 </li>
                 <li>
                     <span class="label">ప్లాట్‌ఫాం:</span> iOS 18+, Android 8+
@@ -520,6 +540,15 @@
         </div>
     </div>
 
+    <p class="get-app">
+        <a href="https://apps.apple.com/app/id6760280035">
+            Get Dear on the App Store
+        </a>
+        <span class="sep" aria-hidden="true">&middot;</span>
+        <a href="https://play.google.com/store/apps/details?id=com.elsewhere.dear">
+            Get Dear on Google Play
+        </a>
+    </p>
     <footer>
         <p>&copy; 2026 Elsewhere Index LLC</p>
     </footer>

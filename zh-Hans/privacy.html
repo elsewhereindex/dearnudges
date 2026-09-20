@@ -208,6 +208,26 @@
             .lang-nav { top: 10px; right: 10px; }
             .lang-btn { padding: 4px 8px; font-size: 0.7rem; }
         }
+        /* Every page except the homepage had no way to reach either store.
+           A reader arriving on About or Privacy from search had to find the
+           nav, go Home, and scroll. */
+        .get-app {
+            margin: 8px 0 28px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+        .get-app a {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: #6B8AD6;
+            text-decoration: none;
+        }
+        .get-app a:hover { text-decoration: underline; }
+        .get-app .sep { color: #B9B6BB; font-size: 0.82rem; }
     </style>
     <link rel="stylesheet" href="../fonts.css">
     <link rel="stylesheet" href="../fonts-i18n.css">
@@ -562,6 +582,15 @@
 
         <div class="divider"></div>
 
+        <p class="get-app">
+            <a href="https://apps.apple.com/app/id6760280035">
+                Get Dear on the App Store
+            </a>
+            <span class="sep" aria-hidden="true">&middot;</span>
+            <a href="https://play.google.com/store/apps/details?id=com.elsewhere.dear">
+                Get Dear on Google Play
+            </a>
+        </p>
         <footer>
             <em>
                 Dear: Stay in Touch 由 Elsewhere Index LLC 制作。在 Apple App Store 和 Google Play 发行，含可选的应用内购买，无广告、无账号、不收集个人数据。

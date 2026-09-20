@@ -146,6 +146,26 @@
             .lang-nav { top: 10px; right: 10px; }
             .lang-btn { padding: 4px 8px; font-size: 0.7rem; }
         }
+        /* Every page except the homepage had no way to reach either store.
+           A reader arriving on About or Privacy from search had to find the
+           nav, go Home, and scroll. */
+        .get-app {
+            margin: 8px 0 28px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+        .get-app a {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: #6B8AD6;
+            text-decoration: none;
+        }
+        .get-app a:hover { text-decoration: underline; }
+        .get-app .sep { color: #B9B6BB; font-size: 0.82rem; }
     </style>
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="fonts-i18n.css">
@@ -268,9 +288,9 @@
             </h2>
             <ul class="research-list">
                 <li>
-                    <span data-lang="en"><strong><a href="https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death" style="color: #2D2D2D; text-decoration: underline;">WHO (2025)</a>:</strong> 1 in 6 people worldwide are affected by loneliness. WHO declared loneliness a pressing global health threat in 2023.</span>
-                    <span data-lang="fr"><strong>OMS (2025) :</strong> 1 personne sur 6 dans le monde est touch&eacute;e par la solitude. L'OMS a d&eacute;clar&eacute; la solitude menace mondiale urgente pour la sant&eacute; en 2023.</span>
-                    <span data-lang="es"><strong>OMS (2025):</strong> 1 de cada 6 personas en el mundo se ve afectada por la soledad. La OMS declar&oacute; la soledad una amenaza urgente para la salud global en 2023.</span>
+                    <span data-lang="en"><strong><a href="https://www.who.int/news/item/30-06-2025-social-connection-linked-to-improved-heath-and-reduced-risk-of-early-death" style="color: #2D2D2D; text-decoration: underline;">WHO (2025)</a>:</strong> 1 in 6 people worldwide are affected by loneliness, which is linked to more than 871,000 deaths a year.</span>
+                    <span data-lang="fr"><strong>OMS (2025) :</strong> 1 personne sur 6 dans le monde est touch&eacute;e par la solitude, ce qui est li&eacute; &agrave; plus de 871 000 d&eacute;c&egrave;s par an.</span>
+                    <span data-lang="es"><strong>OMS (2025):</strong> 1 de cada 6 personas en el mundo se ve afectada por la soledad, lo que se relaciona con m&aacute;s de 871.000 muertes al a&ntilde;o.</span>
                 </li>
                 <li>
                     <span data-lang="en"><em><a href="https://doi.org/10.1037/pspi0000402" style="color: #6B8AD6;">Peggy Liu (2022)</a>:</em> People consistently underestimate how much others appreciate hearing from them, especially when reaching out "just because."</span>
@@ -353,6 +373,19 @@
         </div>
     </div>
 
+    <p class="get-app">
+        <a href="https://apps.apple.com/app/id6760280035">
+            <span data-lang="en">Get Dear on the App Store</span>
+            <span data-lang="fr">Dear sur l'App Store</span>
+            <span data-lang="es">Dear en el App Store</span>
+        </a>
+        <span class="sep" aria-hidden="true">&middot;</span>
+        <a href="https://play.google.com/store/apps/details?id=com.elsewhere.dear">
+            <span data-lang="en">Get Dear on Google Play</span>
+            <span data-lang="fr">Dear sur Google Play</span>
+            <span data-lang="es">Dear en Google Play</span>
+        </a>
+    </p>
     <footer>
         <p>&copy; 2026 Elsewhere Index LLC</p>
     </footer>

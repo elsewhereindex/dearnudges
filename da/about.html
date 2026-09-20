@@ -248,6 +248,26 @@
             .lang-nav { top: 10px; right: 10px; }
             .lang-btn { padding: 4px 8px; font-size: 0.7rem; }
         }
+        /* Every page except the homepage had no way to reach either store.
+           A reader arriving on About or Privacy from search had to find the
+           nav, go Home, and scroll. */
+        .get-app {
+            margin: 8px 0 28px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+        .get-app a {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: #6B8AD6;
+            text-decoration: none;
+        }
+        .get-app a:hover { text-decoration: underline; }
+        .get-app .sep { color: #B9B6BB; font-size: 0.82rem; }
     </style>
     <link rel="stylesheet" href="../fonts.css">
     <link rel="stylesheet" href="../fonts-i18n.css">
@@ -368,10 +388,10 @@
                         Det her er et sundhedssp&oslash;rgsm&aring;l, ikke bare en god idé
                     </p>
                     <p class="card-body">
-                        WHO erkl&aelig;rede i 2023 ensomhed for en presserende global sundhedstrussel og oplyste, at omkring 1 ud af 4 &aelig;ldre lever i social isolation. Holt-Lunstads metaanalyse fandt desuden, at social isolation &oslash;ger risikoen for tidlig d&oslash;d med 26&nbsp;%. Dear er et lille v&aelig;rkt&oslash;j rettet mod et stort problem.
+                        The WHO reports that 1 in 6 people worldwide are affected by loneliness, and links it to more than 871,000 deaths a year. Separately, Holt-Lunstad's meta-analysis found social isolation raises the risk of premature death by 26%. Dear is a small tool pointed at a big problem.
                     </p>
                     <p class="card-source">
-                        WHO Commission on Social Connection, 2023; Holt-Lunstad et al., 2010
+                        WHO Commission on Social Connection, 2025; Holt-Lunstad et al., 2010
                     </p>
                 </div>
             </div>
@@ -484,7 +504,7 @@
                     <span class="label">Pris:</span> Gratis for op til 15 personer. Opgraderinger koster omtrent som en espresso i dit land (cirka 2,99&nbsp;$ om m&aring;neden i USA), beregnet med indkomstdata fra Verdensbanken og kaffepriser fra Numbeo.
                 </li>
                 <li>
-                    <span class="label">Sprog:</span> 31 i appen. Stemmer p&aring; engelsk, fransk og spansk.
+                    <span class="label">Languages:</span> 32 in the app. Voices in English, French and Spanish.
                 </li>
                 <li>
                     <span class="label">Platform:</span> iOS 18+, Android 8+
@@ -520,6 +540,15 @@
         </div>
     </div>
 
+    <p class="get-app">
+        <a href="https://apps.apple.com/app/id6760280035">
+            Get Dear on the App Store
+        </a>
+        <span class="sep" aria-hidden="true">&middot;</span>
+        <a href="https://play.google.com/store/apps/details?id=com.elsewhere.dear">
+            Get Dear on Google Play
+        </a>
+    </p>
     <footer>
         <p>&copy; 2026 Elsewhere Index LLC</p>
     </footer>

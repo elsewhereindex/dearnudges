@@ -248,6 +248,26 @@
             .lang-nav { top: 10px; right: 10px; }
             .lang-btn { padding: 4px 8px; font-size: 0.7rem; }
         }
+        /* Every page except the homepage had no way to reach either store.
+           A reader arriving on About or Privacy from search had to find the
+           nav, go Home, and scroll. */
+        .get-app {
+            margin: 8px 0 28px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+        .get-app a {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: #6B8AD6;
+            text-decoration: none;
+        }
+        .get-app a:hover { text-decoration: underline; }
+        .get-app .sep { color: #B9B6BB; font-size: 0.82rem; }
     </style>
     <link rel="stylesheet" href="../fonts.css">
     <link rel="stylesheet" href="../fonts-i18n.css">
@@ -368,10 +388,10 @@
                         To sprawa zdrowia, nie tylko mi&lstrok;y pomys&lstrok;
                     </p>
                     <p class="card-body">
-                        W 2023 roku WHO uzna&lstrok;o samotno&sacute;&cacute; za piln&aogon; globaln&aogon; zagro&zdot;enie dla zdrowia, podaj&aogon;c, &zdot;e oko&lstrok;o 1 na 4 osoby starsze do&sacute;wiadcza izolacji spo&lstrok;ecznej. Metaanaliza Holt-Lunstad wykaza&lstrok;a ponadto, &zdot;e izolacja spo&lstrok;eczna podnosi ryzyko przedwczesnej &sacute;mierci o 26&nbsp;%. Dear to ma&lstrok;e narz&eogon;dzie wymierzone w du&zdot;y problem.
+                        The WHO reports that 1 in 6 people worldwide are affected by loneliness, and links it to more than 871,000 deaths a year. Separately, Holt-Lunstad's meta-analysis found social isolation raises the risk of premature death by 26%. Dear is a small tool pointed at a big problem.
                     </p>
                     <p class="card-source">
-                        WHO Commission on Social Connection, 2023; Holt-Lunstad et al., 2010
+                        WHO Commission on Social Connection, 2025; Holt-Lunstad et al., 2010
                     </p>
                 </div>
             </div>
@@ -484,7 +504,7 @@
                     <span class="label">Cena:</span> Bezp&lstrok;atnie do 15 os&oacute;b. Ulepszenia kosztuj&aogon; mniej wi&eogon;cej tyle co espresso w twoim kraju (oko&lstrok;o 2,99&nbsp;$ miesi&eogon;cznie w USA), wyliczone na podstawie danych o dochodach Banku &Sacute;wiatowego i cen kawy z Numbeo.
                 </li>
                 <li>
-                    <span class="label">J&eogon;zyki:</span> 31 w aplikacji. G&#322;osy po angielsku, francusku i hiszpa&nacute;sku.
+                    <span class="label">Languages:</span> 32 in the app. Voices in English, French and Spanish.
                 </li>
                 <li>
                     <span class="label">Platforma:</span> iOS 18+, Android 8+
@@ -520,6 +540,15 @@
         </div>
     </div>
 
+    <p class="get-app">
+        <a href="https://apps.apple.com/app/id6760280035">
+            Get Dear on the App Store
+        </a>
+        <span class="sep" aria-hidden="true">&middot;</span>
+        <a href="https://play.google.com/store/apps/details?id=com.elsewhere.dear">
+            Get Dear on Google Play
+        </a>
+    </p>
     <footer>
         <p>&copy; 2026 Elsewhere Index LLC</p>
     </footer>
