@@ -2265,7 +2265,17 @@
       "ta": "தனியுரிமைக் கொள்கை",
       "te": "గోప్యతా విధానం",
       "ar": "سياسة الخصوصية",
-      "he": "מדיניות פרטיות"
+      "he": "מדיניות פרטיות",
+      "de": "Datenschutzerkl&auml;rung",
+      "nl": "Privacybeleid",
+      "sv": "Integritetspolicy",
+      "da": "Privatlivspolitik",
+      "nb": "Personvernerkl&aelig;ring",
+      "fi": "Tietosuojaseloste",
+      "it": "Informativa sulla privacy",
+      "pt-BR": "Pol&iacute;tica de Privacidade",
+      "pl": "Polityka prywatno&sacute;ci",
+      "tr": "Gizlilik Politikas&#305;"
     },
     "last_updated_july_2026_56b301": {
       "en": "Last updated September 2026",
@@ -2321,7 +2331,17 @@
       "ta": "உங்கள் நண்பர்களும் தொடர்புத் தரவும் ஒருபோதும் உங்கள் சாதனத்தை விட்டு வெளியேறுவதில்லை. எங்களிடம் கணக்குகள் இல்லை, விளம்பரம் இல்லை. செயலி எப்படிப் பயன்படுத்தப்படுகிறது என்பதைப் புரிந்துகொள்ளவும், உங்கள் வாங்கியவற்றை மீட்கவும், கெட்டுப்போனதைச் சரிசெய்யவும், ஜெர்மனியில் உள்ள தனியுரிமையை முன்னிறுத்தும் TelemetryDeck மூலம் சிறிதளவு பெயரில்லாத பயன்பாட்டு எண்ணிக்கையையும், RevenueCat மூலம் பெயரில்லாத வாங்கிய பதிவுகளையும், Sentry மூலம் பெயரில்லாத செயலிழப்பு அறிக்கைகளையும் சேகரிக்கிறோம். இவற்றிலிருந்து உங்களை அடையாளம் காண முடியாது, உங்கள் நண்பர்களின் பெயர்களோ தொடர்பு விவரங்களோ ஒருபோதும் இதில் இருக்காது.<br><br>\n            அவ்வளவுதான். இதுவே தனியுரிமைக் கொள்கை.",
       "te": "మీ స్నేహితులు, కాంటాక్ట్ డేటా మీ పరికరాన్ని దాటి ఎప్పుడూ బయటికి వెళ్లవు. మా దగ్గర ఖాతాలు లేవు, ప్రకటనలు లేవు. యాప్ ఎలా వాడబడుతోందో అర్థం చేసుకోవడానికి, మీ కొనుగోళ్లను తిరిగి ఇవ్వడానికి, చెడిపోయినది సరిచేయడానికి జర్మనీలోని గోప్యతకు ప్రాధాన్యమిచ్చే TelemetryDeck ద్వారా కొద్దిపాటి పేరు లేని వాడక లెక్కలు, RevenueCat ద్వారా పేరు లేని కొనుగోలు రికార్డులు, Sentry ద్వారా పేరు లేని క్రాష్ నివేదికలు సేకరిస్తాం. వీటి నుంచి మిమ్మల్ని గుర్తించలేం, మీ స్నేహితుల పేర్లు లేదా కాంటాక్ట్ వివరాలు వీటిలో ఎప్పుడూ ఉండవు.<br><br>\n            అంతే. ఇదే గోప్యతా విధానం.",
       "ar": "أصدقاؤك وبيانات جهات اتصالك لا تغادر جهازك أبدًا. ليس لدينا حسابات ولا إعلانات. نحن نجمع فعلًا قدرًا صغيرًا من أعداد الاستخدام بلا هوية عبر TelemetryDeck، وهي خدمة تحليلات تعنى بالخصوصية في ألمانيا، وسجلات شراء بلا هوية عبر RevenueCat، وتقارير أعطال بلا هوية عبر Sentry، لنفهم كيف يُستخدم التطبيق، ونستعيد مشترياتك، ونصلح ما يتعطل. ولا يمكننا التعرف عليك من ذلك، ولا تُدرج فيه أبدًا أسماء أصدقائك أو بيانات التواصل معهم.<br><br>\n            هذا كل شيء. هذه هي سياسة الخصوصية.",
-      "he": "החברים ונתוני אנשי הקשר שלכם לא יוצאים מהמכשיר. אין לנו חשבונות ואין פרסומות. אנחנו כן אוספים מעט ספירות שימוש בלי שם דרך TelemetryDeck, שירות ניתוח ממוקד פרטיות בגרמניה, רישומי רכישה בלי שם דרך RevenueCat, ודוחות קריסה בלי שם דרך Sentry, כדי להבין איך משתמשים באפליקציה, לשחזר את הרכישות שלכם ולתקן מה שנשבר. אי אפשר לזהות אתכם מזה, ושמות ופרטי הקשר של החברים שלכם לעולם לא נכללים.<br><br>\n            זהו. זו מדיניות הפרטיות."
+      "he": "החברים ונתוני אנשי הקשר שלכם לא יוצאים מהמכשיר. אין לנו חשבונות ואין פרסומות. אנחנו כן אוספים מעט ספירות שימוש בלי שם דרך TelemetryDeck, שירות ניתוח ממוקד פרטיות בגרמניה, רישומי רכישה בלי שם דרך RevenueCat, ודוחות קריסה בלי שם דרך Sentry, כדי להבין איך משתמשים באפליקציה, לשחזר את הרכישות שלכם ולתקן מה שנשבר. אי אפשר לזהות אתכם מזה, ושמות ופרטי הקשר של החברים שלכם לעולם לא נכללים.<br><br>\n            זהו. זו מדיניות הפרטיות.",
+      "de": "Deine Freunde und Kontaktdaten verlassen dein Ger&auml;t nie. Wir haben keine Konten und keine Werbung. Wir erfassen eine kleine Menge anonymer Nutzungsz&auml;hlungen &uuml;ber TelemetryDeck, einen datenschutzorientierten Analysedienst in Deutschland, anonyme Kaufbelege &uuml;ber RevenueCat und anonyme Fehlerberichte &uuml;ber Sentry, um zu verstehen, wie die App genutzt wird, deine K&auml;ufe wiederherzustellen und zu reparieren, was kaputtgeht. Wir k&ouml;nnen dich daraus nicht identifizieren, und die Namen und Kontaktdaten deiner Freunde sind nie enthalten.<br><br>\n            Das ist alles. Das ist die Datenschutzerkl&auml;rung.",
+      "nl": "Je vrienden en contactgegevens verlaten je toestel nooit. We hebben geen accounts en geen advertenties. We verzamelen wel een kleine set anonieme gebruikstellingen via TelemetryDeck, een privacygerichte analysedienst in Duitsland, anonieme aankoopgegevens via RevenueCat en anonieme foutrapporten via Sentry, om te begrijpen hoe de app gebruikt wordt, je aankopen te herstellen en te repareren wat stukgaat. We kunnen je daaruit niet identificeren, en de namen en contactgegevens van je vrienden zitten er nooit in.<br><br>\n            Dat is het. Dat is het privacybeleid.",
+      "sv": "Dina v&auml;nner och kontaktuppgifter l&auml;mnar aldrig din enhet. Vi har inga konton och ingen reklam. Vi samlar in en liten m&auml;ngd anonyma anv&auml;ndningsr&auml;kningar via TelemetryDeck, en integritetsinriktad analystj&auml;nst i Tyskland, anonyma k&ouml;puppgifter via RevenueCat och anonyma kraschrapporter via Sentry, f&ouml;r att f&ouml;rst&aring; hur appen anv&auml;nds, &aring;terst&auml;lla dina k&ouml;p och laga det som g&aring;r s&ouml;nder. Vi kan inte identifiera dig utifr&aring;n detta, och dina v&auml;nners namn och kontaktuppgifter ing&aring;r aldrig.<br><br>\n            Det var allt. Det &auml;r hela integritetspolicyn.",
+      "da": "Dine venner og kontaktoplysninger forlader aldrig din enhed. Vi har ingen konti og ingen reklamer. Vi indsamler et lille s&aelig;t anonyme brugst&aelig;llinger via TelemetryDeck, en privatlivsorienteret analysetjeneste i Tyskland, anonyme k&oslash;bsoplysninger via RevenueCat og anonyme nedbrudsrapporter via Sentry, for at forst&aring; hvordan appen bruges, gendanne dine k&oslash;b og reparere det, der g&aring;r i stykker. Vi kan ikke identificere dig ud fra det, og dine venners navne og kontaktoplysninger indg&aring;r aldrig.<br><br>\n            Det var det. Det er hele privatlivspolitikken.",
+      "nb": "Vennene dine og kontaktopplysningene forlater aldri enheten din. Vi har ingen kontoer og ingen reklame. Vi samler inn et lite sett anonyme brukstellinger via TelemetryDeck, en personverntjeneste for analyse i Tyskland, anonyme kj&oslash;psopplysninger via RevenueCat og anonyme krasjrapporter via Sentry, for &aring; forst&aring; hvordan appen brukes, gjenopprette kj&oslash;pene dine og reparere det som g&aring;r i stykker. Vi kan ikke identifisere deg ut fra dette, og vennenes navn og kontaktopplysninger er aldri med.<br><br>\n            Det var det. Det er hele personvernerkl&aelig;ringen.",
+      "fi": "Yst&auml;v&auml;si ja yhteystietosi eiv&auml;t koskaan poistu laitteeltasi. Meill&auml; ei ole tilej&auml; eik&auml; mainoksia. Ker&auml;&auml;mme pienen joukon nimett&ouml;mi&auml; k&auml;ytt&ouml;laskureita TelemetryDeckin kautta, joka on tietosuojaan keskittyv&auml; analytiikkapalvelu Saksassa, nimett&ouml;mi&auml; ostotietoja RevenueCatin kautta ja nimett&ouml;mi&auml; kaatumisraportteja Sentryn kautta, jotta ymm&auml;rr&auml;mme miten sovellusta k&auml;ytet&auml;&auml;n, voimme palauttaa ostoksesi ja korjata sen mik&auml; rikkoutuu. Emme voi tunnistaa sinua n&auml;ist&auml;, eiv&auml;tk&auml; yst&auml;viesi nimet tai yhteystiedot ole koskaan mukana.<br><br>\n            Siin&auml; kaikki. T&auml;m&auml; on koko tietosuojaseloste.",
+      "it": "I tuoi amici e i tuoi contatti non lasciano mai il tuo dispositivo. Non abbiamo account n&eacute; pubblicit&agrave;. Raccogliamo un piccolo insieme di conteggi d'uso anonimi tramite TelemetryDeck, un servizio di analisi attento alla privacy con sede in Germania, registri d'acquisto anonimi tramite RevenueCat e segnalazioni di errori anonime tramite Sentry, per capire come viene usata l'app, ripristinare i tuoi acquisti e riparare ci&ograve; che si rompe. Da questi non possiamo identificarti, e i nomi e i contatti dei tuoi amici non sono mai inclusi.<br><br>\n            Ecco tutto. Questa &egrave; l'informativa sulla privacy.",
+      "pt-BR": "Seus amigos e seus contatos nunca saem do seu aparelho. N&atilde;o temos contas nem an&uacute;ncios. Coletamos um pequeno conjunto de contagens de uso an&ocirc;nimas pelo TelemetryDeck, um servi&ccedil;o de an&aacute;lise focado em privacidade sediado na Alemanha, registros de compra an&ocirc;nimos pelo RevenueCat e relat&oacute;rios de falhas an&ocirc;nimos pelo Sentry, para entender como o app &eacute; usado, restaurar suas compras e consertar o que quebra. N&atilde;o conseguimos identificar voc&ecirc; a partir disso, e os nomes e contatos dos seus amigos nunca s&atilde;o inclu&iacute;dos.<br><br>\n            &Eacute; isso. Essa &eacute; a pol&iacute;tica de privacidade.",
+      "pl": "Twoi znajomi i dane kontaktowe nigdy nie opuszczaj&aogon; twojego urz&aogon;dzenia. Nie mamy kont ani reklam. Zbieramy niewielki zestaw anonimowych licznik&oacute;w u&zdot;ycia przez TelemetryDeck, us&lstrok;ug&eogon; analityczn&aogon; nastawion&aogon; na prywatno&sacute;&cacute; z siedzib&aogon; w Niemczech, anonimowe zapisy zakup&oacute;w przez RevenueCat oraz anonimowe raporty b&lstrok;&eogon;d&oacute;w przez Sentry, aby rozumie&cacute;, jak aplikacja jest u&zdot;ywana, przywraca&cacute; twoje zakupy i naprawia&cacute; to, co si&eogon; psuje. Nie mo&zdot;emy ci&eogon; na tej podstawie zidentyfikowa&cacute;, a imiona i dane kontaktowe twoich znajomych nigdy nie s&aogon; do&lstrok;&aogon;czane.<br><br>\n            To wszystko. Taka jest polityka prywatno&sacute;ci.",
+      "tr": "Arkada&scedil;lar&#305;n ve ki&scedil;i bilgilerin cihaz&#305;ndan asla &ccedil;&#305;kmaz. Hesab&#305;m&#305;z ve reklam&#305;m&#305;z yok. Uygulaman&#305;n nas&#305;l kullan&#305;ld&#305;&#287;&#305;n&#305; anlamak, sat&#305;n al&#305;mlar&#305;n&#305; geri y&uuml;klemek ve bozulan&#305; onarmak i&ccedil;in Almanya merkezli, gizlili&#287;e odakl&#305; analiz hizmeti TelemetryDeck &uuml;zerinden k&uuml;&ccedil;&uuml;k bir anonim kullan&#305;m say&#305;m&#305; seti, RevenueCat &uuml;zerinden anonim sat&#305;n alma kay&#305;tlar&#305; ve Sentry &uuml;zerinden anonim hata raporlar&#305; topluyoruz. Bunlardan seni tan&#305;mlayamay&#305;z ve arkada&scedil;lar&#305;n&#305;n adlar&#305; ile ileti&scedil;im bilgileri asla dahil edilmez.<br><br>\n            Hepsi bu. Gizlilik politikas&#305; bundan ibaret."
     },
     "if_you_want_the_longer_version_for_legal_pur_6609b9": {
       "en": "If you want the longer version for legal purposes, keep reading.",
@@ -2344,7 +2364,17 @@
       "ta": "சட்டத் தேவைக்காக விரிவான வடிவம் வேண்டுமானால் தொடர்ந்து படியுங்கள்.",
       "te": "చట్టపరమైన అవసరాల కోసం విస్తృత రూపం కావాలంటే చదవడం కొనసాగించండి.",
       "ar": "إن أردت النسخة الأطول لأغراض قانونية، فتابع القراءة.",
-      "he": "אם אתם צריכים את הגרסה המפורטת לצרכים משפטיים, המשיכו לקרוא."
+      "he": "אם אתם צריכים את הגרסה המפורטת לצרכים משפטיים, המשיכו לקרוא.",
+      "de": "Wenn du die l&auml;ngere Fassung aus rechtlichen Gr&uuml;nden m&ouml;chtest, lies weiter.",
+      "nl": "Wil je de langere versie voor juridische doeleinden, lees dan verder.",
+      "sv": "Vill du ha den l&auml;ngre versionen av juridiska sk&auml;l, l&auml;s vidare.",
+      "da": "Vil du have den l&aelig;ngere version af juridiske grunde, s&aring; l&aelig;s videre.",
+      "nb": "Vil du ha den lengre versjonen av juridiske grunner, les videre.",
+      "fi": "Jos haluat pidemm&auml;n version oikeudellisia tarkoituksia varten, jatka lukemista.",
+      "it": "Se vuoi la versione pi&ugrave; lunga per motivi legali, continua a leggere.",
+      "pt-BR": "Se quiser a vers&atilde;o mais longa para fins jur&iacute;dicos, continue lendo.",
+      "pl": "Je&sacute;li chcesz d&lstrok;u&zdot;sz&aogon; wersj&eogon; do cel&oacute;w prawnych, czytaj dalej.",
+      "tr": "Hukuki ama&ccedil;larla daha uzun s&uuml;r&uuml;m&uuml;n&uuml; istiyorsan okumaya devam et."
     },
     "what_data_dear_accesses_2f05d0": {
       "en": "What data Dear accesses",
@@ -2367,7 +2397,17 @@
       "ta": "Dear எந்தத் தரவை அணுகுகிறது",
       "te": "Dear ఏ డేటాను చూస్తుంది",
       "ar": "ما البيانات التي يصل إليها Dear",
-      "he": "לאילו נתונים Dear ניגש"
+      "he": "לאילו נתונים Dear ניגש",
+      "de": "Auf welche Daten Dear zugreift",
+      "nl": "Welke gegevens Dear gebruikt",
+      "sv": "Vilka uppgifter Dear kommer &aring;t",
+      "da": "Hvilke data Dear tilg&aring;r",
+      "nb": "Hvilke data Dear har tilgang til",
+      "fi": "Mihin tietoihin Dear p&auml;&auml;see",
+      "it": "A quali dati accede Dear",
+      "pt-BR": "A quais dados o Dear acessa",
+      "pl": "Do jakich danych si&eogon;ga Dear",
+      "tr": "Dear hangi verilere eri&scedil;ir"
     },
     "contact_names_and_photos_during_onboarding_d_8da663": {
       "en": "<strong>Contact names and photos.</strong> During onboarding, Dear asks for permission to access your Contacts. This is used solely to let you select people to add to your nudge list. Contact data is read once during selection and stored locally on your device. Dear never transmits contact data off your device, and you can use the app without granting Contacts access by typing names manually.",
@@ -2390,7 +2430,17 @@
       "ta": "<strong>தொடர்புகளின் பெயர்களும் புகைப்படங்களும்.</strong> முதன்முதலில் திறக்கும்போது Dear தொடர்புகளை அணுக அனுமதி கேட்கிறது. நினைவூட்டல் பட்டியலில் சேர்க்க நபர்களைத் தேர்ந்தெடுக்க மட்டுமே இது பயன்படுகிறது. தேர்வின்போது தொடர்புத் தரவு ஒருமுறை மட்டும் படிக்கப்பட்டு உங்கள் சாதனத்திலேயே சேமிக்கப்படுகிறது. Dear தொடர்புத் தரவை ஒருபோதும் சாதனத்துக்கு வெளியே அனுப்புவதில்லை; அனுமதி தராமல் பெயர்களை நீங்களே தட்டச்சு செய்தும் செயலியைப் பயன்படுத்தலாம்.",
       "te": "<strong>కాంటాక్ట్‌ల పేర్లు, ఫోటోలు.</strong> మొదటిసారి తెరిచినప్పుడు Dear కాంటాక్ట్‌లను చూడటానికి అనుమతి అడుగుతుంది. గుర్తుచేతల జాబితాలో చేర్చడానికి మనుషులను ఎంచుకోవడానికి మాత్రమే ఇది వాడతారు. ఎంపిక సమయంలో కాంటాక్ట్ డేటా ఒకసారే చదవబడి మీ పరికరంలోనే భద్రపరచబడుతుంది. Dear కాంటాక్ట్ డేటాను ఎప్పుడూ పరికరం బయటికి పంపదు, అనుమతి ఇవ్వకుండా పేర్లు మీరే టైప్ చేసి కూడా యాప్ వాడవచ్చు.",
       "ar": "<strong>أسماء جهات الاتصال وصورها.</strong> عند أول تشغيل يطلب Dear إذن الوصول إلى جهات الاتصال. ويُستخدم هذا فقط لتختار من تضيفهم إلى قائمة التذكير. تُقرأ بيانات جهات الاتصال مرة واحدة أثناء الاختيار وتُحفظ على جهازك. ولا ينقل Dear بيانات جهات الاتصال خارج الجهاز أبدًا، ويمكنك استخدام التطبيق دون منح الإذن بكتابة الأسماء يدويًا.",
-      "he": "<strong>שמות ותמונות של אנשי קשר.</strong> בהפעלה הראשונה Dear מבקש הרשאה לאנשי הקשר. זה משמש רק כדי שתוכלו לבחור אנשים לרשימת התזכורות. נתוני אנשי הקשר נקראים פעם אחת בזמן הבחירה ונשמרים על המכשיר. Dear לעולם לא מעביר נתוני אנשי קשר מחוץ למכשיר, ואפשר להשתמש באפליקציה בלי לתת הרשאה, על ידי הקלדת שמות ידנית."
+      "he": "<strong>שמות ותמונות של אנשי קשר.</strong> בהפעלה הראשונה Dear מבקש הרשאה לאנשי הקשר. זה משמש רק כדי שתוכלו לבחור אנשים לרשימת התזכורות. נתוני אנשי הקשר נקראים פעם אחת בזמן הבחירה ונשמרים על המכשיר. Dear לעולם לא מעביר נתוני אנשי קשר מחוץ למכשיר, ואפשר להשתמש באפליקציה בלי לתת הרשאה, על ידי הקלדת שמות ידנית.",
+      "de": "<strong>Kontaktnamen und Fotos.</strong> W&auml;hrend der Einrichtung bittet Dear um Zugriff auf deine Kontakte. Das dient ausschlie&szlig;lich dazu, Personen f&uuml;r deine Liste auszuw&auml;hlen. Kontaktdaten werden einmal bei der Auswahl gelesen und lokal auf deinem Ger&auml;t gespeichert. Dear &uuml;bertr&auml;gt Kontaktdaten nie von deinem Ger&auml;t, und du kannst die App auch ohne Kontaktzugriff nutzen, indem du Namen manuell eingibst.",
+      "nl": "<strong>Contactnamen en foto's.</strong> Tijdens het instellen vraagt Dear toestemming voor je Contacten. Dat dient uitsluitend om mensen te kiezen voor je lijst. Contactgegevens worden &eacute;&eacute;n keer gelezen bij die keuze en lokaal op je toestel bewaard. Dear verstuurt contactgegevens nooit van je toestel af, en je kunt de app ook zonder toegang tot Contacten gebruiken door namen handmatig te typen.",
+      "sv": "<strong>Kontaktnamn och foton.</strong> Under introduktionen ber Dear om &aring;tkomst till dina kontakter. Det anv&auml;nds enbart f&ouml;r att du ska kunna v&auml;lja personer till din lista. Kontaktuppgifter l&auml;ses en g&aring;ng vid valet och lagras lokalt p&aring; din enhet. Dear skickar aldrig kontaktuppgifter fr&aring;n din enhet, och du kan anv&auml;nda appen utan kontakt&aring;tkomst genom att skriva namn manuellt.",
+      "da": "<strong>Kontaktnavne og fotos.</strong> Under opstarten beder Dear om adgang til dine kontakter. Det bruges udelukkende til, at du kan v&aelig;lge personer til din liste. Kontaktoplysninger l&aelig;ses &eacute;n gang ved valget og gemmes lokalt p&aring; din enhed. Dear sender aldrig kontaktoplysninger v&aelig;k fra din enhed, og du kan bruge appen uden kontaktadgang ved at skrive navne manuelt.",
+      "nb": "<strong>Kontaktnavn og bilder.</strong> Under oppstarten ber Dear om tilgang til kontaktene dine. Det brukes utelukkende til at du kan velge personer til listen din. Kontaktopplysninger leses &eacute;n gang ved valget og lagres lokalt p&aring; enheten din. Dear sender aldri kontaktopplysninger bort fra enheten, og du kan bruke appen uten kontakttilgang ved &aring; skrive navn manuelt.",
+      "fi": "<strong>Yhteystietojen nimet ja kuvat.</strong> K&auml;ytt&ouml;&ouml;noton aikana Dear pyyt&auml;&auml; lupaa yhteystietoihisi. Sit&auml; k&auml;ytet&auml;&auml;n vain siihen, ett&auml; voit valita henkil&ouml;it&auml; listallesi. Yhteystiedot luetaan kerran valinnan yhteydess&auml; ja tallennetaan paikallisesti laitteellesi. Dear ei koskaan l&auml;het&auml; yhteystietoja pois laitteeltasi, ja voit k&auml;ytt&auml;&auml; sovellusta ilman yhteystieto-oikeutta kirjoittamalla nimet k&auml;sin.",
+      "it": "<strong>Nomi e foto dei contatti.</strong> Durante la configurazione Dear chiede il permesso di accedere ai tuoi Contatti. Serve unicamente a farti scegliere le persone da aggiungere al tuo elenco. I dati dei contatti vengono letti una sola volta durante la selezione e salvati localmente sul dispositivo. Dear non trasmette mai i dati dei contatti fuori dal tuo dispositivo, e puoi usare l'app senza concedere l'accesso ai Contatti digitando i nomi a mano.",
+      "pt-BR": "<strong>Nomes e fotos dos contatos.</strong> Durante a configura&ccedil;&atilde;o, o Dear pede permiss&atilde;o para acessar seus Contatos. Isso serve apenas para voc&ecirc; escolher pessoas para a sua lista. Os dados de contato s&atilde;o lidos uma vez durante a sele&ccedil;&atilde;o e guardados localmente no aparelho. O Dear nunca transmite dados de contato para fora do seu aparelho, e voc&ecirc; pode usar o app sem conceder acesso aos Contatos, digitando os nomes manualmente.",
+      "pl": "<strong>Imiona i zdj&eogon;cia kontakt&oacute;w.</strong> Podczas konfiguracji Dear prosi o dost&eogon;p do twoich kontakt&oacute;w. S&lstrok;u&zdot;y to wy&lstrok;&aogon;cznie do wybrania os&oacute;b na twoj&aogon; list&eogon;. Dane kontaktowe s&aogon; odczytywane raz przy wyborze i zapisywane lokalnie na urz&aogon;dzeniu. Dear nigdy nie przesy&lstrok;a danych kontaktowych poza twoje urz&aogon;dzenie, a z aplikacji mo&zdot;esz korzysta&cacute; bez dost&eogon;pu do kontakt&oacute;w, wpisuj&aogon;c imiona r&eogon;cznie.",
+      "tr": "<strong>Ki&scedil;i adlar&#305; ve foto&#287;raflar&#305;.</strong> Kurulum s&#305;ras&#305;nda Dear ki&scedil;ilerine eri&scedil;mek i&ccedil;in izin ister. Bu yaln&#305;zca listene ekleyece&#287;in ki&scedil;ileri se&ccedil;men i&ccedil;indir. Ki&scedil;i verileri se&ccedil;im s&#305;ras&#305;nda bir kez okunur ve cihaz&#305;nda yerel olarak saklan&#305;r. Dear ki&scedil;i verilerini asla cihaz&#305;n d&#305;&scedil;&#305;na g&ouml;ndermez ve adlar&#305; elle yazarak uygulamay&#305; ki&scedil;i eri&scedil;imi vermeden de kullanabilirsin."
     },
     "notification_permissions_dear_requests_permi_76b691": {
       "en": "<strong>Notification permissions.</strong> Dear requests permission to send local notifications so it can remind you to reach out to someone. These notifications are scheduled and delivered entirely on your device; their content is never sent anywhere.",
@@ -2413,7 +2463,17 @@
       "ta": "<strong>அறிவிப்பு அனுமதி.</strong> ஒருவரைத் தொடர்பு கொள்ள நினைவூட்ட Dear உள்ளூர் அறிவிப்புகளை அனுப்ப அனுமதி கேட்கிறது. இந்த அறிவிப்புகள் முழுவதும் உங்கள் சாதனத்திலேயே திட்டமிடப்பட்டு வழங்கப்படுகின்றன; அவற்றின் உள்ளடக்கம் எங்கும் அனுப்பப்படுவதில்லை.",
       "te": "<strong>నోటిఫికేషన్ అనుమతి.</strong> ఎవరినైనా సంప్రదించమని గుర్తుచేయడానికి Dear స్థానిక నోటిఫికేషన్లు పంపే అనుమతి అడుగుతుంది. ఈ నోటిఫికేషన్లు పూర్తిగా మీ పరికరంలోనే షెడ్యూల్ అయి అందుతాయి; వాటి విషయం ఎక్కడికీ పంపబడదు.",
       "ar": "<strong>إذن الإشعارات.</strong> يطلب Dear إذن إرسال إشعارات محلية ليذكّرك بالتواصل مع أحدهم. تُجدول هذه الإشعارات وتُسلَّم على جهازك بالكامل، ولا يُرسل محتواها إلى أي مكان.",
-      "he": "<strong>הרשאת התראות.</strong> Dear מבקש הרשאה לשלוח התראות מקומיות כדי להזכיר לכם ליצור קשר עם מישהו. ההתראות האלה מתוזמנות ונשלחות כולן על המכשיר; התוכן שלהן לא נשלח לשום מקום."
+      "he": "<strong>הרשאת התראות.</strong> Dear מבקש הרשאה לשלוח התראות מקומיות כדי להזכיר לכם ליצור קשר עם מישהו. ההתראות האלה מתוזמנות ונשלחות כולן על המכשיר; התוכן שלהן לא נשלח לשום מקום.",
+      "de": "<strong>Mitteilungsberechtigungen.</strong> Dear bittet um Erlaubnis, lokale Mitteilungen zu senden, um dich daran zu erinnern, dich bei jemandem zu melden. Diese Mitteilungen werden vollst&auml;ndig auf deinem Ger&auml;t geplant und zugestellt; ihr Inhalt wird nirgendwohin gesendet.",
+      "nl": "<strong>Meldingsrechten.</strong> Dear vraagt toestemming om lokale meldingen te sturen, zodat het je eraan kan herinneren contact op te nemen. Die meldingen worden volledig op je toestel ingepland en bezorgd; de inhoud gaat nergens heen.",
+      "sv": "<strong>Aviseringstillst&aring;nd.</strong> Dear ber om till&aring;telse att skicka lokala aviseringar f&ouml;r att p&aring;minna dig om att h&ouml;ra av dig till n&aring;gon. Aviseringarna schemal&auml;ggs och levereras helt p&aring; din enhet; inneh&aring;llet skickas aldrig n&aring;gonstans.",
+      "da": "<strong>Notifikationstilladelser.</strong> Dear beder om lov til at sende lokale notifikationer, s&aring; den kan minde dig om at r&aelig;kke ud til nogen. Notifikationerne planl&aelig;gges og leveres helt p&aring; din enhed; indholdet sendes aldrig nogen steder hen.",
+      "nb": "<strong>Varseltillatelser.</strong> Dear ber om lov til &aring; sende lokale varsler slik at den kan minne deg p&aring; &aring; ta kontakt med noen. Varslene planlegges og leveres helt p&aring; enheten din; innholdet sendes aldri noe sted.",
+      "fi": "<strong>Ilmoitusoikeudet.</strong> Dear pyyt&auml;&auml; lupaa l&auml;hett&auml;&auml; paikallisia ilmoituksia, jotta se voi muistuttaa sinua ottamaan yhteytt&auml; johonkuhun. Ilmoitukset ajastetaan ja toimitetaan kokonaan laitteellasi; niiden sis&auml;lt&ouml;&auml; ei l&auml;hetet&auml; mihink&auml;&auml;n.",
+      "it": "<strong>Permessi di notifica.</strong> Dear chiede il permesso di inviare notifiche locali per ricordarti di farti sentire con qualcuno. Le notifiche sono programmate e consegnate interamente sul tuo dispositivo; il loro contenuto non viene mai inviato da nessuna parte.",
+      "pt-BR": "<strong>Permiss&otilde;es de notifica&ccedil;&atilde;o.</strong> O Dear pede permiss&atilde;o para enviar notifica&ccedil;&otilde;es locais e lembrar voc&ecirc; de falar com algu&eacute;m. Essas notifica&ccedil;&otilde;es s&atilde;o agendadas e entregues inteiramente no seu aparelho; o conte&uacute;do delas nunca &eacute; enviado a lugar nenhum.",
+      "pl": "<strong>Uprawnienia do powiadomie&nacute;.</strong> Dear prosi o zgod&eogon; na wysy&lstrok;anie powiadomie&nacute; lokalnych, aby przypomina&cacute; ci o odezwaniu si&eogon; do kogo&sacute;. Powiadomienia s&aogon; planowane i dostarczane w ca&lstrok;o&sacute;ci na twoim urz&aogon;dzeniu; ich tre&sacute;&cacute; nigdzie nie jest wysy&lstrok;ana.",
+      "tr": "<strong>Bildirim izinleri.</strong> Dear, birine ula&scedil;man&#305; hat&#305;rlatabilmek i&ccedil;in yerel bildirim g&ouml;nderme izni ister. Bu bildirimler tamamen cihaz&#305;nda planlan&#305;r ve iletilir; i&ccedil;erikleri hi&ccedil;bir yere g&ouml;nderilmez."
     },
     "what_data_dear_stores_8c54cc": {
       "en": "What data Dear stores",
@@ -2436,7 +2496,17 @@
       "ta": "Dear எந்தத் தரவைச் சேமிக்கிறது",
       "te": "Dear ఏ డేటాను భద్రపరుస్తుంది",
       "ar": "ما البيانات التي يحفظها Dear",
-      "he": "אילו נתונים Dear שומר"
+      "he": "אילו נתונים Dear שומר",
+      "de": "Welche Daten Dear speichert",
+      "nl": "Welke gegevens Dear bewaart",
+      "sv": "Vilka uppgifter Dear lagrar",
+      "da": "Hvilke data Dear gemmer",
+      "nb": "Hvilke data Dear lagrer",
+      "fi": "Mit&auml; tietoja Dear tallentaa",
+      "it": "Quali dati conserva Dear",
+      "pt-BR": "Quais dados o Dear guarda",
+      "pl": "Jakie dane przechowuje Dear",
+      "tr": "Dear hangi verileri saklar"
     },
     "all_data_is_stored_locally_on_your_device_in_1bebdc": {
       "en": "All data is stored locally on your device (including a small shared store so the widget can display your nudges). This includes:",
@@ -2459,7 +2529,17 @@
       "ta": "அனைத்துத் தரவும் உங்கள் சாதனத்திலேயே சேமிக்கப்படுகிறது (விட்ஜெட் உங்கள் நினைவூட்டல்களைக் காட்ட ஒரு சிறிய பகிரப்பட்ட இடம் உட்பட). இதில் அடங்குவன:",
       "te": "మొత్తం డేటా మీ పరికరంలోనే భద్రపరచబడుతుంది (విడ్జెట్ మీ గుర్తుచేతలను చూపేందుకు ఒక చిన్న భాగస్వామ్య నిల్వ కూడా). ఇందులో ఉన్నవి:",
       "ar": "تُحفظ كل البيانات على جهازك (بما في ذلك مساحة مشتركة صغيرة تتيح للأداة عرض تذكيراتك). ويشمل ذلك:",
-      "he": "כל הנתונים נשמרים על המכשיר (כולל אחסון משותף קטן כדי שהווידג'ט יוכל להציג את התזכורות). זה כולל:"
+      "he": "כל הנתונים נשמרים על המכשיר (כולל אחסון משותף קטן כדי שהווידג'ט יוכל להציג את התזכורות). זה כולל:",
+      "de": "Alle Daten werden lokal auf deinem Ger&auml;t gespeichert (einschlie&szlig;lich eines kleinen gemeinsamen Speichers, damit das Widget deine Erinnerungen anzeigen kann). Dazu geh&ouml;ren:",
+      "nl": "Alle gegevens worden lokaal op je toestel bewaard (inclusief een kleine gedeelde opslag zodat de widget je herinneringen kan tonen). Daaronder vallen:",
+      "sv": "Alla uppgifter lagras lokalt p&aring; din enhet (inklusive ett litet delat utrymme s&aring; att widgeten kan visa dina p&aring;minnelser). Det omfattar:",
+      "da": "Alle data gemmes lokalt p&aring; din enhed (inklusive et lille delt lager, s&aring; widgetten kan vise dine p&aring;mindelser). Det omfatter:",
+      "nb": "Alle data lagres lokalt p&aring; enheten din (inkludert et lite delt lager slik at modulen kan vise p&aring;minnelsene dine). Det omfatter:",
+      "fi": "Kaikki tiedot tallennetaan paikallisesti laitteellesi (mukaan lukien pieni jaettu tallennustila, jotta widget voi n&auml;ytt&auml;&auml; muistutuksesi). T&auml;h&auml;n kuuluvat:",
+      "it": "Tutti i dati sono salvati localmente sul tuo dispositivo (compreso un piccolo archivio condiviso perch&eacute; il widget possa mostrare i tuoi promemoria). Questo include:",
+      "pt-BR": "Todos os dados ficam guardados localmente no seu aparelho (incluindo um pequeno armazenamento compartilhado para o widget poder mostrar seus lembretes). Isso inclui:",
+      "pl": "Wszystkie dane s&aogon; przechowywane lokalnie na twoim urz&aogon;dzeniu (w tym niewielka wsp&oacute;&lstrok;dzielona pami&eogon;&cacute;, aby widget m&oacute;g&lstrok; pokazywa&cacute; twoje przypomnienia). Obejmuje to:",
+      "tr": "T&uuml;m veriler cihaz&#305;nda yerel olarak saklan&#305;r (widget'&#305;n hat&#305;rlatmalar&#305;n&#305; g&ouml;sterebilmesi i&ccedil;in k&uuml;&ccedil;&uuml;k bir payla&scedil;&#305;lan alan dahil). Buna &scedil;unlar dahildir:"
     },
     "this_data_never_leaves_your_device_there_is_9b93ae": {
       "en": "This data never leaves your device. There is no cloud sync, no backup to our servers, and no way for us to access it.",
@@ -2482,7 +2562,17 @@
       "ta": "இந்தத் தரவு ஒருபோதும் உங்கள் சாதனத்தை விட்டு வெளியேறுவதில்லை. கிளவுட் ஒத்திசைவு இல்லை, எங்கள் சேவையகங்களில் காப்புப்பிரதி இல்லை, அதை அணுக எங்களுக்கு வழியும் இல்லை.",
       "te": "ఈ డేటా మీ పరికరాన్ని దాటి ఎప్పుడూ బయటికి వెళ్లదు. క్లౌడ్ సింక్ లేదు, మా సర్వర్లకు బ్యాకప్ లేదు, దాన్ని చూసే మార్గం మాకు లేదు.",
       "ar": "هذه البيانات لا تغادر جهازك أبدًا. لا مزامنة سحابية، ولا نسخ احتياطي على خوادمنا، ولا سبيل لدينا للوصول إليها.",
-      "he": "הנתונים האלה לא יוצאים מהמכשיר. אין סנכרון ענן, אין גיבוי לשרתים שלנו, ואין לנו שום דרך לגשת אליהם."
+      "he": "הנתונים האלה לא יוצאים מהמכשיר. אין סנכרון ענן, אין גיבוי לשרתים שלנו, ואין לנו שום דרך לגשת אליהם.",
+      "de": "Diese Daten verlassen dein Ger&auml;t nie. Es gibt keine Cloud-Synchronisierung, kein Backup auf unseren Servern und keine M&ouml;glichkeit f&uuml;r uns, darauf zuzugreifen.",
+      "nl": "Deze gegevens verlaten je toestel nooit. Er is geen cloudsynchronisatie, geen back-up naar onze servers en geen manier waarop wij erbij kunnen.",
+      "sv": "Dessa uppgifter l&auml;mnar aldrig din enhet. Det finns ingen molnsynkronisering, ingen s&auml;kerhetskopiering till v&aring;ra servrar och inget s&auml;tt f&ouml;r oss att komma &aring;t dem.",
+      "da": "Disse data forlader aldrig din enhed. Der er ingen skysynkronisering, ingen sikkerhedskopi til vores servere og ingen m&aring;de, hvorp&aring; vi kan tilg&aring; dem.",
+      "nb": "Disse dataene forlater aldri enheten din. Det finnes ingen skysynkronisering, ingen sikkerhetskopi til v&aring;re servere og ingen m&aring;te vi kan f&aring; tilgang til dem p&aring;.",
+      "fi": "N&auml;m&auml; tiedot eiv&auml;t koskaan poistu laitteeltasi. Pilvisynkronointia ei ole, varmuuskopiota palvelimillemme ei ole, eik&auml; meill&auml; ole mit&auml;&auml;n tapaa p&auml;&auml;st&auml; niihin k&auml;siksi.",
+      "it": "Questi dati non lasciano mai il tuo dispositivo. Non c'&egrave; sincronizzazione cloud, nessun backup sui nostri server e nessun modo per noi di accedervi.",
+      "pt-BR": "Esses dados nunca saem do seu aparelho. N&atilde;o h&aacute; sincroniza&ccedil;&atilde;o na nuvem, backup nos nossos servidores nem qualquer forma de acessarmos isso.",
+      "pl": "Te dane nigdy nie opuszczaj&aogon; twojego urz&aogon;dzenia. Nie ma synchronizacji w chmurze, kopii zapasowej na naszych serwerach ani &zdot;adnego sposobu, by&sacute;my mogli si&eogon; do nich dosta&cacute;.",
+      "tr": "Bu veriler cihaz&#305;ndan asla &ccedil;&#305;kmaz. Bulut e&scedil;itlemesi yok, sunucular&#305;m&#305;za yedekleme yok ve bizim bunlara eri&scedil;memizin hi&ccedil;bir yolu yok."
     },
     "what_data_dear_collects_or_transmits_70a2d6": {
       "en": "What data Dear collects or transmits",
@@ -2505,7 +2595,17 @@
       "ta": "Dear எந்தத் தரவைச் சேகரிக்கிறது அல்லது அனுப்புகிறது",
       "te": "Dear ఏ డేటాను సేకరిస్తుంది లేదా పంపుతుంది",
       "ar": "ما البيانات التي يجمعها Dear أو يرسلها",
-      "he": "אילו נתונים Dear אוסף או שולח"
+      "he": "אילו נתונים Dear אוסף או שולח",
+      "de": "Welche Daten Dear erfasst oder &uuml;bertr&auml;gt",
+      "nl": "Welke gegevens Dear verzamelt of verstuurt",
+      "sv": "Vilka uppgifter Dear samlar in eller skickar",
+      "da": "Hvilke data Dear indsamler eller sender",
+      "nb": "Hvilke data Dear samler inn eller sender",
+      "fi": "Mit&auml; tietoja Dear ker&auml;&auml; tai l&auml;hett&auml;&auml;",
+      "it": "Quali dati Dear raccoglie o trasmette",
+      "pt-BR": "Quais dados o Dear coleta ou transmite",
+      "pl": "Jakie dane Dear zbiera lub przesy&lstrok;a",
+      "tr": "Dear hangi verileri toplar veya iletir"
     },
     "dear_has_no_accounts_and_no_advertising_we_d_f0722e": {
       "en": "Dear has no accounts and no advertising. We do not use tracking pixels or advertising frameworks. We do not know who you are, who your friends are, or what messages you send. We do collect anonymous usage counts through TelemetryDeck, anonymous purchase records through RevenueCat, and anonymous crash reports through Sentry (see sections below). Beyond that, we know only what Apple and Google provide in aggregate App Store and Google Play analytics, which contains no personally identifiable information and is controlled by your device settings.",
@@ -2528,7 +2628,17 @@
       "ta": "Dear-இல் கணக்குகள் இல்லை, விளம்பரம் இல்லை. கண்காணிப்புப் பிக்சல்களையோ விளம்பரக் கட்டமைப்புகளையோ பயன்படுத்துவதில்லை. நீங்கள் யார், உங்கள் நண்பர்கள் யார், நீங்கள் என்ன செய்தி அனுப்புகிறீர்கள் என்பது எங்களுக்குத் தெரியாது. TelemetryDeck மூலம் பெயரில்லாத பயன்பாட்டு எண்ணிக்கையையும், RevenueCat மூலம் பெயரில்லாத வாங்கிய பதிவுகளையும், Sentry மூலம் பெயரில்லாத செயலிழப்பு அறிக்கைகளையும் சேகரிக்கிறோம் (கீழுள்ள பகுதிகளைப் பார்க்கவும்). அதற்கு அப்பால், App Store மற்றும் Google Play-இன் ஒட்டுமொத்தப் பகுப்பாய்வில் Apple-ம் Google-ம் தருவது மட்டுமே எங்களுக்குத் தெரியும்; அதில் தனிநபரை அடையாளம் காணும் தகவல் இல்லை, அது உங்கள் சாதன அமைப்புகளால் கட்டுப்படுத்தப்படுகிறது.",
       "te": "Dear లో ఖాతాలు లేవు, ప్రకటనలు లేవు. ట్రాకింగ్ పిక్సెల్‌లు లేదా ప్రకటనల చట్రాలు వాడం. మీరు ఎవరో, మీ స్నేహితులు ఎవరో, మీరు ఏ మెసేజ్ పంపుతున్నారో మాకు తెలియదు. TelemetryDeck ద్వారా పేరు లేని వాడక లెక్కలు, RevenueCat ద్వారా పేరు లేని కొనుగోలు రికార్డులు, Sentry ద్వారా పేరు లేని క్రాష్ నివేదికలు సేకరిస్తాం (కింది భాగాలు చూడండి). అంతకు మించి App Store, Google Play సమగ్ర విశ్లేషణలో Apple, Google ఇచ్చేది మాత్రమే మాకు తెలుసు; అందులో వ్యక్తిని గుర్తించే సమాచారం ఉండదు, అది మీ పరికర సెట్టింగ్‌లతో నియంత్రించబడుతుంది.",
       "ar": "ليس في Dear حسابات ولا إعلانات. ولا نستخدم بكسلات تتبع ولا أطر إعلانات. لا نعرف من أنت، ولا من أصدقاؤك، ولا ما ترسله من رسائل. ونجمع فعلًا أعداد استخدام بلا هوية عبر TelemetryDeck، وسجلات شراء بلا هوية عبر RevenueCat، وتقارير أعطال بلا هوية عبر Sentry (انظر الأقسام أدناه). وما عدا ذلك، لا نعرف سوى ما تقدمه Apple وGoogle في التحليلات المجمّعة لـ App Store وGoogle Play، وهي لا تتضمن معلومات تعرّف بالأشخاص وتتحكم بها إعدادات جهازك.",
-      "he": "ל-Dear אין חשבונות ואין פרסומות. אנחנו לא משתמשים בפיקסלי מעקב או במסגרות פרסום. אנחנו לא יודעים מי אתם, מי החברים שלכם, ואילו הודעות אתם שולחים. אנחנו כן אוספים ספירות שימוש בלי שם דרך TelemetryDeck, רישומי רכישה בלי שם דרך RevenueCat, ודוחות קריסה בלי שם דרך Sentry (ראו למטה). מעבר לזה אנחנו יודעים רק מה ש-Apple ו-Google מספקות בניתוח המצטבר של App Store ו-Google Play, שאין בו מידע מזהה והוא נשלט על ידי הגדרות המכשיר שלכם."
+      "he": "ל-Dear אין חשבונות ואין פרסומות. אנחנו לא משתמשים בפיקסלי מעקב או במסגרות פרסום. אנחנו לא יודעים מי אתם, מי החברים שלכם, ואילו הודעות אתם שולחים. אנחנו כן אוספים ספירות שימוש בלי שם דרך TelemetryDeck, רישומי רכישה בלי שם דרך RevenueCat, ודוחות קריסה בלי שם דרך Sentry (ראו למטה). מעבר לזה אנחנו יודעים רק מה ש-Apple ו-Google מספקות בניתוח המצטבר של App Store ו-Google Play, שאין בו מידע מזהה והוא נשלט על ידי הגדרות המכשיר שלכם.",
+      "de": "Dear hat keine Konten und keine Werbung. Wir verwenden keine Tracking-Pixel und keine Werbe-Frameworks. Wir wissen nicht, wer du bist, wer deine Freunde sind oder welche Nachrichten du sendest. Wir erfassen anonyme Nutzungsz&auml;hlungen &uuml;ber TelemetryDeck, anonyme Kaufbelege &uuml;ber RevenueCat und anonyme Fehlerberichte &uuml;ber Sentry (siehe die Abschnitte unten). Dar&uuml;ber hinaus wissen wir nur, was Apple und Google in aggregierten App-Store- und Google-Play-Statistiken bereitstellen, die keine personenbezogenen Daten enthalten und von deinen Ger&auml;teeinstellungen gesteuert werden.",
+      "nl": "Dear heeft geen accounts en geen advertenties. We gebruiken geen trackingpixels of advertentieframeworks. We weten niet wie je bent, wie je vrienden zijn of welke berichten je stuurt. We verzamelen wel anonieme gebruikstellingen via TelemetryDeck, anonieme aankoopgegevens via RevenueCat en anonieme foutrapporten via Sentry (zie de secties hieronder). Daarbuiten weten we alleen wat Apple en Google in geaggregeerde App Store- en Google Play-statistieken aanleveren, die geen persoonsgegevens bevatten en door je toestelinstellingen worden bepaald.",
+      "sv": "Dear har inga konton och ingen reklam. Vi anv&auml;nder inga sp&aring;rningspixlar eller annonsramverk. Vi vet inte vem du &auml;r, vilka dina v&auml;nner &auml;r eller vilka meddelanden du skickar. Vi samlar in anonyma anv&auml;ndningsr&auml;kningar via TelemetryDeck, anonyma k&ouml;puppgifter via RevenueCat och anonyma kraschrapporter via Sentry (se avsnitten nedan). Ut&ouml;ver det vet vi bara det som Apple och Google tillhandah&aring;ller i aggregerad statistik fr&aring;n App Store och Google Play, som inte inneh&aring;ller n&aring;gra personuppgifter och styrs av dina enhetsinst&auml;llningar.",
+      "da": "Dear har ingen konti og ingen reklamer. Vi bruger ingen sporingspixels eller annonceframeworks. Vi ved ikke, hvem du er, hvem dine venner er, eller hvilke beskeder du sender. Vi indsamler anonyme brugst&aelig;llinger via TelemetryDeck, anonyme k&oslash;bsoplysninger via RevenueCat og anonyme nedbrudsrapporter via Sentry (se afsnittene nedenfor). Derudover ved vi kun det, Apple og Google leverer i samlet statistik fra App Store og Google Play, som ikke indeholder personoplysninger og styres af dine enhedsindstillinger.",
+      "nb": "Dear har ingen kontoer og ingen reklame. Vi bruker ingen sporingspiksler eller annonserammeverk. Vi vet ikke hvem du er, hvem vennene dine er, eller hvilke meldinger du sender. Vi samler inn anonyme brukstellinger via TelemetryDeck, anonyme kj&oslash;psopplysninger via RevenueCat og anonyme krasjrapporter via Sentry (se avsnittene nedenfor). Utover det vet vi bare det Apple og Google gir i samlet statistikk fra App Store og Google Play, som ikke inneholder personopplysninger og styres av enhetsinnstillingene dine.",
+      "fi": "Dearilla ei ole tilej&auml; eik&auml; mainoksia. Emme k&auml;yt&auml; seurantapikseleit&auml; emmek&auml; mainoskehyksi&auml;. Emme tied&auml;, kuka olet, ketk&auml; ovat yst&auml;vi&auml;si tai mit&auml; viestej&auml; l&auml;het&auml;t. Ker&auml;&auml;mme nimett&ouml;mi&auml; k&auml;ytt&ouml;laskureita TelemetryDeckin kautta, nimett&ouml;mi&auml; ostotietoja RevenueCatin kautta ja nimett&ouml;mi&auml; kaatumisraportteja Sentryn kautta (katso alla olevat osiot). Sen lis&auml;ksi tied&auml;mme vain sen, mit&auml; Apple ja Google tarjoavat koostetuissa App Store- ja Google Play -tilastoissa, jotka eiv&auml;t sis&auml;ll&auml; henkil&ouml;tietoja ja joita laitteesi asetukset ohjaavat.",
+      "it": "Dear non ha account n&eacute; pubblicit&agrave;. Non usiamo pixel di tracciamento n&eacute; framework pubblicitari. Non sappiamo chi sei, chi sono i tuoi amici o quali messaggi invii. Raccogliamo conteggi d'uso anonimi tramite TelemetryDeck, registri d'acquisto anonimi tramite RevenueCat e segnalazioni di errori anonime tramite Sentry (vedi le sezioni qui sotto). Oltre a questo, sappiamo solo ci&ograve; che Apple e Google forniscono nelle statistiche aggregate di App Store e Google Play, che non contengono informazioni personali identificabili e sono controllate dalle impostazioni del tuo dispositivo.",
+      "pt-BR": "O Dear n&atilde;o tem contas nem an&uacute;ncios. N&atilde;o usamos pixels de rastreamento nem frameworks de publicidade. N&atilde;o sabemos quem voc&ecirc; &eacute;, quem s&atilde;o seus amigos ou que mensagens voc&ecirc; envia. Coletamos contagens de uso an&ocirc;nimas pelo TelemetryDeck, registros de compra an&ocirc;nimos pelo RevenueCat e relat&oacute;rios de falhas an&ocirc;nimos pelo Sentry (veja as se&ccedil;&otilde;es abaixo). Al&eacute;m disso, sabemos apenas o que a Apple e o Google fornecem em estat&iacute;sticas agregadas da App Store e do Google Play, que n&atilde;o cont&ecirc;m informa&ccedil;&otilde;es pessoais identific&aacute;veis e s&atilde;o controladas pelas configura&ccedil;&otilde;es do seu aparelho.",
+      "pl": "Dear nie ma kont ani reklam. Nie u&zdot;ywamy pikseli &sacute;ledz&aogon;cych ani framework&oacute;w reklamowych. Nie wiemy, kim jeste&sacute;, kim s&aogon; twoi znajomi ani jakie wiadomo&sacute;ci wysy&lstrok;asz. Zbieramy anonimowe liczniki u&zdot;ycia przez TelemetryDeck, anonimowe zapisy zakup&oacute;w przez RevenueCat i anonimowe raporty b&lstrok;&eogon;d&oacute;w przez Sentry (zobacz sekcje poni&zdot;ej). Poza tym wiemy tylko to, co Apple i Google udost&eogon;pniaj&aogon; w zbiorczych statystykach App Store i Google Play, kt&oacute;re nie zawieraj&aogon; danych umo&zdot;liwiaj&aogon;cych identyfikacj&eogon; i s&aogon; kontrolowane przez ustawienia twojego urz&aogon;dzenia.",
+      "tr": "Dear'&#305;n hesab&#305; ve reklam&#305; yok. &#304;zleme pikselleri veya reklam &ccedil;er&ccedil;eveleri kullanm&#305;yoruz. Kim oldu&#287;unu, arkada&scedil;lar&#305;n&#305;n kim oldu&#287;unu ya da hangi mesajlar&#305; g&ouml;nderdi&#287;ini bilmiyoruz. TelemetryDeck &uuml;zerinden anonim kullan&#305;m say&#305;mlar&#305;, RevenueCat &uuml;zerinden anonim sat&#305;n alma kay&#305;tlar&#305; ve Sentry &uuml;zerinden anonim hata raporlar&#305; topluyoruz (a&scedil;a&#287;&#305;daki b&ouml;l&uuml;mlere bak). Bunun &ouml;tesinde yaln&#305;zca Apple ve Google'&#305;n toplu App Store ve Google Play istatistiklerinde sundu&#287;unu biliyoruz; bunlar kimlik belirleyici bilgi i&ccedil;ermez ve cihaz ayarlar&#305;nla kontrol edilir."
     },
     "anonymous_analytics_d26430": {
       "en": "Anonymous Analytics",
@@ -2551,7 +2661,17 @@
       "ta": "பெயரில்லாத பகுப்பாய்வு",
       "te": "పేరు లేని విశ్లేషణ",
       "ar": "تحليلات بلا هوية",
-      "he": "ניתוח בלי שם"
+      "he": "ניתוח בלי שם",
+      "de": "Anonyme Analyse",
+      "nl": "Anonieme analyse",
+      "sv": "Anonym analys",
+      "da": "Anonym analyse",
+      "nb": "Anonym analyse",
+      "fi": "Nimet&ouml;n analytiikka",
+      "it": "Analisi anonime",
+      "pt-BR": "An&aacute;lises an&ocirc;nimas",
+      "pl": "Anonimowa analityka",
+      "tr": "Anonim analiz"
     },
     "to_understand_how_dear_is_being_used_so_we_c_764b27": {
       "en": "To understand how Dear is being used so we can improve it, we collect a small set of anonymous events through TelemetryDeck, a privacy-focused analytics service hosted in Germany and compliant with GDPR. We track only counts of feature use, never who used them.",
@@ -2574,7 +2694,17 @@
       "ta": "Dear எப்படிப் பயன்படுத்தப்படுகிறது என்பதைப் புரிந்து மேம்படுத்த, TelemetryDeck மூலம் சிறிதளவு பெயரில்லாத நிகழ்வுகளைச் சேகரிக்கிறோம். தனியுரிமையை முன்னிறுத்தும் இச்சேவை ஜெர்மனியில் இருக்கிறது, GDPR-க்கு இணங்குகிறது. ஒரு அம்சம் எத்தனை முறை பயன்படுத்தப்பட்டது என்பதை மட்டுமே பதிவு செய்கிறோம், யார் பயன்படுத்தினார்கள் என்பதை ஒருபோதும் இல்லை.",
       "te": "Dear ఎలా వాడబడుతోందో అర్థం చేసుకుని మెరుగుపరచడానికి TelemetryDeck ద్వారా కొద్దిపాటి పేరు లేని ఘటనలు సేకరిస్తాం. గోప్యతకు ప్రాధాన్యమిచ్చే ఈ సేవ జర్మనీలో ఉంది, GDPR కు అనుగుణంగా ఉంది. ఏ ఫీచర్ ఎన్నిసార్లు వాడబడిందో మాత్రమే నమోదు చేస్తాం, ఎవరు వాడారో ఎప్పుడూ కాదు.",
       "ar": "لنفهم كيف يُستخدم Dear فنحسّنه، نجمع قدرًا صغيرًا من الأحداث بلا هوية عبر TelemetryDeck، وهي خدمة تعنى بالخصوصية مستضافة في ألمانيا ومتوافقة مع GDPR. ونسجل فقط عدد مرات استخدام كل ميزة، ولا نسجل أبدًا من استخدمها.",
-      "he": "כדי להבין איך משתמשים ב-Dear ולשפר אותו, אנחנו אוספים מעט אירועים בלי שם דרך TelemetryDeck, שירות ממוקד פרטיות המתארח בגרמניה ועומד ב-GDPR. אנחנו מתעדים רק כמה פעמים נעשה שימוש בכל יכולת, אף פעם לא מי השתמש."
+      "he": "כדי להבין איך משתמשים ב-Dear ולשפר אותו, אנחנו אוספים מעט אירועים בלי שם דרך TelemetryDeck, שירות ממוקד פרטיות המתארח בגרמניה ועומד ב-GDPR. אנחנו מתעדים רק כמה פעמים נעשה שימוש בכל יכולת, אף פעם לא מי השתמש.",
+      "de": "Um zu verstehen, wie Dear genutzt wird und es verbessern zu k&ouml;nnen, erfassen wir eine kleine Menge anonymer Ereignisse &uuml;ber TelemetryDeck, einen datenschutzorientierten Analysedienst mit Hosting in Deutschland, der die DSGVO erf&uuml;llt. Wir z&auml;hlen nur, wie oft Funktionen genutzt werden, nie von wem.",
+      "nl": "Om te begrijpen hoe Dear gebruikt wordt en het te kunnen verbeteren, verzamelen we een kleine set anonieme gebeurtenissen via TelemetryDeck, een privacygerichte analysedienst die in Duitsland gehost wordt en aan de AVG voldoet. We tellen alleen hoe vaak functies gebruikt worden, nooit door wie.",
+      "sv": "F&ouml;r att f&ouml;rst&aring; hur Dear anv&auml;nds och kunna f&ouml;rb&auml;ttra appen samlar vi in en liten m&auml;ngd anonyma h&auml;ndelser via TelemetryDeck, en integritetsinriktad analystj&auml;nst som driftas i Tyskland och f&ouml;ljer GDPR. Vi r&auml;knar bara hur ofta funktioner anv&auml;nds, aldrig av vem.",
+      "da": "For at forst&aring; hvordan Dear bruges, s&aring; vi kan forbedre den, indsamler vi et lille s&aelig;t anonyme h&aelig;ndelser via TelemetryDeck, en privatlivsorienteret analysetjeneste hostet i Tyskland og i overensstemmelse med GDPR. Vi t&aelig;ller kun, hvor ofte funktioner bruges, aldrig af hvem.",
+      "nb": "For &aring; forst&aring; hvordan Dear brukes, slik at vi kan forbedre den, samler vi inn et lite sett anonyme hendelser via TelemetryDeck, en personverntjeneste for analyse som driftes i Tyskland og f&oslash;lger GDPR. Vi teller bare hvor ofte funksjoner brukes, aldri av hvem.",
+      "fi": "Jotta ymm&auml;rt&auml;isimme miten Dearia k&auml;ytet&auml;&auml;n ja voisimme parantaa sit&auml;, ker&auml;&auml;mme pienen joukon nimett&ouml;mi&auml; tapahtumia TelemetryDeckin kautta, joka on tietosuojaan keskittyv&auml; analytiikkapalvelu, jota yll&auml;pidet&auml;&auml;n Saksassa ja joka noudattaa GDPR:&auml;&auml;. Laskemme vain kuinka usein ominaisuuksia k&auml;ytet&auml;&auml;n, emme koskaan kuka niit&auml; k&auml;ytti.",
+      "it": "Per capire come viene usata Dear e poterla migliorare, raccogliamo un piccolo insieme di eventi anonimi tramite TelemetryDeck, un servizio di analisi attento alla privacy ospitato in Germania e conforme al GDPR. Contiamo solo quante volte le funzioni vengono usate, mai da chi.",
+      "pt-BR": "Para entender como o Dear &eacute; usado e poder melhor&aacute;-lo, coletamos um pequeno conjunto de eventos an&ocirc;nimos pelo TelemetryDeck, um servi&ccedil;o de an&aacute;lise focado em privacidade hospedado na Alemanha e em conformidade com o GDPR. Contamos apenas quantas vezes os recursos s&atilde;o usados, nunca por quem.",
+      "pl": "Aby zrozumie&cacute;, jak u&zdot;ywany jest Dear, i m&oacute;c go ulepsza&cacute;, zbieramy niewielki zestaw anonimowych zdarze&nacute; przez TelemetryDeck, us&lstrok;ug&eogon; analityczn&aogon; nastawion&aogon; na prywatno&sacute;&cacute;, hostowan&aogon; w Niemczech i zgodn&aogon; z RODO. Liczymy wy&lstrok;&aogon;cznie, jak cz&eogon;sto u&zdot;ywane s&aogon; funkcje, nigdy przez kogo.",
+      "tr": "Dear'&#305;n nas&#305;l kullan&#305;ld&#305;&#287;&#305;n&#305; anlay&#305;p geli&scedil;tirebilmek i&ccedil;in, Almanya'da bar&#305;nd&#305;r&#305;lan ve GDPR'ye uygun, gizlili&#287;e odakl&#305; analiz hizmeti TelemetryDeck &uuml;zerinden k&uuml;&ccedil;&uuml;k bir anonim olay seti topluyoruz. Yaln&#305;zca &ouml;zelliklerin ka&ccedil; kez kullan&#305;ld&#305;&#287;&#305;n&#305; say&#305;yoruz, kimin kulland&#305;&#287;&#305;n&#305; asla."
     },
     "what_we_track_fc83f6": {
       "en": "What we track:",
@@ -2597,7 +2727,17 @@
       "ta": "நாங்கள் பதிவு செய்வது:",
       "te": "మేము నమోదు చేసేవి:",
       "ar": "ما نسجله:",
-      "he": "מה אנחנו מתעדים:"
+      "he": "מה אנחנו מתעדים:",
+      "de": "Was wir erfassen:",
+      "nl": "Wat we tellen:",
+      "sv": "Det h&auml;r r&auml;knar vi:",
+      "da": "Det t&aelig;ller vi:",
+      "nb": "Dette teller vi:",
+      "fi": "T&auml;m&auml;n laskemme:",
+      "it": "Cosa contiamo:",
+      "pt-BR": "O que contamos:",
+      "pl": "Co liczymy:",
+      "tr": "Neleri say&#305;yoruz:"
     },
     "what_we_never_track_your_name_your_friends_n_9b1253": {
       "en": "<strong>What we never track:</strong> your name, your friends' names or contact information, what messages you send, the time of day you opened the app, your location, your IP address, or any device identifier that could be linked back to you.",
@@ -2620,7 +2760,17 @@
       "ta": "<strong>நாங்கள் ஒருபோதும் பதிவு செய்யாதவை:</strong> உங்கள் பெயர், உங்கள் நண்பர்களின் பெயர்கள் அல்லது தொடர்பு விவரங்கள், நீங்கள் அனுப்பும் செய்திகள், நீங்கள் செயலியைத் திறந்த நேரம், உங்கள் இருப்பிடம், உங்கள் IP முகவரி, அல்லது உங்களை அடையாளம் காட்டக்கூடிய எந்தச் சாதன அடையாளக் குறியீடும்.",
       "te": "<strong>మేము ఎప్పుడూ నమోదు చేయనివి:</strong> మీ పేరు, మీ స్నేహితుల పేర్లు లేదా కాంటాక్ట్ వివరాలు, మీరు పంపే మెసేజ్‌లు, మీరు యాప్ తెరిచిన సమయం, మీ ప్రాంతం, మీ IP చిరునామా, లేదా మిమ్మల్ని గుర్తించగలిగే ఏ పరికర గుర్తింపు అయినా.",
       "ar": "<strong>ما لا نسجله أبدًا:</strong> اسمك، أو أسماء أصدقائك وبيانات التواصل معهم، أو الرسائل التي ترسلها، أو وقت فتحك للتطبيق، أو موقعك، أو عنوان IP الخاص بك، أو أي معرّف جهاز يمكن ربطه بك.",
-      "he": "<strong>מה אנחנו לעולם לא מתעדים:</strong> את השם שלכם, את שמות החברים או פרטי הקשר שלהם, את ההודעות שאתם שולחים, את השעה שבה פתחתם את האפליקציה, את המיקום שלכם, את כתובת ה-IP שלכם, או כל מזהה מכשיר שאפשר לקשר אליכם."
+      "he": "<strong>מה אנחנו לעולם לא מתעדים:</strong> את השם שלכם, את שמות החברים או פרטי הקשר שלהם, את ההודעות שאתם שולחים, את השעה שבה פתחתם את האפליקציה, את המיקום שלכם, את כתובת ה-IP שלכם, או כל מזהה מכשיר שאפשר לקשר אליכם.",
+      "de": "<strong>Was wir nie erfassen:</strong> deinen Namen, die Namen oder Kontaktdaten deiner Freunde, welche Nachrichten du sendest, die Tageszeit, zu der du die App ge&ouml;ffnet hast, deinen Standort, deine IP-Adresse oder irgendeine Ger&auml;tekennung, die sich auf dich zur&uuml;ckf&uuml;hren lie&szlig;e.",
+      "nl": "<strong>Wat we nooit vastleggen:</strong> je naam, de namen of contactgegevens van je vrienden, welke berichten je stuurt, het tijdstip waarop je de app opende, je locatie, je IP-adres, of enige toestel-identificatie die naar jou te herleiden is.",
+      "sv": "<strong>Det h&auml;r registrerar vi aldrig:</strong> ditt namn, dina v&auml;nners namn eller kontaktuppgifter, vilka meddelanden du skickar, vilken tid p&aring; dygnet du &ouml;ppnade appen, din plats, din IP-adress, eller n&aring;gon enhetsidentifierare som kan kopplas till dig.",
+      "da": "<strong>Det registrerer vi aldrig:</strong> dit navn, dine venners navne eller kontaktoplysninger, hvilke beskeder du sender, hvilket tidspunkt p&aring; d&oslash;gnet du &aring;bnede appen, din placering, din IP-adresse eller nogen enheds-id, der kan f&oslash;res tilbage til dig.",
+      "nb": "<strong>Dette registrerer vi aldri:</strong> navnet ditt, vennenes navn eller kontaktopplysninger, hvilke meldinger du sender, hvilket tidspunkt p&aring; d&oslash;gnet du &aring;pnet appen, posisjonen din, IP-adressen din, eller noen enhetsidentifikator som kan knyttes til deg.",
+      "fi": "<strong>T&auml;t&auml; emme koskaan kirjaa:</strong> nime&auml;si, yst&auml;viesi nimi&auml; tai yhteystietoja, mit&auml; viestej&auml; l&auml;het&auml;t, mihin vuorokaudenaikaan avasit sovelluksen, sijaintiasi, IP-osoitettasi tai mit&auml;&auml;n laitetunnistetta, joka voitaisiin yhdist&auml;&auml; sinuun.",
+      "it": "<strong>Cosa non registriamo mai:</strong> il tuo nome, i nomi o i contatti dei tuoi amici, quali messaggi invii, l'ora del giorno in cui hai aperto l'app, la tua posizione, il tuo indirizzo IP, o qualsiasi identificatore del dispositivo riconducibile a te.",
+      "pt-BR": "<strong>O que nunca registramos:</strong> seu nome, os nomes ou contatos dos seus amigos, que mensagens voc&ecirc; envia, a hora do dia em que abriu o app, sua localiza&ccedil;&atilde;o, seu endere&ccedil;o IP, ou qualquer identificador de aparelho que possa ser ligado a voc&ecirc;.",
+      "pl": "<strong>Czego nigdy nie zapisujemy:</strong> twojego imienia, imion ani danych kontaktowych twoich znajomych, tego, jakie wiadomo&sacute;ci wysy&lstrok;asz, pory dnia, o kt&oacute;rej otworzy&lstrok;e&sacute; aplikacj&eogon;, twojej lokalizacji, twojego adresu IP ani &zdot;adnego identyfikatora urz&aogon;dzenia, kt&oacute;ry m&oacute;g&lstrok;by prowadzi&cacute; do ciebie.",
+      "tr": "<strong>Neleri asla kaydetmiyoruz:</strong> ad&#305;n&#305;, arkada&scedil;lar&#305;n&#305;n adlar&#305;n&#305; ya da ileti&scedil;im bilgilerini, hangi mesajlar&#305; g&ouml;nderdi&#287;ini, uygulamay&#305; g&uuml;n&uuml;n hangi saatinde a&ccedil;t&#305;&#287;&#305;n&#305;, konumunu, IP adresini veya sana geri ba&#287;lanabilecek herhangi bir cihaz tan&#305;mlay&#305;c&#305;s&#305;n&#305;."
     },
     "these_events_are_pseudonymous_and_aggregated_a6807b": {
       "en": "These events are pseudonymous and aggregated. We cannot identify you from them. Because no personal data is processed, we do not require a consent prompt under GDPR. If you would prefer to opt out anyway, please email us at support@dearnudges.com and we will note your request for the next release.",
@@ -2643,7 +2793,17 @@
       "ta": "இந்த நிகழ்வுகள் புனைபெயருடன், ஒட்டுமொத்தமாகச் சேகரிக்கப்படுகின்றன. இவற்றிலிருந்து உங்களை அடையாளம் காண முடியாது. தனிநபர் தரவு செயலாக்கப்படாததால், GDPR-இன் கீழ் ஒப்புதல் கேட்கத் தேவையில்லை. இருப்பினும் விலகியிருக்க விரும்பினால் support@dearnudges.com-க்கு எழுதுங்கள், அடுத்த வெளியீட்டுக்காக உங்கள் கோரிக்கையைப் பதிவு செய்வோம்.",
       "te": "ఈ ఘటనలు మారుపేరుతో, సమగ్రంగా ఉంటాయి. వీటి నుంచి మిమ్మల్ని గుర్తించలేం. వ్యక్తిగత డేటా ప్రాసెస్ కానందున GDPR కింద అనుమతి అడగాల్సిన అవసరం లేదు. అయినా మీరు బయట ఉండాలనుకుంటే support@dearnudges.com కు రాయండి, తర్వాతి విడుదల కోసం మీ అభ్యర్థనను నమోదు చేస్తాం.",
       "ar": "هذه الأحداث باسم مستعار ومجمّعة. ولا يمكننا التعرف عليك منها. ولأننا لا نعالج بيانات شخصية، لا يلزمنا طلب موافقة بموجب GDPR. وإن رغبت مع ذلك في الانسحاب، فراسلنا على support@dearnudges.com وسنسجل طلبك للإصدار القادم.",
-      "he": "האירועים האלה בשם בדוי ומצטברים. אי אפשר לזהות אתכם מהם. מכיוון שלא מעובד מידע אישי, איננו נדרשים לבקש הסכמה לפי GDPR. אם בכל זאת תעדיפו לא להשתתף, כתבו ל-support@dearnudges.com ונרשום את הבקשה לגרסה הבאה."
+      "he": "האירועים האלה בשם בדוי ומצטברים. אי אפשר לזהות אתכם מהם. מכיוון שלא מעובד מידע אישי, איננו נדרשים לבקש הסכמה לפי GDPR. אם בכל זאת תעדיפו לא להשתתף, כתבו ל-support@dearnudges.com ונרשום את הבקשה לגרסה הבאה.",
+      "de": "Diese Ereignisse sind pseudonym und aggregiert. Wir k&ouml;nnen dich daraus nicht identifizieren. Da keine personenbezogenen Daten verarbeitet werden, ben&ouml;tigen wir nach der DSGVO keine Einwilligungsabfrage. Wenn du dennoch widersprechen m&ouml;chtest, schreib uns an support@dearnudges.com und wir vermerken deinen Wunsch f&uuml;r die n&auml;chste Version.",
+      "nl": "Deze gebeurtenissen zijn pseudoniem en geaggregeerd. We kunnen je er niet uit identificeren. Omdat er geen persoonsgegevens worden verwerkt, is onder de AVG geen toestemmingsvraag nodig. Wil je je er toch voor afmelden, mail ons dan op support@dearnudges.com en we noteren je verzoek voor de volgende versie.",
+      "sv": "H&auml;ndelserna &auml;r pseudonyma och aggregerade. Vi kan inte identifiera dig utifr&aring;n dem. Eftersom inga personuppgifter behandlas kr&auml;vs ingen samtyckesruta enligt GDPR. Vill du &auml;nd&aring; avb&ouml;ja, mejla oss p&aring; support@dearnudges.com s&aring; noterar vi din &ouml;nskan till n&auml;sta version.",
+      "da": "H&aelig;ndelserne er pseudonyme og samlede. Vi kan ikke identificere dig ud fra dem. Da der ikke behandles personoplysninger, kr&aelig;ver GDPR ingen samtykkedialog. Vil du alligevel fravælge det, s&aring; skriv til os p&aring; support@dearnudges.com, s&aring; noterer vi dit &oslash;nske til n&aelig;ste version.",
+      "nb": "Hendelsene er pseudonyme og samlet. Vi kan ikke identifisere deg ut fra dem. Siden ingen personopplysninger behandles, krever ikke GDPR noen samtykkedialog. Vil du likevel reservere deg, send oss en e-post p&aring; support@dearnudges.com, s&aring; noterer vi &oslash;nsket ditt til neste versjon.",
+      "fi": "Tapahtumat ovat pseudonyymej&auml; ja koostettuja. Emme voi tunnistaa sinua niist&auml;. Koska henkil&ouml;tietoja ei k&auml;sitell&auml;, GDPR ei edellyt&auml; suostumuskyselyä. Jos haluat silti kielt&auml;yty&auml;, l&auml;het&auml; meille s&auml;hk&ouml;postia osoitteeseen support@dearnudges.com, niin kirjaamme toiveesi seuraavaa versiota varten.",
+      "it": "Questi eventi sono pseudonimi e aggregati. Da essi non possiamo identificarti. Poich&eacute; non vengono trattati dati personali, il GDPR non richiede una richiesta di consenso. Se preferisci comunque rinunciare, scrivici a support@dearnudges.com e annoteremo la tua richiesta per la prossima versione.",
+      "pt-BR": "Esses eventos s&atilde;o pseud&ocirc;nimos e agregados. N&atilde;o conseguimos identificar voc&ecirc; a partir deles. Como nenhum dado pessoal &eacute; tratado, o GDPR n&atilde;o exige um pedido de consentimento. Se ainda assim preferir sair, escreva para support@dearnudges.com e anotaremos seu pedido para a pr&oacute;xima vers&atilde;o.",
+      "pl": "Te zdarzenia s&aogon; pseudonimowe i zbiorcze. Nie mo&zdot;emy ci&eogon; na ich podstawie zidentyfikowa&cacute;. Poniewa&zdot; nie s&aogon; przetwarzane dane osobowe, RODO nie wymaga pytania o zgod&eogon;. Je&sacute;li mimo to wolisz zrezygnowa&cacute;, napisz do nas na support@dearnudges.com, a odnotujemy tw&oacute;j wniosek do nast&eogon;pnej wersji.",
+      "tr": "Bu olaylar takma adl&#305; ve topludur. Onlardan seni tan&#305;mlayamay&#305;z. Ki&scedil;isel veri i&scedil;lenmedi&#287;i i&ccedil;in GDPR kapsam&#305;nda bir onay sorusuna gerek yok. Yine de vazge&ccedil;mek istersen support@dearnudges.com adresine yaz, iste&#287;ini bir sonraki s&uuml;r&uuml;m i&ccedil;in not edelim."
     },
     "delete_your_data_40ab22": {
       "en": "Delete your data",
@@ -2666,7 +2826,17 @@
       "ta": "உங்கள் தரவை நீக்குங்கள்",
       "te": "మీ డేటాను తొలగించండి",
       "ar": "احذف بياناتك",
-      "he": "מחיקת הנתונים שלכם"
+      "he": "מחיקת הנתונים שלכם",
+      "de": "Deine Daten l&ouml;schen",
+      "nl": "Je gegevens verwijderen",
+      "sv": "Radera dina uppgifter",
+      "da": "Slet dine data",
+      "nb": "Slett dataene dine",
+      "fi": "Poista tietosi",
+      "it": "Eliminare i tuoi dati",
+      "pt-BR": "Apagar seus dados",
+      "pl": "Usu&nacute; swoje dane",
+      "tr": "Verilerini sil"
     },
     "dear_has_no_accounts_and_no_server_holds_you_ccc0f0": {
       "en": "Dear has no accounts, and no server holds your personal information. Your friends, your nudges, and your messages live only on your device. To delete everything Dear knows about you:",
@@ -2689,7 +2859,17 @@
       "ta": "Dear-இல் கணக்குகள் இல்லை, உங்கள் தனிப்பட்ட தகவலை எந்தச் சேவையகமும் வைத்திருக்கவில்லை. உங்கள் நண்பர்கள், நினைவூட்டல்கள், செய்திகள் உங்கள் சாதனத்தில் மட்டுமே இருக்கின்றன. Dear உங்களைப் பற்றி அறிந்த அனைத்தையும் நீக்க:",
       "te": "Dear లో ఖాతాలు లేవు, మీ వ్యక్తిగత సమాచారాన్ని ఏ సర్వరూ ఉంచుకోదు. మీ స్నేహితులు, గుర్తుచేతలు, మెసేజ్‌లు మీ పరికరంలోనే ఉంటాయి. Dear మీ గురించి తెలిసినదంతా తొలగించాలంటే:",
       "ar": "ليس في Dear حسابات، ولا يحتفظ أي خادم بمعلوماتك الشخصية. أصدقاؤك وتذكيراتك ورسائلك موجودة على جهازك وحده. ولحذف كل ما يعرفه Dear عنك:",
-      "he": "ל-Dear אין חשבונות, ואין שרת שמחזיק את המידע האישי שלכם. החברים, התזכורות וההודעות שלכם נמצאים רק על המכשיר. כדי למחוק את כל מה ש-Dear יודע עליכם:"
+      "he": "ל-Dear אין חשבונות, ואין שרת שמחזיק את המידע האישי שלכם. החברים, התזכורות וההודעות שלכם נמצאים רק על המכשיר. כדי למחוק את כל מה ש-Dear יודע עליכם:",
+      "de": "Dear hat keine Konten, und kein Server h&auml;lt deine pers&ouml;nlichen Daten. Deine Freunde, deine Erinnerungen und deine Nachrichten liegen nur auf deinem Ger&auml;t. So l&ouml;schst du alles, was Dear &uuml;ber dich wei&szlig;:",
+      "nl": "Dear heeft geen accounts, en geen server bewaart je persoonlijke gegevens. Je vrienden, je herinneringen en je berichten staan alleen op je toestel. Zo verwijder je alles wat Dear van je weet:",
+      "sv": "Dear har inga konton, och ingen server h&aring;ller dina personuppgifter. Dina v&auml;nner, dina p&aring;minnelser och dina meddelanden finns bara p&aring; din enhet. S&aring; h&auml;r raderar du allt Dear vet om dig:",
+      "da": "Dear har ingen konti, og ingen server opbevarer dine personoplysninger. Dine venner, dine p&aring;mindelser og dine beskeder findes kun p&aring; din enhed. S&aring;dan sletter du alt, Dear ved om dig:",
+      "nb": "Dear har ingen kontoer, og ingen server oppbevarer personopplysningene dine. Vennene dine, p&aring;minnelsene dine og meldingene dine finnes bare p&aring; enheten din. Slik sletter du alt Dear vet om deg:",
+      "fi": "Dearilla ei ole tilej&auml;, eik&auml; mik&auml;&auml;n palvelin s&auml;ilyt&auml; henkil&ouml;tietojasi. Yst&auml;v&auml;si, muistutuksesi ja viestisi ovat vain laitteellasi. N&auml;in poistat kaiken, mit&auml; Dear tiet&auml;&auml; sinusta:",
+      "it": "Dear non ha account e nessun server conserva le tue informazioni personali. I tuoi amici, i tuoi promemoria e i tuoi messaggi vivono solo sul tuo dispositivo. Per eliminare tutto ci&ograve; che Dear sa di te:",
+      "pt-BR": "O Dear n&atilde;o tem contas, e nenhum servidor guarda suas informa&ccedil;&otilde;es pessoais. Seus amigos, seus lembretes e suas mensagens vivem apenas no seu aparelho. Para apagar tudo o que o Dear sabe sobre voc&ecirc;:",
+      "pl": "Dear nie ma kont, a &zdot;aden serwer nie przechowuje twoich danych osobowych. Twoi znajomi, twoje przypomnienia i twoje wiadomo&sacute;ci istniej&aogon; wy&lstrok;&aogon;cznie na twoim urz&aogon;dzeniu. Aby usun&aogon;&cacute; wszystko, co Dear o tobie wie:",
+      "tr": "Dear'&#305;n hesab&#305; yok ve hi&ccedil;bir sunucu ki&scedil;isel bilgilerini tutmuyor. Arkada&scedil;lar&#305;n, hat&#305;rlatmalar&#305;n ve mesajlar&#305;n yaln&#305;zca cihaz&#305;nda ya&scedil;ar. Dear'&#305;n senin hakk&#305;nda bildi&#287;i her &scedil;eyi silmek i&ccedil;in:"
     },
     "we_do_not_have_a_server_with_your_personal_i_7469ac": {
       "en": "We do not have a server with your personal information on it. We never collected it, so there is nothing to delete on our side. The only data that ever leaves your device is anonymous, aggregated analytics (see <a href=\"#anonymous-analytics\">Anonymous Analytics</a>) and anonymous purchase records, neither of which can be linked back to you: there is no per-user record to delete.",
@@ -2712,7 +2892,17 @@
       "ta": "உங்கள் தனிப்பட்ட தகவல் உள்ள சேவையகம் எங்களிடம் இல்லை. நாங்கள் அதை ஒருபோதும் சேகரிக்கவில்லை, எனவே எங்கள் பக்கம் நீக்க எதுவும் இல்லை. உங்கள் சாதனத்திலிருந்து வெளியேறுவது பெயரில்லாத ஒட்டுமொத்தப் பகுப்பாய்வு (<a href=\"#anonymous-analytics\">பெயரில்லாத பகுப்பாய்வு</a> பார்க்கவும்) மற்றும் பெயரில்லாத வாங்கிய பதிவுகள் மட்டுமே; இரண்டையும் உங்களுடன் இணைக்க முடியாது: நீக்குவதற்குப் பயனர்வாரியான பதிவே இல்லை.",
       "te": "మీ వ్యక్తిగత సమాచారం ఉన్న సర్వర్ మా దగ్గర లేదు. మేము దాన్ని ఎప్పుడూ సేకరించలేదు, కాబట్టి మా వైపు తొలగించడానికి ఏమీ లేదు. మీ పరికరాన్ని దాటి బయటికి వెళ్లేది పేరు లేని సమగ్ర విశ్లేషణ (<a href=\"#anonymous-analytics\">పేరు లేని విశ్లేషణ</a> చూడండి), పేరు లేని కొనుగోలు రికార్డులు మాత్రమే; రెండింటినీ మీతో ముడిపెట్టలేం: తొలగించడానికి వాడుకరివారీ రికార్డే లేదు.",
       "ar": "ليس لدينا خادم يحوي معلوماتك الشخصية. لم نجمعها أصلًا، فلا شيء لدينا لنحذفه. والوحيد الذي يغادر جهازك هو تحليلات مجمّعة بلا هوية (انظر <a href=\"#anonymous-analytics\">تحليلات بلا هوية</a>) وسجلات شراء بلا هوية، وكلاهما لا يمكن ربطه بك: لا يوجد سجل خاص بكل مستخدم لنحذفه.",
-      "he": "אין לנו שרת עם המידע האישי שלכם. מעולם לא אספנו אותו, ולכן אין לנו מה למחוק. הדבר היחיד שיוצא מהמכשיר הוא ניתוח מצטבר בלי שם (ראו <a href=\"#anonymous-analytics\">ניתוח בלי שם</a>) ורישומי רכישה בלי שם, ואי אפשר לקשר אף אחד מהם אליכם: אין בכלל רישום פר-משתמש למחוק."
+      "he": "אין לנו שרת עם המידע האישי שלכם. מעולם לא אספנו אותו, ולכן אין לנו מה למחוק. הדבר היחיד שיוצא מהמכשיר הוא ניתוח מצטבר בלי שם (ראו <a href=\"#anonymous-analytics\">ניתוח בלי שם</a>) ורישומי רכישה בלי שם, ואי אפשר לקשר אף אחד מהם אליכם: אין בכלל רישום פר-משתמש למחוק.",
+      "de": "Wir haben keinen Server mit deinen pers&ouml;nlichen Daten darauf. Wir haben sie nie erhoben, also gibt es auf unserer Seite nichts zu l&ouml;schen. Die einzigen Daten, die dein Ger&auml;t je verlassen, sind anonyme, aggregierte Statistiken (siehe <a href=\"#anonymous-analytics\">Anonyme Analyse</a>) und anonyme Kaufbelege, von denen sich keine auf dich zur&uuml;ckf&uuml;hren lassen: Es gibt keinen nutzerbezogenen Datensatz zum L&ouml;schen.",
+      "nl": "We hebben geen server met jouw persoonlijke gegevens erop. We hebben ze nooit verzameld, dus aan onze kant valt er niets te verwijderen. De enige gegevens die je toestel ooit verlaten zijn anonieme, geaggregeerde statistieken (zie <a href=\"#anonymous-analytics\">Anonieme analyse</a>) en anonieme aankoopgegevens, en geen van beide is naar jou te herleiden: er is geen gebruikersrecord om te verwijderen.",
+      "sv": "Vi har ingen server med dina personuppgifter p&aring;. Vi har aldrig samlat in dem, s&aring; det finns inget att radera hos oss. De enda uppgifter som n&aring;gonsin l&auml;mnar din enhet &auml;r anonym, aggregerad statistik (se <a href=\"#anonymous-analytics\">Anonym analys</a>) och anonyma k&ouml;puppgifter, och ingen av dem kan kopplas till dig: det finns ingen anv&auml;ndarpost att radera.",
+      "da": "Vi har ingen server med dine personoplysninger p&aring;. Vi har aldrig indsamlet dem, s&aring; der er intet at slette hos os. De eneste data, der nogensinde forlader din enhed, er anonym, samlet statistik (se <a href=\"#anonymous-analytics\">Anonym analyse</a>) og anonyme k&oslash;bsoplysninger, og ingen af delene kan f&oslash;res tilbage til dig: der er ingen brugerpost at slette.",
+      "nb": "Vi har ingen server med personopplysningene dine p&aring;. Vi har aldri samlet dem inn, s&aring; det er ingenting &aring; slette hos oss. De eneste dataene som noen gang forlater enheten din, er anonym, samlet statistikk (se <a href=\"#anonymous-analytics\">Anonym analyse</a>) og anonyme kj&oslash;psopplysninger, og ingen av delene kan spores tilbake til deg: det finnes ingen brukerpost &aring; slette.",
+      "fi": "Meill&auml; ei ole palvelinta, jolla olisi henkil&ouml;tietojasi. Emme ole koskaan ker&auml;nneet niit&auml;, joten meid&auml;n puolellamme ei ole mit&auml;&auml;n poistettavaa. Ainoat tiedot, jotka koskaan poistuvat laitteeltasi, ovat nimet&ouml;nt&auml;, koostettua tilastoa (katso <a href=\"#anonymous-analytics\">Nimet&ouml;n analytiikka</a>) ja nimett&ouml;mi&auml; ostotietoja, eik&auml; kumpaakaan voi yhdist&auml;&auml; sinuun: poistettavaa k&auml;ytt&auml;j&auml;kohtaista tietuetta ei ole.",
+      "it": "Non abbiamo un server con le tue informazioni personali. Non le abbiamo mai raccolte, quindi dalla nostra parte non c'&egrave; nulla da eliminare. Gli unici dati che lasciano il dispositivo sono statistiche anonime e aggregate (vedi <a href=\"#anonymous-analytics\">Analisi anonime</a>) e registri d'acquisto anonimi, nessuno dei quali &egrave; riconducibile a te: non esiste un record per utente da cancellare.",
+      "pt-BR": "N&atilde;o temos um servidor com suas informa&ccedil;&otilde;es pessoais. Nunca as coletamos, ent&atilde;o n&atilde;o h&aacute; nada a apagar do nosso lado. Os &uacute;nicos dados que saem do aparelho s&atilde;o estat&iacute;sticas an&ocirc;nimas e agregadas (veja <a href=\"#anonymous-analytics\">An&aacute;lises an&ocirc;nimas</a>) e registros de compra an&ocirc;nimos, e nenhum deles pode ser ligado a voc&ecirc;: n&atilde;o existe um registro por usu&aacute;rio para apagar.",
+      "pl": "Nie mamy serwera z twoimi danymi osobowymi. Nigdy ich nie zbierali&sacute;my, wi&eogon;c po naszej stronie nie ma czego usuwa&cacute;. Jedyne dane, kt&oacute;re kiedykolwiek opuszczaj&aogon; twoje urz&aogon;dzenie, to anonimowe, zbiorcze statystyki (zobacz <a href=\"#anonymous-analytics\">Anonimowa analityka</a>) oraz anonimowe zapisy zakup&oacute;w, a &zdot;adne z nich nie prowadzi do ciebie: nie istnieje &zdot;aden rekord przypisany do u&zdot;ytkownika, kt&oacute;ry mo&zdot;na by usun&aogon;&cacute;.",
+      "tr": "Ki&scedil;isel bilgilerinin bulundu&#287;u bir sunucumuz yok. Onlar&#305; hi&ccedil; toplamad&#305;k, dolay&#305;s&#305;yla bizim taraf&#305;m&#305;zda silinecek bir &scedil;ey de yok. Cihaz&#305;ndan &ccedil;&#305;kan tek veri anonim, toplu istatistikler (bkz. <a href=\"#anonymous-analytics\">Anonim analiz</a>) ve anonim sat&#305;n alma kay&#305;tlar&#305;d&#305;r; ikisi de sana geri ba&#287;lanamaz: silinecek kullan&#305;c&#305; bazl&#305; bir kay&#305;t yoktur."
     },
     "if_you_have_questions_or_need_help_with_any_3bd7d1": {
       "en": "If you have questions or need help with any of this, email <a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>.",
@@ -2735,7 +2925,17 @@
       "ta": "இவற்றில் எதைப் பற்றியும் கேள்விகள் இருந்தால் அல்லது உதவி தேவைப்பட்டால் <a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>-க்கு எழுதுங்கள்.",
       "te": "వీటిలో దేని గురించైనా ప్రశ్నలుంటే లేదా సాయం కావాలంటే <a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a> కు రాయండి.",
       "ar": "إن كانت لديك أسئلة أو احتجت مساعدة في أي من ذلك، فراسلنا على <a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>.",
-      "he": "אם יש שאלות או צריך עזרה בכל אחד מהדברים האלה, כתבו ל-<a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>."
+      "he": "אם יש שאלות או צריך עזרה בכל אחד מהדברים האלה, כתבו ל-<a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>.",
+      "de": "Wenn du Fragen hast oder Hilfe dabei brauchst, schreib an <a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>.",
+      "nl": "Heb je vragen of hulp nodig hierbij, mail dan <a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>.",
+      "sv": "Har du fr&aring;gor eller beh&ouml;ver hj&auml;lp med n&aring;got av detta, mejla <a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>.",
+      "da": "Har du sp&oslash;rgsm&aring;l eller brug for hj&aelig;lp til noget af dette, s&aring; skriv til <a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>.",
+      "nb": "Har du sp&oslash;rsm&aring;l eller trenger hjelp med noe av dette, send e-post til <a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>.",
+      "fi": "Jos sinulla on kysytt&auml;v&auml;&auml; tai tarvitset apua n&auml;iss&auml; asioissa, l&auml;het&auml; s&auml;hk&ouml;postia osoitteeseen <a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>.",
+      "it": "Se hai domande o ti serve aiuto su qualcuno di questi punti, scrivi a <a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>.",
+      "pt-BR": "Se tiver d&uacute;vidas ou precisar de ajuda com qualquer um desses pontos, escreva para <a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>.",
+      "pl": "Je&sacute;li masz pytania albo potrzebujesz pomocy w kt&oacute;rej&sacute; z tych spraw, napisz na <a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a>.",
+      "tr": "Bunlardan herhangi biri hakk&#305;nda sorun ya da yard&#305;ma ihtiyac&#305;n varsa <a href=\"mailto:hello@dearnudges.com\">hello@dearnudges.com</a> adresine yaz."
     },
     "note_a_future_version_of_dear_will_offer_an_38fcb5": {
       "en": "Note: a future version of Dear will offer an optional toggle to share anonymized usage data with academic researchers studying loneliness and well-being. When that ships, opting out and deleting contributed research data will be available in the same Settings menu, and this page will be updated to reflect the new option.",
@@ -2758,7 +2958,17 @@
       "ta": "குறிப்பு: Dear-இன் எதிர்காலப் பதிப்பில், தனிமை மற்றும் நல்வாழ்வை ஆராயும் கல்வியாளர்களுடன் அடையாளம் நீக்கப்பட்ட பயன்பாட்டுத் தரவைப் பகிர விருப்பத் தேர்வு இருக்கும். அது வரும்போது, விலகுவதும் அளித்த ஆய்வுத் தரவை நீக்குவதும் அதே அமைப்புகள் பட்டியலில் இருக்கும், இந்தப் பக்கமும் புதுப்பிக்கப்படும்.",
       "te": "గమనిక: Dear రాబోయే వెర్షన్‌లో ఒంటరితనం, సంక్షేమంపై పరిశోధన చేసే విద్యావేత్తలతో గుర్తింపు తీసివేసిన వాడక డేటాను పంచుకునే ఐచ్ఛిక ఎంపిక ఉంటుంది. అది వచ్చినప్పుడు, బయటికి రావడం, ఇచ్చిన పరిశోధన డేటాను తొలగించడం అదే సెట్టింగ్‌ల మెనూలో ఉంటాయి, ఈ పేజీ కూడా నవీకరించబడుతుంది.",
       "ar": "ملاحظة: سيوفر إصدار قادم من Dear خيارًا اختياريًا لمشاركة بيانات استخدام منزوعة الهوية مع باحثين أكاديميين يدرسون الوحدة والعافية. وحين يصدر، سيكون الانسحاب وحذف بيانات البحث المساهم بها في القائمة نفسها بالإعدادات، وستُحدَّث هذه الصفحة.",
-      "he": "הערה: בגרסה עתידית של Dear תהיה אפשרות לבחור לשתף נתוני שימוש מנוטרלי זהות עם חוקרים אקדמיים שחוקרים בדידות ורווחה נפשית. כשזה ייצא, ביטול ההשתתפות ומחיקת נתוני המחקר שנתרמו יהיו באותו תפריט הגדרות, והדף הזה יעודכן."
+      "he": "הערה: בגרסה עתידית של Dear תהיה אפשרות לבחור לשתף נתוני שימוש מנוטרלי זהות עם חוקרים אקדמיים שחוקרים בדידות ורווחה נפשית. כשזה ייצא, ביטול ההשתתפות ומחיקת נתוני המחקר שנתרמו יהיו באותו תפריט הגדרות, והדף הזה יעודכן.",
+      "de": "Hinweis: Eine k&uuml;nftige Version von Dear wird einen optionalen Schalter anbieten, um anonymisierte Nutzungsdaten mit Forschenden zu teilen, die Einsamkeit und Wohlbefinden untersuchen. Sobald das erscheint, wird der Widerruf und das L&ouml;schen beigetragener Forschungsdaten im selben Einstellungsmen&uuml; m&ouml;glich sein, und diese Seite wird entsprechend aktualisiert.",
+      "nl": "Let op: een toekomstige versie van Dear krijgt een optionele schakelaar om geanonimiseerde gebruiksgegevens te delen met onderzoekers die eenzaamheid en welzijn bestuderen. Zodra dat er is, komen afmelden en het verwijderen van bijgedragen onderzoeksgegevens in hetzelfde instellingenmenu, en wordt deze pagina bijgewerkt.",
+      "sv": "Obs: en framtida version av Dear kommer att erbjuda ett valfritt reglage f&ouml;r att dela anonymiserade anv&auml;ndningsdata med forskare som studerar ensamhet och v&auml;lbefinnande. N&auml;r det kommer g&aring;r det att avb&ouml;ja och radera bidragna forskningsdata i samma inst&auml;llningsmeny, och den h&auml;r sidan uppdateras d&aring;.",
+      "da": "Bem&aelig;rk: en fremtidig version af Dear vil tilbyde en valgfri kontakt til at dele anonymiserede brugsdata med forskere, der unders&oslash;ger ensomhed og trivsel. N&aring;r det kommer, kan du frav&aelig;lge og slette bidragne forskningsdata i den samme indstillingsmenu, og denne side bliver opdateret.",
+      "nb": "Merk: en fremtidig versjon av Dear vil tilby en valgfri bryter for &aring; dele anonymiserte bruksdata med forskere som studerer ensomhet og livskvalitet. N&aring;r det kommer, kan du reservere deg og slette bidratte forskningsdata i den samme innstillingsmenyen, og denne siden blir oppdatert.",
+      "fi": "Huomautus: Dearin tuleva versio tarjoaa valinnaisen kytkimen, jolla voi jakaa anonymisoitua k&auml;ytt&ouml;dataa yksin&auml;isyytt&auml; ja hyvinvointia tutkiville tutkijoille. Kun se julkaistaan, kielt&auml;ytyminen ja luovutettujen tutkimustietojen poistaminen l&ouml;ytyv&auml;t samasta asetusvalikosta, ja t&auml;m&auml; sivu p&auml;ivitet&auml;&auml;n.",
+      "it": "Nota: una futura versione di Dear offrir&agrave; un'opzione facoltativa per condividere dati d'uso anonimizzati con ricercatori che studiano solitudine e benessere. Quando arriver&agrave;, la rinuncia e la cancellazione dei dati di ricerca conferiti saranno disponibili nello stesso menu Impostazioni, e questa pagina verr&agrave; aggiornata.",
+      "pt-BR": "Observa&ccedil;&atilde;o: uma vers&atilde;o futura do Dear vai oferecer uma op&ccedil;&atilde;o para compartilhar dados de uso anonimizados com pesquisadores que estudam solid&atilde;o e bem-estar. Quando isso chegar, sair e apagar os dados de pesquisa contribu&iacute;dos estar&atilde;o no mesmo menu de Ajustes, e esta p&aacute;gina ser&aacute; atualizada.",
+      "pl": "Uwaga: przysz&lstrok;a wersja Dear zaoferuje opcjonalny prze&lstrok;&aogon;cznik do dzielenia si&eogon; zanonimizowanymi danymi u&zdot;ycia z badaczami zajmuj&aogon;cymi si&eogon; samotno&sacute;ci&aogon; i dobrostanem. Gdy to nast&aogon;pi, rezygnacja i usuni&eogon;cie przekazanych danych badawczych b&eogon;d&aogon; dost&eogon;pne w tym samym menu Ustawie&nacute;, a ta strona zostanie zaktualizowana.",
+      "tr": "Not: Dear'&#305;n gelecekteki bir s&uuml;r&uuml;m&uuml;, yaln&#305;zl&#305;k ve iyi olu&scedil; &uuml;zerine &ccedil;al&#305;&scedil;an ara&scedil;t&#305;rmac&#305;larla anonimle&scedil;tirilmi&scedil; kullan&#305;m verisi payla&scedil;mak i&ccedil;in iste&#287;e ba&#287;l&#305; bir anahtar sunacak. O geldi&#287;inde, vazge&ccedil;me ve payla&scedil;&#305;lan ara&scedil;t&#305;rma verilerini silme ayn&#305; Ayarlar men&uuml;s&uuml;nde olacak ve bu sayfa g&uuml;ncellenecek."
     },
     "in_app_purchases_a8c5a8": {
       "en": "In-app purchases",
@@ -2781,7 +2991,17 @@
       "ta": "செயலிக்குள் வாங்குதல்",
       "te": "యాప్‌లో కొనుగోళ్లు",
       "ar": "المشتريات داخل التطبيق",
-      "he": "רכישות בתוך האפליקציה"
+      "he": "רכישות בתוך האפליקציה",
+      "de": "In-App-K&auml;ufe",
+      "nl": "Aankopen in de app",
+      "sv": "K&ouml;p i appen",
+      "da": "K&oslash;b i appen",
+      "nb": "Kj&oslash;p i appen",
+      "fi": "Sovelluksen sis&auml;iset ostot",
+      "it": "Acquisti in-app",
+      "pt-BR": "Compras no app",
+      "pl": "Zakupy w aplikacji",
+      "tr": "Uygulama i&ccedil;i sat&#305;n al&#305;mlar"
     },
     "dear_offers_optional_subscriptions_and_one_t_1e7881": {
       "en": "Dear offers optional subscriptions and one-time purchases through the Apple App Store (and Google Play on Android). Apple and Google handle all payment processing; we never see or store your card or payment details. To unlock what you've bought across devices and reinstalls, Dear uses RevenueCat, which receives an anonymous record of each transaction (the product purchased, the purchase date, and an anonymous app-internal identifier). This record contains no name, email, or payment information. The privacy policies of Apple, Google, and RevenueCat govern this data.",
@@ -2804,7 +3024,17 @@
       "ta": "Dear, Apple App Store மூலம் (Android-இல் Google Play மூலம்) விருப்பத் சந்தாக்களையும் ஒருமுறை வாங்குதல்களையும் வழங்குகிறது. அனைத்துப் பணப் பரிவர்த்தனைகளையும் Apple-ம் Google-ம் கையாள்கின்றன; உங்கள் அட்டை அல்லது கட்டண விவரங்களை நாங்கள் ஒருபோதும் பார்ப்பதோ சேமிப்பதோ இல்லை. நீங்கள் வாங்கியவை பல சாதனங்களிலும் மீள்நிறுவலுக்குப் பின்னும் வேலை செய்ய Dear, RevenueCat-ஐப் பயன்படுத்துகிறது; அது ஒவ்வொரு பரிவர்த்தனையின் பெயரில்லாத பதிவைப் பெறுகிறது (வாங்கிய பொருள், வாங்கிய தேதி, செயலியின் பெயரில்லாத உள் அடையாளக் குறியீடு). இப்பதிவில் பெயர், மின்னஞ்சல் அல்லது கட்டணத் தகவல் இல்லை. இந்தத் தரவுக்கு Apple, Google, RevenueCat-இன் தனியுரிமைக் கொள்கைகள் பொருந்தும்.",
       "te": "Dear, Apple App Store ద్వారా (Android లో Google Play ద్వారా) ఐచ్ఛిక సబ్‌స్క్రిప్షన్లు, ఒకసారి కొనుగోళ్లు అందిస్తుంది. చెల్లింపులన్నీ Apple, Google నిర్వహిస్తాయి; మీ కార్డు లేదా చెల్లింపు వివరాలను మేము ఎప్పుడూ చూడం, భద్రపరచం. మీరు కొన్నవి వేర్వేరు పరికరాల్లో, మళ్లీ ఇన్‌స్టాల్ చేశాక కూడా పనిచేయడానికి Dear, RevenueCat ను వాడుతుంది; అది ప్రతి లావాదేవీ పేరు లేని రికార్డును పొందుతుంది (కొన్న ఉత్పత్తి, కొన్న తేదీ, యాప్ లోపలి పేరు లేని గుర్తింపు). ఈ రికార్డులో పేరు, ఇమెయిల్, చెల్లింపు సమాచారం ఉండవు. ఈ డేటాకు Apple, Google, RevenueCat గోప్యతా విధానాలు వర్తిస్తాయి.",
       "ar": "يوفر Dear اشتراكات اختيارية ومشتريات لمرة واحدة عبر Apple App Store (وGoogle Play على Android). وتتولى Apple وGoogle معالجة المدفوعات كلها؛ ولا نرى بيانات بطاقتك أو دفعك ولا نحفظها أبدًا. ولتعمل مشترياتك على أجهزة متعددة وبعد إعادة التثبيت، يستخدم Dear خدمة RevenueCat التي تتلقى سجلًا بلا هوية لكل معاملة (المنتج المشترى وتاريخ الشراء ومعرّف داخلي للتطبيق بلا هوية). ولا يتضمن هذا السجل اسمًا ولا بريدًا ولا بيانات دفع. وتحكم هذه البيانات سياسات خصوصية Apple وGoogle وRevenueCat.",
-      "he": "Dear מציע מנויים ורכישות חד-פעמיות לבחירתכם דרך Apple App Store (ו-Google Play ב-Android). Apple ו-Google מטפלות בכל התשלומים; אנחנו לעולם לא רואים ולא שומרים את פרטי הכרטיס או התשלום שלכם. כדי שהרכישות יעבדו בכמה מכשירים ואחרי התקנה מחדש, Dear משתמש ב-RevenueCat, שמקבל רישום בלי שם על כל עסקה (המוצר שנרכש, תאריך הרכישה, ומזהה פנימי בלי שם של האפליקציה). ברישום הזה אין שם, אימייל או פרטי תשלום. על הנתונים האלה חלות מדיניות הפרטיות של Apple, Google ו-RevenueCat."
+      "he": "Dear מציע מנויים ורכישות חד-פעמיות לבחירתכם דרך Apple App Store (ו-Google Play ב-Android). Apple ו-Google מטפלות בכל התשלומים; אנחנו לעולם לא רואים ולא שומרים את פרטי הכרטיס או התשלום שלכם. כדי שהרכישות יעבדו בכמה מכשירים ואחרי התקנה מחדש, Dear משתמש ב-RevenueCat, שמקבל רישום בלי שם על כל עסקה (המוצר שנרכש, תאריך הרכישה, ומזהה פנימי בלי שם של האפליקציה). ברישום הזה אין שם, אימייל או פרטי תשלום. על הנתונים האלה חלות מדיניות הפרטיות של Apple, Google ו-RevenueCat.",
+      "de": "Dear bietet optionale Abonnements und Einmalk&auml;ufe &uuml;ber den Apple App Store (und Google Play auf Android). Apple und Google wickeln die gesamte Zahlungsabwicklung ab; wir sehen oder speichern deine Karten- oder Zahlungsdaten nie. Damit du das Gekaufte auf allen Ger&auml;ten und nach Neuinstallationen nutzen kannst, verwendet Dear RevenueCat, das einen anonymen Datensatz jeder Transaktion erh&auml;lt (das gekaufte Produkt, das Kaufdatum und eine anonyme app-interne Kennung). Dieser Datensatz enth&auml;lt keinen Namen, keine E-Mail-Adresse und keine Zahlungsdaten. F&uuml;r diese Daten gelten die Datenschutzerkl&auml;rungen von Apple, Google und RevenueCat.",
+      "nl": "Dear biedt optionele abonnementen en eenmalige aankopen via de Apple App Store (en Google Play op Android). Apple en Google verzorgen alle betalingsverwerking; wij zien of bewaren je kaart- of betaalgegevens nooit. Om te ontgrendelen wat je gekocht hebt op al je toestellen en na herinstallaties, gebruikt Dear RevenueCat, dat een anoniem record van elke transactie ontvangt (het gekochte product, de aankoopdatum en een anonieme app-interne identificatie). Dat record bevat geen naam, e-mailadres of betaalgegevens. Het privacybeleid van Apple, Google en RevenueCat geldt voor deze gegevens.",
+      "sv": "Dear erbjuder valfria prenumerationer och eng&aring;ngsk&ouml;p via Apple App Store (och Google Play p&aring; Android). Apple och Google sk&ouml;ter all betalningshantering; vi ser eller lagrar aldrig dina kort- eller betaluppgifter. F&ouml;r att l&aring;sa upp det du k&ouml;pt p&aring; olika enheter och efter ominstallation anv&auml;nder Dear RevenueCat, som tar emot en anonym post f&ouml;r varje transaktion (produkten, k&ouml;pdatumet och en anonym identifierare internt i appen). Posten inneh&aring;ller inget namn, ingen e-postadress och inga betaluppgifter. Integritetspolicyerna fr&aring;n Apple, Google och RevenueCat g&auml;ller f&ouml;r dessa uppgifter.",
+      "da": "Dear tilbyder valgfrie abonnementer og engangsk&oslash;b via Apple App Store (og Google Play p&aring; Android). Apple og Google h&aring;ndterer al betalingsbehandling; vi ser eller gemmer aldrig dine kort- eller betalingsoplysninger. For at l&aring;se op for det, du har k&oslash;bt, p&aring; tv&aelig;rs af enheder og geninstallationer bruger Dear RevenueCat, som modtager en anonym registrering af hver transaktion (produktet, k&oslash;bsdatoen og en anonym intern app-identifikator). Registreringen indeholder hverken navn, e-mail eller betalingsoplysninger. Privatlivspolitikkerne fra Apple, Google og RevenueCat g&aelig;lder for disse data.",
+      "nb": "Dear tilbyr valgfrie abonnementer og engangskj&oslash;p via Apple App Store (og Google Play p&aring; Android). Apple og Google h&aring;ndterer all betalingsbehandling; vi ser eller lagrer aldri kort- eller betalingsopplysningene dine. For &aring; l&aring;se opp det du har kj&oslash;pt p&aring; tvers av enheter og reinstallasjoner bruker Dear RevenueCat, som mottar en anonym registrering av hver transaksjon (produktet, kj&oslash;psdatoen og en anonym identifikator internt i appen). Registreringen inneholder verken navn, e-post eller betalingsopplysninger. Personvernerkl&aelig;ringene til Apple, Google og RevenueCat gjelder for disse dataene.",
+      "fi": "Dear tarjoaa valinnaisia tilauksia ja kertaostoja Applen App Storen (ja Androidilla Google Playn) kautta. Apple ja Google hoitavat kaiken maksunk&auml;sittelyn; emme koskaan n&auml;e tai tallenna kortti- tai maksutietojasi. Jotta ostamasi avautuisi eri laitteilla ja uudelleenasennusten j&auml;lkeen, Dear k&auml;ytt&auml;&auml; RevenueCatia, joka saa nimett&ouml;m&auml;n tietueen jokaisesta tapahtumasta (ostettu tuote, ostop&auml;iv&auml; ja nimet&ouml;n sovelluksen sis&auml;inen tunniste). Tietue ei sis&auml;ll&auml; nime&auml;, s&auml;hk&ouml;postiosoitetta eik&auml; maksutietoja. N&auml;ihin tietoihin sovelletaan Applen, Googlen ja RevenueCatin tietosuojaselosteita.",
+      "it": "Dear offre abbonamenti facoltativi e acquisti una tantum tramite l'App Store di Apple (e Google Play su Android). Apple e Google gestiscono tutti i pagamenti; noi non vediamo n&eacute; conserviamo mai i dati della tua carta o del pagamento. Per sbloccare ci&ograve; che hai acquistato su pi&ugrave; dispositivi e dopo le reinstallazioni, Dear usa RevenueCat, che riceve un record anonimo di ogni transazione (il prodotto acquistato, la data d'acquisto e un identificatore anonimo interno all'app). Questo record non contiene nome, email n&eacute; dati di pagamento. Le informative di Apple, Google e RevenueCat regolano questi dati.",
+      "pt-BR": "O Dear oferece assinaturas opcionais e compras &uacute;nicas pela App Store da Apple (e pelo Google Play no Android). A Apple e o Google cuidam de todo o processamento de pagamento; n&oacute;s nunca vemos nem guardamos os dados do seu cart&atilde;o ou pagamento. Para liberar o que voc&ecirc; comprou em v&aacute;rios aparelhos e depois de reinstala&ccedil;&otilde;es, o Dear usa o RevenueCat, que recebe um registro an&ocirc;nimo de cada transa&ccedil;&atilde;o (o produto comprado, a data da compra e um identificador an&ocirc;nimo interno do app). Esse registro n&atilde;o cont&eacute;m nome, e-mail nem dados de pagamento. As pol&iacute;ticas de privacidade da Apple, do Google e do RevenueCat regem esses dados.",
+      "pl": "Dear oferuje opcjonalne subskrypcje i zakupy jednorazowe przez Apple App Store (i Google Play na Androidzie). Apple i Google obs&lstrok;uguj&aogon; ca&lstrok;&aogon; realizacj&eogon; p&lstrok;atno&sacute;ci; nigdy nie widzimy ani nie przechowujemy danych twojej karty czy p&lstrok;atno&sacute;ci. Aby odblokowa&cacute; to, co kupi&lstrok;e&sacute;, na r&oacute;&zdot;nych urz&aogon;dzeniach i po ponownych instalacjach, Dear u&zdot;ywa RevenueCat, kt&oacute;ry otrzymuje anonimowy zapis ka&zdot;dej transakcji (kupiony produkt, dat&eogon; zakupu i anonimowy identyfikator wewn&eogon;trzny aplikacji). Zapis ten nie zawiera imienia, adresu e-mail ani danych p&lstrok;atno&sacute;ci. Te dane reguluj&aogon; polityki prywatno&sacute;ci Apple, Google i RevenueCat.",
+      "tr": "Dear, Apple App Store (ve Android'de Google Play) &uuml;zerinden iste&#287;e ba&#287;l&#305; abonelikler ve tek seferlik sat&#305;n al&#305;mlar sunar. T&uuml;m &ouml;deme i&scedil;lemlerini Apple ve Google y&uuml;r&uuml;t&uuml;r; kart veya &ouml;deme bilgilerini asla g&ouml;rmez veya saklamay&#305;z. Sat&#305;n ald&#305;klar&#305;n&#305; farkl&#305; cihazlarda ve yeniden kurulumlardan sonra a&ccedil;abilmen i&ccedil;in Dear, her i&scedil;lemin anonim bir kayd&#305;n&#305; alan RevenueCat'i kullan&#305;r (sat&#305;n al&#305;nan &uuml;r&uuml;n, sat&#305;n alma tarihi ve uygulama i&ccedil;i anonim bir tan&#305;mlay&#305;c&#305;). Bu kay&#305;tta ad, e-posta veya &ouml;deme bilgisi bulunmaz. Bu verileri Apple, Google ve RevenueCat'in gizlilik politikalar&#305; y&ouml;netir."
     },
     "third_party_services_871d2b": {
       "en": "Third-party services",
@@ -2827,7 +3057,17 @@
       "ta": "வெளி சேவைகள்",
       "te": "బయటి సేవలు",
       "ar": "خدمات خارجية",
-      "he": "שירותים חיצוניים"
+      "he": "שירותים חיצוניים",
+      "de": "Dienste von Drittanbietern",
+      "nl": "Diensten van derden",
+      "sv": "Tredjepartstj&auml;nster",
+      "da": "Tredjepartstjenester",
+      "nb": "Tredjepartstjenester",
+      "fi": "Kolmannen osapuolen palvelut",
+      "it": "Servizi di terze parti",
+      "pt-BR": "Servi&ccedil;os de terceiros",
+      "pl": "Us&lstrok;ugi zewn&eogon;trzne",
+      "tr": "&Uuml;&ccedil;&uuml;nc&uuml; taraf hizmetleri"
     },
     "the_dear_app_uses_four_third_party_services_9dfaac": {
       "en": "The Dear app uses four third-party services. Apple StoreKit and Google Play Billing process in-app purchases. RevenueCat manages purchase entitlements and receives the anonymous transaction records described above. TelemetryDeck (anonymous usage analytics) receives the anonymous event counts described above. Sentry receives crash reports so we can fix what breaks; user identity is stripped from every report before it is sent, and no personal information is attached. No advertising networks, tracking libraries, or data brokers are used.",
@@ -2850,7 +3090,17 @@
       "ta": "Dear நான்கு வெளி சேவைகளைப் பயன்படுத்துகிறது. Apple StoreKit-ம் Google Play Billing-ம் செயலிக்குள் வாங்குதலைக் கையாள்கின்றன. RevenueCat வாங்கிய உரிமைகளை நிர்வகித்து மேலே சொன்ன பெயரில்லாத பரிவர்த்தனைப் பதிவுகளைப் பெறுகிறது. TelemetryDeck (பெயரில்லாத பயன்பாட்டுப் பகுப்பாய்வு) மேலே சொன்ன பெயரில்லாத நிகழ்வு எண்ணிக்கையைப் பெறுகிறது. Sentry செயலிழப்பு அறிக்கைகளைப் பெறுகிறது, அதனால் கெட்டுப்போனதைச் சரிசெய்ய முடியும்; அனுப்பும் முன் ஒவ்வொரு அறிக்கையிலிருந்தும் பயனர் அடையாளம் நீக்கப்படுகிறது, தனிப்பட்ட தகவல் எதுவும் இணைக்கப்படுவதில்லை. விளம்பர வலையமைப்புகள், கண்காணிப்பு நூலகங்கள், தரவு தரகர்கள் எதுவும் பயன்படுத்தப்படவில்லை.",
       "te": "Dear నాలుగు బయటి సేవలను వాడుతుంది. Apple StoreKit, Google Play Billing యాప్‌లో కొనుగోళ్లను నిర్వహిస్తాయి. RevenueCat కొనుగోలు హక్కులను చూసుకుని పైన చెప్పిన పేరు లేని లావాదేవీ రికార్డులను పొందుతుంది. TelemetryDeck (పేరు లేని వాడక విశ్లేషణ) పైన చెప్పిన పేరు లేని ఘటనల లెక్కలను పొందుతుంది. Sentry క్రాష్ నివేదికలను పొందుతుంది, తద్వారా చెడిపోయినది సరిచేయగలం; పంపే ముందు ప్రతి నివేదిక నుంచి వాడుకరి గుర్తింపు తీసివేయబడుతుంది, ఏ వ్యక్తిగత సమాచారమూ జోడించబడదు. ఏ ప్రకటన నెట్‌వర్క్‌, ట్రాకింగ్ లైబ్రరీ, డేటా బ్రోకర్ వాడబడలేదు.",
       "ar": "يستخدم Dear أربع خدمات خارجية. تتولى Apple StoreKit وGoogle Play Billing معالجة المشتريات داخل التطبيق. ويدير RevenueCat صلاحيات الشراء ويتلقى سجلات المعاملات بلا هوية الموصوفة أعلاه. ويتلقى TelemetryDeck (تحليلات استخدام بلا هوية) أعداد الأحداث بلا هوية الموصوفة أعلاه. ويتلقى Sentry تقارير الأعطال لنصلح ما يتعطل؛ وتُزال هوية المستخدم من كل تقرير قبل إرساله، ولا تُرفق أي معلومات شخصية. ولا تُستخدم أي شبكات إعلانية ولا مكتبات تتبع ولا وسطاء بيانات.",
-      "he": "Dear משתמש בארבעה שירותים חיצוניים. Apple StoreKit ו-Google Play Billing מטפלים ברכישות בתוך האפליקציה. RevenueCat מנהל הרשאות רכישה ומקבל את רישומי העסקאות בלי שם שתוארו למעלה. TelemetryDeck (ניתוח שימוש בלי שם) מקבל את ספירות האירועים בלי שם שתוארו למעלה. Sentry מקבל דוחות קריסה כדי שנוכל לתקן מה שנשבר; זהות המשתמש מוסרת מכל דוח לפני השליחה, ולא מצורף מידע אישי. לא נעשה שימוש ברשתות פרסום, בספריות מעקב או בסוחרי נתונים."
+      "he": "Dear משתמש בארבעה שירותים חיצוניים. Apple StoreKit ו-Google Play Billing מטפלים ברכישות בתוך האפליקציה. RevenueCat מנהל הרשאות רכישה ומקבל את רישומי העסקאות בלי שם שתוארו למעלה. TelemetryDeck (ניתוח שימוש בלי שם) מקבל את ספירות האירועים בלי שם שתוארו למעלה. Sentry מקבל דוחות קריסה כדי שנוכל לתקן מה שנשבר; זהות המשתמש מוסרת מכל דוח לפני השליחה, ולא מצורף מידע אישי. לא נעשה שימוש ברשתות פרסום, בספריות מעקב או בסוחרי נתונים.",
+      "de": "Die Dear-App nutzt vier Dienste von Drittanbietern. Apple StoreKit und Google Play Billing wickeln In-App-K&auml;ufe ab. RevenueCat verwaltet Kaufberechtigungen und erh&auml;lt die oben beschriebenen anonymen Transaktionsdaten. TelemetryDeck (anonyme Nutzungsanalyse) erh&auml;lt die oben beschriebenen anonymen Ereignisz&auml;hlungen. Sentry erh&auml;lt Fehlerberichte, damit wir reparieren k&ouml;nnen, was kaputtgeht; die Nutzeridentit&auml;t wird aus jedem Bericht entfernt, bevor er gesendet wird, und es werden keine pers&ouml;nlichen Daten angeh&auml;ngt. Es werden keine Werbenetzwerke, Tracking-Bibliotheken oder Datenh&auml;ndler eingesetzt.",
+      "nl": "De Dear-app gebruikt vier diensten van derden. Apple StoreKit en Google Play Billing verwerken aankopen in de app. RevenueCat beheert aankooprechten en ontvangt de hierboven beschreven anonieme transactiegegevens. TelemetryDeck (anonieme gebruiksanalyse) ontvangt de hierboven beschreven anonieme tellingen. Sentry ontvangt foutrapporten zodat we kunnen repareren wat stukgaat; de gebruikersidentiteit wordt uit elk rapport verwijderd voordat het verstuurd wordt, en er wordt geen persoonlijke informatie meegestuurd. Er worden geen advertentienetwerken, trackingbibliotheken of datahandelaren gebruikt.",
+      "sv": "Dear-appen anv&auml;nder fyra tredjepartstj&auml;nster. Apple StoreKit och Google Play Billing hanterar k&ouml;p i appen. RevenueCat hanterar k&ouml;pr&auml;ttigheter och tar emot de anonyma transaktionsposter som beskrivs ovan. TelemetryDeck (anonym anv&auml;ndningsanalys) tar emot de anonyma h&auml;ndelser som beskrivs ovan. Sentry tar emot kraschrapporter s&aring; att vi kan laga det som g&aring;r s&ouml;nder; anv&auml;ndaridentiteten tas bort ur varje rapport innan den skickas, och inga personuppgifter bifogas. Inga annonsn&auml;tverk, sp&aring;rningsbibliotek eller datam&auml;klare anv&auml;nds.",
+      "da": "Dear-appen bruger fire tredjepartstjenester. Apple StoreKit og Google Play Billing h&aring;ndterer k&oslash;b i appen. RevenueCat styrer k&oslash;bsrettigheder og modtager de anonyme transaktionsregistreringer beskrevet ovenfor. TelemetryDeck (anonym brugsanalyse) modtager de anonyme t&aelig;llinger beskrevet ovenfor. Sentry modtager nedbrudsrapporter, s&aring; vi kan reparere det, der g&aring;r i stykker; brugeridentiteten fjernes fra hver rapport, f&oslash;r den sendes, og der vedh&aelig;ftes ingen personoplysninger. Der bruges ingen annoncenetv&aelig;rk, sporingsbiblioteker eller datam&aelig;glere.",
+      "nb": "Dear-appen bruker fire tredjepartstjenester. Apple StoreKit og Google Play Billing h&aring;ndterer kj&oslash;p i appen. RevenueCat styrer kj&oslash;psrettigheter og mottar de anonyme transaksjonsregistreringene beskrevet ovenfor. TelemetryDeck (anonym bruksanalyse) mottar de anonyme tellingene beskrevet ovenfor. Sentry mottar krasjrapporter slik at vi kan reparere det som g&aring;r i stykker; brukeridentiteten fjernes fra hver rapport f&oslash;r den sendes, og ingen personopplysninger legges ved. Ingen annonsenettverk, sporingsbiblioteker eller datameglere brukes.",
+      "fi": "Dear-sovellus k&auml;ytt&auml;&auml; nelj&auml;&auml; kolmannen osapuolen palvelua. Apple StoreKit ja Google Play Billing k&auml;sittelev&auml;t sovelluksen sis&auml;iset ostot. RevenueCat hallinnoi osto-oikeuksia ja vastaanottaa edell&auml; kuvatut nimett&ouml;m&auml;t tapahtumatietueet. TelemetryDeck (nimet&ouml;n k&auml;ytt&ouml;analytiikka) vastaanottaa edell&auml; kuvatut nimett&ouml;m&auml;t laskurit. Sentry vastaanottaa kaatumisraportteja, jotta voimme korjata sen mik&auml; rikkoutuu; k&auml;ytt&auml;j&auml;n henkil&ouml;llisyys poistetaan jokaisesta raportista ennen l&auml;hetyst&auml;, eik&auml; mukaan liitet&auml; henkil&ouml;tietoja. Mainosverkkoja, seurantakirjastoja tai tiedonv&auml;litt&auml;ji&auml; ei k&auml;ytet&auml;.",
+      "it": "L'app Dear usa quattro servizi di terze parti. Apple StoreKit e Google Play Billing gestiscono gli acquisti in-app. RevenueCat gestisce i diritti d'acquisto e riceve i record anonimi di transazione descritti sopra. TelemetryDeck (analisi d'uso anonime) riceve i conteggi anonimi descritti sopra. Sentry riceve le segnalazioni di errore cos&igrave; possiamo riparare ci&ograve; che si rompe; l'identit&agrave; dell'utente viene rimossa da ogni segnalazione prima dell'invio e non viene allegata alcuna informazione personale. Non vengono usati network pubblicitari, librerie di tracciamento o data broker.",
+      "pt-BR": "O app Dear usa quatro servi&ccedil;os de terceiros. Apple StoreKit e Google Play Billing processam as compras no app. O RevenueCat gerencia os direitos de compra e recebe os registros an&ocirc;nimos de transa&ccedil;&atilde;o descritos acima. O TelemetryDeck (an&aacute;lise de uso an&ocirc;nima) recebe as contagens an&ocirc;nimas descritas acima. O Sentry recebe relat&oacute;rios de falhas para podermos consertar o que quebra; a identidade do usu&aacute;rio &eacute; removida de cada relat&oacute;rio antes do envio, e nenhuma informa&ccedil;&atilde;o pessoal &eacute; anexada. N&atilde;o usamos redes de publicidade, bibliotecas de rastreamento nem corretores de dados.",
+      "pl": "Aplikacja Dear korzysta z czterech us&lstrok;ug zewn&eogon;trznych. Apple StoreKit i Google Play Billing obs&lstrok;uguj&aogon; zakupy w aplikacji. RevenueCat zarz&aogon;dza uprawnieniami do zakup&oacute;w i otrzymuje opisane wy&zdot;ej anonimowe zapisy transakcji. TelemetryDeck (anonimowa analityka u&zdot;ycia) otrzymuje opisane wy&zdot;ej anonimowe liczniki. Sentry otrzymuje raporty b&lstrok;&eogon;d&oacute;w, aby&sacute;my mogli naprawia&cacute; to, co si&eogon; psuje; to&zdot;samo&sacute;&cacute; u&zdot;ytkownika jest usuwana z ka&zdot;dego raportu przed wys&lstrok;aniem i nie do&lstrok;&aogon;czamy &zdot;adnych danych osobowych. Nie korzystamy z sieci reklamowych, bibliotek &sacute;ledz&aogon;cych ani po&sacute;rednik&oacute;w danych.",
+      "tr": "Dear uygulamas&#305; d&ouml;rt &uuml;&ccedil;&uuml;nc&uuml; taraf hizmeti kullan&#305;r. Apple StoreKit ve Google Play Billing uygulama i&ccedil;i sat&#305;n al&#305;mlar&#305; i&scedil;ler. RevenueCat sat&#305;n alma haklar&#305;n&#305; y&ouml;netir ve yukar&#305;da anlat&#305;lan anonim i&scedil;lem kay&#305;tlar&#305;n&#305; al&#305;r. TelemetryDeck (anonim kullan&#305;m analizi) yukar&#305;da anlat&#305;lan anonim say&#305;mlar&#305; al&#305;r. Sentry, bozulan&#305; onarabilmemiz i&ccedil;in hata raporlar&#305; al&#305;r; kullan&#305;c&#305; kimli&#287;i g&ouml;nderilmeden &ouml;nce her rapordan &ccedil;&#305;kar&#305;l&#305;r ve hi&ccedil;bir ki&scedil;isel bilgi eklenmez. Hi&ccedil;bir reklam a&#287;&#305;, izleme k&uuml;t&uuml;phanesi veya veri arac&#305;s&#305; kullan&#305;lmaz."
     },
     "this_website_36f800": {
       "en": "This website",
@@ -2873,7 +3123,17 @@
       "ta": "இந்த இணையதளம்",
       "te": "ఈ వెబ్‌సైట్",
       "ar": "هذا الموقع",
-      "he": "האתר הזה"
+      "he": "האתר הזה",
+      "de": "Diese Website",
+      "nl": "Deze website",
+      "sv": "Den h&auml;r webbplatsen",
+      "da": "Dette websted",
+      "nb": "Dette nettstedet",
+      "fi": "T&auml;m&auml; sivusto",
+      "it": "Questo sito",
+      "pt-BR": "Este site",
+      "pl": "Ta strona",
+      "tr": "Bu web sitesi"
     },
     "this_policy_describes_the_dear_app_the_websi_ed6d0c": {
       "en": "This policy describes the Dear app. The website you are reading is separate, and it works differently. dearnudges.com has no accounts, no cookies, no analytics and no tracking scripts. It sets nothing in your browser and asks you for nothing.",
@@ -2896,7 +3156,17 @@
       "ta": "இந்தக் கொள்கை Dear செயலியைப் பற்றியது. நீங்கள் படிக்கும் இணையதளம் தனியானது, வேறுவிதமாக இயங்குகிறது. dearnudges.com-இல் கணக்குகள் இல்லை, குக்கீகள் இல்லை, பகுப்பாய்வு இல்லை, கண்காணிப்பு ஸ்கிரிப்ட்கள் இல்லை. அது உங்கள் உலாவியில் எதையும் வைப்பதில்லை, உங்களிடம் எதையும் கேட்பதில்லை.",
       "te": "ఈ విధానం Dear యాప్ గురించి. మీరు చదువుతున్న వెబ్‌సైట్ వేరు, అది వేరుగా పనిచేస్తుంది. dearnudges.com లో ఖాతాలు లేవు, కుకీలు లేవు, విశ్లేషణ లేదు, ట్రాకింగ్ స్క్రిప్ట్‌లు లేవు. అది మీ బ్రౌజర్‌లో ఏమీ ఉంచదు, మిమ్మల్ని ఏమీ అడగదు.",
       "ar": "تصف هذه السياسة تطبيق Dear. أما الموقع الذي تقرأه فمنفصل ويعمل بطريقة مختلفة. ليس في dearnudges.com حسابات ولا ملفات تعريف ارتباط ولا تحليلات ولا نصوص تتبع. ولا يضع شيئًا في متصفحك ولا يطلب منك شيئًا.",
-      "he": "המדיניות הזו מתארת את אפליקציית Dear. האתר שאתם קוראים נפרד ועובד אחרת. ל-dearnudges.com אין חשבונות, אין עוגיות, אין ניתוח ואין סקריפטי מעקב. הוא לא מניח כלום בדפדפן שלכם ולא מבקש מכם כלום."
+      "he": "המדיניות הזו מתארת את אפליקציית Dear. האתר שאתם קוראים נפרד ועובד אחרת. ל-dearnudges.com אין חשבונות, אין עוגיות, אין ניתוח ואין סקריפטי מעקב. הוא לא מניח כלום בדפדפן שלכם ולא מבקש מכם כלום.",
+      "de": "Diese Erkl&auml;rung beschreibt die Dear-App. Die Website, die du gerade liest, ist davon getrennt und funktioniert anders. dearnudges.com hat keine Konten, keine Cookies, keine Analyse und keine Tracking-Skripte. Sie setzt nichts in deinem Browser und fragt dich nach nichts.",
+      "nl": "Dit beleid beschrijft de Dear-app. De website die je nu leest staat daar los van en werkt anders. dearnudges.com heeft geen accounts, geen cookies, geen analyse en geen trackingscripts. De site zet niets in je browser en vraagt je niets.",
+      "sv": "Den h&auml;r policyn beskriver Dear-appen. Webbplatsen du l&auml;ser &auml;r separat och fungerar annorlunda. dearnudges.com har inga konton, inga kakor, ingen analys och inga sp&aring;rningsskript. Den s&auml;tter ingenting i din webbl&auml;sare och ber dig inte om n&aring;got.",
+      "da": "Denne politik beskriver Dear-appen. Webstedet, du l&aelig;ser, er adskilt og fungerer anderledes. dearnudges.com har ingen konti, ingen cookies, ingen analyse og ingen sporingsscripts. Det s&aelig;tter intet i din browser og beder dig ikke om noget.",
+      "nb": "Denne erkl&aelig;ringen beskriver Dear-appen. Nettstedet du leser, er atskilt og fungerer annerledes. dearnudges.com har ingen kontoer, ingen informasjonskapsler, ingen analyse og ingen sporingsskript. Det setter ingenting i nettleseren din og ber deg ikke om noe.",
+      "fi": "T&auml;m&auml; seloste koskee Dear-sovellusta. Sivusto, jota luet, on erillinen ja toimii eri tavalla. dearnudges.com-sivustolla ei ole tilej&auml;, ev&auml;steit&auml;, analytiikkaa eik&auml; seurantaskriptej&auml;. Se ei aseta mit&auml;&auml;n selaimeesi eik&auml; kysy sinulta mit&auml;&auml;n.",
+      "it": "Questa informativa riguarda l'app Dear. Il sito che stai leggendo &egrave; separato e funziona diversamente. dearnudges.com non ha account, cookie, analisi n&eacute; script di tracciamento. Non imposta nulla nel tuo browser e non ti chiede nulla.",
+      "pt-BR": "Esta pol&iacute;tica descreve o app Dear. O site que voc&ecirc; est&aacute; lendo &eacute; separado e funciona de outro jeito. O dearnudges.com n&atilde;o tem contas, cookies, an&aacute;lises nem scripts de rastreamento. Ele n&atilde;o guarda nada no seu navegador e n&atilde;o pede nada a voc&ecirc;.",
+      "pl": "Ta polityka opisuje aplikacj&eogon; Dear. Strona, kt&oacute;r&aogon; czytasz, jest osobna i dzia&lstrok;a inaczej. dearnudges.com nie ma kont, ciasteczek, analityki ani skrypt&oacute;w &sacute;ledz&aogon;cych. Niczego nie zapisuje w twojej przegl&aogon;darce i o nic ci&eogon; nie pyta.",
+      "tr": "Bu politika Dear uygulamas&#305;n&#305; anlat&#305;r. Okudu&#287;un web sitesi ayr&#305;d&#305;r ve farkl&#305; &ccedil;al&#305;&scedil;&#305;r. dearnudges.com'da hesap, &ccedil;erez, analiz veya izleme betikleri yoktur. Taray&#305;c&#305;na hi&ccedil;bir &scedil;ey yazmaz ve senden hi&ccedil;bir &scedil;ey istemez."
     },
     "two_companies_do_see_your_visit_because_they_48616d": {
       "en": "Two companies do see your visit, because they deliver the site: GitHub hosts the files, and Cloudflare serves them and handles security. Like any web host, both receive your IP address and browser details in their server logs. We do not control those logs and we do not read them. Fonts are served from this domain rather than a font provider, so no third party is contacted to display this page.",
@@ -2919,7 +3189,17 @@
       "ta": "இரு நிறுவனங்கள் உங்கள் வருகையைப் பார்க்கின்றன, ஏனெனில் அவைதான் தளத்தை வழங்குகின்றன: GitHub கோப்புகளை வைத்திருக்கிறது, Cloudflare அவற்றை அனுப்பி பாதுகாப்பைக் கவனிக்கிறது. எந்த வலை ஹோஸ்டையும் போலவே, இரண்டும் தங்கள் சேவையகப் பதிவுகளில் உங்கள் IP முகவரியையும் உலாவி விவரங்களையும் பெறுகின்றன. அந்தப் பதிவுகளை நாங்கள் நிர்வகிப்பதில்லை, படிப்பதுமில்லை. எழுத்துருக்கள் எழுத்துரு வழங்குநரிடமிருந்து அல்ல, இந்த டொமைனிலிருந்தே வருகின்றன, எனவே இந்தப் பக்கத்தைக் காட்ட எந்த மூன்றாம் தரப்பையும் தொடர்பு கொள்வதில்லை.",
       "te": "రెండు కంపెనీలు మీ రాకను చూస్తాయి, ఎందుకంటే సైట్‌ను అవే అందిస్తాయి: GitHub ఫైళ్లను ఉంచుతుంది, Cloudflare వాటిని పంపి భద్రతను చూస్తుంది. ఏ వెబ్ హోస్ట్ లాగే, రెండూ తమ సర్వర్ లాగ్‌లలో మీ IP చిరునామా, బ్రౌజర్ వివరాలను పొందుతాయి. ఆ లాగ్‌లను మేము నడపం, చదవం. ఫాంట్లు ఫాంట్ సరఫరాదారు నుంచి కాక ఈ డొమైన్ నుంచే వస్తాయి, కాబట్టి ఈ పేజీ చూపడానికి ఏ మూడో పక్షాన్నీ సంప్రదించం.",
       "ar": "هناك شركتان تريان زيارتك، لأنهما من يوصل الموقع: تستضيف GitHub الملفات، وتوصلها Cloudflare وتتولى الأمان. ومثل أي مستضيف ويب، تتلقى كلتاهما عنوان IP وتفاصيل متصفحك في سجلات خوادمها. ونحن لا ندير تلك السجلات ولا نقرأها. وتُقدَّم الخطوط من هذا النطاق نفسه لا من مزود خطوط، فلا يُتصل بأي طرف ثالث لعرض هذه الصفحة.",
-      "he": "שתי חברות כן רואות את הביקור שלכם, כי הן אלה שמספקות את האתר: GitHub מאחסנת את הקבצים, ו-Cloudflare מגישה אותם ומטפלת באבטחה. כמו כל ספק אחסון, שתיהן מקבלות את כתובת ה-IP ופרטי הדפדפן שלכם ביומני השרת. אנחנו לא מנהלים את היומנים האלה ולא קוראים אותם. הגופנים מוגשים מהדומיין הזה ולא מספק גופנים, כך שאף צד שלישי לא נדרש כדי להציג את הדף."
+      "he": "שתי חברות כן רואות את הביקור שלכם, כי הן אלה שמספקות את האתר: GitHub מאחסנת את הקבצים, ו-Cloudflare מגישה אותם ומטפלת באבטחה. כמו כל ספק אחסון, שתיהן מקבלות את כתובת ה-IP ופרטי הדפדפן שלכם ביומני השרת. אנחנו לא מנהלים את היומנים האלה ולא קוראים אותם. הגופנים מוגשים מהדומיין הזה ולא מספק גופנים, כך שאף צד שלישי לא נדרש כדי להציג את הדף.",
+      "de": "Zwei Unternehmen sehen deinen Besuch, weil sie die Seite ausliefern: GitHub hostet die Dateien, und Cloudflare liefert sie aus und &uuml;bernimmt die Sicherheit. Wie jeder Webhoster erhalten beide deine IP-Adresse und Browserdetails in ihren Serverprotokollen. Wir kontrollieren diese Protokolle nicht und wir lesen sie nicht. Schriften werden von dieser Domain ausgeliefert und nicht von einem Schriftanbieter, sodass f&uuml;r die Anzeige dieser Seite kein Dritter kontaktiert wird.",
+      "nl": "Twee bedrijven zien je bezoek wel, omdat zij de site afleveren: GitHub host de bestanden, en Cloudflare levert ze uit en regelt de beveiliging. Zoals bij elke webhost ontvangen beide je IP-adres en browsergegevens in hun serverlogs. Wij beheren die logs niet en we lezen ze niet. Lettertypen worden vanaf dit domein geleverd en niet door een lettertypedienst, dus er wordt geen derde partij benaderd om deze pagina te tonen.",
+      "sv": "Tv&aring; f&ouml;retag ser ditt bes&ouml;k, eftersom de levererar webbplatsen: GitHub lagrar filerna, och Cloudflare levererar dem och sk&ouml;ter s&auml;kerheten. Som hos varje webbv&auml;rd f&aring;r b&aring;da din IP-adress och webbl&auml;sardetaljer i sina serverloggar. Vi styr inte de loggarna och vi l&auml;ser dem inte. Typsnitt levereras fr&aring;n den h&auml;r dom&auml;nen i st&auml;llet f&ouml;r fr&aring;n en typsnittsleverant&ouml;r, s&aring; ingen tredje part kontaktas f&ouml;r att visa sidan.",
+      "da": "To virksomheder ser dit bes&oslash;g, fordi de leverer webstedet: GitHub hoster filerne, og Cloudflare leverer dem og st&aring;r for sikkerheden. Som hos enhver webhost modtager begge din IP-adresse og browseroplysninger i deres serverlogfiler. Vi kontrollerer ikke de logfiler, og vi l&aelig;ser dem ikke. Skrifttyper leveres fra dette dom&aelig;ne i stedet for fra en skrifttypeudbyder, s&aring; ingen tredjepart kontaktes for at vise denne side.",
+      "nb": "To selskaper ser bes&oslash;ket ditt, fordi de leverer nettstedet: GitHub lagrer filene, og Cloudflare leverer dem og st&aring;r for sikkerheten. Som hos enhver nettvert mottar begge IP-adressen din og nettleserdetaljer i serverloggene sine. Vi kontrollerer ikke de loggene, og vi leser dem ikke. Skrifter leveres fra dette domenet i stedet for fra en skriftleverand&oslash;r, s&aring; ingen tredjepart kontaktes for &aring; vise denne siden.",
+      "fi": "Kaksi yhti&ouml;t&auml; n&auml;kee vierailusi, koska ne toimittavat sivuston: GitHub yll&auml;pit&auml;&auml; tiedostoja, ja Cloudflare toimittaa ne ja hoitaa tietoturvan. Kuten mill&auml; tahansa verkkopalvelimella, molemmat saavat IP-osoitteesi ja selaintietosi lokeihinsa. Emme hallitse noita lokeja emmek&auml; lue niit&auml;. Kirjasimet toimitetaan t&auml;lt&auml; verkkotunnukselta eik&auml; kirjasinpalvelusta, joten t&auml;m&auml;n sivun n&auml;ytt&auml;miseen ei oteta yhteytt&auml; kolmanteen osapuoleen.",
+      "it": "Due aziende vedono la tua visita, perch&eacute; consegnano il sito: GitHub ospita i file e Cloudflare li distribuisce e si occupa della sicurezza. Come qualsiasi host web, entrambe ricevono il tuo indirizzo IP e i dettagli del browser nei loro log del server. Non controlliamo quei log e non li leggiamo. I caratteri sono serviti da questo dominio e non da un fornitore di font, quindi nessuna terza parte viene contattata per mostrare questa pagina.",
+      "pt-BR": "Duas empresas veem sua visita, porque entregam o site: o GitHub hospeda os arquivos e a Cloudflare os distribui e cuida da seguran&ccedil;a. Como em qualquer hospedagem, ambas recebem seu endere&ccedil;o IP e detalhes do navegador nos registros de servidor delas. N&oacute;s n&atilde;o controlamos esses registros e n&atilde;o os lemos. As fontes s&atilde;o servidas por este dom&iacute;nio, e n&atilde;o por um provedor de fontes, ent&atilde;o nenhum terceiro &eacute; contatado para exibir esta p&aacute;gina.",
+      "pl": "Dwie firmy widz&aogon; twoj&aogon; wizyt&eogon;, poniewa&zdot; dostarczaj&aogon; stron&eogon;: GitHub przechowuje pliki, a Cloudflare je serwuje i odpowiada za bezpiecze&nacute;stwo. Jak ka&zdot;dy hosting, obie otrzymuj&aogon; tw&oacute;j adres IP i dane przegl&aogon;darki w swoich logach serwera. Nie kontrolujemy tych log&oacute;w i ich nie czytamy. Kroje pisma s&aogon; serwowane z tej domeny, a nie od dostawcy font&oacute;w, wi&eogon;c do wy&sacute;wietlenia tej strony nie jest kontaktowany &zdot;aden podmiot zewn&eogon;trzny.",
+      "tr": "&#304;ki &scedil;irket ziyaretini g&ouml;r&uuml;r, &ccedil;&uuml;nk&uuml; siteyi onlar sunar: GitHub dosyalar&#305; bar&#305;nd&#305;r&#305;r, Cloudflare da onlar&#305; da&#287;&#305;t&#305;r ve g&uuml;venli&#287;i sa&#287;lar. Her web bar&#305;nd&#305;r&#305;c&#305;da oldu&#287;u gibi ikisi de sunucu kay&#305;tlar&#305;nda IP adresini ve taray&#305;c&#305; ayr&#305;nt&#305;lar&#305;n&#305; al&#305;r. O kay&#305;tlar&#305; biz y&ouml;netmiyoruz ve okumuyoruz. Yaz&#305; tipleri bir yaz&#305; tipi sa&#287;lay&#305;c&#305;s&#305;ndan de&#287;il bu alan ad&#305;ndan sunulur, b&ouml;ylece bu sayfay&#305; g&ouml;stermek i&ccedil;in hi&ccedil;bir &uuml;&ccedil;&uuml;nc&uuml; tarafa ba&#287;lan&#305;lmaz."
     },
     "data_sharing_f0155c": {
       "en": "Data sharing",
@@ -2942,7 +3222,17 @@
       "ta": "தரவுப் பகிர்வு",
       "te": "డేటా పంచుకోవడం",
       "ar": "مشاركة البيانات",
-      "he": "שיתוף נתונים"
+      "he": "שיתוף נתונים",
+      "de": "Weitergabe von Daten",
+      "nl": "Gegevens delen",
+      "sv": "Delning av uppgifter",
+      "da": "Deling af data",
+      "nb": "Deling av data",
+      "fi": "Tietojen jakaminen",
+      "it": "Condivisione dei dati",
+      "pt-BR": "Compartilhamento de dados",
+      "pl": "Udost&eogon;pnianie danych",
+      "tr": "Veri payla&scedil;&#305;m&#305;"
     },
     "we_do_not_sell_rent_or_share_your_data_the_a_4672a8": {
       "en": "We do not sell, rent, or share your data. The anonymous usage counts sent to TelemetryDeck are not linked to you personally and are not shared with any advertising network or data broker. TelemetryDeck's own privacy policy governs how they process these counts on their infrastructure.",
@@ -2965,7 +3255,17 @@
       "ta": "உங்கள் தரவை நாங்கள் விற்பதில்லை, வாடகைக்கு விடுவதில்லை, பகிர்வதில்லை. TelemetryDeck-க்கு அனுப்பப்படும் பெயரில்லாத எண்ணிக்கை உங்களுடன் தனிப்பட்ட முறையில் இணைக்கப்படவில்லை, எந்த விளம்பர வலையமைப்புடனும் தரவு தரகருடனும் பகிரப்படுவதில்லை. TelemetryDeck தன் கட்டமைப்பில் இவற்றை எப்படிக் கையாள்கிறது என்பதை அதன் சொந்தத் தனியுரிமைக் கொள்கையே தீர்மானிக்கிறது.",
       "te": "మేము మీ డేటాను అమ్మం, అద్దెకు ఇవ్వం, పంచుకోం. TelemetryDeck కు పంపే పేరు లేని లెక్కలు మీతో వ్యక్తిగతంగా ముడిపడి ఉండవు, ఏ ప్రకటన నెట్‌వర్క్‌తో లేదా డేటా బ్రోకర్‌తో పంచుకోబడవు. TelemetryDeck తన మౌలిక వసతిలో వీటిని ఎలా నిర్వహిస్తుందో దాని సొంత గోప్యతా విధానమే నిర్ణయిస్తుంది.",
       "ar": "لا نبيع بياناتك ولا نؤجرها ولا نشاركها. وأعداد الاستخدام بلا هوية المرسلة إلى TelemetryDeck غير مرتبطة بك شخصيًا ولا تُشارك مع أي شبكة إعلانية أو وسيط بيانات. وتحكم سياسة خصوصية TelemetryDeck نفسها كيفية معالجتها لهذه الأعداد على بنيتها التحتية.",
-      "he": "אנחנו לא מוכרים, לא משכירים ולא משתפים את הנתונים שלכם. ספירות השימוש בלי שם שנשלחות ל-TelemetryDeck אינן מקושרות אליכם אישית ואינן משותפות עם שום רשת פרסום או סוחר נתונים. מדיניות הפרטיות של TelemetryDeck עצמה קובעת איך הם מעבדים אותן בתשתית שלהם."
+      "he": "אנחנו לא מוכרים, לא משכירים ולא משתפים את הנתונים שלכם. ספירות השימוש בלי שם שנשלחות ל-TelemetryDeck אינן מקושרות אליכם אישית ואינן משותפות עם שום רשת פרסום או סוחר נתונים. מדיניות הפרטיות של TelemetryDeck עצמה קובעת איך הם מעבדים אותן בתשתית שלהם.",
+      "de": "Wir verkaufen, vermieten oder teilen deine Daten nicht. Die anonymen Nutzungsz&auml;hlungen, die an TelemetryDeck gehen, sind nicht mit dir verkn&uuml;pft und werden an kein Werbenetzwerk und keinen Datenh&auml;ndler weitergegeben. Wie TelemetryDeck diese Z&auml;hlungen auf seiner Infrastruktur verarbeitet, regelt die eigene Datenschutzerkl&auml;rung von TelemetryDeck.",
+      "nl": "We verkopen, verhuren of delen je gegevens niet. De anonieme gebruikstellingen die naar TelemetryDeck gaan zijn niet aan jou gekoppeld en worden met geen enkel advertentienetwerk of datahandelaar gedeeld. Hoe TelemetryDeck die tellingen op zijn infrastructuur verwerkt, valt onder het eigen privacybeleid van TelemetryDeck.",
+      "sv": "Vi s&auml;ljer, hyr ut eller delar inte dina uppgifter. De anonyma anv&auml;ndningsr&auml;kningar som skickas till TelemetryDeck &auml;r inte kopplade till dig personligen och delas inte med n&aring;got annonsn&auml;tverk eller n&aring;gon datam&auml;klare. Hur TelemetryDeck behandlar dem i sin infrastruktur styrs av TelemetryDecks egen integritetspolicy.",
+      "da": "Vi s&aelig;lger, udlejer eller deler ikke dine data. De anonyme brugst&aelig;llinger, der sendes til TelemetryDeck, er ikke knyttet til dig personligt og deles ikke med noget annoncenetv&aelig;rk eller nogen datam&aelig;gler. Hvordan TelemetryDeck behandler dem p&aring; sin infrastruktur, styres af TelemetryDecks egen privatlivspolitik.",
+      "nb": "Vi selger, leier ut eller deler ikke dataene dine. De anonyme brukstellingene som sendes til TelemetryDeck, er ikke knyttet til deg personlig og deles ikke med noe annonsenettverk eller noen datamegler. Hvordan TelemetryDeck behandler dem p&aring; sin infrastruktur, styres av TelemetryDecks egen personvernerkl&aelig;ring.",
+      "fi": "Emme myy, vuokraa emmek&auml; jaa tietojasi. TelemetryDeckille l&auml;hetett&auml;v&auml;t nimett&ouml;m&auml;t k&auml;ytt&ouml;laskurit eiv&auml;t ole sidottu sinuun henkil&ouml;kohtaisesti, eik&auml; niit&auml; jaeta mihink&auml;&auml;n mainosverkkoon tai tiedonv&auml;litt&auml;j&auml;lle. TelemetryDeckin oma tietosuojaseloste m&auml;&auml;rittelee, miten se k&auml;sittelee niit&auml; omassa infrastruktuurissaan.",
+      "it": "Non vendiamo, noleggiamo n&eacute; condividiamo i tuoi dati. I conteggi d'uso anonimi inviati a TelemetryDeck non sono collegati a te personalmente e non sono condivisi con alcun network pubblicitario o data broker. Il modo in cui TelemetryDeck li tratta sulla propria infrastruttura &egrave; regolato dalla sua informativa sulla privacy.",
+      "pt-BR": "N&atilde;o vendemos, alugamos nem compartilhamos seus dados. As contagens de uso an&ocirc;nimas enviadas ao TelemetryDeck n&atilde;o est&atilde;o ligadas a voc&ecirc; pessoalmente e n&atilde;o s&atilde;o compartilhadas com nenhuma rede de publicidade ou corretor de dados. A forma como o TelemetryDeck as processa na infraestrutura dele &eacute; regida pela pr&oacute;pria pol&iacute;tica de privacidade do TelemetryDeck.",
+      "pl": "Nie sprzedajemy, nie wynajmujemy ani nie udost&eogon;pniamy twoich danych. Anonimowe liczniki u&zdot;ycia wysy&lstrok;ane do TelemetryDeck nie s&aogon; powi&aogon;zane z tob&aogon; osobi&sacute;cie i nie s&aogon; udost&eogon;pniane &zdot;adnej sieci reklamowej ani po&sacute;rednikowi danych. Spos&oacute;b, w jaki TelemetryDeck przetwarza je w swojej infrastrukturze, reguluje w&lstrok;asna polityka prywatno&sacute;ci TelemetryDeck.",
+      "tr": "Verilerini satm&#305;yor, kiralam&#305;yor veya payla&scedil;m&#305;yoruz. TelemetryDeck'e g&ouml;nderilen anonim kullan&#305;m say&#305;mlar&#305; ki&scedil;isel olarak sana ba&#287;l&#305; de&#287;ildir ve hi&ccedil;bir reklam a&#287;&#305; veya veri arac&#305;s&#305;yla payla&scedil;&#305;lmaz. TelemetryDeck'in bunlar&#305; kendi altyap&#305;s&#305;nda nas&#305;l i&scedil;ledi&#287;ini kendi gizlilik politikas&#305; belirler."
     },
     "children_s_privacy_eb4d03": {
       "en": "Children's privacy",
@@ -2988,7 +3288,17 @@
       "ta": "குழந்தைகளின் தனியுரிமை",
       "te": "పిల్లల గోప్యత",
       "ar": "خصوصية الأطفال",
-      "he": "פרטיות ילדים"
+      "he": "פרטיות ילדים",
+      "de": "Privatsph&auml;re von Kindern",
+      "nl": "Privacy van kinderen",
+      "sv": "Barns integritet",
+      "da": "B&oslash;rns privatliv",
+      "nb": "Barns personvern",
+      "fi": "Lasten yksityisyys",
+      "it": "Privacy dei minori",
+      "pt-BR": "Privacidade das crian&ccedil;as",
+      "pl": "Prywatno&sacute;&cacute; dzieci",
+      "tr": "&Ccedil;ocuklar&#305;n gizlili&#287;i"
     },
     "dear_does_not_knowingly_collect_any_personal_87069f": {
       "en": "Dear does not knowingly collect any personal information from children under the age of 13. The anonymous usage counts we collect through TelemetryDeck contain no personal data and cannot identify any individual user, including children.",
@@ -3011,7 +3321,17 @@
       "ta": "13 வயதுக்குட்பட்ட குழந்தைகளிடமிருந்து Dear அறிந்தே எந்தத் தனிப்பட்ட தகவலையும் சேகரிப்பதில்லை. TelemetryDeck மூலம் சேகரிக்கும் பெயரில்லாத எண்ணிக்கையில் தனிப்பட்ட தரவு இல்லை, குழந்தைகள் உட்பட எந்தப் பயனரையும் அடையாளம் காண முடியாது.",
       "te": "13 ఏళ్ల లోపు పిల్లల నుంచి Dear తెలిసి ఏ వ్యక్తిగత సమాచారాన్నీ సేకరించదు. TelemetryDeck ద్వారా సేకరించే పేరు లేని లెక్కల్లో వ్యక్తిగత డేటా ఉండదు, పిల్లలతో సహా ఏ వాడుకరినీ గుర్తించలేం.",
       "ar": "لا يجمع Dear عن قصد أي معلومات شخصية من أطفال دون سن 13. وأعداد الاستخدام بلا هوية التي نجمعها عبر TelemetryDeck لا تتضمن بيانات شخصية ولا يمكن أن تعرّف بأي مستخدم، بمن فيهم الأطفال.",
-      "he": "Dear לא אוסף ביודעין מידע אישי מילדים מתחת לגיל 13. בספירות השימוש בלי שם שאנחנו אוספים דרך TelemetryDeck אין מידע אישי ואי אפשר לזהות בהן אף משתמש, כולל ילדים."
+      "he": "Dear לא אוסף ביודעין מידע אישי מילדים מתחת לגיל 13. בספירות השימוש בלי שם שאנחנו אוספים דרך TelemetryDeck אין מידע אישי ואי אפשר לזהות בהן אף משתמש, כולל ילדים.",
+      "de": "Dear erhebt wissentlich keine pers&ouml;nlichen Daten von Kindern unter 13 Jahren. Die anonymen Nutzungsz&auml;hlungen, die wir &uuml;ber TelemetryDeck erfassen, enthalten keine personenbezogenen Daten und k&ouml;nnen keine einzelne Person identifizieren, auch keine Kinder.",
+      "nl": "Dear verzamelt niet bewust persoonlijke gegevens van kinderen onder de 13 jaar. De anonieme gebruikstellingen die we via TelemetryDeck verzamelen bevatten geen persoonsgegevens en kunnen geen individuele gebruiker identificeren, ook geen kinderen.",
+      "sv": "Dear samlar inte medvetet in personuppgifter fr&aring;n barn under 13 &aring;r. De anonyma anv&auml;ndningsr&auml;kningar vi samlar in via TelemetryDeck inneh&aring;ller inga personuppgifter och kan inte identifiera n&aring;gon enskild anv&auml;ndare, inte heller barn.",
+      "da": "Dear indsamler ikke bevidst personoplysninger fra b&oslash;rn under 13 &aring;r. De anonyme brugst&aelig;llinger, vi indsamler via TelemetryDeck, indeholder ingen personoplysninger og kan ikke identificere nogen enkelt bruger, heller ikke b&oslash;rn.",
+      "nb": "Dear samler ikke bevisst inn personopplysninger fra barn under 13 &aring;r. De anonyme brukstellingene vi samler inn via TelemetryDeck, inneholder ingen personopplysninger og kan ikke identifisere noen enkelt bruker, heller ikke barn.",
+      "fi": "Dear ei ker&auml;&auml; tietoisesti henkil&ouml;tietoja alle 13-vuotiailta lapsilta. TelemetryDeckin kautta ker&auml;&auml;m&auml;mme nimett&ouml;m&auml;t k&auml;ytt&ouml;laskurit eiv&auml;t sis&auml;ll&auml; henkil&ouml;tietoja eiv&auml;tk&auml; voi tunnistaa yksitt&auml;ist&auml; k&auml;ytt&auml;j&auml;&auml;, my&ouml;sk&auml;&auml;n lasta.",
+      "it": "Dear non raccoglie consapevolmente informazioni personali da bambini sotto i 13 anni. I conteggi d'uso anonimi che raccogliamo tramite TelemetryDeck non contengono dati personali e non possono identificare alcun utente, bambini compresi.",
+      "pt-BR": "O Dear n&atilde;o coleta intencionalmente informa&ccedil;&otilde;es pessoais de crian&ccedil;as menores de 13 anos. As contagens de uso an&ocirc;nimas que coletamos pelo TelemetryDeck n&atilde;o cont&ecirc;m dados pessoais e n&atilde;o conseguem identificar nenhum usu&aacute;rio, incluindo crian&ccedil;as.",
+      "pl": "Dear nie zbiera &sacute;wiadomie danych osobowych od dzieci poni&zdot;ej 13. roku &zdot;ycia. Anonimowe liczniki u&zdot;ycia, kt&oacute;re zbieramy przez TelemetryDeck, nie zawieraj&aogon; danych osobowych i nie pozwalaj&aogon; zidentyfikowa&cacute; &zdot;adnego u&zdot;ytkownika, w tym dzieci.",
+      "tr": "Dear, 13 ya&scedil;&#305;ndan k&uuml;&ccedil;&uuml;k &ccedil;ocuklardan bilerek ki&scedil;isel bilgi toplamaz. TelemetryDeck &uuml;zerinden toplad&#305;&#287;&#305;m&#305;z anonim kullan&#305;m say&#305;mlar&#305; ki&scedil;isel veri i&ccedil;ermez ve &ccedil;ocuklar dahil hi&ccedil;bir kullan&#305;c&#305;y&#305; tan&#305;mlayamaz."
     },
     "dear_friend_7e1005": {
       "en": "Dear Friend",
@@ -3034,7 +3354,17 @@
       "ta": "Dear Friend",
       "te": "Dear Friend",
       "ar": "Dear Friend",
-      "he": "Dear Friend"
+      "he": "Dear Friend",
+      "de": "Dear Friend",
+      "nl": "Dear Friend",
+      "sv": "Dear Friend",
+      "da": "Dear Friend",
+      "nb": "Dear Friend",
+      "fi": "Dear Friend",
+      "it": "Dear Friend",
+      "pt-BR": "Dear Friend",
+      "pl": "Dear Friend",
+      "tr": "Dear Friend"
     },
     "if_you_choose_to_become_a_dear_friend_a_patr_d6ba58": {
       "en": "If you choose to become a Dear Friend (a patron tier within Dear), you may optionally share information with Elsewhere Index through email. This is entirely voluntary and happens outside the app.",
@@ -3057,7 +3387,17 @@
       "ta": "நீங்கள் Dear Friend ஆக விரும்பினால் (Dear-க்குள் ஆதரவாளர் நிலை), விரும்பினால் மின்னஞ்சல் வழியாக Elsewhere Index-உடன் தகவலைப் பகிரலாம். இது முற்றிலும் விருப்பமானது, செயலிக்கு வெளியே நடக்கிறது.",
       "te": "మీరు Dear Friend కావాలనుకుంటే (Dear లోపల పోషకుల స్థాయి), కోరుకుంటే ఇమెయిల్ ద్వారా Elsewhere Index తో సమాచారం పంచుకోవచ్చు. ఇది పూర్తిగా ఇష్టపూర్వకం, యాప్ బయట జరుగుతుంది.",
       "ar": "إن اخترت أن تصبح Dear Friend (مستوى الداعمين داخل Dear)، فيمكنك اختياريًا مشاركة معلومات مع Elsewhere Index عبر البريد. وهذا تطوعي تمامًا ويحدث خارج التطبيق.",
-      "he": "אם תבחרו להיות Dear Friend (דרגת תמיכה בתוך Dear), תוכלו לבחור לשתף מידע עם Elsewhere Index באימייל. זה לגמרי בהתנדבות וקורה מחוץ לאפליקציה."
+      "he": "אם תבחרו להיות Dear Friend (דרגת תמיכה בתוך Dear), תוכלו לבחור לשתף מידע עם Elsewhere Index באימייל. זה לגמרי בהתנדבות וקורה מחוץ לאפליקציה.",
+      "de": "Wenn du Dear Friend wirst (eine F&ouml;rderstufe innerhalb von Dear), kannst du optional Informationen per E-Mail mit Elsewhere Index teilen. Das ist v&ouml;llig freiwillig und geschieht au&szlig;erhalb der App.",
+      "nl": "Als je Dear Friend wordt (een donateursniveau binnen Dear), kun je optioneel informatie per e-mail met Elsewhere Index delen. Dat is volledig vrijwillig en gebeurt buiten de app.",
+      "sv": "Om du v&auml;ljer att bli Dear Friend (en st&ouml;dniv&aring; inom Dear) kan du frivilligt dela information med Elsewhere Index via e-post. Det &auml;r helt frivilligt och sker utanf&ouml;r appen.",
+      "da": "V&aelig;lger du at blive Dear Friend (et st&oslash;tteniveau i Dear), kan du frivilligt dele oplysninger med Elsewhere Index via e-mail. Det er helt frivilligt og sker uden for appen.",
+      "nb": "Velger du &aring; bli Dear Friend (et st&oslash;tteniv&aring; i Dear), kan du frivillig dele opplysninger med Elsewhere Index via e-post. Det er helt frivillig og skjer utenfor appen.",
+      "fi": "Jos p&auml;&auml;t&auml;t ryhty&auml; Dear Friendiksi (Dearin sis&auml;inen tukijataso), voit halutessasi jakaa tietoja Elsewhere Indexin kanssa s&auml;hk&ouml;postitse. T&auml;m&auml; on t&auml;ysin vapaaehtoista ja tapahtuu sovelluksen ulkopuolella.",
+      "it": "Se scegli di diventare Dear Friend (un livello di sostegno all'interno di Dear), puoi facoltativamente condividere informazioni con Elsewhere Index via email. &Egrave; del tutto volontario e avviene fuori dall'app.",
+      "pt-BR": "Se voc&ecirc; escolher se tornar um Dear Friend (um n&iacute;vel de apoio dentro do Dear), pode opcionalmente compartilhar informa&ccedil;&otilde;es com a Elsewhere Index por e-mail. Isso &eacute; totalmente volunt&aacute;rio e acontece fora do app.",
+      "pl": "Je&sacute;li zdecydujesz si&eogon; zosta&cacute; Dear Friend (poziom wsparcia wewn&aogon;trz Dear), mo&zdot;esz opcjonalnie podzieli&cacute; si&eogon; informacjami z Elsewhere Index przez e-mail. Jest to ca&lstrok;kowicie dobrowolne i odbywa si&eogon; poza aplikacj&aogon;.",
+      "tr": "Dear Friend olmay&#305; se&ccedil;ersen (Dear i&ccedil;inde bir destek&ccedil;i seviyesi), Elsewhere Index ile e-posta yoluyla iste&#287;e ba&#287;l&#305; bilgi payla&scedil;abilirsin. Bu tamamen g&ouml;n&uuml;ll&uuml;d&uuml;r ve uygulaman&#305;n d&#305;&scedil;&#305;nda ger&ccedil;ekle&scedil;ir."
     },
     "the_dear_friend_post_purchase_screen_may_hel_55ed35": {
       "en": "The Dear Friend post-purchase screen may help you compose an email to Elsewhere Index. This email may include:",
@@ -3080,7 +3420,17 @@
       "ta": "Dear Friend வாங்கிய பிறகு வரும் திரை, Elsewhere Index-க்கு ஒரு மின்னஞ்சல் எழுத உதவலாம். இந்த மின்னஞ்சலில் இருக்கக்கூடியவை:",
       "te": "Dear Friend కొన్న తర్వాతి తెర Elsewhere Index కు ఇమెయిల్ రాయడంలో సాయపడవచ్చు. ఈ ఇమెయిల్‌లో ఇవి ఉండవచ్చు:",
       "ar": "قد تساعدك شاشة ما بعد شراء Dear Friend في كتابة رسالة إلى Elsewhere Index. وقد تتضمن هذه الرسالة:",
-      "he": "המסך שאחרי רכישת Dear Friend יכול לעזור לכם לנסח אימייל ל-Elsewhere Index. האימייל הזה עשוי לכלול:"
+      "he": "המסך שאחרי רכישת Dear Friend יכול לעזור לכם לנסח אימייל ל-Elsewhere Index. האימייל הזה עשוי לכלול:",
+      "de": "Der Bildschirm nach dem Kauf von Dear Friend kann dir helfen, eine E-Mail an Elsewhere Index zu verfassen. Diese E-Mail kann enthalten:",
+      "nl": "Het scherm na aankoop van Dear Friend kan je helpen een e-mail aan Elsewhere Index op te stellen. Die e-mail kan bevatten:",
+      "sv": "Sk&auml;rmen efter k&ouml;p av Dear Friend kan hj&auml;lpa dig att skriva ett mejl till Elsewhere Index. Mejlet kan inneh&aring;lla:",
+      "da": "Sk&aelig;rmen efter k&oslash;b af Dear Friend kan hj&aelig;lpe dig med at skrive en e-mail til Elsewhere Index. Den e-mail kan indeholde:",
+      "nb": "Sk&aelig;rmen etter kj&oslash;p av Dear Friend kan hjelpe deg med &aring; skrive en e-post til Elsewhere Index. Den e-posten kan inneholde:",
+      "fi": "Dear Friend -oston j&auml;lkeinen n&auml;ytt&ouml; voi auttaa sinua kirjoittamaan s&auml;hk&ouml;postin Elsewhere Indexille. T&auml;m&auml; s&auml;hk&ouml;posti voi sis&auml;lt&auml;&auml;:",
+      "it": "La schermata successiva all'acquisto di Dear Friend pu&ograve; aiutarti a scrivere un'email a Elsewhere Index. Quell'email pu&ograve; includere:",
+      "pt-BR": "A tela ap&oacute;s a compra do Dear Friend pode ajudar voc&ecirc; a escrever um e-mail para a Elsewhere Index. Esse e-mail pode incluir:",
+      "pl": "Ekran po zakupie Dear Friend mo&zdot;e pom&oacute;c ci napisa&cacute; e-mail do Elsewhere Index. Taki e-mail mo&zdot;e zawiera&cacute;:",
+      "tr": "Dear Friend sat&#305;n al&#305;m&#305; sonras&#305; ekran&#305;, Elsewhere Index'e bir e-posta yazman&#305; kolayla&scedil;t&#305;rabilir. Bu e-posta &scedil;unlar&#305; i&ccedil;erebilir:"
     },
     "this_email_is_composed_on_your_device_using_4c3688": {
       "en": "This email is composed on your device using your own email app. You review and send it yourself. Dear does not collect, store, or transmit this information through any server or API. Elsewhere Index receives it only through your email and uses it only for the stated purposes.",
@@ -3103,7 +3453,17 @@
       "ta": "இந்த மின்னஞ்சல் உங்கள் சாதனத்தில் உங்கள் சொந்த மின்னஞ்சல் செயலியில் எழுதப்படுகிறது. நீங்களே பார்த்து அனுப்புகிறீர்கள். இந்தத் தகவலை Dear எந்தச் சேவையகம் அல்லது API வழியாகவும் சேகரிப்பதோ சேமிப்பதோ அனுப்புவதோ இல்லை. Elsewhere Index அதை உங்கள் மின்னஞ்சல் வழியாக மட்டுமே பெறுகிறது, சொல்லப்பட்ட நோக்கங்களுக்கு மட்டுமே பயன்படுத்துகிறது.",
       "te": "ఈ ఇమెయిల్ మీ పరికరంలో మీ సొంత ఇమెయిల్ యాప్‌తో రాయబడుతుంది. మీరే చూసి పంపుతారు. Dear ఈ సమాచారాన్ని ఏ సర్వర్ లేదా API ద్వారా సేకరించదు, భద్రపరచదు, పంపదు. Elsewhere Index దాన్ని మీ ఇమెయిల్ ద్వారా మాత్రమే పొందుతుంది, చెప్పిన ప్రయోజనాలకే వాడుతుంది.",
       "ar": "تُكتب هذه الرسالة على جهازك بتطبيق البريد الخاص بك. وأنت من يراجعها ويرسلها. ولا يجمع Dear هذه المعلومات ولا يحفظها ولا يرسلها عبر أي خادم أو واجهة برمجية. ولا تتلقاها Elsewhere Index إلا عبر بريدك، وتستخدمها للأغراض المذكورة فقط.",
-      "he": "האימייל נכתב על המכשיר שלכם באפליקציית האימייל שלכם. אתם אלה שבודקים ושולחים אותו. Dear לא אוסף, לא שומר ולא שולח את המידע הזה דרך שום שרת או API. Elsewhere Index מקבלת אותו רק דרך האימייל שלכם ומשתמשת בו רק למטרות שצוינו."
+      "he": "האימייל נכתב על המכשיר שלכם באפליקציית האימייל שלכם. אתם אלה שבודקים ושולחים אותו. Dear לא אוסף, לא שומר ולא שולח את המידע הזה דרך שום שרת או API. Elsewhere Index מקבלת אותו רק דרך האימייל שלכם ומשתמשת בו רק למטרות שצוינו.",
+      "de": "Diese E-Mail wird auf deinem Ger&auml;t mit deiner eigenen E-Mail-App verfasst. Du pr&uuml;fst und sendest sie selbst. Dear erfasst, speichert oder &uuml;bertr&auml;gt diese Informationen nicht &uuml;ber einen Server oder eine API. Elsewhere Index erh&auml;lt sie nur &uuml;ber deine E-Mail und verwendet sie nur f&uuml;r die genannten Zwecke.",
+      "nl": "Deze e-mail wordt op je toestel opgesteld met je eigen e-mailapp. Je leest hem na en verstuurt hem zelf. Dear verzamelt, bewaart of verstuurt deze informatie niet via een server of API. Elsewhere Index ontvangt hem alleen via je e-mail en gebruikt hem alleen voor de genoemde doelen.",
+      "sv": "Mejlet skrivs p&aring; din enhet med din egen e-postapp. Du granskar och skickar det sj&auml;lv. Dear samlar inte in, lagrar eller skickar den h&auml;r informationen via n&aring;gon server eller API. Elsewhere Index f&aring;r den bara via ditt mejl och anv&auml;nder den bara f&ouml;r de angivna &auml;ndam&aring;len.",
+      "da": "E-mailen skrives p&aring; din enhed med din egen e-mailapp. Du l&aelig;ser den igennem og sender den selv. Dear indsamler, gemmer eller sender ikke disse oplysninger via nogen server eller API. Elsewhere Index modtager dem kun via din e-mail og bruger dem kun til de n&aelig;vnte form&aring;l.",
+      "nb": "E-posten skrives p&aring; enheten din med din egen e-postapp. Du leser gjennom og sender den selv. Dear samler ikke inn, lagrer eller sender disse opplysningene via noen server eller API. Elsewhere Index mottar dem bare via e-posten din og bruker dem bare til de oppgitte form&aring;lene.",
+      "fi": "S&auml;hk&ouml;posti kirjoitetaan laitteellasi omalla s&auml;hk&ouml;postisovelluksellasi. Tarkistat ja l&auml;het&auml;t sen itse. Dear ei ker&auml;&auml;, tallenna tai l&auml;het&auml; n&auml;it&auml; tietoja mink&auml;&auml;n palvelimen tai rajapinnan kautta. Elsewhere Index saa ne vain s&auml;hk&ouml;postisi kautta ja k&auml;ytt&auml;&auml; niit&auml; vain mainittuihin tarkoituksiin.",
+      "it": "L'email viene composta sul tuo dispositivo con la tua app di posta. La rileggi e la invii tu. Dear non raccoglie, conserva n&eacute; trasmette queste informazioni tramite alcun server o API. Elsewhere Index le riceve solo tramite la tua email e le usa solo per gli scopi indicati.",
+      "pt-BR": "O e-mail &eacute; escrito no seu aparelho com o seu pr&oacute;prio app de e-mail. Voc&ecirc; revisa e envia por conta pr&oacute;pria. O Dear n&atilde;o coleta, guarda nem transmite essas informa&ccedil;&otilde;es por nenhum servidor ou API. A Elsewhere Index s&oacute; as recebe pelo seu e-mail e as usa apenas para os fins indicados.",
+      "pl": "Ten e-mail powstaje na twoim urz&aogon;dzeniu w twojej w&lstrok;asnej aplikacji pocztowej. Sam go sprawdzasz i wysy&lstrok;asz. Dear nie zbiera, nie przechowuje ani nie przesy&lstrok;a tych informacji przez &zdot;aden serwer ani API. Elsewhere Index otrzymuje je wy&lstrok;&aogon;cznie przez tw&oacute;j e-mail i wykorzystuje tylko do podanych cel&oacute;w.",
+      "tr": "Bu e-posta cihaz&#305;nda kendi e-posta uygulamanla yaz&#305;l&#305;r. Onu sen g&ouml;zden ge&ccedil;irir ve sen g&ouml;nderirsin. Dear bu bilgileri hi&ccedil;bir sunucu veya API arac&#305;l&#305;&#287;&#305;yla toplamaz, saklamaz veya iletmez. Elsewhere Index bunlar&#305; yaln&#305;zca senin e-postan &uuml;zerinden al&#305;r ve yaln&#305;zca belirtilen ama&ccedil;larla kullan&#305;r."
     },
     "your_email_address_is_visible_to_elsewhere_i_2751ff": {
       "en": "Your email address is visible to Elsewhere Index when you send the message. It will not be added to any marketing list or shared with anyone else.",
@@ -3126,7 +3486,17 @@
       "ta": "நீங்கள் செய்தி அனுப்பும்போது உங்கள் மின்னஞ்சல் முகவரி Elsewhere Index-க்குத் தெரியும். அது எந்த சந்தைப்படுத்தல் பட்டியலிலும் சேர்க்கப்படாது, வேறு யாருடனும் பகிரப்படாது.",
       "te": "మీరు సందేశం పంపినప్పుడు మీ ఇమెయిల్ చిరునామా Elsewhere Index కు కనిపిస్తుంది. అది ఏ మార్కెటింగ్ జాబితాలోనూ చేర్చబడదు, ఇంకెవరితోనూ పంచుకోబడదు.",
       "ar": "يظهر عنوان بريدك لـ Elsewhere Index حين ترسل الرسالة. ولن يُضاف إلى أي قائمة تسويقية ولن يُشارك مع أي أحد آخر.",
-      "he": "כתובת האימייל שלכם גלויה ל-Elsewhere Index כששולחים את ההודעה. היא לא תתווסף לשום רשימת דיוור ולא תשותף עם אף אחד אחר."
+      "he": "כתובת האימייל שלכם גלויה ל-Elsewhere Index כששולחים את ההודעה. היא לא תתווסף לשום רשימת דיוור ולא תשותף עם אף אחד אחר.",
+      "de": "Deine E-Mail-Adresse ist f&uuml;r Elsewhere Index sichtbar, wenn du die Nachricht sendest. Sie wird keiner Marketingliste hinzugef&uuml;gt und an niemanden weitergegeben.",
+      "nl": "Je e-mailadres is zichtbaar voor Elsewhere Index wanneer je het bericht stuurt. Het wordt aan geen enkele marketinglijst toegevoegd en met niemand gedeeld.",
+      "sv": "Din e-postadress syns f&ouml;r Elsewhere Index n&auml;r du skickar meddelandet. Den l&auml;ggs inte till i n&aring;gon marknadsf&ouml;ringslista och delas inte med n&aring;gon annan.",
+      "da": "Din e-mailadresse er synlig for Elsewhere Index, n&aring;r du sender beskeden. Den tilf&oslash;jes ikke til nogen markedsf&oslash;ringsliste og deles ikke med andre.",
+      "nb": "E-postadressen din er synlig for Elsewhere Index n&aring;r du sender meldingen. Den legges ikke til i noen markedsf&oslash;ringsliste og deles ikke med andre.",
+      "fi": "S&auml;hk&ouml;postiosoitteesi n&auml;kyy Elsewhere Indexille, kun l&auml;het&auml;t viestin. Sit&auml; ei lis&auml;t&auml; mihink&auml;&auml;n markkinointilistaan eik&auml; jaeta kenellek&auml;&auml;n muulle.",
+      "it": "Il tuo indirizzo email &egrave; visibile a Elsewhere Index quando invii il messaggio. Non verr&agrave; aggiunto ad alcuna lista di marketing n&eacute; condiviso con nessun altro.",
+      "pt-BR": "Seu endere&ccedil;o de e-mail fica vis&iacute;vel para a Elsewhere Index quando voc&ecirc; envia a mensagem. Ele n&atilde;o ser&aacute; adicionado a nenhuma lista de marketing nem compartilhado com mais ningu&eacute;m.",
+      "pl": "Tw&oacute;j adres e-mail jest widoczny dla Elsewhere Index, gdy wysy&lstrok;asz wiadomo&sacute;&cacute;. Nie zostanie dodany do &zdot;adnej listy marketingowej ani udost&eogon;pniony nikomu innemu.",
+      "tr": "Mesaj&#305; g&ouml;nderdi&#287;inde e-posta adresin Elsewhere Index taraf&#305;ndan g&ouml;r&uuml;l&uuml;r. Hi&ccedil;bir pazarlama listesine eklenmez ve ba&scedil;ka kimseyle payla&scedil;&#305;lmaz."
     },
     "changes_to_this_policy_615043": {
       "en": "Changes to this policy",
@@ -3149,7 +3519,17 @@
       "ta": "இந்தக் கொள்கையின் மாற்றங்கள்",
       "te": "ఈ విధానంలో మార్పులు",
       "ar": "تغييرات هذه السياسة",
-      "he": "שינויים במדיניות הזו"
+      "he": "שינויים במדיניות הזו",
+      "de": "&Auml;nderungen an dieser Erkl&auml;rung",
+      "nl": "Wijzigingen in dit beleid",
+      "sv": "&Auml;ndringar i den h&auml;r policyn",
+      "da": "&AElig;ndringer i denne politik",
+      "nb": "Endringer i denne erkl&aelig;ringen",
+      "fi": "Muutokset t&auml;h&auml;n selosteeseen",
+      "it": "Modifiche a questa informativa",
+      "pt-BR": "Altera&ccedil;&otilde;es nesta pol&iacute;tica",
+      "pl": "Zmiany w tej polityce",
+      "tr": "Bu politikadaki de&#287;i&scedil;iklikler"
     },
     "if_we_ever_change_how_dear_handles_data_for_896ab0": {
       "en": "If we ever change how Dear handles data (for example, adding optional cloud sync in a future version), we will update this policy and note the changes here. Any future feature that involves data transmission will be opt-in and clearly disclosed.",
@@ -3172,7 +3552,17 @@
       "ta": "Dear தரவை எப்படிக் கையாள்கிறது என்பதை எப்போதாவது மாற்றினால் (எடுத்துக்காட்டாக எதிர்காலப் பதிப்பில் விருப்பக் கிளவுட் ஒத்திசைவு சேர்ப்பது), இந்தக் கொள்கையைப் புதுப்பித்து மாற்றங்களை இங்கே குறிப்போம். தரவு அனுப்புதல் தொடர்பான எதிர்கால அம்சம் எதுவும் உங்கள் விருப்பத்தின் பேரிலேயே இயங்கும், தெளிவாகத் தெரிவிக்கப்படும்.",
       "te": "Dear డేటాను ఎలా నిర్వహిస్తుందో ఎప్పుడైనా మార్చితే (ఉదాహరణకు రాబోయే వెర్షన్‌లో ఐచ్ఛిక క్లౌడ్ సింక్ చేర్చడం), ఈ విధానాన్ని నవీకరించి మార్పులను ఇక్కడే రాస్తాం. డేటా పంపడంతో ముడిపడిన ఏ భవిష్యత్ ఫీచరైనా మీ ఇష్టంతోనే ఆన్ అవుతుంది, స్పష్టంగా తెలియజేస్తాం.",
       "ar": "إن غيّرنا يومًا طريقة تعامل Dear مع البيانات (مثل إضافة مزامنة سحابية اختيارية في إصدار قادم)، فسنحدّث هذه السياسة ونسجل التغييرات هنا. وأي ميزة مستقبلية تتضمن إرسال بيانات ستكون بالاشتراك الاختياري وسنوضحها بجلاء.",
-      "he": "אם נשנה אי פעם את האופן שבו Dear מטפל בנתונים (למשל הוספת סנכרון ענן לבחירה בגרסה עתידית), נעדכן את המדיניות ונציין כאן את השינויים. כל יכולת עתידית שכרוכה בשליחת נתונים תהיה בהצטרפות מרצון ותוסבר בבירור."
+      "he": "אם נשנה אי פעם את האופן שבו Dear מטפל בנתונים (למשל הוספת סנכרון ענן לבחירה בגרסה עתידית), נעדכן את המדיניות ונציין כאן את השינויים. כל יכולת עתידית שכרוכה בשליחת נתונים תהיה בהצטרפות מרצון ותוסבר בבירור.",
+      "de": "Sollten wir je &auml;ndern, wie Dear mit Daten umgeht (zum Beispiel eine optionale Cloud-Synchronisierung in einer k&uuml;nftigen Version), aktualisieren wir diese Erkl&auml;rung und vermerken die &Auml;nderungen hier. Jede k&uuml;nftige Funktion, die eine Daten&uuml;bertragung beinhaltet, wird optional sein und klar offengelegt.",
+      "nl": "Als we ooit veranderen hoe Dear met gegevens omgaat (bijvoorbeeld optionele cloudsynchronisatie in een toekomstige versie), werken we dit beleid bij en noteren we de wijzigingen hier. Elke toekomstige functie waarbij gegevens verstuurd worden, wordt opt-in en duidelijk vermeld.",
+      "sv": "Om vi n&aring;gonsin &auml;ndrar hur Dear hanterar uppgifter (till exempel valfri molnsynkronisering i en framtida version) uppdaterar vi policyn och noterar &auml;ndringarna h&auml;r. Varje framtida funktion som inneb&auml;r data&ouml;verf&ouml;ring kommer att vara frivillig och tydligt beskriven.",
+      "da": "Hvis vi nogensinde &aelig;ndrer, hvordan Dear h&aring;ndterer data (for eksempel valgfri skysynkronisering i en fremtidig version), opdaterer vi denne politik og noterer &aelig;ndringerne her. Enhver fremtidig funktion, der indeb&aelig;rer data&oslash;verf&oslash;rsel, vil v&aelig;re valgfri og tydeligt beskrevet.",
+      "nb": "Hvis vi noen gang endrer hvordan Dear h&aring;ndterer data (for eksempel valgfri skysynkronisering i en fremtidig versjon), oppdaterer vi denne erkl&aelig;ringen og noterer endringene her. Enhver fremtidig funksjon som innebærer data&oslash;verf&oslash;ring, vil v&aelig;re valgfri og tydelig beskrevet.",
+      "fi": "Jos joskus muutamme sit&auml;, miten Dear k&auml;sittelee tietoja (esimerkiksi lis&auml;&auml;m&auml;ll&auml; valinnaisen pilvisynkronoinnin tulevaan versioon), p&auml;ivit&auml;mme t&auml;m&auml;n selosteen ja merkitsemme muutokset t&auml;h&auml;n. Jokainen tuleva ominaisuus, johon liittyy tiedonsiirtoa, on vapaaehtoinen ja selke&auml;sti kerrottu.",
+      "it": "Se dovessimo mai cambiare il modo in cui Dear tratta i dati (per esempio aggiungendo una sincronizzazione cloud facoltativa in una versione futura), aggiorneremo questa informativa e ne daremo conto qui. Ogni funzione futura che comporti trasmissione di dati sar&agrave; facoltativa e chiaramente dichiarata.",
+      "pt-BR": "Se algum dia mudarmos a forma como o Dear lida com dados (por exemplo, adicionando sincroniza&ccedil;&atilde;o na nuvem opcional em uma vers&atilde;o futura), atualizaremos esta pol&iacute;tica e registraremos as mudan&ccedil;as aqui. Qualquer recurso futuro que envolva transmiss&atilde;o de dados ser&aacute; opcional e claramente informado.",
+      "pl": "Je&sacute;li kiedykolwiek zmienimy spos&oacute;b, w jaki Dear obchodzi si&eogon; z danymi (na przyk&lstrok;ad dodaj&aogon;c opcjonaln&aogon; synchronizacj&eogon; w chmurze w przysz&lstrok;ej wersji), zaktualizujemy t&eogon; polityk&eogon; i odnotujemy tu zmiany. Ka&zdot;da przysz&lstrok;a funkcja zwi&aogon;zana z przesy&lstrok;aniem danych b&eogon;dzie dobrowolna i jasno opisana.",
+      "tr": "Dear'&#305;n verilerle nas&#305;l &ccedil;al&#305;&scedil;t&#305;&#287;&#305;n&#305; ileride de&#287;i&scedil;tirirsek (&ouml;rne&#287;in gelecekteki bir s&uuml;r&uuml;mde iste&#287;e ba&#287;l&#305; bulut e&scedil;itlemesi ekleyerek), bu politikay&#305; g&uuml;ncelleyip de&#287;i&scedil;iklikleri burada belirtece&#287;iz. Veri iletimi i&ccedil;eren her gelecek &ouml;zellik iste&#287;e ba&#287;l&#305; olacak ve a&ccedil;&#305;k&ccedil;a duyurulacak."
     },
     "if_you_have_questions_about_this_privacy_pol_88568f": {
       "en": "If you have questions about this privacy policy, you can reach us at support@dearnudges.com.",
@@ -3195,7 +3585,17 @@
       "ta": "இந்தத் தனியுரிமைக் கொள்கை பற்றிக் கேள்விகள் இருந்தால் support@dearnudges.com-இல் எங்களைத் தொடர்பு கொள்ளுங்கள்.",
       "te": "ఈ గోప్యతా విధానం గురించి ప్రశ్నలుంటే support@dearnudges.com లో మమ్మల్ని సంప్రదించండి.",
       "ar": "إن كانت لديك أسئلة عن سياسة الخصوصية هذه، فتواصل معنا على support@dearnudges.com.",
-      "he": "אם יש לכם שאלות על מדיניות הפרטיות הזו, אפשר לפנות אלינו ב-support@dearnudges.com."
+      "he": "אם יש לכם שאלות על מדיניות הפרטיות הזו, אפשר לפנות אלינו ב-support@dearnudges.com.",
+      "de": "Wenn du Fragen zu dieser Datenschutzerkl&auml;rung hast, erreichst du uns unter support@dearnudges.com.",
+      "nl": "Heb je vragen over dit privacybeleid, dan bereik je ons op support@dearnudges.com.",
+      "sv": "Har du fr&aring;gor om den h&auml;r integritetspolicyn n&aring;r du oss p&aring; support@dearnudges.com.",
+      "da": "Har du sp&oslash;rgsm&aring;l til denne privatlivspolitik, kan du n&aring; os p&aring; support@dearnudges.com.",
+      "nb": "Har du sp&oslash;rsm&aring;l om denne personvernerkl&aelig;ringen, n&aring;r du oss p&aring; support@dearnudges.com.",
+      "fi": "Jos sinulla on kysytt&auml;v&auml;&auml; t&auml;st&auml; tietosuojaselosteesta, tavoitat meid&auml;t osoitteesta support@dearnudges.com.",
+      "it": "Se hai domande su questa informativa sulla privacy, puoi scriverci a support@dearnudges.com.",
+      "pt-BR": "Se tiver d&uacute;vidas sobre esta pol&iacute;tica de privacidade, fale com a gente em support@dearnudges.com.",
+      "pl": "Je&sacute;li masz pytania dotycz&aogon;ce tej polityki prywatno&sacute;ci, napisz do nas na support@dearnudges.com.",
+      "tr": "Bu gizlilik politikas&#305; hakk&#305;nda sorular&#305;n varsa bize support@dearnudges.com adresinden ula&scedil;abilirsin."
     },
     "dear_stay_in_touch_is_made_by_elsewhere_inde_ae2a9d": {
       "en": "Dear: Stay in Touch is made by Elsewhere Index LLC. Distributed on the Apple App Store and Google Play with optional in-app purchases, no ads, no accounts, and no personal data collection.",
@@ -3218,7 +3618,17 @@
       "ta": "Dear: Stay in Touch-ஐ Elsewhere Index LLC உருவாக்குகிறது. Apple App Store மற்றும் Google Play-இல் கிடைக்கிறது, விருப்பச் செயலிக்குள் வாங்குதலுடன், விளம்பரம் இல்லை, கணக்குகள் இல்லை, தனிப்பட்ட தரவு சேகரிப்பு இல்லை.",
       "te": "Dear: Stay in Touch ను Elsewhere Index LLC తయారుచేస్తుంది. Apple App Store, Google Play లో అందుబాటులో ఉంది, ఐచ్ఛిక యాప్ కొనుగోళ్లతో, ప్రకటనలు లేవు, ఖాతాలు లేవు, వ్యక్తిగత డేటా సేకరణ లేదు.",
       "ar": "Dear: Stay in Touch من صنع Elsewhere Index LLC. يُوزَّع على Apple App Store وGoogle Play مع مشتريات اختيارية داخل التطبيق، بلا إعلانات، بلا حسابات، وبلا جمع بيانات شخصية.",
-      "he": "Dear: Stay in Touch נבנה על ידי Elsewhere Index LLC. מופץ ב-Apple App Store וב-Google Play עם רכישות בתוך האפליקציה לבחירתכם, בלי פרסומות, בלי חשבונות ובלי איסוף מידע אישי."
+      "he": "Dear: Stay in Touch נבנה על ידי Elsewhere Index LLC. מופץ ב-Apple App Store וב-Google Play עם רכישות בתוך האפליקציה לבחירתכם, בלי פרסומות, בלי חשבונות ובלי איסוף מידע אישי.",
+      "de": "Dear: Stay in Touch wird von Elsewhere Index LLC entwickelt. Vertrieben &uuml;ber den Apple App Store und Google Play mit optionalen In-App-K&auml;ufen, ohne Werbung, ohne Konten und ohne Erhebung pers&ouml;nlicher Daten.",
+      "nl": "Dear: Stay in Touch wordt gemaakt door Elsewhere Index LLC. Gedistribueerd via de Apple App Store en Google Play met optionele aankopen in de app, zonder advertenties, zonder accounts en zonder verzameling van persoonsgegevens.",
+      "sv": "Dear: Stay in Touch skapas av Elsewhere Index LLC. Distribueras via Apple App Store och Google Play med valfria k&ouml;p i appen, utan reklam, utan konton och utan insamling av personuppgifter.",
+      "da": "Dear: Stay in Touch er lavet af Elsewhere Index LLC. Distribueres via Apple App Store og Google Play med valgfrie k&oslash;b i appen, uden reklamer, uden konti og uden indsamling af personoplysninger.",
+      "nb": "Dear: Stay in Touch er laget av Elsewhere Index LLC. Distribueres via Apple App Store og Google Play med valgfrie kj&oslash;p i appen, uten reklame, uten kontoer og uten innsamling av personopplysninger.",
+      "fi": "Dear: Stay in Touch on Elsewhere Index LLC:n tekem&auml;. Jaellaan Applen App Storessa ja Google Playss&auml; valinnaisin sovelluksen sis&auml;isin ostoin, ilman mainoksia, ilman tilej&auml; ja ilman henkil&ouml;tietojen ker&auml;yst&auml;.",
+      "it": "Dear: Stay in Touch &egrave; realizzata da Elsewhere Index LLC. Distribuita sull'App Store di Apple e su Google Play con acquisti in-app facoltativi, senza pubblicit&agrave;, senza account e senza raccolta di dati personali.",
+      "pt-BR": "Dear: Stay in Touch &eacute; feito pela Elsewhere Index LLC. Distribu&iacute;do na App Store da Apple e no Google Play com compras opcionais no app, sem an&uacute;ncios, sem contas e sem coleta de dados pessoais.",
+      "pl": "Dear: Stay in Touch jest tworzone przez Elsewhere Index LLC. Dystrybuowane w Apple App Store i Google Play z opcjonalnymi zakupami w aplikacji, bez reklam, bez kont i bez zbierania danych osobowych.",
+      "tr": "Dear: Stay in Touch, Elsewhere Index LLC taraf&#305;ndan yap&#305;lmaktad&#305;r. Apple App Store ve Google Play &uuml;zerinden, iste&#287;e ba&#287;l&#305; uygulama i&ccedil;i sat&#305;n al&#305;mlarla, reklams&#305;z, hesaps&#305;z ve ki&scedil;isel veri toplamadan da&#287;&#305;t&#305;l&#305;r."
     },
     "the_research_05d3d7": {
       "en": "The Research",

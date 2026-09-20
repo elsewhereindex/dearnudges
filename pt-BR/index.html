@@ -393,21 +393,28 @@
                 catch (e) { el.textContent = v.toLocaleString(); }
             }
 
-            function animate(el, to) {
+            function animate(el) {
+                /* Read the target from the DOM on EVERY frame, never capture it.
+                   The fetch below updates data-to while this loop is running,
+                   and a captured value would let the last frame paint the stale
+                   build-time number over the fresh one. */
+                var to = parseInt(el.dataset.to, 10) || 0;
                 if (reduce || to === 0) { render(el, to); return; }
                 var dur = 900, start = null, from = 0;
                 function step(ts) {
                     if (start === null) start = ts;
                     var p = Math.min((ts - start) / dur, 1);
+                    var target = parseInt(el.dataset.to, 10) || 0;
                     /* ease-out so it decelerates into the real figure rather than snapping */
-                    render(el, Math.round(from + (to - from) * (1 - Math.pow(1 - p, 3))));
+                    render(el, Math.round(from + (target - from) * (1 - Math.pow(1 - p, 3))));
                     if (p < 1) requestAnimationFrame(step);
+                    else render(el, parseInt(el.dataset.to, 10) || 0);
                 }
                 requestAnimationFrame(step);
             }
 
             function run() {
-                els.forEach(function (el) { animate(el, parseInt(el.dataset.to, 10) || 0); });
+                els.forEach(function (el) { animate(el); });
             }
 
             /* Only animate once the block is actually on screen. */
@@ -426,6 +433,9 @@
                         var v = d[el.dataset.stat];
                         if (typeof v !== 'number') return;
                         el.dataset.to = v;
+                        /* If a count-up is still running it will pick this up on
+                           its next frame and land on it. If it has finished,
+                           this paints the fresh value immediately. */
                         render(el, v);
                     });
                 })

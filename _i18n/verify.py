@@ -86,6 +86,50 @@ def check_blocks(locale, path, html):
     if groups and mine < groups:
         fail(locale, "blocks", f"{os.path.basename(path)} {mine}/{groups} div groups for {locale}")
 
+
+def check_leftover_tokens(locale, path, html):
+    """No build-time placeholder may survive into a served page.
+
+    index.html and press.html fill STAT_HELLOS, STAT_LANGUAGES and friends from
+    stats.json, and the shots use SHOT_ALT1..3 / SHOT_CAPTION. A typo in a
+    template leaves the literal token on the page, which looks like a bug to a
+    visitor and is invisible in a diff of 186 generated files.
+    """
+    for tok in re.findall(r'\b(?:STAT|SHOT)_[A-Z0-9_]+', html):
+        fail(locale, "tokens", f"{os.path.basename(path)} still contains {tok}")
+
+
+def check_untranslated(locale, path, html, doc):
+    """Catch a page that is DRESSED as translated but reads in English.
+
+    check_blocks above counts <div data-lang> WRAPPERS, not their contents, and
+    build.py's fallback_blocks relabels the English div with the target locale
+    when a translation is missing. So a fully English page satisfies it. That is
+    how privacy.html shipped English body text under a German <title> and a
+    German "Last updated" line in ten locales without failing a single check.
+
+    So check the actual copy: take the strings this page's template uses, and
+    fail when most of them have no entry for this locale at all.
+    """
+    if locale == "en":
+        return
+    page = os.path.basename(path)
+    tpl = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                       "_i18n", "templates", page)
+    if not os.path.exists(tpl):
+        return
+    src = open(tpl, encoding="utf-8").read()
+    by_en = {v["en"]: v for v in doc["strings"].values()}
+    used = [by_en[m.strip()] for m in re.findall(
+        r'<span data-lang="en">(.*?)</span>', src, re.S) if m.strip() in by_en]
+    if len(used) < 5:
+        return
+    absent = [e for e in used if locale not in e]
+    if len(absent) > len(used) // 2:
+        fail(locale, "untranslated",
+             f"{page} is {len(absent)}/{len(used)} untranslated for {locale}; "
+             f"the page will render in English")
+
 def check_dashes(locale, path, html):
     if "—" in html:
         fail(locale, "dashes", f"{os.path.basename(path)} contains an em dash")
@@ -200,6 +244,8 @@ def main():
             check_switcher(loc, p, html)
             check_blocks(loc, p, html)
             check_dashes(loc, p, html)
+            check_leftover_tokens(loc, p, html)
+            check_untranslated(loc, p, html, doc)
     print(f"verify: {len(ready)} locales, {sum(len(pages_for(l)) for l in ready)} pages")
     if FAIL:
         print(f"\n{len(FAIL)} FAILURES:")
