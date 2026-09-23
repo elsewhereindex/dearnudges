@@ -37,10 +37,19 @@ jobs:
         id: before
         run: echo "hellos=$(python3 -c "import json;print(json.load(open('stats.json'))['hellos'])")" >> "$GITHUB_OUTPUT"
 
+      # This job has been passing green while measuring nothing. Without the
+      # key, build_stats.py correctly keeps the existing figure rather than
+      # writing a zero, the number never changes, no commit happens, and the
+      # run reports success. Green-while-blind is the same failure that made an
+      # empty Sentry dashboard feel reassuring. Say so on the run instead.
       - name: Rebuild stats.json
         env:
           TELEMETRYDECK_API_KEY: ${{ secrets.TELEMETRYDECK_API_KEY }}
-        run: python3 tools/build_stats.py
+        run: |
+          if [ -z "${TELEMETRYDECK_API_KEY}" ]; then
+            echo "::warning title=Homepage stats are frozen::TELEMETRYDECK_API_KEY is not set, so the Hellos count on dearnudges.com is not being refreshed. The number on the live site is whatever was last committed."
+          fi
+          python3 tools/build_stats.py
 
       - name: Read the new count
         id: after
