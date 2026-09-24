@@ -4,8 +4,33 @@
 Every number here is read from a source of truth, never typed:
 
   hellos     TelemetryDeck, nudge.completed, all time, iOS + Android combined.
-             Needs TELEMETRYDECK_API_KEY. Without it the existing stats.json is
-             left alone rather than overwritten with a wrong or zero value.
+             Needs TELEMETRYDECK_API_KEY, WHICH CANNOT BE ISSUED. It is a
+             TelemetryDeck personal access token, a PAID feature, and Dear's
+             organisation is on the free plan (verified 2026-09-23: 4,262 of
+             100,000 events used, so volume is not the reason). This script
+             therefore cannot refresh `hellos` automatically, and the warning
+             in stats.yml says so rather than inviting someone to paste a
+             secret that does not exist.
+
+             UNTIL THAT CHANGES, REFRESH IT BY HAND from the dashboard:
+               Explore > Playground > JSON Editor, on either app (the query is
+               ORG-WIDE, so one run covers iOS and Android - running it on both
+               returns the same number, which is the check that it is org-wide
+               and not a per-app figure):
+
+               {"queryType":"timeseries","granularity":"all",
+                "intervals":["2026-01-01T00:00:00Z/2026-12-31T23:59:59Z"],
+                "filter":{"type":"selector","dimension":"type",
+                          "value":"nudge.completed"},
+                "aggregations":[{"type":"eventCount","name":"hellos"}]}
+
+             Two traps found doing this on 2026-09-24:
+              - The monthly table MISLABELS buckets by one month (timezone
+                shift). A row reading "August 2026" was really September:
+                verified by querying 2026-09-01/2026-09-24 alone and getting
+                the same 278. Do not read month labels literally.
+              - The big-number widget shows EXACT integers, not rounded ones
+                (278 proves it), so a round-looking total like 3,700 is real.
   languages  localization/tools/sync.py SHIP_LANGS in the friendo repo.
   countries  App Store Connect, territories where the app is AVAILABLE.
   accounts   0. Structural, not measured.
