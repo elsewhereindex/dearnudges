@@ -1,0 +1,29 @@
+# Pages that something printed, physical or long-lived points at.
+# Generated from ~/dev/gtm/ops/links.json. Deleting one breaks a QR code
+# that is already out in the world. .github/workflows/protect-links.yml fails
+# any push where one of these is missing. Add, never remove.
+go/bookmark-en/index.html
+go/bookmark-es/index.html
+go/bookmark-fr/index.html
+go/cafe/index.html
+go/clinics/index.html
+go/ig/index.html
+go/mck/index.html
+go/ph/index.html
+go/postcard/index.html
+go/poster-en/index.html
+go/poster-es/index.html
+go/poster-fr/index.html
+go/press/index.html
+go/smallcard-en/index.html
+go/smallcard-es/index.html
+go/smallcard-fr/index.html
+go/sticker-en/index.html
+go/sticker-es/index.html
+go/sticker-fr/index.html
+go/tearoff-en/index.html
+go/tearoff-es/index.html
+go/tearoff-fr/index.html
+go/wallet/index.html
+go/walletpass/index.html
+walletpass/index.html

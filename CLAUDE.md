@@ -47,3 +47,12 @@ Trilingual EN/FR/ES via a `data-lang` show/hide switcher. The app itself ships
   publishing it; the free-tier figure has been wrong in public four separate times.
 - **Citations must survive being clicked.** If a statistic carries a DOI, the
   wording has to match what that paper actually reports.
+
+## Printed links: never delete
+
+`go/*` and `walletpass/` are encoded in QR codes and printed URLs already out
+in the world (posters, cards, stickers, the Apple Wallet pass). `go/PROTECTED.txt`
+lists them and `.github/workflows/protect-links.yml` fails any push that removes
+one. Change where a page redirects if you must; never delete or rename it.
+The registry and daily checker live in `~/dev/gtm` (`ops/links.json`,
+`tools/link-check.mjs`, `traps/links.md`).

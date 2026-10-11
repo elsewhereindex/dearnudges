@@ -1,0 +1,20 @@
+name: protect printed links
+# Every path in go/PROTECTED.txt is encoded in a QR code or printed URL that is
+# already out in the world. A push that removes one fails here, loudly, before
+# anyone scans a dead code. Added 2026-10-10.
+on:
+  push:
+  pull_request:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: every protected page exists
+        run: |
+          missing=0
+          while IFS= read -r p; do
+            case "$p" in ''|'#'*) continue ;; esac
+            if [ ! -f "$p" ]; then echo "MISSING: $p (a printed QR code points here)"; missing=1; fi
+          done < go/PROTECTED.txt
+          exit $missing
