@@ -27,3 +27,14 @@ go/tearoff-fr/index.html
 go/wallet/index.html
 go/walletpass/index.html
 walletpass/index.html
+go/c01/index.html
+go/c02/index.html
+go/c03/index.html
+go/c04/index.html
+go/c05/index.html
+go/c06/index.html
+go/c07/index.html
+go/c08/index.html
+go/c09/index.html
+go/c10/index.html
+go/cafe.js
