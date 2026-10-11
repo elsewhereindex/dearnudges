@@ -1,0 +1,10 @@
+name = "dearnudges-scan-counter"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+workers_dev = false
+routes = [{ pattern = "dearnudges.com/go/*", zone_name = "dearnudges.com" }]
+
+# Filled in by: npx wrangler kv namespace create SCANS
+[[kv_namespaces]]
+binding = "SCANS"
+id = "TO_BE_CREATED"
