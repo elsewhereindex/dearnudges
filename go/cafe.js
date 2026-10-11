@@ -4,7 +4,11 @@
 (function () {
   var piece = (location.pathname.match(/\/go\/(c\d+)/) || [])[1] || 'c00';
   // App Store custom product page for this campaign. Until cpp-cafe is
-  // approved, this is cpp-site's ppid. PT is the provider token from App
+  // approved, this is cpp-site's ppid. ct is ONE shared token on purpose:
+  // Apple shows campaign numbers only after 5 first-time downloads, so ten
+  // per-piece tokens would all read zero. Per-piece is the scan counter's job.
+  // (RESEARCH.md, gtm products/dear/print/cafe-pilot.)
+  // PT is the provider token from App
   // Store Connect's campaign link generator; without it Apple ignores ct.
   var PPID = 'e70049f8-5df6-40f0-bfa9-3d224d4d5444';
   var PT = '';
@@ -13,7 +17,7 @@
   var android = /Android/.test(ua);
   var url;
   if (ios) {
-    url = 'https://apps.apple.com/app/id6760280035?ppid=' + PPID + '&ct=cafe-' + piece + (PT ? '&pt=' + PT : '') + '&mt=8';
+    url = 'https://apps.apple.com/app/id6760280035?ppid=' + PPID + '&ct=cafe-pilot' + (PT ? '&pt=' + PT : '') + '&mt=8';
   } else if (android) {
     url = 'https://play.google.com/store/apps/details?id=com.elsewhere.dear&referrer=' +
       encodeURIComponent('utm_source=cafe&utm_medium=qr&utm_campaign=cafe_pilot&utm_content=' + piece);
