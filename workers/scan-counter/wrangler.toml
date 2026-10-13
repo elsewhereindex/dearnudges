@@ -4,7 +4,7 @@ compatibility_date = "2026-10-01"
 workers_dev = false
 routes = [{ pattern = "dearnudges.com/go/*", zone_name = "dearnudges.com" }]
 
-# Filled in by: npx wrangler kv namespace create SCANS
+# Created 2026-10-13 with: npx wrangler kv namespace create SCANS
 [[kv_namespaces]]
 binding = "SCANS"
-id = "TO_BE_CREATED"
+id = "25c29cc44d054d70bd8fe902553f6c9c"
