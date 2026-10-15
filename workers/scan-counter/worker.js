@@ -8,8 +8,13 @@
 export default {
   async fetch(request, env, ctx) {
     try {
-      const path = new URL(request.url).pathname.replace(/\/+$/, '');
-      if (/^\/go\/[a-z0-9-]+$/.test(path) && request.method === 'GET') {
+      // Count only the final page, /go/c03/. A code that encodes /go/c03 gets a
+      // 301 to the slash form first, so counting both would double every scan.
+      // The daily link check (tools/link-check.mjs) marks itself and is skipped.
+      const raw = new URL(request.url).pathname;
+      const path = raw.replace(/\/+$/, '');
+      if (raw.endsWith('/') && /^\/go\/[a-z0-9-]+$/.test(path) && request.method === 'GET'
+          && !request.headers.get('X-Link-Check')) {
         const key = new Date().toISOString().slice(0, 10) + ':' + path;
         ctx.waitUntil((async () => {
           const n = parseInt((await env.SCANS.get(key)) || '0', 10);
