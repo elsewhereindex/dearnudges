@@ -197,6 +197,8 @@
             color:#8396D1;letter-spacing:-.01em;font-variant-numeric:tabular-nums}
         .stat-l{display:block;margin-top:4px;font-size:10px;font-weight:500;
             letter-spacing:.16em;text-transform:uppercase;color:#6E6A6F}
+        .intro{margin:14px auto 0;max-width:440px;text-align:center;
+            font-size:14px;color:#5E5A60;line-height:1.6}
         .stats-foot{margin:14px auto 0;max-width:440px;text-align:center;
             font-size:12.5px;color:#7A767B;line-height:1.55}
         @media (max-width:430px){
@@ -210,11 +212,6 @@
 </head>
 <body>
 
-    <nav class="lang-nav">
-        <button class="lang-btn active" data-set-lang="en" aria-pressed="true" onclick="setLang('en')">EN</button>
-        <button class="lang-btn" data-set-lang="fr" aria-pressed="false" onclick="setLang('fr')">FR</button>
-        <button class="lang-btn" data-set-lang="es" aria-pressed="false" onclick="setLang('es')">ES</button>
-    </nav>
 
     <div class="page">
         <picture class="app-icon-wrap">
@@ -233,6 +230,8 @@
             <span data-lang="fr">Une personne par jour, avant de perdre le contact. Un message, un appel, c&rsquo;est fait.</span>
             <span data-lang="es">Una persona al d&iacute;a, antes de perder el contacto. Mensaje, llamada, listo.</span>
         </p>
+
+        <p class="intro"><span data-lang="en">Dear is a quiet iPhone and Android app for staying close to the people who matter. Not a CRM, not a dashboard. A small daily ritual: who&rsquo;s on your mind today? Pick your people and how often. Dear remembers, so you don&rsquo;t have to.</span><span data-lang="fr">Dear est une app discr&egrave;te pour iPhone et Android, pour rester proche des gens qui comptent. Pas un CRM, pas un tableau de bord. Un petit rituel quotidien : &agrave; qui penses-tu aujourd&rsquo;hui ? Choisis tes proches et &agrave; quelle fr&eacute;quence. Dear s&rsquo;en souvient pour toi.</span><span data-lang="es">Dear es una app tranquila para iPhone y Android para seguir cerca de las personas que importan. No es un CRM ni un panel. Es un peque&ntilde;o ritual diario: &iquest;en qui&eacute;n piensas hoy? Elige a tus personas y cada cu&aacute;nto. Dear se acuerda por ti.</span></p>
 
         <!-- Numbers. Every value is a token filled at build time from stats.json,
              which tools/build_stats.py generates from real sources: TelemetryDeck
@@ -431,5 +430,12 @@
         })();
     </script>
 
+    <!-- Language menu last in the markup: crawlers read the page top down, and the
+         31 language names were the first words they saw. position:fixed keeps it top-right. -->
+    <nav class="lang-nav">
+        <button class="lang-btn active" data-set-lang="en" aria-pressed="true" onclick="setLang('en')">EN</button>
+        <button class="lang-btn" data-set-lang="fr" aria-pressed="false" onclick="setLang('fr')">FR</button>
+        <button class="lang-btn" data-set-lang="es" aria-pressed="false" onclick="setLang('es')">ES</button>
+    </nav>
 </body>
 </html>

@@ -275,11 +275,6 @@
 </head>
 <body>
 
-    <nav class="lang-nav">
-        <button class="lang-btn active" data-set-lang="en" aria-pressed="true" onclick="setLang('en')">EN</button>
-        <button class="lang-btn" data-set-lang="fr" aria-pressed="false" onclick="setLang('fr')">FR</button>
-        <button class="lang-btn" data-set-lang="es" aria-pressed="false" onclick="setLang('es')">ES</button>
-    </nav>
 
     <div class="page">
         <h1 class="page-title">
@@ -636,5 +631,12 @@
         }
     </script>
 
+    <!-- Language menu last in the markup: crawlers read the page top down, and the
+         31 language names were the first words they saw. position:fixed keeps it top-right. -->
+    <nav class="lang-nav">
+        <button class="lang-btn active" data-set-lang="en" aria-pressed="true" onclick="setLang('en')">EN</button>
+        <button class="lang-btn" data-set-lang="fr" aria-pressed="false" onclick="setLang('fr')">FR</button>
+        <button class="lang-btn" data-set-lang="es" aria-pressed="false" onclick="setLang('es')">ES</button>
+    </nav>
 </body>
 </html>

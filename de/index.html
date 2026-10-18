@@ -197,6 +197,8 @@
             color:#8396D1;letter-spacing:-.01em;font-variant-numeric:tabular-nums}
         .stat-l{display:block;margin-top:4px;font-size:10px;font-weight:500;
             letter-spacing:.16em;text-transform:uppercase;color:#6E6A6F}
+        .intro{margin:14px auto 0;max-width:440px;text-align:center;
+            font-size:14px;color:#5E5A60;line-height:1.6}
         .stats-foot{margin:14px auto 0;max-width:440px;text-align:center;
             font-size:12.5px;color:#7A767B;line-height:1.55}
         @media (max-width:430px){
@@ -243,17 +245,6 @@
 </head>
 <body>
 
-    <nav class="lang-nav" aria-label="Language">
-        <details class="lang-switch">
-            <summary class="lang-current">DE<span class="lang-caret" aria-hidden="true"></span></summary>
-            <div class="lang-menu">
-                <div class="lang-menu-inner">
-                    <div class="lang-grid"><a class="lang-item" hreflang="en" lang="en" href="../">English</a><a class="lang-item" hreflang="fr" lang="fr" href="../fr/">Français</a><a class="lang-item" hreflang="es" lang="es" href="../es/">Español</a><a class="lang-item is-active" hreflang="de" lang="de" aria-current="true" href="../de/">Deutsch</a><a class="lang-item" hreflang="it" lang="it" href="../it/">Italiano</a><a class="lang-item" hreflang="ja" lang="ja" href="../ja/">日本語</a><a class="lang-item" hreflang="ko" lang="ko" href="../ko/">한국어</a><a class="lang-item" hreflang="zh-Hant" lang="zh-Hant" href="../zh-Hant/">繁體中文</a><a class="lang-item" hreflang="zh-Hans" lang="zh-Hans" href="../zh-Hans/">简体中文</a><a class="lang-item" hreflang="pt-BR" lang="pt-BR" href="../pt-BR/">Português</a><a class="lang-item" hreflang="ru" lang="ru" href="../ru/">Русский</a><a class="lang-item" hreflang="nl" lang="nl" href="../nl/">Nederlands</a><a class="lang-item" hreflang="hi" lang="hi" href="../hi/">हिन्दी</a><a class="lang-item" hreflang="id" lang="id" href="../id/">Indonesia</a><a class="lang-item" hreflang="ar" lang="ar" href="../ar/">العربية</a><a class="lang-item" hreflang="tr" lang="tr" href="../tr/">Türkçe</a><a class="lang-item" hreflang="pl" lang="pl" href="../pl/">Polski</a><a class="lang-item" hreflang="vi" lang="vi" href="../vi/">Tiếng Việt</a><a class="lang-item" hreflang="th" lang="th" href="../th/">ไทย</a><a class="lang-item" hreflang="he" lang="he" href="../he/">עברית</a><a class="lang-item" hreflang="uk" lang="uk" href="../uk/">Українська</a><a class="lang-item" hreflang="sv" lang="sv" href="../sv/">Svenska</a><a class="lang-item" hreflang="nb" lang="nb" href="../nb/">Norsk</a><a class="lang-item" hreflang="da" lang="da" href="../da/">Dansk</a><a class="lang-item" hreflang="fi" lang="fi" href="../fi/">Suomi</a><a class="lang-item" hreflang="fil" lang="fil" href="../fil/">Filipino</a><a class="lang-item" hreflang="bn" lang="bn" href="../bn/">বাংলা</a><a class="lang-item" hreflang="ta" lang="ta" href="../ta/">தமிழ்</a><a class="lang-item" hreflang="te" lang="te" href="../te/">తెలుగు</a><a class="lang-item" hreflang="mr" lang="mr" href="../mr/">मराठी</a><a class="lang-item" hreflang="sw" lang="sw" href="../sw/">Kiswahili</a></div>
-                    
-                </div>
-            </div>
-        </details>
-    </nav>
 
     <div class="page">
         <picture class="app-icon-wrap">
@@ -268,6 +259,8 @@
         <p class="tagline">
             Eine Person pro Tag, bevor der Kontakt abrei&szlig;t. Schreiben, anrufen, fertig.
         </p>
+
+        <p class="intro">Dear ist eine ruhige App f&uuml;r iPhone und Android, um den Menschen nah zu bleiben, die dir wichtig sind. Kein CRM, kein Dashboard. Ein kleines t&auml;gliches Ritual: An wen denkst du heute? W&auml;hle deine Menschen und wie oft. Dear denkt f&uuml;r dich daran.</p>
 
         <!-- Numbers. Every value is a token filled at build time from stats.json,
              which tools/build_stats.py generates from real sources: TelemetryDeck
@@ -443,5 +436,18 @@
         })();
     </script>
 
+    <!-- Language menu last in the markup: crawlers read the page top down, and the
+         31 language names were the first words they saw. position:fixed keeps it top-right. -->
+    <nav class="lang-nav" aria-label="Language">
+        <details class="lang-switch">
+            <summary class="lang-current">DE<span class="lang-caret" aria-hidden="true"></span></summary>
+            <div class="lang-menu">
+                <div class="lang-menu-inner">
+                    <div class="lang-grid"><a class="lang-item" hreflang="en" lang="en" href="../">English</a><a class="lang-item" hreflang="fr" lang="fr" href="../fr/">Français</a><a class="lang-item" hreflang="es" lang="es" href="../es/">Español</a><a class="lang-item is-active" hreflang="de" lang="de" aria-current="true" href="../de/">Deutsch</a><a class="lang-item" hreflang="it" lang="it" href="../it/">Italiano</a><a class="lang-item" hreflang="ja" lang="ja" href="../ja/">日本語</a><a class="lang-item" hreflang="ko" lang="ko" href="../ko/">한국어</a><a class="lang-item" hreflang="zh-Hant" lang="zh-Hant" href="../zh-Hant/">繁體中文</a><a class="lang-item" hreflang="zh-Hans" lang="zh-Hans" href="../zh-Hans/">简体中文</a><a class="lang-item" hreflang="pt-BR" lang="pt-BR" href="../pt-BR/">Português</a><a class="lang-item" hreflang="ru" lang="ru" href="../ru/">Русский</a><a class="lang-item" hreflang="nl" lang="nl" href="../nl/">Nederlands</a><a class="lang-item" hreflang="hi" lang="hi" href="../hi/">हिन्दी</a><a class="lang-item" hreflang="id" lang="id" href="../id/">Indonesia</a><a class="lang-item" hreflang="ar" lang="ar" href="../ar/">العربية</a><a class="lang-item" hreflang="tr" lang="tr" href="../tr/">Türkçe</a><a class="lang-item" hreflang="pl" lang="pl" href="../pl/">Polski</a><a class="lang-item" hreflang="vi" lang="vi" href="../vi/">Tiếng Việt</a><a class="lang-item" hreflang="th" lang="th" href="../th/">ไทย</a><a class="lang-item" hreflang="he" lang="he" href="../he/">עברית</a><a class="lang-item" hreflang="uk" lang="uk" href="../uk/">Українська</a><a class="lang-item" hreflang="sv" lang="sv" href="../sv/">Svenska</a><a class="lang-item" hreflang="nb" lang="nb" href="../nb/">Norsk</a><a class="lang-item" hreflang="da" lang="da" href="../da/">Dansk</a><a class="lang-item" hreflang="fi" lang="fi" href="../fi/">Suomi</a><a class="lang-item" hreflang="fil" lang="fil" href="../fil/">Filipino</a><a class="lang-item" hreflang="bn" lang="bn" href="../bn/">বাংলা</a><a class="lang-item" hreflang="ta" lang="ta" href="../ta/">தமிழ்</a><a class="lang-item" hreflang="te" lang="te" href="../te/">తెలుగు</a><a class="lang-item" hreflang="mr" lang="mr" href="../mr/">मराठी</a><a class="lang-item" hreflang="sw" lang="sw" href="../sw/">Kiswahili</a></div>
+                    
+                </div>
+            </div>
+        </details>
+    </nav>
 </body>
 </html>
