@@ -38,3 +38,4 @@ go/c08/index.html
 go/c09/index.html
 go/c10/index.html
 go/cafe.js
+go/tt/index.html
