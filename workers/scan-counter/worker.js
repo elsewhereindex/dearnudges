@@ -1,5 +1,5 @@
 // Scan counter for printed QR codes (2026-10-10).
-// Runs in front of dearnudges.com/go/*. Adds 1 to a per-day, per-path count in
+// Runs in front of dearnudges.com/go/* and onewhim.app/go/*. Adds 1 to a per-day, per-path count in
 // KV, then passes the request through to the site unchanged. Stores no cookie,
 // IP, user agent or anything else about the person: just "c03 was opened once
 // on 2026-10-14".
@@ -15,7 +15,11 @@ export default {
       const path = raw.replace(/\/+$/, '');
       if (raw.endsWith('/') && /^\/go\/[a-z0-9-]+$/.test(path) && request.method === 'GET'
           && !request.headers.get('X-Link-Check')) {
-        const key = new Date().toISOString().slice(0, 10) + ':' + path;
+        // onewhim.app/go/* shares this counter (2026-11-01); its slugs are
+        // stored as whim-<slug> so they never mix with Dear's /go/ig and /go/tt.
+        const host = new URL(request.url).hostname;
+        const kpath = host.endsWith('onewhim.app') ? path.replace('/go/', '/go/whim-') : path;
+        const key = new Date().toISOString().slice(0, 10) + ':' + kpath;
         ctx.waitUntil((async () => {
           const n = parseInt((await env.SCANS.get(key)) || '0', 10);
           await env.SCANS.put(key, String(n + 1));
