@@ -418,11 +418,11 @@
                 <li>Whether the app asked you to rate it, and whether it is running on a tablet, foldable, large screen or ChromeOS, so we know which layouts to support</li>
             </ul>
         </div><p>
-            <strong>決して記録しないもの：</strong>あなたの名前、ご友人の名前や連絡先、送ったメッセージ、アプリを開いた時刻、位置情報、IPアドレス、そしてあなたにたどり着ける端末識別子。
+            <strong>決して記録しないもの：</strong>あなたの名前、ご友人の名前や連絡先、送ったメッセージ、アプリを開いた時刻、位置情報、IPアドレス、そして加工されていない端末識別子そのもの。
         </p>
 
         <p>
-            これらのイベントは仮名化され、集計されています。そこからあなたを特定することはできません。TelemetryDeckが受け取るのはハッシュ化された識別子だけで、あなたの名前、メールアドレス、連絡先は決して含まれません。EU、EEA、英国では、Dearは匿名の利用分析とクラッシュ報告をオンにする前に確認します。どこにいても、「設定」からいつでも変更できます。
+            これらのイベントは仮名化され、集計されています。そこからあなたを特定することはできません。TelemetryDeckが受け取るのはハッシュ化された識別子だけで、TelemetryDeckは自社のサーバーでそれにソルトを加えて再びハッシュ化します。あなたの名前、メールアドレス、連絡先は決して含まれません。EU、EEA、英国では、Dearは匿名の利用分析とクラッシュ報告をオンにする前に確認します。どこにいても、「設定」からいつでも変更できます。
         </p>
 
         <h2 id="delete-data">
@@ -463,7 +463,7 @@
                 <li>Confirm. All friends, nudges, and preferences are wiped from your device immediately. Uninstalling the app afterward removes everything else.</li>
             </ol>
         </div><p>
-            あなたの個人情報を置いたサーバーはありません。そもそも集めていないので、当社側に消すものはありません。端末から出るのは匿名で集計された分析（<a href="#anonymous-analytics">匿名の分析</a>をご覧ください）と匿名の購入記録だけで、どちらもあなたに結びつけることはできません。利用者ごとの記録が存在しないため、削除すべきものがないのです。
+            あなたの個人情報を置いたサーバーはありません。端末から出るのは匿名の利用回数（<a href="#anonymous-analytics">匿名の分析</a>をご覧ください）、クラッシュ報告、購入記録だけで、どれにもあなたの名前、メールアドレス、連絡先は含まれません。ただし購入を扱うRevenueCatは、購入を復元できるよう、購入した人ごとに記録を保持しています。この記録は名前やメールアドレスではなく、匿名のアプリユーザーIDに結びついています。
         </p>
 
         <p>

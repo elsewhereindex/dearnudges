@@ -397,11 +397,11 @@
         </div>
 
         <p>
-            <strong>What we never track:</strong> your name, your friends' names or contact information, what messages you send, the time of day you opened the app, your location, your IP address, or any device identifier that could be linked back to you.
+            <strong>What we never track:</strong> your name, your friends' names or contact information, what messages you send, the time of day you opened the app, your location, your IP address, or a raw device identifier.
         </p>
 
         <p>
-            These events are pseudonymous and aggregated. We cannot identify you from them. TelemetryDeck receives a hashed identifier, never your name, email or contacts. In the EU, the EEA and the UK, Dear asks before turning on anonymous usage analytics and crash reporting. Wherever you are, you can change this at any time in Settings.
+            These events are pseudonymous and aggregated. We cannot identify you from them. TelemetryDeck receives only a hashed identifier, which it salts and hashes again on its own servers, and never your name, email or contacts. In the EU, the EEA and the UK, Dear asks before turning on anonymous usage analytics and crash reporting. Wherever you are, you can change this at any time in Settings.
         </p>
 
         <h2 id="delete-data">
@@ -435,7 +435,7 @@
         </div>
 
         <p>
-            We do not have a server with your personal information on it. We never collected it, so there is nothing to delete on our side. The only data that ever leaves your device is anonymous, aggregated analytics (see <a href="#anonymous-analytics">Anonymous Analytics</a>) and anonymous purchase records, neither of which can be linked back to you: there is no per-user record to delete.
+            We do not have a server with your personal information on it. The only data that leaves your device is anonymous usage counts (see <a href="#anonymous-analytics">Anonymous Analytics</a>), crash reports and purchase records, and none of it includes your name, email or contacts. RevenueCat, which handles purchases, does keep a record for each purchaser so that purchases can be restored. That record is tied to an anonymous app user ID, not to a name or email.
         </p>
 
         <p>
