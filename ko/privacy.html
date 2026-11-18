@@ -275,11 +275,11 @@
             개인정보 처리방침
         </h1>
         <p class="updated">
-            최종 업데이트: 2026년 9월
+            최종 업데이트: 2026년 11월
         </p>
 
         <div class="short-version">
-            당신의 친구와 연락처 데이터는 기기를 벗어나지 않습니다. 계정도 광고도 없습니다. 앱이 어떻게 쓰이는지 파악하고, 구매를 복원하고, 고장난 것을 고치기 위해 독일에 있는 개인정보 중심 분석 서비스 TelemetryDeck을 통해 익명 사용 횟수를, RevenueCat을 통해 익명 구매 기록을, Sentry를 통해 익명 오류 보고를 수집합니다. 이것으로 당신을 특정할 수 없으며, 친구의 이름이나 연락처는 결코 포함되지 않습니다.<br><br>
+            당신의 친구와 연락처 데이터는 기기를 벗어나지 않습니다. 계정도 광고도 없습니다. 앱이 어떻게 쓰이는지 파악하고, 구매를 복원하고, 고장난 것을 고치기 위해 독일에 있는 개인정보 중심 분석 서비스 TelemetryDeck을 통해 익명 사용 횟수를, RevenueCat을 통해 익명 구매 기록을, Sentry를 통해 익명 비정상 종료 및 오류 보고를 수집합니다. 이것으로 당신을 특정할 수 없으며, 친구의 이름이나 연락처는 결코 포함되지 않습니다.<br><br>
             그게 전부입니다. 이것이 개인정보 처리방침입니다.
         </div>
 
@@ -355,7 +355,7 @@
         </h2>
 
         <p>
-            Dear에는 계정도 광고도 없습니다. 추적 픽셀이나 광고 프레임워크를 쓰지 않습니다. 저희는 당신이 누구인지, 친구가 누구인지, 어떤 메시지를 보내는지 알지 못합니다. TelemetryDeck을 통해 익명 사용 횟수를, RevenueCat을 통해 익명 구매 기록을, Sentry를 통해 익명 오류 보고를 수집합니다(아래 항목 참고). 그 밖에 저희가 아는 것은 Apple과 Google이 App Store 및 Google Play 집계 분석으로 제공하는 정보뿐이며, 여기에는 개인을 식별할 수 있는 정보가 없고 기기 설정으로 제어됩니다.
+            Dear에는 계정도 광고도 없습니다. 추적 픽셀이나 광고 프레임워크를 쓰지 않습니다. 저희는 당신이 누구인지, 친구가 누구인지, 어떤 메시지를 보내는지 알지 못합니다. TelemetryDeck을 통해 익명 사용 횟수를, RevenueCat을 통해 익명 구매 기록을, Sentry를 통해 익명 비정상 종료 및 오류 보고를 수집합니다(아래 항목 참고). 그 밖에 저희가 아는 것은 Apple과 Google이 App Store 및 Google Play 집계 분석으로 제공하는 정보뿐이며, 여기에는 개인을 식별할 수 있는 정보가 없고 기기 설정으로 제어됩니다.
         </p>
 
         <h2 id="anonymous-analytics">
@@ -363,7 +363,7 @@
         </h2>
 
         <p>
-            Dear가 어떻게 쓰이는지 파악해 개선하기 위해, 독일에 있고 GDPR을 준수하는 개인정보 중심 분석 서비스 TelemetryDeck을 통해 소수의 익명 이벤트를 수집합니다. 기능 사용 횟수만 기록하며, 누가 썼는지는 결코 기록하지 않습니다.
+            Dear가 어떻게 쓰이는지 파악해 개선하기 위해, 독일에 있고 GDPR을 준수하는 개인정보 중심 분석 서비스 TelemetryDeck을 통해 소수의 익명 이벤트를 수집합니다. 앱이 어떻게 쓰이는지를 세며, 누가 쓰는지는 결코 기록하지 않습니다. TelemetryDeck은 세션이 시작될 때도 이를 세고, 각 횟수에 몇 가지 기본 정보를 추가합니다. 기종, 운영체제 버전, 앱 버전, 언어 및 지역 설정, 그리고 전송된 시각입니다.
         </p>
 
         <p><strong>기록하는 것:</strong></p>
@@ -418,11 +418,19 @@
                 <li>Whether the app asked you to rate it, and whether it is running on a tablet, foldable, large screen or ChromeOS, so we know which layouts to support</li>
             </ul>
         </div><p>
-            <strong>결코 기록하지 않는 것:</strong> 당신의 이름, 친구의 이름이나 연락처, 보낸 메시지, 앱을 연 시각, 위치, IP 주소, 그리고 당신과 연결될 수 있는 모든 기기 식별자.
+            <strong>결코 기록하지 않는 것:</strong> 당신의 이름, 친구의 이름이나 연락처, 보낸 메시지, 위치, IP 주소, 그리고 가공되지 않은 기기 식별자.
         </p>
 
         <p>
-            이 이벤트는 가명 처리되고 집계됩니다. 이것으로 당신을 특정할 수 없습니다. 개인 데이터를 처리하지 않으므로 GDPR에 따른 동의 요청이 필요하지 않습니다. 그래도 원치 않으신다면 support@dearnudges.com으로 알려주시면 다음 릴리스에 반영하겠습니다.
+            이 이벤트는 가명 처리되고 집계됩니다. 이것으로 당신을 특정할 수 없습니다. TelemetryDeck이 받는 것은 해시 처리된 식별자뿐이며, TelemetryDeck은 자체 서버에서 여기에 솔트를 더해 다시 해시 처리합니다. 당신의 이름, 이메일, 연락처는 결코 받지 않습니다.
+        </p>
+
+        <h2 id="analytics-choice">
+            분석에 대한 당신의 선택
+        </h2>
+
+        <p>
+            iPhone 및 iPad용 Dear 1.2.18과 Android용 Dear 1.3.18부터, Dear는 앱 안에서 한 번, 익명 사용 횟수와 비정상 종료 및 오류 보고를 보내도 되는지 묻습니다. 묻는지 여부는 지금 있는 위치가 아니라 기기의 지역 설정에 따라 정해집니다. 지역이 EU 또는 EEA 국가, 영국, 또는 일부 다른 지역의 국가로 설정되어 있으면 묻습니다. Android에서는 언어 설정에서 선택한 국가가 기준이며, SIM 카드나 모바일 네트워크가 그 국가 중 하나에 속해 있을 때도 묻습니다. 사용 횟수와 보고에는 당신의 이름, 친구, 메시지가 절대 포함되지 않습니다. 동의하지 않으면 아무것도 보내지 않습니다. 어디에 있든 앱의 설정에서 언제든지 바꿀 수 있습니다. 어느 쪽을 선택하든 구매는 그대로 작동합니다. 구매한 항목을 잠금 해제하고 복원하는 데 필요하기 때문에 Dear는 RevenueCat을 계속 사용합니다.
         </p>
 
         <h2 id="delete-data">
@@ -430,7 +438,7 @@
         </h2>
 
         <p>
-            Dear에는 계정이 없고, 어떤 서버도 당신의 개인정보를 갖고 있지 않습니다. 친구도, 알림도, 메시지도 오직 당신의 기기에만 있습니다. Dear가 당신에 대해 아는 모든 것을 지우려면:
+            Dear에는 계정이 없고, 저희는 당신의 이름, 이메일, 연락처, 메시지를 어떤 서버에도 보관하지 않습니다. 친구도, 알림도, 메시지도 오직 당신의 기기에만 있습니다. Dear가 당신에 대해 아는 모든 것을 지우려면:
         </p>
 
         <div data-lang="en">
@@ -442,9 +450,9 @@
         </div>
         <div data-lang="fr">
             <ol>
-                <li>Ouvrez l'app Dear</li>
-                <li>Allez dans <strong>R&eacute;glages &rarr; Supprimer toutes mes donn&eacute;es</strong></li>
-                <li>Confirmez. Tous les amis, rappels et pr&eacute;f&eacute;rences sont effac&eacute;s de votre appareil imm&eacute;diatement. D&eacute;sinstaller l'app ensuite supprime le reste.</li>
+                <li>Ouvre l'app Dear</li>
+                <li>Va dans <strong>R&eacute;glages &rarr; Supprimer toutes mes donn&eacute;es</strong></li>
+                <li>Confirme. Tous les amis, rappels et pr&eacute;f&eacute;rences sont effac&eacute;s de ton appareil imm&eacute;diatement. D&eacute;sinstaller l'app ensuite supprime le reste.</li>
             </ol>
         </div>
         <div data-lang="es">
@@ -463,7 +471,7 @@
                 <li>Confirm. All friends, nudges, and preferences are wiped from your device immediately. Uninstalling the app afterward removes everything else.</li>
             </ol>
         </div><p>
-            당신의 개인정보가 담긴 서버는 없습니다. 애초에 수집하지 않았으니 저희 쪽에서 지울 것도 없습니다. 기기를 벗어나는 것은 익명으로 집계된 분석(<a href="#anonymous-analytics">익명 분석</a> 참고)과 익명 구매 기록뿐이며, 둘 다 당신과 연결할 수 없습니다. 사용자별 기록이 존재하지 않으니 지울 것이 없습니다.
+            당신의 개인정보가 담긴 서버는 없습니다. 기기를 벗어나는 것은 익명 사용 횟수(<a href="#anonymous-analytics">익명 분석</a> 참고), 비정상 종료 및 오류 보고, 구매 기록뿐이며, 그 어디에도 당신의 이름, 이메일, 연락처는 없습니다. 다만 구매를 처리하는 RevenueCat은 구매를 복원할 수 있도록 구매한 사람마다 기록을 보관합니다. 이 기록은 이름이나 이메일이 아니라 익명의 앱 사용자 ID에 연결됩니다.
         </p>
 
         <p>
@@ -487,7 +495,7 @@
         </h2>
 
         <p>
-            Dear 앱은 네 개의 외부 서비스를 사용합니다. Apple StoreKit과 Google Play Billing이 앱 내 구입을 처리합니다. RevenueCat은 구매 권한을 관리하고 위에 설명한 익명 거래 기록을 받습니다. TelemetryDeck(익명 사용 분석)은 위에 설명한 익명 이벤트 횟수를 받습니다. Sentry는 고장난 것을 고칠 수 있도록 오류 보고를 받으며, 사용자 식별 정보는 전송 전에 모든 보고에서 제거되고 개인정보는 첨부되지 않습니다. 광고 네트워크, 추적 라이브러리, 데이터 브로커는 전혀 쓰지 않습니다.
+            Dear 앱은 다섯 개의 외부 서비스를 사용합니다. Apple StoreKit과 Google Play Billing이 앱 내 구입을 처리합니다. RevenueCat은 구매 권한을 관리하고 위에 설명한 익명 거래 기록을 받습니다. TelemetryDeck(익명 사용 분석)은 위에 설명한 익명 이벤트 횟수를 받습니다. Sentry는 고장난 것을 고칠 수 있도록 비정상 종료 및 오류 보고를 받으며, 사용자 식별 정보는 전송 전에 모든 보고에서 제거되고 당신을 식별할 수 있는 정보는 첨부되지 않습니다. Sentry는 구매 실패처럼 앱이 스스로 복구한 오류에 대한 보고도 받습니다. RevenueCat, TelemetryDeck, Sentry는 모두 이름, 이메일, 연락처, 위치 대신 무작위 또는 해시 처리된 코드인 가명 식별자를 사용합니다. 광고 네트워크, 추적 라이브러리, 데이터 브로커는 전혀 쓰지 않습니다.
         </p>
 
         <h2>
@@ -516,7 +524,7 @@
         </h2>
 
         <p>
-            Dear는 13세 미만 아동의 개인정보를 고의로 수집하지 않습니다. TelemetryDeck을 통해 수집하는 익명 사용 횟수에는 개인 데이터가 없으며, 아동을 포함한 어떤 사용자도 식별할 수 없습니다.
+            Dear는 13세 미만 아동의 개인정보를 고의로 수집하지 않습니다. TelemetryDeck을 통해 수집하는 익명 사용 횟수에는 해시 처리된 식별자가 있지만 이름, 연락처, 위치는 없으며, 이것으로 아동을 포함한 어떤 사용자도 식별할 수 없습니다.
         </p>
 
         <h2>
@@ -589,8 +597,9 @@
         </p>
         <footer>
             <em>
-                Dear: Stay in Touch는 Elsewhere Index LLC가 만듭니다. Apple App Store와 Google Play에서 배포되며, 선택형 앱 내 구입이 있고, 광고도 계정도 개인 데이터 수집도 없습니다.
+                Dear: Stay in Touch는 Elsewhere Index LLC가 만듭니다. Apple App Store와 Google Play에서 배포되며, 선택형 앱 내 구입이 있고, 광고도 계정도 없습니다. 당신의 이름, 이메일, 연락처, 메시지는 기기 밖으로 나가지 않습니다.
             </em>
+            <p class="footer-legal"><a href="privacy.html">개인정보</a> &middot; <a href="/terms.html">이용약관</a></p>
         </footer>
     </div>
 

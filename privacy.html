@@ -275,11 +275,11 @@
             Privacy Policy
         </h1>
         <p class="updated">
-            Last updated September 2026
+            Last updated November 2026
         </p>
 
         <div class="short-version">
-            Your friends and contact data never leave your device. We have no accounts and no advertising. We do collect a small set of anonymous usage counts through TelemetryDeck, a privacy-focused analytics service in Germany, anonymous purchase records through RevenueCat, and anonymous crash reports through Sentry, to understand how the app is being used, to restore your purchases, and to fix what breaks. We cannot identify you from these, and your friends' names and contact details are never included.<br><br>
+            Your friends and contact data never leave your device. We have no accounts and no advertising. We do collect a small set of anonymous usage counts through TelemetryDeck, a privacy-focused analytics service in Germany, anonymous purchase records through RevenueCat, and anonymous crash and error reports through Sentry, to understand how the app is being used, to restore your purchases, and to fix what breaks. We cannot identify you from these, and your friends' names and contact details are never included.<br><br>
             That's it. That's the privacy policy.
         </div>
 
@@ -346,7 +346,7 @@
         </h2>
 
         <p>
-            Dear has no accounts and no advertising. We do not use tracking pixels or advertising frameworks. We do not know who you are, who your friends are, or what messages you send. We do collect anonymous usage counts through TelemetryDeck, anonymous purchase records through RevenueCat, and anonymous crash reports through Sentry (see sections below). Beyond that, we know only what Apple and Google provide in aggregate App Store and Google Play analytics, which contains no personally identifiable information and is controlled by your device settings.
+            Dear has no accounts and no advertising. We do not use tracking pixels or advertising frameworks. We do not know who you are, who your friends are, or what messages you send. We do collect anonymous usage counts through TelemetryDeck, anonymous purchase records through RevenueCat, and anonymous crash and error reports through Sentry (see sections below). Beyond that, we know only what Apple and Google provide in aggregate App Store and Google Play analytics, which contains no personally identifiable information and is controlled by your device settings.
         </p>
 
         <h2 id="anonymous-analytics">
@@ -354,7 +354,7 @@
         </h2>
 
         <p>
-            To understand how Dear is being used so we can improve it, we collect a small set of anonymous events through TelemetryDeck, a privacy-focused analytics service hosted in Germany and compliant with GDPR. We track only counts of feature use, never who used them.
+            To understand how Dear is being used so we can improve it, we collect a small set of anonymous events through TelemetryDeck, a privacy-focused analytics service hosted in Germany and compliant with GDPR. We count how the app is used, never who uses it. TelemetryDeck also counts when a session starts, and adds basic technical details to each count: the device model, operating system version, app version, language and region settings, and the time it was sent.
         </p>
 
         <p><strong>What we track:</strong></p>
@@ -397,11 +397,19 @@
         </div>
 
         <p>
-            <strong>What we never track:</strong> your name, your friends' names or contact information, what messages you send, the time of day you opened the app, your location, your IP address, or any device identifier that could be linked back to you.
+            <strong>What we never track:</strong> your name, your friends' names or contact information, what messages you send, your location, your IP address, or a raw device identifier.
         </p>
 
         <p>
-            These events are pseudonymous and aggregated. We cannot identify you from them. Because no personal data is processed, we do not require a consent prompt under GDPR. If you would prefer to opt out anyway, please email us at support@dearnudges.com and we will note your request for the next release.
+            These events are pseudonymous and aggregated. We cannot identify you from them. TelemetryDeck receives only a hashed identifier, which it salts and hashes again on its own servers, and never your name, email or contacts.
+        </p>
+
+        <h2 id="analytics-choice">
+            Your choice about analytics
+        </h2>
+
+        <p>
+            Starting with Dear 1.2.18 on iPhone and iPad and Dear 1.3.18 on Android, Dear asks you once, in the app, whether it may send anonymous usage counts and crash and error reports. Whether it asks depends on your device's region setting, not on where you are: it asks when that setting is a country in the EU, the EEA or the UK, or in some other regions. On Android, that is the country chosen in your language setting, and Dear also asks when your SIM card or mobile network is in one of those countries. Usage counts and reports never include your name, your friends, or your messages. Nothing is sent unless you say yes. Wherever you are, you can change this at any time in Settings in the app. Purchases work either way: Dear still uses RevenueCat, because it is needed to unlock and restore what you buy.
         </p>
 
         <h2 id="delete-data">
@@ -409,7 +417,7 @@
         </h2>
 
         <p>
-            Dear has no accounts, and no server holds your personal information. Your friends, your nudges, and your messages live only on your device. To delete everything Dear knows about you:
+            Dear has no accounts, and we do not keep your name, email, contacts or messages on any server. Your friends, your nudges, and your messages live only on your device. To delete everything Dear knows about you:
         </p>
 
         <div data-lang="en">
@@ -421,9 +429,9 @@
         </div>
         <div data-lang="fr">
             <ol>
-                <li>Ouvrez l'app Dear</li>
-                <li>Allez dans <strong>R&eacute;glages &rarr; Supprimer toutes mes donn&eacute;es</strong></li>
-                <li>Confirmez. Tous les amis, rappels et pr&eacute;f&eacute;rences sont effac&eacute;s de votre appareil imm&eacute;diatement. D&eacute;sinstaller l'app ensuite supprime le reste.</li>
+                <li>Ouvre l'app Dear</li>
+                <li>Va dans <strong>R&eacute;glages &rarr; Supprimer toutes mes donn&eacute;es</strong></li>
+                <li>Confirme. Tous les amis, rappels et pr&eacute;f&eacute;rences sont effac&eacute;s de ton appareil imm&eacute;diatement. D&eacute;sinstaller l'app ensuite supprime le reste.</li>
             </ol>
         </div>
         <div data-lang="es">
@@ -435,7 +443,7 @@
         </div>
 
         <p>
-            We do not have a server with your personal information on it. We never collected it, so there is nothing to delete on our side. The only data that ever leaves your device is anonymous, aggregated analytics (see <a href="#anonymous-analytics">Anonymous Analytics</a>) and anonymous purchase records, neither of which can be linked back to you: there is no per-user record to delete.
+            We do not have a server with your personal information on it. The only data that leaves your device is anonymous usage counts (see <a href="#anonymous-analytics">Anonymous Analytics</a>), crash and error reports, and purchase records, and none of it includes your name, email or contacts. RevenueCat, which handles purchases, does keep a record for each purchaser so that purchases can be restored. That record is tied to an anonymous app user ID, not to a name or email.
         </p>
 
         <p>
@@ -459,7 +467,7 @@
         </h2>
 
         <p>
-            The Dear app uses four third-party services. Apple StoreKit and Google Play Billing process in-app purchases. RevenueCat manages purchase entitlements and receives the anonymous transaction records described above. TelemetryDeck (anonymous usage analytics) receives the anonymous event counts described above. Sentry receives crash reports so we can fix what breaks; user identity is stripped from every report before it is sent, and no personal information is attached. No advertising networks, tracking libraries, or data brokers are used.
+            The Dear app uses five third-party services. Apple StoreKit and Google Play Billing process in-app purchases. RevenueCat manages purchase entitlements and receives the anonymous transaction records described above. TelemetryDeck (anonymous usage analytics) receives the anonymous event counts described above. Sentry receives crash and error reports so we can fix what breaks; user identity is stripped from every report before it is sent, and nothing that identifies you is attached. Sentry also receives reports of errors the app recovers from, such as a purchase that fails. RevenueCat, TelemetryDeck and Sentry each work with a pseudonymous identifier, a random or hashed code, rather than your name, email, contacts or location. No advertising networks, tracking libraries, or data brokers are used.
         </p>
 
         <h2>
@@ -488,7 +496,7 @@
         </h2>
 
         <p>
-            Dear does not knowingly collect any personal information from children under the age of 13. The anonymous usage counts we collect through TelemetryDeck contain no personal data and cannot identify any individual user, including children.
+            Dear does not knowingly collect any personal information from children under the age of 13. The anonymous usage counts we collect through TelemetryDeck carry a hashed identifier but no names, contact details or location, and we cannot identify any individual user from them, including children.
         </p>
 
         <h2>
@@ -556,8 +564,9 @@
         </p>
         <footer>
             <em>
-                Dear: Stay in Touch is made by Elsewhere Index LLC. Distributed on the Apple App Store and Google Play with optional in-app purchases, no ads, no accounts, and no personal data collection.
+                Dear: Stay in Touch is made by Elsewhere Index LLC. Distributed on the Apple App Store and Google Play with optional in-app purchases, no ads and no accounts. Your name, email, contacts and messages never leave your device.
             </em>
+            <p class="footer-legal"><a href="privacy.html">Privacy</a> &middot; <a href="/terms.html">Terms</a></p>
         </footer>
     </div>
 

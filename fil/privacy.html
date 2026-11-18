@@ -275,11 +275,11 @@
             Patakaran sa privacy
         </h1>
         <p class="updated">
-            Huling na-update noong Setyembre 2026
+            Huling na-update noong Nobyembre 2026
         </p>
 
         <div class="short-version">
-            Hindi kailanman umaalis sa device mo ang mga kaibigan at data ng contact mo. Wala kaming account at walang advertising. Nangongolekta nga kami ng kakaunting bilang ng paggamit na walang pangalan sa pamamagitan ng TelemetryDeck, isang analytics service sa Alemanya na nakatuon sa privacy, talaan ng pagbili na walang pangalan sa pamamagitan ng RevenueCat, at ulat ng crash na walang pangalan sa pamamagitan ng Sentry, upang maunawaan kung paano ginagamit ang app, maibalik ang mga binili mo, at maayos ang nasisira. Hindi ka namin makikilala mula rito, at hindi kailanman kasama ang pangalan at detalye ng contact ng mga kaibigan mo.<br><br>
+            Hindi kailanman umaalis sa device mo ang mga kaibigan at data ng contact mo. Wala kaming account at walang advertising. Nangongolekta nga kami ng kakaunting bilang ng paggamit na walang pangalan sa pamamagitan ng TelemetryDeck, isang analytics service sa Alemanya na nakatuon sa privacy, talaan ng pagbili na walang pangalan sa pamamagitan ng RevenueCat, at ulat ng crash at error na walang pangalan sa pamamagitan ng Sentry, upang maunawaan kung paano ginagamit ang app, maibalik ang mga binili mo, at maayos ang nasisira. Hindi ka namin makikilala mula rito, at hindi kailanman kasama ang pangalan at detalye ng contact ng mga kaibigan mo.<br><br>
             Iyon lang. Iyon ang patakaran sa privacy.
         </div>
 
@@ -355,7 +355,7 @@
         </h2>
 
         <p>
-            Walang account ang Dear at walang advertising. Hindi kami gumagamit ng tracking pixel o advertising framework. Hindi namin alam kung sino ka, sino ang mga kaibigan mo, o anong mensahe ang ipinapadala mo. Nangongolekta nga kami ng bilang ng paggamit na walang pangalan sa pamamagitan ng TelemetryDeck, talaan ng pagbili na walang pangalan sa pamamagitan ng RevenueCat, at ulat ng crash na walang pangalan sa pamamagitan ng Sentry (tingnan ang mga seksyon sa ibaba). Bukod doon, alam lang namin ang ibinibigay ng Apple at Google sa pinagsama-samang analytics ng App Store at Google Play, na walang taglay na impormasyong nagpapakilala sa isang tao at kontrolado ng mga setting ng device mo.
+            Walang account ang Dear at walang advertising. Hindi kami gumagamit ng tracking pixel o advertising framework. Hindi namin alam kung sino ka, sino ang mga kaibigan mo, o anong mensahe ang ipinapadala mo. Nangongolekta nga kami ng bilang ng paggamit na walang pangalan sa pamamagitan ng TelemetryDeck, talaan ng pagbili na walang pangalan sa pamamagitan ng RevenueCat, at ulat ng crash at error na walang pangalan sa pamamagitan ng Sentry (tingnan ang mga seksyon sa ibaba). Bukod doon, alam lang namin ang ibinibigay ng Apple at Google sa pinagsama-samang analytics ng App Store at Google Play, na walang taglay na impormasyong nagpapakilala sa isang tao at kontrolado ng mga setting ng device mo.
         </p>
 
         <h2 id="anonymous-analytics">
@@ -363,7 +363,7 @@
         </h2>
 
         <p>
-            Para maunawaan kung paano ginagamit ang Dear nang sa gayon ay mapabuti namin ito, nangongolekta kami ng kakaunting event na walang pangalan sa pamamagitan ng TelemetryDeck, isang analytics service na nakatuon sa privacy, naka-host sa Alemanya at sumusunod sa GDPR. Bilang lang ng paggamit ng feature ang sinusubaybayan namin, hindi kailanman kung sino ang gumamit.
+            Para maunawaan kung paano ginagamit ang Dear nang sa gayon ay mapabuti namin ito, nangongolekta kami ng kakaunting event na walang pangalan sa pamamagitan ng TelemetryDeck, isang analytics service na nakatuon sa privacy, naka-host sa Alemanya at sumusunod sa GDPR. Binibilang namin kung paano ginagamit ang app, hindi kailanman kung sino ang gumagamit nito. Binibilang din ng TelemetryDeck kung kailan nagsisimula ang isang session, at nagdadagdag ito sa bawat bilang ng ilang pangunahing teknikal na detalye: ang model ng device, ang bersyon ng operating system, ang bersyon ng app, ang mga setting ng wika at rehiyon, at ang oras kung kailan ito ipinadala.
         </p>
 
         <p><strong>Ang sinusubaybayan namin:</strong></p>
@@ -418,11 +418,19 @@
                 <li>Whether the app asked you to rate it, and whether it is running on a tablet, foldable, large screen or ChromeOS, so we know which layouts to support</li>
             </ul>
         </div><p>
-            <strong>Ang hindi namin kailanman sinusubaybayan:</strong> ang pangalan mo, ang pangalan o impormasyon ng contact ng mga kaibigan mo, ang mga mensaheng ipinapadala mo, ang oras ng araw na binuksan mo ang app, ang lokasyon mo, ang IP address mo, o anumang device identifier na maiuugnay pabalik sa iyo.
+            <strong>Ang hindi namin kailanman sinusubaybayan:</strong> ang pangalan mo, ang pangalan o impormasyon ng contact ng mga kaibigan mo, ang mga mensaheng ipinapadala mo, ang lokasyon mo, ang IP address mo, o ang raw na identifier ng device mo.
         </p>
 
         <p>
-            Pseudonymous at pinagsama-sama ang mga event na ito. Hindi ka namin makikilala mula rito. Dahil walang personal na data na pinoproseso, hindi kami nangangailangan ng consent prompt sa ilalim ng GDPR. Kung gusto mo pa ring mag-opt out, mag-email sa support@dearnudges.com at itatala namin ang kahilingan mo para sa susunod na release.
+            Pseudonymous at pinagsama-sama ang mga event na ito. Hindi ka namin makikilala mula rito. Naka-hash na identifier lang ang natatanggap ng TelemetryDeck, na nilalagyan nito ng salt at hina-hash ulit sa sarili nitong mga server, at hindi kailanman ang pangalan, email, o contacts mo.
+        </p>
+
+        <h2 id="analytics-choice">
+            Ang pasya mo tungkol sa analytics
+        </h2>
+
+        <p>
+            Simula sa Dear 1.2.18 sa iPhone at iPad at Dear 1.3.18 sa Android, isang beses lang nagtatanong ang Dear, sa loob ng app, kung puwede itong magpadala ng bilang ng paggamit na walang pangalan at mga ulat ng crash at error. Nakadepende ang tanong sa region setting ng device mo, hindi sa kung nasaan ka: nagtatanong ito kapag ang setting ay isang bansa sa EU o EEA, ang UK, o isang bansa sa ilang iba pang rehiyon. Sa Android, ito ang bansang pinili sa language setting mo, at nagtatanong din ang Dear kapag ang SIM card o mobile network mo ay mula sa isa sa mga bansang iyon. Hindi kailanman kasama sa mga bilang at ulat ang pangalan mo, ang mga kaibigan mo, o ang mga mensahe mo. Walang ipinapadala hangga't hindi ka pumapayag. Nasaan ka man, puwede mo itong baguhin anumang oras sa Settings sa app. Gumagana ang mga pagbili alinman ang piliin mo: ginagamit pa rin ng Dear ang RevenueCat, dahil kailangan ito para mabuksan at maibalik ang mga binili mo.
         </p>
 
         <h2 id="delete-data">
@@ -430,7 +438,7 @@
         </h2>
 
         <p>
-            Walang account ang Dear, at walang server na may hawak ng personal mong impormasyon. Ang mga kaibigan mo, ang mga paalala mo, at ang mga mensahe mo ay nasa device mo lamang. Para burahin ang lahat ng alam ng Dear tungkol sa iyo:
+            Walang account ang Dear, at hindi namin iniimbak sa anumang server ang pangalan, email, contacts, o mga mensahe mo. Ang mga kaibigan mo, ang mga paalala mo, at ang mga mensahe mo ay nasa device mo lamang. Para burahin ang lahat ng alam ng Dear tungkol sa iyo:
         </p>
 
         <div data-lang="en">
@@ -442,9 +450,9 @@
         </div>
         <div data-lang="fr">
             <ol>
-                <li>Ouvrez l'app Dear</li>
-                <li>Allez dans <strong>R&eacute;glages &rarr; Supprimer toutes mes donn&eacute;es</strong></li>
-                <li>Confirmez. Tous les amis, rappels et pr&eacute;f&eacute;rences sont effac&eacute;s de votre appareil imm&eacute;diatement. D&eacute;sinstaller l'app ensuite supprime le reste.</li>
+                <li>Ouvre l'app Dear</li>
+                <li>Va dans <strong>R&eacute;glages &rarr; Supprimer toutes mes donn&eacute;es</strong></li>
+                <li>Confirme. Tous les amis, rappels et pr&eacute;f&eacute;rences sont effac&eacute;s de ton appareil imm&eacute;diatement. D&eacute;sinstaller l'app ensuite supprime le reste.</li>
             </ol>
         </div>
         <div data-lang="es">
@@ -463,7 +471,7 @@
                 <li>Confirm. All friends, nudges, and preferences are wiped from your device immediately. Uninstalling the app afterward removes everything else.</li>
             </ol>
         </div><p>
-            Wala kaming server na may personal mong impormasyon. Hindi namin ito kailanman kinolekta, kaya walang buburahin sa panig namin. Ang tanging data na umaalis sa device mo ay analytics na walang pangalan at pinagsama-sama (tingnan ang <a href="#anonymous-analytics">Analytics na walang pangalan</a>) at talaan ng pagbili na walang pangalan, na kapwa hindi maiuugnay pabalik sa iyo: walang per-user na talaan na bubura.
+            Wala kaming server na may personal mong impormasyon. Ang tanging data na umaalis sa device mo ay bilang ng paggamit na walang pangalan (tingnan ang <a href="#anonymous-analytics">Analytics na walang pangalan</a>), mga ulat ng crash at error, at talaan ng pagbili, at wala sa mga ito ang may pangalan, email, o contacts mo. Ang RevenueCat, na humahawak sa mga pagbili, ay may iniingatang talaan para sa bawat taong bumibili, para maibalik ang mga binili. Nakaugnay ang talaang iyon sa isang anonymous na app user ID, hindi sa pangalan o email.
         </p>
 
         <p>
@@ -487,7 +495,7 @@
         </h2>
 
         <p>
-            Apat na third-party service ang ginagamit ng Dear app. Ang Apple StoreKit at Google Play Billing ang nagpoproseso ng pagbili sa loob ng app. Ang RevenueCat ang namamahala sa mga entitlement ng pagbili at tumatanggap ng talaan ng transaksyon na walang pangalan na inilarawan sa itaas. Ang TelemetryDeck (analytics ng paggamit na walang pangalan) ang tumatanggap ng bilang ng event na walang pangalan na inilarawan sa itaas. Ang Sentry ang tumatanggap ng ulat ng crash para maayos namin ang nasisira; inaalis ang pagkakakilanlan ng user sa bawat ulat bago ipadala, at walang personal na impormasyong ikinakabit. Walang ginagamit na advertising network, tracking library, o data broker.
+            Limang third-party service ang ginagamit ng Dear app. Ang Apple StoreKit at Google Play Billing ang nagpoproseso ng pagbili sa loob ng app. Ang RevenueCat ang namamahala sa mga entitlement ng pagbili at tumatanggap ng talaan ng transaksyon na walang pangalan na inilarawan sa itaas. Ang TelemetryDeck (analytics ng paggamit na walang pangalan) ang tumatanggap ng bilang ng event na walang pangalan na inilarawan sa itaas. Ang Sentry ang tumatanggap ng ulat ng crash at error para maayos namin ang nasisira; inaalis ang pagkakakilanlan ng user sa bawat ulat bago ipadala, at walang ikinakabit na anumang makakakilala sa iyo. Tumatanggap din ang Sentry ng ulat tungkol sa mga error na kusang nalalampasan ng app, gaya ng pagbiling hindi natuloy. Gumagamit ang RevenueCat, TelemetryDeck, at Sentry ng pseudonymous na identifier, isang random o naka-hash na code, hindi ang pangalan, email, contacts, o lokasyon mo. Walang ginagamit na advertising network, tracking library, o data broker.
         </p>
 
         <h2>
@@ -516,7 +524,7 @@
         </h2>
 
         <p>
-            Hindi sinasadyang nangongolekta ang Dear ng anumang personal na impormasyon mula sa mga batang wala pang 13 taong gulang. Ang bilang ng paggamit na walang pangalan na kinokolekta namin sa pamamagitan ng TelemetryDeck ay walang taglay na personal na data at hindi makakakilala ng sinumang user, kasama na ang mga bata.
+            Hindi sinasadyang nangongolekta ang Dear ng anumang personal na impormasyon mula sa mga batang wala pang 13 taong gulang. Ang bilang ng paggamit na walang pangalan na kinokolekta namin sa pamamagitan ng TelemetryDeck ay may naka-hash na identifier pero walang pangalan, detalye ng contact, o lokasyon, at hindi namin makikilala mula rito ang sinumang user, kasama na ang mga bata.
         </p>
 
         <h2>
@@ -589,8 +597,9 @@
         </p>
         <footer>
             <em>
-                Gawa ang Dear: Stay in Touch ng Elsewhere Index LLC. Ipinamamahagi sa Apple App Store at Google Play na may opsyonal na pagbili sa loob ng app, walang ads, walang account, at walang pangongolekta ng personal na data.
+                Gawa ang Dear: Stay in Touch ng Elsewhere Index LLC. Ipinamamahagi sa Apple App Store at Google Play na may opsyonal na pagbili sa loob ng app, walang ads at walang account. Hindi kailanman lumalabas sa device mo ang pangalan, email, contacts, at mga mensahe mo.
             </em>
+            <p class="footer-legal"><a href="privacy.html">Privacy</a> &middot; <a href="/terms.html">Mga Tuntunin</a></p>
         </footer>
     </div>
 

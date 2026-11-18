@@ -275,11 +275,11 @@
             プライバシーポリシー
         </h1>
         <p class="updated">
-            最終更新：2026年9月
+            最終更新：2026年11月
         </p>
 
         <div class="short-version">
-            あなたの友人と連絡先のデータが端末から出ることは決してありません。アカウントも広告もありません。アプリがどう使われているかを知り、購入を復元し、不具合を直すために、ドイツにあるプライバシー重視の分析サービスTelemetryDeckを通じて匿名の利用回数を、RevenueCatを通じて匿名の購入記録を、Sentryを通じて匿名のクラッシュ報告を集めています。これらからあなたを特定することはできませんし、ご友人の名前や連絡先が含まれることはありません。<br><br>
+            あなたの友人と連絡先のデータが端末から出ることは決してありません。アカウントも広告もありません。アプリがどう使われているかを知り、購入を復元し、不具合を直すために、ドイツにあるプライバシー重視の分析サービスTelemetryDeckを通じて匿名の利用回数を、RevenueCatを通じて匿名の購入記録を、Sentryを通じて匿名のクラッシュ報告とエラー報告を集めています。これらからあなたを特定することはできませんし、ご友人の名前や連絡先が含まれることはありません。<br><br>
             以上です。これがプライバシーポリシーのすべてです。
         </div>
 
@@ -355,7 +355,7 @@
         </h2>
 
         <p>
-            Dearにはアカウントも広告もありません。トラッキングピクセルや広告フレームワークは使っていません。あなたが誰か、ご友人が誰か、どんなメッセージを送ったかを当社は知りません。TelemetryDeckを通じて匿名の利用回数を、RevenueCatを通じて匿名の購入記録を、Sentryを通じて匿名のクラッシュ報告を集めています（以下の各節をご覧ください）。それ以外に当社が知るのは、AppleとGoogleがApp StoreとGoogle Playの集計分析として提供する情報だけで、個人を特定できる情報は含まれず、端末の設定で制御されます。
+            Dearにはアカウントも広告もありません。トラッキングピクセルや広告フレームワークは使っていません。あなたが誰か、ご友人が誰か、どんなメッセージを送ったかを当社は知りません。TelemetryDeckを通じて匿名の利用回数を、RevenueCatを通じて匿名の購入記録を、Sentryを通じて匿名のクラッシュ報告とエラー報告を集めています（以下の各節をご覧ください）。それ以外に当社が知るのは、AppleとGoogleがApp StoreとGoogle Playの集計分析として提供する情報だけで、個人を特定できる情報は含まれず、端末の設定で制御されます。
         </p>
 
         <h2 id="anonymous-analytics">
@@ -363,7 +363,7 @@
         </h2>
 
         <p>
-            Dearがどう使われているかを知り、改善するために、ドイツにありGDPRに準拠したプライバシー重視の分析サービスTelemetryDeckを通じて、少数の匿名イベントを集めています。記録するのは機能の利用回数だけで、誰が使ったかは決して記録しません。
+            Dearがどう使われているかを知り、改善するために、ドイツにありGDPRに準拠したプライバシー重視の分析サービスTelemetryDeckを通じて、少数の匿名イベントを集めています。数えるのはアプリがどう使われているかで、誰が使っているかは決して記録しません。TelemetryDeckはセッションの開始も数え、各カウントに、端末とアプリに関する基本的な情報を付け加えます。端末の機種、OSのバージョン、アプリのバージョン、言語と地域の設定、送信された時刻です。
         </p>
 
         <p><strong>記録するもの：</strong></p>
@@ -418,11 +418,19 @@
                 <li>Whether the app asked you to rate it, and whether it is running on a tablet, foldable, large screen or ChromeOS, so we know which layouts to support</li>
             </ul>
         </div><p>
-            <strong>決して記録しないもの：</strong>あなたの名前、ご友人の名前や連絡先、送ったメッセージ、アプリを開いた時刻、位置情報、IPアドレス、そしてあなたにたどり着ける端末識別子。
+            <strong>決して記録しないもの：</strong>あなたの名前、ご友人の名前や連絡先、送ったメッセージ、位置情報、IPアドレス、そして加工されていない端末識別子そのもの。
         </p>
 
         <p>
-            これらのイベントは仮名化され、集計されています。そこからあなたを特定することはできません。個人データを扱っていないため、GDPRに基づく同意の確認は必要ありません。それでも記録を望まない場合は、support@dearnudges.comまでご連絡ください。次のリリースに向けてご要望を記録します。
+            これらのイベントは仮名化され、集計されています。そこからあなたを特定することはできません。TelemetryDeckが受け取るのはハッシュ化された識別子だけで、TelemetryDeckは自社のサーバーでそれにソルトを加えて再びハッシュ化します。あなたの名前、メールアドレス、連絡先は決して含まれません。
+        </p>
+
+        <h2 id="analytics-choice">
+            分析についてのあなたの選択
+        </h2>
+
+        <p>
+            iPhone・iPad版のDear 1.2.18、Android版のDear 1.3.18以降、Dearはアプリ内で一度だけ、匿名の利用回数と、クラッシュ報告およびエラー報告を送ってよいかを確認します。確認するかどうかは、今いる場所ではなく、端末の地域設定によって決まります。地域がEUやEEAの国、英国、またはその他一部の地域の国に設定されている場合に確認します。Androidでは言語設定で選ばれている国が地域として扱われ、SIMカードやモバイルネットワークがそれらの国のものである場合にも確認します。利用回数や報告に、あなたの名前、ご友人、メッセージが含まれることはありません。「はい」と答えない限り、何も送信されません。どこにいても、アプリの「設定」からいつでも変更できます。どちらを選んでも購入は利用できます。購入したものを利用可能にし、復元するために必要なため、DearはRevenueCatを引き続き使用します。
         </p>
 
         <h2 id="delete-data">
@@ -430,7 +438,7 @@
         </h2>
 
         <p>
-            Dearにはアカウントがなく、あなたの個人情報を保持するサーバーもありません。ご友人も、リマインダーも、メッセージも、あなたの端末の中だけにあります。Dearが知っているすべてを消すには：
+            Dearにはアカウントがなく、あなたの名前、メールアドレス、連絡先、メッセージをサーバーに保存することもありません。ご友人も、リマインダーも、メッセージも、あなたの端末の中だけにあります。Dearが知っているすべてを消すには：
         </p>
 
         <div data-lang="en">
@@ -442,9 +450,9 @@
         </div>
         <div data-lang="fr">
             <ol>
-                <li>Ouvrez l'app Dear</li>
-                <li>Allez dans <strong>R&eacute;glages &rarr; Supprimer toutes mes donn&eacute;es</strong></li>
-                <li>Confirmez. Tous les amis, rappels et pr&eacute;f&eacute;rences sont effac&eacute;s de votre appareil imm&eacute;diatement. D&eacute;sinstaller l'app ensuite supprime le reste.</li>
+                <li>Ouvre l'app Dear</li>
+                <li>Va dans <strong>R&eacute;glages &rarr; Supprimer toutes mes donn&eacute;es</strong></li>
+                <li>Confirme. Tous les amis, rappels et pr&eacute;f&eacute;rences sont effac&eacute;s de ton appareil imm&eacute;diatement. D&eacute;sinstaller l'app ensuite supprime le reste.</li>
             </ol>
         </div>
         <div data-lang="es">
@@ -463,7 +471,7 @@
                 <li>Confirm. All friends, nudges, and preferences are wiped from your device immediately. Uninstalling the app afterward removes everything else.</li>
             </ol>
         </div><p>
-            あなたの個人情報を置いたサーバーはありません。そもそも集めていないので、当社側に消すものはありません。端末から出るのは匿名で集計された分析（<a href="#anonymous-analytics">匿名の分析</a>をご覧ください）と匿名の購入記録だけで、どちらもあなたに結びつけることはできません。利用者ごとの記録が存在しないため、削除すべきものがないのです。
+            あなたの個人情報を置いたサーバーはありません。端末から出るのは匿名の利用回数（<a href="#anonymous-analytics">匿名の分析</a>をご覧ください）、クラッシュ報告とエラー報告、購入記録だけで、どれにもあなたの名前、メールアドレス、連絡先は含まれません。ただし購入を扱うRevenueCatは、購入を復元できるよう、購入した人ごとに記録を保持しています。この記録は名前やメールアドレスではなく、匿名のアプリユーザーIDに結びついています。
         </p>
 
         <p>
@@ -487,7 +495,7 @@
         </h2>
 
         <p>
-            Dearは4つの外部サービスを使っています。Apple StoreKitとGoogle Play Billingがアプリ内課金を処理します。RevenueCatは購入権を管理し、上に述べた匿名の取引記録を受け取ります。TelemetryDeck（匿名の利用分析）は上に述べた匿名のイベント回数を受け取ります。Sentryは不具合を直せるようクラッシュ報告を受け取ります。利用者の識別情報は送信前にすべての報告から取り除かれ、個人情報が添えられることはありません。広告ネットワーク、トラッキングライブラリ、データブローカーは一切使っていません。
+            Dearは5つの外部サービスを使っています。Apple StoreKitとGoogle Play Billingがアプリ内課金を処理します。RevenueCatは購入権を管理し、上に述べた匿名の取引記録を受け取ります。TelemetryDeck（匿名の利用分析）は上に述べた匿名のイベント回数を受け取ります。Sentryは不具合を直せるようクラッシュ報告とエラー報告を受け取ります。利用者の識別情報は送信前にすべての報告から取り除かれ、あなたを特定できる情報が添えられることはありません。Sentryは、購入の失敗のように、アプリが自力で回復したエラーの報告も受け取ります。RevenueCat、TelemetryDeck、Sentryはいずれも、名前、メールアドレス、連絡先、位置情報ではなく、ランダムまたはハッシュ化されたコードである仮名の識別子を使います。広告ネットワーク、トラッキングライブラリ、データブローカーは一切使っていません。
         </p>
 
         <h2>
@@ -516,7 +524,7 @@
         </h2>
 
         <p>
-            Dearは13歳未満の子どもから個人情報を意図的に集めることはありません。TelemetryDeckを通じて集める匿名の利用回数には個人データが含まれず、子どもを含むいかなる利用者も特定できません。
+            Dearは13歳未満の子どもから個人情報を意図的に集めることはありません。TelemetryDeckを通じて集める匿名の利用回数にはハッシュ化された識別子が含まれますが、名前、連絡先、位置情報は含まれず、子どもを含むいかなる利用者もそこから特定することはできません。
         </p>
 
         <h2>
@@ -589,8 +597,9 @@
         </p>
         <footer>
             <em>
-                Dear: Stay in TouchはElsewhere Index LLCが制作しています。Apple App StoreとGoogle Playで配信しており、任意のアプリ内課金があり、広告もアカウントも個人データの収集もありません。
+                Dear: Stay in TouchはElsewhere Index LLCが制作しています。Apple App StoreとGoogle Playで配信しており、任意のアプリ内課金があり、広告もアカウントもありません。あなたの名前、メールアドレス、連絡先、メッセージが端末の外に出ることはありません。
             </em>
+            <p class="footer-legal"><a href="privacy.html">プライバシー</a> &middot; <a href="/terms.html">利用規約</a></p>
         </footer>
     </div>
 
