@@ -445,7 +445,61 @@ def render(page, locale, doc, stats):
     # 7. Numbers. Last, so a token sitting inside a translated string (the
     #    language count does) is filled whichever locale supplied the sentence.
     out = fill_stats(out, locale, stats)
+    out = jsonld(page, locale, out)
     return out
+
+
+# Structured data (2026-11-20, SEO/AEO pass). Facts only from the App Store
+# listing and the visible page: no ratings, no reviews, no price claims.
+APP_NAME = "Dear: Remind Me to Reach Out"
+APP_STORE = "https://apps.apple.com/us/app/dear-remind-me-to-reach-out/id6760280035"
+PLAY_STORE = "https://play.google.com/store/apps/details?id=com.elsewhere.dear"
+SAME_AS = ["https://www.instagram.com/dearnudges", "https://www.tiktok.com/@dearnudges"]
+ORG = {"@type": "Organization", "@id": "https://dearnudges.com/#org", "name": "Elsewhere Index LLC",
+       "url": "https://dearnudges.com/", "logo": "https://dearnudges.com/app-icon.png", "sameAs": SAME_AS}
+
+
+def _text(fragment):
+    import html as _h
+    t = re.sub(r"<[^>]+>", " ", fragment)
+    return re.sub(r"\s+", " ", _h.unescape(t)).strip()
+
+
+def jsonld(page, locale, out):
+    import json as _j
+    url = lang_url(locale, page)
+    graph = []
+    if page == "index.html":
+        desc = re.search(r'<meta name="description" content="([^"]*)"', out)
+        graph += [ORG, {
+            "@type": "MobileApplication", "@id": "https://dearnudges.com/#app", "name": APP_NAME,
+            "alternateName": "Dear", "url": url, "operatingSystem": "iOS, Android",
+            "applicationCategory": "LifestyleApplication", "inLanguage": locale,
+            "description": _text(desc.group(1)) if desc else "",
+            "installUrl": [APP_STORE, PLAY_STORE], "sameAs": [APP_STORE, PLAY_STORE],
+            "publisher": {"@id": "https://dearnudges.com/#org"}},
+            {"@type": "WebSite", "name": "Dear", "url": lang_url(locale, "index.html"), "inLanguage": locale,
+             "publisher": {"@id": "https://dearnudges.com/#org"}}]
+    else:
+        h1 = re.search(r"<h1[^>]*>(.*?)</h1>", out, re.S)
+        graph.append({"@type": "BreadcrumbList", "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Dear", "item": lang_url(locale, "index.html")},
+            {"@type": "ListItem", "position": 2, "name": _text(h1.group(1)) if h1 else page, "item": url}]})
+    if page == "support.html":
+        qa = []
+        for item in re.findall(r'<div class="faq-item">(.*?)\n        </div>\n', out, re.S):
+            q = re.search(r'<button class="faq-question">(.*?)</button>', item, re.S)
+            a = (re.search(r'<div data-lang="' + re.escape(locale) + r'">(.*?)</div>', item, re.S)
+                 or re.search(r'<div data-lang="en">(.*?)</div>', item, re.S))
+            if q and a and _text(q.group(1)) and _text(a.group(1)):
+                qa.append({"@type": "Question", "name": _text(q.group(1)),
+                           "acceptedAnswer": {"@type": "Answer", "text": _text(a.group(1))}})
+        if qa:
+            graph.append({"@type": "FAQPage", "mainEntity": qa})
+    block = ('<script type="application/ld+json">'
+             + _j.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False)
+             + "</script>")
+    return out.replace("</head>", block + "\n</head>", 1)
 
 
 def sitemap(doc):
