@@ -41,6 +41,7 @@ BASE_URL = "https://dearnudges.com"
 
 PAGES = ["index.html", "about.html", "press.html",
          "privacy.html", "research.html", "support.html"]
+EXTRA_SITEMAP = ["terms.html"]
 
 # Assets that live at the site root. A page rendered into /fr/ has to reach
 # them with ../ , so every local reference is rewritten per locale.
@@ -465,6 +466,10 @@ def sitemap(doc):
             rows.append(f'    <xhtml:link rel="alternate" hreflang="x-default" '
                         f'href="{lang_url("en", page)}"/>')
             rows.append("  </url>")
+    # English-only pages that are not rendered per locale. terms.html was left
+    # out of the sitemap until 2026-11-20 because it never joined PAGES.
+    for page in EXTRA_SITEMAP:
+        rows.append(f"  <url>\n    <loc>{lang_url('en', page)}</loc>\n  </url>")
     rows.append("</urlset>")
     return "\n".join(rows) + "\n"
 
