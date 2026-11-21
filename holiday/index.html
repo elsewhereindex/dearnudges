@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Landing page for the Twelve Thirty Four holiday site's "Get the app"
+         button (2026-11-20). Linked through /go/ttf/, which the scan counter
+         counts. Campaign page, so kept out of search. -->
+    <meta name="robots" content="noindex">
+    <title>Dear for the holidays</title>
+    <meta name="description" content="Dear is a quiet iPhone and Android app for staying close to friends and family. One or two people a day, with a moment to text or call. Private, no accounts.">
+    <meta name="apple-itunes-app" content="app-id=6760280035">
+    <meta property="og:title" content="Dear for the holidays">
+    <meta property="og:description" content="Flowers for the holidays. A hello for the rest of the year.">
+    <meta property="og:image" content="https://dearnudges.com/app-icon.png">
+    <meta property="og:url" content="https://dearnudges.com/holiday/">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/png" href="/img/icon-200.png">
+    <link rel="apple-touch-icon" href="/img/icon-180.png">
+    <link rel="stylesheet" href="/fonts.css">
+    <link rel="stylesheet" href="/site.css">
+    <style>
+        :root {
+            --bg: #FAFAFD;
+            --ink: #2D2D2D;
+            --muted: #5E5A60;
+            --soft: #6E6A6F;
+            --accent: #6B8AD6;
+            --card: #FFFFFF;
+            --line: #E6E6EE;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #16161A;
+                --ink: #F2F2F5;
+                --muted: #C4C2C7;
+                --soft: #A6A3A9;
+                --accent: #8FA7E6;
+                --card: #212127;
+                --line: #2E2E36;
+            }
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Quicksand', -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--ink);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            padding: 0 16px;
+            -webkit-font-smoothing: antialiased;
+        }
+        .page { max-width: 440px; width: 100%; text-align: center; padding: 40px 0 56px; }
+        .brand { display: inline-flex; align-items: center; gap: 10px; margin-bottom: 28px; }
+        .brand img { width: 44px; height: 44px; border-radius: 10px; }
+        .wordmark {
+            font-family: 'Encode Sans Expanded', -apple-system, sans-serif;
+            font-weight: 900; font-size: 1.05rem; letter-spacing: 0.1em;
+            text-transform: uppercase; color: var(--accent);
+        }
+        h1 {
+            font-family: 'Inter', -apple-system, sans-serif;
+            font-weight: 700; font-size: 1.85rem; line-height: 1.2;
+            letter-spacing: -0.01em; margin-bottom: 14px; text-wrap: balance;
+        }
+        .lede { font-size: 1.02rem; line-height: 1.6; color: var(--muted); margin-bottom: 26px; }
+        .badges { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-bottom: 10px; }
+        .badges a { display: inline-block; transition: opacity 0.15s ease; }
+        .badges a:hover { opacity: 0.8; }
+        .badges img { height: 48px; width: auto; display: block; }
+        .free-note { font-size: 0.8rem; color: var(--soft); }
+        .points {
+            list-style: none; text-align: left; margin: 30px 0 8px;
+            background: var(--card); border: 1px solid var(--line);
+            border-radius: 18px; padding: 6px 20px;
+        }
+        .points li { padding: 14px 0; border-bottom: 1px solid var(--line); line-height: 1.5; font-size: 0.95rem; color: var(--muted); }
+        .points li:last-child { border-bottom: 0; }
+        .points strong { display: block; color: var(--ink); font-weight: 700; font-size: 1rem; margin-bottom: 2px; }
+        .closing { font-size: 0.95rem; color: var(--muted); line-height: 1.6; margin: 26px 0 18px; }
+        .footer-links { margin-top: 36px; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+        .footer-links a { font-size: 0.78rem; color: var(--soft); text-decoration: none; font-weight: 500; }
+        .copyright { font-size: 0.7rem; color: var(--soft); margin-top: 14px; }
+        @media (max-width: 480px) {
+            .page { padding-top: 28px; }
+            h1 { font-size: 1.6rem; }
+        }
+    </style>
+</head>
+<body>
+    <main class="page">
+        <div class="brand">
+            <picture>
+                <source srcset="/img/icon-200.webp" type="image/webp">
+                <img src="/img/icon-200.png" width="44" height="44" alt="">
+            </picture>
+            <span class="wordmark">Dear</span>
+        </div>
+
+        <h1>Flowers for the holidays. A hello for the rest of the year.</h1>
+
+        <p class="lede">Dear is a quiet app for staying close to friends and family. Each day it brings up one or two of your people, with a moment to text or call.</p>
+
+        <div class="badges">
+            <a href="https://apps.apple.com/app/id6760280035?ppid=e70049f8-5df6-40f0-bfa9-3d224d4d5444&amp;ct=ttf-holiday2026&amp;mt=8" aria-label="Download Dear on the App Store">
+                <img src="/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.elsewhere.dear&amp;referrer=utm_source%3Dtwelvethirtyfour%26utm_medium%3Dweb%26utm_campaign%3Dholiday2026" aria-label="Get Dear on Google Play">
+                <img src="/gplay-badge-en.png" alt="Get it on Google Play">
+            </a>
+        </div>
+        <p class="free-note">Free for up to 15 people. iPhone, iPad and Android.</p>
+
+        <div class="shots" role="group" aria-label="Screenshots">
+            <picture class="shot shot-side">
+                <source srcset="/img/shot-02.webp" type="image/webp">
+                <img src="/img/shot-02.png" width="555" height="1171" loading="lazy" decoding="async"
+                     alt="Your people in Dear, each with their own reach-out rhythm">
+            </picture>
+            <picture class="shot shot-hero">
+                <source srcset="/img/shot-01.webp" type="image/webp">
+                <img src="/img/shot-01.png" width="555" height="1171" decoding="async"
+                     alt="Dear's daily card, suggesting one person to reach out to today">
+            </picture>
+            <picture class="shot shot-side">
+                <source srcset="/img/shot-03.webp" type="image/webp">
+                <img src="/img/shot-03.png" width="555" height="1171" loading="lazy" decoding="async"
+                     alt="The Dear widget on an iPhone home screen">
+            </picture>
+        </div>
+        <p class="shots-caption">One card a day. Your people, not a feed.</p>
+
+        <ul class="points">
+            <li><strong>One or two names a day</strong>Not a to-do list. Just who might like to hear from you today.</li>
+            <li><strong>Text or call in a tap</strong>Dear opens your messages or phone. You say the rest.</li>
+            <li><strong>Your people stay on your phone</strong>No accounts, no ads. Names and contacts never leave your device.</li>
+        </ul>
+
+        <p class="closing">You already showed up for the holidays. Dear helps you keep in touch in January, and in June.</p>
+
+        <div class="badges">
+            <a href="https://apps.apple.com/app/id6760280035?ppid=e70049f8-5df6-40f0-bfa9-3d224d4d5444&amp;ct=ttf-holiday2026&amp;mt=8" aria-label="Download Dear on the App Store">
+                <img src="/app-store-badge.svg" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.elsewhere.dear&amp;referrer=utm_source%3Dtwelvethirtyfour%26utm_medium%3Dweb%26utm_campaign%3Dholiday2026" aria-label="Get Dear on Google Play">
+                <img src="/gplay-badge-en.png" alt="Get it on Google Play">
+            </a>
+        </div>
+
+        <div class="footer-links">
+            <a href="/">dearnudges.com</a>
+            <a href="/support.html">FAQ</a>
+            <a href="/privacy.html">Privacy</a>
+        </div>
+        <p class="copyright">&copy; 2026 Elsewhere Index LLC</p>
+    </main>
+</body>
+</html>
