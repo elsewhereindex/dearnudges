@@ -41,7 +41,7 @@ BASE_URL = "https://dearnudges.com"
 
 PAGES = ["index.html", "about.html", "press.html",
          "privacy.html", "research.html", "support.html"]
-EXTRA_SITEMAP = ["terms.html"]
+EXTRA_SITEMAP = ["terms.html", "letters/", "letters/friendship-across-distance.html", "letters/adams-and-jefferson.html"]
 
 # Assets that live at the site root. A page rendered into /fr/ has to reach
 # them with ../ , so every local reference is rewritten per locale.
@@ -446,6 +446,12 @@ def render(page, locale, doc, stats):
     #    language count does) is filled whichever locale supplied the sentence.
     out = fill_stats(out, locale, stats)
     out = jsonld(page, locale, out)
+    # Letters (/letters/, 2026-11-23) is English only, so only English pages
+    # link to it: a translated page must never point at text its reader can't read.
+    if locale == "en":
+        out = out.replace("</footer>", '    <p class="letters-link"><a href="letters/">Letters</a></p>\n    </footer>', 1)
+        out = re.sub(r'(<div class="footer-links">.*?)(\n\s*</div>)',
+                     r'\1\n            <a href="letters/">Letters</a>\2', out, count=1, flags=re.S)
     return out
 
 
