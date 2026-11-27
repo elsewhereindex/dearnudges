@@ -428,15 +428,18 @@ def render(page, locale, doc, stats):
     #    happens to contain the same word.
     nav = doc.get("nav", {})
     NAVMAP = [("nav_home", "Home"), ("nav_about", "About"), ("nav_research", "Research"),
-              ("nav_faq", "FAQ"), ("nav_privacy", "Privacy"), ("nav_press", "Press")]
+              ("nav_faq", "FAQ"), ("nav_privacy", "Privacy"), ("nav_press", "Press"),
+              ("nav_terms", "Terms")]
     for key, en in NAVMAP:
         word = nav.get(key, {}).get(locale, en)
         if word == en:
             continue
         # Bottom/top nav items: the label is the last text node in the anchor.
         out = re.sub(r'(</svg>\s*)' + en + r'(\s*</a>)', r'\g<1>' + word + r'\g<2>', out)
-        # Footer links: <a href="about.html">About</a>
-        out = re.sub(r'(<a href="[a-z]+\.html">)' + en + r'(</a>)', r'\g<1>' + word + r'\g<2>', out)
+        # Footer links: <a href="about.html">About</a>. The optional leading
+        # slash is for terms.html, which exists only at the site root (it is
+        # not a localized page), so locale pages must reach it as /terms.html.
+        out = re.sub(r'(<a href="/?[a-z]+\.html">)' + en + r'(</a>)', r'\g<1>' + word + r'\g<2>', out)
 
     # 6. Replace the JS switcher with rendered links, and drop its script.
     out = LANG_NAV.sub(lambda _m: switcher(locales, locale, page, names, ready, doc), out, count=1)

@@ -460,3 +460,11 @@ button:focus-visible {
     .shots .shot { filter: drop-shadow(0 12px 26px rgba(0, 0, 0, 0.55)); }
     .shots-caption { color: #9FA59F; }
 }
+
+/* Privacy and Terms links in the page footer. They inherit the footer's muted
+   text colour in both themes (in dark mode that is the p rule above, 7.4:1),
+   rather than the accent or a page's own `footer a` grey, which is too dark on
+   the dark ground. */
+.footer-legal { margin: 0 0 4px; }
+.footer-legal a { color: inherit !important; text-decoration: none; }
+.footer-legal a:hover { text-decoration: underline; }

@@ -281,11 +281,11 @@
             Kebijakan privasi
         </h1>
         <p class="updated">
-            Terakhir diperbarui September 2026
+            Terakhir diperbarui November 2026
         </p>
 
         <div class="short-version">
-            Teman-teman dan data kontakmu tidak pernah meninggalkan perangkatmu. Kami tidak punya akun dan tidak ada iklan. Kami memang mengumpulkan sedikit hitungan pemakaian anonim lewat TelemetryDeck, layanan analitik berorientasi privasi di Jerman, catatan pembelian anonim lewat RevenueCat, dan laporan galat anonim lewat Sentry, untuk memahami cara aplikasi dipakai, memulihkan pembelianmu, dan memperbaiki yang rusak. Kami tidak bisa mengenali kamu dari itu, dan nama serta detail kontak teman-temanmu tidak pernah termasuk.<br><br>
+            Teman-teman dan data kontakmu tidak pernah meninggalkan perangkatmu. Kami tidak punya akun dan tidak ada iklan. Kami memang mengumpulkan sedikit hitungan pemakaian anonim lewat TelemetryDeck, layanan analitik berorientasi privasi di Jerman, catatan pembelian anonim lewat RevenueCat, dan laporan crash dan galat anonim lewat Sentry, untuk memahami cara aplikasi dipakai, memulihkan pembelianmu, dan memperbaiki yang rusak. Kami tidak bisa mengenali kamu dari itu, dan nama serta detail kontak teman-temanmu tidak pernah termasuk.<br><br>
             Itu saja. Itulah kebijakan privasinya.
         </div>
 
@@ -361,7 +361,7 @@
         </h2>
 
         <p>
-            Dear tidak punya akun dan tidak ada iklan. Kami tidak memakai piksel pelacak atau kerangka periklanan. Kami tidak tahu siapa kamu, siapa teman-temanmu, atau pesan apa yang kamu kirim. Kami memang mengumpulkan hitungan pemakaian anonim lewat TelemetryDeck, catatan pembelian anonim lewat RevenueCat, dan laporan galat anonim lewat Sentry (lihat bagian di bawah). Selain itu, kami hanya tahu apa yang disediakan Apple dan Google dalam analitik agregat App Store dan Google Play, yang tidak memuat informasi yang mengidentifikasi pribadi dan dikendalikan oleh pengaturan perangkatmu.
+            Dear tidak punya akun dan tidak ada iklan. Kami tidak memakai piksel pelacak atau kerangka periklanan. Kami tidak tahu siapa kamu, siapa teman-temanmu, atau pesan apa yang kamu kirim. Kami memang mengumpulkan hitungan pemakaian anonim lewat TelemetryDeck, catatan pembelian anonim lewat RevenueCat, dan laporan crash dan galat anonim lewat Sentry (lihat bagian di bawah). Selain itu, kami hanya tahu apa yang disediakan Apple dan Google dalam analitik agregat App Store dan Google Play, yang tidak memuat informasi yang mengidentifikasi pribadi dan dikendalikan oleh pengaturan perangkatmu.
         </p>
 
         <h2 id="anonymous-analytics">
@@ -369,7 +369,7 @@
         </h2>
 
         <p>
-            Untuk memahami cara Dear dipakai supaya bisa kami perbaiki, kami mengumpulkan sedikit peristiwa anonim lewat TelemetryDeck, layanan analitik berorientasi privasi yang di-hosting di Jerman dan patuh GDPR. Kami hanya mencatat hitungan pemakaian fitur, tidak pernah siapa yang memakainya.
+            Untuk memahami cara Dear dipakai supaya bisa kami perbaiki, kami mengumpulkan sedikit peristiwa anonim lewat TelemetryDeck, layanan analitik berorientasi privasi yang di-hosting di Jerman dan patuh GDPR. Kami menghitung cara aplikasi dipakai, tidak pernah siapa yang memakainya. TelemetryDeck juga menghitung saat sebuah sesi dimulai, dan menambahkan detail teknis dasar ke setiap hitungan: model perangkat, versi sistem operasi, versi aplikasi, pengaturan bahasa dan wilayah, serta waktu pengirimannya.
         </p>
 
         <p><strong>Yang kami catat:</strong></p>
@@ -424,11 +424,19 @@
                 <li>Whether the app asked you to rate it, and whether it is running on a tablet, foldable, large screen or ChromeOS, so we know which layouts to support</li>
             </ul>
         </div><p>
-            <strong>Yang tidak pernah kami catat:</strong> namamu, nama atau informasi kontak teman-temanmu, pesan yang kamu kirim, jam berapa kamu membuka aplikasi, lokasimu, alamat IP-mu, atau pengenal perangkat apa pun yang bisa dikaitkan kembali denganmu.
+            <strong>Yang tidak pernah kami catat:</strong> namamu, nama atau informasi kontak teman-temanmu, pesan yang kamu kirim, lokasimu, alamat IP-mu, atau pengenal mentah perangkatmu.
         </p>
 
         <p>
-            Peristiwa ini bersifat pseudonim dan diagregasi. Kami tidak bisa mengenali kamu darinya. Karena tidak ada data pribadi yang diproses, kami tidak memerlukan permintaan persetujuan menurut GDPR. Kalau kamu tetap ingin menolak, kirim email ke support@dearnudges.com dan kami akan mencatat permintaanmu untuk rilis berikutnya.
+            Peristiwa ini bersifat pseudonim dan diagregasi. Kami tidak bisa mengenali kamu darinya. TelemetryDeck hanya menerima pengenal yang di-hash, yang lalu diberi salt dan di-hash lagi di servernya sendiri, dan tidak pernah nama, email, atau kontakmu.
+        </p>
+
+        <h2 id="analytics-choice">
+            Pilihanmu soal analitik
+        </h2>
+
+        <p>
+            Mulai Dear 1.2.18 di iPhone dan iPad serta Dear 1.3.18 di Android, Dear bertanya sekali, di dalam aplikasi, apakah boleh mengirim hitungan pemakaian anonim serta laporan crash dan galat. Pertanyaan ini bergantung pada pengaturan wilayah di perangkatmu, bukan pada lokasimu yang sebenarnya: Dear bertanya jika pengaturan itu berisi negara di UE atau EEA, Britania Raya, atau negara di beberapa wilayah lain. Di Android, wilayahnya adalah negara yang dipilih di pengaturan bahasamu, dan Dear juga bertanya jika kartu SIM atau jaringan selulermu berasal dari salah satu negara tersebut. Hitungan pemakaian dan laporan tidak pernah mencakup namamu, teman-temanmu, atau pesanmu. Tidak ada yang dikirim kecuali kamu bilang ya. Di mana pun kamu berada, kamu bisa mengubahnya kapan saja di Pengaturan di aplikasi. Pembelian tetap berjalan apa pun pilihanmu: Dear tetap memakai RevenueCat, karena itu diperlukan untuk membuka dan memulihkan yang kamu beli.
         </p>
 
         <h2 id="delete-data">
@@ -436,7 +444,7 @@
         </h2>
 
         <p>
-            Dear tidak punya akun, dan tidak ada server yang menyimpan informasi pribadimu. Teman-temanmu, pengingatmu, dan pesanmu hanya ada di perangkatmu. Untuk menghapus semua yang Dear ketahui tentang kamu:
+            Dear tidak punya akun, dan kami tidak menyimpan nama, email, kontak, atau pesanmu di server mana pun. Teman-temanmu, pengingatmu, dan pesanmu hanya ada di perangkatmu. Untuk menghapus semua yang Dear ketahui tentang kamu:
         </p>
 
         <div data-lang="en">
@@ -448,9 +456,9 @@
         </div>
         <div data-lang="fr">
             <ol>
-                <li>Ouvrez l'app Dear</li>
-                <li>Allez dans <strong>R&eacute;glages &rarr; Supprimer toutes mes donn&eacute;es</strong></li>
-                <li>Confirmez. Tous les amis, rappels et pr&eacute;f&eacute;rences sont effac&eacute;s de votre appareil imm&eacute;diatement. D&eacute;sinstaller l'app ensuite supprime le reste.</li>
+                <li>Ouvre l'app Dear</li>
+                <li>Va dans <strong>R&eacute;glages &rarr; Supprimer toutes mes donn&eacute;es</strong></li>
+                <li>Confirme. Tous les amis, rappels et pr&eacute;f&eacute;rences sont effac&eacute;s de ton appareil imm&eacute;diatement. D&eacute;sinstaller l'app ensuite supprime le reste.</li>
             </ol>
         </div>
         <div data-lang="es">
@@ -469,7 +477,7 @@
                 <li>Confirm. All friends, nudges, and preferences are wiped from your device immediately. Uninstalling the app afterward removes everything else.</li>
             </ol>
         </div><p>
-            Kami tidak punya server berisi informasi pribadimu. Kami tidak pernah mengumpulkannya, jadi tidak ada yang perlu dihapus di sisi kami. Satu-satunya data yang keluar dari perangkatmu adalah analitik anonim yang diagregasi (lihat <a href="#anonymous-analytics">Analitik anonim</a>) dan catatan pembelian anonim, keduanya tidak bisa dikaitkan kembali denganmu: tidak ada catatan per pengguna untuk dihapus.
+            Kami tidak punya server berisi informasi pribadimu. Satu-satunya data yang keluar dari perangkatmu adalah hitungan pemakaian anonim (lihat <a href="#anonymous-analytics">Analitik anonim</a>), laporan crash dan galat, serta catatan pembelian, dan tidak satu pun memuat nama, email, atau kontakmu. RevenueCat, yang menangani pembelian, memang menyimpan catatan untuk setiap orang yang membeli sesuatu, supaya pembelian bisa dipulihkan. Catatan itu terkait dengan ID pengguna aplikasi yang anonim, bukan dengan nama atau email.
         </p>
 
         <p>
@@ -493,7 +501,7 @@
         </h2>
 
         <p>
-            Aplikasi Dear memakai empat layanan pihak ketiga. Apple StoreKit dan Google Play Billing memproses pembelian dalam aplikasi. RevenueCat mengelola hak akses pembelian dan menerima catatan transaksi anonim yang dijelaskan di atas. TelemetryDeck (analitik pemakaian anonim) menerima hitungan peristiwa anonim yang dijelaskan di atas. Sentry menerima laporan galat supaya kami bisa memperbaiki yang rusak; identitas pengguna dihapus dari tiap laporan sebelum dikirim, dan tidak ada informasi pribadi yang disertakan. Tidak ada jaringan iklan, pustaka pelacak, atau pialang data yang dipakai.
+            Aplikasi Dear memakai lima layanan pihak ketiga. Apple StoreKit dan Google Play Billing memproses pembelian dalam aplikasi. RevenueCat mengelola hak akses pembelian dan menerima catatan transaksi anonim yang dijelaskan di atas. TelemetryDeck (analitik pemakaian anonim) menerima hitungan peristiwa anonim yang dijelaskan di atas. Sentry menerima laporan crash dan galat supaya kami bisa memperbaiki yang rusak; identitas pengguna dihapus dari tiap laporan sebelum dikirim, dan tidak disertakan apa pun yang bisa mengenali kamu. Sentry juga menerima laporan galat yang berhasil diatasi sendiri oleh aplikasi, misalnya pembelian yang gagal. RevenueCat, TelemetryDeck, dan Sentry masing-masing memakai pengenal pseudonim, berupa kode acak atau kode hash, bukan nama, email, kontak, atau lokasimu. Tidak ada jaringan iklan, pustaka pelacak, atau pialang data yang dipakai.
         </p>
 
         <h2>
@@ -522,7 +530,7 @@
         </h2>
 
         <p>
-            Dear tidak dengan sengaja mengumpulkan informasi pribadi apa pun dari anak di bawah 13 tahun. Hitungan pemakaian anonim yang kami kumpulkan lewat TelemetryDeck tidak memuat data pribadi dan tidak bisa mengidentifikasi pengguna mana pun, termasuk anak-anak.
+            Dear tidak dengan sengaja mengumpulkan informasi pribadi apa pun dari anak di bawah 13 tahun. Hitungan pemakaian anonim yang kami kumpulkan lewat TelemetryDeck membawa pengenal yang di-hash, tetapi tanpa nama, detail kontak, atau lokasi, dan kami tidak bisa mengidentifikasi pengguna mana pun darinya, termasuk anak-anak.
         </p>
 
         <h2>
@@ -595,8 +603,9 @@
         </p>
         <footer>
             <em>
-                Dear: Stay in Touch dibuat oleh Elsewhere Index LLC. Didistribusikan di Apple App Store dan Google Play dengan pembelian dalam aplikasi opsional, tanpa iklan, tanpa akun, dan tanpa pengumpulan data pribadi.
+                Dear: Stay in Touch dibuat oleh Elsewhere Index LLC. Didistribusikan di Apple App Store dan Google Play dengan pembelian dalam aplikasi opsional, tanpa iklan dan tanpa akun. Nama, email, kontak, dan pesanmu tidak pernah keluar dari perangkatmu.
             </em>
+            <p class="footer-legal"><a href="privacy.html">Privasi</a> &middot; <a href="/terms.html">Ketentuan</a></p>
         </footer>
     </div>
 

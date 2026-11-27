@@ -281,11 +281,11 @@
             隱私權政策
         </h1>
         <p class="updated">
-            最後更新：2026 年 9 月
+            最後更新：2026 年 11 月
         </p>
 
         <div class="short-version">
-            你的朋友和聯絡資訊永遠不會離開你的裝置。我們沒有帳號，也沒有廣告。為了了解 App 如何被使用、回復你的購買項目以及修復問題，我們確實會透過位於德國、注重隱私的分析服務 TelemetryDeck 蒐集少量匿名使用次數，透過 RevenueCat 蒐集匿名購買紀錄，透過 Sentry 蒐集匿名當機報告。我們無法藉此辨識你，你朋友的姓名和聯絡方式也絕不會包含在內。<br><br>
+            你的朋友和聯絡資訊永遠不會離開你的裝置。我們沒有帳號，也沒有廣告。為了了解 App 如何被使用、回復你的購買項目以及修復問題，我們確實會透過位於德國、注重隱私的分析服務 TelemetryDeck 蒐集少量匿名使用次數，透過 RevenueCat 蒐集匿名購買紀錄，透過 Sentry 蒐集匿名當機和錯誤報告。我們無法藉此辨識你，你朋友的姓名和聯絡方式也絕不會包含在內。<br><br>
             就這些。這就是隱私權政策。
         </div>
 
@@ -361,7 +361,7 @@
         </h2>
 
         <p>
-            Dear 沒有帳號，也沒有廣告。我們不使用追蹤像素或廣告框架。我們不知道你是誰、你的朋友是誰，也不知道你傳了什麼訊息。我們確實會透過 TelemetryDeck 蒐集匿名使用次數，透過 RevenueCat 蒐集匿名購買紀錄，透過 Sentry 蒐集匿名當機報告（見下列各節）。除此之外，我們只知道 Apple 和 Google 在 App Store 與 Google Play 彙總分析中提供的資訊，其中不含可辨識個人的內容，並由你的裝置設定控制。
+            Dear 沒有帳號，也沒有廣告。我們不使用追蹤像素或廣告框架。我們不知道你是誰、你的朋友是誰，也不知道你傳了什麼訊息。我們確實會透過 TelemetryDeck 蒐集匿名使用次數，透過 RevenueCat 蒐集匿名購買紀錄，透過 Sentry 蒐集匿名當機和錯誤報告（見下列各節）。除此之外，我們只知道 Apple 和 Google 在 App Store 與 Google Play 彙總分析中提供的資訊，其中不含可辨識個人的內容，並由你的裝置設定控制。
         </p>
 
         <h2 id="anonymous-analytics">
@@ -369,7 +369,7 @@
         </h2>
 
         <p>
-            為了解 Dear 的使用情形並加以改進，我們透過 TelemetryDeck 蒐集少量匿名事件。該服務注重隱私，代管於德國並符合 GDPR。我們只記錄功能的使用次數，絕不記錄是誰使用的。
+            為了解 Dear 的使用情形並加以改進，我們透過 TelemetryDeck 蒐集少量匿名事件。該服務注重隱私，代管於德國並符合 GDPR。我們統計 App 的使用情形，絕不記錄是誰在使用。TelemetryDeck 也會在你每次開始使用 App 時計數一次，並為每筆計數附加一些基本資訊：裝置型號、系統版本、App 版本、語言和地區設定，以及傳送時間。
         </p>
 
         <p><strong>我們記錄的內容：</strong></p>
@@ -424,11 +424,19 @@
                 <li>Whether the app asked you to rate it, and whether it is running on a tablet, foldable, large screen or ChromeOS, so we know which layouts to support</li>
             </ul>
         </div><p>
-            <strong>我們絕不記錄的內容：</strong>你的姓名、你朋友的姓名或聯絡方式、你傳送的訊息、你打開 App 的時間、你的位置、你的 IP 位址，以及任何能追溯到你的裝置識別碼。
+            <strong>我們絕不記錄的內容：</strong>你的姓名、你朋友的姓名或聯絡方式、你傳送的訊息、你的位置、你的 IP 位址，以及未經處理的原始裝置識別碼。
         </p>
 
         <p>
-            這些事件經過假名化並彙總處理。我們無法藉此辨識你。由於不處理個人資料，我們無需依 GDPR 跳出同意提示。如果你仍希望退出，請寄信至 support@dearnudges.com，我們會在下個版本中記錄你的要求。
+            這些事件經過假名化並彙總處理。我們無法藉此辨識你。TelemetryDeck 收到的只是經過雜湊處理的識別碼，並會在其自己的伺服器上加鹽後再次雜湊，絕不會收到你的姓名、電子郵件或聯絡人。
+        </p>
+
+        <h2 id="analytics-choice">
+            你對分析的選擇
+        </h2>
+
+        <p>
+            從 iPhone 和 iPad 版 Dear 1.2.18 及 Android 版 Dear 1.3.18 起，Dear 會在 App 內詢問你一次，是否可以傳送匿名使用次數以及當機和錯誤報告。是否詢問取決於你裝置的地區設定，而不是你所在的位置：當該設定為歐盟或歐洲經濟區國家、英國，或其他部分地區的國家時，Dear 就會詢問。在 Android 上，地區是你在語言設定中選擇的國家；如果你的 SIM 卡或行動網路屬於上述國家之一，Dear 也會詢問。使用次數和報告中絕不會包含你的姓名、你的朋友或你的訊息。除非你同意，否則不會傳送任何內容。無論你身在何處，都可以隨時在 App 的「設定」中更改。無論你怎麼選，購買都能正常使用：Dear 仍會使用 RevenueCat，因為解鎖和回復你購買的內容需要它。
         </p>
 
         <h2 id="delete-data">
@@ -436,7 +444,7 @@
         </h2>
 
         <p>
-            Dear 沒有帳號，也沒有任何伺服器保存你的個人資訊。你的朋友、提醒和訊息只存在於你的裝置上。要刪除 Dear 所知道關於你的一切：
+            Dear 沒有帳號，我們也不會在任何伺服器上保存你的姓名、電子郵件、聯絡人或訊息。你的朋友、提醒和訊息只存在於你的裝置上。要刪除 Dear 所知道關於你的一切：
         </p>
 
         <div data-lang="en">
@@ -448,9 +456,9 @@
         </div>
         <div data-lang="fr">
             <ol>
-                <li>Ouvrez l'app Dear</li>
-                <li>Allez dans <strong>R&eacute;glages &rarr; Supprimer toutes mes donn&eacute;es</strong></li>
-                <li>Confirmez. Tous les amis, rappels et pr&eacute;f&eacute;rences sont effac&eacute;s de votre appareil imm&eacute;diatement. D&eacute;sinstaller l'app ensuite supprime le reste.</li>
+                <li>Ouvre l'app Dear</li>
+                <li>Va dans <strong>R&eacute;glages &rarr; Supprimer toutes mes donn&eacute;es</strong></li>
+                <li>Confirme. Tous les amis, rappels et pr&eacute;f&eacute;rences sont effac&eacute;s de ton appareil imm&eacute;diatement. D&eacute;sinstaller l'app ensuite supprime le reste.</li>
             </ol>
         </div>
         <div data-lang="es">
@@ -469,7 +477,7 @@
                 <li>Confirm. All friends, nudges, and preferences are wiped from your device immediately. Uninstalling the app afterward removes everything else.</li>
             </ol>
         </div><p>
-            我們沒有存放你個人資訊的伺服器。我們從未蒐集過，所以我們這邊沒有可刪除的內容。離開你裝置的只有匿名彙總的分析資料（見<a href="#anonymous-analytics">匿名分析</a>）和匿名購買紀錄，兩者都無法追溯到你：不存在依使用者區分的紀錄可供刪除。
+            我們沒有存放你個人資訊的伺服器。離開你裝置的只有匿名使用次數（見<a href="#anonymous-analytics">匿名分析</a>）、當機和錯誤報告，以及購買紀錄，其中都不含你的姓名、電子郵件或聯絡人。不過，處理購買的 RevenueCat 會為每位購買者保存一筆紀錄，以便回復購買項目。這筆紀錄連結的是一個匿名的 App 使用者 ID，而不是姓名或電子郵件。
         </p>
 
         <p>
@@ -493,7 +501,7 @@
         </h2>
 
         <p>
-            Dear 使用四項第三方服務。Apple StoreKit 和 Google Play Billing 處理 App 內購買。RevenueCat 管理購買權限，並接收上述匿名交易紀錄。TelemetryDeck（匿名使用分析）接收上述匿名事件次數。Sentry 接收當機報告，以便我們修復問題；使用者身分資訊在傳送前已從每份報告中移除，不附帶任何個人資訊。不使用任何廣告聯播網、追蹤程式庫或資料仲介商。
+            Dear 使用五項第三方服務。Apple StoreKit 和 Google Play Billing 處理 App 內購買。RevenueCat 管理購買權限，並接收上述匿名交易紀錄。TelemetryDeck（匿名使用分析）接收上述匿名事件次數。Sentry 接收當機和錯誤報告，以便我們修復問題；使用者身分資訊在傳送前已從每份報告中移除，不附帶任何能辨識你的資訊。Sentry 也會接收 App 自行復原的錯誤報告，例如購買沒有成功。RevenueCat、TelemetryDeck 和 Sentry 使用的都是假名識別碼，也就是隨機或經過雜湊處理的代碼，絕不是你的姓名、電子郵件、聯絡人或位置。不使用任何廣告聯播網、追蹤程式庫或資料仲介商。
         </p>
 
         <h2>
@@ -522,7 +530,7 @@
         </h2>
 
         <p>
-            Dear 不會有意蒐集 13 歲以下兒童的任何個人資訊。我們透過 TelemetryDeck 蒐集的匿名使用次數不含個人資料，無法辨識包括兒童在內的任何使用者。
+            Dear 不會有意蒐集 13 歲以下兒童的任何個人資訊。我們透過 TelemetryDeck 蒐集的匿名使用次數帶有經過雜湊處理的識別碼，但不含姓名、聯絡方式或位置，我們無法藉此辨識包括兒童在內的任何使用者。
         </p>
 
         <h2>
@@ -595,8 +603,9 @@
         </p>
         <footer>
             <em>
-                Dear: Stay in Touch 由 Elsewhere Index LLC 製作。在 Apple App Store 和 Google Play 發行，含選用的 App 內購買，無廣告、無帳號、不蒐集個人資料。
+                Dear: Stay in Touch 由 Elsewhere Index LLC 製作。在 Apple App Store 和 Google Play 發行，含選用的 App 內購買，無廣告、無帳號。你的姓名、電子郵件、聯絡人和訊息永遠不會離開你的裝置。
             </em>
+            <p class="footer-legal"><a href="privacy.html">隱私</a> &middot; <a href="/terms.html">條款</a></p>
         </footer>
     </div>
 

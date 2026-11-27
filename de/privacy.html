@@ -281,11 +281,11 @@
             Datenschutzerkl&auml;rung
         </h1>
         <p class="updated">
-            Zuletzt aktualisiert: September 2026
+            Zuletzt aktualisiert: November 2026
         </p>
 
         <div class="short-version">
-            Deine Freunde und Kontaktdaten verlassen dein Ger&auml;t nie. Wir haben keine Konten und keine Werbung. Wir erfassen eine kleine Menge anonymer Nutzungsz&auml;hlungen &uuml;ber TelemetryDeck, einen datenschutzorientierten Analysedienst in Deutschland, anonyme Kaufbelege &uuml;ber RevenueCat und anonyme Fehlerberichte &uuml;ber Sentry, um zu verstehen, wie die App genutzt wird, deine K&auml;ufe wiederherzustellen und zu reparieren, was kaputtgeht. Wir k&ouml;nnen dich daraus nicht identifizieren, und die Namen und Kontaktdaten deiner Freunde sind nie enthalten.<br><br>
+            Deine Freunde und Kontaktdaten verlassen dein Ger&auml;t nie. Wir haben keine Konten und keine Werbung. Wir erfassen eine kleine Menge anonymer Nutzungsz&auml;hlungen &uuml;ber TelemetryDeck, einen datenschutzorientierten Analysedienst in Deutschland, anonyme Kaufbelege &uuml;ber RevenueCat und anonyme Absturz- und Fehlerberichte &uuml;ber Sentry, um zu verstehen, wie die App genutzt wird, deine K&auml;ufe wiederherzustellen und zu reparieren, was kaputtgeht. Wir k&ouml;nnen dich daraus nicht identifizieren, und die Namen und Kontaktdaten deiner Freunde sind nie enthalten.<br><br>
             Das ist alles. Das ist die Datenschutzerkl&auml;rung.
         </div>
 
@@ -361,7 +361,7 @@
         </h2>
 
         <p>
-            Dear hat keine Konten und keine Werbung. Wir verwenden keine Tracking-Pixel und keine Werbe-Frameworks. Wir wissen nicht, wer du bist, wer deine Freunde sind oder welche Nachrichten du sendest. Wir erfassen anonyme Nutzungsz&auml;hlungen &uuml;ber TelemetryDeck, anonyme Kaufbelege &uuml;ber RevenueCat und anonyme Fehlerberichte &uuml;ber Sentry (siehe die Abschnitte unten). Dar&uuml;ber hinaus wissen wir nur, was Apple und Google in aggregierten App-Store- und Google-Play-Statistiken bereitstellen, die keine personenbezogenen Daten enthalten und von deinen Ger&auml;teeinstellungen gesteuert werden.
+            Dear hat keine Konten und keine Werbung. Wir verwenden keine Tracking-Pixel und keine Werbe-Frameworks. Wir wissen nicht, wer du bist, wer deine Freunde sind oder welche Nachrichten du sendest. Wir erfassen anonyme Nutzungsz&auml;hlungen &uuml;ber TelemetryDeck, anonyme Kaufbelege &uuml;ber RevenueCat und anonyme Absturz- und Fehlerberichte &uuml;ber Sentry (siehe die Abschnitte unten). Dar&uuml;ber hinaus wissen wir nur, was Apple und Google in aggregierten App-Store- und Google-Play-Statistiken bereitstellen, die keine personenbezogenen Daten enthalten und von deinen Ger&auml;teeinstellungen gesteuert werden.
         </p>
 
         <h2 id="anonymous-analytics">
@@ -369,7 +369,7 @@
         </h2>
 
         <p>
-            Um zu verstehen, wie Dear genutzt wird und es verbessern zu k&ouml;nnen, erfassen wir eine kleine Menge anonymer Ereignisse &uuml;ber TelemetryDeck, einen datenschutzorientierten Analysedienst mit Hosting in Deutschland, der die DSGVO erf&uuml;llt. Wir z&auml;hlen nur, wie oft Funktionen genutzt werden, nie von wem.
+            Um zu verstehen, wie Dear genutzt wird und es verbessern zu k&ouml;nnen, erfassen wir eine kleine Menge anonymer Ereignisse &uuml;ber TelemetryDeck, einen datenschutzorientierten Analysedienst mit Hosting in Deutschland, der die DSGVO erf&uuml;llt. Wir z&auml;hlen, wie die App genutzt wird, nie von wem. TelemetryDeck z&auml;hlt au&szlig;erdem, wann eine Sitzung beginnt, und f&uuml;gt jeder Z&auml;hlung einige technische Grunddaten hinzu: Ger&auml;temodell, Version des Betriebssystems, App-Version, Sprach- und Regionseinstellungen sowie den Zeitpunkt des Sendens.
         </p>
 
         <p><strong>Was wir erfassen:</strong></p>
@@ -424,11 +424,19 @@
                 <li>Whether the app asked you to rate it, and whether it is running on a tablet, foldable, large screen or ChromeOS, so we know which layouts to support</li>
             </ul>
         </div><p>
-            <strong>Was wir nie erfassen:</strong> deinen Namen, die Namen oder Kontaktdaten deiner Freunde, welche Nachrichten du sendest, die Tageszeit, zu der du die App ge&ouml;ffnet hast, deinen Standort, deine IP-Adresse oder irgendeine Ger&auml;tekennung, die sich auf dich zur&uuml;ckf&uuml;hren lie&szlig;e.
+            <strong>Was wir nie erfassen:</strong> deinen Namen, die Namen oder Kontaktdaten deiner Freunde, welche Nachrichten du sendest, deinen Standort, deine IP-Adresse oder die unver&auml;nderte Kennung deines Ger&auml;ts.
         </p>
 
         <p>
-            Diese Ereignisse sind pseudonym und aggregiert. Wir k&ouml;nnen dich daraus nicht identifizieren. Da keine personenbezogenen Daten verarbeitet werden, ben&ouml;tigen wir nach der DSGVO keine Einwilligungsabfrage. Wenn du dennoch widersprechen m&ouml;chtest, schreib uns an support@dearnudges.com und wir vermerken deinen Wunsch f&uuml;r die n&auml;chste Version.
+            Diese Ereignisse sind pseudonym und aggregiert. Wir k&ouml;nnen dich daraus nicht identifizieren. TelemetryDeck erh&auml;lt nur eine gehashte Kennung, die es auf seinen eigenen Servern mit einem Salt versieht und erneut hasht, und nie deinen Namen, deine E-Mail-Adresse oder deine Kontakte.
+        </p>
+
+        <h2 id="analytics-choice">
+            Deine Entscheidung zur Analyse
+        </h2>
+
+        <p>
+            Ab Dear 1.2.18 auf iPhone und iPad und Dear 1.3.18 auf Android fragt Dear dich einmal in der App, ob anonyme Nutzungsz&auml;hlungen sowie Absturz- und Fehlerberichte gesendet werden d&uuml;rfen. Ob Dear fragt, h&auml;ngt von der Regionseinstellung deines Ger&auml;ts ab, nicht davon, wo du dich gerade befindest: Dear fragt, wenn dort ein Land der EU oder des EWR, das Vereinigte K&ouml;nigreich oder ein Land in einigen anderen Regionen eingestellt ist. Unter Android ist das das Land in deiner Spracheinstellung, und Dear fragt auch, wenn deine SIM-Karte oder dein Mobilfunknetz zu einem dieser L&auml;nder geh&ouml;rt. Nutzungsz&auml;hlungen und Berichte enthalten nie deinen Namen, deine Freunde oder deine Nachrichten. Ohne dein Ja wird nichts gesendet. Egal wo du bist, du kannst das jederzeit in den Einstellungen der App &auml;ndern. K&auml;ufe funktionieren in jedem Fall: Dear nutzt weiterhin RevenueCat, weil es n&ouml;tig ist, um Gekauftes freizuschalten und wiederherzustellen.
         </p>
 
         <h2 id="delete-data">
@@ -436,7 +444,7 @@
         </h2>
 
         <p>
-            Dear hat keine Konten, und kein Server h&auml;lt deine pers&ouml;nlichen Daten. Deine Freunde, deine Erinnerungen und deine Nachrichten liegen nur auf deinem Ger&auml;t. So l&ouml;schst du alles, was Dear &uuml;ber dich wei&szlig;:
+            Dear hat keine Konten, und wir speichern deinen Namen, deine E-Mail-Adresse, deine Kontakte oder deine Nachrichten auf keinem Server. Deine Freunde, deine Erinnerungen und deine Nachrichten liegen nur auf deinem Ger&auml;t. So l&ouml;schst du alles, was Dear &uuml;ber dich wei&szlig;:
         </p>
 
         <div data-lang="en">
@@ -448,9 +456,9 @@
         </div>
         <div data-lang="fr">
             <ol>
-                <li>Ouvrez l'app Dear</li>
-                <li>Allez dans <strong>R&eacute;glages &rarr; Supprimer toutes mes donn&eacute;es</strong></li>
-                <li>Confirmez. Tous les amis, rappels et pr&eacute;f&eacute;rences sont effac&eacute;s de votre appareil imm&eacute;diatement. D&eacute;sinstaller l'app ensuite supprime le reste.</li>
+                <li>Ouvre l'app Dear</li>
+                <li>Va dans <strong>R&eacute;glages &rarr; Supprimer toutes mes donn&eacute;es</strong></li>
+                <li>Confirme. Tous les amis, rappels et pr&eacute;f&eacute;rences sont effac&eacute;s de ton appareil imm&eacute;diatement. D&eacute;sinstaller l'app ensuite supprime le reste.</li>
             </ol>
         </div>
         <div data-lang="es">
@@ -469,7 +477,7 @@
                 <li>Confirm. All friends, nudges, and preferences are wiped from your device immediately. Uninstalling the app afterward removes everything else.</li>
             </ol>
         </div><p>
-            Wir haben keinen Server mit deinen pers&ouml;nlichen Daten darauf. Wir haben sie nie erhoben, also gibt es auf unserer Seite nichts zu l&ouml;schen. Die einzigen Daten, die dein Ger&auml;t je verlassen, sind anonyme, aggregierte Statistiken (siehe <a href="#anonymous-analytics">Anonyme Analyse</a>) und anonyme Kaufbelege, von denen sich keine auf dich zur&uuml;ckf&uuml;hren lassen: Es gibt keinen nutzerbezogenen Datensatz zum L&ouml;schen.
+            Wir haben keinen Server mit deinen pers&ouml;nlichen Daten darauf. Die einzigen Daten, die dein Ger&auml;t verlassen, sind anonyme Nutzungsz&auml;hlungen (siehe <a href="#anonymous-analytics">Anonyme Analyse</a>), Absturz- und Fehlerberichte sowie Kaufbelege, und keine davon enth&auml;lt deinen Namen, deine E-Mail-Adresse oder deine Kontakte. RevenueCat, das die K&auml;ufe verwaltet, speichert allerdings f&uuml;r jede Person, die etwas kauft, einen Datensatz, damit K&auml;ufe wiederhergestellt werden k&ouml;nnen. Dieser Datensatz ist mit einer anonymen App-Nutzer-ID verkn&uuml;pft, nicht mit einem Namen oder einer E-Mail-Adresse.
         </p>
 
         <p>
@@ -493,7 +501,7 @@
         </h2>
 
         <p>
-            Die Dear-App nutzt vier Dienste von Drittanbietern. Apple StoreKit und Google Play Billing wickeln In-App-K&auml;ufe ab. RevenueCat verwaltet Kaufberechtigungen und erh&auml;lt die oben beschriebenen anonymen Transaktionsdaten. TelemetryDeck (anonyme Nutzungsanalyse) erh&auml;lt die oben beschriebenen anonymen Ereignisz&auml;hlungen. Sentry erh&auml;lt Fehlerberichte, damit wir reparieren k&ouml;nnen, was kaputtgeht; die Nutzeridentit&auml;t wird aus jedem Bericht entfernt, bevor er gesendet wird, und es werden keine pers&ouml;nlichen Daten angeh&auml;ngt. Es werden keine Werbenetzwerke, Tracking-Bibliotheken oder Datenh&auml;ndler eingesetzt.
+            Die Dear-App nutzt f&uuml;nf Dienste von Drittanbietern. Apple StoreKit und Google Play Billing wickeln In-App-K&auml;ufe ab. RevenueCat verwaltet Kaufberechtigungen und erh&auml;lt die oben beschriebenen anonymen Transaktionsdaten. TelemetryDeck (anonyme Nutzungsanalyse) erh&auml;lt die oben beschriebenen anonymen Ereignisz&auml;hlungen. Sentry erh&auml;lt Absturz- und Fehlerberichte, damit wir reparieren k&ouml;nnen, was kaputtgeht; die Nutzeridentit&auml;t wird aus jedem Bericht entfernt, bevor er gesendet wird, und es wird nichts angeh&auml;ngt, was dich identifiziert. Sentry erh&auml;lt au&szlig;erdem Berichte &uuml;ber Fehler, von denen sich die App selbst erholt, etwa einen fehlgeschlagenen Kauf. RevenueCat, TelemetryDeck und Sentry arbeiten jeweils mit einer pseudonymen Kennung, einem zuf&auml;lligen oder gehashten Code, nie mit deinem Namen, deiner E-Mail-Adresse, deinen Kontakten oder deinem Standort. Es werden keine Werbenetzwerke, Tracking-Bibliotheken oder Datenh&auml;ndler eingesetzt.
         </p>
 
         <h2>
@@ -522,7 +530,7 @@
         </h2>
 
         <p>
-            Dear erhebt wissentlich keine pers&ouml;nlichen Daten von Kindern unter 13 Jahren. Die anonymen Nutzungsz&auml;hlungen, die wir &uuml;ber TelemetryDeck erfassen, enthalten keine personenbezogenen Daten und k&ouml;nnen keine einzelne Person identifizieren, auch keine Kinder.
+            Dear erhebt wissentlich keine pers&ouml;nlichen Daten von Kindern unter 13 Jahren. Die anonymen Nutzungsz&auml;hlungen, die wir &uuml;ber TelemetryDeck erfassen, tragen eine gehashte Kennung, aber keine Namen, Kontaktdaten oder Standorte, und wir k&ouml;nnen daraus keine einzelne Person identifizieren, auch keine Kinder.
         </p>
 
         <h2>
@@ -595,8 +603,9 @@
         </p>
         <footer>
             <em>
-                Dear: Stay in Touch wird von Elsewhere Index LLC entwickelt. Vertrieben &uuml;ber den Apple App Store und Google Play mit optionalen In-App-K&auml;ufen, ohne Werbung, ohne Konten und ohne Erhebung pers&ouml;nlicher Daten.
+                Dear: Stay in Touch wird von Elsewhere Index LLC entwickelt. Vertrieben &uuml;ber den Apple App Store und Google Play mit optionalen In-App-K&auml;ufen, ohne Werbung und ohne Konten. Dein Name, deine E-Mail-Adresse, deine Kontakte und deine Nachrichten verlassen nie dein Ger&auml;t.
             </em>
+            <p class="footer-legal"><a href="privacy.html">Datenschutz</a> &middot; <a href="/terms.html">Nutzungsbedingungen</a></p>
         </footer>
     </div>
 
