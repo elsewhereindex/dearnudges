@@ -40,3 +40,4 @@ go/c10/index.html
 go/cafe.js
 go/tt/index.html
 go/pin/index.html
+go/ttf/index.html

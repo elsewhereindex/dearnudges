@@ -6510,4 +6510,16 @@
     <xhtml:link rel="alternate" hreflang="sw" href="https://dearnudges.com/sw/support.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dearnudges.com/support.html"/>
   </url>
+  <url>
+    <loc>https://dearnudges.com/terms.html</loc>
+  </url>
+  <url>
+    <loc>https://dearnudges.com/letters/</loc>
+  </url>
+  <url>
+    <loc>https://dearnudges.com/letters/friendship-across-distance.html</loc>
+  </url>
+  <url>
+    <loc>https://dearnudges.com/letters/adams-and-jefferson.html</loc>
+  </url>
 </urlset>
